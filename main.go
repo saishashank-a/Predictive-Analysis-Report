@@ -1,14 +1,15 @@
 package main
 
 import (
+	"bufio"
 	"bytes"
-	"encoding/csv"
 	"encoding/json"
 	"fmt"
 	"log"
 	"net/http"
 	"os"
-	"strconv"
+	"regexp"
+	"strings"
 	"time"
 
 	"github.com/gofiber/fiber/v2"
@@ -55,7 +56,7 @@ var anomalies []Anomaly
 // ========================================
 
 const (
-	CSVFile       = "anomaly_report.csv"
+	LogFilePath   = "esx-SGRL-ESX01-2026-01-10--09.39-2102690/var/run/log/hostd.log"
 	Port          = ":3000"
 	OllamaURL     = "http://localhost:11434/api/generate"
 	OllamaModel   = "llama3.2"
@@ -67,7 +68,7 @@ const (
 // ========================================
 
 func main() {
-	// 1. Data Ingestion: Load CSV into memory on startup
+	// 1. Data Ingestion: Load Logs into memory on startup
 	loadAnomalies()
 
 	// 2. Setup Fiber Server
@@ -105,7 +106,7 @@ func main() {
 	// ========================================
 
 	log.Printf("🚀 AIOps Dashboard running at http://localhost%s", Port)
-	log.Printf("📊 Loaded %d anomalies from %s", len(anomalies), CSVFile)
+	log.Printf("📊 Loaded %d log entries from %s", len(anomalies), LogFilePath)
 	log.Fatal(app.Listen(Port))
 }
 
@@ -113,62 +114,88 @@ func main() {
 // DATA INGESTION LOGIC
 // ========================================
 
-// loadAnomalies reads the CSV file into the in-memory slice
-// If the file doesn't exist, it generates mock data (fail-safe)
+// loadAnomalies reads the VMware hostd.log file into the in-memory slice
 func loadAnomalies() {
-	file, err := os.Open(CSVFile)
+	file, err := os.Open(LogFilePath)
 	if err != nil {
-		log.Printf("⚠️  CSV file not found (%s). Generating mock data...", CSVFile)
+		log.Printf("⚠️  Log file not found (%s). Generating mock data...", LogFilePath)
 		generateMockData()
 		return
 	}
 	defer file.Close()
 
-	reader := csv.NewReader(file)
+	scanner := bufio.NewScanner(file)
 
-	// Skip header row
-	_, err = reader.Read()
-	if err != nil {
-		log.Printf("⚠️  Error reading CSV header: %v", err)
-		generateMockData()
-		return
-	}
+	// Regex for VMware hostd logs
+	// Example: 2025-12-09T04:04:13.227Z warning hostd[2099429] [Originator@6876 sub=Vmsvc.vm:/vmfs/volumes/... user=vpxuser] Message...
+	// Group 1: Timestamp
+	// Group 2: Severity
+	// Group 3: Process Info (hostd[...])
+	// Group 4: Metadata (Originator...)
+	// Group 5: Message
+	re := regexp.MustCompile(`^(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z) (\w+) (\S+) \[(.*?)\] (.*)$`)
 
-	// Parse each row
-	for {
-		record, err := reader.Read()
-		if err != nil {
-			break // End of file
+	count := 0
+	for scanner.Scan() {
+		line := scanner.Text()
+		matches := re.FindStringSubmatch(line)
+
+		if len(matches) < 6 {
+			continue // Skip malformed lines
 		}
 
-		if len(record) < 4 {
-			continue // Skip malformed rows
-		}
+		tsStr := matches[1]
+		severity := matches[2]
+		// process := matches[3]
+		metadata := matches[4]
+		message := matches[5]
 
 		// Parse timestamp
-		ts, err := time.Parse(time.RFC3339, record[0])
+		ts, err := time.Parse(time.RFC3339, tsStr)
 		if err != nil {
-			ts = time.Now() // Fallback to current time
+			ts = time.Now()
 		}
 
-		// Parse risk score
-		score, err := strconv.Atoi(record[3])
-		if err != nil {
-			score = 50 // Default score
+		// Calculate Risk Score
+		riskScore := 10 // Default Info
+		switch severity {
+		case "error":
+			riskScore = 90
+		case "warning":
+			riskScore = 50
+		case "verbose":
+			riskScore = 5
+		}
+
+		// Extract cleaner component from metadata (e.g., "sub=Vmsvc.vm" -> "Vmsvc.vm")
+		component := "System"
+		if strings.Contains(metadata, "sub=") {
+			parts := strings.Split(metadata, " ")
+			for _, p := range parts {
+				if strings.HasPrefix(p, "sub=") {
+					component = strings.TrimPrefix(p, "sub=")
+					break
+				}
+			}
 		}
 
 		anomalies = append(anomalies, Anomaly{
 			Timestamp: ts,
-			Component: record[1],
-			Message:   record[2],
-			RiskScore: score,
+			Component: component,
+			Message:   message,
+			RiskScore: riskScore,
 		})
+		count++
 	}
 
-	log.Printf("✅ Loaded %d anomalies from CSV", len(anomalies))
+	if err := scanner.Err(); err != nil {
+		log.Printf("⚠️  Error reading log file: %v", err)
+	}
+
+	log.Printf("✅ Loaded %d log entries from %s", count, LogFilePath)
 }
 
-// generateMockData creates sample anomalies if CSV is missing
+// generateMockData creates sample anomalies if Log file is missing
 func generateMockData() {
 	components := []string{"Network", "Database", "Auth Service", "Storage", "API Gateway", "Payment Service"}
 	messages := []string{
@@ -189,7 +216,6 @@ func generateMockData() {
 			RiskScore: 30 + (i*5)%70,
 		})
 	}
-
 	log.Printf("✅ Generated %d mock anomalies", len(anomalies))
 }
 
