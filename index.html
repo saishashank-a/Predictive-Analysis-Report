@@ -4,90 +4,679 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Predictive Analysis System</title>
+    <title>Secure Banking AIOps Dashboard</title>
+    <meta name="description" content="AI-powered operations dashboard for banking infrastructure monitoring">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- ApexCharts -->
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+
     <style>
+        /* ========================================
+           CSS VARIABLES (Theme System)
+           ======================================== */
         :root {
-            --bg-gradient: linear-gradient(135deg, #0b1121 0%, #162032 100%);
-            --glass-bg: rgba(30, 41, 59, 0.7);
-            --glass-border: 1px solid rgba(255, 255, 255, 0.08);
-            --text-main: #f1f5f9;
-            --text-mute: #94a3b8;
-            --accent: #38bdf8;
+            /* Dark Theme (Default) */
+            --bg-primary: #0a0e17;
+            --bg-secondary: #111827;
+            --bg-card: rgba(17, 24, 39, 0.8);
+            --bg-glass: rgba(255, 255, 255, 0.05);
+            --border-color: rgba(255, 255, 255, 0.1);
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            --accent-primary: #6366f1;
+            --accent-secondary: #8b5cf6;
+            --accent-gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%);
+            --success: #10b981;
+            --warning: #f59e0b;
             --danger: #ef4444;
-            --warn: #f59e0b;
-            --safe: #10b981;
+            --danger-glow: rgba(239, 68, 68, 0.3);
+            --chart-gradient-1: #6366f1;
+            --chart-gradient-2: #a855f7;
+        }
+
+        [data-theme="light"] {
+            --bg-primary: #f1f5f9;
+            --bg-secondary: #ffffff;
+            --bg-card: rgba(255, 255, 255, 0.9);
+            --bg-glass: rgba(0, 0, 0, 0.02);
+            --border-color: rgba(0, 0, 0, 0.1);
+            --text-primary: #1e293b;
+            --text-secondary: #475569;
+            --text-muted: #94a3b8;
+        }
+
+        /* ========================================
+           BASE STYLES
+           ======================================== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
         body {
-            margin: 0;
             font-family: 'Outfit', sans-serif;
-            background: var(--bg-gradient);
-            color: var(--text-main);
+            background: var(--bg-primary);
+            color: var(--text-primary);
             min-height: 100vh;
-            overflow-x: hidden;
+            transition: background 0.3s ease, color 0.3s ease;
         }
 
-        /* --- Layout --- */
+        /* ========================================
+           LAYOUT
+           ======================================== */
         .app-container {
-            display: grid;
-            grid-template-columns: 260px 1fr;
+            display: flex;
             min-height: 100vh;
         }
 
         /* Sidebar */
         .sidebar {
-            background: rgba(15, 23, 42, 0.9);
-            border-right: var(--glass-border);
+            width: 260px;
+            background: var(--bg-secondary);
+            border-right: 1px solid var(--border-color);
             padding: 24px;
             display: flex;
             flex-direction: column;
+            position: fixed;
+            height: 100vh;
+            z-index: 100;
         }
 
-        .brand {
-            font-size: 1.4rem;
-            font-weight: 700;
-            margin-bottom: 40px;
-            background: linear-gradient(to right, var(--accent), #818cf8);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .nav-item {
-            padding: 12px 16px;
-            margin-bottom: 8px;
-            border-radius: 8px;
-            cursor: pointer;
-            color: var(--text-mute);
-            transition: all 0.2s;
+        .logo {
             display: flex;
             align-items: center;
             gap: 12px;
+            margin-bottom: 40px;
         }
 
-        .nav-item:hover,
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: var(--accent-gradient);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        .logo-text {
+            font-size: 1.25rem;
+            font-weight: 700;
+            background: var(--accent-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-section {
+            margin-bottom: 32px;
+        }
+
+        .nav-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+            margin-bottom: 12px;
+        }
+
+        .nav-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 16px;
+            border-radius: 10px;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            margin-bottom: 4px;
+        }
+
+        .nav-item:hover {
+            background: var(--bg-glass);
+            color: var(--text-primary);
+        }
+
         .nav-item.active {
-            background: rgba(56, 189, 248, 0.1);
-            color: var(--accent);
+            background: var(--accent-gradient);
+            color: white;
+        }
+
+        .nav-item-icon {
+            font-size: 1.25rem;
+        }
+
+        .sidebar-footer {
+            margin-top: auto;
+            padding-top: 24px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .theme-toggle {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 16px;
+            background: var(--bg-glass);
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .theme-toggle:hover {
+            background: var(--border-color);
+        }
+
+        .theme-toggle-label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        .theme-switch {
+            width: 44px;
+            height: 24px;
+            background: var(--border-color);
+            border-radius: 12px;
+            position: relative;
+            transition: background 0.3s ease;
+        }
+
+        .theme-switch::after {
+            content: '';
+            position: absolute;
+            width: 18px;
+            height: 18px;
+            background: white;
+            border-radius: 50%;
+            top: 3px;
+            left: 3px;
+            transition: transform 0.3s ease;
+        }
+
+        [data-theme="light"] .theme-switch {
+            background: var(--accent-primary);
+        }
+
+        [data-theme="light"] .theme-switch::after {
+            transform: translateX(20px);
         }
 
         /* Main Content */
         .main-content {
-            padding: 40px;
-            overflow-y: auto;
+            flex: 1;
+            margin-left: 260px;
+            padding: 32px;
+            background: var(--bg-primary);
         }
 
-        /* Pages */
-        .page {
+        /* ========================================
+           HEADER
+           ======================================== */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 32px;
+        }
+
+        .header-title h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .header-title p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 12px;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 24px;
+            border-radius: 10px;
+            font-family: 'Outfit', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            border: none;
+        }
+
+        .btn-primary {
+            background: var(--accent-gradient);
+            color: white;
+            box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+        }
+
+        .btn-secondary {
+            background: var(--bg-glass);
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+        }
+
+        .btn-secondary:hover {
+            background: var(--border-color);
+        }
+
+        /* ========================================
+           KPI CARDS
+           ======================================== */
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            margin-bottom: 32px;
+        }
+
+        .kpi-card {
+            background: var(--bg-card);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 24px;
+            transition: all 0.3s ease;
+        }
+
+        .kpi-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        .kpi-card.critical {
+            border-color: var(--danger);
+            box-shadow: 0 0 30px var(--danger-glow);
+        }
+
+        .kpi-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .kpi-label {
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .kpi-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+        }
+
+        .kpi-icon.purple {
+            background: rgba(99, 102, 241, 0.15);
+        }
+
+        .kpi-icon.red {
+            background: rgba(239, 68, 68, 0.15);
+        }
+
+        .kpi-icon.yellow {
+            background: rgba(245, 158, 11, 0.15);
+        }
+
+        .kpi-icon.green {
+            background: rgba(16, 185, 129, 0.15);
+        }
+
+        .kpi-value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            line-height: 1;
+            margin-bottom: 8px;
+        }
+
+        .kpi-value.danger {
+            color: var(--danger);
+        }
+
+        .kpi-value.warning {
+            color: var(--warning);
+        }
+
+        .kpi-value.success {
+            color: var(--success);
+        }
+
+        .kpi-change {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 0.85rem;
+            padding: 4px 8px;
+            border-radius: 6px;
+        }
+
+        .kpi-change.up {
+            background: rgba(239, 68, 68, 0.1);
+            color: var(--danger);
+        }
+
+        .kpi-change.down {
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--success);
+        }
+
+        /* ========================================
+           CHARTS SECTION
+           ======================================== */
+        .charts-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 24px;
+            margin-bottom: 32px;
+        }
+
+        .chart-card {
+            background: var(--bg-card);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 24px;
+        }
+
+        .chart-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .chart-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        .chart-subtitle {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
+        /* ========================================
+           ANOMALY TABLE
+           ======================================== */
+        .table-card {
+            background: var(--bg-card);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 32px;
+        }
+
+        .table-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            text-align: left;
+            padding: 14px 16px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        td {
+            padding: 16px;
+            font-size: 0.9rem;
+            border-bottom: 1px solid var(--border-color);
+            color: var(--text-secondary);
+        }
+
+        tbody tr {
+            transition: background 0.2s ease;
+        }
+
+        tbody tr:hover {
+            background: var(--bg-glass);
+        }
+
+        .component-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            background: var(--bg-glass);
+            border: 1px solid var(--border-color);
+        }
+
+        .risk-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .risk-badge.critical {
+            background: rgba(239, 68, 68, 0.15);
+            color: var(--danger);
+        }
+
+        .risk-badge.warning {
+            background: rgba(245, 158, 11, 0.15);
+            color: var(--warning);
+        }
+
+        .risk-badge.low {
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--success);
+        }
+
+        .btn-doctor {
+            padding: 8px 14px;
+            font-size: 0.8rem;
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .btn-doctor:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+        }
+
+        /* ========================================
+           AI PANEL
+           ======================================== */
+        .ai-panel {
+            background: var(--bg-card);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 24px;
             display: none;
-            animation: fadeIn 0.4s ease;
         }
 
-        .page.active {
+        .ai-panel.active {
             display: block;
+            animation: slideIn 0.3s ease;
         }
 
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .ai-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .ai-avatar {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+
+        .ai-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        .ai-subtitle {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .ai-close {
+            margin-left: auto;
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            cursor: pointer;
+            font-size: 1.5rem;
+            padding: 8px;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+        }
+
+        .ai-close:hover {
+            background: var(--bg-glass);
+            color: var(--text-primary);
+        }
+
+        .ai-content {
+            background: var(--bg-glass);
+            border-radius: 12px;
+            padding: 20px;
+            font-size: 0.95rem;
+            line-height: 1.7;
+            color: var(--text-secondary);
+            white-space: pre-wrap;
+        }
+
+        .ai-content strong {
+            color: var(--text-primary);
+        }
+
+        .ai-loading {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: var(--text-muted);
+        }
+
+        .ai-loading .spinner {
+            width: 20px;
+            height: 20px;
+            border: 2px solid var(--border-color);
+            border-top-color: var(--accent-primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* ========================================
+           RESPONSIVE
+           ======================================== */
+        @media (max-width: 1200px) {
+            .kpi-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .charts-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .sidebar {
+                display: none;
+            }
+
+            .main-content {
+                margin-left: 0;
+                padding: 16px;
+            }
+
+            .kpi-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* ========================================
+           ANIMATIONS
+           ======================================== */
         @keyframes fadeIn {
             from {
                 opacity: 0;
@@ -100,525 +689,582 @@
             }
         }
 
-        /* Components */
-        .header-bar {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-end;
-            margin-bottom: 30px;
+        .kpi-card,
+        .chart-card,
+        .table-card {
+            animation: fadeIn 0.5s ease forwards;
         }
 
-        .page-title {
-            margin: 0;
-            font-size: 2rem;
-            font-weight: 600;
+        .kpi-card:nth-child(1) {
+            animation-delay: 0.1s;
         }
 
-        .page-subtitle {
-            color: var(--text-mute);
-            margin-top: 8px;
+        .kpi-card:nth-child(2) {
+            animation-delay: 0.2s;
         }
 
-        .card {
-            background: var(--glass-bg);
-            border: var(--glass-border);
-            border-radius: 16px;
-            padding: 24px;
-            margin-bottom: 24px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        .kpi-card:nth-child(3) {
+            animation-delay: 0.3s;
         }
 
-        .kpi-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 24px;
-            margin-bottom: 32px;
-        }
-
-        .kpi-card {
-            text-align: center;
-        }
-
-        .kpi-val {
-            font-size: 2.5rem;
-            font-weight: 700;
-            margin: 8px 0;
-        }
-
-        .kpi-lbl {
-            color: var(--text-mute);
-            font-size: 0.9rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        /* Predictive Section */
-        .forecast-container {
-            display: flex;
-            gap: 20px;
-            align-items: center;
-            background: rgba(0, 0, 0, 0.2);
-            padding: 24px;
-            border-radius: 12px;
-            border: 1px dashed var(--text-mute);
-            margin-bottom: 24px;
-        }
-
-        .death-spiral-stage {
-            flex: 1;
-            padding: 16px;
-            border-radius: 8px;
-            text-align: center;
-            opacity: 0.3;
-            transition: 0.3s;
-            border: 1px solid transparent;
-        }
-
-        .death-spiral-stage.active {
-            opacity: 1;
-            font-weight: bold;
-            transform: scale(1.05);
-        }
-
-        .stage-1.active {
-            background: rgba(56, 189, 248, 0.1);
-            border-color: var(--accent);
-            color: var(--accent);
-        }
-
-        .stage-2.active {
-            background: rgba(245, 158, 11, 0.1);
-            border-color: var(--warn);
-            color: var(--warn);
-        }
-
-        .stage-3.active {
-            background: rgba(239, 68, 68, 0.1);
-            border-color: var(--danger);
-            color: var(--danger);
-        }
-
-        .btn-ai {
-            background: linear-gradient(135deg, var(--accent), #2563eb);
-            color: white;
-            border: none;
-            padding: 12px 24px;
-            border-radius: 8px;
-            font-weight: 600;
-            cursor: pointer;
-            box-shadow: 0 0 15px rgba(56, 189, 248, 0.4);
-            transition: 0.3s;
-        }
-
-        .btn-ai:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 0 25px rgba(56, 189, 248, 0.6);
-        }
-
-        /* Tables */
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        th {
-            text-align: left;
-            padding: 16px;
-            color: var(--text-mute);
-            font-weight: 400;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        td {
-            padding: 16px;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-        }
-
-        tr:hover td {
-            background: rgba(255, 255, 255, 0.02);
-        }
-
-        /* Help Tip */
-        .help-tip {
-            font-size: 0.9rem;
-            color: var(--text-mute);
-            background: rgba(255, 255, 255, 0.05);
-            padding: 15px;
-            border-radius: 8px;
-            margin-top: 10px;
-            border-left: 2px solid var(--accent);
+        .kpi-card:nth-child(4) {
+            animation-delay: 0.4s;
         }
     </style>
 </head>
 
 <body>
-
     <div class="app-container">
         <!-- Sidebar -->
-        <nav class="sidebar">
-            <div class="brand">⚡ Predictive Sys</div>
-            <div class="nav-item active" onclick="switchPage('dashboard', event)">
-                <span>📊</span> Executive Summary
+        <aside class="sidebar">
+            <div class="logo">
+                <div class="logo-icon">🏦</div>
+                <span class="logo-text">AIOps Hub</span>
             </div>
-            <div class="nav-item" onclick="switchPage('deep-dive', event)">
-                <span>🔍</span> Technical Deep Dive
-            </div>
-            <div class="nav-item" onclick="switchPage('settings', event)">
-                <span>⚙️</span> Configuration
-            </div>
-            <div style="flex-grow:1"></div>
-            <div class="nav-item" onclick="switchPage('admin', event)">
-                <span>👤</span> Admin User
-            </div>
-        </nav>
 
-        <!-- Content -->
+            <nav class="nav-section">
+                <div class="nav-label">Dashboard</div>
+                <div class="nav-item active">
+                    <span class="nav-item-icon">📊</span>
+                    <span>Overview</span>
+                </div>
+                <div class="nav-item">
+                    <span class="nav-item-icon">🔔</span>
+                    <span>Alerts</span>
+                </div>
+                <div class="nav-item">
+                    <span class="nav-item-icon">📈</span>
+                    <span>Analytics</span>
+                </div>
+            </nav>
+
+            <nav class="nav-section">
+                <div class="nav-label">System</div>
+                <div class="nav-item">
+                    <span class="nav-item-icon">🩺</span>
+                    <span>Dr. System</span>
+                </div>
+                <div class="nav-item">
+                    <span class="nav-item-icon">⚙️</span>
+                    <span>Settings</span>
+                </div>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="theme-toggle" onclick="toggleTheme()">
+                    <span class="theme-toggle-label">
+                        <span>🌙</span>
+                        <span>Dark Mode</span>
+                    </span>
+                    <div class="theme-switch"></div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
         <main class="main-content">
-
-            <!-- PAGE 1: EXECUTIVE SUMMARY -->
-            <div id="dashboard" class="page active">
-                <div class="header-bar">
-                    <div>
-                        <h1 class="page-title">Executive Forecast</h1>
-                        <div class="page-subtitle">Predictive Analysis of 6,000+ infrastructure events</div>
-                    </div>
-                    <button class="btn-ai" onclick="generateSREReport()" id="btn-sre">
-                        <span>🤖</span> Generate SRE Report
+            <!-- Header -->
+            <header class="header">
+                <div class="header-title">
+                    <h1>Banking AIOps Dashboard</h1>
+                    <p>Real-time infrastructure anomaly detection & AI-powered diagnostics</p>
+                </div>
+                <div class="header-actions">
+                    <button class="btn btn-secondary" onclick="refreshData()">
+                        <span>🔄</span> Refresh
+                    </button>
+                    <button class="btn btn-primary" onclick="generateReport()">
+                        <span>📋</span> Generate Report
                     </button>
                 </div>
+            </header>
 
-                <!-- SRE REPORT MODAL -->
-                <div id="sre-modal"
-                    style="display:none; background: rgba(15, 23, 42, 0.95); border: 1px solid var(--accent); padding: 30px; border-radius: 16px; margin-bottom: 24px; box-shadow: 0 0 50px rgba(0,0,0,0.5);">
-                    <div style="display:flex; justify-content:space-between; margin-bottom:20px">
-                        <h2 style="margin:0; color:var(--accent)">Predictive Infrastructure Health Report</h2>
-                        <button onclick="document.getElementById('sre-modal').style.display='none'"
-                            style="background:none; border:none; color:white; font-size:1.5rem; cursor:pointer">&times;</button>
+            <!-- KPI Cards -->
+            <section class="kpi-grid">
+                <div class="kpi-card">
+                    <div class="kpi-header">
+                        <span class="kpi-label">Total Anomalies</span>
+                        <div class="kpi-icon purple">📊</div>
                     </div>
-                    <div id="sre-content"
-                        style="white-space: pre-wrap; font-family: monospace; color: #cbd5e1; line-height: 1.6;">
-                        Initializing Neural Network... Analyzing 6,000+ events...
-                    </div>
+                    <div class="kpi-value" id="kpi-total">--</div>
+                    <span class="kpi-change up" id="kpi-total-change">↑ Loading...</span>
                 </div>
 
-                <div class="kpi-grid">
-                    <div class="card kpi-card">
-                        <div class="kpi-lbl">Total Events</div>
-                        <div class="kpi-val" id="kpi-total">...</div>
+                <div class="kpi-card critical">
+                    <div class="kpi-header">
+                        <span class="kpi-label">Critical (>80)</span>
+                        <div class="kpi-icon red">🚨</div>
                     </div>
-                    <div class="card kpi-card">
-                        <div class="kpi-lbl">Failure Probability</div>
-                        <div class="kpi-val" id="kpi-prob" style="color: var(--danger)">...%</div>
-                    </div>
-                    <div class="card kpi-card">
-                        <div class="kpi-lbl">Current State</div>
-                        <div class="kpi-val" id="kpi-state" style="color: var(--warn)">Analyzing</div>
-                    </div>
-                    <!-- Linear Regression applied here -->
-                    <div class="card kpi-card">
-                        <div class="kpi-lbl">Predicted Next 5m</div>
-                        <div class="kpi-val" id="kpi-next">...</div>
-                    </div>
+                    <div class="kpi-value danger" id="kpi-critical">--</div>
+                    <span class="kpi-change up" id="kpi-critical-change">Requires attention</span>
                 </div>
 
-                <!-- FORECASTER -->
-                <div class="card">
-                    <h3>⚠️ Death Spiral Prevention</h3>
-                    <div class="help-tip">
-                        <strong>What is this?</strong> This predictive model detects the specific sequence of failures
-                        (Memory &rarr; IO &rarr; Crash) that leads to system outages. We analyze historical patterns to
-                        flag which "Spiral Stage" the host is currently in.
+                <div class="kpi-card">
+                    <div class="kpi-header">
+                        <span class="kpi-label">Warning (50-80)</span>
+                        <div class="kpi-icon yellow">⚠️</div>
                     </div>
-                    <div class="forecast-container" style="margin-top:20px">
-                        <div class="death-spiral-stage stage-1" id="stage-1">
-                            <h4>Phase 1: Memory Leak</h4>
-                            <small>Detected "Out of Memory" logs</small>
-                        </div>
-                        <div style="font-size:1.5rem; opacity:0.3">➜</div>
-                        <div class="death-spiral-stage stage-2" id="stage-2">
-                            <h4>Phase 2: IO Choke</h4>
-                            <small>SCSI Latency > 20ms</small>
-                        </div>
-                        <div style="font-size:1.5rem; opacity:0.3">➜</div>
-                        <div class="death-spiral-stage stage-3" id="stage-3">
-                            <h4>Phase 3: Host Failure</h4>
-                            <small>98% Probability in < 2 hours</small>
+                    <div class="kpi-value warning" id="kpi-warning">--</div>
+                    <span class="kpi-change down" id="kpi-warning-change">Monitor closely</span>
+                </div>
+
+                <div class="kpi-card">
+                    <div class="kpi-header">
+                        <span class="kpi-label">Average Risk Score</span>
+                        <div class="kpi-icon green">📈</div>
+                    </div>
+                    <div class="kpi-value" id="kpi-avg">--</div>
+                    <span class="kpi-change" id="kpi-avg-change">System health</span>
+                </div>
+            </section>
+
+            <!-- Charts -->
+            <section class="charts-grid">
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <div>
+                            <h3 class="chart-title">Risk Score Timeline</h3>
+                            <p class="chart-subtitle">Anomaly severity over time</p>
                         </div>
                     </div>
+                    <div id="timeline-chart"></div>
                 </div>
 
-                <!-- TIMELINE CHART -->
-                <div class="card">
-                    <h3>Anomaly Timeline (Actual vs Predicted)</h3>
-                    <div id="main-chart" style="min-height: 350px;"></div>
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <div>
+                            <h3 class="chart-title">Component Distribution</h3>
+                            <p class="chart-subtitle">Anomalies by system component</p>
+                        </div>
+                    </div>
+                    <div id="pie-chart"></div>
                 </div>
-            </div>
+            </section>
 
-            <!-- PAGE 2: DEEP DIVE -->
-            <div id="deep-dive" class="page">
-                <h1 class="page-title">Technical Deep Dive</h1>
-                <div class="page-subtitle">Granular component-level analysis</div>
-                <br>
-
-                <div style="display:grid; grid-template-columns: 1fr 1fr; gap:24px; margin-bottom:24px;">
-                    <div class="card">
-                        <h3>Top Failing Components</h3>
-                        <div id="bar-chart"></div>
+            <!-- AI Panel -->
+            <section class="ai-panel" id="ai-panel">
+                <div class="ai-header">
+                    <div class="ai-avatar">🩺</div>
+                    <div>
+                        <h3 class="ai-title">Dr. System</h3>
+                        <p class="ai-subtitle">AI-Powered Diagnostics</p>
                     </div>
-                    <div class="card">
-                        <h3>Distribution</h3>
-                        <div id="pie-chart"></div>
+                    <button class="ai-close" onclick="closeAIPanel()">&times;</button>
+                </div>
+                <div class="ai-content" id="ai-response">
+                    <div class="ai-loading">
+                        <div class="spinner"></div>
+                        <span>Analyzing system symptoms...</span>
                     </div>
                 </div>
+            </section>
 
-                <div class="card">
-                    <h3>Recursive Error Patterns</h3>
-                    <div class="help-tip" style="margin-bottom: 20px">
-                        These are the most frequent, repetitive error signatures found in your logs. High repetition
-                        often indicates the root cause.
+            <!-- Anomaly Table -->
+            <section class="table-card">
+                <div class="table-header">
+                    <div>
+                        <h3 class="chart-title">Recent Anomalies</h3>
+                        <p class="chart-subtitle">Click "Consult Dr." for AI-powered diagnosis</p>
                     </div>
-                    <table id="top-errors-table">
+                </div>
+                <div class="table-wrapper">
+                    <table id="anomaly-table">
                         <thead>
                             <tr>
-                                <th>Count</th>
+                                <th>Time</th>
                                 <th>Component</th>
-                                <th>Error Signature</th>
-                                <th>Impact</th>
+                                <th>Message</th>
+                                <th>Risk Score</th>
                                 <th>Action</th>
                             </tr>
                         </thead>
-                        <tbody></tbody>
+                        <tbody>
+                            <!-- Populated by JavaScript -->
+                        </tbody>
                     </table>
-
-                    <!-- LOG EXPLANATION MODAL -->
-                    <div id="log-modal"
-                        style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); background: rgba(15, 23, 42, 0.98); border: 2px solid var(--accent); padding: 30px; border-radius: 16px; max-width: 700px; width: 90%; z-index: 1000; box-shadow: 0 0 100px rgba(0,0,0,0.8);">
-                        <div style="display:flex; justify-content:space-between; margin-bottom:20px">
-                            <h2 style="margin:0; color:var(--accent)">🔍 Log Analysis</h2>
-                            <button onclick="document.getElementById('log-modal').style.display='none'"
-                                style="background:none; border:none; color:white; font-size:1.5rem; cursor:pointer">&times;</button>
-                        </div>
-                        <div id="log-detail"
-                            style="background: rgba(0,0,0,0.3); padding: 15px; border-radius: 8px; margin-bottom: 20px; font-family: monospace; color: #94a3b8;">
-                            Loading...
-                        </div>
-                        <div id="log-analysis" style="white-space: pre-wrap; line-height: 1.8; color: #cbd5e1;">
-                            Analyzing...
-                        </div>
-                    </div>
                 </div>
-            </div>
-
-            <!-- PAGE 3: SETTINGS (Placeholder) -->
-            <div id="settings" class="page">
-                <h1 class="page-title">Configuration</h1>
-                <div class="card">
-                    <h3>System Settings</h3>
-                    <p style="color:var(--text-mute)">Configure log retention policies and alert thresholds.</p>
-                    <div style="padding: 20px; background: rgba(0,0,0,0.2); border-radius: 8px;">
-                        Using <strong>vmkernel.log</strong> parser.<br>
-                        Binning Interval: <strong>5 minutes</strong>.<br>
-                        Sensitivity: <strong>High (Mean + 1.5 StdDev)</strong>.
-                    </div>
-                </div>
-            </div>
-
-            <!-- PAGE 4: ADMIN (Placeholder) -->
-            <div id="admin" class="page">
-                <h1 class="page-title">Admin User</h1>
-                <div class="card">
-                    <h3>User Profile</h3>
-                    <p>Logged in as: <strong>Admin (SRE)</strong></p>
-                    <p>Role: <strong>Predictive Architect</strong></p>
-                    <button class="btn-ai" style="background:#ef4444">Logout</button>
-                </div>
-            </div>
-
+            </section>
         </main>
     </div>
 
     <script>
-        // --- APP LOGIC ---
+        // ========================================
+        // APPLICATION STATE
+        // ========================================
+        let appState = {
+            data: [],
+            theme: localStorage.getItem('theme') || 'dark'
+        };
 
-        async function init() {
+        // ApexCharts instances
+        let timelineChart = null;
+        let pieChart = null;
+
+        // ========================================
+        // INITIALIZATION
+        // ========================================
+        document.addEventListener('DOMContentLoaded', () => {
+            // Apply saved theme
+            document.documentElement.setAttribute('data-theme', appState.theme);
+
+            // Fetch data
+            fetchAnomalies();
+        });
+
+        // ========================================
+        // DATA FETCHING
+        // ========================================
+        async function fetchAnomalies() {
             try {
-                const res = await fetch('/api/stats');
-                const data = await res.json();
-                renderApp(data);
-            } catch (e) { console.error(e); }
+                const response = await fetch('/api/anomalies');
+                const data = await response.json();
+                appState.data = data;
+
+                // Update all UI components
+                updateKPIs();
+                renderTimelineChart();
+                renderPieChart();
+                renderTable();
+            } catch (error) {
+                console.error('Failed to fetch anomalies:', error);
+            }
         }
 
-        function renderApp(data) {
-            // 1. KPIs
-            document.getElementById('kpi-total').innerText = data.total_events.toLocaleString();
-            document.getElementById('kpi-prob').innerText = data.failure_probability.toFixed(1) + "%";
+        function refreshData() {
+            fetchAnomalies();
+        }
 
-            // Show Predicted Next Value (Linear Regression Result)
-            const nextVal = Math.round(data.predicted_next_val);
-            document.getElementById('kpi-next').innerText = nextVal + " Errors";
-            document.getElementById('kpi-next').style.color = nextVal > 10 ? 'var(--warn)' : 'var(--safe)';
+        // ========================================
+        // KPI CALCULATIONS
+        // ========================================
+        function updateKPIs() {
+            const data = appState.data;
+            const total = data.length;
+            const critical = data.filter(d => d.risk_score > 80).length;
+            const warning = data.filter(d => d.risk_score >= 50 && d.risk_score <= 80).length;
+            const avgScore = total > 0
+                ? Math.round(data.reduce((sum, d) => sum + d.risk_score, 0) / total)
+                : 0;
 
-            // 2. Main Timeline Chart
-            // Fixed: Ensure we map data correctly and handle timestamps
+            // Animate counters
+            animateValue('kpi-total', total);
+            animateValue('kpi-critical', critical);
+            animateValue('kpi-warning', warning);
+            animateValue('kpi-avg', avgScore);
+
+            // Update change indicators
+            document.getElementById('kpi-total-change').textContent = `${total} detected today`;
+            document.getElementById('kpi-critical-change').textContent = critical > 5 ? '🔥 High priority' : 'Monitoring';
+
+            // Color average based on severity
+            const avgEl = document.getElementById('kpi-avg');
+            avgEl.className = 'kpi-value';
+            if (avgScore > 70) avgEl.classList.add('danger');
+            else if (avgScore > 50) avgEl.classList.add('warning');
+            else avgEl.classList.add('success');
+        }
+
+        function animateValue(elementId, target) {
+            const element = document.getElementById(elementId);
+            const duration = 1000;
+            const start = parseInt(element.textContent) || 0;
+            const increment = (target - start) / (duration / 16);
+            let current = start;
+
+            const timer = setInterval(() => {
+                current += increment;
+                if ((increment > 0 && current >= target) || (increment < 0 && current <= target)) {
+                    element.textContent = target;
+                    clearInterval(timer);
+                } else {
+                    element.textContent = Math.round(current);
+                }
+            }, 16);
+        }
+
+        // ========================================
+        // CHARTS (ApexCharts)
+        // ========================================
+        function renderTimelineChart() {
+            const data = appState.data.map(d => ({
+                x: new Date(d.timestamp).getTime(),
+                y: d.risk_score
+            }));
+
             const options = {
-                series: [{ name: 'Errors', data: data.timeline.map(t => t.total_errors) }],
-                chart: { type: 'area', height: 350, background: 'transparent', toolbar: { show: false } },
-                stroke: { curve: 'smooth', width: 2 },
-                fill: { type: 'gradient', gradient: { shadeIntensity: 1, opacityFrom: 0.6, opacityTo: 0.1 } },
-                theme: { mode: 'dark' },
-                colors: ['#38bdf8'],
+                series: [{
+                    name: 'Risk Score',
+                    data: data
+                }],
+                chart: {
+                    type: 'area',
+                    height: 300,
+                    background: 'transparent',
+                    toolbar: { show: false },
+                    animations: {
+                        enabled: true,
+                        easing: 'easeinout',
+                        speed: 800
+                    }
+                },
+                stroke: {
+                    curve: 'smooth',
+                    width: 3
+                },
+                fill: {
+                    type: 'gradient',
+                    gradient: {
+                        shadeIntensity: 1,
+                        opacityFrom: 0.45,
+                        opacityTo: 0.05,
+                        stops: [0, 100],
+                        colorStops: [
+                            { offset: 0, color: '#10b981', opacity: 0.4 },
+                            { offset: 50, color: '#f59e0b', opacity: 0.3 },
+                            { offset: 100, color: '#ef4444', opacity: 0.1 }
+                        ]
+                    }
+                },
+                colors: ['#6366f1'],
                 xaxis: {
-                    categories: data.timeline.map(t => t.start_time),
-                    labels: { style: { colors: '#64748b' } },
-                    tooltip: { enabled: false }
+                    type: 'datetime',
+                    labels: {
+                        style: { colors: '#94a3b8' }
+                    },
+                    axisBorder: { show: false },
+                    axisTicks: { show: false }
                 },
                 yaxis: {
-                    labels: { style: { colors: '#64748b' } },
-                    min: 0
+                    min: 0,
+                    max: 100,
+                    labels: {
+                        style: { colors: '#94a3b8' }
+                    }
                 },
-                grid: { borderColor: '#1e293b' },
-                dataLabels: { enabled: false }
+                grid: {
+                    borderColor: 'rgba(255,255,255,0.1)',
+                    strokeDashArray: 3
+                },
+                tooltip: {
+                    theme: 'dark',
+                    x: { format: 'HH:mm' }
+                },
+                markers: {
+                    size: 0,
+                    hover: { size: 6 }
+                }
             };
-            document.querySelector("#main-chart").innerHTML = ""; // Clear prev
-            new ApexCharts(document.querySelector("#main-chart"), options).render();
 
-            // 3. Death Spiral Logic
-            const stage = data.death_spiral_stage; // 0, 1, 2, 3
-            if (stage >= 1) document.getElementById('stage-1').classList.add('active');
-            if (stage >= 2) document.getElementById('stage-2').classList.add('active');
-            if (stage >= 3) {
-                document.getElementById('stage-3').classList.add('active');
-                document.getElementById('kpi-state').innerText = "CRITICAL";
-                document.getElementById('kpi-state').style.color = "var(--danger)";
+            if (timelineChart) {
+                timelineChart.updateOptions(options);
             } else {
-                document.getElementById('kpi-state').innerText = "Stable";
-                document.getElementById('kpi-state').style.color = "var(--safe)";
+                timelineChart = new ApexCharts(document.getElementById('timeline-chart'), options);
+                timelineChart.render();
             }
+        }
 
-            // 4. "Deep Dive" Charts
-            const compEntries = Object.entries(data.component_counts).sort((a, b) => b[1] - a[1]).slice(0, 10);
+        function renderPieChart() {
+            // Group by component
+            const componentCounts = {};
+            appState.data.forEach(d => {
+                componentCounts[d.component] = (componentCounts[d.component] || 0) + 1;
+            });
 
-            document.querySelector("#bar-chart").innerHTML = "";
-            new ApexCharts(document.querySelector("#bar-chart"), {
-                series: [{ name: 'Count', data: compEntries.map(x => x[1]) }],
-                chart: { type: 'bar', height: 300, background: 'transparent', toolbar: { show: false } },
-                theme: { mode: 'dark' },
-                colors: ['#f59e0b'],
-                plotOptions: { bar: { borderRadius: 4, horizontal: true } },
-                xaxis: { categories: compEntries.map(x => x[0]), labels: { style: { colors: '#94a3b8' } } },
-                yaxis: { labels: { style: { colors: '#94a3b8' }, maxWidth: 100 } }
-            }).render();
+            const labels = Object.keys(componentCounts);
+            const series = Object.values(componentCounts);
 
-            document.querySelector("#pie-chart").innerHTML = "";
-            new ApexCharts(document.querySelector("#pie-chart"), {
-                series: compEntries.map(x => x[1]),
-                labels: compEntries.map(x => x[0]),
-                chart: { type: 'donut', height: 300, background: 'transparent' },
-                theme: { mode: 'dark' },
-                stroke: { show: false },
-                legend: { position: 'bottom', labels: { colors: '#94a3b8' } }
-            }).render();
+            const options = {
+                series: series,
+                chart: {
+                    type: 'donut',
+                    height: 300,
+                    background: 'transparent'
+                },
+                labels: labels,
+                colors: ['#6366f1', '#8b5cf6', '#a855f7', '#d946ef', '#ec4899', '#f43f5e'],
+                stroke: {
+                    width: 0
+                },
+                plotOptions: {
+                    pie: {
+                        donut: {
+                            size: '70%',
+                            labels: {
+                                show: true,
+                                name: {
+                                    show: true,
+                                    color: '#f8fafc'
+                                },
+                                value: {
+                                    show: true,
+                                    color: '#94a3b8',
+                                    formatter: (val) => val + ' issues'
+                                },
+                                total: {
+                                    show: true,
+                                    label: 'Total',
+                                    color: '#f8fafc',
+                                    formatter: () => appState.data.length
+                                }
+                            }
+                        }
+                    }
+                },
+                legend: {
+                    position: 'bottom',
+                    labels: {
+                        colors: '#94a3b8'
+                    }
+                },
+                dataLabels: {
+                    enabled: false
+                }
+            };
 
-            // 5. Populate Recursive Error Table
-            const tbody = document.querySelector("#top-errors-table tbody");
-            tbody.innerHTML = data.top_errors.map((errStr, idx) => {
-                const parts = errStr.split('|'); // "105|ScsiDeviceIO|Message..."
-                const count = parts[0];
-                const comp = parts[1];
-                const msg = parts.slice(2).join('|');
+            if (pieChart) {
+                pieChart.updateOptions(options);
+            } else {
+                pieChart = new ApexCharts(document.getElementById('pie-chart'), options);
+                pieChart.render();
+            }
+        }
+
+        // ========================================
+        // TABLE RENDERING
+        // ========================================
+        function renderTable() {
+            const tbody = document.querySelector('#anomaly-table tbody');
+
+            // Sort by timestamp (most recent first)
+            const sortedData = [...appState.data].sort((a, b) =>
+                new Date(b.timestamp) - new Date(a.timestamp)
+            );
+
+            tbody.innerHTML = sortedData.map(d => {
+                const time = new Date(d.timestamp).toLocaleTimeString('en-US', {
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+
+                const riskClass = d.risk_score > 80 ? 'critical' :
+                    d.risk_score >= 50 ? 'warning' : 'low';
+
+                // Scrub PII before rendering
+                const scrubbedMessage = scrubData(d.message);
+
                 return `
-                <tr>
-                    <td><b>${count}</b></td>
-                    <td><span class="tag tag-Med">${comp}</span></td>
-                    <td style="color:var(--text-mute)">${msg}</td>
-                    <td style="color:var(--danger)">High</td>
-                    <td><button class="btn-ai" style="padding:6px 12px; font-size:0.85rem" onclick='explainLog(${JSON.stringify(comp)}, ${JSON.stringify(msg)})'>Analyze</button></td>
-                </tr>
-            `;
+                    <tr>
+                        <td>${time}</td>
+                        <td><span class="component-badge">${getComponentIcon(d.component)} ${d.component}</span></td>
+                        <td>${scrubbedMessage}</td>
+                        <td><span class="risk-badge ${riskClass}">⚡ ${d.risk_score}</span></td>
+                        <td>
+                            <button class="btn-doctor" onclick="consultDoctor('${escapeHtml(d.message)}')">
+                                🩺 Consult Dr.
+                            </button>
+                        </td>
+                    </tr>
+                `;
             }).join('');
         }
 
-        // --- NAVIGATION ---
-        function switchPage(pageId, event) {
-            document.querySelectorAll('.page').forEach(el => el.classList.remove('active'));
-            document.getElementById(pageId).classList.add('active');
-
-            document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
-            if (event) event.currentTarget.classList.add('active');
+        function getComponentIcon(component) {
+            const icons = {
+                'Network': '🌐',
+                'Database': '🗄️',
+                'Auth Service': '🔐',
+                'Storage': '💾',
+                'API Gateway': '🚪',
+                'Payment Service': '💳'
+            };
+            return icons[component] || '⚙️';
         }
 
-        async function generateSREReport() {
-            const modal = document.getElementById('sre-modal');
-            const content = document.getElementById('sre-content');
-            const btn = document.getElementById('btn-sre');
+        // ========================================
+        // PII SCRUBBING (Client-Side Security)
+        // ========================================
+        function scrubData(text) {
+            // Scrub IP addresses
+            text = text.replace(/\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b/g, '[REDACTED_IP]');
 
-            modal.style.display = 'block';
-            content.innerText = "🔄 Connecting to Local SRE Brain (Llama 3.1)...\nAnalyzing 6,048 Log Events...\nCalculating Death Spiral Probability...";
-            btn.disabled = true;
-            btn.style.opacity = "0.5";
+            // Scrub usernames (User: xxx pattern)
+            text = text.replace(/User:\s*\w+/gi, 'User: [REDACTED]');
 
-            try {
-                const res = await fetch('/api/analyze', { method: 'POST' });
-                if (!res.ok) throw new Error("AI Service Unavailable. Is Ollama running?");
-
-                const data = await res.json();
-
-                // Typewriter effect
-                content.innerText = "";
-                let i = 0;
-                const text = data.response;
-                const interval = setInterval(() => {
-                    content.innerText += text.charAt(i);
-                    i++;
-                    if (i > text.length) clearInterval(interval);
-                }, 10);
-
-            } catch (e) {
-                content.innerText = "⚠️ Error: " + e.message + "\n\nPlease ensure 'ollama serve' is running in your terminal.";
-                content.style.color = "var(--danger)";
-            } finally {
-                btn.disabled = false;
-                btn.style.opacity = "1";
-            }
+            return text;
         }
 
-        async function explainLog(component, message) {
-            const modal = document.getElementById('log-modal');
-            const detail = document.getElementById('log-detail');
-            const analysis = document.getElementById('log-analysis');
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML.replace(/'/g, "\\'");
+        }
 
-            modal.style.display = 'block';
-            detail.innerHTML = `<strong>Component:</strong> ${component}<br><strong>Message:</strong> ${message}`;
-            analysis.innerText = "🔄 Consulting VMware Expert SRE...\nAnalyzing error pattern...\nGenerating fix recommendation...";
+        // ========================================
+        // AI INTEGRATION (Dr. System)
+        // ========================================
+        async function consultDoctor(errorMessage) {
+            const panel = document.getElementById('ai-panel');
+            const responseDiv = document.getElementById('ai-response');
+
+            // Show panel with loading state
+            panel.classList.add('active');
+            responseDiv.innerHTML = `
+                <div class="ai-loading">
+                    <div class="spinner"></div>
+                    <span>Dr. System is analyzing the symptoms...</span>
+                </div>
+            `;
+
+            // Scroll to panel
+            panel.scrollIntoView({ behavior: 'smooth' });
 
             try {
-                const res = await fetch('/api/explain', {
+                const response = await fetch('/api/analyze', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ component, message })
+                    body: JSON.stringify({ error_msg: errorMessage })
                 });
 
-                if (!res.ok) throw new Error("AI Service Unavailable");
+                const data = await response.json();
 
-                const data = await res.json();
+                // Format the response
+                let formattedResponse = data.response
+                    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                    .replace(/\n/g, '<br>');
 
-                // Typewriter effect
-                analysis.innerText = "";
-                let i = 0;
-                const text = data.response;
-                const interval = setInterval(() => {
-                    analysis.innerText += text.charAt(i);
-                    i++;
-                    if (i > text.length) clearInterval(interval);
-                }, 8);
+                responseDiv.innerHTML = formattedResponse;
 
-            } catch (e) {
-                analysis.innerText = "⚠️ Error: " + e.message;
-                analysis.style.color = "var(--danger)";
+                // Add source indicator if fallback
+                if (data.source === 'fallback') {
+                    responseDiv.innerHTML += '<br><br><em style="color: var(--text-muted);">⚠️ AI model offline - showing cached response</em>';
+                }
+
+            } catch (error) {
+                responseDiv.innerHTML = `
+                    <p style="color: var(--danger);">❌ Unable to reach Dr. System</p>
+                    <p>Please ensure Ollama is running on localhost:11434</p>
+                `;
             }
         }
 
-        init();
+        function closeAIPanel() {
+            document.getElementById('ai-panel').classList.remove('active');
+        }
+
+        function generateReport() {
+            const critical = appState.data.filter(d => d.risk_score > 80);
+            alert(`📋 Report Generated!\n\nTotal Anomalies: ${appState.data.length}\nCritical Issues: ${critical.length}\n\nTop concern: ${critical[0]?.message || 'None'}`);
+        }
+
+        // ========================================
+        // THEME TOGGLE
+        // ========================================
+        function toggleTheme() {
+            const newTheme = appState.theme === 'dark' ? 'light' : 'dark';
+            appState.theme = newTheme;
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        }
     </script>
 </body>
 

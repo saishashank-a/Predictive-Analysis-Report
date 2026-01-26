@@ -1,48 +1,35 @@
 package main
 
 import (
-	"bufio"
 	"bytes"
+	"encoding/csv"
 	"encoding/json"
 	"fmt"
 	"log"
 	"net/http"
 	"os"
-	"regexp"
-	"sort"
-	"strings"
+	"strconv"
 	"time"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 )
 
-// -- Data Structures --
+// ========================================
+// DATA STRUCTURES
+// ========================================
 
-type LogEvent struct {
-	Timestamp time.Time
-	Component string
-	Severity  string
-	Message   string
+// Anomaly represents a single row from anomaly_report.csv
+type Anomaly struct {
+	Timestamp time.Time `json:"timestamp"`
+	Component string    `json:"component"`
+	Message   string    `json:"message"`
+	RiskScore int       `json:"risk_score"`
 }
 
-// TimeBin represents a 5-minute window of system activity
-type TimeBin struct {
-	StartTime   string `json:"start_time"`   // For chart Labels
-	TotalErrors int    `json:"total_errors"` // Height of bar
-	IsAnomaly   bool   `json:"is_anomaly"`   // Color of bar (Red/Green)
-	MainCause   string `json:"main_cause"`   // Top component driving errors
-}
-
-// Stats holds our aggregations
-type SystemStats struct {
-	TotalEvents      int            `json:"total_events"`
-	FailureProb      float64        `json:"failure_probability"` // 0-100%
-	PredictedNextVal float64        `json:"predicted_next_val"`  // Linear Regression Result
-	DeathSpiralStage int            `json:"death_spiral_stage"`  // 0, 1, 2, 3
-	TopErrors        []string       `json:"top_errors"`
-	Timeline         []TimeBin      `json:"timeline"`
-	ComponentCounts  map[string]int `json:"component_counts"`
+// AnalyzeRequest for the AI analysis endpoint
+type AnalyzeRequest struct {
+	ErrorMsg string `json:"error_msg"`
 }
 
 // OllamaRequest for sending prompts to Ollama
@@ -57,334 +44,262 @@ type OllamaResponse struct {
 	Response string `json:"response"`
 }
 
-var (
-	rawLogs []LogEvent
-	stats   SystemStats
-)
+// ========================================
+// GLOBALS: In-Memory Data Store (O(1) access)
+// ========================================
+
+var anomalies []Anomaly
+
+// ========================================
+// CONFIGURATION
+// ========================================
 
 const (
-	LogFile = "esx-SGRL-ESX01-2026-01-10--09.39-2102690/var/run/log/vmkernel.log"
-	Port    = ":3000"
-
-	OllamaAPIEndpoint = "http://localhost:11434/api/generate"
-	OllamaModel       = "llama3" // Or "mistral", "phi3", etc.
+	CSVFile       = "anomaly_report.csv"
+	Port          = ":3000"
+	OllamaURL     = "http://localhost:11434/api/generate"
+	OllamaModel   = "llama3.2"
+	OllamaTimeout = 30 * time.Second
 )
 
+// ========================================
+// MAIN ENTRY POINT
+// ========================================
+
 func main() {
-	// 1. Ingest & Feature Engineering
-	processLogData()
+	// 1. Data Ingestion: Load CSV into memory on startup
+	loadAnomalies()
 
-	// 2. Setup Server
-	app := fiber.New()
-	app.Use(cors.New())
-
-	// API: Get the high-level stats & timeline (Lightweight)
-	app.Get("/api/stats", func(c *fiber.Ctx) error {
-		return c.JSON(stats)
+	// 2. Setup Fiber Server
+	app := fiber.New(fiber.Config{
+		AppName: "AIOps Dashboard v1.0",
 	})
 
-	// API: Trigger SRE Analysis (Ollama)
-	app.Post("/api/analyze", handleAIAnalysis)
+	// Enable CORS for development
+	app.Use(cors.New())
 
-	// API: Explain Specific Log (Ollama)
-	app.Post("/api/explain", handleLogExplanation)
+	// ========================================
+	// ROUTES
+	// ========================================
 
-	app.Get("/api/health", func(c *fiber.Ctx) error { return c.SendStatus(200) })
-	app.Get("/", func(c *fiber.Ctx) error { return c.SendFile("./index.html") })
+	// Serve the frontend
+	app.Get("/", func(c *fiber.Ctx) error {
+		return c.SendFile("./index.html")
+	})
 
-	log.Printf("🚀 Predictive Engine running on http://localhost%s", Port)
+	// API: Return all anomalies as JSON (Phase 1 Deliverable)
+	app.Get("/api/anomalies", func(c *fiber.Ctx) error {
+		return c.JSON(anomalies)
+	})
+
+	// Health check for load balancer
+	app.Get("/api/health", func(c *fiber.Ctx) error {
+		return c.SendString("OK")
+	})
+
+	// AI Proxy: Forward to local Ollama instance (Phase 3)
+	app.Post("/api/analyze", handleAnalyze)
+
+	// ========================================
+	// START SERVER
+	// ========================================
+
+	log.Printf("🚀 AIOps Dashboard running at http://localhost%s", Port)
+	log.Printf("📊 Loaded %d anomalies from %s", len(anomalies), CSVFile)
 	log.Fatal(app.Listen(Port))
 }
 
-func processLogData() {
-	file, err := os.Open(LogFile)
+// ========================================
+// DATA INGESTION LOGIC
+// ========================================
+
+// loadAnomalies reads the CSV file into the in-memory slice
+// If the file doesn't exist, it generates mock data (fail-safe)
+func loadAnomalies() {
+	file, err := os.Open(CSVFile)
 	if err != nil {
-		log.Printf("⚠️  Could not open log: %v", err)
+		log.Printf("⚠️  CSV file not found (%s). Generating mock data...", CSVFile)
+		generateMockData()
 		return
 	}
 	defer file.Close()
 
-	// Regex for: 2025-12-27T00:20:40.756Z cpu23:2098417)Elf: 2101: ...
-	re := regexp.MustCompile(`^(\S+) \S+\)(\w+): (.*)$`)
+	reader := csv.NewReader(file)
 
-	var events []LogEvent
-	compCounts := make(map[string]int)
-
-	scanner := bufio.NewScanner(file)
-	for scanner.Scan() {
-		line := scanner.Text()
-		matches := re.FindStringSubmatch(line)
-		if len(matches) == 4 {
-			t, _ := time.Parse(time.RFC3339, matches[1])
-			comp := matches[2]
-			msg := matches[3]
-
-			// Determine Severity
-			sev := "INFO"
-			msgLower := strings.ToLower(msg)
-			if strings.Contains(msgLower, "failed") || strings.Contains(msgLower, "error") {
-				sev = "ERROR"
-			} else if strings.Contains(msgLower, "warning") {
-				sev = "WARN"
-			}
-
-			events = append(events, LogEvent{
-				Timestamp: t,
-				Component: comp,
-				Severity:  sev,
-				Message:   msg,
-			})
-			compCounts[comp]++
-		}
-	}
-	rawLogs = events
-	log.Printf("✅ Parsed %d raw events", len(rawLogs))
-
-	// -- Feature Engineering: 5-Minute Bins --
-	if len(events) == 0 {
+	// Skip header row
+	_, err = reader.Read()
+	if err != nil {
+		log.Printf("⚠️  Error reading CSV header: %v", err)
+		generateMockData()
 		return
 	}
 
-	// Group by 5-min window
-	bins := make(map[int64]*TimeBin) // Key: Unix timestamp / 300
-
-	// Track stats for anomaly detection
-	var totalErrCount float64
-	var binKeys []int64
-
-	for _, e := range events {
-		// Round down to nearest 5 min (300 sec)
-		key := e.Timestamp.Unix() / 300
-
-		if _, exists := bins[key]; !exists {
-			bins[key] = &TimeBin{StartTime: e.Timestamp.Format("15:04")}
-			binKeys = append(binKeys, key)
+	// Parse each row
+	for {
+		record, err := reader.Read()
+		if err != nil {
+			break // End of file
 		}
 
-		if e.Severity == "ERROR" || e.Severity == "WARN" {
-			bins[key].TotalErrors++
-			bins[key].MainCause = e.Component // Simplified "Top Cause" logic
+		if len(record) < 4 {
+			continue // Skip malformed rows
 		}
-	}
 
-	// Calculate Stats for Anomaly Detection (Mean + 2*StdDev)
-	for _, k := range binKeys {
-		totalErrCount += float64(bins[k].TotalErrors)
-	}
-	mean := totalErrCount / float64(len(binKeys))
-
-	// Prepare Final Timeline (Sorted)
-	sort.Slice(binKeys, func(i, j int) bool { return binKeys[i] < binKeys[j] })
-
-	var timeline []TimeBin
-	for _, k := range binKeys {
-		b := bins[k]
-		// Anomaly Logic: Is this bin spikier than average?
-		// Simple threshold for now: > Mean * 1.5
-		if float64(b.TotalErrors) > (mean * 1.5) {
-			b.IsAnomaly = true
+		// Parse timestamp
+		ts, err := time.Parse(time.RFC3339, record[0])
+		if err != nil {
+			ts = time.Now() // Fallback to current time
 		}
-		timeline = append(timeline, *b)
+
+		// Parse risk score
+		score, err := strconv.Atoi(record[3])
+		if err != nil {
+			score = 50 // Default score
+		}
+
+		anomalies = append(anomalies, Anomaly{
+			Timestamp: ts,
+			Component: record[1],
+			Message:   record[2],
+			RiskScore: score,
+		})
 	}
 
-	// -- Final Stats Package --
-	// Calculate Top 5 "Recursive" Errors
-	msgCounts := make(map[string]int)
-	msgComp := make(map[string]string)
-	for _, e := range events {
-		shortMsg := e.Message
-		if len(shortMsg) > 50 {
-			shortMsg = shortMsg[:50] + "..."
-		} // Truncate for display
-		msgCounts[shortMsg]++
-		msgComp[shortMsg] = e.Component
-	}
-
-	// Sort by Frequency
-	type ErrEntry struct {
-		Msg   string
-		Count int
-	}
-	var sortedErrs []ErrEntry
-	for k, v := range msgCounts {
-		sortedErrs = append(sortedErrs, ErrEntry{k, v})
-	}
-	sort.Slice(sortedErrs, func(i, j int) bool { return sortedErrs[i].Count > sortedErrs[j].Count })
-
-	// Pick Top 5
-	var top5 []string
-	for i := 0; i < 5 && i < len(sortedErrs); i++ {
-		// Format: "105|ScsiDeviceIO|Cmd failed due to timeout"
-		entry := fmt.Sprintf("%d|%s|%s", sortedErrs[i].Count, msgComp[sortedErrs[i].Msg], sortedErrs[i].Msg)
-		top5 = append(top5, entry)
-	}
-
-	stats = SystemStats{
-		TotalEvents:     len(events),
-		Timeline:        timeline,
-		ComponentCounts: compCounts,
-		TopErrors:       top5,
-		FailureProb:     0.1,
-	}
-
-	// 1. Calculate Linear Regression Trend
-	stats.PredictedNextVal = predictTrend(timeline)
-
-	// 2. Detect Death Spiral Stage
-	stats.DeathSpiralStage, stats.FailureProb = detectDeathSpiral(compCounts, timeline)
-
-	log.Printf("📊 Generated %d time-bins. Mean: %.2f, Predicted Next: %.2f", len(timeline), mean, stats.PredictedNextVal)
+	log.Printf("✅ Loaded %d anomalies from CSV", len(anomalies))
 }
 
-// Linear Regression: y = mx + b
-func predictTrend(data []TimeBin) float64 {
-	if len(data) < 2 {
-		return 0
+// generateMockData creates sample anomalies if CSV is missing
+func generateMockData() {
+	components := []string{"Network", "Database", "Auth Service", "Storage", "API Gateway", "Payment Service"}
+	messages := []string{
+		"Connection timeout from 10.0.0.5",
+		"High latency detected on /api/v1/users",
+		"Invalid token signature User: admin",
+		"Disk usage above 90% on /mnt/data",
+		"Certificate expiration warning",
+		"Transaction processing delay",
 	}
 
-	// Take last 12 points (1 hour) for trend
-	n := len(data)
-	if n > 12 {
-		data = data[n-12:]
-		n = 12
+	now := time.Now()
+	for i := 0; i < 20; i++ {
+		anomalies = append(anomalies, Anomaly{
+			Timestamp: now.Add(time.Duration(-i*15) * time.Minute),
+			Component: components[i%len(components)],
+			Message:   messages[i%len(messages)],
+			RiskScore: 30 + (i*5)%70,
+		})
 	}
 
-	var sumX, sumY, sumXY, sumX2 float64
-	for i, d := range data {
-		x := float64(i)
-		y := float64(d.TotalErrors)
-		sumX += x
-		sumY += y
-		sumXY += x * y
-		sumX2 += x * x
-	}
-
-	// Slope (m)
-	m := (float64(n)*sumXY - sumX*sumY) / (float64(n)*sumX2 - sumX*sumX)
-	// Intercept (b)
-	b := (sumY - m*sumX) / float64(n)
-
-	// Predict next point (x = n)
-	next := m*float64(n) + b
-	if next < 0 {
-		return 0
-	}
-	return next
+	log.Printf("✅ Generated %d mock anomalies", len(anomalies))
 }
 
-// Heuristic: Check for "Death Spiral" Patterns
-func detectDeathSpiral(counts map[string]int, timeline []TimeBin) (int, float64) {
-	stage := 0
-	prob := 10.0
+// ========================================
+// AI INTEGRATION LOGIC (Ollama Reverse Proxy)
+// ========================================
 
-	// Phase 1: Management Blindness (Hostd/Vpxa flakey)
-	if counts["hostd"] > 5 || counts["vpxa"] > 5 {
-		stage = 1
-		prob = 35.0
+// handleAnalyze acts as a REVERSE PROXY to the local Ollama instance.
+//
+// PROXY PATTERN:
+// 1. Frontend calls POST /api/analyze (avoids CORS issues)
+// 2. Go backend constructs the "System Doctor" prompt
+// 3. Go backend forwards request to Ollama (localhost:11434)
+// 4. If Ollama is offline/times out, return a static fallback response
+// 5. Return AI response (or fallback) to frontend
+//
+// This pattern is superior to direct browser->Ollama calls because:
+// - No CORS configuration needed on Ollama
+// - Backend can rate-limit, cache, or log AI requests
+// - Backend provides graceful fallback if AI is unavailable
+func handleAnalyze(c *fiber.Ctx) error {
+	var req AnalyzeRequest
+	if err := c.BodyParser(&req); err != nil {
+		return c.Status(400).JSON(fiber.Map{"error": "Invalid request body"})
 	}
 
-	// Phase 2: IO Choke (SCSI Latency / Storage)
-	// If we are already in Stage 1 OR have massive SCSI errors
-	if (stage == 1 && counts["ScsiDeviceIO"] > 10) || counts["ScsiDeviceIO"] > 50 {
-		stage = 2
-		prob = 65.0
-	}
+	// Construct the "System Doctor" prompt
+	prompt := fmt.Sprintf(`You are "Dr. System", a friendly and knowledgeable System Doctor who diagnoses infrastructure ailments.
 
-	// Phase 3: Terminal (Memory Exhaustion / Fatal)
-	// Check for specific keywords in recent bins
-	for i := len(timeline) - 1; i >= 0 && i > len(timeline)-6; i-- {
-		// If recent bins are Anomaly AND we have accumulated memory errors
-		if timeline[i].IsAnomaly && (counts["UserMem"] > 0 || counts["VisorFSRam"] > 0) {
-			stage = 3
-			prob = 98.5
-			break
-		}
-	}
+A patient (system component) is showing the following symptoms:
+"%s"
 
-	return stage, prob
-}
+Please provide:
 
-// -- AI Integration --
+🩺 **DIAGNOSIS** (What's happening, explained simply for a non-technical manager)
+Explain what this error means in plain, comforting terms. Use a medical analogy if helpful.
 
-func handleAIAnalysis(c *fiber.Ctx) error {
-	// Construct the SRE Prompt
-	prompt := fmt.Sprintf(`
-Role: Principal Site Reliability Engineer (SRE).
-Context: Analyzing VMware ESXi logs for imminent failure.
-Data:
-- Total Events: %d
-- Top Failing Component: %s
-- Prediction: "Death Spiral" Stage %d (Prob: %.1f%%)
-- Top Recurring Errors: %v
+💊 **PRESCRIPTION** (Technical remedy for the engineer)
+Provide 1-2 specific, actionable fixes the ops team can implement immediately.
 
-Task: Write a concise "Predictive Infrastructure Health Report".
-1. Executive Summary: One-liner on current state.
-2. Root Cause Analysis: Interpret the top errors (e.g. Memory affecting Storage).
-3. Predicted Downtime: Estimate when the system might crash if untreated.
-4. Next Best Action: Specific remediation (vMotion, Reboot, etc).
+🔮 **PROGNOSIS** (What happens if untreated)
+Briefly describe the risk of ignoring this issue.
 
-Output Format: Plain text, professional tone, no markdown.
-`, stats.TotalEvents, "Unknown", stats.DeathSpiralStage, stats.FailureProb, stats.TopErrors)
+Keep your response concise but thorough. Be helpful and reassuring.`, req.ErrorMsg)
 
-	reqBody, _ := json.Marshal(OllamaRequest{
-		Model:  "llama3.1",
+	// Create Ollama request
+	ollamaReq := OllamaRequest{
+		Model:  OllamaModel,
 		Prompt: prompt,
 		Stream: false,
-	})
+	}
 
-	// Call Ollama
-	resp, err := http.Post("http://localhost:11434/api/generate", "application/json", bytes.NewBuffer(reqBody))
+	reqBody, err := json.Marshal(ollamaReq)
 	if err != nil {
-		return c.Status(503).SendString("Ollama not running: " + err.Error())
+		return c.Status(500).JSON(fiber.Map{"error": "Failed to create request"})
+	}
+
+	// Call Ollama with timeout
+	client := &http.Client{Timeout: OllamaTimeout}
+	resp, err := client.Post(OllamaURL, "application/json", bytes.NewBuffer(reqBody))
+
+	// FAIL-SAFE: If Ollama is offline, return static analysis
+	if err != nil {
+		log.Printf("⚠️  Ollama unavailable: %v", err)
+		return c.JSON(fiber.Map{
+			"response": generateFallbackAnalysis(req.ErrorMsg),
+			"source":   "fallback",
+		})
 	}
 	defer resp.Body.Close()
 
-	var result OllamaResponse
-	json.NewDecoder(resp.Body).Decode(&result)
-
-	return c.JSON(result)
-}
-
-// -- Single Log Explanation --
-
-type LogExplanationRequest struct {
-	Component string `json:"component"`
-	Message   string `json:"message"`
-}
-
-func handleLogExplanation(c *fiber.Ctx) error {
-	var body LogExplanationRequest
-	if err := c.BodyParser(&body); err != nil {
-		return c.Status(400).SendString(err.Error())
+	// Check for non-200 response
+	if resp.StatusCode != http.StatusOK {
+		log.Printf("⚠️  Ollama returned status %d", resp.StatusCode)
+		return c.JSON(fiber.Map{
+			"response": generateFallbackAnalysis(req.ErrorMsg),
+			"source":   "fallback",
+		})
 	}
 
-	prompt := fmt.Sprintf(`
-Role: VMware Expert SRE.
-Log Component: %s
-Log Message: "%s"
+	// Parse Ollama response
+	var ollamaResp OllamaResponse
+	if err := json.NewDecoder(resp.Body).Decode(&ollamaResp); err != nil {
+		log.Printf("⚠️  Failed to decode Ollama response: %v", err)
+		return c.JSON(fiber.Map{
+			"response": generateFallbackAnalysis(req.ErrorMsg),
+			"source":   "fallback",
+		})
+	}
 
-Task:
-1. Simplify: Explain what this error means in plain English.
-2. Fix: Suggest 1 concrete command or action to resolve it.
-
-Output Format:
-**Explanation:** ...
-**Suggested Fix:** ...
-`, body.Component, body.Message)
-
-	reqBody, _ := json.Marshal(OllamaRequest{
-		Model:  "llama3.1",
-		Prompt: prompt,
-		Stream: false,
+	return c.JSON(fiber.Map{
+		"response": ollamaResp.Response,
+		"source":   "ollama",
 	})
+}
 
-	resp, err := http.Post("http://localhost:11434/api/generate", "application/json", bytes.NewBuffer(reqBody))
-	if err != nil {
-		return c.Status(503).SendString("Ollama error: " + err.Error())
-	}
-	defer resp.Body.Close()
+// generateFallbackAnalysis provides a static response when Ollama is unavailable
+func generateFallbackAnalysis(errorMsg string) string {
+	return fmt.Sprintf(`🩺 **DIAGNOSIS**
+The system is experiencing an infrastructure anomaly. The logged error indicates a potential service degradation that should be investigated promptly.
 
-	var result OllamaResponse
-	json.NewDecoder(resp.Body).Decode(&result)
-	return c.JSON(result)
+💊 **PRESCRIPTION**
+1. Check the affected component's logs for more context
+2. Verify network connectivity and resource availability
+3. Consider restarting the affected service if the issue persists
+
+🔮 **PROGNOSIS**
+If left unaddressed, this issue could escalate to service disruption affecting dependent systems.
+
+---
+⚠️ *Note: AI analysis is currently offline. This is a static fallback response.*
+Error analyzed: "%s"`, errorMsg)
 }
