@@ -1,0 +1,57 @@
+<config>
+<!--  Hostd standalone CGI server configuration file -->
+
+   <!-- the version of this config file -->
+   <version>6.0.0.0</version>
+
+   <!-- working directory  -->
+   <workingDir>/var/log/vmware/</workingDir>
+
+   <!-- location to examine for configuration files that are needed -->
+   <defaultConfigPath> /etc/vmware/ </defaultConfigPath>
+
+   <log>
+      <!-- controls where rolling log files are stored -->
+      <directory>/var/log/vmware/</directory>
+
+      <!-- name of log file -->
+      <name>hostdCgiServer</name>
+
+      <!-- controls whether logger sends its output to console also -->
+      <outputToConsole>false</outputToConsole>
+
+      <!-- If true, log to files on disk -->
+      <outputToFiles>false</outputToFiles>
+
+      <!-- default size (in bytes) of each log file before rolling over -->
+      <maxFileSize>524288</maxFileSize>
+
+      <!-- default number of log files to rotate amongst -->
+      <maxFileNum>8</maxFileNum>
+
+      <!-- default log level -->
+      <!-- <level/> -->
+
+      <!-- If true, logs to syslog -->
+      <outputToSyslog>true</outputToSyslog>
+
+      <!-- syslog configuration.  Only used if outputToSyslog is true. -->
+      <syslog>
+         <!-- syslog identifier to use when logging -->
+         <ident>hostdCgiServer</ident>
+
+         <!-- syslog facility to use when logging -->
+         <facility>local4</facility>
+      </syslog>
+   </log>
+
+   <server>
+      <httpPort>8303</httpPort>
+   </server>
+
+   <vmacore>
+      <pamServiceName>hostd-cgi</pamServiceName>
+   </vmacore>
+
+
+</config>

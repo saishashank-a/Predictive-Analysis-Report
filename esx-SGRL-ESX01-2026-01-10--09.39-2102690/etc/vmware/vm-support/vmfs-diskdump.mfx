@@ -1,0 +1,8 @@
+% Manifest name: VMFSDiskDump
+% Manifest group: FileSystem
+% Manifest default: Enabled
+% Manifest tag: filesystem
+
+# action Options file/command
+copy IGNORE_ERROR,IGNORE_MISSING /var/core/*vmfsdump.gz
+

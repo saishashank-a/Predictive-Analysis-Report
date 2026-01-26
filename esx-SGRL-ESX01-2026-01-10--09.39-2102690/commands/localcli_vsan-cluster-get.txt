@@ -1,0 +1,2 @@
+Errors: 
+vSAN Clustering is not enabled on this host

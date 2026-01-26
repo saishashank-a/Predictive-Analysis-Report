@@ -1,0 +1,440 @@
+###
+### File to describe some constraints on what file paths may be used when
+### powering on a virtual machine.
+###
+### CONFIGRULES_VERSION 61.0.0
+###
+### Note: Do not reuse the version number between releases.
+###
+
+# Basic list to describe some paths no VM device backends should be using.
+rule "No System Files"
+{
+  vm regex ".*"
+
+  # General VM paths
+  key match "suspend.directory"
+  key match "redoLogDir"
+  key match "workingDir"
+  key match "workingDirectory"
+  key match "vmx.stdin"
+  key match "vmx.stdout"
+  key match "vmx.stderr"
+  key match "vmx.allocTrack.logFile"
+  key match "vmx.fileTrack.logFile"
+  key regex "^.*log.fileName$"
+
+  # nvram
+  key match "nvram"
+  key match "nvram_default"
+
+  # ROMs
+  key match "bios440.filename"
+  key match "efi32.filename"
+  key match "efi64.filename"
+  key match "sbios.filename"
+  key match "vbios.filename"
+  key match "lsibios.filename"
+  key match "nbios.filename"
+  key match "nxbios.filename"
+  key match "e1000bios.filename"
+  key match "e1000ebios.filename"
+  key match "sas1068bios.filename"
+  key match "nx3bios.filename"
+  key match "pvscsibios.filename"
+  key match "ahcibios.filename"
+  key match "nvmebios.filename"
+
+  # Hostlog
+  key match "migrate.hostlog"
+
+  # Serial file backend. 4 devices
+  key regex "^serial[0-9]+\.fileName$"
+
+  # Parallel file backend. 4 devices
+  key regex "^parallel[0-9]+\.fileName$"
+
+  # Floppy file backend. 4 devices
+  key regex "^floppy[0-9]+\.fileName$"
+
+  # IDE device backend. 2 controllers, 2 devices each
+  key regex "^ide[0-9]+:[0-9]+\.fileName$"
+
+  # SCSI device backend. 4 controllers, 16 devices each
+  key regex "^scsi[0-9]+:[0-9]+\.name$"
+  key regex "^scsi[0-9]+:[0-9]+\.fileName$"
+
+  # SATA device backend. 4 controllers, 30 devices each
+  key regex "^sata[0-9]+:[0-9]+\.fileName$"
+
+  # NVMe device backend. 4 controllers, 15 devices each
+  key regex "^nvme[0-9]+:[0-9]+\.fileName$"
+
+  # Guest Secure Boot default data files.
+  key regex "^uefi.secureBoot.(PK|KEK|db|dbx|dbr|dbt)Default.file[0-9]+$"
+
+  # Service Console Paths
+  reject regex_case "^/bin/?"
+  reject regex_case "^/boot/?"
+  reject regex_case "^/etc/?"
+  reject regex_case "^/home/?"
+  reject regex_case "^/initrd/?"
+  reject regex_case "^/lib/?"
+  reject regex_case "^/mnt/?"
+  reject regex_case "^/opt/?"
+  reject regex_case "^/proc/?"
+  reject regex_case "^/root/?"
+  reject regex_case "^/sbin/?"
+  reject regex_case "^/tmp/?"
+  reject regex_case "^/var/?"
+
+  # VMvisor paths
+  reject regex_case "^/altbootbank/?"
+  reject regex_case "^/bootbank/?"
+  reject regex_case "^/locker/?"
+  reject regex_case "^/mod/?"
+  reject regex_case "^/productLocker/?"
+  reject regex_case "^/scratch/?"
+  reject regex_case "^/share/?"
+  reject regex_case "^/store/?"
+  reject regex_case "^/vmupgrade/?"
+  reject regex_case "^/vmfs/volumes/Hypervisor[1-3]"
+
+  # /etc/init.d/hostd will sync the lines between the below markers on start.
+  # SPECIAL_PATHS_START_TAG
+  # reject regex_case "^/vmfs/volumes/..."
+  # SPECIAL_PATHS_END_TAG
+
+  # No parent directories in a path component
+  reject regex "^(.*/)?\.\.(/.*)?$"
+}
+
+
+# Rule to restrict everything under /usr except the virtual media
+rule "No Files Under /usr Except Virtual Media"
+{
+  vm regex ".*"
+
+  # General VM paths
+  key match "suspend.directory"
+  key match "redoLogDir"
+  key match "workingDir"
+  key match "workingDirectory"
+  key match "vmx.stdin"
+  key match "vmx.stdout"
+  key match "vmx.stderr"
+  key match "vmx.allocTrack.logFile"
+  key match "vmx.fileTrack.logFile"
+  key regex "^.*log.fileName$"
+
+  # nvram
+  key match "nvram"
+  key match "nvram_default"
+
+  # ROMs
+  key match "bios440.filename"
+  key match "efi32.filename"
+  key match "efi64.filename"
+  key match "sbios.filename"
+  key match "vbios.filename"
+  key match "lsibios.filename"
+  key match "nbios.filename"
+  key match "nxbios.filename"
+  key match "e1000bios.filename"
+  key match "e1000ebios.filename"
+  key match "sas1068bios.filename"
+  key match "nx3bios.filename"
+  key match "pvscsibios.filename"
+  key match "ahcibios.filename"
+  key match "nvmebios.filename"
+
+  # Serial file backend. 4 devices
+  key regex "^serial[0-9]+\.fileName$"
+
+  # Parallel file backend. 4 devices
+  key regex "^parallel[0-9]+\.fileName$"
+
+  # Floppy file backend. 4 devices
+  key regex "^floppy[0-9]+\.fileName$"
+
+  # IDE device backend. 2 controllers, 2 devices each
+  key regex "^ide[0-9]+:[0-9]+\.fileName$"
+
+  # SCSI device backend. 4 controllers, 16 devices each
+  key regex "^scsi[0-9]+:[0-9]+\.name$"
+  key regex "^scsi[0-9]+:[0-9]+\.fileName$"
+
+  # SATA device backend. 4 controllers, 30 devices each
+  key regex "^sata[0-9]+:[0-9]+\.fileName$"
+
+  # NVMe device backend. 4 controllers, 15 devices each
+  key regex "^nvme[0-9]+:[0-9]+\.fileName$"
+
+  # Service Console Paths
+  accept prefix_case "/usr/lib/vmware/isoimages/"
+  accept prefix_case "/usr/lib/vmware/floppies/"
+  accept !regex_case "^/usr/"
+}
+
+
+# General virtual machine files may only reside on the VMFS volume
+rule "General Virtual Machine Files"
+{
+  vm regex ".*"
+
+  # General VM paths
+  key match "suspend.directory"
+  key match "redoLogDir"
+  key match "workingDir"
+  key match "workingDirectory"
+  key match "vmx.stdin"
+  key match "vmx.stdout"
+  key match "vmx.stderr"
+  key match "vmx.allocTrack.logFile"
+  key match "vmx.fileTrack.logFile"
+  key regex "^.*log.fileName$"
+
+  # Only allow paths under /vmfs/volumes and relative paths
+  accept prefix_case "/vmfs/volumes/"
+  accept !prefix     "/"
+}
+
+
+# fileSearchPath is like workingDir, but it is a semi-colon delimited list
+rule "fileSearchPath"
+{
+  vm regex ".*"
+
+  key match "fileSearchPath"
+
+  # Relative paths are allowed, as they are relative to the .vmx config file
+  # location.  "." must be allowed, but ".." must be rejected.
+
+  # Reject any absolute path that does not match /vmfs/volumes/
+  # for the first path
+  reject regex_case "^/(([^v])|(v[^m])|(vm[^f])|(vmf[^s])|(vmfs[^/])|(vmfs/[^v])|(vmfs/v[^o])|(vmfs/vo[^l])|(vmfs/vol[^u])|(vmfs/volu[^m])|(vmfs/volum[^e])|(vmfs/volume[^s])|(vmfs/volumes[^/]))"
+  # for any subsequent path following a ';'
+  reject regex_case ";/(([^v])|(v[^m])|(vm[^f])|(vmf[^s])|(vmfs[^/])|(vmfs/[^v])|(vmfs/v[^o])|(vmfs/vo[^l])|(vmfs/vol[^u])|(vmfs/volu[^m])|(vmfs/volum[^e])|(vmfs/volume[^s])|(vmfs/volumes[^/]))"
+
+  # No parent directories in a path component
+  reject regex "^(.*/)?\.\.(/.*)?$"
+}
+
+
+# Virtual SCSI devices can point to VMFS volume or raw device.
+rule "Virtual SCSI or NVMe Devices"
+{
+  vm regex ".*"
+
+  # SCSI device backend. 4 controllers, 16 devices each
+  key regex "^scsi[0-9]+:[0-9]+\.name$"
+  key regex "^scsi[0-9]+:[0-9]+\.fileName$"
+  key regex "^nvme[0-9]+:[0-9]+\.fileName$"
+
+  # Reject disk names that end in "-flat.vmdk" (PR 1074254).
+  reject suffix_case "-flat.vmdk"
+  reject suffix_case "-rdm.vmdk"
+  reject suffix_case "-rdmp.vmdk"
+
+  # Reject file names that end with special suffix which are used by vmware.
+  reject suffix_case ".vmx"
+  reject suffix_case ".nvram"
+  reject suffix_case ".vmsn"
+  reject suffix_case ".vmss"
+  reject suffix_case ".vmsd"
+  reject suffix_case ".vmxf"
+  reject suffix_case ".vswp"
+
+  # Only allow paths under /vmfs/ and relative paths
+  accept prefix_case "/vmfs/"
+  accept !prefix     "/"
+}
+
+
+rule "Virtual SATA Devices"
+{
+  vm regex ".*"
+
+  # SATA device backend. 4 controllers, 30 devices each
+  key regex "^sata[0-3]:([12]?[0-9])\.fileName$"
+
+  # Reject disk names that end in "-flat.vmdk" (PR 1074254).
+  reject suffix_case "-flat.vmdk"
+  reject suffix_case "-rdm.vmdk"
+  reject suffix_case "-rdmp.vmdk"
+
+  # Reject file names that end with special suffix which are used by vmware.
+  reject suffix_case ".vmx"
+  reject suffix_case ".nvram"
+  reject suffix_case ".vmsn"
+  reject suffix_case ".vmss"
+  reject suffix_case ".vmsd"
+  reject suffix_case ".vmxf"
+  reject suffix_case ".vswp"
+
+  # Allow CDROM devices
+  accept regex_case  "^/dev/cdrom[0-9]*$"
+  accept regex_case  "^/dev/hd[a-z]$"
+  accept regex_case  "^/dev/scd[0-9]+$"
+
+  # Only allow paths under /vmfs/, /vmimages, and relative paths
+  accept prefix_case "/vmfs/"
+  accept prefix_case "/vmimages/"
+  accept prefix_case "/usr/lib/vmware/isoimages/"
+  accept !prefix     "/"
+
+  # Virtual Center sets dummy values
+  accept match       "/null.iso"
+}
+
+
+# Virtual ROM can only point to VMFS volume.
+rule "Virtual ROMs"
+{
+  vm regex ".*"
+
+  # ROMs
+  key match "bios440.filename"
+  key match "efi32.filename"
+  key match "efi64.filename"
+  key match "sbios.filename"
+  key match "vbios.filename"
+  key match "lsibios.filename"
+  key match "nbios.filename"
+  key match "nxbios.filename"
+  key match "e1000bios.filename"
+  key match "e1000ebios.filename"
+  key match "sas1068bios.filename"
+  key match "nx3bios.filename"
+  key match "pvscsibios.filename"
+  key match "ahcibios.filename"
+  key match "nvmebios.filename"
+
+  # Only allow paths under /vmfs/ and relative paths
+  accept prefix_case "/vmfs/"
+  accept !prefix     "/"
+}
+
+
+# Virtual IDE devices can point to VMFS volume, raw device, or virtual
+# tools media.
+rule "Virtual IDE Devices"
+{
+  vm regex ".*"
+
+  # IDE device backend. 2 controllers, 2 devices each
+  key regex "^ide[0-9]+:[0-9]+\.fileName$"
+
+  # Reject disk names that end in "-flat.vmdk" (PR 1074254).
+  reject suffix_case "-flat.vmdk"
+  reject suffix_case "-rdm.vmdk"
+  reject suffix_case "-rdmp.vmdk"
+
+  # Reject file names that end with special suffix which are used by vmware.
+  reject suffix_case ".vmx"
+  reject suffix_case ".nvram"
+  reject suffix_case ".vmsn"
+  reject suffix_case ".vmss"
+  reject suffix_case ".vmsd"
+  reject suffix_case ".vmxf"
+  reject suffix_case ".vswp"
+
+  # Allow CDROM devices
+  accept regex_case  "^/dev/cdrom[0-9]*$"
+  accept regex_case  "^/dev/hd[a-z]$"
+  accept regex_case  "^/dev/scd[0-9]+$"
+
+  # Only allow paths under /vmfs/, /vmimages, and relative paths
+  accept prefix_case "/vmfs/"
+  accept prefix_case "/vmimages/"
+  accept prefix_case "/usr/lib/vmware/isoimages/"
+  accept !prefix     "/"
+
+  # Virtual Center sets dummy values
+  accept match       "/null.iso"
+}
+
+
+# Virtual IDE devices can point to VMFS volume, physical floppy device, or
+# virtual tools media.
+rule "Virtual Floppy Device Backend"
+{
+  vm regex ".*"
+
+  # Floppy file backend. 4 devices
+  key regex "^floppy[0-9]+\.fileName$"
+
+  # Reject file names that end with special suffix which are used by vmware.
+  reject suffix_case ".vmx"
+  reject suffix_case ".vmdk"
+  reject suffix_case ".nvram"
+  reject suffix_case ".vmsn"
+  reject suffix_case ".vmss"
+  reject suffix_case ".vmsd"
+  reject suffix_case ".vmxf"
+  reject suffix_case ".vswp"
+
+  # Under /dev, only allow floppy device backends
+  accept regex_case  "^/dev/fd[0-9]+$"
+  accept prefix_case "/vmfs/volumes/"
+  accept prefix_case "/vmimages/"
+  accept prefix_case "/usr/lib/vmware/floppies/"
+  accept !prefix     "/"
+
+  # Virtual Center sets dummy values
+  accept match       "/null.flp"
+}
+
+
+# Under /dev, allow only /dev/ttyS* to be used as serial port backends.
+# Allow files in the VMFS volume.
+rule "Virtual Serial Port Device Backend"
+{
+  vm regex ".*"
+
+  # Serial file backend. 4 devices
+  key regex "^serial[0-9]+\.fileName$"
+
+  # Reject file names that end with special suffix which are used by vmware.
+  reject suffix_case ".vmx"
+  reject suffix_case ".vmdk"
+  reject suffix_case ".nvram"
+  reject suffix_case ".vmsn"
+  reject suffix_case ".vmss"
+  reject suffix_case ".vmsd"
+  reject suffix_case ".vmxf"
+  reject suffix_case ".vswp"
+
+  # Under /dev, only allow serial port device backends
+  accept regex_case  "^/dev/ttyS[0-9]+$"
+  accept regex_case  "^/dev/char/serial/uart[0-9]+$"
+  accept regex_case  "^/vmfs/devices/char/serial/uart[0-9]+$"
+  accept prefix_case "/vmfs/volumes/"
+  accept !prefix     "/"
+}
+
+
+# Under /dev, allow only /dev/parport* to be used as a parallel port backend.
+# Allow files in the VMFS volume.
+rule "Virtual Parallel Port Device Backend"
+{
+  vm regex ".*"
+
+  # Parallel file backend. 4 devices
+  key regex "^parallel[0-9]+\.fileName$"
+
+  # Reject file names that end with special suffix which are used by vmware.
+  reject suffix_case ".vmx"
+  reject suffix_case ".vmdk"
+  reject suffix_case ".nvram"
+  reject suffix_case ".vmsn"
+  reject suffix_case ".vmss"
+  reject suffix_case ".vmsd"
+  reject suffix_case ".vmxf"
+  reject suffix_case ".vswp"
+
+  # Under /dev, only allow parallel port device backends
+  accept regex_case  "^/dev/parport[0-9]+$"
+  accept prefix_case "/vmfs/volumes/"
+  accept !prefix     "/"
+}

@@ -1,0 +1,44 @@
+#
+# This file is mechanically generated.  Any changes you make
+# manually will be lost at the next build.
+#
+# Please edit <driver>_devices.py file for permanent changes.
+#
+# Vendors, devices and subsystems.
+#
+# Syntax (initial indentation must be done with TAB characters):
+#
+# vendor  vendor_name
+#       device  device_name                            <-- single TAB
+#               subvendor subdevice  subsystem_name    <-- two TABs
+
+8086  Intel(R)
+	10f7  10-Gigabit BR KX4 Dual Port Network Connection
+	10f8  82599 10 Gigabit Dual Port Backplane Connection
+	10f9  82599 10 Gigabit CX4 Dual Port Network Connection
+	10fb  82599 10 Gigabit Dual Port Network Connection
+	10fc  82599 10 Gigabit Dual Port Network Connection
+	1507  Ethernet Express Module X520-P2
+	1514  Ethernet X520 10GbE Dual Port KX4 Mezz
+	1517  82599ES 10 Gigabit Network Connection
+	1528  Ethernet Controller 10 Gigabit X540-AT2
+	154d  Ethernet 10G 2P X520 Adapter
+	1557  82599 10 Gigabit Network Connection
+	1558  Ethernet Converged Network Adapter X520-Q1
+	1560  Ethernet Controller X540-AT1
+	1563  Ethernet Controller X550
+	15aa  Ethernet Connection X552 10 GbE Backplane
+	15ab  Ethernet Connection X552 10 GbE Backplane
+	15ac  Ethernet Connection X552 10 GbE SFP+
+	15ad  Ethernet Connection X552/X557-AT 10GBASE-T
+	15ae  Ethernet Connection X552 1000BASE-T
+	15c2  Ethernet Connection X553 Backplane
+	15c3  Ethernet Connection X553 Backplane
+	15c4  Ethernet Connection X553 10 GbE SFP+
+	15c6  Ethernet Connection X553 1GbE
+	15c7  Ethernet Connection X553 1GbE
+	15c8  Ethernet Connection X553/X557-AT 10GBASE-T
+	15ce  Ethernet Connection X553 10 GbE SFP+
+	15d1  Ethernet Controller X550
+	15e4  Ethernet Connection X553 1GbE
+	15e5  Ethernet Connection X553 1GbE

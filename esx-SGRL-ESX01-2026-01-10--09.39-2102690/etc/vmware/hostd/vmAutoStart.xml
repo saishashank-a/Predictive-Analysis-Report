@@ -1,0 +1,78 @@
+<ConfigRoot>
+  <AutoStartOrder>
+    <_length>5</_length>
+    <_type>vim.host.AutoStartManager.AutoPowerInfo[]</_type>
+    <e id="0">
+      <_type>vim.host.AutoStartManager.AutoPowerInfo</_type>
+      <key>
+        <_type>vim.VirtualMachine</_type>
+        <moid>28</moid>
+      </key>
+      <startAction>powerOn</startAction>
+      <startDelay>-1</startDelay>
+      <startOrder>1</startOrder>
+      <stopAction>systemDefault</stopAction>
+      <stopDelay>-1</stopDelay>
+      <waitForHeartbeat>systemDefault</waitForHeartbeat>
+    </e>
+    <e id="1">
+      <_type>vim.host.AutoStartManager.AutoPowerInfo</_type>
+      <key>
+        <_type>vim.VirtualMachine</_type>
+        <moid>12</moid>
+      </key>
+      <startAction>powerOn</startAction>
+      <startDelay>-1</startDelay>
+      <startOrder>2</startOrder>
+      <stopAction>systemDefault</stopAction>
+      <stopDelay>-1</stopDelay>
+      <waitForHeartbeat>systemDefault</waitForHeartbeat>
+    </e>
+    <e id="2">
+      <_type>vim.host.AutoStartManager.AutoPowerInfo</_type>
+      <key>
+        <_type>vim.VirtualMachine</_type>
+        <moid>54</moid>
+      </key>
+      <startAction>powerOn</startAction>
+      <startDelay>-1</startDelay>
+      <startOrder>3</startOrder>
+      <stopAction>systemDefault</stopAction>
+      <stopDelay>-1</stopDelay>
+      <waitForHeartbeat>systemDefault</waitForHeartbeat>
+    </e>
+    <e id="3">
+      <_type>vim.host.AutoStartManager.AutoPowerInfo</_type>
+      <key>
+        <_type>vim.VirtualMachine</_type>
+        <moid>13</moid>
+      </key>
+      <startAction>powerOn</startAction>
+      <startDelay>-1</startDelay>
+      <startOrder>4</startOrder>
+      <stopAction>systemDefault</stopAction>
+      <stopDelay>-1</stopDelay>
+      <waitForHeartbeat>systemDefault</waitForHeartbeat>
+    </e>
+    <e id="4">
+      <_type>vim.host.AutoStartManager.AutoPowerInfo</_type>
+      <key>
+        <_type>vim.VirtualMachine</_type>
+        <moid>21</moid>
+      </key>
+      <startAction>none</startAction>
+      <startDelay>-1</startDelay>
+      <startOrder>-1</startOrder>
+      <stopAction>systemDefault</stopAction>
+      <stopDelay>-1</stopDelay>
+      <waitForHeartbeat>systemDefault</waitForHeartbeat>
+    </e>
+  </AutoStartOrder>
+  <SystemDefaults>
+    <_type>vim.host.AutoStartManager.SystemDefaults</_type>
+    <startDelay>120</startDelay>
+    <stopAction>powerOff</stopAction>
+    <stopDelay>120</stopDelay>
+    <waitForHeartbeat>false</waitForHeartbeat>
+  </SystemDefaults>
+</ConfigRoot>

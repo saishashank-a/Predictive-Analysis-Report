@@ -1,0 +1,21 @@
+# Disk DescriptorFile
+version=1
+encoding="UTF-8"
+CID=fffffffe
+parentCID=ffffffff
+createType="vmfs"
+
+# Extent description
+RW 314572800 VMFS "RHEL10-TMPL-flat.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.geometry.cylinders = "19581"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "a7f7961dbbef5bc3afb06745fffffffe"
+ddb.thinProvisioned = "1"
+ddb.uuid = "60 00 C2 9e 5d a7 b6 9c-c0 18 f0 ac 83 38 f5 d1"
+ddb.virtualHWVersion = "14"

@@ -1,0 +1,7 @@
+% Manifest name: VFlash
+% Manifest group: System
+% Manifest default: Enabled
+% Manifest tag: base,vflash
+# action Options file/command
+
+run TIMEOUT=10,IGNORE_ERROR      /usr/lib/vmware/vm-support/bin/vFlash.sh

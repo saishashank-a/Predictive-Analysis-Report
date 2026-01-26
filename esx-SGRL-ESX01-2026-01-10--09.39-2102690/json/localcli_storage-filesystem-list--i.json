@@ -1,0 +1,53 @@
+
+[
+
+      {
+         "Free": 4515661086720,
+         "Mount Point": "\/vmfs\/volumes\/3a4fd8ce-fc4375c4-effb-5cf3fce846f8",
+         "Mounted": true,
+         "Size": 5385888989184,
+         "Type": "VMFS-6",
+         "UUID": "3a4fd8ce-fc4375c4-effb-5cf3fce846f8",
+         "Volume Name": "datastore1"
+      }, 
+
+      {
+         "Free": 97165312,
+         "Mount Point": "\/vmfs\/volumes\/66630e7d-33d835cd-586e-86703aad3a4f",
+         "Mounted": true,
+         "Size": 261853184,
+         "Type": "vfat",
+         "UUID": "66630e7d-33d835cd-586e-86703aad3a4f",
+         "Volume Name": ""
+      }, 
+
+      {
+         "Free": 4266655744,
+         "Mount Point": "\/vmfs\/volumes\/3a4fd8cf-6ef45abc-002e-5cf3fce846f8",
+         "Mounted": true,
+         "Size": 4293591040,
+         "Type": "vfat",
+         "UUID": "3a4fd8cf-6ef45abc-002e-5cf3fce846f8",
+         "Volume Name": ""
+      }, 
+
+      {
+         "Free": 92233728,
+         "Mount Point": "\/vmfs\/volumes\/3a4fd8c6-3cd0683c-d0c1-5cf3fce846f8",
+         "Mounted": true,
+         "Size": 299712512,
+         "Type": "vfat",
+         "UUID": "3a4fd8c6-3cd0683c-d0c1-5cf3fce846f8",
+         "Volume Name": ""
+      }, 
+
+      {
+         "Free": 261849088,
+         "Mount Point": "\/vmfs\/volumes\/5766f37e-4592eb56-f9ee-6436272ca19f",
+         "Mounted": true,
+         "Size": 261853184,
+         "Type": "vfat",
+         "UUID": "5766f37e-4592eb56-f9ee-6436272ca19f",
+         "Volume Name": ""
+      }
+]

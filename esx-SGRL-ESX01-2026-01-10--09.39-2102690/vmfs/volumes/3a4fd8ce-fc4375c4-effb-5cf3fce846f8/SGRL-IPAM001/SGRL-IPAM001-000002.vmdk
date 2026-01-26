@@ -1,0 +1,15 @@
+# Disk DescriptorFile
+version=1
+encoding="UTF-8"
+CID=2c590e89
+parentCID=2e92d909
+createType="seSparse"
+parentFileNameHint="SGRL-IPAM001.vmdk"
+# Extent description
+RW 314572800 SESPARSE "SGRL-IPAM001-000002-sesparse.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.grain = "8"
+ddb.longContentID = "99b1bd5b1b876a818b26e0b82c590e89"

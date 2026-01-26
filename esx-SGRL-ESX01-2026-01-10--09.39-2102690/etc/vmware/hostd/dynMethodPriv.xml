@@ -1,0 +1,205 @@
+<!--
+   Configuration file supplying required privileges for various dynamic methods.
+   Methods are matched via prefix matching. Only the required privilege associated
+   with the rule with the most specific matching prefix will apply.
+-->
+
+<dynamicMethodPrivilegeConfig>
+   <rule id="1">
+      <typePrefix>vim.EsxCLI.</typePrefix>
+      <privEntry id="1"><privilege>Global.Settings</privilege></privEntry>
+   </rule>
+   <rule id="2">
+      <typePrefix>vim.EsxCLI.esxcli</typePrefix>
+      <privEntry id="1"><privilege>System.View</privilege></privEntry>
+   </rule>
+   <rule id="3">
+      <typePrefix>vim.EsxCLI.system</typePrefix>
+      <privEntry id="1">
+         <methodPrefix>list</methodPrefix>
+         <privilege>System.Read</privilege>
+      </privEntry>
+      <privEntry id="2">
+         <methodPrefix>get</methodPrefix>
+         <privilege>System.Read</privilege>
+      </privEntry>
+      <privEntry id="3">
+         <privilege>Host.Config.Settings</privilege>
+      </privEntry>
+   </rule>
+   <rule id="4">
+      <typePrefix>vim.EsxCLI.system.settings</typePrefix>
+      <privEntry id="1">
+         <methodPrefix>list</methodPrefix>
+         <privilege>System.Read</privilege>
+      </privEntry>
+      <privEntry id="2">
+         <methodPrefix>get</methodPrefix>
+         <privilege>System.Read</privilege>
+      </privEntry>
+      <privEntry id="3">
+         <privilege>Host.Config.AdvancedConfig</privilege>
+      </privEntry>
+   </rule>
+   <rule id="5">
+      <typePrefix>vim.EsxCLI.hardware</typePrefix>
+      <privEntry id="1"><privilege>Host.Config.Settings</privilege></privEntry>
+   </rule>
+   <rule id="6">
+      <typePrefix>vim.EsxCLI.network</typePrefix>
+      <privEntry id="1">
+         <methodPrefix>list</methodPrefix>
+         <privilege>System.Read</privilege>
+      </privEntry>
+      <privEntry id="2">
+         <methodPrefix>get</methodPrefix>
+         <privilege>System.Read</privilege>
+      </privEntry>
+      <privEntry id="3">
+         <privilege>Host.Config.Network</privilege>
+      </privEntry>
+   </rule>
+   <rule id="8">
+      <typePrefix>vim.EsxCLI.system.coredump</typePrefix>
+      <privEntry id="1">
+         <methodPrefix>list</methodPrefix>
+         <privilege>System.Read</privilege>
+      </privEntry>
+      <privEntry id="2">
+         <methodPrefix>get</methodPrefix>
+         <privilege>System.Read</privilege>
+      </privEntry>
+      <privEntry id="3">
+         <privilege>Host.Config.Storage</privilege>
+      </privEntry>
+   </rule>
+   <rule id="9">
+      <typePrefix>vim.EsxCLI.storage.core</typePrefix>
+      <privEntry id="1">
+         <methodPrefix>list</methodPrefix>
+         <privilege>System.Read</privilege>
+      </privEntry>
+      <privEntry id="2">
+         <methodPrefix>get</methodPrefix>
+         <privilege>System.Read</privilege>
+      </privEntry>
+      <privEntry id="3">
+         <privilege>Host.Config.Storage</privilege>
+      </privEntry>
+   </rule>
+   <rule id="10">
+      <typePrefix>vim.EsxCLI.storage.filesystem</typePrefix>
+      <privEntry id="1">
+         <methodPrefix>list</methodPrefix>
+         <privilege>System.Read</privilege>
+      </privEntry>
+      <privEntry id="2">
+         <methodPrefix>get</methodPrefix>
+         <privilege>System.Read</privilege>
+      </privEntry>
+      <privEntry id="3">
+         <privilege>Host.Config.Storage</privilege>
+      </privEntry>
+   </rule>
+   <rule id="11">
+      <typePrefix>vim.EsxCLI.iscsi</typePrefix>
+      <privEntry id="1">
+         <methodPrefix>list</methodPrefix>
+         <privilege>System.Read</privilege>
+      </privEntry>
+      <privEntry id="2">
+         <methodPrefix>get</methodPrefix>
+         <privilege>System.Read</privilege>
+      </privEntry>
+      <privEntry id="3">
+         <privilege>Host.Config.Storage</privilege>
+      </privEntry>
+   </rule>
+   <rule id="12">
+      <typePrefix>vim.EsxCLI.fcoe</typePrefix>
+      <privEntry id="1">
+         <methodPrefix>list</methodPrefix>
+         <privilege>System.Read</privilege>
+      </privEntry>
+      <privEntry id="2">
+         <methodPrefix>get</methodPrefix>
+         <privilege>System.Read</privilege>
+      </privEntry>
+      <privEntry id="3">
+         <privilege>Host.Config.Storage</privilege>
+      </privEntry>
+   </rule>
+   <rule id="13">
+      <typePrefix>vim.EsxCLI.storage.nmp</typePrefix>
+      <privEntry id="1">
+         <methodPrefix>list</methodPrefix>
+         <privilege>System.Read</privilege>
+      </privEntry>
+      <privEntry id="2">
+         <methodPrefix>get</methodPrefix>
+         <privilege>System.Read</privilege>
+      </privEntry>
+      <privEntry id="3">
+         <privilege>Host.Config.Storage</privilege>
+      </privEntry>
+   </rule>
+   <rule id="14">
+      <typePrefix>vim.EsxCLI.storage.vmfs</typePrefix>
+      <privEntry id="1">
+         <methodPrefix>list</methodPrefix>
+         <privilege>System.Read</privilege>
+      </privEntry>
+      <privEntry id="2">
+         <methodPrefix>get</methodPrefix>
+         <privilege>System.Read</privilege>
+      </privEntry>
+      <privEntry id="3">
+         <privilege>Host.Config.Storage</privilege>
+      </privEntry>
+   </rule>
+   <rule id="15">
+      <typePrefix>vim.EsxCLI.storage.nfs</typePrefix>
+      <privEntry id="1">
+         <methodPrefix>list</methodPrefix>
+         <privilege>System.Read</privilege>
+      </privEntry>
+      <privEntry id="2">
+         <methodPrefix>get</methodPrefix>
+         <privilege>System.Read</privilege>
+      </privEntry>
+      <privEntry id="3">
+         <privilege>Host.Config.Storage</privilege>
+      </privEntry>
+   </rule>
+   <rule id="16">
+      <typePrefix>vim.EsxCLI.vm.process.list</typePrefix>
+      <privEntry id="1"><privilege>System.View</privilege></privEntry>
+   </rule>
+   <rule id="17">
+      <typePrefix>vim.EsxCLI.vm.process.kill</typePrefix>
+      <privEntry id="1"><privilege>VirtualMachine.Interact.PowerOff</privilege></privEntry>
+   </rule>
+   <rule id="18">
+      <typePrefix>vim.EsxCLI.license</typePrefix>
+      <privEntry id="1"><privilege>Global.Licenses</privilege></privEntry>
+   </rule>
+   <rule id="19">
+      <typePrefix>vim.EsxCLI.system.account</typePrefix>
+      <privEntry id="1">
+         <privilege>Global.Settings</privilege>
+      </privEntry>
+   </rule>
+   <rule id="20">
+      <typePrefix>vim.EsxCLI.system.permission</typePrefix>
+      <privEntry id="1">
+         <privilege>Global.Settings</privilege>
+      </privEntry>
+   </rule>
+   <rule id="21">
+      <typePrefix>vim.EsxCLI.software.vib</typePrefix>
+      <privEntry id="1">
+         <methodPrefix>list</methodPrefix>
+         <privilege>System.Read</privilege>
+      </privEntry>
+   </rule>
+</dynamicMethodPrivilegeConfig>

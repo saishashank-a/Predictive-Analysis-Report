@@ -1,0 +1,6 @@
+IpmiFRUConfig:
+   Device IDs: 0
+   Features: 0x0
+   Formatted-Raw: 00 10 02 00 00 
+   Raw: 
+   Size-bytes: 528

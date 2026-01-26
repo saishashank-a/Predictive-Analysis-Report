@@ -1,0 +1,126 @@
+#!/bin/sh
+##########################################################################
+# Copyright 2013 VMware, Inc.  All rights reserved.
+# VMware Confidential
+##########################################################################
+
+
+#
+# network (ESXi)
+#
+# Attempt to release and renew DHCP leases upon receipt of suspend and resume
+# events, respectively.
+#
+
+
+echo `date` ": Executing '$0'"
+echo
+
+
+#
+# save_dhcp_NIC_list --
+#
+#    Records a list of every DHCP NIC to /var/run/vmware-dhcp-nics.
+#
+#
+# Results:
+#    $dhcpList has, one per line, a list of all DHCP NICs.
+#
+# Side effects:
+#    None.
+#
+
+save_dhcp_NIC_list() {
+   >$dhcpList
+   esxcli network ip interface ipv4 get | grep DHCP | awk '/^vmk/ { print $1 }' >>$dhcpList
+}
+
+
+#
+# release_NIC --
+#
+#    Disable each NIC recorded in $dhcpList.
+#
+# Results:
+#    All DHCP NICs should be disabled.
+#
+
+release_NIC() {
+   exitCode=0
+   if [ -f "$dhcpList" ]; then
+      while read nic; do
+         echo `date` "[release_nic] disabling $nic ..."
+         esxcli network ip interface ipv4 set -i $nic -t none
+         exitCode=`expr $exitCode \| $?`
+      done < $dhcpList
+   fi
+   return $exitCode
+}
+
+
+#
+# rescue_NIC --
+#
+#    For each NIC recorded in $dhcpList that is not currently "up",
+#    configure NIC for DHCP.
+#
+# Results:
+#    All downed NICs should be configured for DHCP.
+#
+
+rescue_NIC() {
+   exitCode=0
+   if [ -f "$dhcpList" ]; then
+      while read nic; do
+         if esxcli network ip interface ipv4 get | grep -v NONE | grep $nic; then
+            echo `date` "[rescue_nic] $nic is already up."
+         else
+            echo `date` "[rescue_nic] activating $nic ..."
+            esxcli network ip interface ipv4 set -i $nic -t dhcp
+            exitCode=`expr $exitCode \| $?`
+         fi
+      done < $dhcpList
+
+      rm -f $dhcpList
+   fi
+   return $exitCode
+}
+
+
+#
+# main --
+#
+#    Main entry point.  Perform some sanity checking, then map state change
+#    events to relevant networking operations.
+#
+# Results:
+#    See comment at top of file.
+#
+
+main() {
+   exitCode=0
+   dhcpList=/var/run/vmware-dhcp-nics
+
+   case "$1" in
+      poweron-vm)
+         rm -f $dhcpList
+         ;;
+      suspend-vm)
+         save_dhcp_NIC_list
+         release_NIC
+         exitCode=$?
+         ;;
+      resume-vm)
+         if [ ! -s $dhcpList ]; then
+            save_dhcp_NIC_list
+         fi
+         rescue_NIC
+         exitCode=$?
+         ;;
+      *) ;;
+   esac
+
+   return $exitCode
+}
+
+main "$@"

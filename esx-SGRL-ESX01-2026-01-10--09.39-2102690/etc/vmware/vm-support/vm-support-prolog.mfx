@@ -1,0 +1,13 @@
+% Manifest name: Prolog
+% Manifest group: Prolog
+% Manifest default: Enabled
+% Manifest tag: sensitive
+# action Options file/command
+
+#
+# The vm-support incident key file will appear in the vm-support package
+# when the encryption-prolog.sh script determines that it should be there.
+#
+
+run RELOCATE=/vm-support-incident-key /usr/lib/vmware/vm-support/bin/encryption-prolog.sh
+

@@ -1,0 +1,155 @@
+sensord[2102907]: Running IPMI layer Diagnostics Test:
+sensord[2102907]: Test 0. Checking for ipmi devices.
+sensord[2102907]: Test 1. close/open/close/open sequence.
+sensord[2102907]: set_address: IPMB address set to: 0x20
+sensord[2102907]: hello_mc: starting communication with bmc over ipmi driver
+sensord[2102907]: hello_mc: established communication with bmc {device_revision 0, fw_rev1 1, fw_rev2 83, ipmi 2}
+sensord[2102907]: ipmi_open: returned descriptor 4 for device /dev/ipmi0
+sensord[2102907]: set_address: IPMB address set to: 0x20
+sensord[2102907]: ipmi_open: returned descriptor 4 for device /dev/ipmi0
+sensord[2102907]: set_address: IPMB address set to: 0x20
+sensord[2102907]: ipmi_open: returned descriptor 5 for device /dev/ipmi0
+sensord[2102907]: Test 2. verify libipmi ipmi_sdr_iter iterator.
+sensord[2102907]: set_address: IPMB address set to: 0x20
+sensord[2102907]: ipmi_open: returned descriptor 4 for device /dev/ipmi0
+sensord[2102907]: count_sdrs: starting communication with bmc over ipmi driver
+sensord[2102907]: count_sdrs: GET_SDR_REPO_INFO returned {version: 0x51, count 228, free 56734,add_stamp 0, erase_stamp 0 op_support 38}
+sensord[2102907]: get_sdr_reservation: reservation 0x111 retrieved
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 1
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 2
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 3
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 4
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 5
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 6
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 7
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 8
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 9
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 10
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 11
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 12
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 13
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 14
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 15
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 16
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 17
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 18
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 19
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 20
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 21
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 22
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 23
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 24
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 25
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 26
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 27
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 28
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 29
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 30
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 31
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 32
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 33
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 34
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 35
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 36
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 37
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 38
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 39
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 40
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 41
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 42
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 43
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 44
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 45
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 46
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 47
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 48
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 49
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 50
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 51
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 52
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 53
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 54
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 55
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 56
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 57
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 58
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 59
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 60
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 61
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 62
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 63
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 64
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 65
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 66
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 67
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 68
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 69
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 70
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 71
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 72
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 73
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 74
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 75
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 76
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 77
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 78
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 79
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 80
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 81
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 82
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 83
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 84
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 85
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 86
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 87
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 88
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 89
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 90
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 91
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 92
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 93
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 94
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 95
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 96
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 97
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 98
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 99
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 100
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 101
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 102
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 103
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 104
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 105
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 106
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 107
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 108
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 109
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 110
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 111
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 112
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 113
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 114
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 115
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 116
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 117
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 118
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 119
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 120
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 121
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 122
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 123
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 124
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 125
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 126
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 202
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 221
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 222
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 223
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 224
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 225
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 226
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 227
+sensord[2102907]: load_sdr: completion code 0xc5 or buffer size was 256 expected 255, skipping sensor 228
+sensord[2102907]: ipmi_sdr_lookup_iter: saw end of sensor marker at 227 out of 228 items, 135 matched
+sensord[2102907]: Found 0 full SDR entries
+sensord[2102907]: Expected system to have at least one FULL SDR type

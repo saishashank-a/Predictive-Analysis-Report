@@ -1,0 +1,15 @@
+# Disk DescriptorFile
+version=1
+encoding="UTF-8"
+CID=938ffbaf
+parentCID=f39081e0
+createType="seSparse"
+parentFileNameHint="VyOS-Router.vmdk"
+# Extent description
+RW 10485760 SESPARSE "VyOS-Router-000001-sesparse.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.grain = "8"
+ddb.longContentID = "cf316610b389ae8ebc0789e7938ffbaf"

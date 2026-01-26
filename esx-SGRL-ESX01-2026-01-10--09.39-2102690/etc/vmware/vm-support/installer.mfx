@@ -1,0 +1,11 @@
+% Manifest name: base
+% Manifest group: Installer
+% Manifest default: Enabled
+% Manifest tag: installer,logs
+# action Options file/command
+
+# Censor hashed root password in firstboot.json.
+censor CENSOR_RULE=""password"([^"]+)".+"/"password"\1"********"" *firstboot.json
+
+copy IGNORE_MISSING,CENSOR_TARBALL /bootbank/onetime.tgz
+copy IGNORE_MISSING,CENSOR_TARBALL /altbootbank/onetime.tgz

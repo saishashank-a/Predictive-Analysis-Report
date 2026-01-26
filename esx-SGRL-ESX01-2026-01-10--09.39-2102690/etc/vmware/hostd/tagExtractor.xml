@@ -1,0 +1,76 @@
+<tagExtractorConfig>
+   <methodRules>
+      <rule id="NetworkSystemMethodRule">
+         <tag>IsNetworkConfig</tag>
+         <value>1</value>
+         <description>Identifies configuration methods of NetworkSystem</description>
+         <methodRegex>vim\.host\.NetworkSystem\..*</methodRegex>
+      </rule>
+      <rule id="HostDvsManagerMethodRule">
+         <tag>IsDvsConfig</tag>
+         <value>1</value>
+         <description>Identifies configuration methods of HostDvsManager</description>
+         <methodRegex>vim\.dvs\..*</methodRegex>
+      </rule>
+      <rule id="DatastoreBrowserSearchRule">
+         <tag>IsDatastoreBrowserSearch</tag>
+         <value>1</value>
+         <description>Identifies datastore browser search operations</description>
+         <methodRegex>vim\.host\.DatastoreBrowser\.search.*</methodRegex>
+      </rule>
+      <rule id="VMFoundryOpRule">
+         <tag>IsVMFoundryOp</tag>
+         <value>1</value>
+         <description>Identifies Virtual Machine operations involving foundry</description>
+         <methodRegex>vim\.VirtualMachine\.(acquireMksTicket|clone|createSecondary|createSnapshot|customize|disableSecondary|enableSecondary|makePrimary|migrate|mountToolsInstaller|powerOff|powerOn|rebootGuest|reconfigure|reload|reloadFromPath|relocate|removeAllSnapshots|turnOffFaultTolerance|recommendHostsForSecondaryVm|rename|reset|resetGuestInformation|retrieveScreenshot|revertToCurrentSnapshot|revertToSnapshot|screenshot|setScreenResolution|shutdownGuest|standbyGuest|startRecording|startReplaying|stopRecording|stopReplaying|suspend|terminate|terminateFaultTolerantVM|unmountToolsInstaller|unregister|upgradeTools|upgradeVirtualHardware)</methodRegex>
+      </rule>
+      <rule id="VMThrottledOpRule">
+         <tag>IsVMThrottledOp</tag>
+         <value>1</value>
+         <description>Identifies Virtual Machine operations that need additional throttling</description>
+         <methodRegex>vim\.VirtualMachine\.(reconfigure|removeAllSnapshots|consolidateDisks)|vim\.ManagedEntity\.destroy|vim\.Folder\.(createVm|registerVm)|vim\.host\.LowLevelProvisioningManager\.(createVM|reconfigVM|consolidateDisks)|vim\.vm\.Snapshot\.remove</methodRegex>
+      </rule>
+      <rule id="HbrOpRule">
+         <tag>IsHbrThrottledOp</tag>
+         <value>1</value>
+         <description>Identifies HBR operations that need additional throttling</description>
+         <methodRegex>vim\.HbrManager\.(enableReplication|disableReplication|resumeReplication|pauseReplication|reconfigureReplication)</methodRegex>
+      </rule>
+      <rule id="NfcManagerRule">
+         <tag>IsNfcManagerOp</tag>
+         <value>1</value>
+         <description>Identifies NfcManager copy operations</description>
+         <methodRegex>nfc\.NfcManager\.copy</methodRegex>
+      </rule>
+      <rule id="HostProfilesConfigOpRule">
+         <tag>IsHostProfilesConfigThrottledOp</tag>
+         <value>1</value>
+         <description>Identifies HostProfiles operations used to get and set system configuration</description>
+         <methodRegex>vim\.profile\.host\.profileEngine\..*</methodRegex>
+      </rule>
+      <rule id="CbrcOpRule">
+         <tag>IsCBRCThrottledOp</tag>
+         <value>1</value>
+         <description>Identifies CBRC operations that need throttling</description>
+         <methodRegex>vim\.CbrcManager\.(ConfigureDigest|RecomputeDigest|QueryDigestInfo|QueryDigestRuntimeInfo|GetVMMemoryOverhead)</methodRegex>
+      </rule>
+      <rule id="EsxcliOpRule">
+         <tag>IsEsxcliOp</tag>
+         <value>1</value>
+         <description>Identifies esxcli commands</description>
+         <methodRegex>vim\.EsxCLI\..*</methodRegex>
+      </rule>
+      <rule id="EsxcliAccountPermissionOpRule">
+         <tag>IsEsxcliAccountPermissionOp</tag>
+         <value>1</value>
+         <description>Identifies esxcli account/permission commands</description>
+         <methodRegex>vim\.EsxCLI\.system\.(account|permission)\..*</methodRegex>
+      </rule>
+      <rule id="VStorageObjectManagerOpRule">
+         <tag>IsVStorageObjectManagerOp</tag>
+         <value>1</value>
+         <description>Identifies VStorageObjectManager operations that need additional throttling</description>
+         <methodRegex>vim\.vslm\.host/VStorageObjectManager\..*</methodRegex>
+      </rule>
+   </methodRules>
+</tagExtractorConfig>

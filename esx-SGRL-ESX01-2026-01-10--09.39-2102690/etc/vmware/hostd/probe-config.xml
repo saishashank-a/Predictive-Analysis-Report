@@ -1,0 +1,92 @@
+<!--  Hostd-probe configuration file for ESX/ESXi -->
+
+<config>
+   <!-- the version of this config file -->
+   <version>5.0.0.0</version>
+
+   <!-- working directory  -->
+   <workingDir>/var/log/vmware/</workingDir>
+
+   <!-- location to examine for configuration files that are needed -->
+   <defaultConfigPath> /etc/vmware/ </defaultConfigPath>
+
+   <!--
+     To enable troubleshoot option, uncomment the troubleshoot tag
+     and include the required custom script to be executed. Once
+     enabled, and when hostd stopped responding, the script will be
+     executed on each hostd-probe run. To take a hostd live core
+     in addition to the vmkbacktrace, uncomment the liveCore tag.
+     Note:
+     1. Please increase the memory reservation of hostd-probe while running
+        in troubleshoot mode.
+     2. The custom script must have execute permission.
+     3. The troubleshoot option helps to debug and analyze problems local
+        to hostd service only.
+     4. Make sure to delete the old hostd trace located at:
+        /var/run/log/hostd-probed-XXXX- (if exists).
+     5. In a case the script is stuck for some reason, then over a time it
+        can lead to a state when ESX runs out of user worlds.
+     -->
+   <!-- <troubleshoot>/etc/vmware/hostd/troubleshoot.sh</troubleshoot> -->
+   <!-- <liveCore>true</liveCore> -->
+
+   <log>
+      <!-- controls where rolling log files are stored -->
+      <directory>/var/log/vmware/</directory>
+
+      <!-- name of log file -->
+      <name>hostd-probe</name>
+
+      <!-- controls whether logger sends its output to console also -->
+      <outputToConsole>false</outputToConsole>
+
+      <!-- If true, log to files on disk -->
+      <outputToFiles>false</outputToFiles>
+
+      <!--
+        default size(in bytes) of each log file before rolling over to next
+        -->
+      <maxFileSize>524288</maxFileSize>
+
+      <!-- default number of log files to rotate amongst -->
+      <maxFileNum>8</maxFileNum>
+
+      <!-- default log level -->
+      <level>info</level>
+
+      <!-- If true, logs to syslog -->
+      <outputToSyslog>true</outputToSyslog>
+
+      <!-- syslog configuration.  Only used if outputToSyslog is true. -->
+      <syslog>
+         <!-- syslog identifier to use when logging -->
+         <ident>hostd-probe</ident>
+
+         <!-- syslog facility to use when logging -->
+         <facility>local4</facility>
+
+      </syslog>
+   </log>
+
+   <level id="ThreadPool">
+      <logName>ThreadPool</logName>
+      <logLevel>warning</logLevel>
+      <prefix>false</prefix>
+   </level>
+
+   <level id="Libs">
+      <logName> Libs </logName>
+      <logLevel> warning </logLevel>
+      <prefix> false </prefix>
+   </level>
+
+   <vmacore>
+      <threadPool>
+        <ioThreads>1</ioThreads>
+        <minThreads>1</minThreads>
+        <maxThreads>3</maxThreads>
+        <ThreadStackSizeKb>64</ThreadStackSizeKb>
+      </threadPool>
+   </vmacore>
+
+</config>

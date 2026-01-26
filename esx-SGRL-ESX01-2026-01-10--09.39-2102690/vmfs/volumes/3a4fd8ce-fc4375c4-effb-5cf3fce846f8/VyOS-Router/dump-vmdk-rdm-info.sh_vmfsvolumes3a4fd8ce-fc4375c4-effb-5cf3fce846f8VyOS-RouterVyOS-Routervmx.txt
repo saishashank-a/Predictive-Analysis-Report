@@ -1,0 +1,2 @@
+# vmkfstools -q VyOS-Router-000003.vmdk
+VyOS-Router-000003.vmdk is not an rdm

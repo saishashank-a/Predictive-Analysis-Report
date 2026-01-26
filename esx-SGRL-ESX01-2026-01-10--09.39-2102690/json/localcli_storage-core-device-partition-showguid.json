@@ -1,0 +1,66 @@
+
+[
+
+      {
+         "Device": "naa.600605b004213bc001e293503af49afb",
+         "GUID": "00000000000000000000000000000000",
+         "Layout": "GPT",
+         "Partition": 0
+      }, 
+
+      {
+         "Device": "naa.600605b004213bc001e293503af49afb",
+         "GUID": "c12a7328f81f11d2ba4b00a0c93ec93b",
+         "Layout": "GPT",
+         "Partition": 1
+      }, 
+
+      {
+         "Device": "naa.600605b004213bc001e293503af49afb",
+         "GUID": "ebd0a0a2b9e5443387c068b6b72699c7",
+         "Layout": "GPT",
+         "Partition": 2
+      }, 
+
+      {
+         "Device": "naa.600605b004213bc001e293503af49afb",
+         "GUID": "aa31e02a400f11db9590000c2911d1b8",
+         "Layout": "GPT",
+         "Partition": 3
+      }, 
+
+      {
+         "Device": "naa.600605b004213bc001e293503af49afb",
+         "GUID": "ebd0a0a2b9e5443387c068b6b72699c7",
+         "Layout": "GPT",
+         "Partition": 5
+      }, 
+
+      {
+         "Device": "naa.600605b004213bc001e293503af49afb",
+         "GUID": "ebd0a0a2b9e5443387c068b6b72699c7",
+         "Layout": "GPT",
+         "Partition": 6
+      }, 
+
+      {
+         "Device": "naa.600605b004213bc001e293503af49afb",
+         "GUID": "9d27538040ad11dbbf97000c2911d1b8",
+         "Layout": "GPT",
+         "Partition": 7
+      }, 
+
+      {
+         "Device": "naa.600605b004213bc001e293503af49afb",
+         "GUID": "ebd0a0a2b9e5443387c068b6b72699c7",
+         "Layout": "GPT",
+         "Partition": 8
+      }, 
+
+      {
+         "Device": "naa.600605b004213bc001e293503af49afb",
+         "GUID": "9d27538040ad11dbbf97000c2911d1b8",
+         "Layout": "GPT",
+         "Partition": 9
+      }
+]

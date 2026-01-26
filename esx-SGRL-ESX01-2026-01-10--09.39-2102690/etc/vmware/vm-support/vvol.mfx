@@ -1,0 +1,23 @@
+% Manifest name: VVOL
+% Manifest group: Storage
+% Manifest default: Enabled
+% Manifest tag: storage,vvol
+# action Options file/command
+
+# Get some esxcli info.
+run TIMEOUT=10,IGNORE_ERROR,DUMP_JSON /sbin/localcli storage vvol vasaprovider list
+run TIMEOUT=10,IGNORE_ERROR,DUMP_JSON /sbin/localcli storage vvol storagecontainer list
+run TIMEOUT=10,IGNORE_ERROR,DUMP_JSON /sbin/localcli storage vvol protocolendpoint list
+
+# PE info:
+run DUMP_JSON /sbin/localcli storage core device list --pe-only
+run DUMP_JSON /sbin/localcli storage nfs list --pe-only
+
+# Dump vvold log - note this must be run befor the logs are collected by system-logs.mfx
+run TIMEOUT=10,IGNORE_ERROR /sbin/localcli --plugin-dir /usr/lib/vmware/esxcli/int storage internal vvol daemon set  --dump-objects
+
+# The "dump-objects" command above would have written some info to vvold.log but
+# the file has already been copied out by system-logs.mfx.
+# So, we cat it to stdout so that the latest can be in vm-support bundle.
+run IGNORE_ERROR /bin/cat /var/log/vvold.log
+

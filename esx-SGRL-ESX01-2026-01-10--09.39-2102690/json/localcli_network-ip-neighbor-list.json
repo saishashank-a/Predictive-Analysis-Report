@@ -1,0 +1,39 @@
+
+[
+
+      {
+         "Expiry": 149,
+         "Mac Address": "00:0c:29:09:c0:d9",
+         "Neighbor": "192.168.1.2",
+         "State": "",
+         "Type": "Unknown",
+         "Vmknic": "vmk0"
+      }, 
+
+      {
+         "Expiry": 1131,
+         "Mac Address": "0c:01:4b:c7:a4:c8",
+         "Neighbor": "192.168.1.254",
+         "State": "",
+         "Type": "Unknown",
+         "Vmknic": "vmk0"
+      }, 
+
+      {
+         "Expiry": 86370,
+         "Mac Address": "74:93:da:bc:7f:d3",
+         "Neighbor": "fe80::7693:daff:febc:7fd3",
+         "State": "Stale",
+         "Type": "Unknown",
+         "Vmknic": "vmk0"
+      }, 
+
+      {
+         "Expiry": 86365,
+         "Mac Address": "00:0c:29:34:59:ef",
+         "Neighbor": "fe80::20c:29ff:fe34:59ef",
+         "State": "Stale",
+         "Type": "Unknown",
+         "Vmknic": "vmk0"
+      }
+]

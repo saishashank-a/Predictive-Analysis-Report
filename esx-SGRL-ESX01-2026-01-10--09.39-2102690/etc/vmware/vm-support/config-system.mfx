@@ -1,0 +1,89 @@
+% Manifest name: System
+% Manifest group: Configuration
+% Manifest default: Enabled
+% Manifest tag: base
+# action Options file/command
+
+copy   IGNORE_MISSING                       /usr/lib/vmware/licenses/site/*
+copy   IGNORE_MISSING                       /tmp/vmware-*
+copy   IGNORE_MISSING                       /root/ks.cfg
+copy   IGNORE_MISSING                       /etc/opt/vmware/
+copy   IGNORE_MISSING                       /etc/vmkiscsi.conf
+copy   IGNORE_MISSING                       /etc/initiatorname.vmkiscsi
+copy   IGNORE_MISSING                       /tmp/dumppart.log
+copy   -                                    /var/run/inetd.conf
+# esx.conf.LOCK can come and go, and may have locking errors
+copy   RECURSE,IGNORE_MISSING,IGNORE_ERROR  /etc/vmware/
+#prune some common files that have sensitive information
+prune  -                                    /etc/vmware/vmkiscsid/vmkiscsid.db
+prune  -                                    /etc/vmware/ssl/iofiltervp.pem
+prune  -                                    /etc/vmware/ssl/iofiltervp_castore.pem
+prune  -                                    /etc/vmware/ssl/.#iofiltervp_castore.pem
+prune  -                                    /etc/vmware/ssl/rui.crt
+prune  -                                    /etc/vmware/ssl/rui.key
+prune  -                                    /etc/vmware/ssl/rui.bak
+prune  -                                    /etc/vmware/ssl/vsanvp_secret
+prune  -                                    /etc/vmware/vmkiscsid/.#vmkiscsid.db
+prune  -                                    /etc/vmware/ssl/.#rui.crt
+prune  -                                    /etc/vmware/ssl/.#rui.key
+prune  -                                    /etc/vmware/ssl/.#rui.bak
+prune  -                                    /etc/vmware/ssl/vsan_kms_client.key
+prune  -                                    /etc/vmware/ssl/vsan_kms_client_old.key
+prune  -                                    /etc/vmware/ssl/vsan_kms_client.crt
+prune  -                                    /etc/vmware/ssl/vsan_kms_client_old.crt
+prune  -                                    /etc/vmware/ssl/vsan_kms_castore.pem
+prune  -                                    /etc/vmware/ssl/vsan_kms_castore_old.pem
+prune  -                                    /etc/vmware/ssl/vsanvp.pem
+prune  -                                    /etc/vmware/ssl/vsanvp_castore.pem
+prune  -                                    /etc/vmware/vsan/vsan_kms_pwd
+prune  -                                    /etc/vmware/ssl/.#vsan_kms_client_old.key
+prune  -                                    /etc/vmware/ssl/.#vsan_kms_client.key
+prune  -                                    /etc/vmware/ssl/.#vsan_kms_client.crt
+prune  -                                    /etc/vmware/ssl/.#vsan_kms_client_old.crt
+prune  -                                    /etc/vmware/ssl/.#vsan_kms_castore.pem
+prune  -                                    /etc/vmware/ssl/.#vsan_kms_castore_old.pem
+prune  -                                    /etc/vmware/ssl/.#vsanvp.pem
+prune  -                                    /etc/vmware/ssl/.#vsanvp_castore.pem
+prune  -                                    /etc/vmware/vsan/.#vsan_kms_pwd
+prune  -                                    /etc/vmware/nas/nas.conf
+prune  -                                    /etc/vmware/nas/.#nas.conf
+prune  -                                    /etc/vmware/answerfile.xml.gz
+prune  -                                    /etc/vmware/hostprofile.xml.gz
+prune  -                                    /etc/vmware/dvsdata.db
+prune  -                                    /etc/ssh/ssh_host_dsa_key
+prune  -                                    /etc/ssh/ssh_host_rsa_key
+prune  -                                    /etc/shadow
+prune  -                                    /etc/passwd
+prune  -                                    /etc/vmware/vmware.lic
+copy   RECURSE                              /etc/likewise/
+prune  -                                    /etc/likewise/db/registry.db
+copy   -                                    /etc/vmsyslog.conf
+copy   -                                    /etc/vmsyslog.conf.d/*
+copy   -                                    /etc/security/
+copy   -                                    /etc/resolv.conf
+copy   -                                    /etc/rc.local
+copy   IGNORE_MISSING,RECURSE               /etc/rc.local.d/
+copy   -                                    /etc/pam.d/
+copy   IGNORE_MISSING                       /etc/opt/vmware/vpxa/vpxa.cfg
+copy   -                                    /etc/host.conf
+copy   -                                    /etc/nsswitch.conf
+copy   -                                    /etc/inittab
+copy   -                                    /etc/hosts
+copy   -                                    /etc/group
+copy   -                                    /etc/krb5.conf
+copy   -                                    /etc/chkconfig.db
+run    RELOCATE=/bootbank/local.tgz,IGNORE_ERROR   /usr/lib/vmware/vm-support/bin/localtgz.sh
+run    RELOCATE=/altbootbank/local.tgz,IGNORE_ERROR   /usr/lib/vmware/vm-support/bin/altlocaltgz.sh
+copy   TIMEOUT=10,IGNORE_MISSING            /bootbank/boot.cfg
+copy   TIMEOUT=10,IGNORE_MISSING            /altbootbank/boot.cfg
+copy   TIMEOUT=10,IGNORE_MISSING            /bootbank/m.z
+copy   TIMEOUT=10,IGNORE_MISSING            /bootbank/imgdb.tgz
+copy   TIMEOUT=10,IGNORE_MISSING            /altbootbank/imgdb.tgz
+copy   IGNORE_MISSING                       /usr/share/hwdata/fallback.pciids.d/*
+copy   IGNORE_MISSING                       /usr/share/hwdata/driver.pciids.d/*
+copy   IGNORE_MISSING                       /usr/share/hwdata/default.pciids.d/*
+copy   IGNORE_MISSING                       /usr/share/hwdata/ihv.pciids.d/*
+copy   IGNORE_MISSING                       /usr/share/hwdata/oem.pciids.d/*
+run    -			            /sbin/localcli system settings kernel list -d
+run    -			            /sbin/localcli system settings advanced list -d
+run    IGNORE_ERROR,TIMEOUT=10              /sbin/localcli --plugin-dir /usr/lib/vmware/esxcli/int device driver list

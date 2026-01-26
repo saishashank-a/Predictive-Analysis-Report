@@ -1,0 +1,8 @@
+% Manifest name: sidecarfiles
+% Manifest group: VirtualMachines
+% Manifest default: Disabled
+% Manifest tag: vm,logs
+# action Options file/command
+
+# Collect the first 1MB of virtual disk sidecar files
+vmfile IGNORE_MISSING,IGNORE_ERROR,MAXSIZE=1048576 *.vmfd

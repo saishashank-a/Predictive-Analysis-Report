@@ -1,0 +1,15 @@
+Switch Name      Num Ports   Used Ports  Configured Ports  MTU     Uplinks   
+vSwitch0         5376        7           128               1500    vmnic0    
+
+  PortGroup Name        VLAN ID  Used Ports  Uplinks   
+  TR01-NSX_Edge_Overlay-VLAN2713  2713     0           vmnic0    
+  TR01-NSX_Edge_Uplink1-VLAN2711  2711     0           vmnic0    
+  TR01-NSX_Host_Overlay-VLAN1614  1614     0           vmnic0    
+  TR01-VSAN-VLAN1613    1613     0           vmnic0    
+  TR01-ION-VLAN1612     1612     0           vmnic0    
+  TR01-ESX_MGMT-VLAN1611  1611     0           vmnic0    
+  172.10.0.0/24_MGMT    10       1           vmnic0    
+  VM Network            0        1           vmnic0    
+  VyOS-Trunk            4095     1           vmnic0    
+  Management Network    0        1           vmnic0    
+

@@ -1,0 +1,11 @@
+% Manifest name: base
+% Manifest group: ActiveDirectory
+% Manifest default: Enabled
+% Manifest tag: authentication,password
+# action Options file/command
+
+# Collect Active Directory diagnostic information.
+# Use IGNORE_ERROR, because lw-lsa returns error when lsass service not running.
+run IGNORE_ERROR /usr/lib/vmware/likewise/bin/lw-lsa get-metrics
+run IGNORE_ERROR /usr/lib/vmware/likewise/bin/lw-lsa get-status
+run IGNORE_ERROR /usr/lib/vmware/likewise/bin/lw-lsa trace-info

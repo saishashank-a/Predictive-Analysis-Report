@@ -1,0 +1,11 @@
+IpmiBmcConfig:
+   BMC Firmware Version: 0.0
+   IPMI Version: 0.0
+   IPv4 Address: 
+   IPv4 Gateway: 
+   IPv4 Subnet: 
+   IPv6 Addresses: 
+   LAN ifAdminStatus: false
+   MAC Address: 
+   Manufacturer: Unknown
+   OS Name Reported:  

@@ -1,0 +1,10 @@
+% Manifest name: SystemImageCacheHostProfile
+% Manifest group: hostProfiles
+% Manifest default: Enabled
+% Manifest tag: hostProfiles,logs
+# action Options file/command
+
+copy IGNORE_MISSING /bootbank/befLogs.tgz
+copy IGNORE_MISSING /bootbank/aftLogs.tgz
+copy IGNORE_MISSING /bootbank/waiter.tgz
+copy IGNORE_MISSING /bootbank/hostProf.tgz

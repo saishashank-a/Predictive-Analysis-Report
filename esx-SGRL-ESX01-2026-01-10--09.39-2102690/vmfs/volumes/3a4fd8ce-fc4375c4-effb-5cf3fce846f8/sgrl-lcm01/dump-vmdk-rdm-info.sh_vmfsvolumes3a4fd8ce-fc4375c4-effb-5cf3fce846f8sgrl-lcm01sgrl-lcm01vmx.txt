@@ -1,0 +1,12 @@
+# vmkfstools -q sgrl-lcm01.vmdk
+sgrl-lcm01.vmdk is not an rdm
+# vmkfstools -q sgrl-lcm01_1.vmdk
+sgrl-lcm01_1.vmdk is not an rdm
+# vmkfstools -q sgrl-lcm01_2.vmdk
+sgrl-lcm01_2.vmdk is not an rdm
+# vmkfstools -q sgrl-lcm01_3.vmdk
+sgrl-lcm01_3.vmdk is not an rdm
+# vmkfstools -q sgrl-lcm01_4.vmdk
+sgrl-lcm01_4.vmdk is not an rdm
+# vmkfstools -q sgrl-lcm01_5.vmdk
+sgrl-lcm01_5.vmdk is not an rdm

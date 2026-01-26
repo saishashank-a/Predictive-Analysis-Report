@@ -1,0 +1,9 @@
+regtype=native,bus=pci,id=14e41643..............,driver=ntg3
+regtype=native,bus=pci,id=14e41655..............,driver=ntg3
+regtype=native,bus=pci,id=14e41656..............,driver=ntg3
+regtype=native,bus=pci,id=14e41657..............,driver=ntg3
+regtype=native,bus=pci,id=14e4165f..............,driver=ntg3
+regtype=native,bus=pci,id=14e41665..............,driver=ntg3
+regtype=native,bus=pci,id=14e41682..............,driver=ntg3
+regtype=native,bus=pci,id=14e41686..............,driver=ntg3
+regtype=native,bus=pci,id=14e416f3..............,driver=ntg3

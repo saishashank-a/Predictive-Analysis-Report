@@ -1,0 +1,2 @@
+# vmkfstools -q SGRL-ADC001-000001.vmdk
+SGRL-ADC001-000001.vmdk is not an rdm

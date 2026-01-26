@@ -1,0 +1,7 @@
+% Manifest name: TPM
+% Manifest group: System
+% Manifest default: Enabled
+% Manifest tag: tpm
+# action Options file/command
+
+run TIMEOUT=30      /usr/lib/vmware/vm-support/bin/tpm-dump-info.py

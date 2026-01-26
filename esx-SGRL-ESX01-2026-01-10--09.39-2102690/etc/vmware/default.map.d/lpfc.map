@@ -1,0 +1,5 @@
+regtype=native,bus=pci,id=10dfe260..............,driver=lpfc
+regtype=native,bus=pci,id=10dfe268..............,driver=lpfc
+regtype=native,bus=pci,id=10dfe300..............,driver=lpfc
+regtype=native,bus=pci,id=10dff400..............,driver=lpfc
+regtype=native,bus=pci,id=10dff500..............,driver=lpfc

@@ -1,0 +1,1833 @@
+
+[
+
+      {
+         "Claim Options": "",
+         "Default PSP": "",
+         "Description": "MSA 1000\/1500 [Legacy product, Not supported in this release]",
+         "Device": "",
+         "Driver": "",
+         "Model": "MSA1000 VOLUME",
+         "Name": "VMW_SATP_MSA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": ""
+      }, 
+
+      {
+         "Claim Options": "tpgs_on",
+         "Default PSP": "VMW_PSP_MRU",
+         "Description": "NetApp E-Series arrays with ALUA support",
+         "Device": "",
+         "Driver": "",
+         "Model": "INF-01-00",
+         "Name": "VMW_SATP_ALUA",
+         "Options": "reset_on_attempted_reserve",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "LSI"
+      }, 
+
+      {
+         "Claim Options": "tpgs_on",
+         "Default PSP": "VMW_PSP_RR",
+         "Description": "NetApp arrays with ALUA support",
+         "Device": "",
+         "Driver": "",
+         "Model": "",
+         "Name": "VMW_SATP_ALUA",
+         "Options": "reset_on_attempted_reserve",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "NETAPP"
+      }, 
+
+      {
+         "Claim Options": "tpgs_on",
+         "Default PSP": "VMW_PSP_RR",
+         "Description": "IBM 2810XIV arrays with ALUA support",
+         "Device": "",
+         "Driver": "",
+         "Model": "2810XIV",
+         "Name": "VMW_SATP_ALUA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "IBM"
+      }, 
+
+      {
+         "Claim Options": "",
+         "Default PSP": "VMW_PSP_RR",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "2107900",
+         "Name": "VMW_SATP_ALUA",
+         "Options": "reset_on_attempted_reserve",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "IBM"
+      }, 
+
+      {
+         "Claim Options": "",
+         "Default PSP": "VMW_PSP_RR",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "2145",
+         "Name": "VMW_SATP_ALUA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "IBM"
+      }, 
+
+      {
+         "Claim Options": "",
+         "Default PSP": "VMW_PSP_RR",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "FlashArray",
+         "Name": "VMW_SATP_ALUA",
+         "Options": "",
+         "PSP Options": "iops=1",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "PURE"
+      }, 
+
+      {
+         "Claim Options": "tpgs_on",
+         "Default PSP": "VMW_PSP_RR",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "XSG1",
+         "Name": "VMW_SATP_ALUA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "HUAWEI"
+      }, 
+
+      {
+         "Claim Options": "tpgs_on",
+         "Default PSP": "VMW_PSP_RR",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "VBS fileIO",
+         "Name": "VMW_SATP_ALUA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "Huawei"
+      }, 
+
+      {
+         "Claim Options": "tpgs_on",
+         "Default PSP": "VMW_PSP_RR",
+         "Description": "Lenovo DE Series arrays with ALUA support",
+         "Device": "",
+         "Driver": "",
+         "Model": "DE_Series",
+         "Name": "VMW_SATP_ALUA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "LENOVO"
+      }, 
+
+      {
+         "Claim Options": "tpgs_on",
+         "Default PSP": "VMW_PSP_RR",
+         "Description": "FUJITSU ETERNUS AB\/HB Series",
+         "Device": "",
+         "Driver": "",
+         "Model": "ETERNUS_AHB",
+         "Name": "VMW_SATP_ALUA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "FUJITSU"
+      }, 
+
+      {
+         "Claim Options": "tpgs_on",
+         "Default PSP": "VMW_PSP_RR",
+         "Description": "Dell ALUA Claim Rule",
+         "Device": "",
+         "Driver": "",
+         "Model": "MD32xx",
+         "Name": "VMW_SATP_ALUA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "DELL"
+      }, 
+
+      {
+         "Claim Options": "tpgs_on",
+         "Default PSP": "VMW_PSP_RR",
+         "Description": "Dell ALUA Claim Rule",
+         "Device": "",
+         "Driver": "",
+         "Model": "MD32xxi",
+         "Name": "VMW_SATP_ALUA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "DELL"
+      }, 
+
+      {
+         "Claim Options": "tpgs_on",
+         "Default PSP": "VMW_PSP_RR",
+         "Description": "Dell ALUA Claim Rule",
+         "Device": "",
+         "Driver": "",
+         "Model": "MD36xxi",
+         "Name": "VMW_SATP_ALUA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "DELL"
+      }, 
+
+      {
+         "Claim Options": "tpgs_on",
+         "Default PSP": "VMW_PSP_RR",
+         "Description": "Dell ALUA Claim Rule",
+         "Device": "",
+         "Driver": "",
+         "Model": "MD36xxf",
+         "Name": "VMW_SATP_ALUA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "DELL"
+      }, 
+
+      {
+         "Claim Options": "tpgs_on",
+         "Default PSP": "VMW_PSP_RR",
+         "Description": "Dell ALUA Claim Rule",
+         "Device": "",
+         "Driver": "",
+         "Model": "MD34xx",
+         "Name": "VMW_SATP_ALUA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "DELL"
+      }, 
+
+      {
+         "Claim Options": "tpgs_on",
+         "Default PSP": "VMW_PSP_RR",
+         "Description": "Dell ALUA Claim Rule",
+         "Device": "",
+         "Driver": "",
+         "Model": "MD38xxf",
+         "Name": "VMW_SATP_ALUA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "DELL"
+      }, 
+
+      {
+         "Claim Options": "tpgs_on",
+         "Default PSP": "VMW_PSP_RR",
+         "Description": "Dell ALUA Claim Rule",
+         "Device": "",
+         "Driver": "",
+         "Model": "MD38xxi",
+         "Name": "VMW_SATP_ALUA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "DELL"
+      }, 
+
+      {
+         "Claim Options": "tpgs_on",
+         "Default PSP": "VMW_PSP_RR",
+         "Description": "DellEMC PowerStore arrays with ALUA support",
+         "Device": "",
+         "Driver": "",
+         "Model": "PowerStore",
+         "Name": "VMW_SATP_ALUA",
+         "Options": "",
+         "PSP Options": "iops=1",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "DellEMC"
+      }, 
+
+      {
+         "Claim Options": "tpgs_on",
+         "Default PSP": "VMW_PSP_RR",
+         "Description": "Hitachi VSP Storage with ALUA enabled",
+         "Device": "",
+         "Driver": "",
+         "Model": "OPEN-V",
+         "Name": "VMW_SATP_ALUA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "HITACHI"
+      }, 
+
+      {
+         "Claim Options": "tpgs_on",
+         "Default PSP": "VMW_PSP_RR",
+         "Description": "Tegile arrays with ALUA support",
+         "Device": "",
+         "Driver": "",
+         "Model": "INTELLIFLASH",
+         "Name": "VMW_SATP_ALUA",
+         "Options": "",
+         "PSP Options": "iops=1",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "TEGILE"
+      }, 
+
+      {
+         "Claim Options": "tpgs_on",
+         "Default PSP": "VMW_PSP_MRU",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "VV",
+         "Name": "VMW_SATP_ALUA",
+         "Options": "throttle_sll",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "3PARdata"
+      }, 
+
+      {
+         "Claim Options": "tpgs_on",
+         "Default PSP": "",
+         "Description": "Any array with ALUA support",
+         "Device": "",
+         "Driver": "",
+         "Model": "",
+         "Name": "VMW_SATP_ALUA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": ""
+      }, 
+
+      {
+         "Claim Options": "",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "HSG80",
+         "Name": "VMW_SATP_DEFAULT_AP",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "DEC"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "active\/passive HP StorageWorks SVSP",
+         "Device": "",
+         "Driver": "",
+         "Model": "HSVX700",
+         "Name": "VMW_SATP_DEFAULT_AP",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": ""
+      }, 
+
+      {
+         "Claim Options": "",
+         "Default PSP": "",
+         "Description": "active\/passive EVA 3000 GL [Legacy product, Not supported in this release]",
+         "Device": "",
+         "Driver": "",
+         "Model": "HSV100",
+         "Name": "VMW_SATP_DEFAULT_AP",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": ""
+      }, 
+
+      {
+         "Claim Options": "",
+         "Default PSP": "",
+         "Description": "active\/passive EVA 5000 GL [Legacy product, Not supported in this release]",
+         "Device": "",
+         "Driver": "",
+         "Model": "HSV110",
+         "Name": "VMW_SATP_DEFAULT_AP",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": ""
+      }, 
+
+      {
+         "Claim Options": "",
+         "Default PSP": "",
+         "Description": "All EqualLogic Arrays",
+         "Device": "",
+         "Driver": "",
+         "Model": "",
+         "Name": "VMW_SATP_EQL",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "EQLOGIC"
+      }, 
+
+      {
+         "Claim Options": "",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "Invista",
+         "Name": "VMW_SATP_INV",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "EMC"
+      }, 
+
+      {
+         "Claim Options": "",
+         "Default PSP": "",
+         "Description": "Invista LUNZ",
+         "Device": "",
+         "Driver": "",
+         "Model": "LUNZ",
+         "Name": "VMW_SATP_INV",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "EMC"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "active\/active EVA 4000\/6000 XL",
+         "Device": "",
+         "Driver": "",
+         "Model": "HSV200",
+         "Name": "VMW_SATP_EVA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": ""
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "active\/active EVA 8000\/8100 XL",
+         "Device": "",
+         "Driver": "",
+         "Model": "HSV210",
+         "Name": "VMW_SATP_EVA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": ""
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "active\/active HP StorageWorks SVSP",
+         "Device": "",
+         "Driver": "",
+         "Model": "HSVX740",
+         "Name": "VMW_SATP_EVA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": ""
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "active\/active EVA 3000 GL [Legacy product, Not supported in this release]",
+         "Device": "",
+         "Driver": "",
+         "Model": "HSV101",
+         "Name": "VMW_SATP_EVA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": ""
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "active\/active EVA 5000 GL [Legacy product, Not supported in this release]",
+         "Device": "",
+         "Driver": "",
+         "Model": "HSV111",
+         "Name": "VMW_SATP_EVA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": ""
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "active\/active EVA 4400",
+         "Device": "",
+         "Driver": "",
+         "Model": "HSV300",
+         "Name": "VMW_SATP_EVA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": ""
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "active\/active EVA 6400",
+         "Device": "",
+         "Driver": "",
+         "Model": "HSV400",
+         "Name": "VMW_SATP_EVA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": ""
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "active\/active EVA 8400",
+         "Device": "",
+         "Driver": "",
+         "Model": "HSV450",
+         "Name": "VMW_SATP_EVA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": ""
+      }, 
+
+      {
+         "Claim Options": "tpgs_on",
+         "Default PSP": "",
+         "Description": "CLARiiON array in ALUA mode",
+         "Device": "",
+         "Driver": "",
+         "Model": "",
+         "Name": "VMW_SATP_ALUA_CX",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "DGC"
+      }, 
+
+      {
+         "Claim Options": "",
+         "Default PSP": "",
+         "Description": "EMC Symmetrix",
+         "Device": "",
+         "Driver": "",
+         "Model": "SYMMETRIX",
+         "Name": "VMW_SATP_SYMM",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "EMC"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "All non-ALUA Clariion Arrays",
+         "Device": "",
+         "Driver": "",
+         "Model": "",
+         "Name": "VMW_SATP_CX",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "DGC"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "FAStT 700\/900",
+         "Device": "",
+         "Driver": "",
+         "Model": "^1742*",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "IBM"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "FAStT 200",
+         "Device": "",
+         "Driver": "",
+         "Model": "^3542*",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "IBM"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "FAStT 500",
+         "Device": "",
+         "Driver": "",
+         "Model": "^3552*",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "IBM"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "FAStT 600\/DS4300",
+         "Device": "",
+         "Driver": "",
+         "Model": "^1722*",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "IBM"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "FAStT DS4800",
+         "Device": "",
+         "Driver": "",
+         "Model": "^1815*",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "IBM"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "FAStT 100",
+         "Device": "",
+         "Driver": "",
+         "Model": "^1724*",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "IBM"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "DS3X00",
+         "Device": "",
+         "Driver": "",
+         "Model": "^1726-*",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "IBM"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "DS4000",
+         "Device": "",
+         "Driver": "",
+         "Model": "^1814*",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "IBM"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "DS5100\/DS5300",
+         "Device": "",
+         "Driver": "",
+         "Model": "^1818*",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "IBM"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "FAStT",
+         "Device": "",
+         "Driver": "",
+         "Model": "Universal Xport",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": ""
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "Dell MD3000",
+         "Device": "",
+         "Driver": "",
+         "Model": "MD3000",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "DELL"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "Dell MD3000i",
+         "Device": "",
+         "Driver": "",
+         "Model": "MD3000i",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "DELL"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "OPENstorage 9176",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "STK"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "OPENstorage D173",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "STK"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "OPENstorage D178",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "STK"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "OPENstorage D210",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "STK"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "OPENstorage D220",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "STK"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "OPENstorage D240",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "STK"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "OPENstorage D280",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "STK"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "BladeCtlr BC82",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "STK"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "BladeCtlr BC84",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "STK"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "BladeCtlr BC88",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "STK"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "BladeCtlr B210",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "STK"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "BladeCtlr B220",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "STK"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "BladeCtlr B240",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "STK"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "BladeCtlr B280",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "STK"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "INF-01-00",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "STK"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "FLEXLINE 380",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "STK"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "OPENstorage 9176",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "LSI"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "OPENstorage D173",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "LSI"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "OPENstorage D178",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "LSI"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "OPENstorage D210",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "LSI"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "OPENstorage D220",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "LSI"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "OPENstorage D240",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "LSI"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "OPENstorage D280",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "LSI"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "BladeCtlr BC82",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "LSI"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "BladeCtlr BC84",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "LSI"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "BladeCtlr BC88",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "LSI"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "BladeCtlr B210",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "LSI"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "BladeCtlr B220",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "LSI"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "BladeCtlr B240",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "LSI"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "BladeCtlr B280",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "LSI"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "INF-01-00",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "LSI"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "FLEXLINE 380",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "LSI"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "CSM100_R_FC",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "SUN"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "FLEXLINE 380",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "SUN"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "CSM200_R",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "SUN"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "LCSM100_F",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "SUN"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "LCSM100_I",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "SUN"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "LCSM100_S",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "SUN"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "Sun StorageTek 6580\/6780",
+         "Device": "",
+         "Driver": "",
+         "Model": "STK6580_6780",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "SUN"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "INF-01-00",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "ENGENIO"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "IBM DS3512\/DS3524",
+         "Device": "",
+         "Driver": "",
+         "Model": "^1746*",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "IBM"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "Dell MD3200",
+         "Device": "",
+         "Driver": "",
+         "Model": "MD32xx",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "DELL"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "Dell MD3200i",
+         "Device": "",
+         "Driver": "",
+         "Model": "MD32xxi",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "DELL"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "SGI InfiniteStorage 4000\/4100",
+         "Device": "",
+         "Driver": "",
+         "Model": "IS500",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "SGI"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "SGI InfiniteStorage 4600",
+         "Device": "",
+         "Driver": "",
+         "Model": "IS600",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "SGI"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "Sun Storage 6180",
+         "Device": "",
+         "Driver": "",
+         "Model": "SUN_6180",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "SUN"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "Dell MD3600i",
+         "Device": "",
+         "Driver": "",
+         "Model": "MD36xxi",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "DELL"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "Dell MD3600f",
+         "Device": "",
+         "Driver": "",
+         "Model": "MD36xxf",
+         "Name": "VMW_SATP_LSI",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "DELL"
+      }, 
+
+      {
+         "Claim Options": "inq_data[128]={0x44 0x46 0x30 0x30}",
+         "Default PSP": "VMW_PSP_RR",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "",
+         "Name": "VMW_SATP_DEFAULT_AA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "HITACHI"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "VMW_PSP_RR",
+         "Description": "IBM 2810XIV arrays without ALUA support",
+         "Device": "",
+         "Driver": "",
+         "Model": "2810XIV",
+         "Name": "VMW_SATP_DEFAULT_AA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "IBM"
+      }, 
+
+      {
+         "Claim Options": "",
+         "Default PSP": "VMW_PSP_RR",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "XtremApp",
+         "Name": "VMW_SATP_DEFAULT_AA",
+         "Options": "",
+         "PSP Options": "iops=1",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "XtremIO"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "VMW_PSP_RR",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "XSG1",
+         "Name": "VMW_SATP_DEFAULT_AA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "HUAWEI"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "VMW_PSP_RR",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "VBS fileIO",
+         "Name": "VMW_SATP_DEFAULT_AA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "Huawei"
+      }, 
+
+      {
+         "Claim Options": "",
+         "Default PSP": "VMW_PSP_RR",
+         "Description": "NetApp SolidFire Arrays",
+         "Device": "",
+         "Driver": "",
+         "Model": "SSD SAN",
+         "Name": "VMW_SATP_DEFAULT_AA",
+         "Options": "",
+         "PSP Options": "iops=10",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "SolidFir"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "VMW_PSP_RR",
+         "Description": "Hitachi VSP Storage",
+         "Device": "",
+         "Driver": "",
+         "Model": "OPEN-V",
+         "Name": "VMW_SATP_DEFAULT_AA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "HITACHI"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "VMW_PSP_RR",
+         "Description": "Tegile arrays without ALUA support",
+         "Device": "",
+         "Driver": "",
+         "Model": "INTELLIFLASH",
+         "Name": "VMW_SATP_DEFAULT_AA",
+         "Options": "",
+         "PSP Options": "iops=1",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "TEGILE"
+      }, 
+
+      {
+         "Claim Options": "",
+         "Default PSP": "",
+         "Description": "Fibre Channel Devices",
+         "Device": "",
+         "Driver": "",
+         "Model": "",
+         "Name": "VMW_SATP_DEFAULT_AA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "fc",
+         "Vendor": ""
+      }, 
+
+      {
+         "Claim Options": "",
+         "Default PSP": "",
+         "Description": "Fibre Channel over Ethernet Devices",
+         "Device": "",
+         "Driver": "",
+         "Model": "",
+         "Name": "VMW_SATP_DEFAULT_AA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "fcoe",
+         "Vendor": ""
+      }, 
+
+      {
+         "Claim Options": "",
+         "Default PSP": "",
+         "Description": "iSCSI Devices",
+         "Device": "",
+         "Driver": "",
+         "Model": "",
+         "Name": "VMW_SATP_DEFAULT_AA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "iscsi",
+         "Vendor": ""
+      }, 
+
+      {
+         "Claim Options": "",
+         "Default PSP": "",
+         "Description": "IBM SAS SES-2",
+         "Device": "",
+         "Driver": "",
+         "Model": "SAS SES-2 DEVICE",
+         "Name": "VMW_SATP_DEFAULT_AA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "IBM"
+      }, 
+
+      {
+         "Claim Options": "tpgs_off",
+         "Default PSP": "",
+         "Description": "IBM BCS RSSM",
+         "Device": "",
+         "Driver": "",
+         "Model": "1820N00",
+         "Name": "VMW_SATP_DEFAULT_AA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "IBM"
+      }, 
+
+      {
+         "Claim Options": "",
+         "Default PSP": "",
+         "Description": "",
+         "Device": "",
+         "Driver": "",
+         "Model": "",
+         "Name": "VMW_SATP_DEFAULT_AA",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "",
+         "Vendor": "HITACHI"
+      }, 
+
+      {
+         "Claim Options": "",
+         "Default PSP": "",
+         "Description": "USB Devices",
+         "Device": "",
+         "Driver": "",
+         "Model": "",
+         "Name": "VMW_SATP_LOCAL",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "usb",
+         "Vendor": ""
+      }, 
+
+      {
+         "Claim Options": "",
+         "Default PSP": "",
+         "Description": "IDE Devices",
+         "Device": "",
+         "Driver": "",
+         "Model": "",
+         "Name": "VMW_SATP_LOCAL",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "ide",
+         "Vendor": ""
+      }, 
+
+      {
+         "Claim Options": "",
+         "Default PSP": "",
+         "Description": "RAID Block Devices",
+         "Device": "",
+         "Driver": "",
+         "Model": "",
+         "Name": "VMW_SATP_LOCAL",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "block",
+         "Vendor": ""
+      }, 
+
+      {
+         "Claim Options": "",
+         "Default PSP": "",
+         "Description": "Parallel SCSI Devices",
+         "Device": "",
+         "Driver": "",
+         "Model": "",
+         "Name": "VMW_SATP_LOCAL",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "parallel",
+         "Vendor": ""
+      }, 
+
+      {
+         "Claim Options": "",
+         "Default PSP": "",
+         "Description": "Serial Attached SCSI Devices",
+         "Device": "",
+         "Driver": "",
+         "Model": "",
+         "Name": "VMW_SATP_LOCAL",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "sas",
+         "Vendor": ""
+      }, 
+
+      {
+         "Claim Options": "",
+         "Default PSP": "",
+         "Description": "Serial ATA Devices",
+         "Device": "",
+         "Driver": "",
+         "Model": "",
+         "Name": "VMW_SATP_LOCAL",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "sata",
+         "Vendor": ""
+      }, 
+
+      {
+         "Claim Options": "",
+         "Default PSP": "",
+         "Description": "Unknown Devices",
+         "Device": "",
+         "Driver": "",
+         "Model": "",
+         "Name": "VMW_SATP_LOCAL",
+         "Options": "",
+         "PSP Options": "",
+         "Rule Group": "system",
+         "Transport": "unknown",
+         "Vendor": ""
+      }
+]

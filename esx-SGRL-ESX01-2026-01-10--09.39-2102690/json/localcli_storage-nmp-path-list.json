@@ -1,0 +1,14 @@
+
+[
+
+      {
+         "Array Priority": 0,
+         "Device": "naa.600605b004213bc001e293503af49afb",
+         "Device Display Name": "Local IBM Disk (naa.600605b004213bc001e293503af49afb)",
+         "Group State": "active",
+         "Path": "unknown.vmhba0-unknown.2:0-naa.600605b004213bc001e293503af49afb",
+         "Path Selection Policy Path Config": "{current: yes; preferred: yes}",
+         "Runtime Name": "vmhba0:C2:T0:L0",
+         "Storage Array Type Path Config": "SATP VMW_SATP_LOCAL does not support path configuration."
+      }
+]

@@ -1,0 +1,1 @@
+naa.600605b004213bc001e293503af49afb:3                           /vmfs/devices/disks/naa.600605b004213bc001e293503af49afb:3 3a4fd8ce-fc4375c4-effb-5cf3fce846f8  0  datastore1

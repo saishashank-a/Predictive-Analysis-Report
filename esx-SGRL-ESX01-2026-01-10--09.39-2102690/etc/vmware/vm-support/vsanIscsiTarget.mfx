@@ -1,0 +1,10 @@
+% Manifest name: VSANIscsiTarget
+% Manifest group: Storage
+% Manifest default: Enabled
+% Manifest tag: storage,vsan
+
+# action Options file/command
+run TIMEOUT=300,RELOCATE=/vmfs/volumes/vsanDatastore/.iSCSI-CONFIG/vsanIscsiTargets.tgz,IGNORE_ERROR /usr/lib/vmware/vm-support/bin/vsanIscsiTarget.sh
+run TIMEOUT=300,RELOCATE=/vmfs/volumes/vsanDatastore/.iSCSI-CONFIG/etc/vit.conf,IGNORE_ERROR /usr/lib/vmware/vm-support/bin/vsanIscsiTargetVitConf.sh
+run TIMEOUT=300,RELOCATE=/vmfs/volumes/vsanDatastore/.iSCSI-CONFIG/etc/vit.status,IGNORE_ERROR /usr/lib/vmware/vm-support/bin/vsanIscsiTargetVitStatus.py
+run TIMEOUT=300,RELOCATE=/var/run/log/vit.conf.backup,IGNORE_ERROR /usr/lib/vmware/vm-support/bin/vsanIscsiTargetVitConfBackup.sh

@@ -1,0 +1,706 @@
+WID      CID      WorldName                       GID     PGID    SID     PCID     Type    State   Wait    CPU   Time          Command
+2097153  0        idle1                           2097153  0      0      0        SI      RUN     NONE    1         0.0     
+2097154  0        idle2                           2097153  0      0      0        SI      RUN     NONE    2         0.0     
+2097155  0        idle3                           2097153  0      0      0        SI      READY   NONE    3         0.0     
+2097156  0        idle4                           2097153  0      0      0        SI      RUN     NONE    4         0.0     
+2097157  0        idle5                           2097153  0      0      0        SI      READY   NONE    5         0.0     
+2097158  0        idle6                           2097153  0      0      0        SI      RUN     NONE    6         0.0     
+2097159  0        idle7                           2097153  0      0      0        SI      RUN     NONE    7         0.0     
+2097160  0        idle8                           2097153  0      0      0        SI      RUN     NONE    8         0.0     
+2097161  0        idle9                           2097153  0      0      0        SI      RUN     NONE    9         0.0     
+2097162  0        idle10                          2097153  0      0      0        SI      RUN     NONE    10        0.0     
+2097163  0        idle11                          2097153  0      0      0        SI      READY   NONE    11        0.0     
+2097164  0        idle12                          2097153  0      0      0        SI      RUN     NONE    12        0.0     
+2097165  0        idle13                          2097153  0      0      0        SI      RUN     NONE    13        0.0     
+2097166  0        idle14                          2097153  0      0      0        SI      RUN     NONE    14        0.0     
+2097167  0        idle15                          2097153  0      0      0        SI      RUN     NONE    15        0.0     
+2097168  0        idle16                          2097153  0      0      0        SI      RUN     NONE    16        0.0     
+2097169  0        idle17                          2097153  0      0      0        SI      RUN     NONE    17        0.0     
+2097170  0        idle18                          2097153  0      0      0        SI      RUN     NONE    18        0.0     
+2097171  0        idle19                          2097153  0      0      0        SI      RUN     NONE    19        0.0     
+2097172  0        idle20                          2097153  0      0      0        SI      READY   NONE    20        0.0     
+2097173  0        idle21                          2097153  0      0      0        SI      RUN     NONE    21        0.0     
+2097174  0        idle22                          2097153  0      0      0        SI      RUN     NONE    22        0.0     
+2097175  0        idle23                          2097153  0      0      0        SI      RUN     NONE    23        0.0     
+2097176  0        vmkEventAsyncMsg                2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.238   
+2097177  0        fastslab                        2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.432136
+2097178  0        SVGAConsole                     2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.204473
+2097179  0        debugtermlivedump               2097153  0      0      0        S       WAIT    DEBUGT  0-23      0.13    
+2097180  0        logSysAlert                     2097153  0      0      0        S       WAIT    SYSALE  0-23      0.1591  
+2097181  0        serialLogger                    2097153  0      0      0        S       WAIT    SERIAL  0-23      0.2267  
+2097182  0        tlbflushcount                   2097153  0      0      0        S       WAIT    TLB_FC  0-23      0.51898 
+2097183  0        tlbflushcounttryflush           2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.114038
+2097184  0        PageRetire                      2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.215   
+2097185  0        idle0                           2097153  0      0      0        SI      READY   NONE    0         0.0     
+2097186  0        netLegacyRx                     2097153  0      0      0        S       WAIT    NET     0-23      0.14    
+2097187  0        NetEventWorld                   2097153  0      0      0        S       WAIT    NET     0-23      0.12    
+2097188  0        netCoalesce2World               2097153  0      0      0        S       WAIT    NOEVQ   0-23      6.77094 
+2097189  0        netCoalesce2FineWorld           2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.12    
+2097190  0        ndiscWorld                      2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.24694 
+2097191  0        UplinkWatchdogWorld             2097153  0      0      0        S       WAIT    SLP     0-23      0.12    
+2097192  0        netqueueBalancerWorld           2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.94075 
+2097193  0        PktCapWorld                     2097153  0      0      0        S       WAIT    SLP     0-23      0.12    
+2097194  0        PktCapSessionFreeWorld          2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.11    
+2097195  0        CmdCompl-0                      2097153  0      0      0        S       WAIT    NOEVQ   0-11      0.70135 
+2097196  0        CmdCompl-1                      2097153  0      0      0        S       WAIT    NOEVQ   0-11      0.56116 
+2097197  0        CmdCompl-2                      2097153  0      0      0        S       WAIT    NOEVQ   0-11      0.41949 
+2097198  0        CmdCompl-3                      2097153  0      0      0        S       WAIT    NOEVQ   0-11      0.36597 
+2097199  0        CmdCompl-4                      2097153  0      0      0        S       WAIT    NOEVQ   0-11      0.38835 
+2097200  0        CmdCompl-5                      2097153  0      0      0        S       WAIT    NOEVQ   0-11      0.41097 
+2097201  0        CmdCompl-6                      2097153  0      0      0        S       WAIT    NOEVQ   0-11      0.26539 
+2097202  0        CmdCompl-7                      2097153  0      0      0        S       WAIT    NOEVQ   0-11      0.46113 
+2097203  0        CmdCompl-8                      2097153  0      0      0        S       WAIT    NOEVQ   0-11      0.39937 
+2097204  0        CmdCompl-9                      2097153  0      0      0        S       WAIT    NOEVQ   0-11      0.45040 
+2097205  0        CmdCompl-10                     2097153  0      0      0        S       WAIT    NOEVQ   0-11      0.98617 
+2097206  0        CmdCompl-11                     2097153  0      0      0        S       WAIT    NOEVQ   0-11      0.27179 
+2097207  0        CmdCompl-12                     2097153  0      0      0        S       WAIT    NOEVQ   12-23      0.81512 
+2097208  0        CmdCompl-13                     2097153  0      0      0        S       WAIT    NOEVQ   12-23      0.51810 
+2097209  0        CmdCompl-14                     2097153  0      0      0        S       WAIT    NOEVQ   12-23      0.42963 
+2097210  0        CmdCompl-15                     2097153  0      0      0        S       WAIT    NOEVQ   12-23      0.36913 
+2097211  0        CmdCompl-16                     2097153  0      0      0        S       WAIT    NOEVQ   12-23      0.98080 
+2097212  0        CmdCompl-17                     2097153  0      0      0        S       WAIT    NOEVQ   12-23      0.46138 
+2097213  0        CmdCompl-18                     2097153  0      0      0        S       WAIT    NOEVQ   12-23      0.45242 
+2097214  0        CmdCompl-19                     2097153  0      0      0        S       WAIT    NOEVQ   12-23      0.26063 
+2097215  0        CmdCompl-20                     2097153  0      0      0        S       WAIT    NOEVQ   12-23      0.68624 
+2097216  0        CmdCompl-21                     2097153  0      0      0        S       WAIT    NOEVQ   12-23      0.39696 
+2097217  0        CmdCompl-22                     2097153  0      0      0        S       WAIT    NOEVQ   12-23      0.54365 
+2097218  0        CmdCompl-23                     2097153  0      0      0        S       WAIT    NOEVQ   12-23      0.40622 
+2097219  0        ScsiFilterTransWorld            2097219  0      0      0        S       WAIT    LOCK    0-23      0.11    
+2097220  0        AsyncTimeout                    2097220  0      0      0        S       WAIT    NOEVQ   0-23      0.24800 
+2097221  0        DeviceTaskmgmtWatchdog          2097221  0      0      0        S       WAIT    NOEVQ   0-23      0.24923 
+2097222  0        PathTaskmgmtWatchdog            2097222  0      0      0        S       WAIT    NOEVQ   0-23      0.22207 
+2097223  0        Pool-DeferredWork-0             2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.11    
+2097224  0        directMapModifyMapAttr          2097153  0      0      0        S       WAIT    DIRECT  0-23      0.46597 
+2097225  0        RCUWorld                        2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.97695 
+2097226  0        reapWorker-0                    2097153  0      0      0        S       WAIT    REAPER  0-23      0.26521 
+2097227  0        reapWorker-1                    2097153  0      0      0        S       WAIT    REAPER  0-23      0.26318 
+2097228  0        reapWorker-2                    2097153  0      0      0        S       WAIT    REAPER  0-23      0.25323 
+2097229  0        reapWorker-3                    2097153  0      0      0        S       WAIT    REAPER  0-23      0.24763 
+2097230  0        reapWorker-4                    2097153  0      0      0        S       WAIT    REAPER  0-23      0.27422 
+2097231  0        reapWorker-5                    2097153  0      0      0        S       WAIT    REAPER  0-23      0.26550 
+2097232  0        reapWorker-6                    2097153  0      0      0        S       WAIT    REAPER  0-23      0.24413 
+2097233  0        reapWorker-7                    2097153  0      0      0        S       WAIT    REAPER  0-23      0.27146 
+2097234  0        reapWorker-8                    2097153  0      0      0        S       WAIT    REAPER  0-23      0.26435 
+2097235  0        reapWorker-9                    2097153  0      0      0        S       WAIT    REAPER  0-23      0.385195
+2097236  0        reapWorker-10                   2097153  0      0      0        S       WAIT    REAPER  0-23      0.27893 
+2097237  0        reapWorker-11                   2097153  0      0      0        S       WAIT    REAPER  0-23      0.27105 
+2097238  0        reapWorker-12                   2097153  0      0      0        S       WAIT    REAPER  0-23      0.26816 
+2097239  0        reapWorker-13                   2097153  0      0      0        S       WAIT    REAPER  0-23      0.26322 
+2097240  0        reapWorker-14                   2097153  0      0      0        S       WAIT    REAPER  0-23      0.25747 
+2097241  0        reapWorker-15                   2097153  0      0      0        S       WAIT    REAPER  0-23      0.25699 
+2097242  0        reapWorker-16                   2097153  0      0      0        S       WAIT    REAPER  0-23      0.28145 
+2097243  0        reapWorker-17                   2097153  0      0      0        S       WAIT    REAPER  0-23      0.27710 
+2097244  0        reapWorker-18                   2097153  0      0      0        S       WAIT    REAPER  0-23      0.24916 
+2097245  0        reapWorker-19                   2097153  0      0      0        S       WAIT    REAPER  0-23      0.26255 
+2097246  0        reapWorker-20                   2097153  0      0      0        S       WAIT    REAPER  0-23      0.42915 
+2097247  0        reapWorker-21                   2097153  0      0      0        S       WAIT    REAPER  0-23      0.27787 
+2097248  0        reapWorker-22                   2097153  0      0      0        S       WAIT    REAPER  0-23      0.24379 
+2097249  0        reapWorker-23                   2097153  0      0      0        S       WAIT    REAPER  0-23      0.26684 
+2097250  0        HELPER_IMMEDIATE_QUEUE          2097250  0      0      0        SH      WAIT    HREQ    0-23      0.4     
+2097251  0        HELPER_MISC_QUEUE               2097251  0      0      0        SH      WAIT    HREQ    0-23      0.4     
+2097252  0        HELPER_MISC_QUEUE               2097252  0      0      0        SH      WAIT    HREQ    0-23      0.10    
+2097253  0        HELPER_MISC_QUEUE               2097253  0      0      0        SH      WAIT    HREQ    0-23      0.29    
+2097254  0        HELPER_VMFS_JOURNAL_QUEUE       2097254  0      0      0        SH      WAIT    HREQ    0-23      0.4     
+2097255  0        HELPER_LVM_DRIVER_QUEUE         2097255  0      0      0        SH      WAIT    HREQ    0-23      0.8     
+2097256  0        HELPER_VMXNET2_MISC_QUEUE       2097256  0      0      0        SH      WAIT    HREQ    0-23      0.8     
+2097257  0        HELPER_VMXNET2_MISC_QUEUE       2097257  0      0      0        SH      WAIT    HREQ    0-23      0.8     
+2097258  0        HELPER_SWAP_QUEUE               2097258  0      0      0        SH      WAIT    HREQ    0-23      0.8     
+2097259  0        HELPER_SWAP_QUEUE               2097259  0      0      0        SH      WAIT    HREQ    0-23      0.8     
+2097260  0        HELPER_SWAP_QUEUE               2097260  0      0      0        SH      WAIT    HREQ    0-23      0.8     
+2097261  0        HELPER_SWAP_QUEUE               2097261  0      0      0        SH      WAIT    HREQ    0-23      0.8     
+2097262  0        HELPER_LLSWAP_QUEUE             2097262  0      0      0        SH      WAIT    HREQ    0-23      0.8     
+2097263  0        HELPER_MEMSCHED_QUEUE           2097263  0      0      0        SH      WAIT    HREQ    0-23      0.8     
+2097264  0        HELPER_SCSI_QUEUE               2097264  0      0      0        SH      WAIT    HREQ    0-23      0.8     
+2097265  0        HELPER_SCSI_QUEUE               2097265  0      0      0        SH      WAIT    HREQ    0-23      0.2732  
+2097266  0        HELPER_E1000_PAGE_IN_QUEUE      2097266  0      0      0        SH      WAIT    HREQ    0-23      0.8     
+2097267  0        HELPER_LVM_ASYNCIO_QUEUE        2097267  0      0      0        SH      WAIT    HREQ    0-23      0.8     
+2097268  0        HELPER_UPLINK_ASYNC_CALL_QUEUE  2097268  0      0      0        SH      WAIT    HREQ    0-23      0.279900
+2097269  0        HELPER_NETWORK_MISC_QUEUE       2097269  0      0      0        SH      WAIT    HREQ    0-23      0.172   
+2097270  0        HELPER_NETWORK_MISC_QUEUE       2097270  0      0      0        SH      WAIT    HREQ    0-23      0.105   
+2097271  0        HELPER_WATCHDOG_QUEUE           2097271  0      0      0        SH      WAIT    HREQ    0-23      0.98135 
+2097272  0        HELPER_MISC_INFRA_QUEUE         2097272  0      0      0        SH      WAIT    HREQ    0-23      0.7     
+2097273  0        HELPER_MISC_INFRA_QUEUE         2097273  0      0      0        SH      WAIT    HREQ    0-23      0.6     
+2097274  0        HELPER_MISC_INFRA_QUEUE         2097274  0      0      0        SH      WAIT    HREQ    0-23      0.6     
+2097275  0        HELPER_MISC_INFRA_QUEUE         2097275  0      0      0        SH      WAIT    HREQ    0-23      0.6     
+2097276  0        HELPER_MISC_INFRA_QUEUE         2097276  0      0      0        SH      WAIT    HREQ    0-23      0.6     
+2097277  0        HELPER_MISC_INFRA_QUEUE         2097277  0      0      0        SH      WAIT    HREQ    0-23      0.7     
+2097278  0        HELPER_MISC_INFRA_QUEUE         2097278  0      0      0        SH      WAIT    HREQ    0-23      0.6     
+2097279  0        HELPER_MISC_INFRA_QUEUE         2097279  0      0      0        SH      WAIT    HREQ    0-23      0.6     
+2097280  0        HELPER_MISC_INFRA_QUEUE         2097280  0      0      0        SH      WAIT    HREQ    0-23      0.5     
+2097281  0        HELPER_MISC_INFRA_QUEUE         2097281  0      0      0        SH      WAIT    HREQ    0-23      0.6     
+2097282  0        HELPER_MISC_INFRA_QUEUE         2097282  0      0      0        SH      WAIT    HREQ    0-23      0.5     
+2097283  0        HELPER_MISC_INFRA_QUEUE         2097283  0      0      0        SH      WAIT    HREQ    0-23      0.5     
+2097284  0        HELPER_MISC_INFRA_QUEUE         2097284  0      0      0        SH      WAIT    HREQ    0-23      0.6     
+2097285  0        HELPER_MISC_INFRA_QUEUE         2097285  0      0      0        SH      WAIT    HREQ    0-23      0.5     
+2097286  0        HELPER_MISC_INFRA_QUEUE         2097286  0      0      0        SH      WAIT    HREQ    0-23      0.5     
+2097287  0        HELPER_MISC_INFRA_QUEUE         2097287  0      0      0        SH      WAIT    HREQ    0-23      0.5     
+2097288  0        HELPER_MISC_INFRA_QUEUE         2097288  0      0      0        SH      WAIT    HREQ    0-23      0.5     
+2097289  0        HELPER_MISC_INFRA_QUEUE         2097289  0      0      0        SH      WAIT    HREQ    0-23      0.5     
+2097290  0        HELPER_MISC_INFRA_QUEUE         2097290  0      0      0        SH      WAIT    HREQ    0-23      0.5     
+2097291  0        HELPER_MISC_INFRA_QUEUE         2097291  0      0      0        SH      WAIT    HREQ    0-23      0.5     
+2097292  0        HELPER_MISC_INFRA_QUEUE         2097292  0      0      0        SH      WAIT    HREQ    0-23      1.576163
+2097293  0        HELPER_MISC_INFRA_QUEUE         2097293  0      0      0        SH      WAIT    HREQ    0-23      5.879638
+2097294  0        HELPER_MISC_INFRA_QUEUE         2097294  0      0      0        SH      WAIT    HREQ    0-23      2.439128
+2097295  0        HELPER_MISC_INFRA_QUEUE         2097295  0      0      0        SH      WAIT    HREQ    0-23      3.435243
+2097296  0        HELPER_VMXNET3_PT_QUEUE         2097296  0      0      0        SH      WAIT    HREQ    0-23      0.5     
+2097297  0        HELPER_VMXNET3_PT_QUEUE         2097297  0      0      0        SH      WAIT    HREQ    0-23      0.4     
+2097298  0        HELPER_VMXNET3_STATS_QUEUE      2097298  0      0      0        SH      WAIT    HREQ    0-23      0.5     
+2097299  0        HELPER_PT_MANAGER_QUEUE         2097299  0      0      0        SH      WAIT    HREQ    0-23      0.8     
+2097300  0        HELPER_PAGERETIRE_QUEUE         2097300  0      0      0        SH      WAIT    HREQ    0-23      0.4     
+2097301  0        HELPER_IODM_QUEUE               2097301  0      0      0        SH      WAIT    HREQ    0-23      0.5     
+2097302  0        HELPER_USERMEM_QUEUE            2097302  0      0      0        SH      WAIT    HREQ    0-23      0.4     
+2097303  0        HELPER_DEVICE_LAYER_QUEUE       2097303  0      0      0        SH      WAIT    HREQ    0-23      0.4     
+2097304  0        HELPER_DEVICE_LAYER_QUEUE       2097304  0      0      0        SH      WAIT    HREQ    0-23      0.20    
+2097305  0        HELPER_READCAPACITY_QUEUE       2097305  0      0      0        SH      WAIT    HREQ    0-23      0.4     
+2097306  0        systemSwapPDL                   2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.2533  
+2097321  0        VMK swapper helper queue        2097321  0      0      0        SH      WAIT    HREQ    0-23      0.8     
+2097322  0        VMK swapper helper queue        2097322  0      0      0        SH      WAIT    HREQ    0-23      0.5     
+2097323  0        llswap defragmenter             2097153  0      0      0        S       WAIT    LLSWAP  0-23      0.3     
+2097324  0        retireWld.0000                  2097153  0      0      0        S       WAIT    NOEVQ   0         0.29015 
+2097325  0        retireWld.0001                  2097153  0      0      0        S       WAIT    NOEVQ   1         0.19135 
+2097326  0        retireWld.0002                  2097153  0      0      0        S       WAIT    NOEVQ   2         0.13866 
+2097327  0        retireWld.0003                  2097153  0      0      0        S       WAIT    NOEVQ   3         0.11220 
+2097328  0        retireWld.0004                  2097153  0      0      0        S       WAIT    NOEVQ   4         0.10287 
+2097329  0        retireWld.0005                  2097153  0      0      0        S       WAIT    NOEVQ   5         0.10692 
+2097330  0        retireWld.0006                  2097153  0      0      0        S       WAIT    NOEVQ   6         0.11654 
+2097331  0        retireWld.0007                  2097153  0      0      0        S       WAIT    NOEVQ   7         0.9268  
+2097332  0        retireWld.0008                  2097153  0      0      0        S       WAIT    NOEVQ   8         0.12031 
+2097333  0        retireWld.0009                  2097153  0      0      0        S       WAIT    NOEVQ   9         0.12825 
+2097334  0        retireWld.0010                  2097153  0      0      0        S       WAIT    NOEVQ   10        0.7533  
+2097335  0        retireWld.0011                  2097153  0      0      0        S       WAIT    NOEVQ   11        0.9807  
+2097336  0        retireWld.0012                  2097153  0      0      0        S       WAIT    NOEVQ   12        0.14072 
+2097337  0        retireWld.0013                  2097153  0      0      0        S       WAIT    NOEVQ   13        0.9560  
+2097338  0        retireWld.0014                  2097153  0      0      0        S       WAIT    NOEVQ   14        0.5942  
+2097339  0        retireWld.0015                  2097153  0      0      0        S       WAIT    NOEVQ   15        0.2364  
+2097340  0        retireWld.0016                  2097153  0      0      0        S       WAIT    NOEVQ   16        0.4023  
+2097341  0        retireWld.0017                  2097153  0      0      0        S       WAIT    NOEVQ   17        0.3158  
+2097342  0        retireWld.0018                  2097153  0      0      0        S       WAIT    NOEVQ   18        0.2057  
+2097343  0        retireWld.0019                  2097153  0      0      0        S       WAIT    NOEVQ   19        0.4541  
+2097344  0        retireWld.0020                  2097153  0      0      0        S       WAIT    NOEVQ   20        0.797   
+2097345  0        retireWld.0021                  2097153  0      0      0        S       WAIT    NOEVQ   21        0.4566  
+2097346  0        retireWld.0022                  2097153  0      0      0        S       WAIT    NOEVQ   22        0.3526  
+2097347  0        retireWld.0023                  2097153  0      0      0        S       WAIT    NOEVQ   23        0.3061  
+2097348  0        itRebalance                     2097153  0      0      0        S       WAIT    NOEVQ   0-23      1.844528
+2097349  0        memschedRealloc-fast            2097153  0      0      0        S       WAIT    MEM     0-23      0.11    
+2097350  0        memschedRealloc                 2097153  0      0      0        S       WAIT    MEM     0-23      1.763336
+2097351  0        memmetrics-periodic             2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.204949
+2097352  0        memsched-periodic               2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.227783
+2097353  0        pshare-est                      2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.73872 
+2097354  0        lpage-est                       2097153  0      0      0        S       WAIT    NOEVQ   0-23      1.758129
+2097355  0        lpage                           2097153  0      0      0        S       WAIT    LPAGEN  0-23      0.8596  
+2097356  0        memSchedGeneric                 2097153  0      0      0        S       WAIT    MEMSCH  0-23      0.5587  
+2097357  0        CpuSchedAgingVtimes             2097153  0      0      0        S       WAIT    NOEVQ   0-23      1.788184
+2097358  0        CpuSchedRealloc                 2097153  0      0      0        S       WAIT    NOEVQ   0-23      5.964431
+2097359  0        CpuMetricsLoadHistory           2097153  0      0      0        S       WAIT    NOEVQ   0-23      1.117692
+2097360  0        CpuSchedExtendedCore            2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.8541  
+2097361  0        numasched                       2097153  0      0      0        S       WAIT    NOEVQ   0-23      4.631968
+2097362  0        PktSlabMemoryStats              2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.5826  
+2097364  0        netpoll cleanup helpers         2097364  0      0      0        SH      WAIT    HREQ    0-23      0.14    
+2097365  0        PSEventHelper                   2097365  0      0      0        SH      WAIT    HREQ    0-23      0.1021  
+2097371  0        PortEventHelper                 2097371  0      0      0        SH      WAIT    HREQ    0-23      0.9     
+2097377  0        NetSchedHelper                  2097377  0      0      0        SH      WAIT    HREQ    0-23      0.826   
+2097378  0        NetSchedHelper                  2097378  0      0      0        SH      WAIT    HREQ    0-23      0.410   
+2097403  0        DCFlushCaches                   2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.7165  
+2097404  0        OCFlush                         2097153  0      0      0        S       WAIT    OCFLNO  0-23      0.224691
+2097415  0        VCHelperQueue                   2097415  0      0      0        SH      WAIT    HREQ    0-23      0.3933  
+2097421  0        visorfsPager                    2097421  0      0      0        SH      WAIT    HREQ    0-23      3.665952
+2097422  0        devfsHelper                     2097422  0      0      0        SH      WAIT    HREQ    0-23      0.4     
+2097429  0        bchelperq                       2097429  0      0      0        SH      WAIT    HREQ    0-23      0.7     
+2097447  0        bcflushd                        2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.77276 
+2097473  0        VSCSI Helper Queue              2097473  0      0      0        SH      WAIT    HREQ    0-23      0.22    
+2097484  0        VSCSIPoll                       2097153  0      0      0        S       WAIT    NOEVQ   0-23      6.525796
+2097485  0        reset-handler                   2097485  0      0      0        S       WAIT    SCSI    0-23      0.4285  
+2097486  0        reset-watchdog                  2097486  0      0      0        S       WAIT    NOEVQ   0-23      0.134857
+2097493  0        SCSI Event Framework helpers    2097493  0      0      0        SH      WAIT    HREQ    0-23      0.6     
+2097495  0        Storage-APD                     2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.4     
+2097496  0        SCSI periodic path probe        2097496  0      0      0        SH      WAIT    HREQ    0-23      0.751   
+2097497  0        SCSI periodic path probe        2097497  0      0      0        SH      WAIT    HREQ    0-23      0.557   
+2097511  0        SCSI periodic device probe      2097511  0      0      0        SH      WAIT    HREQ    0-23      0.558   
+2097512  0        SCSI periodic reclaim           2097512  0      0      0        SH      WAIT    HREQ    0-23      0.247   
+2097513  0        SCSIDeviceSchedQCleanup         2097513  0      0      0        S       WAIT    NOEVQ   0-23      0.334   
+2097514  0        SCSI path scan helpers          2097514  0      0      0        SH      WAIT    HREQ    0-23      0.3     
+2097515  0        SCSI path scan helpers          2097515  0      0      0        SH      WAIT    HREQ    0-23      0.2     
+2097516  0        SCSI path scan helpers          2097516  0      0      0        SH      WAIT    HREQ    0-23      0.2     
+2097517  0        SCSI path scan helpers          2097517  0      0      0        SH      WAIT    HREQ    0-23      0.2     
+2097518  0        SCSI path scan helpers          2097518  0      0      0        SH      WAIT    HREQ    0-23      0.304   
+2097522  0        SCSI device scan helpers        2097522  0      0      0        SH      WAIT    HREQ    0-23      0.107   
+2097528  0        SCSI device APD helpers         2097528  0      0      0        SH      WAIT    HREQ    0-23      0.5     
+2097540  0        serialSwitcher                  2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.3     
+2097541  0        logterm                         2097153  0      0      0        S       WAIT    LOGTER  0-23      0.1810  
+2097542  0        logterm-scroll                  2097153  0      0      0        S       WAIT    LOGTER  0-23      0.3     
+2097543  0        memMap-adj                      2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.402380
+2097544  0        pmemArs                         2097153  0      0      0        S       WAIT    PMEMAR  0-23      0.41    
+2097546  0        RandomEntropySpillOverHelper    2097546  0      0      0        SH      WAIT    HREQ    0-23      0.107478
+2097549  0        tq:incompatTQ                   2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.7     
+2097550  0        asyncRemapHelpers               2097550  0      0      0        SH      WAIT    HREQ    0-23      0.10    
+2097551  0        DeviceTaskmgmtHandler           2097551  0      0      0        S       WAIT    SCSI    0-23      0.27    
+2097552  0        PathTaskmgmtHandler             2097552  0      0      0        S       WAIT    SCSI    0-23      0.31    
+2097553  0        SchedPowerEnergy                2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.901810
+2097554  0        serial rx tty1                  2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.4     
+2097555  0        serial rx tty2                  2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.5     
+2097556  0        userMemTouchEst-4306b62a2000    2097153  0      0      0        S       WAIT    NOEVQ   0-23      1.748847
+2097557  2097557  init                            2097557  2097557  2097557  0        U       WAIT    UWAIT   0-23      0.13037   /bin/init
+2097611  2097611  wdog-2097612                    2097611  2097610  2097610  2097557  U       WAIT    UWAIT   0-23      0.1997    /bin/python /usr/lib/vmware/vmsyslog/bin/vmsyslogd.pyc -i
+2097612  2097612  vmsyslogd                       2097612  2097610  2097610  2097611  U       WAIT    UFUTEX  0-23      2.278594  /bin/python /usr/lib/vmware/vmsyslog/bin/vmsyslogd.pyc -i
+2097613  2097612  vmsyslogd                       2097612  2097610  2097610  2097611  UX      WAIT    USOCKR  0-23      0.710281  /bin/python /usr/lib/vmware/vmsyslog/bin/vmsyslogd.pyc -i
+2097614  2097612  vmsyslogd                       2097612  2097610  2097610  2097611  UX      WAIT    LOG     0-23      0.192807  /bin/python /usr/lib/vmware/vmsyslog/bin/vmsyslogd.pyc -i
+2097615  2097612  vmsyslogd                       2097612  2097610  2097610  2097611  UX      WAIT    UFUTEX  0-23      0.88      /bin/python /usr/lib/vmware/vmsyslog/bin/vmsyslogd.pyc -i
+2097623  2097623  sh                              2097623  2097623  2097623  2097557  U       WAIT    USIG    0-23      0.6108    /bin/sh /sbin/watchdog.sh -s vobd /usr/lib/vmware/vob/bin/vobd
+2097635  2097635  vobd                            2097635  2097635  2097635  2097623  U       WAIT    UPOL    0-23      0.47982   /usr/lib/vmware/vob/bin/vobd
+2097636  2097635  vobd                            2097635  2097635  2097635  2097623  UX      WAIT    UFUTEX  0-23      0.9334    /usr/lib/vmware/vob/bin/vobd
+2097637  2097635  vobd                            2097635  2097635  2097635  2097623  UX      WAIT    UPOL    0-23      0.6174    /usr/lib/vmware/vob/bin/vobd
+2097638  2097635  vobd                            2097635  2097635  2097635  2097623  UX      WAIT    UPOL    0-23      0.7378    /usr/lib/vmware/vob/bin/vobd
+2097639  2097635  vobd                            2097635  2097635  2097635  2097623  UX      WAIT    UPOL    0-23      0.89      /usr/lib/vmware/vob/bin/vobd
+2097640  2097635  vobd                            2097635  2097635  2097635  2097623  UX      WAIT    UPOL    0-23      0.54      /usr/lib/vmware/vob/bin/vobd
+2097641  2097635  vobd                            2097635  2097635  2097635  2097623  UX      WAIT    UPOL    0-23      0.260     /usr/lib/vmware/vob/bin/vobd
+2097642  2097635  vobd                            2097635  2097635  2097635  2097623  UX      WAIT    UPOL    0-23      0.1152    /usr/lib/vmware/vob/bin/vobd
+2097643  2097635  vobd                            2097635  2097635  2097635  2097623  UX      WAIT    UPOL    0-23      0.128     /usr/lib/vmware/vob/bin/vobd
+2097644  2097635  vobd                            2097635  2097635  2097635  2097623  UX      WAIT    UPOL    0-23      0.98      /usr/lib/vmware/vob/bin/vobd
+2097645  2097635  vobd                            2097635  2097635  2097635  2097623  UX      WAIT    UPOL    0-23      0.41      /usr/lib/vmware/vob/bin/vobd
+2097646  2097635  vobd                            2097635  2097635  2097635  2097623  UX      WAIT    UPOL    0-23      0.42      /usr/lib/vmware/vob/bin/vobd
+2097647  2097635  vobd                            2097635  2097635  2097635  2097623  UX      WAIT    UPOL    0-23      0.46      /usr/lib/vmware/vob/bin/vobd
+2097648  2097635  vobd                            2097635  2097635  2097635  2097623  UX      WAIT    UPOL    0-23      0.710     /usr/lib/vmware/vob/bin/vobd
+2097649  2097635  vobd                            2097635  2097635  2097635  2097623  UX      WAIT    UPOL    0-23      0.22      /usr/lib/vmware/vob/bin/vobd
+2097650  2097635  vobd                            2097635  2097635  2097635  2097623  UX      WAIT    UPOL    0-23      0.83      /usr/lib/vmware/vob/bin/vobd
+2097651  2097635  vobd                            2097635  2097635  2097635  2097623  UX      WAIT    UPOL    0-23      0.41      /usr/lib/vmware/vob/bin/vobd
+2097652  2097635  vobd                            2097635  2097635  2097635  2097623  UX      WAIT    UPOL    0-23      0.30      /usr/lib/vmware/vob/bin/vobd
+2097653  2097635  vobd                            2097635  2097635  2097635  2097623  UX      WAIT    UPOL    0-23      0.51      /usr/lib/vmware/vob/bin/vobd
+2097654  2097635  vobd                            2097635  2097635  2097635  2097623  UX      WAIT    UPOL    0-23      0.101     /usr/lib/vmware/vob/bin/vobd
+2097659  2097659  sh                              2097659  2097606  2097606  2097557  U       WAIT    USIG    0-23      0.6451    /bin/sh /sbin/watchdog.sh -s vmkeventd -u 10 -q 5 -t 9999999 /usr/lib/vmware/vmkeventd/bin/vmkeventd
+2097666  2097666  vmkeventd                       2097666  2097666  2097666  2097659  U       WAIT    UPOL    0-23      0.118356  /usr/lib/vmware/vmkeventd/bin/vmkeventd
+2097673  0        vprobeDrainEngine               2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.5     
+2097691  0        tq:vmkbsd                       2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.411631
+2097692  0        thread taskq_0                  2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.135   
+2097693  0        thread taskq_1                  2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.468   
+2097694  0        thread taskq_2                  2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.35    
+2097695  0        thread taskq_3                  2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.140   
+2097696  0        cam.doneq0                      2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.476   
+2097697  0        cam.doneq1                      2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.111   
+2097698  0        cam.doneq2                      2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.139   
+2097699  0        cam.doneq3                      2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.58    
+2097700  0        CAM taskq                       2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.900   
+2097701  0        cam.scanner                     2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.4561  
+2097702  0        usbus0                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.2     
+2097703  0        usbus0                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.2     
+2097704  0        usbus0                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.5     
+2097705  0        usbus0                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.22349 
+2097706  0        usbus0                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.5     
+2097707  0        usbus1                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.5     
+2097708  0        usbus1                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.5     
+2097709  0        usbus1                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.5     
+2097710  0        usbus1                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.20658 
+2097711  0        usbus1                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.4     
+2097712  0        usbus2                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.6     
+2097713  0        usbus2                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.4     
+2097714  0        usbus2                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.8     
+2097715  0        usbus2                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.28258 
+2097716  0        usbus2                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.4     
+2097717  0        usbus3                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.5     
+2097718  0        usbus3                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.3     
+2097719  0        usbus3                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.57068 
+2097720  0        usbus3                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.25479 
+2097721  0        usbus3                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.702   
+2097722  0        usbus4                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.5     
+2097723  0        usbus4                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.3     
+2097724  0        usbus4                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.2     
+2097725  0        usbus4                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.20368 
+2097726  0        usbus4                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.5     
+2097727  0        usbus5                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.3     
+2097728  0        usbus5                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.3     
+2097729  0        usbus5                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.12    
+2097730  0        usbus5                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.21590 
+2097731  0        usbus5                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.3     
+2097732  0        usbus6                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.5     
+2097733  0        usbus6                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.6     
+2097734  0        usbus6                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.13259 
+2097735  0        usbus6                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.31518 
+2097736  0        usbus6                          2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.141   
+2097739  0        iscsi_trans_vmklink             2097153  0      0      0        S       WAIT    SCSI    0-23      0.4     
+2097740  0        tq:vmklinux                     2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.309588
+2097766  0        vmnic0-pollWorld-0              2097153  0      0      0        S       WAIT    NET     0-23      1.681724
+2097767  0        vmnic1-pollWorld-0              2097153  0      0      0        S       WAIT    NET     0-23      0.10    
+2097768  0        vmnic2-pollWorld-0              2097153  0      0      0        S       WAIT    NET     0-23      0.9     
+2097769  0        vmnic3-pollWorld-0              2097153  0      0      0        S       WAIT    NET     0-23      0.11    
+2097771  0        tq:indrv timer                  2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.13472 
+2097772  0        Pf Work Queue                   2097772  0      0      0        SH      WAIT    HREQ    0-23      0.3     
+2097773  0        indrv_Worker                    2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.4     
+2097774  0        vmnic4-pollWorldTx[00]          2097153  0      0      0        S       WAIT    NET     0-23      0.10    
+2097775  0        vmnic4-pollWorldRx[00]          2097153  0      0      0        S       WAIT    NET     0-23      0.8     
+2097776  0        Pf Work Queue                   2097776  0      0      0        SH      WAIT    HREQ    0-23      0.6     
+2097777  0        indrv_Worker                    2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.3     
+2097778  0        vmnic5-pollWorldTx[00]          2097153  0      0      0        S       WAIT    NET     0-23      0.6     
+2097779  0        vmnic5-pollWorldRx[00]          2097153  0      0      0        S       WAIT    NET     0-23      0.6     
+2097780  2097780  vmkdevmgr                       2097780  2097780  2097780  2097557  U       WAIT    UPOL    0-23      0.520385  /bin/vmkdevmgr
+2097784  0        advUnicastAddrWorld             2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.7     
+2097785  0        MirrorAgent                     2097153  0      0      0        S       WAIT    LOCK    0-23      0.7     
+2097786  0        etherswitchHelper               2097786  0      0      0        SH      WAIT    HREQ    0-23      0.15    
+2097789  0        configOptionReader              2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.96634 
+2097790  0        advUnicastAddrWorld             2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.5265  
+2097791  0        MirrorAgent                     2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.3     
+2097792  0        McastFilter.cswitch             2097792  0      0      0        SH      WAIT    HREQ    0-23      0.4     
+2097793  0        vswitchHelper                   2097793  0      0      0        SH      WAIT    HREQ    0-23      0.106   
+2097804  0        tq:NMP                          2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.1523  
+2097806  0        NMP Failover Helper             2097806  0      0      0        SH      WAIT    HREQ    0-23      0.6     
+2097809  0        HPP ResetLog Helper             2097809  0      0      0        SH      WAIT    HREQ    0-23      0.2059  
+2097810  0        tq:HPP                          2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.3740  
+2097812  0        tq:VMW_SATP_LOCAL               2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.5139  
+2097817  0        psp_rrTriggerLatencyEvaluation  2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.1291  
+2097821  0        vmnic0-pulse                    2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.22257 
+2097822  0        vmnic1-0-tx                     2097153  0      0      0        S       WAIT    NET     0-23      0.5     
+2097823  0        vmnic1-pulse                    2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.21246 
+2097824  0        vmnic2-0-tx                     2097153  0      0      0        S       WAIT    NET     0-23      0.7     
+2097825  0        vmnic2-pulse                    2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.21215 
+2097826  0        vmnic3-0-tx                     2097153  0      0      0        S       WAIT    NET     0-23      0.11    
+2097827  0        vmnic3-pulse                    2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.24576 
+2097828  0        vmnic4-0-tx                     2097153  0      0      0        S       WAIT    NET     0-23      0.5     
+2097829  0        vmnic5-0-tx                     2097153  0      0      0        S       WAIT    NET     0-23      0.6     
+2097831  0        VMCI Helper Queue               2097831  0      0      0        SH      WAIT    HREQ    0-23      0.6     
+2097832  0        VMCI Socket Helper Queue        2097832  0      0      0        SH      WAIT    HREQ    0-23      0.3     
+2097834  0        tq:NetHealthcheck               2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.4     
+2097835  0        HC_Ticket                       2097835  0      0      0        SH      WAIT    HREQ    0-23      0.1794  
+2097836  0        L2Echo Rx                       2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.3     
+2097839  0        tq:VLANMTUCheck                 2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.5     
+2097841  0        HeartbeatHelper                 2097841  0      0      0        SH      WAIT    HREQ    0-23      0.3     
+2097843  0        tq:Shaper Schedule              2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.4     
+2097845  0        tq:lldp                         2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.302   
+2097848  0        tq:ipfix_timer                  2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.3     
+2097849  0        IpfixHelper                     2097849  0      0      0        SH      WAIT    HREQ    0-23      0.4     
+2097850  0        ipfix_sender                    2097850  0      0      0        S       WAIT    LOCK    0-23      0.4     
+2097852  0        tq:tcpip4                       2097153  0      0      0        S       WAIT    NOEVQ   0-23      2.388333
+2097853  0        tq:tcpip4-flow-affinitizer      2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.168388
+2097869  0        TCP/IP net event Helper         2097869  0      0      0        SH      WAIT    HREQ    0-23      0.14    
+2097870  0        TcpipFlowCleaner_               2097153  0      0      0        S       WAIT    KTCP    23        0.104471
+2097871  0        tcpip-isr                       2097153  0      0      0        S       WAIT    KTCPLO  0-23      0.408153
+2097872  0        Tcpip4 wtask                    2097153  0      0      0        S       WAIT    KTCP    0-23      5.471244
+2097873  0        TcpipPktComp#0                  2097153  0      0      0        S       WAIT    KTCPLO  0-23      0.4     
+2097874  0        tq:TcpipEnsTimerQ               2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.54    
+2097877  0        dvfilter                        2097877  0      0      0        SH      WAIT    HREQ    0-23      0.249   
+2097878  0        DVFilter-ReplyWorld             2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.109504
+2097879  0        DVFilter-HeartbeatWorld         2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.5600  
+2097880  0        DVFilter-Comm-XmitWorld         2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.29715 
+2097881  0        DVFilter-Comm-2                 2097153  0      0      0        S       WAIT    NET     0-23      0.3     
+2097890  0        wdt-vmhba0-0                    2097153  0      0      0        SInvalid       WAIT    NOEVQ   0-11      1.150362
+2097891  0        wdt-vmhba0-1                    2097153  0      0      0        SInvalid       WAIT    NOEVQ   12-23      2.331759
+2097903  0        tq:dvfilter-generic-fastpath    2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.4     
+2097912  2097912  sh                              2097912  2097912  2097912  2097557  U       WAIT    USIG    0-23      0.6598    /bin/sh /sbin/watchdog.sh -s net-lacp -u 1000 -q 100 -t 100 /usr/sbin/net-lacp
+2097922  2097922  net-lacp                        2097922  2097922  2097922  2097912  U       WAIT    UPOL    0-23      0.423690  /usr/sbin/net-lacp
+2097925  2097922  net-lacp                        2097922  2097922  2097922  2097912  UX      WAIT    USLP    0-23      0.256666  /usr/sbin/net-lacp
+2097926  2097922  net-lacp                        2097922  2097922  2097922  2097912  UX      WAIT    USLP    0-23      0.100706  /usr/sbin/net-lacp
+2097927  0        Cmpl-vmhba1-0                   2097153  0      0      0        S       WAIT    SCSINO  0-23      0.3     
+2097928  0        Cmpl-vmhba64-0                  2097153  0      0      0        S       WAIT    SCSINO  0-23      0.3     
+2097929  0        Cmpl-vmhba2-0                   2097153  0      0      0        S       WAIT    SCSINO  0-23      0.4     
+2097930  0        Cmpl-vmhba65-0                  2097153  0      0      0        S       WAIT    SCSINO  0-23      0.5     
+2097931  0        DVS sync world                  2097931  0      0      0        S       WAIT    NOEVQ   0-23      0.35657 
+2097932  0        DVSSync send world              2097932  0      0      0        S       WAIT    SLP     0-23      0.4     
+2097933  0        DVSSync ack world               2097933  0      0      0        S       WAIT    KTCP    0-23      0.7     
+2097934  0        DVSSync recv world              2097934  0      0      0        S       WAIT    KTCP    0-23      0.4     
+2097935  0        VSwitchAgingWorld               2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.150   
+2097937  0        vmk0-rx-0                       2097153  0      0      0        S       WAIT    KTCPLO  0-23      0.190516
+2097938  0        vmk0-tx                         2097153  0      0      0        S       WAIT    KTCPLO  0-23      1.179795
+2097945  0        vmnic0-0-tx                     2097153  0      0      0        S       WAIT    NET     0-23      0.3     
+2097946  0        cdce0                           2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.26    
+2097947  0        vusb0-pollWorldvusb0-poll       2097153  0      0      0        S       WAIT    NET     0-23      0.8049  
+2097949  0        vusb0-0-tx                      2097153  0      0      0        S       WAIT    NET     0-23      0.3     
+2097953  0        COWRECacheMgr                   2097153  0      0      0        S       WAIT    COWREC  0-23      0.5150  
+2097976  0        SEAutoShrinkWorker              2097976  0      0      0        SH      WAIT    HREQ    0-23      0.6     
+2097978  0        SEAutoShrinkMgr                 2097153  0      0      0        S       WAIT    FS      0-23      0.8713  
+2097984  0        FS3_STATS_MANAGER               2097153  0      0      0        S       WAIT    FS3STA  0-23      0.13244 
+2097997  0        J6ReplayHelper                  2097997  0      0      0        SH      WAIT    HREQ    0-23      0.4     
+2098016  0        asyncReplayHelperQueue          2098016  0      0      0        SH      WAIT    HREQ    0-23      0.4     
+2098017  0        fil3HelperQueue                 2098017  0      0      0        SH      WAIT    HREQ    0-23      0.3     
+2098020  0        VMFS6-v24-PB3-PBGC-Manager      2097153  0      0      0        S       WAIT    FS3PBC  0-23      0.5122  
+2098040  0        HBReclaimHelperQueue            2098040  0      0      0        SH      WAIT    HREQ    0-23      0.11    
+2098063  0        HBReclaimHelperQueue            2098063  0      0      0        SH      WAIT    HREQ    0-23      0.4     
+2098091  0        HBReclaimHelperQueue            2098091  0      0      0        SH      WAIT    HREQ    0-23      0.4     
+2098116  0        HBReclaimHelperQueue            2098116  0      0      0        SH      WAIT    HREQ    0-23      0.11    
+2098117  0        FS3DiskHeartbeat                2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.38278 
+2098127  0        gblHelperQueue                  2098127  0      0      0        SH      WAIT    HREQ    0-23      0.6     
+2098128  0        FS3ResMgr                       2097153  0      0      0        S       WAIT    FS3RES  0-23      0.12919 
+2098138  0        res3HelperQueueVMFS5            2098138  0      0      0        SH      WAIT    HREQ    0-23      0.6     
+2098145  0        FS3ResMgr                       2097153  0      0      0        S       WAIT    FS3RES  0-23      0.52368 
+2098161  0        res3HelperQueueVMFS6            2098161  0      0      0        SH      WAIT    HREQ    0-23      0.153285
+2098162  0        oio3HelperQ                     2098162  0      0      0        SH      WAIT    HREQ    0-23      0.4     
+2098163  0        Res6AffinityMgrWorld            2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.20220 
+2098166  0        AffMgr-Helper-Queue             2098166  0      0      0        SH      WAIT    HREQ    0-23      0.36362 
+2098177  0        AffResStatHelperQueue           2098177  0      0      0        SH      WAIT    HREQ    0-23      0.13    
+2098178  0        FSUnmapManager                  2097153  0      0      0        S       WAIT    FSUNMA  0-23      0.45779 
+2098179  0        FSUnmapLockBreaker              2097153  0      0      0        S       WAIT    FS3UNM  0-23      0.365   
+2098201  0        Unmap Helper Queue              2098201  0      0      0        SH      WAIT    HREQ    0-23      0.5     
+2098219  0        Unmap Helper Queue              2098219  0      0      0        SH      WAIT    HREQ    0-23      0.5     
+2098244  0        Unmap Helper Queue              2098244  0      0      0        SH      WAIT    HREQ    0-23      0.5     
+2098275  0        Unmap Helper Queue              2098275  0      0      0        SH      WAIT    HREQ    0-23      0.5     
+2098291  0        Unmap Helper Queue              2098291  0      0      0        SH      WAIT    HREQ    0-23      0.6     
+2098300  0        Vol3JournalExtendMgrWorld       2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.984   
+2098301  0        FS3FdUnlockMgr                  2097153  0      0      0        S       WAIT    FS3FDM  0-23      0.12844 
+2098303  0        SunRPCAsyncIO-0                 2097153  0      0      0        S       WAIT    SUNRPC  0-23      0.5     
+2098304  0        SunRPCAsyncIO-1                 2097153  0      0      0        S       WAIT    SUNRPC  0-23      0.4     
+2098305  0        SunRPC GSS CTX Monitor          2097153  0      0      0        S       WAIT    SLP     0-23      0.5     
+2098309  0        NFSv3-RemountHandler            2098309  0      0      0        S       WAIT    LOCK    0-23      0.5     
+2098310  0        NFSv3-ServerMonitor             2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.1915  
+2098311  0        NFSv3-LockMonitor               2098311  0      0      0        S       WAIT    NOEVQ   0-23      0.2494  
+2098313  0        tq:NFS41                        2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.4     
+2098314  0        NFS41SMConnQueue-0              2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.4     
+2098315  0        NFS41SMSessQueue-0              2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.3     
+2098316  0        NFS41SMClusQueue-0              2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.4     
+2098317  0        NFS41SMNotifQueue-0             2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.4     
+2098318  0        NFS41WorkQueueGeneric-0         2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.3     
+2098319  0        NFS41WorkQueueGeneric-1         2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.4     
+2098320  0        NFS41WorkQueueGeneric-2         2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.5     
+2098321  0        NFS41WorkQueueGeneric-3         2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.4     
+2098322  0        J6AsyncReplayManager            2097153  0      0      0        S       WAIT    FS      0-23      0.993387
+2098329  0        PCIPassthruUnmask               2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.6     
+2098346  0        vFlashHelperQueue               2098346  0      0      0        SH      WAIT    HREQ    0-23      0.6     
+2098348  0        filtmod-watchdog                2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.824   
+2098360  2098360  busybox                         2098360  2098360  2098360  2097557  U       WAIT    USLP    0-23      0.28233   /usr/lib/vmware/busybox/bin/busybox crond
+2098362  0        rdmaAddrResQ                    2098362  0      0      0        SH      WAIT    HREQ    0-23      0.4     
+2098384  0        rdmaCMWorkQ                     2098384  0      0      0        SH      WAIT    HREQ    0-23      0.7     
+2098409  0        rdmaCMAWorkQ                    2098409  0      0      0        SH      WAIT    HREQ    0-23      0.6     
+2098414  0        IPMI Response Processing        2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.624349
+2098415  0        tq:IPMB Retry                   2097153  0      0      0        S       WAIT    NOEVQ   0-23      0.55904 
+2098416  0        IPMI Request Processing         2097153  0      0      0        S       WAIT    VMKAPI  0-23    290.172968
+2098426  0        vrdmaHelperQueue                2098426  0      0      0        SH      WAIT    HREQ    0-23      0.4     
+2098428  0        ballonVMCINotificationWorld     2097153  0      0      0        S       WAIT    MEM     0-23      0.4     
+2098435  0        HBR helper queue                2098435  0      0      0        SH      WAIT    HREQ    0-23      0.7     
+2098438  0        HbrDemandLogWorld               2097153  0      0      0        S       WAIT    HBRDLG  0-23      0.3     
+2098439  0        HbrDeltaCancelWorld             2097153  0      0      0        S       WAIT    HBRDCA  0-23      0.3     
+2098441  0        FTCptListener                   2097153  0      0      0        S       WAIT    FTCPT   0-23      0.7     
+2098445  0        ftCptHelperQueue                2098445  0      0      0        SH      WAIT    HREQ    0-23      0.5     
+2098452  2098452  busybox                         2098452  2098452  2098452  2097557  U       WAIT    UPOL    0-23      0.442152  /usr/lib/vmware/busybox/bin/busybox inetd /var/run/inetd.conf
+2098471  0        vmotionServer                   2098471  0      0      0        S       WAIT    LOCK    0-23      0.8     
+2098488  0        VFC Cache Helper Queue          2098488  0      0      0        SH      WAIT    HREQ    0-23      0.8     
+2098500  2097612  vmsyslogd                       2097612  2097610  2097610  2097611  UX      WAIT    USOCKR  0-23      0.14584   /bin/python /usr/lib/vmware/vmsyslog/bin/vmsyslogd.pyc -i
+2098605  2098605  sh                              2098605  2098605  2098605  2097557  U       WAIT    USIG    0-23      0.6745    /bin/sh /sbin/watchdog.sh -s usbarbitrator -t 5 /usr/lib/vmware/bin/vmware-usbarbitrator -t --max-clients=414
+2098615  2098615  vmware-usbarbitrator            2098615  2098615  2098615  2098605  U       WAIT    UPOL    0-23      0.211568  /usr/lib/vmware/bin/vmware-usbarbitrator -t --max-clients=414
+2098650  2098650  sh                              2098650  2098650  2098650  2097557  U       WAIT    USIG    0-23      0.6583    /bin/sh /sbin/watchdog.sh -s iofiltervpd /usr/lib/vmware/iofilter/bin/ioFilterVPServer
+2098660  2098660  ioFilterVPServer                2098660  2098660  2098660  2098650  U       WAIT    KTCP    0-23      6.75318   /usr/lib/vmware/iofilter/bin/ioFilterVPServer
+2098669  2098660  ioFilterVPServer                2098660  2098660  2098660  2098650  UX      WAIT    UPOL    0-23      0.113842  /usr/lib/vmware/iofilter/bin/ioFilterVPServer
+2098693  2098693  sh                              2098693  2098693  2098693  2097557  U       WAIT    USIG    0-23      0.6323    /bin/sh /sbin/watchdog.sh -s swapobjd /usr/lib/vmware/swapobj/bin/swapobjd
+2098703  2098703  swapobjd                        2098703  2098703  2098703  2098693  U       WAIT    UPOL    0-23      0.136771  /usr/lib/vmware/swapobj/bin/swapobjd
+2098815  2098815  sh                              2098815  2098815  2098815  2097557  U       WAIT    USIG    0-23      0.5966    /bin/sh /sbin/watchdog.sh -s hostdCgiServer hostdCgiServer
+2098824  2098824  hostdCgiServer                  2098824  2098824  2098824  2098815  U       WAIT    UFUTEX  0-23      0.125885  hostdCgiServer
+2098825  2098824  worker                          2098824  2098824  2098824  2098815  UX      WAIT    USLP    0-23      0.25487   hostdCgiServer
+2098826  2098824  worker                          2098824  2098824  2098824  2098815  UX      WAIT    UFUTEX  0-23      0.97121   hostdCgiServer
+2098827  2098824  worker                          2098824  2098824  2098824  2098815  UX      WAIT    UFUTEX  0-23      0.94093   hostdCgiServer
+2098828  2098824  worker                          2098824  2098824  2098824  2098815  UX      WAIT    UFUTEX  0-23      0.83435   hostdCgiServer
+2098829  2098824  IO                              2098824  2098824  2098824  2098815  UX      WAIT    UPOL    0-23      0.421878  hostdCgiServer
+2098830  2098824  IO                              2098824  2098824  2098824  2098815  UX      WAIT    UFUTEX  0-23      0.426535  hostdCgiServer
+2098831  2098824  fair                            2098824  2098824  2098824  2098815  UX      WAIT    UFUTEX  0-23      0.281360  hostdCgiServer
+2098832  2098824  worker                          2098824  2098824  2098824  2098815  UX      WAIT    UFUTEX  0-23      0.96114   hostdCgiServer
+2098868  2098868  sh                              2098868  2098868  2098868  2097557  U       WAIT    USIG    0-23      0.7141    /bin/sh /sbin/watchdog.sh -s hostd -e LD_PRELOAD=/lib64/libMallocArenaFix.so hostd ++min=0,swapscope=system /etc/vmware/hostd/config.xml
+2098878  2098878  hostd                           2098878  2098878  2098878  2098868  U       WAIT    UFUTEX  0-23      3.834479  hostd /etc/vmware/hostd/config.xml
+2098883  2098824  worker                          2098824  2098824  2098824  2098815  UX      WAIT    UFUTEX  0-23      0.81182   hostdCgiServer
+2098889  2098889  sh                              2098889  2098889  2098889  2097557  U       WAIT    USIG    0-23      0.4479    /bin/sh /sbin/watchdog.sh -s rhttpproxy rhttpproxy ++min=0,swapscope=system -r /etc/vmware/rhttpproxy/config.xml
+2098898  2098898  rhttpproxy                      2098898  2098898  2098898  2098889  U       WAIT    UFUTEX  0-23      0.51579   rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+2098899  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      0.3752    hostd /etc/vmware/hostd/config.xml
+2098900  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UPOL    0-23      0.129334  hostd /etc/vmware/hostd/config.xml
+2098901  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      0.234     hostd /etc/vmware/hostd/config.xml
+2098902  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      1.897305  hostd /etc/vmware/hostd/config.xml
+2098903  2098878  hostd-IO                        2098878  2098878  2098878  2098868  UX      WAIT    UPOL    0-23      4.40607   hostd /etc/vmware/hostd/config.xml
+2098904  2098878  hostd-IO                        2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      4.135013  hostd /etc/vmware/hostd/config.xml
+2098905  2098878  hostd-fair                      2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      2.144916  hostd /etc/vmware/hostd/config.xml
+2098906  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      1.755695  hostd /etc/vmware/hostd/config.xml
+2098907  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      1.651510  hostd /etc/vmware/hostd/config.xml
+2098908  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      1.561037  hostd /etc/vmware/hostd/config.xml
+2098909  2098898  rhttpproxy-work                 2098898  2098898  2098898  2098889  UX      WAIT    UFUTEX  0-23      0.255     rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+2098910  2098898  rhttpproxy-work                 2098898  2098898  2098898  2098889  UX      WAIT    UFUTEX  0-23      0.89654   rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+2098911  2098898  rhttpproxy-work                 2098898  2098898  2098898  2098889  UX      WAIT    UFUTEX  0-23      0.99068   rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+2098912  2098898  rhttpproxy-work                 2098898  2098898  2098898  2098889  UX      WAIT    UFUTEX  0-23      0.94053   rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+2098913  2098898  rhttpproxy-IO                   2098898  2098898  2098898  2098889  UX      WAIT    UPOL    0-23      2.42354   rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+2098914  2098898  rhttpproxy-IO                   2098898  2098898  2098898  2098889  UX      WAIT    UFUTEX  0-23      2.35277   rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+2098915  2098898  rhttpproxy-fair                 2098898  2098898  2098898  2098889  UX      WAIT    UFUTEX  0-23      0.352891  rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+2098916  2098898  rhttpproxy-work                 2098898  2098898  2098898  2098889  UX      WAIT    UFUTEX  0-23      0.96360   rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+2098917  2098898  rhttpproxy-poll                 2098898  2098898  2098898  2098889  UX      WAIT    UPOL    0-23      0.126     rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+2098918  2098898  rhttpproxy-work                 2098898  2098898  2098898  2098889  UX      WAIT    UFUTEX  0-23      0.95323   rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+2098919  2098898  rhttpproxy-work                 2098898  2098898  2098898  2098889  UX      WAIT    UFUTEX  0-23      0.95442   rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+2098920  2098898  rhttpproxy-work                 2098898  2098898  2098898  2098889  UX      WAIT    UFUTEX  0-23      0.97391   rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+2098928  2098928  sh                              2098928  2098928  2098928  2097557  U       WAIT    USIG    0-23      0.6717    /bin/sh /sbin/watchdog.sh -s sdrsInjector /sbin/sdrsInjector
+2098937  2098937  sdrsInjector                    2098937  2098937  2098937  2098928  U       WAIT    USLP    0-23      0.89416   /sbin/sdrsInjector
+2098945  2098945  sh                              2098945  2098945  2098945  2097557  U       WAIT    USIG    0-23      0.6862    /bin/sh /sbin/watchdog.sh -s storageRM /sbin/storageRM
+2098954  2098954  storageRM                       2098954  2098954  2098954  2098945  U       WAIT    USLP    0-23      0.93726   /sbin/storageRM
+2098963  2098963  sh                              2098963  2098963  2098963  2097557  U       WAIT    USIG    0-23      0.6683    /bin/sh /sbin/watchdog.sh -t 1000 -s sensord /usr/lib/vmware/bin/sensord -l
+2098972  2098972  sensord                         2098972  2098972  2098972  2098963  U       WAIT    USLP    0-23      0.110109  /usr/lib/vmware/bin/sensord -l
+2098974  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      2.29927   hostd /etc/vmware/hostd/config.xml
+2098975  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      1.690717  hostd /etc/vmware/hostd/config.xml
+2098976  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      2.582917  hostd /etc/vmware/hostd/config.xml
+2098977  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      1.570291  hostd /etc/vmware/hostd/config.xml
+2098986  2098824  worker                          2098824  2098824  2098824  2098815  UX      WAIT    UFUTEX  0-23      0.86035   hostdCgiServer
+2099033  2099033  sh                              2099033  2099033  2099033  2097557  U       WAIT    USIG    0-23      0.6605    /bin/sh /sbin/watchdog.sh -s net-lbt -u 1000 -q 100 -t 100 /sbin/net-lbt ++min=0
+2099042  2099042  net-lbt                         2099042  2099042  2099042  2099033  U       WAIT    USLP    0-23      0.98931   /sbin/net-lbt
+2099050  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      1.799187  hostd /etc/vmware/hostd/config.xml
+2099097  2098878  hostd-poll                      2098878  2098878  2098878  2098868  UX      WAIT    UPOL    0-23      0.2074    hostd /etc/vmware/hostd/config.xml
+2099169  2098824  worker                          2098824  2098824  2098824  2098815  UX      WAIT    UFUTEX  0-23      0.82180   hostdCgiServer
+2099199  2099199  slpd                            2099199  2099199  2099199  2097557  U       WAIT    UPOL    0-23      0.19378   /sbin/slpd -N -l syslog
+2099207  2099207  sh                              2099207  2099207  2099207  2097557  U       WAIT    USIG    0-23      0.6461    /bin/sh /sbin/watchdog.sh -s dcbd -t 5 /usr/sbin/dcbd
+2099216  2099216  dcbd                            2099216  2099216  2099216  2099207  U       WAIT    UPOL    0-23      0.181104  /usr/sbin/dcbd
+2099217  0        dcb_vmklink                     2097153  0      0      0        S       WAIT    VMKAPI  0-23      0.1996  
+2099225  2099225  sh                              2099225  2099225  2099225  2097557  U       WAIT    USIG    0-23      0.6580    /bin/sh /sbin/watchdog.sh -s cdp /usr/sbin/net-cdp
+2099234  2099234  net-cdp                         2099234  2099234  2099234  2099225  U       WAIT    UPOL    0-23      0.5447    /usr/sbin/net-cdp
+2099250  2099250  sh                              2099250  2099250  2099250  2097557  U       WAIT    USIG    0-23      0.6954    /bin/sh /sbin/watchdog.sh -s nscd /usr/lib/vmware/nscd/bin/nscd -d
+2099259  2099259  nscd                            2099259  2099259  2099259  2099250  U       WAIT    UPOL    0-23      0.30569   /usr/lib/vmware/nscd/bin/nscd -d
+2099260  2099259  nscd                            2099259  2099259  2099259  2099250  UX      WAIT    UFUTEX  0-23      0.31377   /usr/lib/vmware/nscd/bin/nscd -d
+2099261  2099259  nscd                            2099259  2099259  2099259  2099250  UX      WAIT    UFUTEX  0-23      0.11823   /usr/lib/vmware/nscd/bin/nscd -d
+2099262  2099259  nscd                            2099259  2099259  2099259  2099250  UX      WAIT    UFUTEX  0-23      0.10489   /usr/lib/vmware/nscd/bin/nscd -d
+2099263  2099259  nscd                            2099259  2099259  2099259  2099250  UX      WAIT    UFUTEX  0-23      0.10651   /usr/lib/vmware/nscd/bin/nscd -d
+2099264  2099259  nscd                            2099259  2099259  2099259  2099250  UX      WAIT    UFUTEX  0-23      0.13500   /usr/lib/vmware/nscd/bin/nscd -d
+2099275  2099275  sh                              2099275  2099275  2099275  2097557  U       WAIT    USIG    0-23      0.6920    /bin/sh /sbin/watchdog.sh -s nicmgmtd -t 5 /usr/sbin/nicmgmtd
+2099284  2099284  nicmgmtd                        2099284  2099284  2099284  2099275  U       WAIT    UPOL    0-23      0.46421   /usr/sbin/nicmgmtd
+2099294  2098898  rhttpproxy-work                 2098898  2098898  2098898  2098889  UX      WAIT    UFUTEX  0-23      0.19692   rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+2099316  2099316  sh                              2099316  2099316  2099316  2097557  U       WAIT    USIG    0-23      0.6621    /bin/sh /sbin/watchdog.sh -s smartd -t 5 /usr/sbin/smartd
+2099325  2099325  smartd                          2099325  2099325  2099325  2099316  U       WAIT    USLP    0-23      0.140857  /usr/sbin/smartd
+2099333  2099333  sh                              2099333  2099333  2099333  2097557  U       WAIT    USIG    0-23      0.6392    /bin/sh /sbin/watchdog.sh -s vpxa /usr/lib/vmware/vpxa/bin/vpxa ++min=0,swapscope=system -D /etc/vmware/vpxa
+2099343  2099343  vpxa                            2099343  2099343  2099343  2099333  U       WAIT    UFUTEX  0-23      0.520110  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099347  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.212     /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099348  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UPOL    0-23      0.126607  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099349  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.76      /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099350  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.261183  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099351  2099343  vpxa-IO                         2099343  2099343  2099343  2099333  UX      WAIT    UPOL    0-23      1.617386  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099352  2099343  vpxa-IO                         2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      1.525887  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099353  2099343  vpxa-fair                       2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.823532  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099354  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.240244  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099358  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.297470  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099360  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.253030  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099361  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.277656  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099362  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.380000  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099363  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.241904  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099364  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      1.656285  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099365  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.275156  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099366  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.279142  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099367  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.237790  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099368  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.293149  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099369  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.273199  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099370  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.265000  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099371  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.488110  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099372  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.286878  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099375  2099343  vpxa-poll                       2099343  2099343  2099343  2099333  UX      WAIT    UPOL    0-23      0.355     /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099376  2099343  vpxa                            2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.815     /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099377  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.262287  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099378  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.226431  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099379  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23     12.301007  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099380  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.494267  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099381  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      7.19523   /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099425  2098898  rhttpproxy-work                 2098898  2098898  2098898  2098889  UX      WAIT    UFUTEX  0-23      0.90679   rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+2099426  2098898  rhttpproxy-work                 2098898  2098898  2098898  2098889  UX      WAIT    UFUTEX  0-23      0.96575   rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+2099440  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      1.355498  hostd /etc/vmware/hostd/config.xml
+2099441  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      2.361880  hostd /etc/vmware/hostd/config.xml
+2099442  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      2.161988  hostd /etc/vmware/hostd/config.xml
+2099443  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      1.978695  hostd /etc/vmware/hostd/config.xml
+2099444  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      1.954905  hostd /etc/vmware/hostd/config.xml
+2099445  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      1.400321  hostd /etc/vmware/hostd/config.xml
+2099446  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      1.759274  hostd /etc/vmware/hostd/config.xml
+2099447  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      1.611827  hostd /etc/vmware/hostd/config.xml
+2099448  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      1.537621  hostd /etc/vmware/hostd/config.xml
+2099449  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      1.676418  hostd /etc/vmware/hostd/config.xml
+2099450  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      1.774391  hostd /etc/vmware/hostd/config.xml
+2099451  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      1.598836  hostd /etc/vmware/hostd/config.xml
+2099452  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      1.155127  hostd /etc/vmware/hostd/config.xml
+2099453  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      1.367543  hostd /etc/vmware/hostd/config.xml
+2099454  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      1.616096  hostd /etc/vmware/hostd/config.xml
+2099455  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      1.967631  hostd /etc/vmware/hostd/config.xml
+2099461  2098878  hostd-worker                    2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      0.389     hostd /etc/vmware/hostd/config.xml
+2099465  2098878  hbr                             2098878  2098878  2098878  2098868  UX      WAIT    UFUTEX  0-23      0.5236    hostd /etc/vmware/hostd/config.xml
+2099489  2098898  rhttpproxy-work                 2098898  2098898  2098898  2098889  UX      WAIT    UFUTEX  0-23      0.85242   rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+2099510  2098898  rhttpproxy-work                 2098898  2098898  2098898  2098889  UX      WAIT    UFUTEX  0-23      0.88328   rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+2099540  2099540  sh                              2099540  2099540  2099540  2097557  U       WAIT    UPOL    0-23      0.6635    /bin/sh /bin/techsupport.sh
+2099541  2099541  dcui                            2099541  2099541  2099541  2097557  U       WAIT    UPOL    0-23      0.363107  /bin/dcui 2
+2099568  2099541  dcui                            2099541  2099541  2099541  2097557  UX      WAIT    USIG    0-23      0.37      /bin/dcui 2
+2099586  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.260765  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099587  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.256742  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099588  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.286379  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099589  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.250440  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099594  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.639583  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2099649  2098898  rhttpproxy-work                 2098898  2098898  2098898  2098889  UX      WAIT    UFUTEX  0-23      0.85092   rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+2099650  2098898  rhttpproxy-work                 2098898  2098898  2098898  2098889  UX      WAIT    UFUTEX  0-23      0.87056   rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+2099651  2098898  rhttpproxy-work                 2098898  2098898  2098898  2098889  UX      WAIT    UFUTEX  0-23      0.84240   rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+2099652  2098898  rhttpproxy-work                 2098898  2098898  2098898  2098889  UX      WAIT    UFUTEX  0-23      0.84331   rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+2099653  2099653  vmx                             2099653  2099653  2099653  2097557  U       WAIT    UPOL    0-23      1.560852  /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/VyOS-Router/VyOS-Router.vmx
+2099654  0        vmm0:VyOS-Router                2099653  0      0      0        V       WAIT    IDLE    0-23    165.765192
+2099655  0        NetWorld-VM-2099654             2099653  0      0      0        SA      WAIT    NET     0-23     20.205014
+2099656  0        NUMASchedRemapEpochInitialize   2099653  0      0      0        SA      WAIT    NOEVQ   0-23      0.28383 
+2099657  0        vmast.2099654                   2099653  0      0      0        SA      WAIT    VMASSI  0-23      0.966075
+2099658  2099653  vmx-vthread-209                 2099653  2099653  2099653  2097557  UX      WAIT    UFUTEX  0-23      0.5568    /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/VyOS-Router/VyOS-Router.vmx
+2099659  2099653  vmx-filtPoll:VyOS-Router        2099653  2099653  2099653  2097557  UX      WAIT    UPOL    0-23      0.111516  /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/VyOS-Router/VyOS-Router.vmx
+2099660  2099653  vmx-mks:VyOS-Router             2099653  2099653  2099653  2097557  UX      WAIT    UPOL    0-23      0.322878  /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/VyOS-Router/VyOS-Router.vmx
+2099661  2099653  vmx-svga:VyOS-Router            2099653  2099653  2099653  2097557  UX      WAIT    SEMA    0-23      0.340033  /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/VyOS-Router/VyOS-Router.vmx
+2099662  2099653  vmx-vcpu-0:VyOS-Router          2099653  2099653  2099653  2097557  UXInvalid      WAIT    IDLE    0-23    165.765192  /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/VyOS-Router/VyOS-Router.vmx
+2099663  0        LSI-2099654:0                   2099653  0      0      0        SA      WAIT    SCSINO  0-23      0.310173
+2099800  2099800  vmx                             2099800  2099800  2099800  2097557  U       WAIT    UPOL    0-23      4.314642  /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01.vmx
+2099801  0        vmm0:SGRL-VCSA01                2099800  0      0      0        V       RUN     NONE    0-23    888.437108
+2099802  0        NetWorld-VM-2099801             2099800  0      0      0        SA      WAIT    NET     0-23      1.785965
+2099803  0        NUMASchedRemapEpochInitialize   2099800  0      0      0        SA      WAIT    NOEVQ   0-23      0.27404 
+2099804  0        vmast.2099801                   2099800  0      0      0        SA      WAIT    VMASSI  0-23      8.905133
+2099805  0        vmm1:SGRL-VCSA01                2099800  0      0      0        V       WAIT    IDLE    0-23    895.168031
+2099806  2099800  vmx-vthread-209                 2099800  2099800  2099800  2097557  UX      WAIT    UFUTEX  0-23      0.3593    /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01.vmx
+2099807  2099800  vmx-filtPoll:SGRL-VCSA01        2099800  2099800  2099800  2097557  UX      WAIT    UPOL    0-23      0.120509  /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01.vmx
+2099808  2099800  vmx-vthread-209:SGRL-VCSA01     2099800  2099800  2099800  2097557  UX      WAIT    UFUTEX  0-23      0.3186    /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01.vmx
+2099809  2099800  vmx-vthread-209:SGRL-VCSA01     2099800  2099800  2099800  2097557  UX      WAIT    UFUTEX  0-23      0.3214    /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01.vmx
+2099810  2099800  vmx-vthread-209:SGRL-VCSA01     2099800  2099800  2099800  2097557  UX      WAIT    UFUTEX  0-23      0.3760    /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01.vmx
+2099811  2099800  vmx-vthread-209:SGRL-VCSA01     2099800  2099800  2099800  2097557  UX      WAIT    UFUTEX  0-23      0.3390    /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01.vmx
+2099812  2099800  vmx-vthread-209:SGRL-VCSA01     2099800  2099800  2099800  2097557  UX      WAIT    UFUTEX  0-23      0.3726    /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01.vmx
+2099813  2099800  vmx-vthread-209:SGRL-VCSA01     2099800  2099800  2099800  2097557  UX      WAIT    UFUTEX  0-23      0.3435    /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01.vmx
+2099814  2099800  vmx-vthread-209:SGRL-VCSA01     2099800  2099800  2099800  2097557  UX      WAIT    UFUTEX  0-23      0.2851    /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01.vmx
+2099815  2099800  vmx-vthread-209:SGRL-VCSA01     2099800  2099800  2099800  2097557  UX      WAIT    UFUTEX  0-23      0.2865    /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01.vmx
+2099816  2099800  vmx-vthread-209:SGRL-VCSA01     2099800  2099800  2099800  2097557  UX      WAIT    UFUTEX  0-23      0.3591    /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01.vmx
+2099817  2099800  vmx-vthread-209:SGRL-VCSA01     2099800  2099800  2099800  2097557  UX      WAIT    UFUTEX  0-23      0.3494    /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01.vmx
+2099818  2099800  vmx-vthread-209:SGRL-VCSA01     2099800  2099800  2099800  2097557  UX      WAIT    UFUTEX  0-23      0.246     /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01.vmx
+2099819  2099800  vmx-vthread-209:SGRL-VCSA01     2099800  2099800  2099800  2097557  UX      WAIT    UFUTEX  0-23      0.2965    /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01.vmx
+2099820  2099800  vmx-mks:SGRL-VCSA01             2099800  2099800  2099800  2097557  UX      WAIT    UPOL    0-23      0.188741  /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01.vmx
+2099821  2099800  vmx-svga:SGRL-VCSA01            2099800  2099800  2099800  2097557  UX      WAIT    SEMA    0-23      1.744908  /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01.vmx
+2099822  2099800  vmx-vcpu-0:SGRL-VCSA01          2099800  2099800  2099800  2097557  UXInvalid      RUN     NONE    0-23    888.437108  /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01.vmx
+2099823  0        LSI-2099801:0                   2099800  0      0      0        SA      WAIT    SCSINO  0-23      1.638973
+2099824  0        LSI-2099801:1                   2099800  0      0      0        SA      WAIT    SCSINO  0-23      0.4     
+2099825  2099800  vmx-vcpu-1:SGRL-VCSA01          2099800  2099800  2099800  2097557  UXInvalid      WAIT    IDLE    0-23    895.168031  /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01.vmx
+2100030  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.237396  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2100031  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.216741  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2100032  2099343  vpxa-worker                     2099343  2099343  2099343  2099333  UX      WAIT    UFUTEX  0-23      0.225360  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+2100302  2098898  rhttpproxy-work                 2098898  2098898  2098898  2098889  UX      WAIT    UFUTEX  0-23      0.64965   rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+2100337  0        vmklnx Helper                   2100337  0      0      0        SH      WAIT    HREQ    0-23      0.118633
+2100898  2100898  vmx                             2100898  2100898  2100898  2097557  U       WAIT    UPOL    0-23      3.179     /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001_1/SGRL-ADC001.vmx
+2100899  0        vmm0:SGRL-ADC001                2100898  0      0      0        V       WAIT    IDLE    0-23    150.265326
+2100900  0        NetWorld-VM-2100899             2100898  0      0      0        SA      WAIT    NET     0-23      0.94343 
+2100901  0        NUMASchedRemapEpochInitialize   2100898  0      0      0        SA      WAIT    NOEVQ   0-23      6.372331
+2100902  0        vmast.2100899                   2100898  0      0      0        SA      WAIT    VMASSI  0-23      6.679387
+2100903  0        vmm1:SGRL-ADC001                2100898  0      0      0        V       WAIT    IDLE    0-23     74.942098
+2100904  2100898  vmx-vthread-210                 2100898  2100898  2100898  2097557  UX      WAIT    UFUTEX  0-23      0.64218   /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001_1/SGRL-ADC001.vmx
+2100905  2100898  vmx-filtPoll:SGRL-ADC001        2100898  2100898  2100898  2097557  UX      WAIT    UPOL    0-23      0.76673   /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001_1/SGRL-ADC001.vmx
+2100906  2100898  vmx-mks:SGRL-ADC001             2100898  2100898  2100898  2097557  UX      WAIT    UPOL    0-23      0.137994  /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001_1/SGRL-ADC001.vmx
+2100907  2100898  vmx-svga:SGRL-ADC001            2100898  2100898  2100898  2097557  UX      WAIT    SEMA    0-23      0.834981  /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001_1/SGRL-ADC001.vmx
+2100908  2100898  vmx-vcpu-0:SGRL-ADC001          2100898  2100898  2100898  2097557  UXInvalid      WAIT    IDLE    0-23    150.265326  /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001_1/SGRL-ADC001.vmx
+2100909  0        LSI-2100899:0                   2100898  0      0      0        SA      WAIT    SCSINO  0-23      2.606625
+2100910  2100898  vmx-vcpu-1:SGRL-ADC001          2100898  2100898  2100898  2097557  UXInvalid      WAIT    IDLE    0-23     74.942098  /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001_1/SGRL-ADC001.vmx
+2102326  0        fssAIO                          2102326  0      0      0        SH      WAIT    HREQ    0-23      0.6121  
+2102345  0        VSCSI Emulation Helper Queue    2102345  0      0      0        SH      WAIT    HREQ    0-23      0.11277 
+2102371  0        fdsAIO                          2102371  0      0      0        SH      WAIT    HREQ    0-23      0.68239 
+2102372  0        fdsAIO                          2102372  0      0      0        SH      WAIT    HREQ    0-23      0.74041 
+2102685  2098824  worker                          2098824  2098824  2098824  2098815  UX      WAIT    UFUTEX  0-23      0.455     hostdCgiServer
+2102686  2098824  worker                          2098824  2098824  2098824  2098815  UX      WAIT    UFUTEX  0-23      0.36281   hostdCgiServer
+2102687  2098824  worker                          2098824  2098824  2098824  2098815  UX      WAIT    UFUTEX  0-23      0.28964   hostdCgiServer
+2102690  2102690  python                          2102690  2098824  2098824  2098824  U       WAIT    UFUTEX  0-23      0.242503  python -u /usr/lib/vmware/hostd/cgi-bin/vm-support.cgi
+2104167  2104167  <zombie>                        2098824  2098824  2102690                  
+2102692  2102690  python                          2102690  2098824  2098824  2098824  UX      RUN     NONE    0-23     26.989174  python -u /usr/lib/vmware/hostd/cgi-bin/vm-support.cgi
+2102693  2102690  python                          2102690  2098824  2098824  2098824  UX      WAIT    UFUTEX  0-23      0.952201  python -u /usr/lib/vmware/hostd/cgi-bin/vm-support.cgi
+2102694  2102690  python                          2102690  2098824  2098824  2098824  UX      WAIT    UFUTEX  0-23      0.116878  python -u /usr/lib/vmware/hostd/cgi-bin/vm-support.cgi
+2102695  2102690  python                          2102690  2098824  2098824  2098824  UX      WAIT    UFUTEX  0-23      0.179228  python -u /usr/lib/vmware/hostd/cgi-bin/vm-support.cgi
+2102696  2102690  python                          2102690  2098824  2098824  2098824  UX      WAIT    UFUTEX  0-23      0.80450   python -u /usr/lib/vmware/hostd/cgi-bin/vm-support.cgi
+2102709  2102690  python                          2102690  2098824  2098824  2098824  UX      WAIT    UFUTEX  0-23      0.111     python -u /usr/lib/vmware/hostd/cgi-bin/vm-support.cgi
+2103841  0        VCHelperQueue                   2103841  0      0      0        SH      WAIT    HREQ    0-23      0.1508  
+2103842  0        VCHelperQueue                   2103842  0      0      0        SH      WAIT    HREQ    0-23      0.1646  
+2103843  0        VCHelperQueue                   2103843  0      0      0        SH      WAIT    HREQ    0-23      0.2     
+2103844  0        VCHelperQueue                   2103844  0      0      0        SH      WAIT    HREQ    0-23      0.4     
+2103845  0        VCHelperQueue                   2103845  0      0      0        SH      WAIT    HREQ    0-23      0.2     
+2103846  0        VCHelperQueue                   2103846  0      0      0        SH      WAIT    HREQ    0-23      0.4     
+2103847  0        VCHelperQueue                   2103847  0      0      0        SH      WAIT    HREQ    0-23      0.4     
+2103848  0        VCHelperQueue                   2103848  0      0      0        SH      WAIT    HREQ    0-23      0.2     
+2103849  0        VCHelperQueue                   2103849  0      0      0        SH      WAIT    HREQ    0-23      0.1     
+2103850  0        VCHelperQueue                   2103850  0      0      0        SH      WAIT    HREQ    0-23      0.3     
+2103851  0        VCHelperQueue                   2103851  0      0      0        SH      WAIT    HREQ    0-23      0.4     
+2103852  0        VCHelperQueue                   2103852  0      0      0        SH      WAIT    HREQ    0-23      0.5     
+2103853  0        VCHelperQueue                   2103853  0      0      0        SH      WAIT    HREQ    0-23      0.7     
+2103854  0        VCHelperQueue                   2103854  0      0      0        SH      WAIT    HREQ    0-23      0.14    
+2103855  0        VCHelperQueue                   2103855  0      0      0        SH      WAIT    HREQ    0-23      0.758   
+2104160  2102690  python                          2102690  2098824  2098824  2098824  UX      WAIT    UPIPER  0-23      0.5832    python -u /usr/lib/vmware/hostd/cgi-bin/vm-support.cgi
+2104161  2104161  lsusb                           2104161  2104161  2104161  2102690  U       RUN     NONE    0-23      0.0       lsusb -v
+2104164  2102690  python                          2102690  2098824  2098824  2098824  UX      WAIT    UPIPER  0-23      0.5601    python -u /usr/lib/vmware/hostd/cgi-bin/vm-support.cgi
+2104165  2104165  ps                              2104165  2104165  2104165  2102690  U       RUN     NONE    0-23      0.0       ps -cPTgjstz
+2104166  2102690  python                          2102690  2098824  2098824  2098824  UX      WAIT    UFUTEX  0-23      0.5440    python -u /usr/lib/vmware/hostd/cgi-bin/vm-support.cgi
+0        0                                        0      0      0      0        Invalid                        
+

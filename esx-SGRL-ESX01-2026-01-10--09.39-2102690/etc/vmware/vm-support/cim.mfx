@@ -1,0 +1,29 @@
+% Manifest name: base
+% Manifest group: CIM
+% Manifest default: Enabled
+% Manifest tag: cim
+# test test-esx +ras
+# action Options file/command
+
+run IGNORE_ERROR,TIMEOUT=300 /bin/localcli hardware ipmi bmc get
+run TIMEOUT=300              /bin/localcli hardware ipmi sel get -p -i -n all
+run TIMEOUT=300              /bin/localcli hardware ipmi sel list -p -i -n all
+run TIMEOUT=300              /bin/localcli hardware ipmi sdr get -p -i -n all
+run TIMEOUT=300              /bin/localcli hardware ipmi sdr list -p -i -n all
+run IGNORE_ERROR,TIMEOUT=300 /bin/localcli hardware ipmi fru get -p -i -n all
+run IGNORE_ERROR,TIMEOUT=300 /bin/localcli hardware ipmi fru list -p -i -n all
+run IGNORE_ERROR,TIMEOUT=30  /bin/localcli graphics device stats list
+run IGNORE_ERROR,TIMEOUT=300 /bin/localcli system slp stats get
+run IGNORE_ERROR,TIMEOUT=300 /bin/localcli system slp search
+run IGNORE_ERROR,TIMEOUT=300 /bin/localcli system wbem get
+run IGNORE_ERROR,TIMEOUT=300 /bin/localcli system wbem provider list
+run IGNORE_ERROR,TIMEOUT=300 /bin/sensord -v -l -D
+copy IGNORE_MISSING          /etc/sfcb/sfcb.cfg
+copy IGNORE_MISSING          /etc/openwsman/openwsman.conf
+copy IGNORE_MISSING          /etc/openwsman/identify.xml
+copy IGNORE_MISSING          /etc/openwsman/subscriptions
+run IGNORE_ERROR,TIMEOUT=300 /bin/cim-diagnostic.sh
+run IGNORE_ERROR,TIMEOUT=300 /usr/lib/vmware/vm-support/bin/swfw.sh
+run IGNORE_ERROR,TIMEOUT=300 /bin/indcfg --list --debug
+run IGNORE_ERROR,TIMEOUT=300 /bin/localcli system settings advanced list -o /UserVars/HardwareHealthIgnoreSensor
+

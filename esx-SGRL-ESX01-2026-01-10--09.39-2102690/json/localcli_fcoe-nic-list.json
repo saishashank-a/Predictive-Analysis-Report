@@ -1,0 +1,69 @@
+
+[
+
+      {
+         "Active": false,
+         "FCOE NIC Name": "vmnic0",
+         "Priority Settable": false,
+         "Source MAC": "5c:f3:fc:e8:46:f8",
+         "Source MAC Settable": false,
+         "User Priority": 3,
+         "VLAN Range Settable": true,
+         "VN2VN Mode Enabled": false
+      }, 
+
+      {
+         "Active": false,
+         "FCOE NIC Name": "vmnic1",
+         "Priority Settable": false,
+         "Source MAC": "5c:f3:fc:e8:46:fa",
+         "Source MAC Settable": false,
+         "User Priority": 3,
+         "VLAN Range Settable": true,
+         "VN2VN Mode Enabled": false
+      }, 
+
+      {
+         "Active": false,
+         "FCOE NIC Name": "vmnic2",
+         "Priority Settable": false,
+         "Source MAC": "5c:f3:fc:6a:ac:60",
+         "Source MAC Settable": false,
+         "User Priority": 3,
+         "VLAN Range Settable": true,
+         "VN2VN Mode Enabled": false
+      }, 
+
+      {
+         "Active": false,
+         "FCOE NIC Name": "vmnic3",
+         "Priority Settable": false,
+         "Source MAC": "5c:f3:fc:6a:ac:62",
+         "Source MAC Settable": false,
+         "User Priority": 3,
+         "VLAN Range Settable": true,
+         "VN2VN Mode Enabled": false
+      }, 
+
+      {
+         "Active": false,
+         "FCOE NIC Name": "vmnic4",
+         "Priority Settable": false,
+         "Source MAC": "a0:36:9f:03:25:88",
+         "Source MAC Settable": false,
+         "User Priority": 3,
+         "VLAN Range Settable": true,
+         "VN2VN Mode Enabled": false
+      }, 
+
+      {
+         "Active": false,
+         "FCOE NIC Name": "vmnic5",
+         "Priority Settable": false,
+         "Source MAC": "a0:36:9f:03:25:89",
+         "Source MAC Settable": false,
+         "User Priority": 3,
+         "VLAN Range Settable": true,
+         "VN2VN Mode Enabled": false
+      }
+]

@@ -1,0 +1,2 @@
+# vmkfstools -q SGRL-8ESX001_1.vmdk
+SGRL-8ESX001_1.vmdk is not an rdm

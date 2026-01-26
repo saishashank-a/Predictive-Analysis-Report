@@ -1,0 +1,20 @@
+total 7705792
+79692740    128 drwxr-xr-x    1 root     root         77824 Sep 13 16:21 .
+      4   1024 drwxr-xr-t    1 root     root         86016 Jan 10 09:35 ..
+92275908      0 -rw-r--r--    1 root     root           238 Sep 13 15:24 sgrl-lcm01-6d989f86.hlog
+100664516 4853760 -rw-------    1 root     root     11341398016 Sep 13 16:21 sgrl-lcm01-flat.vmdk
+176161988     64 -rw-------    1 root     root          8684 Sep 13 15:45 sgrl-lcm01.nvram
+104858820      0 -rw-------    1 root     root           530 Sep 13 15:44 sgrl-lcm01.vmdk
+150996164      0 -rw-r--r--    1 root     root             0 Sep 13 15:24 sgrl-lcm01.vmsd
+96470212      0 -rwxr-xr-x    1 root     root          3258 Sep 13 16:21 sgrl-lcm01.vmx
+109053124 2189312 -rw-------    1 root     root     53754200064 Sep 13 16:21 sgrl-lcm01_1-flat.vmdk
+113247428      0 -rw-------    1 root     root           533 Sep 13 15:44 sgrl-lcm01_1.vmdk
+117441732 277504 -rw-------    1 root     root     10804527104 Sep 13 16:21 sgrl-lcm01_2-flat.vmdk
+121636036      0 -rw-------    1 root     root           532 Sep 13 15:44 sgrl-lcm01_2.vmdk
+125830340  50176 -rw-------    1 root     root     8657043456 Sep 13 16:21 sgrl-lcm01_3-flat.vmdk
+130024644      0 -rw-------    1 root     root           532 Sep 13 15:44 sgrl-lcm01_3.vmdk
+134218948 183296 -rw-------    1 root     root     10804527104 Sep 13 16:21 sgrl-lcm01_4-flat.vmdk
+138413252      0 -rw-------    1 root     root           532 Sep 13 15:44 sgrl-lcm01_4.vmdk
+142607556 149504 -rw-------    1 root     root     8657043456 Sep 13 16:21 sgrl-lcm01_5-flat.vmdk
+146801860      0 -rw-------    1 root     root           532 Sep 13 15:44 sgrl-lcm01_5.vmdk
+167773380   1024 -rw-r--r--    1 root     root        299196 Sep 13 16:21 vmware.log

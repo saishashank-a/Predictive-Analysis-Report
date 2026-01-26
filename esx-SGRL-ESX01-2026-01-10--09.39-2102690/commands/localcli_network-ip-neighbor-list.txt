@@ -1,0 +1,6 @@
+Neighbor                   Mac Address        Vmknic  Expiry     State  Type
+----------------------------------------------------------------------------
+192.168.1.2                00:0c:29:09:c0:d9  vmk0      149 sec         Unknown
+192.168.1.254              0c:01:4b:c7:a4:c8  vmk0     1131 sec         Unknown
+fe80::7693:daff:febc:7fd3  74:93:da:bc:7f:d3  vmk0    86370 sec  Stale  Unknown
+fe80::20c:29ff:fe34:59ef   00:0c:29:34:59:ef  vmk0    86365 sec  Stale  Unknown

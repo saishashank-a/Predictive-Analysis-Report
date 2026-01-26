@@ -1,0 +1,9 @@
+% Manifest name: FCoE
+% Manifest group: Storage
+% Manifest default: Enabled
+% Manifest tag: storage,fcoe
+# action Options file/command
+
+run DUMP_JSON /usr/sbin/localcli fcoe nic list
+run DUMP_JSON /usr/sbin/localcli fcoe adapter list
+

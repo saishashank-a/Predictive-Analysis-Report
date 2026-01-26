@@ -1,0 +1,14 @@
+% Manifest name: HostAgent
+% Manifest group: Userworld
+% Manifest default: Enabled
+% Manifest tag: userworld
+# action Options file/command
+
+copy - /etc/vmware/hostd/vmInventory.xml
+# only copy stats idmap and xml files to reduce the vm-support bundle size.
+copy - /var/lib/vmware/hostd/stats/hostAgentStats.*
+# Log into hostd with user "dcui", who is guaranteed to have Admin permissions, even in lockdown mode.
+run TIMEOUT=20 /bin/vmware-vimdump -o - -U dcui
+run TIMEOUT=10 /bin/vim-cmd -U dcui internalsvc/perfcount/scoreboard
+run IGNORE_ERROR /usr/lib/vmware/vm-support/bin/hostd.sh
+copy IGNORE_MISSING /var/run/log/hostd-probed-*

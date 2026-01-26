@@ -1,0 +1,9 @@
+% Manifest name: diskinfo
+% Manifest group: VirtualMachines
+% Manifest default: Enabled
+% Manifest tag: vm,logs
+# action Options file/command
+
+# Only add descriptor files, not the whole disk
+vmfile IGNORE_MISSING,IGNORE_ERROR,MAXSIZE=1024 *.vmdk
+vmfile IGNORE_MISSING,IGNORE_ERROR,MAXSIZE=1024 *.dsk

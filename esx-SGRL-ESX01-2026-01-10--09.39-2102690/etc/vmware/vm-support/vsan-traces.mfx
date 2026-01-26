@@ -1,0 +1,19 @@
+% Manifest name: VSANTraces
+% Manifest group: Storage
+% Manifest default: Enabled
+% Manifest tag: storage,vsantraces
+# action Options file/command
+
+# Force vsantraced to flush traces to disk, and copy them.
+run TIMEOUT=10,IGNORE_ERROR /etc/init.d/vsantraced flush
+copy TIMEOUT=10,IGNORE_MISSING /var/log/vsantraces/vsantraces.index
+copy TIMEOUT=10,IGNORE_MISSING /var/log/vsantraces/vsantraces--*.gz
+copy TIMEOUT=10,IGNORE_MISSING /var/log/vsantraces/vsantracesLCHK.index
+copy TIMEOUT=10,IGNORE_MISSING /var/log/vsantraces/vsantracesLCHK--*.gz
+#
+# Tracing and cmmds analysis scripts for out of the box trace and directory inspection
+#
+copy TIMEOUT=10 /usr/lib/vmware/vsan/bin/vsanTraceReader.py
+copy TIMEOUT=10 /usr/lib/vmware/vsan/bin/vsanTraceReader
+copy TIMEOUT=10 /lib64/python3.*/site-packages/vmware/__init__.py*
+copy TIMEOUT=10 /lib64/python3.*/site-packages/vmware/vsan/*.py*

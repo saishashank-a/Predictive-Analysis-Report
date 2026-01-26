@@ -1,0 +1,15 @@
+# Disk DescriptorFile
+version=1
+encoding="UTF-8"
+CID=bf984e74
+parentCID=b128a4ab
+createType="seSparse"
+parentFileNameHint="SGRL-ADC001.vmdk"
+# Extent description
+RW 314572800 SESPARSE "SGRL-ADC001-000001-sesparse.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.grain = "8"
+ddb.longContentID = "d3fa0ae74afc9269e26e561cbf984e74"

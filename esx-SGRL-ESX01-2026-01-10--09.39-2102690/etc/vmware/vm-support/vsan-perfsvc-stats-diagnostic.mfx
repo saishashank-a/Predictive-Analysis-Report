@@ -1,0 +1,8 @@
+% Manifest name: VSANPerfStatsDiagnostic
+% Manifest group: Storage
+% Manifest default: Enabled
+% Manifest tag: storage,vsanperfstatsdiagnostic
+# action Options file/command
+# Dump vsan performance stats metrics for diagnostic mode
+
+run TIMEOUT=1200,IGNORE_ERROR python /usr/lib/vmware/vsan/perfsvc/vsan-perfsvc-status.pyc --unit hour perf_stats_with_dump_diag 1

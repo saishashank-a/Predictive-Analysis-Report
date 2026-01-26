@@ -1,0 +1,58 @@
+)0
+  WID      CID      WorldName             Command
+1
+mq2097557  2097557  init                  /bin/init
+  tq2100898  2100898  vmx                   /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001_1/SGRL-ADC001.vmx
+  tq2099800  2099800  vmx                   /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01.vmx
+  tq2099653  2099653  vmx                   /bin/vmx -s sched.group=host/user -# product=2;name=VMware ESX;version=6.7.0;buildnumber=19195723;licensename=VMware ESX Server;licenseversion=6.0; -@ transport=3;msgs=ui /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/VyOS-Router/VyOS-Router.vmx
+  tq2099541  2099541  dcui                  /bin/dcui 2
+  tq2099540  2099540  sh                    /bin/sh /bin/techsupport.sh
+  tq2099333  2099333  sh                    /bin/sh /sbin/watchdog.sh -s vpxa /usr/lib/vmware/vpxa/bin/vpxa ++min=0,swapscope=system -D /etc/vmware/vpxa
+  x mq2099343  2099343  vpxa                  /usr/lib/vmware/vpxa/bin/vpxa -D /etc/vmware/vpxa
+  tq2099316  2099316  sh                    /bin/sh /sbin/watchdog.sh -s smartd -t 5 /usr/sbin/smartd
+  x mq2099325  2099325  smartd                /usr/sbin/smartd
+  tq2099275  2099275  sh                    /bin/sh /sbin/watchdog.sh -s nicmgmtd -t 5 /usr/sbin/nicmgmtd
+  x mq2099284  2099284  nicmgmtd              /usr/sbin/nicmgmtd
+  tq2099250  2099250  sh                    /bin/sh /sbin/watchdog.sh -s nscd /usr/lib/vmware/nscd/bin/nscd -d
+  x mq2099259  2099259  nscd                  /usr/lib/vmware/nscd/bin/nscd -d
+  tq2099225  2099225  sh                    /bin/sh /sbin/watchdog.sh -s cdp /usr/sbin/net-cdp
+  x mq2099234  2099234  net-cdp               /usr/sbin/net-cdp
+  tq2099207  2099207  sh                    /bin/sh /sbin/watchdog.sh -s dcbd -t 5 /usr/sbin/dcbd
+  x mq2099216  2099216  dcbd                  /usr/sbin/dcbd
+  tq2099199  2099199  slpd                  /sbin/slpd -N -l syslog
+  tq2099033  2099033  sh                    /bin/sh /sbin/watchdog.sh -s net-lbt -u 1000 -q 100 -t 100 /sbin/net-lbt ++min=0
+  x mq2099042  2099042  net-lbt               /sbin/net-lbt
+  tq2098963  2098963  sh                    /bin/sh /sbin/watchdog.sh -t 1000 -s sensord /usr/lib/vmware/bin/sensord -l
+  x mq2098972  2098972  sensord               /usr/lib/vmware/bin/sensord -l
+  tq2098945  2098945  sh                    /bin/sh /sbin/watchdog.sh -s storageRM /sbin/storageRM
+  x mq2098954  2098954  storageRM             /sbin/storageRM
+  tq2098928  2098928  sh                    /bin/sh /sbin/watchdog.sh -s sdrsInjector /sbin/sdrsInjector
+  x mq2098937  2098937  sdrsInjector          /sbin/sdrsInjector
+  tq2098889  2098889  sh                    /bin/sh /sbin/watchdog.sh -s rhttpproxy rhttpproxy ++min=0,swapscope=system -r /etc/vmware/rhttpproxy/config.xml
+  x mq2098898  2098898  rhttpproxy            rhttpproxy -r /etc/vmware/rhttpproxy/config.xml
+  tq2098868  2098868  sh                    /bin/sh /sbin/watchdog.sh -s hostd -e LD_PRELOAD=/lib64/libMallocArenaFix.so hostd ++min=0,swapscope=system /etc/vmware/hostd/config.xml
+  x mq2098878  2098878  hostd                 hostd /etc/vmware/hostd/config.xml
+  tq2098815  2098815  sh                    /bin/sh /sbin/watchdog.sh -s hostdCgiServer hostdCgiServer
+  x mq2098824  2098824  hostdCgiServer        hostdCgiServer
+  x   mq2102690  2102690  python                python -u /usr/lib/vmware/hostd/cgi-bin/vm-support.cgi
+  x     tq2104167  2104167  ps                    ps -Cc --tree
+  x     tq2104165  2104165  ps                    ps -cPTgjstz
+  x     mq2104161  2104161  lsusb                 lsusb -v
+  tq2098693  2098693  sh                    /bin/sh /sbin/watchdog.sh -s swapobjd /usr/lib/vmware/swapobj/bin/swapobjd
+  x mq2098703  2098703  swapobjd              /usr/lib/vmware/swapobj/bin/swapobjd
+  tq2098650  2098650  sh                    /bin/sh /sbin/watchdog.sh -s iofiltervpd /usr/lib/vmware/iofilter/bin/ioFilterVPServer
+  x mq2098660  2098660  ioFilterVPServer      /usr/lib/vmware/iofilter/bin/ioFilterVPServer
+  tq2098605  2098605  sh                    /bin/sh /sbin/watchdog.sh -s usbarbitrator -t 5 /usr/lib/vmware/bin/vmware-usbarbitrator -t --max-clients=414
+  x mq2098615  2098615  vmware-usbarbitrator  /usr/lib/vmware/bin/vmware-usbarbitrator -t --max-clients=414
+  tq2098452  2098452  busybox               /usr/lib/vmware/busybox/bin/busybox inetd /var/run/inetd.conf
+  tq2098360  2098360  busybox               /usr/lib/vmware/busybox/bin/busybox crond
+  tq2097912  2097912  sh                    /bin/sh /sbin/watchdog.sh -s net-lacp -u 1000 -q 100 -t 100 /usr/sbin/net-lacp
+  x mq2097922  2097922  net-lacp              /usr/sbin/net-lacp
+  tq2097780  2097780  vmkdevmgr             /bin/vmkdevmgr
+  tq2097659  2097659  sh                    /bin/sh /sbin/watchdog.sh -s vmkeventd -u 10 -q 5 -t 9999999 /usr/lib/vmware/vmkeventd/bin/vmkeventd
+  x mq2097666  2097666  vmkeventd             /usr/lib/vmware/vmkeventd/bin/vmkeventd
+  tq2097623  2097623  sh                    /bin/sh /sbin/watchdog.sh -s vobd /usr/lib/vmware/vob/bin/vobd
+  x mq2097635  2097635  vobd                  /usr/lib/vmware/vob/bin/vobd
+  mq2097611  2097611  wdog-2097612          /bin/python /usr/lib/vmware/vmsyslog/bin/vmsyslogd.pyc -i
+    mq2097612  2097612  vmsyslogd             /bin/python /usr/lib/vmware/vmsyslog/bin/vmsyslogd.pyc -i
+

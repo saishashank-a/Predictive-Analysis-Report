@@ -1,0 +1,7 @@
+regtype=native,bus=acpi,id=010601,driver=vmw_ahci
+regtype=native,bus=acpi,id=AMDI0600,driver=vmw_ahci
+regtype=native,bus=acpi,id=APMC0D00,driver=vmw_ahci
+regtype=native,bus=acpi,id=APMC0D09,driver=vmw_ahci
+regtype=native,bus=acpi,id=APMC0D0D,driver=vmw_ahci
+regtype=native,bus=acpi,id=APMC0D33,driver=vmw_ahci
+regtype=native,bus=acpi,id=QCOM8090,driver=vmw_ahci

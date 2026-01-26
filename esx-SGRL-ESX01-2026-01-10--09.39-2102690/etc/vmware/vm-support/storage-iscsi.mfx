@@ -1,0 +1,11 @@
+% Manifest name: iscsi
+% Manifest group: Storage
+% Manifest default: Enabled
+% Manifest tag: storage,iscsi
+# action Options file/command
+
+run -           /usr/sbin/localcli iscsi software get
+run -           /usr/sbin/vmkiscsid --dump-db
+run DUMP_JSON   /usr/sbin/localcli iscsi physicalnetworkportal list
+run DUMP_JSON   /usr/sbin/localcli iscsi logicalnetworkportal list
+run DUMP_JSON   /usr/sbin/localcli iscsi networkportal list

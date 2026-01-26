@@ -1,0 +1,25 @@
+% Manifest name: Base
+% Manifest group: System
+% Manifest default: Enabled
+% Manifest tag: base
+# action Options file/command
+run -                           vmware -vl
+# vsi_traverse can hang on APD
+run IGNORE_ERROR,TIMEOUT=30     /sbin/vsi_traverse -s
+run -                           /bin/date
+run -				/usr/sbin/localcli system stats uptime get
+run -                           uname -a
+# can hang on APD
+run TIMEOUT=30                  /usr/sbin/esxcfg-info -a
+run TIMEOUT=30                  /usr/sbin/esxcfg-info -a -F 'xml'
+run TIMEOUT=30                  /usr/sbin/localcli system coredump partition get
+run TIMEOUT=30                  /usr/sbin/localcli system coredump partition list
+run TIMEOUT=30                  /usr/sbin/localcli system coredump file get
+run TIMEOUT=30                  /usr/sbin/localcli system coredump file list
+run TIMEOUT=30                  /usr/sbin/localcli --plugin-dir /usr/lib/vmware/esxcli/int systemInternal coredump configuration check
+run -                           /usr/sbin/vmkerrcode -l
+run -                           /usr/sbin/secpolicytools -d
+run -                           /sbin/bootOption -oC
+# CPD finds having two vsi caches to compare against useful
+# The '-l 0' is to avoid bug 665646
+run IGNORE_ERROR,TIMEOUT=30     /sbin/vsi_traverse -s -l 0

@@ -1,0 +1,7 @@
+<ConfigRoot>
+  <mode>normal</mode>
+  <service>
+    <TSM-SSH>on</TSM-SSH>
+    <ntpd>off</ntpd>
+  </service>
+</ConfigRoot>

@@ -1,0 +1,44 @@
+total 23732480
+   4036    128 drwxr-xr-x    1 root     root         86016 Nov 15 03:08 .
+      4   1024 drwxr-xr-t    1 root     root         86016 Jan 10 09:35 ..
+4195972 6514688 -rw-------    1 root     root     51539607552 Nov 15 03:08 SGRL-VCSA001-flat.vmdk
+163579524     64 -rw-------    1 root     root          8684 Jan  1  2001 SGRL-VCSA001.nvram
+8390276      0 -rw-------    1 root     root           533 Nov 15 02:39 SGRL-VCSA001.vmdk
+138413700      0 -rw-r--r--    1 root     root             0 Jan  1  2001 SGRL-VCSA001.vmsd
+   1668     64 -rwxr-xr-x    1 root     root          4408 Nov 15 03:08 SGRL-VCSA001.vmx
+12584580 5234688 -rw-------    1 root     root     5361369088 Jan  1  2001 SGRL-VCSA001_1-flat.vmdk
+16778884      0 -rw-------    1 root     root           533 Jan  1  2001 SGRL-VCSA001_1.vmdk
+88082052 248832 -rw-------    1 root     root     10737418240 Nov 15 03:08 SGRL-VCSA001_10-flat.vmdk
+92276356      0 -rw-------    1 root     root           535 Nov 15 02:40 SGRL-VCSA001_10.vmdk
+96470660 2433024 -rw-------    1 root     root     107374182400 Nov 15 03:08 SGRL-VCSA001_11-flat.vmdk
+100664964      0 -rw-------    1 root     root           537 Nov 15 02:40 SGRL-VCSA001_11.vmdk
+104859268 1139712 -rw-------    1 root     root     53687091200 Nov 15 03:08 SGRL-VCSA001_12-flat.vmdk
+109053572      0 -rw-------    1 root     root           536 Nov 15 02:40 SGRL-VCSA001_12.vmdk
+113247876 286720 -rw-------    1 root     root     10737418240 Nov 15 03:08 SGRL-VCSA001_13-flat.vmdk
+117442180      0 -rw-------    1 root     root           535 Nov 15 02:40 SGRL-VCSA001_13.vmdk
+121636484 178176 -rw-------    1 root     root     5368709120 Nov 15 03:08 SGRL-VCSA001_14-flat.vmdk
+125830788      0 -rw-------    1 root     root           534 Nov 15 02:40 SGRL-VCSA001_14.vmdk
+130025092 5340160 -rw-------    1 root     root     107374182400 Nov 15 03:08 SGRL-VCSA001_15-flat.vmdk
+134219396      0 -rw-------    1 root     root           537 Nov 15 02:40 SGRL-VCSA001_15.vmdk
+20973188   2048 -rw-------    1 root     root     26843545600 Jan  1  2001 SGRL-VCSA001_2-flat.vmdk
+25167492      0 -rw-------    1 root     root           534 Jan  1  2001 SGRL-VCSA001_2.vmdk
+29361796 570368 -rw-------    1 root     root     26843545600 Nov 15 03:08 SGRL-VCSA001_3-flat.vmdk
+33556100      0 -rw-------    1 root     root           534 Nov 15 02:39 SGRL-VCSA001_3.vmdk
+37750404 322560 -rw-------    1 root     root     10737418240 Nov 15 03:08 SGRL-VCSA001_4-flat.vmdk
+41944708      0 -rw-------    1 root     root           534 Nov 15 02:39 SGRL-VCSA001_4.vmdk
+46139012 414720 -rw-------    1 root     root     10737418240 Nov 15 03:08 SGRL-VCSA001_5-flat.vmdk
+50333316      0 -rw-------    1 root     root           534 Nov 15 02:40 SGRL-VCSA001_5.vmdk
+54527620 385024 -rw-------    1 root     root     16106127360 Nov 15 03:08 SGRL-VCSA001_6-flat.vmdk
+58721924      0 -rw-------    1 root     root           534 Nov 15 02:40 SGRL-VCSA001_6.vmdk
+62916228 282624 -rw-------    1 root     root     10737418240 Nov 15 03:08 SGRL-VCSA001_7-flat.vmdk
+67110532      0 -rw-------    1 root     root           534 Nov 15 02:40 SGRL-VCSA001_7.vmdk
+71304836  39936 -rw-------    1 root     root     1073741824 Nov 15 03:08 SGRL-VCSA001_8-flat.vmdk
+75499140      0 -rw-------    1 root     root           532 Nov 15 02:40 SGRL-VCSA001_8.vmdk
+79693444 248832 -rw-------    1 root     root     10737418240 Nov 15 03:08 SGRL-VCSA001_9-flat.vmdk
+83887748      0 -rw-------    1 root     root           534 Nov 15 02:40 SGRL-VCSA001_9.vmdk
+155190916   1024 -rw-r--r--    1 root     root        279946 Jan  1  2001 vmware-1.log
+180356740   1024 -rw-r--r--    1 root     root        253875 Sep  7 12:57 vmware-2.log
+197133956   1024 -rw-r--r--    1 root     root        220513 Oct 24 00:37 vmware-3.log
+213911172   1024 -rw-r--r--    1 root     root        243983 Nov 15 02:37 vmware-4.log
+230688388   1024 -rw-r--r--    1 root     root        251621 Nov 15 03:08 vmware.log
+184551044  83968 -rw-------    1 root     root      85983232 Oct 24 00:08 vmx-SGRL-VCSA001-494062121-1.vswp

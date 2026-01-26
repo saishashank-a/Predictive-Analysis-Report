@@ -1,0 +1,8 @@
+VMkernel Routes:
+Network                                        Netmask                                        Gateway                                        Interface      
+fe80::                                         64                                             Local Subnet                                   lo0            
+fe80::                                         64                                             Local Subnet                                   vmk0           
+ff01::                                         32                                             ::1                                            lo0            
+ff01::                                         32                                             fe80::5ef3:fcff:fee8:46f8                      vmk0           
+ff02::                                         32                                             ::1                                            lo0            
+ff02::                                         32                                             fe80::5ef3:fcff:fee8:46f8                      vmk0           

@@ -1,0 +1,12 @@
+% Manifest name: VSANDP-livecores
+% Manifest group: Storage
+% Manifest default: Disabled
+% Manifest tag: storage,vsandp
+# action Options file/command
+
+
+#
+# VSAN DP live cores
+#
+
+run IGNORE_ERROR,RELOCATE=/var/log/vsandpd.tar.gz /usr/lib/vmware/vsan/bin/vsandpd-support.py livecores

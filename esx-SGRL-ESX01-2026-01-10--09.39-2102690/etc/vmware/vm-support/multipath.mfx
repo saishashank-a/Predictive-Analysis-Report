@@ -1,0 +1,12 @@
+% Manifest name: Multipathing
+% Manifest group: Storage
+% Manifest default: Enabled
+% Manifest tag: storage,multipathing
+# action Options file/command
+
+run DUMP_JSON /usr/sbin/localcli storage core path list
+run - /usr/sbin/esxcfg-mpath -b
+run DUMP_JSON /usr/sbin/localcli storage core claimrule list --claimrule-class=all
+run DUMP_JSON /usr/sbin/localcli storage nmp device list
+run DUMP_JSON /usr/sbin/localcli storage nmp path list
+run DUMP_JSON /usr/sbin/localcli storage nmp satp rule list

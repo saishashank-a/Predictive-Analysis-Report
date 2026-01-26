@@ -1,0 +1,11 @@
+RDMA Device Information.
+
+Output of "localcli rdma device list":
+Name  Driver  State  MTU  Speed  Paired Uplink  Description
+-----------------------------------------------------------
+
+Output of "localcli rdma device vmknic list":
+Device  Vmknic  NetStack
+------------------------
+
+Per-device output:

@@ -1,0 +1,28 @@
+#
+# This file is mechanically generated.  Any changes you make
+# manually will be lost at the next build.
+#
+# Please edit <driver>_devices.py file for permanent changes.
+#
+# Vendors, devices and subsystems.
+#
+# Syntax (initial indentation must be done with TAB characters):
+#
+# vendor  vendor_name
+#       device  device_name                            <-- single TAB
+#               subvendor subdevice  subsystem_name    <-- two TABs
+
+1000  Avago (LSI Logic)
+	006e  Avago (LSI) Logic Fusion-MPT 6GSAS SAS2308_3 PCI-Express
+	0080  Avago (LSI) Logic Fusion-MPT 6GSAS SAS2208_1 PCI-Express
+	0081  Avago (LSI) Logic Fusion-MPT 6GSAS SAS2208_2 PCI-Express
+	0082  Avago (LSI) Logic Fusion-MPT 6GSAS SAS2208_3 PCI-Express
+	0083  Avago (LSI) Logic Fusion-MPT 6GSAS SAS2208_4 PCI-Express
+	0084  Avago (LSI) Logic Fusion-MPT 6GSAS SAS2208_5 PCI-Express
+	0085  Avago (LSI) Logic Fusion-MPT 6GSAS SAS2208_6 PCI-Express
+	0086  Avago (LSI) Logic Fusion-MPT 6GSAS SAS2308_1 PCI-Express
+	0087  Avago (LSI) Logic Fusion-MPT 6GSAS SAS2308_2 PCI-Express
+		1590 0041  HP H220 Host Bus Adapter
+		1590 0042  HP H221 Host Bus Adapter
+		1590 0043  HP H222 Host Bus Adapter
+		1590 0044  HP H220i Host Bus Adapter

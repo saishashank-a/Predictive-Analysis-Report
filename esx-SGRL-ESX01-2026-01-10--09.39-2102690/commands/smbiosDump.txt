@@ -1,0 +1,647 @@
+Dumping live SMBIOS data!
+  Type 38 Record: #0
+    Data 00: 26 10 00 00 01 20 20 ff a3 0c 00 00 00 00 00 00
+  Processor Info: #1
+    Payload length: 0x28
+    Socket: "Node 1 Socket 1"
+    Socket Type: 0x04 (ZIF Socket)
+    Socket Status: Populated
+    Type: 0x03 (CPU)
+    Family: 0xb5 (Xeon MP)
+    Manufacturer: "Intel(R) Corporation"
+    Version: "Intel(R) Xeon(R) CPU           X5650  @ 2.67GHz"
+    Processor ID: 0xbfebfbff000206c2
+    Status: 0x01 (Enabled)
+    Voltage: 1.2 V
+    External Clock: 6400 MHz
+    Max. Speed: 4400 MHz
+    Current Speed: 2670 MHz
+    L1 Cache: #2
+    L2 Cache: #3
+    L3 Cache: #4
+    Core Count: #6
+    Core Enabled Count: #6
+    Thread Count: #12
+  Cache Info: #2
+    Designation: "Internal Cache Level 1"
+    Level: L1
+    State: Enabled
+    Mode: 0x01 (Write Back)
+    Location: 0x00 (Internal, Not Socketed)
+    ECC: 0x05 (Single-bit)
+    Type: 0x04 (Data)
+    Associativity: 0x07 (8-way Set-Associative)
+    Max. Size: 32 kB
+    Current Size: 32 kB
+    Supported SRAM Types: 0x0040 (Asynchronous)
+    Current SRAM Type: 0x0040 (Asynchronous)
+  Cache Info: #3
+    Designation: "Internal Cache Level 2"
+    Level: L2
+    State: Enabled
+    Mode: 0x01 (Write Back)
+    Location: 0x00 (Internal, Not Socketed)
+    ECC: 0x05 (Single-bit)
+    Type: 0x05 (Unified)
+    Associativity: 0x07 (8-way Set-Associative)
+    Max. Size: 256 kB
+    Current Size: 256 kB
+    Supported SRAM Types: 0x0040 (Asynchronous)
+    Current SRAM Type: 0x0040 (Asynchronous)
+  Cache Info: #4
+    Designation: "Internal Cache Level 3"
+    Level: L3
+    State: Enabled
+    Mode: 0x01 (Write Back)
+    Location: 0x00 (Internal, Not Socketed)
+    ECC: 0x05 (Single-bit)
+    Type: 0x05 (Unified)
+    Associativity: 0x08 (16-way Set-Associative)
+    Max. Size: 12288 kB
+    Current Size: 12288 kB
+    Supported SRAM Types: 0x0040 (Asynchronous)
+    Current SRAM Type: 0x0040 (Asynchronous)
+  Processor Info: #5
+    Payload length: 0x28
+    Socket: "Node 1 Socket 2"
+    Socket Type: 0x04 (ZIF Socket)
+    Socket Status: Populated
+    Type: 0x03 (CPU)
+    Family: 0xb5 (Xeon MP)
+    Manufacturer: "Intel(R) Corporation"
+    Version: "Intel(R) Xeon(R) CPU           X5650  @ 2.67GHz"
+    Processor ID: 0xbfebfbff000206c2
+    Status: 0x01 (Enabled)
+    Voltage: 1.2 V
+    External Clock: 6400 MHz
+    Max. Speed: 4400 MHz
+    Current Speed: 2670 MHz
+    L1 Cache: #6
+    L2 Cache: #7
+    L3 Cache: #8
+    Core Count: #6
+    Core Enabled Count: #6
+    Thread Count: #12
+  Cache Info: #6
+    Designation: "Internal Cache Level 1"
+    Level: L1
+    State: Enabled
+    Mode: 0x01 (Write Back)
+    Location: 0x00 (Internal, Not Socketed)
+    ECC: 0x05 (Single-bit)
+    Type: 0x04 (Data)
+    Associativity: 0x07 (8-way Set-Associative)
+    Max. Size: 32 kB
+    Current Size: 32 kB
+    Supported SRAM Types: 0x0040 (Asynchronous)
+    Current SRAM Type: 0x0040 (Asynchronous)
+  Cache Info: #7
+    Designation: "Internal Cache Level 2"
+    Level: L2
+    State: Enabled
+    Mode: 0x01 (Write Back)
+    Location: 0x00 (Internal, Not Socketed)
+    ECC: 0x05 (Single-bit)
+    Type: 0x05 (Unified)
+    Associativity: 0x07 (8-way Set-Associative)
+    Max. Size: 256 kB
+    Current Size: 256 kB
+    Supported SRAM Types: 0x0040 (Asynchronous)
+    Current SRAM Type: 0x0040 (Asynchronous)
+  Cache Info: #8
+    Designation: "Internal Cache Level 3"
+    Level: L3
+    State: Enabled
+    Mode: 0x01 (Write Back)
+    Location: 0x00 (Internal, Not Socketed)
+    ECC: 0x05 (Single-bit)
+    Type: 0x05 (Unified)
+    Associativity: 0x08 (16-way Set-Associative)
+    Max. Size: 12288 kB
+    Current Size: 12288 kB
+    Supported SRAM Types: 0x0040 (Asynchronous)
+    Current SRAM Type: 0x0040 (Asynchronous)
+  Physical Memory Array: #9
+    Use: 0x03 (System memory)
+    Location: 0x03 (Motherboard)
+    Slots: 18
+    Max. Size: 288 GB
+    ECC: 0x05 (Single-bit)
+  Type 6 Record: #10
+    Data 00: 06 0c 0a 00 01 00 01 00 01 0e 0e 00
+    String 1: "DIMM01"
+  Memory Device: #11
+    Location: "DIMM01"
+    Bank: "BANK01"
+    Manufacturer: "Elpida"
+    Serial: "B326002B"
+    Asset Tag: "Unknown"
+    Part Number: "EBJ17RG4EAFA-DJ-F"
+    Memory Array: #9
+    Form Factor: 0x09 (DIMM)
+    Type: 0x01 (Other)
+    Type Detail: 0x0004 (Unknown)
+    Data Width: 64 bits (+8 ECC bits)
+    Size: 16 GB
+    Speed: 800 MHz
+  Type 6 Record: #12
+    Data 00: 06 0c 0c 00 01 00 01 00 01 0e 0e 00
+    String 1: "DIMM02"
+  Memory Device: #13
+    Location: "DIMM02"
+    Bank: "BANK02"
+    Manufacturer: "Elpida"
+    Serial: "1526002B"
+    Asset Tag: "Unknown"
+    Part Number: "EBJ17RG4EAFA-DJ-F"
+    Memory Array: #9
+    Form Factor: 0x09 (DIMM)
+    Type: 0x01 (Other)
+    Type Detail: 0x0004 (Unknown)
+    Data Width: 64 bits (+8 ECC bits)
+    Size: 16 GB
+    Speed: 800 MHz
+  Type 6 Record: #14
+    Data 00: 06 0c 0e 00 01 00 01 00 01 0e 0e 00
+    String 1: "DIMM03"
+  Memory Device: #15
+    Location: "DIMM03"
+    Bank: "BANK03"
+    Manufacturer: "Elpida"
+    Serial: "DDF2032B"
+    Asset Tag: "Unknown"
+    Part Number: "EBJ17RG4EAFA-DJ-F"
+    Memory Array: #9
+    Form Factor: 0x09 (DIMM)
+    Type: 0x01 (Other)
+    Type Detail: 0x0004 (Unknown)
+    Data Width: 64 bits (+8 ECC bits)
+    Size: 16 GB
+    Speed: 800 MHz
+  Type 6 Record: #16
+    Data 00: 06 0c 10 00 01 00 01 00 01 0e 0e 00
+    String 1: "DIMM04"
+  Memory Device: #17
+    Location: "DIMM04"
+    Bank: "BANK04"
+    Manufacturer: "Elpida"
+    Serial: "3727002B"
+    Asset Tag: "Unknown"
+    Part Number: "EBJ17RG4EAFA-DJ-F"
+    Memory Array: #9
+    Form Factor: 0x09 (DIMM)
+    Type: 0x01 (Other)
+    Type Detail: 0x0004 (Unknown)
+    Data Width: 64 bits (+8 ECC bits)
+    Size: 16 GB
+    Speed: 800 MHz
+  Type 6 Record: #18
+    Data 00: 06 0c 12 00 01 00 01 00 01 0e 0e 00
+    String 1: "DIMM05"
+  Memory Device: #19
+    Location: "DIMM05"
+    Bank: "BANK05"
+    Manufacturer: "Elpida"
+    Serial: "F125002B"
+    Asset Tag: "Unknown"
+    Part Number: "EBJ17RG4EAFA-DJ-F"
+    Memory Array: #9
+    Form Factor: 0x09 (DIMM)
+    Type: 0x01 (Other)
+    Type Detail: 0x0004 (Unknown)
+    Data Width: 64 bits (+8 ECC bits)
+    Size: 16 GB
+    Speed: 800 MHz
+  Type 6 Record: #20
+    Data 00: 06 0c 14 00 01 00 01 00 01 0e 0e 00
+    String 1: "DIMM06"
+  Memory Device: #21
+    Location: "DIMM06"
+    Bank: "BANK06"
+    Manufacturer: "Elpida"
+    Serial: "C9F2032B"
+    Asset Tag: "Unknown"
+    Part Number: "EBJ17RG4EAFA-DJ-F"
+    Memory Array: #9
+    Form Factor: 0x09 (DIMM)
+    Type: 0x01 (Other)
+    Type Detail: 0x0004 (Unknown)
+    Data Width: 64 bits (+8 ECC bits)
+    Size: 16 GB
+    Speed: 800 MHz
+  Type 6 Record: #22
+    Data 00: 06 0c 16 00 01 00 01 00 01 0e 0e 00
+    String 1: "DIMM07"
+  Memory Device: #23
+    Location: "DIMM07"
+    Bank: "BANK07"
+    Manufacturer: "Elpida"
+    Serial: "DB25002B"
+    Asset Tag: "Unknown"
+    Part Number: "EBJ17RG4EAFA-DJ-F"
+    Memory Array: #9
+    Form Factor: 0x09 (DIMM)
+    Type: 0x01 (Other)
+    Type Detail: 0x0004 (Unknown)
+    Data Width: 64 bits (+8 ECC bits)
+    Size: 16 GB
+    Speed: 800 MHz
+  Type 6 Record: #24
+    Data 00: 06 0c 18 00 01 00 01 00 01 0e 0e 00
+    String 1: "DIMM08"
+  Memory Device: #25
+    Location: "DIMM08"
+    Bank: "BANK08"
+    Manufacturer: "Elpida"
+    Serial: "C526002B"
+    Asset Tag: "Unknown"
+    Part Number: "EBJ17RG4EAFA-DJ-F"
+    Memory Array: #9
+    Form Factor: 0x09 (DIMM)
+    Type: 0x01 (Other)
+    Type Detail: 0x0004 (Unknown)
+    Data Width: 64 bits (+8 ECC bits)
+    Size: 16 GB
+    Speed: 800 MHz
+  Type 6 Record: #26
+    Data 00: 06 0c 1a 00 01 00 01 00 01 0e 0e 00
+    String 1: "DIMM09"
+  Memory Device: #27
+    Location: "DIMM09"
+    Bank: "BANK09"
+    Manufacturer: "Elpida"
+    Serial: "ECF2032B"
+    Asset Tag: "Unknown"
+    Part Number: "EBJ17RG4EAFA-DJ-F"
+    Memory Array: #9
+    Form Factor: 0x09 (DIMM)
+    Type: 0x01 (Other)
+    Type Detail: 0x0004 (Unknown)
+    Data Width: 64 bits (+8 ECC bits)
+    Size: 16 GB
+    Speed: 800 MHz
+  Type 6 Record: #28
+    Data 00: 06 0c 1c 00 01 00 01 00 01 0e 0e 00
+    String 1: "DIMM10"
+  Memory Device: #29
+    Location: "DIMM10"
+    Bank: "BANK10"
+    Manufacturer: "Elpida"
+    Serial: "C025002B"
+    Asset Tag: "Unknown"
+    Part Number: "EBJ17RG4EAFA-DJ-F"
+    Memory Array: #9
+    Form Factor: 0x09 (DIMM)
+    Type: 0x01 (Other)
+    Type Detail: 0x0004 (Unknown)
+    Data Width: 64 bits (+8 ECC bits)
+    Size: 16 GB
+    Speed: 800 MHz
+  Type 6 Record: #30
+    Data 00: 06 0c 1e 00 01 00 01 00 01 0e 0e 00
+    String 1: "DIMM11"
+  Memory Device: #31
+    Location: "DIMM11"
+    Bank: "BANK11"
+    Manufacturer: "Elpida"
+    Serial: "F26002B"
+    Asset Tag: "Unknown"
+    Part Number: "EBJ17RG4EAFA-DJ-F"
+    Memory Array: #9
+    Form Factor: 0x09 (DIMM)
+    Type: 0x01 (Other)
+    Type Detail: 0x0004 (Unknown)
+    Data Width: 64 bits (+8 ECC bits)
+    Size: 16 GB
+    Speed: 800 MHz
+  Type 6 Record: #32
+    Data 00: 06 0c 20 00 01 00 01 00 01 0e 0e 00
+    String 1: "DIMM12"
+  Memory Device: #33
+    Location: "DIMM12"
+    Bank: "BANK12"
+    Manufacturer: "Elpida"
+    Serial: "3227002B"
+    Asset Tag: "Unknown"
+    Part Number: "EBJ17RG4EAFA-DJ-F"
+    Memory Array: #9
+    Form Factor: 0x09 (DIMM)
+    Type: 0x01 (Other)
+    Type Detail: 0x0004 (Unknown)
+    Data Width: 64 bits (+8 ECC bits)
+    Size: 16 GB
+    Speed: 800 MHz
+  Type 6 Record: #34
+    Data 00: 06 0c 22 00 01 00 01 00 01 0e 0e 00
+    String 1: "DIMM13"
+  Memory Device: #35
+    Location: "DIMM13"
+    Bank: "BANK13"
+    Manufacturer: "Elpida"
+    Serial: "84F3032B"
+    Asset Tag: "Unknown"
+    Part Number: "EBJ17RG4EAFA-DJ-F"
+    Memory Array: #9
+    Form Factor: 0x09 (DIMM)
+    Type: 0x01 (Other)
+    Type Detail: 0x0004 (Unknown)
+    Data Width: 64 bits (+8 ECC bits)
+    Size: 16 GB
+    Speed: 800 MHz
+  Type 6 Record: #36
+    Data 00: 06 0c 24 00 01 00 01 00 01 0e 0e 00
+    String 1: "DIMM14"
+  Memory Device: #37
+    Location: "DIMM14"
+    Bank: "BANK14"
+    Manufacturer: "Elpida"
+    Serial: "E1F2032B"
+    Asset Tag: "Unknown"
+    Part Number: "EBJ17RG4EAFA-DJ-F"
+    Memory Array: #9
+    Form Factor: 0x09 (DIMM)
+    Type: 0x01 (Other)
+    Type Detail: 0x0004 (Unknown)
+    Data Width: 64 bits (+8 ECC bits)
+    Size: 16 GB
+    Speed: 800 MHz
+  Type 6 Record: #38
+    Data 00: 06 0c 26 00 01 00 01 00 01 0e 0e 00
+    String 1: "DIMM15"
+  Memory Device: #39
+    Location: "DIMM15"
+    Bank: "BANK15"
+    Manufacturer: "Elpida"
+    Serial: "E9F3032B"
+    Asset Tag: "Unknown"
+    Part Number: "EBJ17RG4EAFA-DJ-F"
+    Memory Array: #9
+    Form Factor: 0x09 (DIMM)
+    Type: 0x01 (Other)
+    Type Detail: 0x0004 (Unknown)
+    Data Width: 64 bits (+8 ECC bits)
+    Size: 16 GB
+    Speed: 800 MHz
+  Type 6 Record: #40
+    Data 00: 06 0c 28 00 01 00 01 00 01 0e 0e 00
+    String 1: "DIMM16"
+  Memory Device: #41
+    Location: "DIMM16"
+    Bank: "BANK16"
+    Manufacturer: "Elpida"
+    Serial: "C625002B"
+    Asset Tag: "Unknown"
+    Part Number: "EBJ17RG4EAFA-DJ-F"
+    Memory Array: #9
+    Form Factor: 0x09 (DIMM)
+    Type: 0x01 (Other)
+    Type Detail: 0x0004 (Unknown)
+    Data Width: 64 bits (+8 ECC bits)
+    Size: 16 GB
+    Speed: 800 MHz
+  Type 6 Record: #42
+    Data 00: 06 0c 2a 00 01 00 01 00 01 0e 0e 00
+    String 1: "DIMM17"
+  Memory Device: #43
+    Location: "DIMM17"
+    Bank: "BANK17"
+    Manufacturer: "Elpida"
+    Serial: "F226002B"
+    Asset Tag: "Unknown"
+    Part Number: "EBJ17RG4EAFA-DJ-F"
+    Memory Array: #9
+    Form Factor: 0x09 (DIMM)
+    Type: 0x01 (Other)
+    Type Detail: 0x0004 (Unknown)
+    Data Width: 64 bits (+8 ECC bits)
+    Size: 16 GB
+    Speed: 800 MHz
+  Type 6 Record: #44
+    Data 00: 06 0c 2c 00 01 00 01 00 01 0e 0e 00
+    String 1: "DIMM18"
+  Memory Device: #45
+    Location: "DIMM18"
+    Bank: "BANK18"
+    Manufacturer: "Elpida"
+    Serial: "FF25002B"
+    Asset Tag: "Unknown"
+    Part Number: "EBJ17RG4EAFA-DJ-F"
+    Memory Array: #9
+    Form Factor: 0x09 (DIMM)
+    Type: 0x01 (Other)
+    Type Detail: 0x0004 (Unknown)
+    Data Width: 64 bits (+8 ECC bits)
+    Size: 16 GB
+    Speed: 800 MHz
+  Memory Array Mapping: #46
+    Memory Array: #9
+    Partition Width: 18
+    Start Address: 0x0000000000000000
+    End Address: 0x0000004800000000
+  BIOS Info: #47
+    Size: 0x00018
+    Vendor: "IBM Corp."
+    Version: "-[D6E162AUS-1.20]-"
+    Date: "05/07/2014"
+    Start Address: 0xe0000
+    ROM Size: 4096 kB
+    Features: 0x0633000000005e099a80
+      PCI supported
+      PnP supported
+      BIOS flashable
+      BIOS shadowing allowed
+      CD boot supported
+      Selectable boot supported
+      EDD spec supported
+      2.88MB Floppy supported
+      Print Screen supported
+      8042 Keyboard Services supported
+      Serial Services supported
+      CGA/Mono Video supported
+      ACPI supported
+      USB Legacy supported
+      LS-120 boot supported
+      ATAPI ZIP boot supported
+      F12 Network boot supported
+      Enable targeted content distribution
+    System BIOS release: 0.0
+    Embedded controller firmware release: 0.0
+  System Info: #48
+    Manufacturer: "IBM"
+    Product: "System x3550 M3 -[7944J4M]-"
+    Version: "00"
+    Serial: "99H0206"
+    UUID: f846e8fcf35ccb83e111262da2995641
+    Wake-up: 0x0a (Other)
+  Board Info: #49
+    Manufacturer: "IBM"
+    Product: "94Y7614"
+    Version: "(none)"
+    Serial: "1C90A0"
+    Asset Tag: "(none)"
+    Type: 0x0a (Motherboard)
+    Features: 0x09
+      Hosting Board
+      Replaceable
+    Location: "Rear Bottom"
+    Chassis: #50
+  Chassis Info: #50
+    Manufacturer: "IBM"
+    Version: "none"
+    Serial: "none"
+    Asset Tag: "none"
+    Type: 0x17 (Rack Mount Chassis)
+    Bootup State: 0x03 (Safe)
+    Power Supply State: 0x03 (Safe)
+    Thermal State: 0x01 (Other)
+    Security Status: 0x01 (Other)
+  Port Connector: #51
+    Type: 0x1f (Network Port)
+    Internal Designator: "Uxxx"
+    External Designator: "Ethernet 1"
+    External Connector: 0x0b (RJ-45)
+  Port Connector: #52
+    Type: 0x1f (Network Port)
+    Internal Designator: "Uxxx"
+    External Designator: "Ethernet 2"
+    External Connector: 0x0b (RJ-45)
+  Port Connector: #53
+    Type: 0x1f (Network Port)
+    Internal Designator: "Uxxx"
+    External Designator: "Ethernet 3"
+    External Connector: 0x0b (RJ-45)
+  Port Connector: #54
+    Type: 0x1f (Network Port)
+    Internal Designator: "Uxxx"
+    External Designator: "Ethernet 4"
+    External Connector: 0x0b (RJ-45)
+  Port Connector: #55
+    Type: 0x21 (SAS)
+    Internal Designator: "J90"
+    Internal Connector: 0x22 (Other)
+    External Designator: "SAS"
+  Port Connector: #56
+    Type: 0x21 (SAS)
+    Internal Designator: "J123"
+    Internal Connector: 0x22 (Other)
+    External Designator: "SATA"
+  Port Connector: #57
+    Type: 0x09 (Serial Port 16550A Compatible)
+    Internal Designator: "none"
+    Internal Connector: 0xff (Other)
+    External Designator: "COM 1 MM"
+    External Connector: 0x08 (DB-9 pin male)
+  Port Connector: #58
+    Type: 0x1c (Video Port)
+    Internal Designator: "Uxxx"
+    External Designator: "Video 1"
+    External Connector: 0x07 (DB-15 pin female)
+  Port Connector: #59
+    Type: 0x1c (Video Port)
+    Internal Designator: "Uxxx"
+    External Designator: "Video 2"
+    External Connector: 0x07 (DB-15 pin female)
+  Port Connector: #60
+    Type: 0x10 (USB)
+    Internal Designator: "none"
+    External Designator: "USB 1"
+    External Connector: 0x12 (Access Bus [USB])
+  Port Connector: #61
+    Type: 0x10 (USB)
+    Internal Designator: "none"
+    External Designator: "USB 2"
+    External Connector: 0x12 (Access Bus [USB])
+  Port Connector: #62
+    Type: 0x10 (USB)
+    Internal Designator: "none"
+    External Designator: "USB 3"
+    External Connector: 0x12 (Access Bus [USB])
+  Port Connector: #63
+    Type: 0x10 (USB)
+    Internal Designator: "none"
+    External Designator: "USB 4"
+    External Connector: 0x12 (Access Bus [USB])
+  System Slot: #64
+    Designation: "System Slot 1"
+    Type: 0xa5 (PCI Express)
+    Bus Width: 0x0d (x16)
+    Status: 0x04 (In Use)
+    Length: 0x03 (Short)
+    Slot ID: 1
+    Characteristics: 0x0004 (3.3 V)
+  System Slot: #65
+    Designation: "System Slot 2"
+    Type: 0xa5 (PCI Express)
+    Bus Width: 0x0d (x16)
+    Status: 0x04 (In Use)
+    Length: 0x03 (Short)
+    Slot ID: 3
+    Characteristics: 0x0004 (3.3 V)
+  OEM Strings: #66
+    IBM SystemX
+  On Board Devices: #67
+    Video: "Matrox G200eV"
+  On Board Devices: #68
+    Ethernet: "Ethernet 1 BroadCom 5709C Ethernet Controller"
+  On Board Devices: #69
+    Ethernet: "Ethernet 2 BroadCom 5709C Ethernet Controller"
+  On Board Devices: #70
+    Ethernet: "Ethernet 3 BroadCom 5709C Ethernet Controller"
+  On Board Devices: #71
+    Ethernet: "Ethernet 4 BroadCom 5709C Ethernet Controller"
+  OEM Strings: #72
+    IBM SystemX
+  OEM Strings: #73
+    $SI Integrated Management Module 1.53 -[YUOOH4B-1.53]-
+  OEM Strings: #74
+    $BD
+  OEM Strings: #75
+    $CR CRTM Code 1.20 -[D6CP62AUS]-
+  OEM Strings: #76
+    $DS Preboot Diagnostics (DSA) 9.53 -[DSYTC5F]-
+  OEM Strings: #77
+    $MV Min UEFI Version -[D6E145CUS-1.06]-
+  OEM Strings: #78
+    $BP UEFI Primary Version -[D6E162AUS-1.20]-
+  OEM Strings: #79
+    $BB Backup BIOS Version -[D6E154AUS]-
+  OEM Strings: #80
+    $CF Current UEFI Flash Bank - Primary
+  OEM Strings: #81
+    $IS IDEBus Enabled
+  OEM Strings: #82
+    $QP QPI Version -[01.85]-
+  OEM Strings: #83
+    $CS CSM Version -[CSE141AUS]-
+  System Config Options (Jumpers & Switches) #84:
+    SW? TPM Physical Presence Switch, J? TPM Physical Presence Jumper
+  Language Info: #85
+    Languages: English
+    Current: English
+  Type 27 Record: #86
+    Data 00: 1b 0e 56 00 00 00 42 00 00 00 00 00 00 00
+  Type 32 Record: #87
+    Data 00: 20 14 57 00 00 00 00 00 00 00 00 00 00 00 00 00
+    Data 10: 00 00 00 00
+  Type 41 Record: #88
+    Data 00: 29 0b 58 00 01 85 01 00 00 0b 00
+    String 1: "Ethernet 1 BroadCom 5709C Ethernet Controller"
+  Type 41 Record: #89
+    Data 00: 29 0b 59 00 01 85 02 00 00 0b 01
+    String 1: "Ethernet 2 BroadCom 5709C Ethernet Controller"
+  Type 41 Record: #90
+    Data 00: 29 0b 5a 00 01 85 03 00 00 10 00
+    String 1: "Ethernet 3 BroadCom 5709C Ethernet Controller"
+  Type 41 Record: #91
+    Data 00: 29 0b 5b 00 01 85 04 00 00 10 01
+    String 1: "Ethernet 4 BroadCom 5709C Ethernet Controller"
+  Type 41 Record: #92
+    Data 00: 29 0b 5c 00 01 8a 01 00 00 01 00
+    String 1: "LSI SAS 1068"
+  Type 41 Record: #93
+    Data 00: 29 0b 5d 00 01 83 01 00 00 07 00
+    String 1: "Matrox G200eV"
+  OEM Strings: #94
+    $T9 SType:0xA5 SID:0x0001 SegGrp:0x0000 B:0x15 D:0x00 F:0x00
+  OEM Strings: #95
+    $T9 SType:0xA5 SID:0x0003 SegGrp:0x0000 B:0x1A D:0x00 F:0x00

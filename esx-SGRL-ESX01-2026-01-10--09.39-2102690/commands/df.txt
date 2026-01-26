@@ -1,0 +1,6 @@
+Filesystem         Bytes         Used     Available Use% Mounted on
+VMFS-6     5385888989184 870227902464 4515661086720  16% /vmfs/volumes/datastore1
+vfat           261853184    164687872      97165312  63% /vmfs/volumes/66630e7d-33d835cd-586e-86703aad3a4f
+vfat          4293591040     26935296    4266655744   1% /vmfs/volumes/3a4fd8cf-6ef45abc-002e-5cf3fce846f8
+vfat           299712512    207478784      92233728  69% /vmfs/volumes/3a4fd8c6-3cd0683c-d0c1-5cf3fce846f8
+vfat           261853184         4096     261849088   0% /vmfs/volumes/5766f37e-4592eb56-f9ee-6436272ca19f

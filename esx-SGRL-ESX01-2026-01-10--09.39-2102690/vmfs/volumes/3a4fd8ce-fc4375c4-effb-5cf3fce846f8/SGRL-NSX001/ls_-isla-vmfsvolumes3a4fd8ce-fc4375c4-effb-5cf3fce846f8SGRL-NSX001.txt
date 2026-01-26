@@ -1,0 +1,13 @@
+total 20182208
+4194884    128 drwxr-xr-x    1 root     root         77824 Nov 15 10:45 .
+      4   1024 drwxr-xr-t    1 root     root         86016 Jan 10 09:35 ..
+138415876 17612800 -rw-------    1 root     root     214748364800 Nov 15 10:45 SGRL-NSX001-flat.vmdk
+180358916     64 -rw-------    1 root     root          8684 Nov 15 02:30 SGRL-NSX001.nvram
+142610180      0 -rw-------    1 root     root           533 Nov 15 06:28 SGRL-NSX001.vmdk
+155193092      0 -rw-r--r--    1 root     root             0 Nov 15 01:58 SGRL-NSX001.vmsd
+134221572      0 -rwxr-xr-x    1 root     root          3535 Nov 15 10:45 SGRL-NSX001.vmx
+146804484 2565120 -rw-------    1 root     root     107374182400 Nov 15 10:45 SGRL-NSX001_1-flat.vmdk
+150998788      0 -rw-------    1 root     root           535 Nov 15 06:28 SGRL-NSX001_1.vmdk
+171970308   1024 -rw-r--r--    1 root     root        318780 Nov 15 02:37 vmware-1.log
+197136132   1024 -rw-r--r--    1 root     root        246106 Nov 15 02:56 vmware-2.log
+213913348   1024 -rw-r--r--    1 root     root        248228 Nov 15 10:45 vmware.log

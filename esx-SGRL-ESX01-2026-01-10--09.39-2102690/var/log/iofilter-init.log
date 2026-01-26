@@ -1,0 +1,12 @@
+2026-01-10T07:55:48Z iofilterd_spm: Starting ...
+2026-01-10T07:55:48Z iofilterd_spm: +/usr/lib/vmware/iofilter/bin/iofilterd --filter=spm --rp-init-only
+2026-01-10T07:55:48Z iofilterd_spm: +/etc/init.d/iofiltervpd start
+nackiofiltervpd started
+2026-01-10T07:55:51Z iofilterd_spm: +/usr/lib/vmware/iofilter/bin/iofvp-ctrl-app -a/usr/lib/vmware/vmiof/disk/spm-config.xml -vVMW_spm_1.0.0
+2026-01-10T07:55:51Z iofilterd_spm: ... Start is complete
+2026-01-10T07:55:51Z iofilterd_vmwarevmcrypt: Starting ...
+2026-01-10T07:55:51Z iofilterd_vmwarevmcrypt: +/usr/lib/vmware/iofilter/bin/iofilterd --filter=vmwarevmcrypt --rp-init-only
+2026-01-10T07:55:51Z iofilterd_vmwarevmcrypt: +/etc/init.d/iofiltervpd start
+iofiltervpd is running.
+2026-01-10T07:55:51Z iofilterd_vmwarevmcrypt: +/usr/lib/vmware/iofilter/bin/iofvp-ctrl-app -a/usr/lib/vmware/vmiof/disk/vmwarevmcrypt-config.xml -vVMW_vmwarevmcrypt_1.0.0
+2026-01-10T07:55:51Z iofilterd_vmwarevmcrypt: ... Start is complete

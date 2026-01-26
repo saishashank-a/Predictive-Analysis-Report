@@ -1,0 +1,12 @@
+# VMware software license
+StartFields = "Cpt, ProductID, LicenseVersion, LicenseType, LicenseEdition, Option, Epoch"
+Cpt = "COPYRIGHT (c) VMware, Inc."
+ProductID = "VMware ESX Server"
+LicenseVersion = "6.0"
+LicenseType = "Site"
+Epoch = "2013-6-1"
+LicenseEdition = "esx.desktop.vm"
+Option = "7"
+Data = "FileVersion=6.7.2.1;capacityType=vm;enable=vsmp:0,h264remote,esxHost,vimapi,contentlib,vstorage,vmotion,xswitchvmotion,das,dr,endpoint,replication,vshield,hotplug,svmotion,smartcard,ft:8,vvolumes,storageawarenessapi,spbm,vaai,drs,serialuri:2,mpio,bigdataex,rem,dvs,hostprofile,autodeploy,sriov,sioshares,dpvmotion,storagedrs,metrovmotion,viewaccel,appha,vflash,xvcvmotion,vgpu,proactiveha,vmcrypt,encryptedvmotion,predictivedrs,pmem;se=1;ne=4;desc=VMware vSphere 6 Desktop Host"
+DataHash = "cf9fa5db-dfa1478b-78b4f5d4-9a23c609-96396e76"
+Hash = "5e288f9a-bc70853d-fd950d03-79a34e7c-5adb1b14"

@@ -1,0 +1,9 @@
+Bus 004 Device 002: ID 04b3:4010 IBM Corp. 
+Bus 007 Device 002: ID 0e39:f101 Smart Modular Technologies, Inc. 
+Bus 007 Device 001: ID 0e0f:8002 VMware, Inc. Root Hub
+Bus 006 Device 001: ID 0e0f:8001 VMware, Inc. Root Hub
+Bus 005 Device 001: ID 0e0f:8001 VMware, Inc. Root Hub
+Bus 004 Device 001: ID 0e0f:8001 VMware, Inc. Root Hub
+Bus 003 Device 001: ID 0e0f:8002 VMware, Inc. Root Hub
+Bus 002 Device 001: ID 0e0f:8001 VMware, Inc. Root Hub
+Bus 001 Device 001: ID 0e0f:8001 VMware, Inc. Root Hub

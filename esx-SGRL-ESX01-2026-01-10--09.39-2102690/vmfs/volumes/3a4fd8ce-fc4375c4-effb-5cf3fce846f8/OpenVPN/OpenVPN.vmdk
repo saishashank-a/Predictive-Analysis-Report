@@ -1,0 +1,24 @@
+# Disk DescriptorFile
+version=1
+encoding="UTF-8"
+CID=dac87d08
+parentCID=ffffffff
+createType="vmfs"
+
+# Extent description
+RW 314572800 VMFS "OpenVPN-flat.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.deletable = "true"
+ddb.geometry.cylinders = "19581"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "bdda9304b44e76dc58c007dddac87d08"
+ddb.thinProvisioned = "1"
+ddb.toolsInstallType = "4"
+ddb.toolsVersion = "12448"
+ddb.uuid = "60 00 C2 92 4d 2b 37 99-e0 32 2e 4b 62 c9 5b 57"
+ddb.virtualHWVersion = "14"

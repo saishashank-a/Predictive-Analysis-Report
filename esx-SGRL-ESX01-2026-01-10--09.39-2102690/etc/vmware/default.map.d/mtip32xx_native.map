@@ -1,0 +1,5 @@
+regtype=native,bus=pci,id=13445150..............,driver=mtip32xx_native
+regtype=native,bus=pci,id=13445151..............,driver=mtip32xx_native
+regtype=native,bus=pci,id=13445152..............,driver=mtip32xx_native
+regtype=native,bus=pci,id=13445161..............,driver=mtip32xx_native
+regtype=native,bus=pci,id=13445162..............,driver=mtip32xx_native

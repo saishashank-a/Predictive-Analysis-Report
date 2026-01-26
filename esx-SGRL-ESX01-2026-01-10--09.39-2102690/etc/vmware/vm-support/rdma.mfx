@@ -1,0 +1,7 @@
+% Manifest name: RDMA
+% Manifest group: System
+% Manifest default: Enabled
+% Manifest tag: rdma
+
+# Get rdma device information
+run IGNORE_ERROR /usr/lib/vmware/vm-support/bin/rdmainfo.sh

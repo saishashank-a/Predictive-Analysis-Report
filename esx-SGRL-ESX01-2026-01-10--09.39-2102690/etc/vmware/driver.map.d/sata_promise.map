@@ -1,0 +1,17 @@
+regtype=linux,bus=pci,id=105a:3318 0000:0000,driver=sata_promise,class=storage
+regtype=linux,bus=pci,id=105a:3319 0000:0000,driver=sata_promise,class=storage
+regtype=linux,bus=pci,id=105a:3371 0000:0000,driver=sata_promise,class=storage
+regtype=linux,bus=pci,id=105a:3373 0000:0000,driver=sata_promise,class=storage
+regtype=linux,bus=pci,id=105a:3375 0000:0000,driver=sata_promise,class=storage
+regtype=linux,bus=pci,id=105a:3376 0000:0000,driver=sata_promise,class=storage
+regtype=linux,bus=pci,id=105a:3515 0000:0000,driver=sata_promise,class=storage
+regtype=linux,bus=pci,id=105a:3519 0000:0000,driver=sata_promise,class=storage
+regtype=linux,bus=pci,id=105a:3570 0000:0000,driver=sata_promise,class=storage
+regtype=linux,bus=pci,id=105a:3571 0000:0000,driver=sata_promise,class=storage
+regtype=linux,bus=pci,id=105a:3574 0000:0000,driver=sata_promise,class=storage
+regtype=linux,bus=pci,id=105a:3577 0000:0000,driver=sata_promise,class=storage
+regtype=linux,bus=pci,id=105a:3d17 0000:0000,driver=sata_promise,class=storage
+regtype=linux,bus=pci,id=105a:3d18 0000:0000,driver=sata_promise,class=storage
+regtype=linux,bus=pci,id=105a:3d73 0000:0000,driver=sata_promise,class=storage
+regtype=linux,bus=pci,id=105a:3d75 0000:0000,driver=sata_promise,class=storage
+regtype=linux,bus=pci,id=105a:6629 0000:0000,driver=sata_promise,class=storage

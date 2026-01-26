@@ -1,0 +1,8 @@
+% Manifest name: Suspend_VM
+% Manifest group: HungVM
+% Manifest default: Disabled
+% Manifest tag: vm,logs,sensitive
+% Manifest vmonly: True
+# action Options file/command
+
+vmcmd EXTENSION=tgz,IGNORE_ERROR /usr/lib/vmware/vm-support/bin/debug-hung-vm "{VMCFG}" suspend

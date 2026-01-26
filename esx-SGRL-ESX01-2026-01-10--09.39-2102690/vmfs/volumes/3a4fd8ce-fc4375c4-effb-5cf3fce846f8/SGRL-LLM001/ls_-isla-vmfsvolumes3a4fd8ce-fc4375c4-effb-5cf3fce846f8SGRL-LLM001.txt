@@ -1,0 +1,13 @@
+total 34983104
+83887044    128 drwxr-xr-x    1 root     root         77824 Jan 10 09:35 .
+      4   1024 drwxr-xr-t    1 root     root         86016 Jan 10 09:35 ..
+    772      0 -rw-r--r--    1 root     root           415 Jan 10 08:12 SGRL-LLM001-6e98a53f.hlog
+4195076 34979840 -rw-------    1 root     root     161061273600 Jan 10 09:35 SGRL-LLM001-flat.vmdk
+12583684   1024 -rw-------    1 root     root        270840 Jan 10 09:13 SGRL-LLM001.nvram
+8389380      0 -rw-------    1 root     root           556 Jan 10 09:12 SGRL-LLM001.vmdk
+20972292      0 -rw-r--r--    1 root     root             0 Jan 10 08:12 SGRL-LLM001.vmsd
+16777988     64 -rwxr-xr-x    1 root     root          3834 Jan 10 09:35 SGRL-LLM001.vmx
+46138116      0 -rw-------    1 root     root            47 Jan 10 08:12 SGRL-LLM001.vmxf
+50332420      0 -rw-------    1 root     root     429496729600 Jan 10 08:30 SGRL-LLM001_1-flat.vmdk
+54526724      0 -rw-------    1 root     root           481 Jan 10 08:30 SGRL-LLM001_1.vmdk
+37749508   1024 -rw-r--r--    1 root     root        344278 Jan 10 09:35 vmware.log

@@ -1,0 +1,19 @@
+Using interface vmk0 ...
+Time         0.042 0.013 0.011 ms
+Location:    ESXi-Firewall
+Time         0.047 0.015 0.013 ms
+Location:    vSwitch0: port 0x2000004
+Time         0.057 0.018 0.016 ms
+Location:    UplinkGenericOffload@vmkernel#n
+Time         0.058 0.019 0.016 ms
+Location:    UplinkTSO6WithConstraints@vmker
+Time         0.059 0.019 0.017 ms
+Location:    UplinkTSOWithConstraints@vmkern
+Time         0.060 0.019 0.017 ms
+Location:    UplinkTSO6ExtHdrs@vmkernel#nove
+Time         0.061 0.020 0.018 ms
+Location:    UplinkCSum6ExtHdrs@vmkernel#nov
+Time         0.062 0.020 0.018 ms
+Location:    vmnic0
+Endpoint:       192.168.1.254
+Roundtrip Time: 0.597 0.449 0.416 ms

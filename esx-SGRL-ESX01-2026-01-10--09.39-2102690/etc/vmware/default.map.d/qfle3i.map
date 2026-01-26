@@ -1,0 +1,1 @@
+regtype=native,bus=logical,id=com.qlogic.iscsiDev,driver=qfle3i

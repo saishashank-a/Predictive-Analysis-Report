@@ -1,0 +1,7 @@
+% Manifest name: test-esx-logs
+% Manifest group: Testing
+% Manifest default: Disabled
+% Manifest tag: test
+# action Options file/command
+
+copy RECURSE /vmfs/volumes/*/test-esx*

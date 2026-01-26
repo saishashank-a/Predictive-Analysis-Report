@@ -1,0 +1,10 @@
+% Manifest name: System
+% Manifest group: Logs
+% Manifest default: Enabled
+% Manifest tag: base
+# action Options file/command
+
+# Report the state of the audit log
+
+run RELOCATE=/commands/auditLogReader.txt /usr/lib/vmware/vm-support/bin/report-audit-log.sh
+

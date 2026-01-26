@@ -1,0 +1,16 @@
+#
+# This file is mechanically generated.  Any changes you make
+# manually will be lost at the next build.
+#
+# Please edit <driver>_devices.py file for permanent changes.
+#
+# Vendors, devices and subsystems.
+#
+# Syntax (initial indentation must be done with TAB characters):
+#
+# vendor  vendor_name
+#       device  device_name                            <-- single TAB
+#               subvendor subdevice  subsystem_name    <-- two TABs
+
+15ad  VMware Inc.
+	07b0  vmxnet3 Virtual Ethernet Controller

@@ -1,0 +1,31 @@
+% Manifest name: base
+% Manifest group: FileSystem
+% Manifest default: Enabled
+% Manifest tag: filesystem
+# action Options file/command
+
+run     TIMEOUT=30                      df
+run     -                               ls -isla /
+run     -                               ls -islR /dev
+run     TIMEOUT=30                      ls -isl /vmfs/volumes
+run     SERIALIZED,TIMEOUT=10,IGNORE_ERROR         vmkvsitools lsof
+run     DUMP_JSON,IGNORE_ERROR          /usr/sbin/localcli system visorfs get
+run     DUMP_JSON,IGNORE_ERROR          /usr/sbin/localcli system visorfs ramdisk list
+run     DUMP_JSON,IGNORE_ERROR          /usr/sbin/localcli system visorfs tardisk list
+run     TIMEOUT=10,IGNORE_ERROR         /bin/vdu -a /
+run     TIMEOUT=10,DUMP_JSON            /usr/sbin/localcli storage filesystem list -i
+run     TIMEOUT=10,DUMP_JSON            /usr/sbin/localcli storage vmfs snapshot list
+run     TIMEOUT=10,DUMP_JSON            /usr/sbin/localcli storage vmfs extent list
+run     TIMEOUT=10,DUMP_JSON            /usr/sbin/localcli storage vmfs lockmode list -i
+vmfscmd TIMEOUT=10,IGNORE_ERROR         vmkfstools -P -v 10 "/vmfs/volumes/{VMFS}"
+vmcmd   TIMEOUT=10                      /usr/lib/vmware/vm-support/bin/dump-vmdk-rdm-info.sh "{VMCFG}"
+run     TIMEOUT=10,IGNORE_ERROR         vmkfstools -P -v 10 /bootbank
+run     TIMEOUT=10,IGNORE_ERROR         vmkfstools -P -v 10 /altbootbank
+run     TIMEOUT=10,IGNORE_ERROR         vmkfstools -P -v 10 /scratch
+run     TIMEOUT=30,IGNORE_ERROR         vmkfstools -P -v 10 /productLocker
+
+# Force vmfstraced to flush traces to disk, and copy them.
+run RELOCATE=/var/log/vmfsGlobalTraces.tar,IGNORE_ERROR /usr/lib/vmware/vm-support/bin/dump-vmfs-traces.sh
+
+# Force vvoltraced to flush traces to disk, and copy them.
+run RELOCATE=/var/log/vvol-traces.tar,IGNORE_ERROR,IGNORE_MISSING /usr/lib/vmware/vm-support/bin/dump-vvol-traces.sh

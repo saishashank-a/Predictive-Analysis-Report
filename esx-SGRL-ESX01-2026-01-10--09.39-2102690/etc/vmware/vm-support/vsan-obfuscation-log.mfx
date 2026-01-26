@@ -1,0 +1,21 @@
+% Manifest name: VSANObfuscateLogs
+% Manifest group: Storage
+% Manifest default: Disabled
+% Manifest tag: storage,vsan,vsanobfuscatedlogs
+# action Options file/command
+# Get obfuscated log according to predifined json, then remove the json file.
+#
+# vsanmgmt
+run TIMEOUT=30,IGNORE_ERROR python /usr/lib/vmware/vsan/bin/obfuscateLog.pyc /tmp/vsanLogsCatalog.json vsanmgmt /var/run/log/vsanmgmt.log /var/run/log/vsanmgmt.*.gz
+run TIMEOUT=30,IGNORE_ERROR python /usr/lib/vmware/vsan/bin/obfuscateLog.pyc /tmp/vsanLogsCatalog.json vsanmgmt /var/run/log/hostd.log /var/run/log/hostd.*.gz
+run TIMEOUT=30,IGNORE_ERROR python /usr/lib/vmware/vsan/bin/obfuscateLog.pyc /tmp/vsanLogsCatalog.json vsanmgmt /var/run/log/vsansystem.log /var/run/log/vsansystem.*.gz
+run TIMEOUT=30,IGNORE_ERROR python /usr/lib/vmware/vsan/bin/obfuscateLog.pyc /tmp/vsanLogsCatalog.json vsanmgmt /var/run/log/vpxa.log /var/run/log/vpxa.*.gz
+# clomd
+run TIMEOUT=30,IGNORE_ERROR python /usr/lib/vmware/vsan/bin/obfuscateLog.pyc /tmp/vsanLogsCatalog.json clomd /var/run/log/clomd.log /var/run/log/clomd.*.gz
+# vmk
+run TIMEOUT=30,IGNORE_ERROR python /usr/lib/vmware/vsan/bin/obfuscateLog.pyc /tmp/vsanLogsCatalog.json vsanvmk /var/run/log/vmkernel.log /var/run/log/vmkernel.*.gz
+run TIMEOUT=30,IGNORE_ERROR python /usr/lib/vmware/vsan/bin/obfuscateLog.pyc /tmp/vsanLogsCatalog.json vsanvmk /var/run/log/vmkwarning.log /var/run/log/vmkwarning.*.gz
+run TIMEOUT=30,IGNORE_ERROR python /usr/lib/vmware/vsan/bin/obfuscateLog.pyc /tmp/vsanLogsCatalog.json vsanvmk /var/run/log/vmkeventd.log /var/run/log/vmkeventd.*.gz
+run TIMEOUT=30,IGNORE_ERROR python /usr/lib/vmware/vsan/bin/obfuscateLog.pyc /tmp/vsanLogsCatalog.json vsanvmk /var/run/log/vmksummary.log /var/run/log/vmksummary.*.gz
+#vobd
+run TIMEOUT=30,IGNORE_ERROR python /usr/lib/vmware/vsan/bin/obfuscateLog.pyc /tmp/vsanLogsCatalog.json vobd /var/run/log/vobd.log /var/run/log/vobd.*.gz

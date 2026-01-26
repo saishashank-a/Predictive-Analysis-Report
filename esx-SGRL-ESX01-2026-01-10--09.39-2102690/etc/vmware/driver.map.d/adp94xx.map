@@ -1,0 +1,5 @@
+regtype=linux,bus=pci,id=9005:0410 0000:0000,driver=adp94xx,class=storage
+regtype=linux,bus=pci,id=9005:0411 0000:0000,driver=adp94xx,class=storage
+regtype=linux,bus=pci,id=9005:0412 0000:0000,driver=adp94xx,class=storage
+regtype=linux,bus=pci,id=9005:041e 0000:0000,driver=adp94xx,class=storage
+regtype=linux,bus=pci,id=9005:041f 0000:0000,driver=adp94xx,class=storage

@@ -1,0 +1,4 @@
+# vmkfstools -q SGRL-WSU001.vmdk
+SGRL-WSU001.vmdk is not an rdm
+# vmkfstools -q SGRL-WSU001_1.vmdk
+SGRL-WSU001_1.vmdk is not an rdm

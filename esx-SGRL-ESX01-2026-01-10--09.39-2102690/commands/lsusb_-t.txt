@@ -1,0 +1,16 @@
+Bus#  1
+`-Dev#   1 Vendor 0x0e0f Product 0x8001
+Bus#  2
+`-Dev#   1 Vendor 0x0e0f Product 0x8001
+Bus#  3
+`-Dev#   1 Vendor 0x0e0f Product 0x8002
+Bus#  4
+`-Dev#   1 Vendor 0x0e0f Product 0x8001
+  `-Dev#   2 Vendor 0x04b3 Product 0x4010
+Bus#  5
+`-Dev#   1 Vendor 0x0e0f Product 0x8001
+Bus#  6
+`-Dev#   1 Vendor 0x0e0f Product 0x8001
+Bus#  7
+`-Dev#   1 Vendor 0x0e0f Product 0x8002
+  `-Dev#   2 Vendor 0x0e39 Product 0xf101

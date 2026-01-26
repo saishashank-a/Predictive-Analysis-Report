@@ -1,0 +1,9 @@
+% Manifest name: VSANPerfSvc
+% Manifest group: Storage
+% Manifest default: Enabled
+% Manifest tag: storage,vsanperfsvc
+# action Options file/command
+
+
+run TIMEOUT=180,IGNORE_ERROR python /usr/lib/vmware/vsan/perfsvc/vsan-perfsvc-status.pyc svc_info
+

@@ -1,0 +1,11 @@
+IpmiSELConfig:
+   Enabled: true
+   Formatted-Raw: 00 51 00 02 00 00 1b 4f 14 63 cb e8 33 5a 82 
+   Last Added: 2022-09-04T07:09:15
+   Last Cleared: 2017-12-15T15:22:51
+   Maximum Records: 512
+   Overflow: true
+   Raw: 
+   Sel-Clock: N/A
+   Total Records: 512
+   Version: 0x51 (1.5)

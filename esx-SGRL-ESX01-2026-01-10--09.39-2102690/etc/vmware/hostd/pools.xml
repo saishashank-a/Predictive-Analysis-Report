@@ -1,0 +1,122 @@
+<ConfigRoot>
+  <resourcePool id="0000">
+    <name>Resources</name>
+    <objID>ha-root-pool</objID>
+    <path>host/user</path>
+  </resourcePool>
+  <vm id="0007">
+    <lastModified>2001-01-01T00:28:46.626298Z</lastModified>
+    <objID>8</objID>
+    <resourcePool>ha-root-pool</resourcePool>
+  </vm>
+  <vm id="0011">
+    <lastModified>2025-09-01T04:01:52.486631Z</lastModified>
+    <objID>12</objID>
+    <resourcePool>ha-root-pool</resourcePool>
+  </vm>
+  <vm id="0012">
+    <lastModified>2025-11-15T01:35:05.044181Z</lastModified>
+    <objID>13</objID>
+    <resourcePool>ha-root-pool</resourcePool>
+  </vm>
+  <vm id="0015">
+    <lastModified>2025-11-15T08:21:07.362779Z</lastModified>
+    <objID>16</objID>
+    <resourcePool>ha-root-pool</resourcePool>
+  </vm>
+  <vm id="0016">
+    <lastModified>2025-09-13T12:55:26.749054Z</lastModified>
+    <objID>21</objID>
+    <resourcePool>ha-root-pool</resourcePool>
+  </vm>
+  <vm id="0017">
+    <lastModified>2001-01-01T03:34:28.223661Z</lastModified>
+    <objID>22</objID>
+    <resourcePool>ha-root-pool</resourcePool>
+  </vm>
+  <vm id="0020">
+    <lastModified>2001-01-01T14:03:46.956866Z</lastModified>
+    <objID>26</objID>
+    <resourcePool>ha-root-pool</resourcePool>
+  </vm>
+  <vm id="0021">
+    <lastModified>2001-01-01T13:56:53.314316Z</lastModified>
+    <objID>27</objID>
+    <resourcePool>ha-root-pool</resourcePool>
+  </vm>
+  <vm id="0022">
+    <lastModified>2025-09-07T14:25:16.055859Z</lastModified>
+    <objID>28</objID>
+    <resourcePool>ha-root-pool</resourcePool>
+  </vm>
+  <vm id="0027">
+    <lastModified>2025-09-13T15:11:28.138419Z</lastModified>
+    <objID>35</objID>
+    <resourcePool>ha-root-pool</resourcePool>
+  </vm>
+  <vm id="0028">
+    <lastModified>2025-09-12T14:54:32.196714Z</lastModified>
+    <objID>36</objID>
+    <resourcePool>ha-root-pool</resourcePool>
+  </vm>
+  <vm id="0029">
+    <lastModified>2025-09-12T14:58:17.145404Z</lastModified>
+    <objID>37</objID>
+    <resourcePool>ha-root-pool</resourcePool>
+  </vm>
+  <vm id="0030">
+    <lastModified>2025-09-12T14:59:19.747872Z</lastModified>
+    <objID>38</objID>
+    <resourcePool>ha-root-pool</resourcePool>
+  </vm>
+  <vm id="0033">
+    <lastModified>2025-09-12T18:30:10.907115Z</lastModified>
+    <objID>42</objID>
+    <resourcePool>ha-root-pool</resourcePool>
+  </vm>
+  <vm id="0034">
+    <lastModified>2025-09-12T17:40:02.383309Z</lastModified>
+    <objID>43</objID>
+    <resourcePool>ha-root-pool</resourcePool>
+  </vm>
+  <vm id="0035">
+    <lastModified>2025-09-13T08:02:45.007787Z</lastModified>
+    <objID>44</objID>
+    <resourcePool>ha-root-pool</resourcePool>
+  </vm>
+  <vm id="0036">
+    <lastModified>2025-09-13T15:25:57.858556Z</lastModified>
+    <objID>49</objID>
+    <resourcePool>ha-root-pool</resourcePool>
+  </vm>
+  <vm id="0037">
+    <lastModified>2025-11-09T01:15:56.811613Z</lastModified>
+    <objID>50</objID>
+    <resourcePool>ha-root-pool</resourcePool>
+  </vm>
+  <vm id="0040">
+    <lastModified>2025-11-15T02:06:59.008102Z</lastModified>
+    <objID>53</objID>
+    <resourcePool>ha-root-pool</resourcePool>
+  </vm>
+  <vm id="0041">
+    <lastModified>2025-11-15T08:47:54.100153Z</lastModified>
+    <objID>54</objID>
+    <resourcePool>ha-root-pool</resourcePool>
+  </vm>
+  <vm id="0042">
+    <lastModified>2025-12-27T02:38:39.947962Z</lastModified>
+    <objID>55</objID>
+    <resourcePool>ha-root-pool</resourcePool>
+  </vm>
+  <vm id="0043">
+    <lastModified>2026-01-10T08:30:54.188295Z</lastModified>
+    <objID>56</objID>
+    <resourcePool>ha-root-pool</resourcePool>
+  </vm>
+  <vm id="0044">
+    <lastModified>2026-01-10T09:40:02.74983Z</lastModified>
+    <objID>57</objID>
+    <resourcePool>ha-root-pool</resourcePool>
+  </vm>
+</ConfigRoot>

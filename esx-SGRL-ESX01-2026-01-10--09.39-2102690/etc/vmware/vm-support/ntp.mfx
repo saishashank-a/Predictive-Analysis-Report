@@ -1,0 +1,11 @@
+% Manifest name: ntp
+% Manifest group: System
+% Manifest default: Enabled
+% Manifest tag: base
+# action Options file/command
+copy   IGNORE_MISSING                       /etc/ntp.drift
+copy   -                                    /etc/ntp.conf
+run    TIMEOUT=10,IGNORE_ERROR              /bin/ntpq -c version
+run    TIMEOUT=10,IGNORE_ERROR              /bin/ntpq -p
+run    TIMEOUT=10,IGNORE_ERROR              /bin/ntpq -c kerninfo
+run    TIMEOUT=10,IGNORE_ERROR              /bin/ntpq -c readvar

@@ -1,0 +1,14 @@
+% Manifest name: base
+% Manifest group: Hardware
+% Manifest default: Enabled
+% Manifest tag: hardware
+# action Options file/command
+
+run IGNORE_ERROR /sbin/smbiosDump
+run IGNORE_ERROR,RELOCATE=/commands/smbios.bin /bin/cat /dev/char/mem/smbios
+run - /sbin/lspci
+run - /sbin/lspci -v
+run - /bin/irqinfo
+run - /usr/lib/vmware/vmkmgmt_keyval/vmkmgmt_keyval -a
+safecopy RECURSE  /proc/
+run DUMP_JSON,IGNORE_ERROR /usr/sbin/localcli hardware trustedboot get

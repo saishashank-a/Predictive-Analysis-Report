@@ -1,0 +1,5 @@
+regtype=linux,bus=pci,id=1103:0004 0000:0000,driver=pata_hpt3x2n,class=storage
+regtype=linux,bus=pci,id=1103:0005 0000:0000,driver=pata_hpt3x2n,class=storage
+regtype=linux,bus=pci,id=1103:0006 0000:0000,driver=pata_hpt3x2n,class=storage
+regtype=linux,bus=pci,id=1103:0007 0000:0000,driver=pata_hpt3x2n,class=storage
+regtype=linux,bus=pci,id=1103:0009 0000:0000,driver=pata_hpt3x2n,class=storage

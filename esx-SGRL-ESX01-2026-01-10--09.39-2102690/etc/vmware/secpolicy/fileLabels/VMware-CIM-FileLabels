@@ -1,0 +1,3 @@
+# file labels related to cim
+/usr/lib/cim/* pluginObj # label all files in /usr/lib/cim
+/usr/lib/vmware/sfcb/lib/libvmwprovider.so vmwpluginObj # label all files in /usr/lib/vmware/sfcb/lib/

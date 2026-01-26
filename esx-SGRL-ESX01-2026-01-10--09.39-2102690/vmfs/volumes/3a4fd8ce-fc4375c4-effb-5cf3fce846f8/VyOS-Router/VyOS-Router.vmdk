@@ -1,0 +1,21 @@
+# Disk DescriptorFile
+version=1
+encoding="UTF-8"
+CID=f39081e0
+parentCID=ffffffff
+createType="vmfs"
+
+# Extent description
+RW 10485760 VMFS "VyOS-Router-flat.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.geometry.cylinders = "652"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "6bc01554d00e86aca85aa939f39081e0"
+ddb.thinProvisioned = "1"
+ddb.uuid = "60 00 C2 9e 63 7c 34 3b-ad 64 a9 a6 a8 70 e5 ba"
+ddb.virtualHWVersion = "14"

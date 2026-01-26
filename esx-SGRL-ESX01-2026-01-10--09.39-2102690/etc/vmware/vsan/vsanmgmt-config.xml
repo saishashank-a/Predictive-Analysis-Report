@@ -1,0 +1,113 @@
+<!--  vsanmgmt configuration file for ESX/ESXi -->
+
+<config>
+   <!-- the version of this config file -->
+   <version>1.0.0.0</version>
+
+   <!-- working directory  -->
+   <workingDir>/var/log/vmware/</workingDir>
+
+   <!-- location to examine for configuration files that are needed -->
+   <defaultConfigPath> /etc/vmware/ </defaultConfigPath>
+
+   <log>
+      <!-- controls where rolling log files are stored -->
+      <directory>/var/log/vmware/</directory>
+
+      <!-- name of log file -->
+      <name>vsansystem</name>
+
+      <!-- controls whether logger sends its output to console also -->
+      <outputToConsole>false</outputToConsole>
+
+      <!-- If true, log to files on disk -->
+      <outputToFiles>false</outputToFiles>
+
+      <!--
+        default size(in bytes) of each log file before rolling over to next
+        -->
+      <maxFileSize>524288</maxFileSize>
+
+      <!-- default number of log files to rotate amongst -->
+      <maxFileNum>8</maxFileNum>
+
+      <!-- default log level -->
+      <!--
+      <level>verbose</level>
+      -->
+
+      <!-- If true, logs to syslog -->
+      <outputToSyslog>true</outputToSyslog>
+
+      <!-- syslog configuration.  Only used if outputToSyslog is true. -->
+      <syslog>
+         <!-- syslog identifier to use when logging -->
+         <ident>vsansystem</ident>
+
+         <!-- syslog facility to use when logging -->
+         <facility>local4</facility>
+
+      </syslog>
+   </log>
+
+   <vmacore>
+      <alertOnMissingQuickExit>false</alertOnMissingQuickExit>
+      <threadPool>
+         <threadNamePrefix>vsanmgmtd</threadNamePrefix>
+         <maxThreads>20</maxThreads>
+         <ThreadStackSizeKb>256</ThreadStackSizeKb>
+      </threadPool>
+      <sysCommand>
+         <enable>false</enable>
+      </sysCommand>
+      <soap>
+         <sessionTimeout>15</sessionTimeout>
+      </soap>
+   </vmacore>
+
+   <VsanMgmtServer>
+      <serviceConfigPath>/etc/vmware/vsan/VsanMgmtServices.xml</serviceConfigPath>
+      <ssl>
+         <privateKey>/etc/vmware/ssl/rui.key</privateKey>
+         <certificate>/etc/vmware/ssl/rui.crt</certificate>
+      </ssl>
+      <preload-libs>
+         <lib id="1">/lib64/libpollDefault.so</lib>
+         <lib id="2">/lib64/python3.5/lib-dynload/PyVsanMOProvider.so</lib>
+         <lib id="3">/lib64/libvsandp-types.so</lib>
+      </preload-libs>
+      <dynamicTypes>
+         <dynamicType id="1">vim.host.VsanProactiveRebalanceInfo</dynamicType>
+         <dynamicType id="2">vim.host.VsanAsyncSystem</dynamicType>
+         <dynamicType id="3">vim.host.VsanPhoneHomeHostSystem</dynamicType>
+         <dynamicType id="4">vim.CLIInfo</dynamicType>
+      </dynamicTypes>
+   </VsanMgmtServer>
+
+   <level id="PyBackedMO">
+      <logName>PyBackedMO</logName>
+      <logLevel>verbose</logLevel>
+      <prefix>false</prefix>
+   </level>
+
+   <!-- configurations for PyVsanMOProvider -->
+   <PyVsanMOProvider>
+      <opTracer>
+         <timedOutSec>600</timedOutSec>
+         <panicOnTimedOut>true</panicOnTimedOut>
+      </opTracer>
+   </PyVsanMOProvider>
+
+   <!-- The configuration for Python livess checker that will be used only in
+        RTM builds, tracked by PR 1796002.
+        period:   Check period in seconds, 120 by default, 120 for RTM builds.
+        timedOut: Check timed-out in seconds, 20 by default, 60 for RTM builds.
+   -->
+   <!--
+   <PythonLivenessChecker>
+      <period>120</period>
+      <timedOut>60</timedOut>
+   </PythonLivenessChecker>
+   -->
+
+</config>

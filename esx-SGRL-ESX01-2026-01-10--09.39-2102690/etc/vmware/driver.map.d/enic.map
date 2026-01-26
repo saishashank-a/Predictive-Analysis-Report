@@ -1,0 +1,2 @@
+regtype=linux,bus=pci,id=1137:0043 0000:0000,driver=enic,class=network
+regtype=linux,bus=pci,id=1137:0044 0000:0000,driver=enic,class=network

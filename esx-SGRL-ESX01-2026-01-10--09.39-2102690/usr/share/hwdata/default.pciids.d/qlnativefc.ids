@@ -1,0 +1,69 @@
+#
+# This file is mechanically generated.  Any changes you make
+# manually will be lost at the next build.
+#
+# Please edit <driver>_devices.py file for permanent changes.
+#
+# Vendors, devices and subsystems.
+#
+# Syntax (initial indentation must be done with TAB characters):
+#
+# vendor  vendor_name
+#       device  device_name                            <-- single TAB
+#               subvendor subdevice  subsystem_name    <-- two TABs
+
+1077  QLogic Corp
+	2031  2600 Series 16Gb Fibre Channel to PCI Express HBA
+	2061  2700 Series 16/32Gb Fibre Channel to PCIe Adapter
+	2071  2700 Series 16/32Gb Fibre Channel to PCIe Adapter
+		1077 0283  QLE2764 Quad Port 32Gb Fibre Channel to PCIe Adapter
+		1077 0290  QLE2764 Quad Port 32Gb Fibre Channel to PCIe Adapter
+		1077 0295  QLE2684 Quad Port 16Gb Fibre Channel to PCIe Adapter
+		1077 0297  QMH2684 Quad Port 16Gb Fibre Channel to PCIe Adapter
+		1077 029e  QLE2694 Quad Port 16Gb Fibre Channel to PCIe Adapter
+		1077 02a2  QLE2694L Quad Port 16Gb Fibre Channel to PCIe Adapter
+		1077 02a3  QLE2694 Quad Port 16Gb Fibre Channel to PCIe Adapter
+		1077 02a4  QLE2694L Quad Port 16Gb Fibre Channel to PCIe Adapter
+		1077 02a5  QLE2684L Quad Port 16Gb Fibre Channel to PCIe Adapter
+		1077 02ad  QLE2694U Quad Port 32Gb Fibre Channel to PCIe Adapter
+	2081  ISP2814-based 64/32G Fibre Channel to PCIe Controller
+		1077 02e1  QLE2874 Quad Port 64GFC PCIe Gen4 x16 Adapter
+		1077 02e3  QLE2774 Quad Port 32GFC PCIe Gen4 x16 Adapter
+	2089  Marvell QLogic ISP2854 4P 64/32GFC Controller PCIe Gen4, StorCryption
+	2261  2700 Series 16/32Gb Fibre Channel to PCIe Adapter
+		1077 0299  QLE2740 Single Port 32Gb Fibre Channel to PCIe Adapter
+		1077 029a  QLE2742 Dual Port 32Gb Fibre Channel to PCIe Adapter
+		1077 029b  QLE2690 Single Port 16Gb Fibre Channel to PCIe Adapter
+		1077 029c  QLE2692 Dual Port 16Gb Fibre Channel to PCIe Adapter
+		1077 02a7  QLE2690 Single Port 16Gb Fibre Channel to PCIe Adapter
+		1077 02a8  QLE2692 Dual Port 16Gb Fibre Channel to PCIe Adapter
+		1077 02ab  QLE2740 Single Port 32Gb Fibre Channel to PCIe Adapter
+		1077 02ac  QLE2742 Dual Port 32Gb Fibre Channel to PCIe Adapter
+		1077 02ae  QLE2690 Single Port 16Gb Fibre Channel to PCIe Adapter
+		1077 02af  QLE2692 Dual Port 16Gb Fibre Channel to PCIe Adapter
+		1077 02b0  QLE2690 Single Port 16Gb Fibre Channel to PCIe Adapter
+		1077 02b1  QLE2692 Dual Port 16Gb Fibre Channel to PCIe Adapter
+		1077 02b2  QLE2740 Single Port 32Gb Fibre Channel to PCIe Adapter
+		1077 02b3  QLE2742 Dual Port 32Gb Fibre Channel to PCIe Adapter
+		1077 02b4  QML2692 Dual Port 16Gb Fibre Channel to PCIe Adapter
+		1077 02b6  QLE2742 Dual Port 32Gb Fibre Channel to PCIe Adapter
+		1077 02b7  QMP2692 Dual Port 16Gb Fibre Channel to PCIe Adapter
+		1077 02b8  QME2692 Dual Port 16Gb Fibre Channel to PCIe Adapter
+		1077 02b9  QME2742 Dual Port 32Gb Fibre Channel to PCIe Adapter
+		1590 00f9  QLE2690 Single Port 16Gb Fibre Channel to PCIe Adapter
+		1590 00fa  QLE2692 Dual Port 16Gb Fibre Channel to PCIe Adapter
+		1590 0203  SN1600Q Single Port 32Gb Fibre Channel to PCIe Adapter
+		1590 0204  SN1600Q Dual Port 32Gb Fibre Channel to PCIe Adapter
+	2271  2700 Series 16/32Gb Fibre Channel to PCIe Adapter
+	2281  ISP2812-based 64/32G Fibre Channel to PCIe Controller
+		1077 02d3  SN1610Q - 1P Enhanced 32GFC Single Port Fibre Channel Host Bus Adapter
+		1077 02d4  SN1610Q - 2P Enhanced 32GFC Dual Port Fibre Channel Host Bus Adapter
+		1077 02e2  QLE2872 Dual Port 64GFC PCIe Gen4 x8 Adapter
+		1077 02e4  QLE2772 Dual Port 32GFC PCIe Gen4 x8 Adapter
+		1077 02ee  QLE2870 Single Port 64GFC PCIe Gen4 x8 Adapter
+		1077 02f0  QLE2770 Single Port 32GFC PCIe Gen4 x8 Adapter
+	2289  Marvell QLogic ISP2852 2P 64/32GFC Controller PCIe Gen4, StorCryption
+	2532  ISP2532-based 8Gb Fibre Channel to PCI Express HBA
+	8001  ISP81xx-based 10 GbE FCoE to PCI Express CNA
+	8021  8200 Series 10GbE Converged Network Adapter (FCoE)
+	8031  8300 Series 10GbE Converged Network Adapter (FCoE)

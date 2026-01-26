@@ -1,0 +1,58 @@
+
+[
+
+      {
+         "Capabilities": 
+            [
+            ],
+         "Description": "(0000:01:00.0) LSI \/ Symbios Logic MegaRAID SAS GEN2 Controller",
+         "Driver": "megaraid_sas",
+         "HBA Name": "vmhba0",
+         "Link State": "link-n\/a",
+         "UID": "unknown.vmhba0"
+      }, 
+
+      {
+         "Capabilities": 
+            [
+            ],
+         "Description": "(0000:00:1f.2) Intel Corporation ICH10 4 port SATA IDE Controller",
+         "Driver": "vmkata",
+         "HBA Name": "vmhba1",
+         "Link State": "link-n\/a",
+         "UID": "sata.vmhba1"
+      }, 
+
+      {
+         "Capabilities": 
+            [
+            ],
+         "Description": "(0000:00:1f.5) Intel Corporation ICH10 2 port SATA IDE Controller",
+         "Driver": "vmkata",
+         "HBA Name": "vmhba2",
+         "Link State": "link-n\/a",
+         "UID": "sata.vmhba2"
+      }, 
+
+      {
+         "Capabilities": 
+            [
+            ],
+         "Description": "(0000:00:1f.2) Intel Corporation ICH10 4 port SATA IDE Controller",
+         "Driver": "vmkata",
+         "HBA Name": "vmhba64",
+         "Link State": "link-n\/a",
+         "UID": "sata.vmhba64"
+      }, 
+
+      {
+         "Capabilities": 
+            [
+            ],
+         "Description": "(0000:00:1f.5) Intel Corporation ICH10 2 port SATA IDE Controller",
+         "Driver": "vmkata",
+         "HBA Name": "vmhba65",
+         "Link State": "link-n\/a",
+         "UID": "sata.vmhba65"
+      }
+]

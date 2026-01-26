@@ -1,0 +1,209 @@
+<!--  RhttpProxy configuration file for ESX/ESXi -->
+
+<config>
+   <!-- the version of this config file -->
+   <version>6.6.0.0</version>
+
+   <!-- working directory  -->
+   <workingDir>/var/log/vmware/</workingDir>
+
+   <!-- location to examine for configuration files that are needed -->
+   <defaultConfigPath> /etc/vmware/ </defaultConfigPath>
+
+   <log>
+      <!-- controls where rolling log files are stored -->
+      <directory>/var/log/vmware/</directory>
+
+      <!-- name of log file -->
+      <name>rhttpproxy</name>
+
+      <!-- controls whether logger sends its output to console also -->
+      <outputToConsole>false</outputToConsole>
+
+      <!-- If true, log to files on disk -->
+      <outputToFiles>false</outputToFiles>
+
+      <!-- default size(in bytes) of each log file before rolling over to next -->
+      <maxFileSize>524288</maxFileSize>
+
+      <!-- default number of log files to rotate amongst -->
+      <maxFileNum>8</maxFileNum>
+
+      <!-- default log level -->
+      <level>verbose</level>
+
+      <!-- If true, logs to syslog -->
+      <outputToSyslog>true</outputToSyslog>
+
+      <!-- syslog configuration.  Only used if outputToSyslog is true. -->
+      <syslog>
+         <!-- syslog identifier to use when logging -->
+         <ident>Rhttpproxy</ident>
+
+         <!-- syslog facility to use when logging -->
+         <facility>local4</facility>
+
+         <!-- The section header contents are placed in this file at startup.
+              When vmsyslogd rotates the hostd log file, it logs the content of this
+              file to syslog. This is being done so that we don't lose context on log
+              rotations.
+              IMPORTANT: Value needs to match that in onrotate entry in
+              vmsyslog.d/hostd.conf
+         -->
+         <logHeaderFile>/var/run/vmware/rhttpproxyLogHeader.txt</logHeaderFile>
+      </syslog>
+   </log>
+
+   <proxy>
+      <auditLogging>true</auditLogging>
+      <!-- default location of the proxy config file -->
+      <endpoints>/etc/vmware/rhttpproxy/endpoints.conf</endpoints>
+
+      <!-- HTTP port to be used by the reverse proxy -->
+      <httpPort>80</httpPort>
+
+      <!-- HTTPS port to be used by the reverse proxy -->
+      <httpsPort>443</httpsPort>
+
+      <!-- Default max number of connections per endpoint. 0 is unlimited.
+           If maxConnections is not unlimited and defaultMaxConnectionsPerEndpoint
+           is not set, then defaultMaxConnectionsPerEndpoint will be 80% of
+           maxConnections. -->
+      <!-- <defaultMaxConnectionsPerEndpoint>0</defaultMaxConnectionsPerEndpoint> -->
+
+      <!-- Controls the percentage (default 80%) that
+           defaultMaxConnectionsPerEndpoint will be from maxConnections. -->
+      <!-- <connectionsPerEndpointPercentage>80</connectionsPerEndpointPercentage> -->
+
+      <!-- Max number of connections per each endpoint entry.
+           The format is a list of:
+           <endpoint1> = <limit1>, <endpoint2> = <limit2>, ...
+           For example:
+           /endpoint1, /endpoint2=, /endpoint3 = 20, /endpoint4 = 0
+           The limit for endpoint1 and endpoint 2 is defaultMaxConnectionsPerEndpoint.
+           The limit for endpoint3 is 20 connections.
+           endpoint4 is unlimited. -->
+      <!-- <maxConnectionsPerEndpoint>/endpoint = 20</maxConnectionsPerEndpoint> -->
+   </proxy>
+
+   <!-- Remove the following node to disable SSL -->
+   <ssl>
+      <!-- The server private key file -->
+      <privateKey>/etc/vmware/ssl/rui.key</privateKey>
+
+      <!-- The server side certificate file -->
+      <certificate>/etc/vmware/ssl/rui.crt</certificate>
+
+      <!-- Client-side CAFile verify location -->
+      <!-- <keyStoreFile>/etc/vmware/ssl/castore.pem</keyStoreFile> -->
+   </ssl>
+
+   <vmacore>
+      <pluginBaseDir>/lib/</pluginBaseDir>
+      <!-- default thread pool configuration for Posix impl -->
+      <threadPool>
+        <IoMin>2</IoMin>
+        <IoMax>44</IoMax>
+        <TaskMin>2</TaskMin>
+        <TaskMax>18</TaskMax>
+        <!-- Do not set MaxFdsPerThread if hostdMinFds is set above -->
+        <!-- MaxFdsPerThread> 2048 </MaxFdsPerThread -->
+        <NumKeepAlive>8</NumKeepAlive>
+        <ThreadCheckTimeSecs>600</ThreadCheckTimeSecs>
+        <ThreadStackSizeKb>256</ThreadStackSizeKb>
+        <threadNamePrefix>rhttpproxy</threadNamePrefix>
+      </threadPool>
+
+      <rootPasswdExpiration>false</rootPasswdExpiration>
+
+      <ssl>
+          <doVersionCheck> false </doVersionCheck>
+          <!-- allowed SSL/TLS protocol versions -->
+          <!-- <protocols>tls1.2</protocols> -->
+          <libraryPath>/lib/</libraryPath>
+          <fips>true</fips>
+      </ssl>
+
+      <!-- enable plugin loading -->
+      <loadPlugins> false </loadPlugins>
+
+      <!-- enable/disable the dynamic loading of plugins -->
+      <loadDynamicPlugins> false </loadDynamicPlugins>
+
+      <!-- Enable/disable the stack tracer -->
+      <!-- <useStackTracer>false</useStackTracer> -->
+
+      <xml>
+         <doc>
+            <!-- maximum size of each XML message. -->
+            <maxChars>62914560</maxChars>
+            <!-- maximum nodes in of each XML message. -->
+            <maxNodes>524288</maxNodes>
+            <!-- maximum node depth of each XML message. -->
+            <maxDepth>1000</maxDepth>
+         </doc>
+      </xml>
+
+      <http>
+         <!-- Num of max proxy connections -->
+         <!-- PR 604415: Temporary lower the connections limit to 128 -->
+         <maxConnections> 128 </maxConnections>
+      </http>
+      <tcpKeepAlive>
+         <serverSocket>
+            <isEnabled>true</isEnabled>
+            <idleTimeSec>180</idleTimeSec> <!-- 3 min -->
+            <probeTimeSec>180</probeTimeSec> <!-- 3 min -->
+            <probeCount>8</probeCount>
+         </serverSocket>
+         <clientSocket>
+            <isEnabled>true</isEnabled>
+            <idleTimeSec>180</idleTimeSec> <!-- 3 min -->
+            <probeTimeSec>180</probeTimeSec> <!-- 3 min -->
+            <probeCount>8</probeCount>
+         </clientSocket>
+      </tcpKeepAlive>
+   </vmacore>
+   <packetCapture>
+      <!-- <enabled>true</enabled> -->
+
+      <!-- On startup delete all pcap and pcap.gz files that were last modified
+           more than X hours ago and are not part of the current process. -->
+      <!-- <validity>72</validity> -->
+
+      <!-- Controls where rolling pcap files are stored -->
+      <!-- <directory>/var/run/log</directory> -->
+
+      <!-- Size(in bytes) of captured data of each pcap file before rolling over
+           to the next. Storing 25 MB of captured data in a pcap file requires a
+           pcap file of about ~33.75 MB. -->
+      <!-- <maxDataInPcapFile>26214400</maxDataInPcapFile> -->
+
+      <!-- Number of pcap files to rotate amongst -->
+      <!-- <maxPcapFilesCount>2</maxPcapFilesCount> -->
+
+      <!-- The application sorts the interface list by ID.
+           Interfaces with duplicate IDs are ignored.
+           The interface ID and name must match. If they don't, the interface is
+           ignored.
+           The application can capture network traffic on up to 3 interfaces.
+           Interfaces past the third one (sorted alphabetically by ID) are
+           ignored.
+           If "enabled" is set to "true" and no interfaces are specified, then
+           the application will capture network traffic on the "lo0" and "vmk0"
+           interfaces. The "any" interface is not supported on ESX.
+           -->
+      <!--
+      <interface id="lo0">
+         <name>lo0</name>
+         <maxDataInPcapFile>26214400</maxDataInPcapFile>
+         <maxPcapFilesCount>2</maxPcapFilesCount>
+      </interface>
+      <interface id="vmk0">
+         <name>vmk0</name>
+         <maxDataInPcapFile>26214400</maxDataInPcapFile>
+         <maxPcapFilesCount>2</maxPcapFilesCount>
+      </interface>
+      -->
+   </packetCapture>
+</config>

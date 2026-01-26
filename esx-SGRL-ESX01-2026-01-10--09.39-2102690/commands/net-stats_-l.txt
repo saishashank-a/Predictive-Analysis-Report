@@ -1,0 +1,6 @@
+PortNum          Type SubType SwitchName       MACAddress         ClientName
+33554434            4       0 vSwitch0         5c:f3:fc:e8:46:f8  vmnic0
+33554436            3       0 vSwitch0         5c:f3:fc:e8:46:f8  vmk0
+33554437            5       7 vSwitch0         00:0c:29:34:59:ef  VyOS-Router
+33554438            5       9 vSwitch0         00:0c:29:09:c0:d9  SGRL-VCSA01
+33554441            5       9 vSwitch0         00:50:56:87:af:26  SGRL-ADC001

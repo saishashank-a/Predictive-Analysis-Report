@@ -1,0 +1,112 @@
+<ConfigRoot>
+  <ConfigEntry id="0007">
+    <objID>8</objID>
+    <secDomain/>
+    <vmxCfgPath>/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/SGRL-VCSA001.vmx</vmxCfgPath>
+  </ConfigEntry>
+  <ConfigEntry id="0011">
+    <objID>12</objID>
+    <secDomain>9</secDomain>
+    <vmxCfgPath>/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/VyOS-Router/VyOS-Router.vmx</vmxCfgPath>
+  </ConfigEntry>
+  <ConfigEntry id="0012">
+    <objID>13</objID>
+    <secDomain>10</secDomain>
+    <vmxCfgPath>/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01.vmx</vmxCfgPath>
+  </ConfigEntry>
+  <ConfigEntry id="0015">
+    <objID>16</objID>
+    <secDomain/>
+    <vmxCfgPath>/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001/SGRL-ADC001.vmx</vmxCfgPath>
+  </ConfigEntry>
+  <ConfigEntry id="0016">
+    <objID>21</objID>
+    <secDomain/>
+    <vmxCfgPath>/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-JMP001/SGRL-JMP001.vmx</vmxCfgPath>
+  </ConfigEntry>
+  <ConfigEntry id="0017">
+    <objID>22</objID>
+    <secDomain/>
+    <vmxCfgPath>/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-WSU001/SGRL-WSU001.vmx</vmxCfgPath>
+  </ConfigEntry>
+  <ConfigEntry id="0020">
+    <objID>26</objID>
+    <secDomain/>
+    <vmxCfgPath>/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-TOR01/SGRL-TOR01.vmx</vmxCfgPath>
+  </ConfigEntry>
+  <ConfigEntry id="0021">
+    <objID>27</objID>
+    <vmxCfgPath>/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-TOR02/SGRL-TOR02.vmx</vmxCfgPath>
+  </ConfigEntry>
+  <ConfigEntry id="0022">
+    <objID>28</objID>
+    <secDomain/>
+    <vmxCfgPath>/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/OpenVPN/OpenVPN.vmx</vmxCfgPath>
+  </ConfigEntry>
+  <ConfigEntry id="0027">
+    <objID>35</objID>
+    <secDomain/>
+    <vmxCfgPath>/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX001/SGRL-8ESX001.vmx</vmxCfgPath>
+  </ConfigEntry>
+  <ConfigEntry id="0028">
+    <objID>36</objID>
+    <vmxCfgPath>/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX002/SGRL-8ESX002.vmx</vmxCfgPath>
+  </ConfigEntry>
+  <ConfigEntry id="0029">
+    <objID>37</objID>
+    <vmxCfgPath>/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX003/SGRL-8ESX003.vmx</vmxCfgPath>
+  </ConfigEntry>
+  <ConfigEntry id="0030">
+    <objID>38</objID>
+    <vmxCfgPath>/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX004/SGRL-8ESX004.vmx</vmxCfgPath>
+  </ConfigEntry>
+  <ConfigEntry id="0033">
+    <objID>42</objID>
+    <secDomain/>
+    <vmxCfgPath>/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/RHEL10-TMPL/RHEL10-TMPL.vmx</vmxCfgPath>
+  </ConfigEntry>
+  <ConfigEntry id="0034">
+    <objID>43</objID>
+    <secDomain/>
+    <vmxCfgPath>/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-IPAM001/SGRL-IPAM001.vmx</vmxCfgPath>
+  </ConfigEntry>
+  <ConfigEntry id="0035">
+    <objID>44</objID>
+    <secDomain/>
+    <vmxCfgPath>/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/SGRL-VCSA02.vmx</vmxCfgPath>
+  </ConfigEntry>
+  <ConfigEntry id="0036">
+    <objID>49</objID>
+    <secDomain/>
+    <vmxCfgPath>/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/sgrl-lcm01.vmx</vmxCfgPath>
+  </ConfigEntry>
+  <ConfigEntry id="0037">
+    <objID>50</objID>
+    <secDomain/>
+    <vmxCfgPath>/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ANS001/SGRL-ANS001.vmx</vmxCfgPath>
+  </ConfigEntry>
+  <ConfigEntry id="0040">
+    <objID>53</objID>
+    <secDomain/>
+    <vmxCfgPath>/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-NSX001/SGRL-NSX001.vmx</vmxCfgPath>
+  </ConfigEntry>
+  <ConfigEntry id="0041">
+    <objID>54</objID>
+    <secDomain>13</secDomain>
+    <vmxCfgPath>/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001_1/SGRL-ADC001.vmx</vmxCfgPath>
+  </ConfigEntry>
+  <ConfigEntry id="0042">
+    <objID>55</objID>
+    <secDomain/>
+    <vmxCfgPath>/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LNX001/SGRL-LNX001.vmx</vmxCfgPath>
+  </ConfigEntry>
+  <ConfigEntry id="0043">
+    <objID>56</objID>
+    <secDomain/>
+    <vmxCfgPath>/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LLM001/SGRL-LLM001.vmx</vmxCfgPath>
+  </ConfigEntry>
+  <ConfigEntry id="0044">
+    <objID>57</objID>
+    <vmxCfgPath>/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LLM002/SGRL-LLM002.vmx</vmxCfgPath>
+  </ConfigEntry>
+</ConfigRoot>

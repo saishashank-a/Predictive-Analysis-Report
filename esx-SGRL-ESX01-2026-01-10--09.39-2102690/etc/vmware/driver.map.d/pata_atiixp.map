@@ -1,0 +1,2 @@
+regtype=linux,bus=pci,id=1002:439c 0000:0000,driver=pata_atiixp,class=storage
+regtype=linux,bus=pci,id=1022:780c 0000:0000,driver=pata_atiixp,class=storage

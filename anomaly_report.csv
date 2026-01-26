@@ -1,46 +1,51 @@
-timestamp,hostname,component,severity,message,severity_score,msg_vec_0,msg_vec_1,msg_vec_2,msg_vec_3,msg_vec_4,msg_vec_5,msg_vec_6,msg_vec_7,msg_vec_8,msg_vec_9,anomaly_score,is_anomaly
-2026-01-21 02:47:27.520834,esx-01,Rdt,WARNING,Unable to create heap mmInfo,1,0.0,2.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,-0.0017295394441556589,-1
-2026-01-21 02:47:07.520834,esx-01,Rdt,ERROR,Cmd(0x459a80fb0700) 0x1a failed H:0x0 D:0x2 P:0x0,5,2.0,1.0,1.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,-0.020627666953410118,-1
-2026-01-21 02:45:17.520834,esx-01,ScsiDeviceIO,ERROR,Cmd(0x459a80fb0700) 0x1a failed H:0x0 D:0x2 P:0x0,5,2.0,1.0,1.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,-0.020627666953410118,-1
-2026-01-21 02:40:57.520834,esx-01,Hostd,ERROR,Cmd(0x459a80fb0700) 0x1a failed H:0x0 D:0x2 P:0x0,5,2.0,1.0,1.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,-0.020627666953410118,-1
-2026-01-21 02:38:17.520834,esx-01,UserMem,ERROR,Boot Successful,5,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,-0.02332971527897565,-1
-2026-01-21 02:35:27.520834,esx-01,Vpxa,WARNING,Unable to create heap mmInfo,1,0.0,2.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,-0.0017295394441556589,-1
-2026-01-21 02:27:57.520834,esx-01,Vpxa,WARNING,Unable to create heap mmInfo,1,0.0,2.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,-0.0017295394441556589,-1
-2026-01-21 02:23:17.520834,esx-01,Hostd,ERROR,Boot Successful,5,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,-0.02332971527897565,-1
-2026-01-21 02:20:07.520834,esx-01,Hostd,WARNING,Unable to create heap mmInfo,1,0.0,2.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,-0.0017295394441556589,-1
-2026-01-21 02:07:27.520834,esx-01,Rdt,WARNING,Unable to create heap mmInfo,1,0.0,2.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,-0.0017295394441556589,-1
-2026-01-21 02:05:17.520834,esx-01,ScsiDeviceIO,ERROR,Unable to create heap mmInfo,5,0.0,2.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,-0.057303789170818464,-1
-2026-01-21 01:59:17.520834,esx-01,Rdt,ERROR,Unable to create heap mmInfo,5,0.0,2.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,-0.057303789170818464,-1
-2026-01-21 01:57:57.520834,esx-01,Rdt,WARNING,Unable to create heap mmInfo,1,0.0,2.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,-0.0017295394441556589,-1
-2026-01-21 01:57:27.520834,esx-01,UserMem,ERROR,Unable to create heap mmInfo,5,0.0,2.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,-0.057303789170818464,-1
-2026-01-21 01:55:37.520834,esx-01,ScsiDeviceIO,ERROR,Unable to create heap mmInfo,5,0.0,2.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,-0.057303789170818464,-1
-2026-01-21 01:54:47.520834,esx-01,Rdt,ERROR,Cmd(0x459a80fb0700) 0x1a failed H:0x0 D:0x2 P:0x0,5,2.0,1.0,1.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,-0.020627666953410118,-1
-2026-01-21 01:36:27.520834,esx-01,Rdt,ERROR,Cmd(0x459a80fb0700) 0x1a failed H:0x0 D:0x2 P:0x0,5,2.0,1.0,1.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,-0.020627666953410118,-1
-2026-01-21 01:31:47.520834,esx-01,UserMem,ERROR,Cmd(0x459a80fb0700) 0x1a failed H:0x0 D:0x2 P:0x0,5,2.0,1.0,1.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,-0.020627666953410118,-1
-2026-01-21 01:27:37.520834,esx-01,UserMem,ERROR,Boot Successful,5,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,-0.02332971527897565,-1
-2026-01-21 01:25:27.520834,esx-01,ScsiDeviceIO,ERROR,Boot Successful,5,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,-0.02332971527897565,-1
-2026-01-21 01:24:47.520834,esx-01,Vpxa,ERROR,Boot Successful,5,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,-0.02332971527897565,-1
-2026-01-21 01:23:57.520834,esx-01,Hostd,ERROR,Cmd(0x459a80fb0700) 0x1a failed H:0x0 D:0x2 P:0x0,5,2.0,1.0,1.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,-0.020627666953410118,-1
-2026-01-21 01:19:47.520834,esx-01,Vpxa,ERROR,Cmd(0x459a80fb0700) 0x1a failed H:0x0 D:0x2 P:0x0,5,2.0,1.0,1.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,-0.020627666953410118,-1
-2026-01-21 01:19:17.520834,esx-01,UserMem,ERROR,Unable to create heap mmInfo,5,0.0,2.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,-0.057303789170818464,-1
-2026-01-21 01:17:37.520834,esx-01,ScsiDeviceIO,ERROR,Boot Successful,5,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,-0.02332971527897565,-1
-2026-01-21 01:06:37.520834,esx-01,Hostd,ERROR,Boot Successful,5,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,-0.02332971527897565,-1
-2026-01-21 01:04:47.520834,esx-01,UserMem,ERROR,Unable to create heap mmInfo,5,0.0,2.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,-0.057303789170818464,-1
-2026-01-21 00:55:07.520834,esx-01,Hostd,ERROR,Boot Successful,5,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,-0.02332971527897565,-1
-2026-01-21 00:53:57.520834,esx-01,Hostd,ERROR,Unable to create heap mmInfo,5,0.0,2.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,-0.057303789170818464,-1
-2026-01-21 00:49:27.520834,esx-01,UserMem,WARNING,Unable to create heap mmInfo,1,0.0,2.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,-0.0017295394441556589,-1
-2026-01-21 00:48:17.520834,esx-01,ScsiDeviceIO,WARNING,Unable to create heap mmInfo,1,0.0,2.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,-0.0017295394441556589,-1
-2026-01-21 00:47:47.520834,esx-01,Vpxa,ERROR,Unable to create heap mmInfo,5,0.0,2.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,-0.057303789170818464,-1
-2026-01-21 00:47:27.520834,esx-01,Rdt,WARNING,Unable to create heap mmInfo,1,0.0,2.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,-0.0017295394441556589,-1
-2026-01-21 00:46:17.520834,esx-01,Rdt,ERROR,Cmd(0x459a80fb0700) 0x1a failed H:0x0 D:0x2 P:0x0,5,2.0,1.0,1.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,-0.020627666953410118,-1
-2026-01-21 00:44:47.520834,esx-01,Vpxa,WARNING,Unable to create heap mmInfo,1,0.0,2.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,-0.0017295394441556589,-1
-2026-01-21 00:41:37.520834,esx-01,Hostd,ERROR,Boot Successful,5,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,-0.02332971527897565,-1
-2026-01-21 00:35:47.520834,esx-01,Hostd,WARNING,Unable to create heap mmInfo,1,0.0,2.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,-0.0017295394441556589,-1
-2026-01-21 00:21:37.520834,esx-01,ScsiDeviceIO,ERROR,Cmd(0x459a80fb0700) 0x1a failed H:0x0 D:0x2 P:0x0,5,2.0,1.0,1.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,-0.020627666953410118,-1
-2026-01-21 00:21:27.520834,esx-01,ScsiDeviceIO,ERROR,Unable to create heap mmInfo,5,0.0,2.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,-0.057303789170818464,-1
-2026-01-21 00:21:17.520834,esx-01,Rdt,ERROR,Cmd(0x459a80fb0700) 0x1a failed H:0x0 D:0x2 P:0x0,5,2.0,1.0,1.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,-0.020627666953410118,-1
-2026-01-21 00:17:07.520834,esx-01,Hostd,ERROR,Cmd(0x459a80fb0700) 0x1a failed H:0x0 D:0x2 P:0x0,5,2.0,1.0,1.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,-0.020627666953410118,-1
-2026-01-21 00:10:57.520834,esx-01,Rdt,ERROR,Cmd(0x459a80fb0700) 0x1a failed H:0x0 D:0x2 P:0x0,5,2.0,1.0,1.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,-0.020627666953410118,-1
-2026-01-21 00:08:07.520834,esx-01,UserMem,ERROR,Cmd(0x459a80fb0700) 0x1a failed H:0x0 D:0x2 P:0x0,5,2.0,1.0,1.0,0.0,0.0,1.0,2.0,0.0,0.0,0.0,-0.020627666953410118,-1
-2026-01-21 00:07:07.520834,esx-01,Hostd,ERROR,Boot Successful,5,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,-0.02332971527897565,-1
-2026-01-21 00:06:37.520834,esx-01,Hostd,ERROR,Boot Successful,5,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,-0.02332971527897565,-1
+Timestamp,Component,Message,RiskScore
+2026-01-26T08:00:00Z,Network,Packet loss deteched on eth0,45
+2026-01-26T08:05:00Z,Database,Connection timeout from 10.0.0.5,85
+2026-01-26T08:12:00Z,Auth Service,Invalid token signature User: admin,92
+2026-01-26T08:15:00Z,Storage,Disk usage above 90% on /mnt/data,75
+2026-01-26T08:22:00Z,API Gateway,High latency detected on /api/v1/users,60
+2026-01-26T08:30:00Z,Network,Switch port flapping detected,55
+2026-01-26T08:35:00Z,Database,Slow query detected: SELECT * FROM users,40
+2026-01-26T08:42:00Z,Auth Service,Multiple failed login attempts detected User: root,95
+2026-01-26T08:50:00Z,Payment Service,Transaction processing delay,70
+2026-01-26T08:55:00Z,Network,Elevated error rate on interface eth1,50
+2026-01-26T09:00:00Z,Database,Deadlock detected in transaction 4521,88
+2026-01-26T09:10:00Z,Storage,RAID controller battery warning,65
+2026-01-26T09:15:00Z,API Gateway,5xx error rate spike detected,80
+2026-01-26T09:25:00Z,Auth Service,Unauthorized access attempt User: guest,45
+2026-01-26T09:30:00Z,Payment Service,Internal server error during checkout,82
+2026-01-26T09:40:00Z,Network,BGP session flap with peer 192.168.1.1,78
+2026-01-26T09:45:00Z,Database,Connection pool exhaustion,90
+2026-01-26T10:00:00Z,Storage,File system corruption detected on /dev/sdb1,98
+2026-01-26T10:10:00Z,API Gateway,Rate limit exceeded for client 10.1.1.1,30
+2026-01-26T10:15:00Z,Auth Service,Password policy violation User: john_doe,25
+2026-01-26T10:25:00Z,Payment Service,Payment gateway timeout,75
+2026-01-26T10:30:00Z,Network,Unusual outbound traffic spike,65
+2026-01-26T10:40:00Z,Database,Index fragmentation high on table: orders,35
+2026-01-26T10:45:00Z,Auth Service,Session replication failure,60
+2026-01-26T11:00:00Z,Storage,Snapshot backup failed,55
+2026-01-26T11:10:00Z,API Gateway,Certificate expiration warning,85
+2026-01-26T11:15:00Z,Payment Service,Fraud check service unavailable,92
+2026-01-26T11:30:00Z,Network,DNS resolution failure for internal service,70
+2026-01-26T11:40:00Z,Database,TempDB filling up rapidly,80
+2026-01-26T11:50:00Z,Auth Service,LDAP server unreachable,88
+2026-01-26T12:00:00Z,Storage,Volume mount failure on /mnt/logs,75
+2026-01-26T12:10:00Z,API Gateway,Web Application Firewall (WAF) blocking valid requests,65
+2026-01-26T12:20:00Z,Payment Service,Webhook delivery failure,50
+2026-01-26T12:30:00Z,Network,VLAN mismatch detected,40
+2026-01-26T12:40:00Z,Database,Log file rotation failure,30
+2026-01-26T13:00:00Z,Auth Service,User account lockouts spike,55
+2026-01-26T13:10:00Z,Storage,I/O latency spike on SSD array,70
+2026-01-26T13:20:00Z,API Gateway,CORS policy violation warnings,25
+2026-01-26T13:30:00Z,Payment Service,Currency conversion API error,60
+2026-01-26T13:40:00Z,Network,DHCP scope exhausted,85
+2026-01-26T13:50:00Z,Database,Replication lag exceeded threshold,75
+2026-01-26T14:00:00Z,Auth Service,Privilege escalation attempt User: unknown,95
+2026-01-26T14:10:00Z,Storage,Degraded array performance,45
+2026-01-26T14:20:00Z,API Gateway,Memory leak suspected in worker process,80
+2026-01-26T14:30:00Z,Payment Service,Double billing detected,90
+2026-01-26T14:40:00Z,Network,Multicast storm detected,65
+2026-01-26T14:50:00Z,Database,Constraint violation in batch job,40
+2026-01-26T15:00:00Z,Auth Service,API key compromised detected,99
+2026-01-26T15:10:00Z,Storage,Write cache disabled due to battery failure,60
+2026-01-26T15:20:00Z,API Gateway,Load balancer health check flapping,55

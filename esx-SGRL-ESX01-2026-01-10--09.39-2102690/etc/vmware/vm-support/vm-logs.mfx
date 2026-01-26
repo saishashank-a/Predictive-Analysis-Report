@@ -1,0 +1,10 @@
+% Manifest name: logs
+% Manifest group: VirtualMachines
+% Manifest default: Enabled
+% Manifest tag: vm,logs
+# action Options file/command
+
+# logs could be busy, so ignore errors
+vmfile IGNORE_MISSING,IGNORE_ERROR  *.log
+copy   IGNORE_MISSING  /tmp/vmware-*/vmware-panic.log
+copy   IGNORE_MISSING  /tmp/vmware-*/vmware-vmx-*.log

@@ -1,0 +1,7 @@
+% Manifest name: VSANObfuscateUrgentTraces
+% Manifest group: Storage
+% Manifest default: Disabled
+% Manifest tag: storage,vsan
+# action Options file/command
+
+run TIMEOUT=3600,IGNORE_ERROR,RELOCATE=/var/log/vsantraces/vsantracesUrgent.log python /usr/lib/vmware/vsan/bin/vsanTraceCollector.pyc --obfuscate -t Urgent --flat -m Storage:VSANObfuscateUrgentTraces

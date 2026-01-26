@@ -1,0 +1,7 @@
+regtype=linux,bus=pci,id=1166:0240 0000:0000,driver=sata_svw,class=storage
+regtype=linux,bus=pci,id=1166:0241 0000:0000,driver=sata_svw,class=storage
+regtype=linux,bus=pci,id=1166:0242 0000:0000,driver=sata_svw,class=storage
+regtype=linux,bus=pci,id=1166:024a 0000:0000,driver=sata_svw,class=storage
+regtype=linux,bus=pci,id=1166:024b 0000:0000,driver=sata_svw,class=storage
+regtype=linux,bus=pci,id=1166:0410 0000:0000,driver=sata_svw,class=storage
+regtype=linux,bus=pci,id=1166:0411 0000:0000,driver=sata_svw,class=storage

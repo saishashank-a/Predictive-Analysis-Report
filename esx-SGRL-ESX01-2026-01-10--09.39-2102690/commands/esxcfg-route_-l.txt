@@ -1,0 +1,4 @@
+VMkernel Routes:
+Network          Netmask          Gateway          Interface      
+192.168.1.0      255.255.255.0    Local Subnet     vmk0           
+default          0.0.0.0          192.168.1.254    vmk0           

@@ -1,0 +1,88 @@
+#
+# This file is mechanically generated.  Any changes you make
+# manually will be lost at the next build.
+#
+# Please edit <driver>_devices.py file for permanent changes.
+#
+# Vendors, devices and subsystems.
+#
+# Syntax (initial indentation must be done with TAB characters):
+#
+# vendor  vendor_name
+#       device  device_name                            <-- single TAB
+#               subvendor subdevice  subsystem_name    <-- two TABs
+
+111d  Integrated Device Technology, Inc.
+	80d0  32-Channel Princeton Controller
+		111d 80d0  32-Channel Princeton Controller
+	80d1  16-Channel Princeton Controller
+		111d 80d1  16-Channel Princeton Controller
+	80d2  8-Channel Princeton Controller
+		111d 80d2  8-Channel Princeton Controller
+1179  Toshiba America Info Systems
+	0110  
+		1028 1ffb  Dell Express Flash NVMe CD5 960GB PCIe U.2 SSD Controller
+		1028 1ffc  Dell Express Flash NVMe CD5 1.92TB PCIe U.2 SSD Controller
+		1028 1ffd  Dell Express Flash NVMe CD5 3.84TB PCIe U.2 SSD Controller
+		1028 1ffe  Dell Express Flash NVMe CD5 7.68TB PCIe U.2 SSD Controller
+1344  Micron Technologies Inc
+	5170  Micron NVMe PCIe SSD Controller
+	5171  Micron P610DC NVMe PCIe SSD Controller
+144d  Samsung Electronics Co Ltd
+	a820  Samsung 1715 PCIe SSD Controller
+		1028 1f95  Dell Express Flash NVMe XS1715 400GB PCIe SSD Controller
+		1028 1f96  Dell Express Flash NVMe XS1715 800GB PCIe SSD Controller
+		1028 1f97  Dell Express Flash NVMe XS1715 1.6TB PCIe SSD Controller
+		1028 1fa4  Dell Express Flash NVMe SM1715 3.2TB PCIe SSD Controller
+		1028 1fa6  Dell Express Flash NVMe SM1715 3.2TB PCIe HHHL SSD Controller
+		1028 1fba  Dell Express Flash NVMe SM1715 800GB PCIe SSD Controller
+		1028 1fbb  Dell Express Flash NVMe SM1715 1.6TB PCIe SSD Controller
+		1028 1fbc  Dell Express Flash NVMe SM1715 1.6TB PCIe HHHL SSD Controller
+		144d a800  Samsung NVMe XS1715 400GB PCIe SSD Controller
+		144d a801  Samsung NVMe XS1715 800GB PCIe SSD Controller
+		144d a802  Samsung NVMe XS1715 1.6TB PCIe SSD Controller
+		144d a804  Samsung NVMe SM1715 800GB PCIe SSD Controller
+		144d a805  Samsung NVMe SM1715 1.6TB PCIe SSD Controller
+		144d a806  Samsung NVMe SM1715 3.2TB PCIe SSD Controller
+		144d a809  Samsung NVMe SM1715 1.6TB PCIe HHHL SSD Controller
+		144d a80a  Samsung NVMe SM1715 3.2TB PCIe HHHL SSD Controller
+	a821  Samsung 1725 PCIe SSD Controller
+		1028 1fb7  Dell Express Flash NVMe PM1725 3.2TB PCIe SSD Controller
+		1028 1fb8  Dell Express Flash NVMe PM1725 3.2TB PCIe HHHL SSD Controller
+		1028 1fb9  Dell Express Flash NVMe PM1725 6.4TB PCIe HHHL SSD Controller
+		144d a801  Samsung NVMe PM1725 800GB PCIe SSD Controller
+		144d a802  Samsung NVMe PM1725 1.6TB PCIe SSD Controller
+		144d a803  Samsung NVMe PM1725 3.2TB PCIe SSD Controller
+		144d a807  Samsung NVMe PM1725 1.92TB PCIe SSD Controller
+		144d a80d  Samsung NVMe PM1725 3.2TB PCIe HHHL SSD Controller
+		144d a80e  Samsung NVMe PM1725 6.4TB PCIe HHHL SSD Controller
+		144d a811  Samsung NVMe SM1725 800GB PCIe SSD Controller
+		144d a812  Samsung NVMe SM1725 1.6TB PCIe SSD Controller
+		144d a813  Samsung NVMe SM1725 3.2TB PCIe SSD Controller
+		144d a814  Samsung NVMe SM1725 6.4TB PCIe SSD Controller
+		144d a81d  Samsung NVMe SM1725 3.2TB PCIe HHHL SSD Controller
+		144d a81e  Samsung NVMe SM1725 6.4TB PCIe HHHL SSD Controller
+		144d a81f  Samsung NVMe SM1725 12.8TB PCIe HHHL SSD Controller
+	a822  
+		1028 1ff3  Dell Express Flash NVMe PM1725B (MU) 1.6TB PCIe U.2 SSD Controller
+		1028 1ff4  Dell Express Flash NVMe PM1725B (MU) 3.2TB PCIe U.2 SSD Controller
+		1028 1ff5  Dell Express Flash NVMe PM1725B (MU) 6.4TB PCIe U.2 SSD Controller
+		1028 1ff6  Dell Express Flash NVMe PM1725B (MU) 12.8TB PCIe U.2 SSD Controller
+		1028 1ff7  Dell Express Flash NVMe PM1725B (MU) 1.6TB PCIe HHHL SSD Controller
+		1028 1ff8  Dell Express Flash NVMe PM1725B (MU) 3.2TB PCIe HHHL SSD Controller
+		1028 1ff9  Dell Express Flash NVMe PM1725B (MU) 6.4TB PCIe HHHL SSD Controller
+1b4b  Marvell Technology Group Ltd
+	2241  Marvell NR2241 NVMe Controller
+8086  Intel Corporation
+	0a54  
+		1028 1fee  Dell Express Flash NVMe P4610 (MU) 1.6TB PCIe U.2 SSD Controller
+		1028 1fef  Dell Express Flash NVMe P4610 (MU) 3.2TB PCIe U.2 SSD Controller
+		1028 1ff0  Dell Express Flash NVMe P4610 (MU) 6.4TB PCIe U.2 SSD Controller
+		1028 1fff  Dell Express Flash NVMe P4510 (RI) 8TB PCIe U.2 SSD Controller
+		1028 2003  Dell Express Flash NVMe P4510 (RI) 1TB PCIe U.2 SSD Controller
+		1028 2004  Dell Express Flash NVMe P4510 (RI) 2TB PCIe U.2 SSD Controller
+		1028 2005  Dell Express Flash NVMe P4510 (RI) 4TB PCIe U.2 SSD Controller
+	2701  
+		1028 2000  Dell Express Flash NVMe ColdStream P4800x 375GB PCIe U.2 SSD Controller
+		1028 2001  Dell Express Flash NVMe ColdStream P4800x 750GB PCIe U.2 SSD Controller
+		1028 2002  Dell Express Flash NVMe ColdStream P4800x 750GB PCIe HHHL SSD Controller

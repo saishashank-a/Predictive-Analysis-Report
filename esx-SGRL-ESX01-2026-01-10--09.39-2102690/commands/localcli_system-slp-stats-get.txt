@@ -1,0 +1,33 @@
+SlpStats:
+   ATRRPLY type packets sent: 0
+   ATTRRQST type packets received: 0
+   DA SRV request reccieved: 0
+   DAADVERT type packets received: 0
+   Date: 2026-01-10T09:40:14
+   Internal err: 0
+   Last TCP connection accept: N/A
+   Last UDP packet received: N/A
+   No reply sent: 0
+   Process ID: 2099199
+   SA SRV request receieved: 0
+   SAADVERT type packets received: 0
+   SRVACK type packets sent: 0
+   SRVDEREG transactions failed: 0
+   SRVDREG type packets received: 0
+   SRVREG transactions failed: 0
+   SRVREG type packets received: 0
+   SRVRPLY type packets sent: 0
+   SRVRQST type packets received: 0
+   SRVTYPERPLY type packets sent: 0
+   SRVTYPERQST type packets received: 0
+   TCP accepts failed: 0
+   TCP accepts toomany: 0
+   TCP completed accepts: 0
+   UDP Message truncated when sent: 0
+   UDP pkts received bytes: 0
+   UDP pkts received failed: 0
+   UDP pkts received ok: 0
+   UDP pkts transmitted failed: 0
+   UDP pkts transmitted ok: 0
+   UDP pkts transmitted/bytes: 0
+   Uptime: 6257

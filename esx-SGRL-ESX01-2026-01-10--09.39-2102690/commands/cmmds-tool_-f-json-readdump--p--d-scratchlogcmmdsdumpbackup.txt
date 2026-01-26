@@ -1,0 +1,35 @@
+Failed to parse arguments (optind=5, argc=7)
+usage: /sbin/cmmds-tool <cmd> <options>
+commands:
+   add                 Adds an entry from stdin. On successful exit the
+                       entry is guaranteed to be in the directory
+   delete              Deletes matching entries. On successful exit the 
+                       entry will be deleted from the directory
+   dump                Dumps first matching entry to stdout
+   find                Finds matching entries
+   remoteFind          Remote Find matching entries
+   wait                Waits for a matching entry to appear
+   waitdump            Waits for a matching entry to appear and dumps 
+                       the entry to stdout
+   waitformembership   Waits for a membership entry to appear
+   whoami              Get the node's uuid as used in the sub-cluster
+   amimember           Check if I am the member in the current sub-cluster
+   readdump            Reads a cmmds directory dump from a file 
+                       (specified with -d/--dumpfile) and 
+                       o/p to stdout in a given format specified 
+                       using -f option. 
+options:
+   -o/--owner=<uuid>:      Entry owner
+   -u/--uuid=<uuid>:       Entry uuid
+   -t/--type=<int>|<name>: Entry type
+   -r/--rev=<int>:         Entry revision (-1 for latest)
+   -i/--timeout=<int>:     Max time for wait (0 for infinite wait)
+   -f/--format=<fmt>:      Output format (fmt should be one of
+                           json/python/simple. Default is 'simple'
+   -d/--dumpfile=<file>:   Filename to read the cmmds dump from.
+   -p/--print-dump-hdr:    When CMMDS dump is read off the file, should
+                           the dump file header be printed as well
+   -v/--verbose=<int>:     Verbosity level
+   -m/--mangle:            Mangle / obfuscate human readable strings
+   -h/--help:              Print this help text
+

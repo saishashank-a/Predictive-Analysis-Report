@@ -1,0 +1,2 @@
+regtype=native,bus=pci,id=1077165e..............,driver=qedi
+regtype=native,bus=pci,id=10778084..............,driver=qedi

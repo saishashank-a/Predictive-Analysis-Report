@@ -1,0 +1,3 @@
+regtype=native,bus=pci,id=10df0724..............,driver=brcmfcoe
+regtype=native,bus=pci,id=10df072c..............,driver=brcmfcoe
+regtype=native,bus=pci,id=19a20714..............,driver=brcmfcoe

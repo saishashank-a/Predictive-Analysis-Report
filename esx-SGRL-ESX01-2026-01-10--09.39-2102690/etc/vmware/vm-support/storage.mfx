@@ -1,0 +1,24 @@
+% Manifest name: base
+% Manifest group: Storage
+% Manifest default: Enabled
+% Manifest tag: storage
+# action Options file/command
+
+run IGNORE_ERROR,TIMEOUT=10     fdisk -lu
+run IGNORE_ERROR,TIMEOUT=10     /usr/lib/vmware/vm-support/bin/partedUtil.sh
+run TIMEOUT=10                  /usr/sbin/esxcfg-scsidevs -m
+run DUMP_JSON                   /usr/sbin/localcli storage core device list
+run DUMP_JSON                   /usr/sbin/localcli storage core device capacity list
+run DUMP_JSON                   /usr/sbin/localcli storage core device partition list
+run DUMP_JSON                   /usr/sbin/localcli storage core device partition showguid
+run DUMP_JSON                   /usr/sbin/localcli storage core device vaai status get
+run DUMP_JSON                   /usr/sbin/localcli storage core adapter list
+run DUMP_JSON                   /usr/sbin/localcli storage core adapter stats get
+run DUMP_JSON                   /usr/sbin/localcli storage core device stats get
+run DUMP_JSON                   /usr/sbin/localcli storage core device detached list
+run DUMP_JSON                   /usr/sbin/localcli storage core plugin registration list
+run DUMP_JSON                   /usr/sbin/localcli storage core device vaai ats list
+run DUMP_JSON                   /usr/sbin/localcli storage core device vaai clone list
+run DUMP_JSON                   /usr/sbin/localcli storage core device vaai delete list
+run DUMP_JSON                   /usr/sbin/localcli storage core device vaai zero list
+run TIMEOUT=10                  /usr/lib/vmware/vm-support/bin/smartinfo

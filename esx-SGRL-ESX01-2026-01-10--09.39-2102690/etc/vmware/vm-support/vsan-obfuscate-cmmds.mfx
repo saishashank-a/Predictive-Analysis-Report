@@ -1,0 +1,29 @@
+% Manifest name: VSANObfuscateCmmds
+% Manifest group: Storage
+% Manifest default: Disabled
+% Manifest tag: storage,vsan
+# action Options file/command
+
+run TIMEOUT=30,IGNORE_ERROR cmmds-tool find --format json --mangle -t ACCESS_GENERATION
+run TIMEOUT=30,IGNORE_ERROR cmmds-tool find --format json --mangle -t CMMDS_BACKUP_MASTER
+run TIMEOUT=30,IGNORE_ERROR cmmds-tool find --format json --mangle -t CMMDS_MASTER
+run TIMEOUT=30,IGNORE_ERROR cmmds-tool find --format json --mangle -t CONFIG_STATUS
+run TIMEOUT=30,IGNORE_ERROR cmmds-tool find --format json --mangle -t DISK
+run TIMEOUT=30,IGNORE_ERROR cmmds-tool find --format json --mangle -t DISK_STATUS
+run TIMEOUT=30,IGNORE_ERROR cmmds-tool find --format json --mangle -t DISK_USAGE
+run TIMEOUT=30,IGNORE_ERROR cmmds-tool find --format json --mangle -t DOM_NAME
+run TIMEOUT=30,IGNORE_ERROR cmmds-tool find --format json --mangle -t DOM_OBJECT
+run TIMEOUT=30,IGNORE_ERROR cmmds-tool find --format json --mangle -t HEALTH_STATUS
+run TIMEOUT=30,IGNORE_ERROR cmmds-tool find --format json --mangle -t HOSTNAME
+run TIMEOUT=30,IGNORE_ERROR cmmds-tool find --format json --mangle -t LSOM_OBJECT
+run TIMEOUT=30,IGNORE_ERROR cmmds-tool find --format json --mangle -t NET_INTERFACE
+run TIMEOUT=30,IGNORE_ERROR cmmds-tool find --format json --mangle -t NODE
+run TIMEOUT=30,IGNORE_ERROR cmmds-tool find --format json --mangle -t NODE_DECOM_STATE
+run TIMEOUT=30,IGNORE_ERROR cmmds-tool find --format json --mangle -t NODE_FAULT_DOMAIN
+run TIMEOUT=30,IGNORE_ERROR cmmds-tool find --format json --mangle -t NODE_USAGE
+run TIMEOUT=30,IGNORE_ERROR cmmds-tool find --format json --mangle -t OSFS_NAME
+run TIMEOUT=30,IGNORE_ERROR cmmds-tool find --format json --mangle -t SUB_CLUSTER
+run TIMEOUT=30,IGNORE_ERROR cmmds-tool find --format json --mangle -t SUB_CLUSTER_MEMBERSHIP
+run TIMEOUT=30,IGNORE_ERROR python /usr/lib/vmware/vsan/bin/obfuscateCmmdsDump.py
+
+

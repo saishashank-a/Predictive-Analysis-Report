@@ -1,0 +1,12 @@
+% Manifest name: VSANPerfStats
+% Manifest group: Storage
+% Manifest default: Enabled
+% Manifest tag: storage,vsanperfstats
+# action Options file/command
+# stats metrics has different priority
+# P0 (Collection ON by default, extraction to support bundled ON by default): For metrics crucial for debugging
+# default will dump P0 stats metrics
+
+
+run TIMEOUT=1200,IGNORE_ERROR python /usr/lib/vmware/vsan/perfsvc/vsan-perfsvc-status.pyc perf_stats_with_dump
+

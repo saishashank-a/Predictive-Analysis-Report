@@ -1,0 +1,40 @@
+#
+# Rules for  plugins
+#
+#
+
+-s genericSys grant
+-s ioctlSys grant
+-s execSys grant
+-s vsiReadSys grant
+-s forkSys grant
+-s cloneSys grant
+-s sysctlSys grant
+-s moduleSys grant
+-s killSys grant
+-s syncSys grant
+-s getpgidSys grant
+-s getsidSys grant
+-s iofilterExitSys grant
+-s iofilterSys grant
+-s crossfdSys grant
+
+-c inet_stream_socket_create grant
+-c inet_dgram_socket_create grant
+-c unix_socket_create grant
+-c unix_stream_socket_bind grant
+-c unix_dgram_socket_bind grant
+
+-p inet_socket_connect loopback grant
+-p inet_socket_connect nonloopback grant
+
+-r /usr/lib/cim rx
+-r /etc/vmware/secpolicy r
+-r /etc/shadow r
+-r /etc/passwd r
+-r /etc/group r
+
+# Deny access to these paths
+-r /etc/vmware/ssl
+-r /usr/share/certs
+-r /tardisks

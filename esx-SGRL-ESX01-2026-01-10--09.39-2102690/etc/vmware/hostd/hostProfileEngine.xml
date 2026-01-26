@@ -1,0 +1,35 @@
+<!--  Host Profile Engine configuration file for ESX -->
+<config>
+   <!--  Determines whether the host profile engine is advertised via
+         the internal capabilities. If this is set to false, then VC
+         will use its own version of the host profile engine when managing
+         this host via the Host Profiles feature. That means the features
+         implemented by the extra plug-ins installed on the ESX host won't
+         be available.  -->
+   <advertiseEngine>true</advertiseEngine>
+
+   <!-- Determines the log level for the host profile engine. Valid values:
+           ERROR, WARN, INFO, DEBUG -->
+   <logLevel>INFO</logLevel>
+
+   <!-- Whether host profile engine tracing is enabled. If enabled, input
+        and output to the host profile engine will be logged to a separate
+        trace file.  -->
+   <traceEnabled>false</traceEnabled>
+
+   <!-- Host profile engine will listen for SOAP request on this
+        port on localhost -->
+   <soapPort>8338</soapPort>
+
+   <!-- This is used to timeout the SOAP call invoked on the host profile
+        engine.1800 seconds is default blocking timeout in SOAP
+        adapter layer. The minimum value of the timeout is 600 seconds.-->
+   <timeOutInSeconds>1800</timeOutInSeconds>
+
+   <!-- This enables collection of memory, cpu, other process data objects
+        information for host profile engine.-->
+   <statsEnabled>true</statsEnabled>
+
+   <!-- This enables host specification collection on a stateful host. -->
+   <statefulCollectHostSpec>false</statefulCollectHostSpec>
+</config>

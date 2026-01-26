@@ -1,0 +1,41 @@
+total 39101696
+25168964    128 drwxr-xr-x    1 root     root         86016 Sep 13 16:21 .
+      4   1024 drwxr-xr-t    1 root     root         86016 Jan 10 09:35 ..
+4196356 11747328 -rw-------    1 root     root     52143587328 Sep 13 16:21 SGRL-VCSA02-flat.vmdk
+171968516     64 -rw-------    1 root     root          8684 Sep 13 16:21 SGRL-VCSA02.nvram
+8390660      0 -rw-------    1 root     root           532 Sep 13 08:03 SGRL-VCSA02.vmdk
+146802692      0 -rw-r--r--    1 root     root             0 Sep 13 07:56 SGRL-VCSA02.vmsd
+   2052     64 -rwxr-xr-x    1 root     root          4614 Sep 13 16:21 SGRL-VCSA02.vmx
+12584964 7597056 -rw-------    1 root     root     7779385344 Sep 13 08:02 SGRL-VCSA02_1-flat.vmdk
+16779268      0 -rw-------    1 root     root           532 Sep 13 08:03 SGRL-VCSA02_1.vmdk
+88082436 248832 -rw-------    1 root     root     10737418240 Sep 13 16:21 SGRL-VCSA02_10-flat.vmdk
+92276740      0 -rw-------    1 root     root           534 Sep 13 08:04 SGRL-VCSA02_10.vmdk
+96471044 2547712 -rw-------    1 root     root     107374182400 Sep 13 16:21 SGRL-VCSA02_11-flat.vmdk
+100665348      0 -rw-------    1 root     root           536 Sep 13 08:04 SGRL-VCSA02_11.vmdk
+104859652 1153024 -rw-------    1 root     root     53687091200 Sep 13 16:21 SGRL-VCSA02_12-flat.vmdk
+109053956      0 -rw-------    1 root     root           535 Sep 13 08:04 SGRL-VCSA02_12.vmdk
+113248260 285696 -rw-------    1 root     root     10737418240 Sep 13 16:21 SGRL-VCSA02_13-flat.vmdk
+117442564      0 -rw-------    1 root     root           534 Sep 13 08:04 SGRL-VCSA02_13.vmdk
+121636868 178176 -rw-------    1 root     root     5368709120 Sep 13 16:21 SGRL-VCSA02_14-flat.vmdk
+125831172      0 -rw-------    1 root     root           533 Sep 13 08:04 SGRL-VCSA02_14.vmdk
+130025476 6161408 -rw-------    1 root     root     107374182400 Sep 13 16:21 SGRL-VCSA02_15-flat.vmdk
+134219780      0 -rw-------    1 root     root           536 Sep 13 08:04 SGRL-VCSA02_15.vmdk
+138414084 3604480 -rw-------    1 root     root     161061273600 Sep 13 16:21 SGRL-VCSA02_16-flat.vmdk
+142608388      0 -rw-------    1 root     root           536 Sep 13 08:04 SGRL-VCSA02_16.vmdk
+20973572 3115008 -rw-------    1 root     root     26843545600 Sep 13 16:21 SGRL-VCSA02_2-flat.vmdk
+25167876      0 -rw-------    1 root     root           533 Sep 13 08:03 SGRL-VCSA02_2.vmdk
+29362180 570368 -rw-------    1 root     root     26843545600 Sep 13 16:21 SGRL-VCSA02_3-flat.vmdk
+33556484      0 -rw-------    1 root     root           533 Sep 13 08:03 SGRL-VCSA02_3.vmdk
+37750788 532480 -rw-------    1 root     root     10737418240 Sep 13 16:21 SGRL-VCSA02_4-flat.vmdk
+41945092      0 -rw-------    1 root     root           533 Sep 13 08:03 SGRL-VCSA02_4.vmdk
+46139396 367616 -rw-------    1 root     root     10737418240 Sep 13 16:21 SGRL-VCSA02_5-flat.vmdk
+50333700      0 -rw-------    1 root     root           533 Sep 13 08:04 SGRL-VCSA02_5.vmdk
+54528004 417792 -rw-------    1 root     root     16106127360 Sep 13 16:21 SGRL-VCSA02_6-flat.vmdk
+58722308      0 -rw-------    1 root     root           533 Sep 13 08:04 SGRL-VCSA02_6.vmdk
+62916612 283648 -rw-------    1 root     root     10737418240 Sep 13 16:21 SGRL-VCSA02_7-flat.vmdk
+67110916      0 -rw-------    1 root     root           533 Sep 13 08:04 SGRL-VCSA02_7.vmdk
+71305220  39936 -rw-------    1 root     root     1073741824 Sep 13 16:21 SGRL-VCSA02_8-flat.vmdk
+75499524      0 -rw-------    1 root     root           531 Sep 13 08:04 SGRL-VCSA02_8.vmdk
+79693828 248832 -rw-------    1 root     root     10737418240 Sep 13 16:21 SGRL-VCSA02_9-flat.vmdk
+83888132      0 -rw-------    1 root     root           533 Sep 13 08:04 SGRL-VCSA02_9.vmdk
+163579908   1024 -rw-r--r--    1 root     root        288851 Sep 13 16:21 vmware.log

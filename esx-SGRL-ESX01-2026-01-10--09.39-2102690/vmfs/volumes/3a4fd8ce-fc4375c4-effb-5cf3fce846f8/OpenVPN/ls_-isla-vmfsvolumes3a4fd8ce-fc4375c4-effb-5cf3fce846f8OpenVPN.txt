@@ -1,0 +1,18 @@
+total 6313152
+4195652    128 drwxr-xr-x    1 root     root         77824 Dec 27 05:31 .
+      4   1024 drwxr-xr-t    1 root     root         86016 Jan 10 09:35 ..
+8389764      0 -rw-r--r--    1 root     root           387 Sep  7 14:25 OpenVPN-263d9df6.hlog
+12584068 6220800 -rw-------    1 root     root     161061273600 Dec 27 05:31 OpenVPN-flat.vmdk
+20972676     64 -rw-------    1 root     root          8684 Dec 27 01:19 OpenVPN.nvram
+16778372      0 -rw-------    1 root     root           552 Dec 27 01:18 OpenVPN.vmdk
+29361284      0 -rw-r--r--    1 root     root             0 Sep  7 14:25 OpenVPN.vmsd
+25166980      0 -rwxr-xr-x    1 root     root          3429 Dec 27 05:31 OpenVPN.vmx
+121635972      0 -rw-------    1 root     root           150 Nov 15 10:43 OpenVPN.vmxf
+96470148   1024 -rw-r--r--    1 root     root        224878 Jan  1  2001 vmware-4.log
+113247364   1024 -rw-r--r--    1 root     root        239093 Nov 15 10:43 vmware-5.log
+138413188   1024 -rw-r--r--    1 root     root        222198 Nov 16 00:53 vmware-6.log
+155190404   1024 -rw-r--r--    1 root     root        222199 Nov 16 06:54 vmware-7.log
+171967620   1024 -rw-r--r--    1 root     root        222198 Dec  9 10:54 vmware-8.log
+188744836   1024 -rw-r--r--    1 root     root        223141 Dec 18 21:06 vmware-9.log
+205522052   1024 -rw-r--r--    1 root     root        223876 Dec 27 05:31 vmware.log
+67110020  83968 -rw-------    1 root     root      85983232 Oct 24 00:07 vmx-OpenVPN-3735539084-1.vswp

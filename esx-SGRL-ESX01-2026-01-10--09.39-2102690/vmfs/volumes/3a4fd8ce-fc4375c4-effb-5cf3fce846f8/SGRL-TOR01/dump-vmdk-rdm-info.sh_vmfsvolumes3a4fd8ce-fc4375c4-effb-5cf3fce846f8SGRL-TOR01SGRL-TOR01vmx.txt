@@ -1,0 +1,2 @@
+# vmkfstools -q SGRL-TOR01_1.vmdk
+SGRL-TOR01_1.vmdk is not an rdm

@@ -1,0 +1,492 @@
+Cmd "/usr/lib/vmware/vm-support/bin/encryption-prolog.sh" returned no information, don't collect file vm-support-incident-key for this cmd.
+Cmd "/usr/lib/vmware/likewise/bin/lw-lsa get-metrics" failed with exit code 2
+Cmd "/usr/lib/vmware/likewise/bin/lw-lsa trace-info" failed with exit code 2
+Cmd "/usr/lib/vmware/likewise/bin/lw-lsa get-status" failed with exit code 2
+Cmd "/bin/localcli system slp search" returned no information, don't collect file commands/localcli_system-slp-search.txt for this cmd.
+No file found matching /etc/openwsman/openwsman.conf
+Cmd "/bin/indcfg --list --debug" returned no information, don't collect file commands/indcfg_--list---debug.txt for this cmd.
+Cmd "/bin/localcli system settings advanced list -o /UserVars/HardwareHealthIgnoreSensor" failed with exit code 1
+No file found matching /root/ks.cfg
+No file found matching /etc/opt/vmware/
+No file found matching /etc/vmkiscsi.conf
+No file found matching /etc/initiatorname.vmkiscsi
+No file found matching /tmp/dumppart.log
+No file found matching /etc/opt/vmware/vpxa/vpxa.cfg
+Cmd "/usr/lib/vmware/vm-support/bin/altlocaltgz.sh" returned no information, don't collect file altbootbank/local.tgz for this cmd.
+No file found matching /bootbank/m.z
+No file found matching /altbootbank/imgdb.tgz
+No file found matching /usr/share/hwdata/fallback.pciids.d/*
+Cmd "/bin/sensord -v -l -D" failed with exit code 255
+No file found matching /usr/share/hwdata/oem.pciids.d/*
+No file found matching /etc/vmware/vsphereFeatures/vsphereFeatures.cfg
+Cmd "/usr/lib/vmware/vm-support/bin/dump-vvol-traces.sh" returned no information, don't collect file var/log/vvol-traces.tar for this cmd.
+Cmd "/usr/lib/vmware/vm-support/bin/dump-vmfs-traces.sh" returned no information, don't collect file var/log/vmfsGlobalTraces.tar for this cmd.
+No file found matching /var/lib/vmware/hostprofiles/statusData
+Cmd "/usr/lib/vmware/vm-support/bin/extract_hp_docs.py /etc/vmware/hostprofile.xml.gz" failed with exit code 1
+Cmd "/usr/lib/vmware/vm-support/bin/extract_hp_docs.py /etc/vmware/answerfile.xml.gz" failed with exit code 1
+Cmd "/bin/vim-cmd -U dcui internalsvc/perfcount/scoreboard" returned no information, don't collect file commands/vim-cmd_-U-dcui-internalsvcperfcountscoreboard.txt for this cmd.
+No file found matching /var/run/log/hostd-probed-*
+No file found matching /altbootbank/onetime.tgz
+Cmd "/usr/lib/vmware/bin/net-dvs -l" returned no information, don't collect file commands/net-dvs_-l.txt for this cmd.
+Cmd "/usr/lib/vmware/vm-support/bin/dvsData.sh" returned no information, don't collect file var/log/dvsData.tar for this cmd.
+Cmd "/usr/sbin/localcli network vswitch dvs vmware lacp config get" failed with exit code 1
+Cmd "/usr/sbin/localcli network vswitch dvs vmware lacp status get" failed with exit code 1
+Cmd "/usr/sbin/localcli network vswitch dvs vmware lacp stats get" failed with exit code 1
+No file found matching /var/core/*-zdump*
+No file found matching /bootbank/befLogs.tgz
+No file found matching /bootbank/aftLogs.tgz
+No file found matching /bootbank/waiter.tgz
+No file found matching /bootbank/hostProf.tgz
+Cmd "/usr/lib/vmware/vm-support/bin/collect-vmkernel-dump-partition.sh" returned no information, don't collect file var/core/vmkernel-zdump for this cmd.
+Cmd "/usr/lib/vmware/vm-support/bin/tpm-dump-info.py" returned no information, don't collect file commands/tpm-dump-info.py.txt for this cmd.
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/OpenVPN/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-NSX001/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/CD/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-TOR02/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX001/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LNX001/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/OpenVPN/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-NSX001/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/CD/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-TOR02/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX001/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LNX001/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/VyOS-Router/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/VyOS-Router/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Others/vyos/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Others/vyos/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-JMP001/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-JMP001/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/VMWare/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/VMWare/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-WSU001/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-WSU001/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ANS001/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ANS001/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX002/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX002/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/CD/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/CD/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-IPAM001/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-IPAM001/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LLM002/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LLM002/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/RHEL10-TMPL/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/RHEL10-TMPL/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Linux/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Linux/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/OpenVPN/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-NSX001/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/CD/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/CD/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/CD/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-TOR02/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX001/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LNX001/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/VyOS-Router/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Others/vyos/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001_1/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-JMP001/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001_1/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/VMWare/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-WSU001/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ANS001/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/CD/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/CD/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX002/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/CD/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-IPAM001/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LLM002/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX003/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX003/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/RHEL10-TMPL/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Linux/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/CD/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-TOR01/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001_1/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-TOR01/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/CD/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX003/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX004/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-TOR01/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX004/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX004/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LLM001/vmmcores.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LLM001/vmmcores.ve
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LLM001/*-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/OpenVPN/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-NSX001/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/CD/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-TOR02/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX001/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LNX001/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/OpenVPN/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/VyOS-Router/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Others/vyos/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-NSX001/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/CD/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-JMP001/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/VMWare/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-TOR02/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-WSU001/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX001/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ANS001/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LNX001/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX002/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/VyOS-Router/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/CD/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Others/vyos/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-IPAM001/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-JMP001/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/VMWare/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LLM002/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-WSU001/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/RHEL10-TMPL/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ANS001/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Linux/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX002/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/CD/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/CD/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001_1/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-IPAM001/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/CD/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LLM002/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX003/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/RHEL10-TMPL/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-TOR01/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Linux/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX004/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LLM001/*-debug-zdump*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/CD/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001_1/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/CD/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX003/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-TOR01/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX004/*.dsk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LLM001/*.dsk
+No file found matching /tmp/vmware-*/vmware-panic.log
+No file found matching /tmp/vmware-*/vmware-vmx-*.log
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/OpenVPN/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-NSX001/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/CD/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-TOR02/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX001/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LNX001/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/VyOS-Router/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Others/vyos/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-JMP001/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/VMWare/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-WSU001/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ANS001/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX002/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/CD/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-IPAM001/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LLM002/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/RHEL10-TMPL/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Linux/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/CD/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001_1/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/CD/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX003/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-TOR01/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX004/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LLM001/stats*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/OpenVPN/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-NSX001/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/CD/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-TOR02/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX001/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LNX001/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/VyOS-Router/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Others/vyos/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-JMP001/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/VMWare/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-WSU001/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ANS001/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX002/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/CD/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-IPAM001/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LLM002/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/RHEL10-TMPL/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Linux/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/CD/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001_1/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/CD/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX003/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-TOR01/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX004/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LLM001/*.cfg
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/CD/*.vmx
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Others/vyos/*.vmx
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/CD/*.vmdk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/VMWare/*.vmx
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/CD/*.vmx
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Linux/*.vmx
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/CD/*.vmx
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/CD/*.vmx
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/CD/*.log
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-TOR02/*.log
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-NSX001/*.vmxf
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/CD/*.vmxf
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/*.vmxf
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-TOR02/*.vmxf
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX001/*.vmxf
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LNX001/*.vmxf
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/VyOS-Router/*.vmxf
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Others/vyos/*.vmxf
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/CD/*.vmsd
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/VMWare/*.vmxf
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ANS001/*.vmxf
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX002/*.vmxf
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/*.vmxf
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/CD/*.vmxf
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-IPAM001/*.vmxf
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LLM002/*.vmxf
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/RHEL10-TMPL/*.vmxf
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Linux/*.vmxf
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/*.vmxf
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/CD/*.vmxf
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/*.vmxf
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/CD/*.vmxf
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX003/*.vmxf
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-TOR01/*.vmxf
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX004/*.vmxf
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Others/vyos/*.vmsd
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/VMWare/*.vmsd
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/OpenVPN/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-NSX001/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/CD/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-TOR02/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX001/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LNX001/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/VyOS-Router/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Others/vyos/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-JMP001/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/VMWare/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-WSU001/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ANS001/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX002/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/CD/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-IPAM001/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LLM002/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/RHEL10-TMPL/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Linux/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/CD/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001_1/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/CD/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX003/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-TOR01/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX004/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LLM001/*.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/OpenVPN/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-NSX001/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/CD/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-TOR02/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX001/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LNX001/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/VyOS-Router/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Others/vyos/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-JMP001/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/VMWare/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-WSU001/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ANS001/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX002/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/CD/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-IPAM001/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LLM002/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/RHEL10-TMPL/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Linux/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/CD/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001_1/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/CD/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX003/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-TOR01/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX004/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LLM001/*-aux.xml
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/OpenVPN/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-NSX001/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/CD/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-TOR02/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX001/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LNX001/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/VyOS-Router/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Others/vyos/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-JMP001/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/VMWare/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-WSU001/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ANS001/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX002/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/CD/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-IPAM001/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LLM002/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/RHEL10-TMPL/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Linux/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/CD/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001_1/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/CD/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX003/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-TOR01/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Others/vyos/*.log
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX004/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LLM001/shared.vmft
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/OpenVPN/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-NSX001/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/CD/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/sgrl-lcm01/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-TOR02/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX001/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LNX001/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/VyOS-Router/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Others/vyos/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-JMP001/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/VMWare/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-WSU001/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ANS001/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX002/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/CD/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-IPAM001/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LLM002/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/RHEL10-TMPL/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Linux/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/CD/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001_1/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/CD/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX003/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-TOR01/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX004/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LLM001/.ft-generation*
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/CD/*.vmsd
+Failed to add file <action cmd="vmfile" options="MAXSIZE,IGNORE_ERROR,IGNORE_MISSING" path="/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/VyOS-Router/*.vmdk">: [Errno 16] Device or resource busy: '/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/VyOS-Router/VyOS-Router-000003-sesparse.vmdk'
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Linux/*.vmsd
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Others/vyos/*.vmdk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/CD/*.vmsd
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/VMWare/*.log
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/CD/*.vmsd
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/VMWare/*.vmdk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX002/*.log
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/CD/*.log
+No file found matching /var/core/*vmfsdump.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-LLM002/*.log
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Linux/*.log
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/CD/*.log
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA001/CD/*.vmdk
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/CD/*.log
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX003/*.log
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-8ESX004/*.log
+Cmd "/etc/init.d/vsantraced flush" failed with exit code 3
+No file found matching /var/log/vsantraces/vsantraces.index
+No file found matching /var/log/vsantraces/vsantraces--*.gz
+No file found matching /var/log/vsantraces/vsantracesLCHK.index
+No file found matching /var/log/vsantraces/vsantracesLCHK--*.gz
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/ISO_Files/Linux/*.vmdk
+Failed to add file <action cmd="vmfile" options="MAXSIZE,IGNORE_ERROR,IGNORE_MISSING" path="/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/*.vmdk">: [Errno 16] Device or resource busy: '/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01-flat.vmdk'
+Failed to add file <action cmd="vmfile" options="MAXSIZE,IGNORE_ERROR,IGNORE_MISSING" path="/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/*.vmdk">: [Errno 16] Device or resource busy: '/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01_1-flat.vmdk'
+Failed to add file <action cmd="vmfile" options="MAXSIZE,IGNORE_ERROR,IGNORE_MISSING" path="/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/*.vmdk">: [Errno 16] Device or resource busy: '/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01_10-flat.vmdk'
+Failed to add file <action cmd="vmfile" options="MAXSIZE,IGNORE_ERROR,IGNORE_MISSING" path="/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/*.vmdk">: [Errno 16] Device or resource busy: '/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01_11-flat.vmdk'
+Failed to add file <action cmd="vmfile" options="MAXSIZE,IGNORE_ERROR,IGNORE_MISSING" path="/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/*.vmdk">: [Errno 16] Device or resource busy: '/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01_12-flat.vmdk'
+Failed to add file <action cmd="vmfile" options="MAXSIZE,IGNORE_ERROR,IGNORE_MISSING" path="/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/*.vmdk">: [Errno 16] Device or resource busy: '/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01_2-flat.vmdk'
+Failed to add file <action cmd="vmfile" options="MAXSIZE,IGNORE_ERROR,IGNORE_MISSING" path="/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/*.vmdk">: [Errno 16] Device or resource busy: '/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01_3-flat.vmdk'
+Failed to add file <action cmd="vmfile" options="MAXSIZE,IGNORE_ERROR,IGNORE_MISSING" path="/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/*.vmdk">: [Errno 16] Device or resource busy: '/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01_4-flat.vmdk'
+Failed to add file <action cmd="vmfile" options="MAXSIZE,IGNORE_ERROR,IGNORE_MISSING" path="/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/*.vmdk">: [Errno 16] Device or resource busy: '/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01_5-flat.vmdk'
+Failed to add file <action cmd="vmfile" options="MAXSIZE,IGNORE_ERROR,IGNORE_MISSING" path="/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/*.vmdk">: [Errno 16] Device or resource busy: '/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01_6-flat.vmdk'
+Failed to add file <action cmd="vmfile" options="MAXSIZE,IGNORE_ERROR,IGNORE_MISSING" path="/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/*.vmdk">: [Errno 16] Device or resource busy: '/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01_7-flat.vmdk'
+Cmd "/etc/init.d/vsantraced flush" failed with exit code 3
+No file found matching /var/log/vsantraces/vsantracesUrgent.index
+No file found matching /var/log/vsantraces/vsantracesUrgent--*.gz
+No file found matching /var/log/vsantraces/vsantracesDOMObj.index
+No file found matching /var/log/vsantraces/vsantracesDOMObj--*.gz
+No file found matching /var/log/vsantraces/vsanObserver--*.gz
+No file found matching /var/log/vsantraces/vsantracesClom.index
+No file found matching /var/log/vsantraces/vsantracesClom--*.gz
+Failed to add file <action cmd="vmfile" options="MAXSIZE,IGNORE_ERROR,IGNORE_MISSING" path="/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/*.vmdk">: [Errno 16] Device or resource busy: '/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01_8-flat.vmdk'
+No file found matching /scratch/vsantraces/vsantracesClom--*.gz
+No file found matching /var/log/vsantraces/vsantracesLSOM.index
+No file found matching /var/log/vsantraces/vsantracesLSOM--*.gz
+No file found matching /var/log/vsantraces/vsantracesUpitBE.index
+No file found matching /var/log/vsantraces/vsantracesUpitBE--*.gz
+No file found matching /scratch/epd-store.db
+Failed to add file <action cmd="vmfile" options="MAXSIZE,IGNORE_ERROR,IGNORE_MISSING" path="/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/*.vmdk">: [Errno 16] Device or resource busy: '/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/SGRL-VCSA01_9-flat.vmdk'
+No file found matching /locker/epd/epd-store.db
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01/CD/*.vmdk
+No file found matching /epd/epd-store.db
+Failed to add file <action cmd="vmfile" options="MAXSIZE,IGNORE_ERROR,IGNORE_MISSING" path="/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001_1/*.vmdk">: [Errno 16] Device or resource busy: '/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001_1/SGRL-ADC001-000001-sesparse.vmdk'
+Cmd "/sbin/localcli vsan cluster get" failed with exit code 1
+Cmd "/sbin/localcli vsan cluster unicastagent list" failed with exit code 1
+Cmd "/sbin/localcli vsan perf status get" failed with exit code 1
+No file found matching /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA02/CD/*.vmdk
+Cmd "/sbin/localcli vsan debug controller list" failed with exit code 1
+Cmd "/sbin/localcli vsan debug disk list" failed with exit code 1
+Cmd "/sbin/localcli vsan debug limit get" failed with exit code 1
+Cmd "python ++group=vmsupport /usr/lib/vmware/vsan/esxcli/esxcli_vsan_debug.pyc sync.list --pyprint" failed with exit code 1
+Cmd "/sbin/localcli vsan debug resync summary get" failed with exit code 1
+Cmd "python ++group=vmsupport /usr/lib/vmware/vsan/esxcli/esxcli_vsan_debug.pyc objects.overview --pyprint --vmsupport" failed with exit code 1
+Cmd "/sbin/localcli ++group=vmsupport vsan debug object health summary get" failed with exit code 1
+Cmd "/sbin/cmmds-tool find -f python" failed with exit code 255
+Cmd "/sbin/cmmds-tool -f json readdump -p -d /scratch/log/cmmds.dump" failed with exit code 255
+Cmd "python ++group=vmsupport /usr/lib/vmware/vsan/esxcli/esxcli_vsan_debug.pyc objects.info --pyprint --vmsupport" failed with exit code 1
+Cmd "/sbin/cmmds-tool -f json readdump -p -d /scratch/log/cmmds.dump.backup" failed with exit code 255
+Cmd "/sbin/vsish -e get /vmkModules/tracing/stats" failed with exit code 2
+Cmd "/usr/lib/vmware/vsan/bin/clom-tool fitness-stats-get" failed with exit code 255
+Cmd "/usr/lib/vmware/vsan/bin/clom-tool fitness-config-get" failed with exit code 255
+Cmd "/sbin/localcli vsan debug memory list" failed with exit code 1
+Cmd "/usr/lib/vmware/vsan/bin/clom-tool stats" failed with exit code 255
+No file found matching /var/run/heaptrack/*
+No file found matching /var/log/vsantraces/vsantracesDP.index
+No file found matching /var/log/vsantraces/vsantracesDP--*.gz
+Cmd "/usr/lib/vmware/vsan/bin/vsandpd-support.py" failed with exit code 1
+Cmd "/sbin/localcli --plugin-dir /usr/lib/vmware/esxcli/int storage internal vvol daemon set --dump-objects" failed with exit code 1
+Cmd "/usr/lib/vmware/vm-support/bin/encryption-epilog.sh" returned no information, don't collect file commands/encryption-epilog.sh.txt for this cmd.

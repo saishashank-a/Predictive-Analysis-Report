@@ -1,0 +1,1 @@
+regtype=native,bus=logical,id=com.vmware.fcoe,driver=vmkfcoe

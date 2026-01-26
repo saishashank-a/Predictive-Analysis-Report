@@ -1,0 +1,12 @@
+WbemAgentConfig:
+   Authorization Model: password
+   CIM Object Manager PID: 0
+   Enabled: false
+   Enabled Running SSL Protocols: 
+   Enabled SSL Protocols: 
+   Enabled System SSL Protocols: tlsv1.2
+   Log level: warning
+   Port: 5989
+   Service Location Protocol PID: 0
+   WS-Management PID: 0
+   WS-Management Service: true

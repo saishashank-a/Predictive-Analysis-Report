@@ -1,0 +1,4 @@
+regtype=native,bus=logical,id=com.vmware.HBAPort,driver=vmkernel
+regtype=native,bus=logical,id=com.vmware.Virtual_HBAPort,driver=vmkernel
+regtype=native,bus=logical,id=com.vmware.graphics,driver=vmkernel
+regtype=native,bus=logical,id=com.vmware.uplink,driver=vmkernel

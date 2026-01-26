@@ -1,0 +1,67 @@
+2001-01-01T01:17:08Z ESXShell: ESXi Shell unavailable
+2001-01-01T00:02:41Z ESXShell: ESXi Shell unavailable
+2001-01-01T01:30:29Z ESXShell: ESXi shell login enabled
+2001-01-01T01:30:29Z ESXShell: ESXi Shell available
+2001-01-01T01:30:36Z SSH: SSH login enabled
+2001-01-01T01:37:05Z shell[2100700]: Interactive shell session started
+2001-01-01T01:37:20Z shell[2100700]: [root]: vmware -v
+2001-01-01T01:37:43Z shell[2100700]: [root]: esxcli software profile get
+2001-01-01T01:38:40Z shell[2100700]: [root]: esxcli network firewall ruleset set -e true -r httpClient
+2001-01-01T01:38:55Z shell[2100700]: [root]: esxcli software sources profile list -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml | grep ESXi-7.0U3
+2001-01-01T01:39:59Z shell[2100700]: [root]: esxcli software sources profile list -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml
+2001-01-01T01:40:18Z shell[2100700]: [root]: ping google.com
+2001-01-01T01:40:39Z shell[2100700]: [root]: esxcli software profile update -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml -p ESXi-7.0U2d-18538813-standard --dry-run
+2001-01-01T01:41:08Z shell[2100700]: [root]:  esxcli software profile update -d https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml -p ESXi-7.0U2d-18538813-standard --dry-run
+2001-01-01T01:41:11Z shell[2100700]: [root]:  [MetadataDownloadError]
+2001-01-01T01:41:11Z shell[2100700]: [root]:  Could not download from depot at https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml, skipping (('https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml', '', '<urlopen error [Errno -2] Name or service not known>'))
+2001-01-01T01:41:11Z shell[2100700]: [root]:         url = https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml
+2001-01-01T01:41:11Z shell[2100700]: [root]:  Please refer to the log file for more details.
+2001-01-01T01:42:02Z shell[2100700]: [root]: nslookup hostupdate.vmware.com
+2001-01-01T01:44:25Z shell[2100700]: [root]: esxcli software profile update -p ESXi-7.0U2d-18538813-standard -d /vmfs/volumes/datastore1/ISO_Files/VMWare/VMware-ESXi-7.0.3q-23794027-LNV-S09-20240902.zip
+2001-01-01T01:45:20Z shell[2100700]: [root]: esxcli software profile update -p ESXi-7.0.3q-23794027-standard -d /vmfs/volumes/datastore1/ISO_Files/VMWare/VMware-ESXi-7.0.3q-23794027-LNV-S09-20240902.zip
+2001-01-01T01:46:21Z shell[2100700]: [root]: esxcli software profile list  -d /vmfs/volumes/datastore1/ISO_Files/VMWare/VMware-ESXi-7.0.3q-23794027-LNV-S09-20240902.zip
+2001-01-01T01:46:38Z shell[2100700]: [root]: esxcli software source profile list -d /vmfs/volumes/datastore1/ISO_Files/VMWare/VMware-ESXi-7.0.3q-23794027-LNV-S09-20240902.zip
+2001-01-01T01:46:53Z shell[2100700]: [root]: esxcli software sources profile list -d /vmfs/volumes/datastore1/ISO_Files/VMWare/VMware-ESXi-7.0.3q-23794027-LNV-S09-20240902.zip
+2001-01-01T01:48:05Z shell[2100700]: [root]: esxcli software profile update -p LVO_7.0.3-LVO.703.10.17 -d /vmfs/volumes/datastore1/ISO_Files/VMWare/VMware-ESXi-7.0.3q-23794027-LNV-S09-20240902.zip
+2001-08-31T01:49:24Z shell[2100700]: [root]: esxcli software profile update -p LVO_7.0.3-LVO.703.10.17 -d /vmfs/volumes/datastore1/ISO_Files/VMWare/VMware-ESXi-7.0.3q-23794027-LNV-S09-20240902.zip
+2001-08-31T01:50:24Z shell[2100700]: [root]: esxcli software profile update -d /vmfs/volumes/datastore1/ISO_Files/VMWare/VMware-ESXi-7.0.3q-23794027-LNV-S09-20240902.zip -p LVO_7.0.3-LVO.703.10.17 --no-hardware-warning
+2001-08-31T01:51:01Z shell[2100700]: [root]: esxcli system settings kernel set -s allowLegacyCPU -v TRUE
+2001-08-31T01:51:17Z shell[2100700]: [root]: esxcli software profile update \
+2001-08-31T01:51:17Z shell[2100700]: [root]:   -d /vmfs/volumes/datastore1/ISO_Files/VMWare/VMware-ESXi-7.0.3q-23794027-LNV-S09-20240902.zip \
+2001-08-31T01:51:17Z shell[2100700]: [root]:   -p LVO_7.0.3-LVO.703.10.17 \
+2001-08-31T01:51:17Z shell[2100700]: [root]:   --no-hardware-warning
+2001-08-31T01:52:52Z shell[2100700]: [root]: esxcli system settings kernel set -s ignoreUnsupportedCPU -v TRUE
+2001-01-01T00:02:39Z ESXShell: ESXi Shell unavailable
+2001-01-01T00:02:45Z ESXShell: ESXi Shell unavailable
+2025-09-02T10:59:18Z ESXShell: ESXi Shell unavailable
+2001-01-01T00:02:47Z ESXShell: ESXi Shell unavailable
+2001-01-01T00:02:45Z ESXShell: ESXi Shell unavailable
+2001-01-01T00:02:46Z ESXShell: ESXi Shell unavailable
+2001-01-01T00:02:46Z ESXShell: ESXi Shell unavailable
+2001-01-01T00:02:40Z ESXShell: ESXi Shell unavailable
+2001-01-01T00:02:40Z ESXShell: ESXi Shell unavailable
+2001-01-01T00:02:41Z ESXShell: ESXi Shell unavailable
+2001-01-01T00:42:16Z ESXShell: ESXi Shell unavailable
+2001-01-01T00:07:00Z ESXShell: ESXi Shell unavailable
+2001-01-01T00:02:40Z ESXShell: ESXi Shell unavailable
+2001-01-01T00:02:38Z ESXShell: ESXi Shell unavailable
+2025-11-15T00:23:13Z ESXShell: ESXi Shell unavailable
+2025-11-15T06:07:14Z ESXShell: ESXi Shell unavailable
+2025-11-15T20:03:41Z ESXShell: ESXi Shell unavailable
+2025-11-16T05:14:43Z ESXShell: ESXi Shell unavailable
+2025-12-06T23:50:42Z ESXShell: ESXi Shell unavailable
+2025-12-08T11:31:51Z ESXShell: ESXi Shell unavailable
+2025-12-08T19:31:36Z ESXShell: ESXi Shell unavailable
+2025-12-10T13:09:02Z ESXShell: ESXi Shell unavailable
+2025-12-11T06:46:37Z ESXShell: ESXi Shell unavailable
+2025-12-18T19:29:39Z ESXShell: ESXi Shell unavailable
+2025-12-18T19:56:21Z ESXShell: ESXi Shell unavailable
+2025-12-18T19:58:10Z SSH: SSH login enabled
+2025-12-27T00:20:47Z SSH: SSH login enabled
+2025-12-27T00:21:06Z ESXShell: ESXi Shell unavailable
+2025-12-27T00:36:29Z SSH: SSH login disabled
+2025-12-27T00:44:35Z SSH: SSH login enabled
+2025-12-27T00:44:55Z ESXShell: ESXi Shell unavailable
+2025-12-27T05:33:55Z SSH: SSH login disabled
+2026-01-10T07:55:45Z SSH: SSH login enabled
+2026-01-10T07:56:05Z ESXShell: ESXi Shell unavailable

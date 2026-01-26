@@ -1,0 +1,16 @@
+% Manifest name: performance-start
+% Manifest group: PerformanceSnapshot
+% Manifest default: Disabled
+% Manifest tag: performance
+# Special manifest for performance snapshots
+#
+# When vm-support is run with --performonce, all the commands in this file
+# are executed at the start of each specified duration and interval
+# action Options file/command
+
+# Start scheduler stats
+run IGNORE_ERROR sched-stats -s 1
+
+# Reset and start vmkstats
+run IGNORE_ERROR /usr/lib/vmware/vmkstats/bin/vmkstatsdumper -r
+run IGNORE_ERROR /usr/lib/vmware/vmkstats/bin/vmkstatsdumper -b

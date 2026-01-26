@@ -1,0 +1,35 @@
+#
+# This file is mechanically generated.  Any changes you make
+# manually will be lost at the next build.
+#
+# Please edit <driver>_devices.py file for permanent changes.
+#
+# Vendors, devices and subsystems.
+#
+# Syntax (initial indentation must be done with TAB characters):
+#
+# vendor  vendor_name
+#       device  device_name                            <-- single TAB
+#               subvendor subdevice  subsystem_name    <-- two TABs
+
+1077  QLogic Inc.
+	16a1  QLogic 57840 10 Gigabit Ethernet Adapter
+	16a4  QLogic 57840 10/20 Gigabit Ethernet Multi Function Adapter
+	16ad  QLogic 10/20 Gigabit Ethernet Virtual Function
+14e4  QLogic Inc.
+	163d  QLogic 57811 10 Gigabit Ethernet Adapter
+	163e  QLogic 57811 10 Gigabit Ethernet Multi Function Adapter
+	1663  QLogic 57712 10 Gigabit Ethernet Multi Function Adapter
+	168a  QLogic 57800 10 Gigabit Ethernet Adapter
+		1028 1f67  QLogic 57800 1 Gigabit Ethernet Adapter
+		1028 1f68  QLogic 57800 1 Gigabit Ethernet Adapter
+		14e4 0200  QLogic 57800 1 Gigabit Ethernet Adapter
+		1bcf 805f  QLogic 57800 1 Gigabit Ethernet Adapter
+	168e  QLogic 57810 10 Gigabit Ethernet Adapter
+	16a1  QLogic 57840 10 Gigabit Ethernet Adapter
+	16a2  QLogic 57840 10/20 Gigabit Ethernet Adapter
+		103c 22fa  QLogic 57840 10 Gigabit Ethernet Adapter
+	16a4  QLogic 57840 10/20 Gigabit Ethernet Multi Function Adapter
+	16a5  QLogic 57800 10 Gigabit Ethernet Multi Function Adapter
+	16ad  QLogic 10/20 Gigabit Ethernet Virtual Function
+	16ae  QLogic 57810 10 Gigabit Ethernet Multi Function Adapter

@@ -1,0 +1,30 @@
+total 805
+      1      4 drwxr-xr-x    1 root     root           512 Jan 10 07:55 .
+      1      4 drwxr-xr-x    1 root     root           512 Jan 10 07:55 ..
+   4506      4 -r--r--r--    1 root     root            20 Jan 12  2022 .mtoolsrc
+   5322      4 lrwxrwxrwx    1 root     root            49 Jan 10 07:55 altbootbank -> /vmfs/volumes/5766f37e-4592eb56-f9ee-6436272ca19f
+     10      4 drwxr-xr-x    1 root     root           512 Jan 10 07:55 bin
+   5321      4 lrwxrwxrwx    1 root     root            49 Jan 10 07:55 bootbank -> /vmfs/volumes/66630e7d-33d835cd-586e-86703aad3a4f
+   4508    336 -r--r--r--    1 root     root        342321 Jan 12  2022 bootpart.gz
+   4507    224 -r--r--r--    1 root     root        226682 Jan 12  2022 bootpart4kn.gz
+      1      0 drwxr-xr-x   16 root     root           512 Jan 10 09:40 dev
+      2      4 drwxr-xr-x    1 root     root           512 Jan 10 08:03 etc
+     13      4 drwxr-xr-x    1 root     root           512 Jan 10 07:55 lib
+     12      4 drwxr-xr-x    1 root     root           512 Jan 10 07:55 lib64
+   5320     20 -r-x------    1 root     root         20004 Dec 27 05:33 local.tgz
+   5325      4 lrwxrwxrwx    1 root     root             6 Jan 10 07:55 locker -> /store
+   4505      4 drwxr-xr-x    1 root     root           512 Jan 10 07:55 mbr
+      3      4 drwxr-xr-x    1 root     root           512 Jan 10 07:55 opt
+72016948364192    128 drwxr-xr-x    1 root     root        131072 Jan 10 09:40 proc
+   5326      4 lrwxrwxrwx    1 root     root            29 Jan 10 07:55 productLocker -> /locker/packages/vmtoolsRepo/
+   1754      4 lrwxrwxrwx    1 root     root             4 Jan 12  2022 sbin -> /bin
+   5324      4 lrwxrwxrwx    1 root     root            49 Jan 10 07:55 scratch -> /vmfs/volumes/3a4fd8cf-6ef45abc-002e-5cf3fce846f8
+   5323      4 lrwxrwxrwx    1 root     root            49 Jan 10 07:55 store -> /vmfs/volumes/3a4fd8c6-3cd0683c-d0c1-5cf3fce846f8
+      5      4 drwxr-xr-x    1 root     root           512 Jan 10 07:55 tardisks
+      6      4 drwxr-xr-x    1 root     root           512 Jan 10 07:55 tardisks.noauto
+  40705      4 drwxrwxrwt    1 root     root           512 Jan 10 09:40 tmp
+     14      4 drwxr-xr-x    1 root     root           512 Jan 10 07:55 usr
+      4      4 drwxr-xr-x    1 root     root           512 Jan 10 07:55 var
+     18      4 drwxr-xr-x    1 root     root           512 Jan 10 07:55 vmfs
+     16      4 drwxr-xr-x    1 root     root           512 Jan 10 07:55 vmimages
+   1761      4 lrwxrwxrwx    1 root     root            18 Jan 12  2022 vmupgrade -> /locker/vmupgrade/

@@ -1,0 +1,10 @@
+<ConfigRoot>
+  <intervals>
+    <interval id="0000">
+      <name>RealTime</name>
+      <numSamples>180</numSamples>
+      <samplingPeriod>20</samplingPeriod>
+      <storeName>/var/lib/vmware/hostd/stats/hostAgentStats-20.stats</storeName>
+    </interval>
+  </intervals>
+</ConfigRoot>

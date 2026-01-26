@@ -1,0 +1,471 @@
+
+[
+
+      {
+         "Class": "runtime",
+         "Matches": "transport=usb",
+         "Plugin": "NMP",
+         "Rule": 50,
+         "Rule Class": "MP",
+         "Type": "transport",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "runtime",
+         "Matches": "transport=sata",
+         "Plugin": "NMP",
+         "Rule": 51,
+         "Rule Class": "MP",
+         "Type": "transport",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "runtime",
+         "Matches": "transport=ide",
+         "Plugin": "NMP",
+         "Rule": 52,
+         "Rule Class": "MP",
+         "Type": "transport",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "runtime",
+         "Matches": "transport=block",
+         "Plugin": "NMP",
+         "Rule": 53,
+         "Rule Class": "MP",
+         "Type": "transport",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "runtime",
+         "Matches": "transport=unknown",
+         "Plugin": "NMP",
+         "Rule": 54,
+         "Rule Class": "MP",
+         "Type": "transport",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "runtime",
+         "Matches": "vendor=DELL model=Universal Xport",
+         "Plugin": "MASK_PATH",
+         "Rule": 101,
+         "Rule Class": "MP",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "file",
+         "Matches": "vendor=DELL model=Universal Xport",
+         "Plugin": "MASK_PATH",
+         "Rule": 101,
+         "Rule Class": "MP",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "runtime",
+         "Matches": "vendor=* model=*",
+         "Plugin": "NMP",
+         "Rule": 65535,
+         "Rule Class": "MP",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "runtime",
+         "Matches": "vendor=MSFT model=Virtual HD",
+         "Plugin": "VAAI_FILTER",
+         "Rule": 65429,
+         "Rule Class": "Filter",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "file",
+         "Matches": "vendor=MSFT model=Virtual HD",
+         "Plugin": "VAAI_FILTER",
+         "Rule": 65429,
+         "Rule Class": "Filter",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "runtime",
+         "Matches": "vendor=EMC model=SYMMETRIX",
+         "Plugin": "VAAI_FILTER",
+         "Rule": 65430,
+         "Rule Class": "Filter",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "file",
+         "Matches": "vendor=EMC model=SYMMETRIX",
+         "Plugin": "VAAI_FILTER",
+         "Rule": 65430,
+         "Rule Class": "Filter",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "runtime",
+         "Matches": "vendor=DGC model=*",
+         "Plugin": "VAAI_FILTER",
+         "Rule": 65431,
+         "Rule Class": "Filter",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "file",
+         "Matches": "vendor=DGC model=*",
+         "Plugin": "VAAI_FILTER",
+         "Rule": 65431,
+         "Rule Class": "Filter",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "runtime",
+         "Matches": "vendor=EQLOGIC model=*",
+         "Plugin": "VAAI_FILTER",
+         "Rule": 65432,
+         "Rule Class": "Filter",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "file",
+         "Matches": "vendor=EQLOGIC model=*",
+         "Plugin": "VAAI_FILTER",
+         "Rule": 65432,
+         "Rule Class": "Filter",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "runtime",
+         "Matches": "vendor=NETAPP model=LUN*",
+         "Plugin": "VAAI_FILTER",
+         "Rule": 65433,
+         "Rule Class": "Filter",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "file",
+         "Matches": "vendor=NETAPP model=LUN*",
+         "Plugin": "VAAI_FILTER",
+         "Rule": 65433,
+         "Rule Class": "Filter",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "runtime",
+         "Matches": "vendor=HITACHI model=*",
+         "Plugin": "VAAI_FILTER",
+         "Rule": 65434,
+         "Rule Class": "Filter",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "file",
+         "Matches": "vendor=HITACHI model=*",
+         "Plugin": "VAAI_FILTER",
+         "Rule": 65434,
+         "Rule Class": "Filter",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "runtime",
+         "Matches": "vendor=LEFTHAND model=*",
+         "Plugin": "VAAI_FILTER",
+         "Rule": 65435,
+         "Rule Class": "Filter",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "file",
+         "Matches": "vendor=LEFTHAND model=*",
+         "Plugin": "VAAI_FILTER",
+         "Rule": 65435,
+         "Rule Class": "Filter",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "runtime",
+         "Matches": "vendor=MSFT model=Virtual HD",
+         "Plugin": "VMW_VAAIP_MASK",
+         "Rule": 65429,
+         "Rule Class": "VAAI",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "file",
+         "Matches": "vendor=MSFT model=Virtual HD",
+         "Plugin": "VMW_VAAIP_MASK",
+         "Rule": 65429,
+         "Rule Class": "VAAI",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "runtime",
+         "Matches": "vendor=EMC model=SYMMETRIX",
+         "Plugin": "VMW_VAAIP_SYMM",
+         "Rule": 65430,
+         "Rule Class": "VAAI",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "file",
+         "Matches": "vendor=EMC model=SYMMETRIX",
+         "Plugin": "VMW_VAAIP_SYMM",
+         "Rule": 65430,
+         "Rule Class": "VAAI",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "runtime",
+         "Matches": "vendor=DGC model=*",
+         "Plugin": "VMW_VAAIP_CX",
+         "Rule": 65431,
+         "Rule Class": "VAAI",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "file",
+         "Matches": "vendor=DGC model=*",
+         "Plugin": "VMW_VAAIP_CX",
+         "Rule": 65431,
+         "Rule Class": "VAAI",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "runtime",
+         "Matches": "vendor=EQLOGIC model=*",
+         "Plugin": "VMW_VAAIP_EQL",
+         "Rule": 65432,
+         "Rule Class": "VAAI",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "file",
+         "Matches": "vendor=EQLOGIC model=*",
+         "Plugin": "VMW_VAAIP_EQL",
+         "Rule": 65432,
+         "Rule Class": "VAAI",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "runtime",
+         "Matches": "vendor=NETAPP model=LUN*",
+         "Plugin": "VMW_VAAIP_NETAPP",
+         "Rule": 65433,
+         "Rule Class": "VAAI",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "file",
+         "Matches": "vendor=NETAPP model=LUN*",
+         "Plugin": "VMW_VAAIP_NETAPP",
+         "Rule": 65433,
+         "Rule Class": "VAAI",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "runtime",
+         "Matches": "vendor=HITACHI model=*",
+         "Plugin": "VMW_VAAIP_HDS",
+         "Rule": 65434,
+         "Rule Class": "VAAI",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "file",
+         "Matches": "vendor=HITACHI model=*",
+         "Plugin": "VMW_VAAIP_HDS",
+         "Rule": 65434,
+         "Rule Class": "VAAI",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "runtime",
+         "Matches": "vendor=LEFTHAND model=*",
+         "Plugin": "VMW_VAAIP_LHN",
+         "Rule": 65435,
+         "Rule Class": "VAAI",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }, 
+
+      {
+         "Class": "file",
+         "Matches": "vendor=LEFTHAND model=*",
+         "Plugin": "VMW_VAAIP_LHN",
+         "Rule": 65435,
+         "Rule Class": "VAAI",
+         "Type": "vendor",
+         "XCOPY Max Transfer Size": 0,
+         "XCOPY Max Transfer Size KiB": 0,
+         "XCOPY Use Array Reported Values": false,
+         "XCOPY Use Multiple Segments": false
+      }
+]

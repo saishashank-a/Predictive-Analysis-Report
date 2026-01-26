@@ -1,0 +1,11 @@
+% Manifest name: Catalog
+% Manifest group: Fcd
+% Manifest default: Enabled
+% Manifest tag: base
+# action Options file/command
+
+#
+# Collect catalog from all datastores
+#
+run   IGNORE_ERROR,EXTENSION=tgz  /usr/lib/vmware/vm-support/bin/fcdInfo.py
+

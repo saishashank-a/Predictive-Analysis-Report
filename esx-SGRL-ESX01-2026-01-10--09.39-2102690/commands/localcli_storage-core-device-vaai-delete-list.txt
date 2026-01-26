@@ -1,0 +1,3 @@
+Device                                Max LBA Count  Max Block Desc Count (in blocks)  Optimal Granularity (in blocks)  UGA Valid  Granularity Alignment (in blocks)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+naa.600605b004213bc001e293503af49afb  N/A            N/A                               N/A                              N/A        N/A

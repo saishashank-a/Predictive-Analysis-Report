@@ -1,0 +1,376 @@
+2026-01-10 09:39:19.435850: <action cmd="run" options="RELOCATE" path="/usr/lib/vmware/vm-support/bin/encryption-prolog.sh"> (/etc/vmware/vm-support/vm-support-prolog.mfx) took 0.000 sec
+2026-01-10 09:39:19.491982: <action cmd="prune" options="IGNORE_MISSING" path="/var/run/log/vit.conf.backup"> (/etc/vmware/vm-support/system-logs.mfx) took 0.000 sec
+2026-01-10 09:39:19.492289: <action cmd="censor" options="CENSOR_RULE" path="*firstboot.json"> (/etc/vmware/vm-support/installer.mfx) took 0.000 sec
+2026-01-10 09:39:19.492631: <action cmd="prune" options="-" path="/etc/likewise/db/registry.db"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.492863: <action cmd="prune" options="-" path="/etc/vmware/vmware.lic"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.493231: <action cmd="prune" options="-" path="/etc/passwd"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.493429: <action cmd="prune" options="-" path="/etc/shadow"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.493667: <action cmd="prune" options="-" path="/etc/ssh/ssh_host_rsa_key"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.493851: <action cmd="prune" options="-" path="/etc/ssh/ssh_host_dsa_key"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.494163: <action cmd="prune" options="-" path="/etc/vmware/dvsdata.db"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.494354: <action cmd="prune" options="-" path="/etc/vmware/hostprofile.xml.gz"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.494589: <action cmd="prune" options="-" path="/etc/vmware/answerfile.xml.gz"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.494768: <action cmd="prune" options="-" path="/etc/vmware/nas/.#nas.conf"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.495076: <action cmd="prune" options="-" path="/etc/vmware/nas/nas.conf"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.495266: <action cmd="prune" options="-" path="/etc/vmware/vsan/.#vsan_kms_pwd"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.495499: <action cmd="prune" options="-" path="/etc/vmware/ssl/.#vsanvp_castore.pem"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.495680: <action cmd="prune" options="-" path="/etc/vmware/ssl/.#vsanvp.pem"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.495994: <action cmd="prune" options="-" path="/etc/vmware/ssl/.#vsan_kms_castore_old.pem"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.496184: <action cmd="prune" options="-" path="/etc/vmware/ssl/.#vsan_kms_castore.pem"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.496418: <action cmd="prune" options="-" path="/etc/vmware/ssl/.#vsan_kms_client_old.crt"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.496601: <action cmd="prune" options="-" path="/etc/vmware/ssl/.#vsan_kms_client.crt"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.496929: <action cmd="prune" options="-" path="/etc/vmware/ssl/.#vsan_kms_client.key"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.497120: <action cmd="prune" options="-" path="/etc/vmware/ssl/.#vsan_kms_client_old.key"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.497359: <action cmd="prune" options="-" path="/etc/vmware/vsan/vsan_kms_pwd"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.497543: <action cmd="prune" options="-" path="/etc/vmware/ssl/vsanvp_castore.pem"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.497855: <action cmd="prune" options="-" path="/etc/vmware/ssl/vsanvp.pem"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.498046: <action cmd="prune" options="-" path="/etc/vmware/ssl/vsan_kms_castore_old.pem"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.498282: <action cmd="prune" options="-" path="/etc/vmware/ssl/vsan_kms_castore.pem"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.498464: <action cmd="prune" options="-" path="/etc/vmware/ssl/vsan_kms_client_old.crt"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.498786: <action cmd="prune" options="-" path="/etc/vmware/ssl/vsan_kms_client.crt"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.498983: <action cmd="prune" options="-" path="/etc/vmware/ssl/vsan_kms_client_old.key"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.499221: <action cmd="prune" options="-" path="/etc/vmware/ssl/vsan_kms_client.key"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.499401: <action cmd="prune" options="-" path="/etc/vmware/ssl/.#rui.bak"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.499712: <action cmd="prune" options="-" path="/etc/vmware/ssl/.#rui.key"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.499901: <action cmd="prune" options="-" path="/etc/vmware/ssl/.#rui.crt"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.500134: <action cmd="prune" options="-" path="/etc/vmware/vmkiscsid/.#vmkiscsid.db"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.500313: <action cmd="prune" options="-" path="/etc/vmware/ssl/vsanvp_secret"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.500617: <action cmd="prune" options="-" path="/etc/vmware/ssl/rui.bak"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.500803: <action cmd="prune" options="-" path="/etc/vmware/ssl/rui.key"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.501035: <action cmd="prune" options="-" path="/etc/vmware/ssl/rui.crt"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.501220: <action cmd="prune" options="-" path="/etc/vmware/ssl/.#iofiltervp_castore.pem"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.501543: <action cmd="prune" options="-" path="/etc/vmware/ssl/iofiltervp_castore.pem"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.501737: <action cmd="prune" options="-" path="/etc/vmware/ssl/iofiltervp.pem"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.501973: <action cmd="prune" options="-" path="/etc/vmware/vmkiscsid/vmkiscsid.db"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:39:19.502153: <action cmd="run" options="IGNORE_ERROR" path="/usr/lib/vmware/likewise/bin/lw-lsa get-metrics"> (/etc/vmware/vm-support/ad.mfx) took 0.000 sec
+2026-01-10 09:39:19.518578: <action cmd="run" options="-" path="vmware -vl"> (/etc/vmware/vm-support/base.mfx) took 0.000 sec
+2026-01-10 09:39:19.510767: <action cmd="run" options="IGNORE_ERROR" path="/usr/lib/vmware/likewise/bin/lw-lsa trace-info"> (/etc/vmware/vm-support/ad.mfx) took 0.000 sec
+2026-01-10 09:39:19.509045: <action cmd="run" options="IGNORE_ERROR" path="/usr/lib/vmware/likewise/bin/lw-lsa get-status"> (/etc/vmware/vm-support/ad.mfx) took 0.000 sec
+2026-01-10 09:39:19.557120: <action cmd="run" options="-" path="/bin/date"> (/etc/vmware/vm-support/base.mfx) took 0.000 sec
+2026-01-10 09:39:19.568912: <action cmd="run" options="-" path="uname -a"> (/etc/vmware/vm-support/base.mfx) took 0.000 sec
+2026-01-10 09:39:19.557851: <action cmd="run" options="-" path="/usr/sbin/localcli system stats uptime get"> (/etc/vmware/vm-support/base.mfx) took 0.000 sec
+2026-01-10 09:39:20.187481: <action cmd="run" options="TIMEOUT" path="/usr/sbin/localcli system coredump partition get"> (/etc/vmware/vm-support/base.mfx) took 0.000 sec
+2026-01-10 09:39:20.471603: <action cmd="run" options="TIMEOUT" path="/usr/sbin/localcli system coredump partition list"> (/etc/vmware/vm-support/base.mfx) took 0.000 sec
+2026-01-10 09:39:20.886238: <action cmd="run" options="TIMEOUT" path="/usr/sbin/localcli system coredump file get"> (/etc/vmware/vm-support/base.mfx) took 0.000 sec
+2026-01-10 09:39:21.296523: <action cmd="run" options="TIMEOUT" path="/usr/sbin/localcli system coredump file list"> (/etc/vmware/vm-support/base.mfx) took 0.000 sec
+2026-01-10 09:39:21.752559: <action cmd="run" options="TIMEOUT" path="/usr/sbin/localcli --plugin-dir /usr/lib/vmware/esxcli/int systemInternal coredump configuration check"> (/etc/vmware/vm-support/base.mfx) took 2.000 sec
+2026-01-10 09:39:24.615016: <action cmd="run" options="-" path="/usr/sbin/vmkerrcode -l"> (/etc/vmware/vm-support/base.mfx) took 0.000 sec
+2026-01-10 09:39:24.760337: <action cmd="run" options="-" path="/usr/sbin/secpolicytools -d"> (/etc/vmware/vm-support/base.mfx) took 0.000 sec
+2026-01-10 09:39:24.949669: <action cmd="run" options="-" path="/sbin/bootOption -oC"> (/etc/vmware/vm-support/base.mfx) took 0.000 sec
+2026-01-10 09:39:19.577678: <action cmd="run" options="TIMEOUT" path="/usr/sbin/esxcfg-info -a"> (/etc/vmware/vm-support/base.mfx) took 8.000 sec
+2026-01-10 09:39:27.806189: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/bin/localcli hardware ipmi bmc get"> (/etc/vmware/vm-support/cim.mfx) took 0.000 sec
+2026-01-10 09:39:19.585102: <action cmd="run" options="TIMEOUT" path="/usr/sbin/esxcfg-info -a -F 'xml'"> (/etc/vmware/vm-support/base.mfx) took 8.000 sec
+2026-01-10 09:39:19.549145: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/sbin/vsi_traverse -s"> (/etc/vmware/vm-support/base.mfx) took 18.000 sec
+2026-01-10 09:39:25.084696: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/sbin/vsi_traverse -s -l 0"> (/etc/vmware/vm-support/base.mfx) took 20.000 sec
+2026-01-10 09:39:38.275692: <action cmd="run" options="TIMEOUT" path="/bin/localcli hardware ipmi sdr get -p -i -n all"> (/etc/vmware/vm-support/cim.mfx) took 13.000 sec
+2026-01-10 09:39:46.054342: <action cmd="run" options="TIMEOUT" path="/bin/localcli hardware ipmi sdr list -p -i -n all"> (/etc/vmware/vm-support/cim.mfx) took 21.000 sec
+2026-01-10 09:39:51.372340: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/bin/localcli hardware ipmi fru get -p -i -n all"> (/etc/vmware/vm-support/cim.mfx) took 22.000 sec
+2026-01-10 09:40:13.673703: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/bin/localcli graphics device stats list"> (/etc/vmware/vm-support/cim.mfx) took 0.000 sec
+2026-01-10 09:40:13.909998: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/bin/localcli system slp stats get"> (/etc/vmware/vm-support/cim.mfx) took 7.000 sec
+2026-01-10 09:40:21.063078: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/bin/localcli system slp search"> (/etc/vmware/vm-support/cim.mfx) took 3.000 sec
+2026-01-10 09:40:24.467863: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/bin/localcli system wbem get"> (/etc/vmware/vm-support/cim.mfx) took 0.000 sec
+2026-01-10 09:40:24.616524: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/bin/localcli system wbem provider list"> (/etc/vmware/vm-support/cim.mfx) took 0.000 sec
+2026-01-10 09:39:28.187735: <action cmd="run" options="TIMEOUT" path="/bin/localcli hardware ipmi sel get -p -i -n all"> (/etc/vmware/vm-support/cim.mfx) took 62.000 sec
+2026-01-10 09:40:30.620332: <action cmd="copy" options="IGNORE_MISSING" path="/etc/sfcb/sfcb.cfg"> (/etc/vmware/vm-support/cim.mfx) took 0.000 sec
+2026-01-10 09:40:30.626599: <action cmd="copy" options="IGNORE_MISSING" path="/etc/openwsman/openwsman.conf"> (/etc/vmware/vm-support/cim.mfx) took 0.000 sec
+2026-01-10 09:40:30.626892: <action cmd="copy" options="IGNORE_MISSING" path="/etc/openwsman/identify.xml"> (/etc/vmware/vm-support/cim.mfx) took 0.000 sec
+2026-01-10 09:40:30.629452: <action cmd="copy" options="IGNORE_MISSING" path="/etc/openwsman/subscriptions"> (/etc/vmware/vm-support/cim.mfx) took 0.000 sec
+2026-01-10 09:40:30.631572: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/bin/cim-diagnostic.sh"> (/etc/vmware/vm-support/cim.mfx) took 0.000 sec
+2026-01-10 09:40:30.645692: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/usr/lib/vmware/vm-support/bin/swfw.sh"> (/etc/vmware/vm-support/cim.mfx) took 0.000 sec
+2026-01-10 09:40:30.706104: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/bin/indcfg --list --debug"> (/etc/vmware/vm-support/cim.mfx) took 0.000 sec
+2026-01-10 09:40:30.746908: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/bin/localcli system settings advanced list -o /UserVars/HardwareHealthIgnoreSensor"> (/etc/vmware/vm-support/cim.mfx) took 0.000 sec
+2026-01-10 09:40:30.897029: <action cmd="copy" options="IGNORE_MISSING" path="/usr/lib/vmware/licenses/site/*"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:31.003664: <action cmd="copy" options="IGNORE_MISSING" path="/tmp/vmware-*"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:31.004655: <action cmd="copy" options="IGNORE_MISSING" path="/root/ks.cfg"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:31.004888: <action cmd="copy" options="IGNORE_MISSING" path="/etc/opt/vmware/"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:31.005122: <action cmd="copy" options="IGNORE_MISSING" path="/etc/vmkiscsi.conf"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:31.005460: <action cmd="copy" options="IGNORE_MISSING" path="/etc/initiatorname.vmkiscsi"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:31.005621: <action cmd="copy" options="IGNORE_MISSING" path="/tmp/dumppart.log"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:31.005801: <action cmd="copy" options="-" path="/var/run/inetd.conf"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:31.007632: <action cmd="copy" options="RECURSE,IGNORE_ERROR,IGNORE_MISSING" path="/etc/vmware/"> (/etc/vmware/vm-support/config-system.mfx) took 1.000 sec
+2026-01-10 09:40:32.030225: <action cmd="copy" options="RECURSE" path="/etc/likewise/"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.041189: <action cmd="copy" options="-" path="/etc/vmsyslog.conf"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.042678: <action cmd="copy" options="-" path="/etc/vmsyslog.conf.d/*"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.123874: <action cmd="copy" options="-" path="/etc/security/"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.124116: <action cmd="copy" options="-" path="/etc/resolv.conf"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.125816: <action cmd="copy" options="-" path="/etc/rc.local"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.127574: <action cmd="copy" options="RECURSE,IGNORE_MISSING" path="/etc/rc.local.d/"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.136227: <action cmd="copy" options="-" path="/etc/pam.d/"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.136467: <action cmd="copy" options="IGNORE_MISSING" path="/etc/opt/vmware/vpxa/vpxa.cfg"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.136648: <action cmd="copy" options="-" path="/etc/host.conf"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.138375: <action cmd="copy" options="-" path="/etc/nsswitch.conf"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.140115: <action cmd="copy" options="-" path="/etc/inittab"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.141875: <action cmd="copy" options="-" path="/etc/hosts"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.143611: <action cmd="copy" options="-" path="/etc/group"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.145358: <action cmd="copy" options="-" path="/etc/krb5.conf"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.147111: <action cmd="copy" options="-" path="/etc/chkconfig.db"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.148863: <action cmd="run" options="RELOCATE,IGNORE_ERROR" path="/usr/lib/vmware/vm-support/bin/localtgz.sh"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.516940: <action cmd="run" options="RELOCATE,IGNORE_ERROR" path="/usr/lib/vmware/vm-support/bin/altlocaltgz.sh"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.549133: <action cmd="copy" options="TIMEOUT,IGNORE_MISSING" path="/bootbank/boot.cfg"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.559414: <action cmd="copy" options="TIMEOUT,IGNORE_MISSING" path="/altbootbank/boot.cfg"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.569508: <action cmd="copy" options="TIMEOUT,IGNORE_MISSING" path="/bootbank/m.z"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.570002: <action cmd="copy" options="TIMEOUT,IGNORE_MISSING" path="/bootbank/imgdb.tgz"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.606974: <action cmd="copy" options="TIMEOUT,IGNORE_MISSING" path="/altbootbank/imgdb.tgz"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.607499: <action cmd="copy" options="IGNORE_MISSING" path="/usr/share/hwdata/fallback.pciids.d/*"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.607708: <action cmd="copy" options="IGNORE_MISSING" path="/usr/share/hwdata/driver.pciids.d/*"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:24.763954: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/bin/sensord -v -l -D"> (/etc/vmware/vm-support/cim.mfx) took 7.000 sec
+2026-01-10 09:40:32.763001: <action cmd="copy" options="IGNORE_MISSING" path="/usr/share/hwdata/ihv.pciids.d/*"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.776703: <action cmd="copy" options="IGNORE_MISSING" path="/usr/share/hwdata/oem.pciids.d/*"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.711219: <action cmd="copy" options="IGNORE_MISSING" path="/usr/share/hwdata/default.pciids.d/*"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.777003: <action cmd="run" options="-" path="/sbin/localcli system settings kernel list -d"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.792975: <action cmd="run" options="-" path="/sbin/localcli system settings advanced list -d"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:32.970823: <action cmd="copy" options="IGNORE_MISSING" path="/var/run/log/esxupdate.log"> (/etc/vmware/vm-support/esxsoftware.mfx) took 0.000 sec
+2026-01-10 09:40:32.956831: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/sbin/localcli --plugin-dir /usr/lib/vmware/esxcli/int device driver list"> (/etc/vmware/vm-support/config-system.mfx) took 0.000 sec
+2026-01-10 09:40:07.585896: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/bin/localcli hardware ipmi fru list -p -i -n all"> (/etc/vmware/vm-support/cim.mfx) took 27.000 sec
+2026-01-10 09:40:33.008752: <action cmd="run" options="DUMP_JSON" path="localcli software acceptance get"> (/etc/vmware/vm-support/esxsoftware.mfx) took 3.000 sec
+2026-01-10 09:40:33.205485: <action cmd="run" options="DUMP_JSON" path="localcli software profile get"> (/etc/vmware/vm-support/esxsoftware.mfx) took 3.000 sec
+2026-01-10 09:40:35.437534: <action cmd="run" options="DUMP_JSON" path="localcli software vib get"> (/etc/vmware/vm-support/esxsoftware.mfx) took 3.000 sec
+2026-01-10 09:40:36.602846: <action cmd="run" options="DUMP_JSON" path="localcli software vib list"> (/etc/vmware/vm-support/esxsoftware.mfx) took 3.000 sec
+2026-01-10 09:40:36.817359: <action cmd="run" options="DUMP_JSON" path="localcli software profile get --rebooting-image"> (/etc/vmware/vm-support/esxsoftware.mfx) took 3.000 sec
+2026-01-10 09:40:40.403064: <action cmd="copy" options="IGNORE_MISSING" path="/etc/vmware/vsphereFeatures/vsphereFeatures.cfg"> (/etc/vmware/vm-support/feature-state-switch.mfx) took 0.000 sec
+2026-01-10 09:40:40.403428: <action cmd="run" options="TIMEOUT" path="df"> (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2026-01-10 09:40:40.317390: <action cmd="run" options="EXTENSION,IGNORE_ERROR" path="/usr/lib/vmware/vm-support/bin/fcdInfo.py"> (/etc/vmware/vm-support/fcd.mfx) took 0.000 sec
+2026-01-10 09:40:41.090634: <action cmd="run" options="-" path="ls -isla /"> (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2026-01-10 09:40:41.099105: <action cmd="run" options="-" path="ls -islR /dev"> (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2026-01-10 09:40:41.107517: <action cmd="run" options="TIMEOUT" path="ls -isl /vmfs/volumes"> (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2026-01-10 09:39:28.358007: <action cmd="run" options="TIMEOUT" path="/bin/localcli hardware ipmi sel list -p -i -n all"> (/etc/vmware/vm-support/cim.mfx) took 74.000 sec
+2026-01-10 09:40:39.237206: <action cmd="run" options="DUMP_JSON" path="localcli software vib get --rebooting-image"> (/etc/vmware/vm-support/esxsoftware.mfx) took 3.000 sec
+2026-01-10 09:40:42.788197: <action cmd="run" options="TIMEOUT,IGNORE_ERROR,SERIALIZED" path="vmkvsitools lsof"> (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2026-01-10 09:40:42.843577: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/bin/vdu -a /"> (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2026-01-10 09:40:42.844601: <action cmd="run" options="DUMP_JSON,IGNORE_ERROR" path="/usr/sbin/localcli system visorfs get"> (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2026-01-10 09:40:42.845300: <action cmd="run" options="DUMP_JSON,IGNORE_ERROR" path="/usr/sbin/localcli system visorfs ramdisk list"> (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2026-01-10 09:40:42.853661: <action cmd="run" options="DUMP_JSON,IGNORE_ERROR" path="/usr/sbin/localcli system visorfs tardisk list"> (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2026-01-10 09:40:43.037157: <action cmd="run" options="TIMEOUT,DUMP_JSON" path="/usr/sbin/localcli storage filesystem list -i"> (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2026-01-10 09:40:43.154798: <action cmd="run" options="TIMEOUT,DUMP_JSON" path="/usr/sbin/localcli storage vmfs snapshot list"> (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2026-01-10 09:40:43.162745: <action cmd="run" options="TIMEOUT,DUMP_JSON" path="/usr/sbin/localcli storage vmfs extent list"> (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2026-01-10 09:40:43.170741: <action cmd="run" options="TIMEOUT,DUMP_JSON" path="/usr/sbin/localcli storage vmfs lockmode list -i"> (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2026-01-10 09:40:43.483574: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="vmkfstools -P -v 10 /bootbank"> (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2026-01-10 09:40:43.488143: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="vmkfstools -P -v 10 /altbootbank"> (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2026-01-10 09:40:43.545567: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="vmkfstools -P -v 10 /scratch"> (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2026-01-10 09:40:43.557828: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="vmkfstools -P -v 10 /productLocker"> (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2026-01-10 09:40:43.609680: <action cmd="run" options="RELOCATE,IGNORE_MISSING,IGNORE_ERROR" path="/usr/lib/vmware/vm-support/bin/dump-vvol-traces.sh"> (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2026-01-10 09:40:43.627386: <action cmd="run" options="IGNORE_ERROR" path="/sbin/smbiosDump"> (/etc/vmware/vm-support/hardware.mfx) took 0.000 sec
+2026-01-10 09:40:43.643542: <action cmd="run" options="RELOCATE,IGNORE_ERROR" path="/bin/cat /dev/char/mem/smbios"> (/etc/vmware/vm-support/hardware.mfx) took 0.000 sec
+2026-01-10 09:40:43.599522: <action cmd="run" options="RELOCATE,IGNORE_ERROR" path="/usr/lib/vmware/vm-support/bin/dump-vmfs-traces.sh"> (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2026-01-10 09:40:43.655762: <action cmd="run" options="-" path="/sbin/lspci"> (/etc/vmware/vm-support/hardware.mfx) took 0.000 sec
+2026-01-10 09:40:43.662572: <action cmd="run" options="-" path="/sbin/lspci -v"> (/etc/vmware/vm-support/hardware.mfx) took 0.000 sec
+2026-01-10 09:40:43.386228: <action cmd="vmfscmd" options="TIMEOUT,IGNORE_ERROR" path="vmkfstools -P -v 10 "/vmfs/volumes/{VMFS}""> (/etc/vmware/vm-support/filesystem.mfx) took 0.000 sec
+2026-01-10 09:40:43.723374: <action cmd="run" options="-" path="/bin/irqinfo"> (/etc/vmware/vm-support/hardware.mfx) took 0.000 sec
+2026-01-10 09:40:43.725100: <action cmd="run" options="-" path="/usr/lib/vmware/vmkmgmt_keyval/vmkmgmt_keyval -a"> (/etc/vmware/vm-support/hardware.mfx) took 0.000 sec
+2026-01-10 09:40:43.762557: <action cmd="safecopy" options="IGNORE_MISSING" path="/var/lib/vmware/hostprofiles/statusData"> (/etc/vmware/vm-support/hostProfiles.mfx) took 0.000 sec
+2026-01-10 09:40:43.753176: <action cmd="safecopy" options="RECURSE" path="/proc/"> (/etc/vmware/vm-support/hardware.mfx) took 0.000 sec
+2026-01-10 09:40:43.794323: <action cmd="run" options="RELOCATE,IGNORE_ERROR" path="/usr/lib/vmware/vm-support/bin/extract_hp_docs.py /etc/vmware/hostprofile.xml.gz"> (/etc/vmware/vm-support/hostProfiles.mfx) took 0.000 sec
+2026-01-10 09:40:43.885935: <action cmd="run" options="RELOCATE,IGNORE_ERROR" path="/usr/lib/vmware/vm-support/bin/extract_hp_docs.py /etc/vmware/answerfile.xml.gz"> (/etc/vmware/vm-support/hostProfiles.mfx) took 0.000 sec
+2026-01-10 09:40:43.978026: <action cmd="copy" options="-" path="/etc/vmware/hostd/vmInventory.xml"> (/etc/vmware/vm-support/hostd.mfx) took 0.000 sec
+2026-01-10 09:40:43.980913: <action cmd="copy" options="-" path="/var/lib/vmware/hostd/stats/hostAgentStats.*"> (/etc/vmware/vm-support/hostd.mfx) took 0.000 sec
+2026-01-10 09:40:43.754184: <action cmd="run" options="DUMP_JSON,IGNORE_ERROR" path="/usr/sbin/localcli hardware trustedboot get"> (/etc/vmware/vm-support/hardware.mfx) took 0.000 sec
+2026-01-10 09:40:44.049676: <action cmd="run" options="TIMEOUT" path="/bin/vim-cmd -U dcui internalsvc/perfcount/scoreboard"> (/etc/vmware/vm-support/hostd.mfx) took 0.000 sec
+2026-01-10 09:40:44.461844: <action cmd="run" options="IGNORE_ERROR" path="/usr/lib/vmware/vm-support/bin/hostd.sh"> (/etc/vmware/vm-support/hostd.mfx) took 0.000 sec
+2026-01-10 09:40:44.515772: <action cmd="copy" options="IGNORE_MISSING" path="/var/run/log/hostd-probed-*"> (/etc/vmware/vm-support/hostd.mfx) took 0.000 sec
+2026-01-10 09:40:44.517932: <action cmd="copy" options="CENSOR_TARBALL,IGNORE_MISSING" path="/bootbank/onetime.tgz"> (/etc/vmware/vm-support/installer.mfx) took 0.000 sec
+2026-01-10 09:40:44.539511: <action cmd="copy" options="CENSOR_TARBALL,IGNORE_MISSING" path="/altbootbank/onetime.tgz"> (/etc/vmware/vm-support/installer.mfx) took 0.000 sec
+2026-01-10 09:40:44.541396: <action cmd="run" options="TIMEOUT" path="/usr/sbin/localcli storage iofilter list"> (/etc/vmware/vm-support/iofilter.mfx) took 0.000 sec
+2026-01-10 09:40:44.751849: <action cmd="copy" options="TIMEOUT,RECURSE,IGNORE_MISSING" path="/scratch/vmware/loadESX/"> (/etc/vmware/vm-support/loadesx.mfx) took 0.000 sec
+2026-01-10 09:40:44.786034: <action cmd="run" options="-" path="sh -c '/bin/md5sum $(find /bin/ -type f)'"> (/etc/vmware/vm-support/md5sums.mfx) took 0.000 sec
+2026-01-10 09:40:45.317962: <action cmd="run" options="-" path="sh -c '/bin/md5sum $(find /sbin/ -type f)'"> (/etc/vmware/vm-support/md5sums.mfx) took 0.000 sec
+2026-01-10 09:40:45.856203: <action cmd="run" options="IGNORE_ERROR" path="sh -c '/bin/md5sum $(find /lib/ -type f)'"> (/etc/vmware/vm-support/md5sums.mfx) took 0.000 sec
+2026-01-10 09:40:46.039835: <action cmd="run" options="IGNORE_ERROR" path="sh -c '/bin/md5sum $(find /lib64/ -type f)'"> (/etc/vmware/vm-support/md5sums.mfx) took 0.000 sec
+2026-01-10 09:40:46.750435: <action cmd="run" options="-" path="/usr/sbin/vmkload_mod -v10 -l"> (/etc/vmware/vm-support/modules.mfx) took 0.000 sec
+2026-01-10 09:40:46.783810: <action cmd="run" options="IGNORE_ERROR" path="/usr/sbin/esxcfg-module -q"> (/etc/vmware/vm-support/modules.mfx) took 0.000 sec
+2026-01-10 09:40:46.883306: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli storage core path list"> (/etc/vmware/vm-support/multipath.mfx) took 0.000 sec
+2026-01-10 09:40:47.210883: <action cmd="run" options="-" path="/usr/sbin/esxcfg-mpath -b"> (/etc/vmware/vm-support/multipath.mfx) took 0.000 sec
+2026-01-10 09:40:43.462466: <action cmd="vmcmd" options="TIMEOUT" path="/usr/lib/vmware/vm-support/bin/dump-vmdk-rdm-info.sh "{VMCFG}""> (/etc/vmware/vm-support/filesystem.mfx) took 4.000 sec
+2026-01-10 09:40:47.276136: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli storage core claimrule list --claimrule-class=all"> (/etc/vmware/vm-support/multipath.mfx) took 0.000 sec
+2026-01-10 09:40:47.499949: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli storage nmp device list"> (/etc/vmware/vm-support/multipath.mfx) took 0.000 sec
+2026-01-10 09:40:47.591633: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli storage nmp path list"> (/etc/vmware/vm-support/multipath.mfx) took 0.000 sec
+2026-01-10 09:40:47.909396: <action cmd="run" options="-" path="/usr/sbin/esxcfg-vswitch -l"> (/etc/vmware/vm-support/network.mfx) took 0.000 sec
+2026-01-10 09:40:47.967674: <action cmd="run" options="-" path="/usr/sbin/esxcfg-vmknic -l"> (/etc/vmware/vm-support/network.mfx) took 0.000 sec
+2026-01-10 09:40:47.821343: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli storage nmp satp rule list"> (/etc/vmware/vm-support/multipath.mfx) took 0.000 sec
+2026-01-10 09:40:48.023340: <action cmd="run" options="-" path="/usr/sbin/localcli network multicast group list"> (/etc/vmware/vm-support/network.mfx) took 0.000 sec
+2026-01-10 09:40:48.172722: <action cmd="run" options="-" path="/usr/sbin/net-stats -l"> (/etc/vmware/vm-support/network.mfx) took 0.000 sec
+2026-01-10 09:40:43.985863: <action cmd="run" options="TIMEOUT" path="/bin/vmware-vimdump -o - -U dcui"> (/etc/vmware/vm-support/hostd.mfx) took 6.000 sec
+2026-01-10 09:40:48.199679: <action cmd="run" options="IGNORE_ERROR" path="/usr/lib/vmware/vm-support/bin/nicinfo.sh"> (/etc/vmware/vm-support/network.mfx) took 3.000 sec
+2026-01-10 09:40:48.126503: <action cmd="run" options="-" path="/usr/sbin/vmkping -D -v"> (/etc/vmware/vm-support/network.mfx) took 5.000 sec
+2026-01-10 09:40:43.762933: <action cmd="run" options="TIMEOUT,RELOCATE,IGNORE_ERROR" path="/usr/lib/vmware/vm-support/bin/storageHostProfiles.sh"> (/etc/vmware/vm-support/hostProfiles.mfx) took 34.000 sec
+2026-01-10 09:41:17.999015: <action cmd="run" options="IGNORE_ERROR,SERIALIZED" path="/sbin/lldpnetmap"> (/etc/vmware/vm-support/network.mfx) took 45.000 sec
+2026-01-10 09:42:03.433385: <action cmd="run" options="-" path="/usr/lib/vmware/bin/net-dvs -l"> (/etc/vmware/vm-support/networking-dvs.mfx) took 0.000 sec
+2026-01-10 09:42:03.432686: <action cmd="run" options="TIMEOUT,RELOCATE,IGNORE_ERROR" path="/usr/lib/vmware/vm-support/bin/dvsData.sh"> (/etc/vmware/vm-support/networking-dvs.mfx) took 0.000 sec
+2026-01-10 09:42:03.476425: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/usr/sbin/localcli network vswitch dvs vmware lacp config get"> (/etc/vmware/vm-support/networking-lacp.mfx) took 0.000 sec
+2026-01-10 09:42:03.435099: <action cmd="run" options="IGNORE_ERROR" path="/sbin/summarize-dvfilter"> (/etc/vmware/vm-support/network.mfx) took 0.000 sec
+2026-01-10 09:42:03.484147: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/usr/sbin/localcli network vswitch dvs vmware lacp status get"> (/etc/vmware/vm-support/networking-lacp.mfx) took 0.000 sec
+2026-01-10 09:42:03.629161: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/usr/sbin/localcli network vswitch dvs vmware lacp stats get"> (/etc/vmware/vm-support/networking-lacp.mfx) took 0.000 sec
+2026-01-10 09:42:03.781587: <action cmd="run" options="-" path="/usr/sbin/esxcfg-route -l"> (/etc/vmware/vm-support/networking-tcpip.mfx) took 0.000 sec
+2026-01-10 09:42:03.836149: <action cmd="run" options="IGNORE_ERROR" path="/usr/sbin/esxcfg-route -f V6 -l"> (/etc/vmware/vm-support/networking-tcpip.mfx) took 0.000 sec
+2026-01-10 09:42:03.889840: <action cmd="run" options="-" path="/usr/sbin/tracenet"> (/etc/vmware/vm-support/networking-tcpip.mfx) took 0.000 sec
+2026-01-10 09:42:03.919437: <action cmd="copy" options="-" path="/etc/nscd.conf"> (/etc/vmware/vm-support/nscd.mfx) took 0.000 sec
+2026-01-10 09:42:03.922374: <action cmd="copy" options="IGNORE_MISSING" path="/etc/ntp.drift"> (/etc/vmware/vm-support/ntp.mfx) took 0.000 sec
+2026-01-10 09:42:03.924447: <action cmd="copy" options="-" path="/etc/ntp.conf"> (/etc/vmware/vm-support/ntp.mfx) took 0.000 sec
+2026-01-10 09:42:03.639819: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli network ip neighbor list"> (/etc/vmware/vm-support/networking-tcpip.mfx) took 0.000 sec
+2026-01-10 09:42:03.631752: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli network ip connection list"> (/etc/vmware/vm-support/networking-tcpip.mfx) took 0.000 sec
+2026-01-10 09:42:03.926274: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/bin/ntpq -c version"> (/etc/vmware/vm-support/ntp.mfx) took 0.000 sec
+2026-01-10 09:42:03.940053: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/bin/ntpq -p"> (/etc/vmware/vm-support/ntp.mfx) took 0.000 sec
+2026-01-10 09:42:03.948273: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/bin/ntpq -c kerninfo"> (/etc/vmware/vm-support/ntp.mfx) took 0.000 sec
+2026-01-10 09:42:03.957590: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/bin/ntpq -c readvar"> (/etc/vmware/vm-support/ntp.mfx) took 0.000 sec
+2026-01-10 09:42:03.971160: <action cmd="run" options="IGNORE_ERROR" path="/usr/lib/vmware/vm-support/bin/nvmeinfo.sh"> (/etc/vmware/vm-support/nvme.mfx) took 0.000 sec
+2026-01-10 09:42:03.979190: <action cmd="run" options="IGNORE_ERROR" path="/usr/lib/vmware/vm-support/bin/rdmainfo.sh"> (/etc/vmware/vm-support/rdma.mfx) took 0.000 sec
+2026-01-10 09:42:04.407405: <action cmd="run" options="TIMEOUT" path="/usr/sbin/localcli storage san fc events get"> (/etc/vmware/vm-support/storage-driver.mfx) took 0.000 sec
+2026-01-10 09:42:04.566540: <action cmd="run" options="TIMEOUT" path="/usr/sbin/localcli storage san fc list"> (/etc/vmware/vm-support/storage-driver.mfx) took 0.000 sec
+2026-01-10 09:42:03.434293: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/usr/lib/vmware/vm-support/bin/dump-cswitch-info.py"> (/etc/vmware/vm-support/networking-cswitch.mfx) took 1.000 sec
+2026-01-10 09:42:04.727870: <action cmd="run" options="TIMEOUT" path="/usr/sbin/localcli storage san fc stats get"> (/etc/vmware/vm-support/storage-driver.mfx) took 0.000 sec
+2026-01-10 09:42:04.337951: <action cmd="run" options="-" path="/usr/sbin/esxcfg-resgrp -l"> (/etc/vmware/vm-support/resource.mfx) took 0.000 sec
+2026-01-10 09:42:04.818037: <action cmd="run" options="TIMEOUT" path="/usr/sbin/localcli storage san fcoe list"> (/etc/vmware/vm-support/storage-driver.mfx) took 0.000 sec
+2026-01-10 09:42:04.883501: <action cmd="run" options="TIMEOUT" path="/usr/sbin/localcli storage san fcoe stats get"> (/etc/vmware/vm-support/storage-driver.mfx) took 0.000 sec
+2026-01-10 09:42:04.930645: <action cmd="run" options="TIMEOUT" path="/usr/sbin/localcli storage san sas list"> (/etc/vmware/vm-support/storage-driver.mfx) took 0.000 sec
+2026-01-10 09:42:04.972952: <action cmd="run" options="TIMEOUT" path="/usr/sbin/localcli storage san sas stats get"> (/etc/vmware/vm-support/storage-driver.mfx) took 0.000 sec
+2026-01-10 09:42:05.038489: <action cmd="run" options="TIMEOUT" path="/usr/sbin/localcli storage san iscsi list"> (/etc/vmware/vm-support/storage-driver.mfx) took 0.000 sec
+2026-01-10 09:42:05.085094: <action cmd="run" options="TIMEOUT" path="/usr/sbin/localcli storage san iscsi stats get"> (/etc/vmware/vm-support/storage-driver.mfx) took 0.000 sec
+2026-01-10 09:42:03.987820: <action cmd="run" options="RELOCATE" path="/usr/lib/vmware/vm-support/bin/report-audit-log.sh"> (/etc/vmware/vm-support/report-audit-log.mfx) took 1.000 sec
+2026-01-10 09:42:05.365981: <action cmd="run" options="-" path="/usr/sbin/vmkiscsid --dump-db"> (/etc/vmware/vm-support/storage-iscsi.mfx) took 0.000 sec
+2026-01-10 09:42:05.236938: <action cmd="run" options="-" path="/usr/sbin/localcli iscsi software get"> (/etc/vmware/vm-support/storage-iscsi.mfx) took 0.000 sec
+2026-01-10 09:42:05.125677: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli fcoe nic list"> (/etc/vmware/vm-support/storage-fcoe.mfx) took 0.000 sec
+2026-01-10 09:42:05.191931: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli fcoe adapter list"> (/etc/vmware/vm-support/storage-fcoe.mfx) took 0.000 sec
+2026-01-10 09:42:05.384016: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli iscsi physicalnetworkportal list"> (/etc/vmware/vm-support/storage-iscsi.mfx) took 0.000 sec
+2026-01-10 09:42:05.396083: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli iscsi logicalnetworkportal list"> (/etc/vmware/vm-support/storage-iscsi.mfx) took 0.000 sec
+2026-01-10 09:42:05.427991: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli iscsi networkportal list"> (/etc/vmware/vm-support/storage-iscsi.mfx) took 0.000 sec
+2026-01-10 09:42:05.705963: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="fdisk -lu"> (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2026-01-10 09:42:05.499178: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli storage nfs list"> (/etc/vmware/vm-support/storage-nas.mfx) took 0.000 sec
+2026-01-10 09:42:05.735924: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/usr/lib/vmware/vm-support/bin/partedUtil.sh"> (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2026-01-10 09:42:05.689932: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli storage nfs41 list"> (/etc/vmware/vm-support/storage-nas.mfx) took 0.000 sec
+2026-01-10 09:42:05.917705: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli storage core device capacity list"> (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2026-01-10 09:42:05.780260: <action cmd="run" options="TIMEOUT" path="/usr/sbin/esxcfg-scsidevs -m"> (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2026-01-10 09:42:05.996140: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli storage core device partition list"> (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2026-01-10 09:42:05.809423: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli storage core device list"> (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2026-01-10 09:42:06.228348: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli storage core device partition showguid"> (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2026-01-10 09:42:06.301927: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli storage core device vaai status get"> (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2026-01-10 09:42:06.401073: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli storage core adapter stats get"> (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2026-01-10 09:42:06.313141: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli storage core adapter list"> (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2026-01-10 09:42:06.547809: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli storage core device stats get"> (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2026-01-10 09:42:06.620396: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli storage core device detached list"> (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2026-01-10 09:42:06.712059: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli storage core plugin registration list"> (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2026-01-10 09:42:06.749575: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli storage core device vaai ats list"> (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2026-01-10 09:42:06.855612: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli storage core device vaai clone list"> (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2026-01-10 09:42:07.170689: <action cmd="copy" options="FILTER,IGNORE_MISSING" path="/var/core/*-zdump*"> (/etc/vmware/vm-support/system-coredumps.mfx) took 0.000 sec
+2026-01-10 09:42:07.067739: <action cmd="run" options="TIMEOUT" path="/usr/lib/vmware/vm-support/bin/smartinfo"> (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2026-01-10 09:42:07.216078: <action cmd="copy" options="IGNORE_MISSING" path="/bootbank/befLogs.tgz"> (/etc/vmware/vm-support/system-image-cache.mfx) took 0.000 sec
+2026-01-10 09:42:07.216774: <action cmd="copy" options="IGNORE_MISSING" path="/bootbank/aftLogs.tgz"> (/etc/vmware/vm-support/system-image-cache.mfx) took 0.000 sec
+2026-01-10 09:42:07.217046: <action cmd="copy" options="IGNORE_MISSING" path="/bootbank/waiter.tgz"> (/etc/vmware/vm-support/system-image-cache.mfx) took 0.000 sec
+2026-01-10 09:42:07.217327: <action cmd="copy" options="IGNORE_MISSING" path="/bootbank/hostProf.tgz"> (/etc/vmware/vm-support/system-image-cache.mfx) took 0.000 sec
+2026-01-10 09:42:06.919351: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli storage core device vaai delete list"> (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2026-01-10 09:42:07.225071: <action cmd="copy" options="IGNORE_MISSING" path="/var/log/.vmsyslogd.*"> (/etc/vmware/vm-support/system-logs.mfx) took 0.000 sec
+2026-01-10 09:42:07.217619: <action cmd="copy" options="IGNORE_MISSING" path="/var/log/*"> (/etc/vmware/vm-support/system-logs.mfx) took 0.000 sec
+2026-01-10 09:42:07.013763: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli storage core device vaai zero list"> (/etc/vmware/vm-support/storage.mfx) took 0.000 sec
+2026-01-10 09:42:07.207225: <action cmd="run" options="RELOCATE,IGNORE_ERROR" path="/usr/lib/vmware/vm-support/bin/collect-vmkernel-dump-partition.sh"> (/etc/vmware/vm-support/system-coredumps.mfx) took 0.000 sec
+2026-01-10 09:42:07.274869: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/usr/lib/vmware/vob/bin/vobbuf -h"> (/etc/vmware/vm-support/system-logs.mfx) took 0.000 sec
+2026-01-10 09:42:07.327328: <action cmd="run" options="TIMEOUT" path="/usr/lib/vmware/vm-support/bin/tpm-dump-info.py"> (/etc/vmware/vm-support/tpm.mfx) took 0.000 sec
+2026-01-10 09:42:07.372108: <action cmd="run" options="DUMP_JSON" path="/sbin/localcli storage core device list --pe-only"> (/etc/vmware/vm-support/upit.mfx) took 0.000 sec
+2026-01-10 09:42:07.519387: <action cmd="run" options="RELOCATE,IGNORE_ERROR" path="/usr/lib/vmware/vm-support/bin/dump-upit-info.py"> (/etc/vmware/vm-support/upit.mfx) took 0.000 sec
+2026-01-10 09:42:07.454788: <action cmd="run" options="DUMP_JSON" path="/sbin/localcli storage nfs list --pe-only"> (/etc/vmware/vm-support/upit.mfx) took 0.000 sec
+2026-01-10 09:42:07.856768: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="lsusb -t"> (/etc/vmware/vm-support/usb.mfx) took 0.000 sec
+2026-01-10 09:42:08.035139: <action cmd="safecopy" options="IGNORE_MISSING" path="/vmfs/devices/char/vmkdriver/usbdevices"> (/etc/vmware/vm-support/usb.mfx) took 0.000 sec
+2026-01-10 09:42:07.855511: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="lsusb"> (/etc/vmware/vm-support/usb.mfx) took 0.000 sec
+2026-01-10 09:42:08.089015: <action cmd="run" options="IGNORE_ERROR" path="ps -Cc --tree"> (/etc/vmware/vm-support/userworld.mfx) took 0.000 sec
+2026-01-10 09:42:08.078904: <action cmd="run" options="IGNORE_ERROR" path="ps -cPTgjstz"> (/etc/vmware/vm-support/userworld.mfx) took 0.000 sec
+2026-01-10 09:42:08.132847: <action cmd="run" options="-" path="/sbin/memstats -r uw-stats"> (/etc/vmware/vm-support/userworld.mfx) took 0.000 sec
+2026-01-10 09:42:08.196487: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/bin/uwstats -s all"> (/etc/vmware/vm-support/uwstats.mfx) took 0.000 sec
+2026-01-10 09:42:07.230313: <action cmd="copy" options="IGNORE_MISSING" path="/var/run/log/*"> (/etc/vmware/vm-support/system-logs.mfx) took 1.000 sec
+2026-01-10 09:42:08.144782: <action cmd="run" options="IGNORE_ERROR" path="/usr/lib/vmware/rp/bin/diagRP --path-to-gid"> (/etc/vmware/vm-support/userworld.mfx) took 0.000 sec
+2026-01-10 09:42:07.995442: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="lsusb -v"> (/etc/vmware/vm-support/usb.mfx) took 0.000 sec
+2026-01-10 09:42:08.594262: <action cmd="vmfile" options="IGNORE_MISSING" path="vmmcores.gz"> (/etc/vmware/vm-support/vm-coredumps.mfx) took 0.000 sec
+2026-01-10 09:42:08.699126: <action cmd="vmfile" options="FILTER,IGNORE_MISSING" path="vmmcores.ve"> (/etc/vmware/vm-support/vm-coredumps.mfx) took 0.000 sec
+2026-01-10 09:42:08.843838: <action cmd="vmfile" options="FILTER,IGNORE_MISSING" path="*-zdump*"> (/etc/vmware/vm-support/vm-coredumps.mfx) took 0.000 sec
+2026-01-10 09:42:08.956801: <action cmd="vmfile" options="FILTER,IGNORE_MISSING" path="*-debug-zdump*"> (/etc/vmware/vm-support/vm-coredumps.mfx) took 0.000 sec
+2026-01-10 09:42:08.960523: <action cmd="vmfile" options="MAXSIZE,IGNORE_ERROR,IGNORE_MISSING" path="*.dsk"> (/etc/vmware/vm-support/vm-disks.mfx) took 0.000 sec
+2026-01-10 09:42:08.984386: <action cmd="copy" options="IGNORE_MISSING" path="/tmp/vmware-*/vmware-panic.log"> (/etc/vmware/vm-support/vm-logs.mfx) took 0.000 sec
+2026-01-10 09:42:08.985116: <action cmd="copy" options="IGNORE_MISSING" path="/tmp/vmware-*/vmware-vmx-*.log"> (/etc/vmware/vm-support/vm-logs.mfx) took 0.000 sec
+2026-01-10 09:42:08.985833: <action cmd="vmfile" options="RECURSE,IGNORE_MISSING" path="stats*"> (/etc/vmware/vm-support/vm-stats.mfx) took 0.000 sec
+2026-01-10 09:42:09.005604: <action cmd="vmfile" options="IGNORE_MISSING,IGNORE_ERROR" path="*.cfg"> (/etc/vmware/vm-support/vm.mfx) took 0.000 sec
+2026-01-10 09:42:09.025602: <action cmd="vmfile" options="IGNORE_MISSING,IGNORE_ERROR" path="*.vmx"> (/etc/vmware/vm-support/vm.mfx) took 0.000 sec
+2026-01-10 09:42:08.243547: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/usr/lib/vmware/vm-support/bin/vFlash.sh"> (/etc/vmware/vm-support/vflash.mfx) took 1.000 sec
+2026-01-10 09:42:09.253321: <action cmd="vmfile" options="IGNORE_MISSING,IGNORE_ERROR" path="*.vmxf"> (/etc/vmware/vm-support/vm.mfx) took 0.000 sec
+2026-01-10 09:42:09.432459: <action cmd="vmfile" options="IGNORE_MISSING,IGNORE_ERROR" path="*.vmft"> (/etc/vmware/vm-support/vm.mfx) took 0.000 sec
+2026-01-10 09:42:09.452945: <action cmd="vmfile" options="IGNORE_MISSING,IGNORE_ERROR" path="*-aux.xml"> (/etc/vmware/vm-support/vm.mfx) took 0.000 sec
+2026-01-10 09:42:09.472458: <action cmd="vmfile" options="IGNORE_MISSING,IGNORE_ERROR" path="shared.vmft"> (/etc/vmware/vm-support/vm.mfx) took 0.000 sec
+2026-01-10 09:42:09.482993: <action cmd="vmfile" options="IGNORE_MISSING,IGNORE_ERROR" path=".ft-generation*"> (/etc/vmware/vm-support/vm.mfx) took 0.000 sec
+2026-01-10 09:42:09.276965: <action cmd="vmfile" options="IGNORE_MISSING,IGNORE_ERROR" path="*.vmsd"> (/etc/vmware/vm-support/vm.mfx) took 0.000 sec
+2026-01-10 09:42:09.505788: <action cmd="vmcmd" options="IGNORE_MISSING,IGNORE_ERROR" path="/bin/ls -isla "{VMDIR}""> (/etc/vmware/vm-support/vm.mfx) took 0.000 sec
+2026-01-10 09:42:10.261949: <action cmd="copy" options="IGNORE_MISSING,IGNORE_ERROR" path="/var/core/*vmfsdump.gz"> (/etc/vmware/vm-support/vmfs-diskdump.mfx) took 0.000 sec
+2026-01-10 09:42:09.961731: <action cmd="run" options="DUMP_JSON" path="/usr/sbin/localcli vm process list"> (/etc/vmware/vm-support/vm.mfx) took 0.000 sec
+2026-01-10 09:42:10.268981: <action cmd="copy" options="IGNORE_MISSING" path="/usr/lib/vmware/plugin/libvmiof*"> (/etc/vmware/vm-support/vmiof-plugins.mfx) took 0.000 sec
+2026-01-10 09:42:10.296000: <action cmd="copy" options="IGNORE_MISSING" path="/usr/lib64/vmware/plugin/libvmiof*"> (/etc/vmware/vm-support/vmiof-plugins.mfx) took 0.000 sec
+2026-01-10 09:42:10.361800: <action cmd="copy" options="IGNORE_MISSING" path="/etc/vmware-tools/scripts/vmware/*"> (/etc/vmware/vm-support/vmtools.mfx) took 0.000 sec
+2026-01-10 09:42:10.380562: <action cmd="copy" options="TIMEOUT,IGNORE_MISSING" path="/var/log/vsanmgmt.log"> (/etc/vmware/vm-support/vsan-health.mfx) took 0.000 sec
+2026-01-10 09:42:10.305711: <action cmd="copy" options="IGNORE_MISSING" path="/etc/vmware-tools/*"> (/etc/vmware/vm-support/vmtools.mfx) took 0.000 sec
+2026-01-10 09:42:10.410297: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="python /usr/lib/vmware/vsan/perfsvc/VsanLsomHealth.pyc"> (/etc/vmware/vm-support/vsan-health.mfx) took 0.000 sec
+2026-01-10 09:42:08.980709: <action cmd="vmfile" options="IGNORE_ERROR,IGNORE_MISSING" path="*.log"> (/etc/vmware/vm-support/vm-logs.mfx) took 2.000 sec
+2026-01-10 09:42:10.521599: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="python /usr/lib/vmware/vsan/perfsvc/vsan-perfsvc-status.pyc --unit hour perf_stats_with_dump_diag 1"> (/etc/vmware/vm-support/vsan-perfsvc-stats-diagnostic.mfx) took 0.000 sec
+2026-01-10 09:42:11.196457: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/etc/init.d/vsantraced flush"> (/etc/vmware/vm-support/vsan-traces.mfx) took 0.000 sec
+2026-01-10 09:42:11.237073: <action cmd="copy" options="TIMEOUT,IGNORE_MISSING" path="/var/log/vsantraces/vsantraces.index"> (/etc/vmware/vm-support/vsan-traces.mfx) took 0.000 sec
+2026-01-10 09:42:11.237332: <action cmd="copy" options="TIMEOUT,IGNORE_MISSING" path="/var/log/vsantraces/vsantraces--*.gz"> (/etc/vmware/vm-support/vsan-traces.mfx) took 0.000 sec
+2026-01-10 09:42:11.237639: <action cmd="copy" options="TIMEOUT,IGNORE_MISSING" path="/var/log/vsantraces/vsantracesLCHK.index"> (/etc/vmware/vm-support/vsan-traces.mfx) took 0.000 sec
+2026-01-10 09:42:11.237860: <action cmd="copy" options="TIMEOUT,IGNORE_MISSING" path="/var/log/vsantraces/vsantracesLCHK--*.gz"> (/etc/vmware/vm-support/vsan-traces.mfx) took 0.000 sec
+2026-01-10 09:42:11.238116: <action cmd="copy" options="TIMEOUT" path="/usr/lib/vmware/vsan/bin/vsanTraceReader.py"> (/etc/vmware/vm-support/vsan-traces.mfx) took 0.000 sec
+2026-01-10 09:42:11.250143: <action cmd="copy" options="TIMEOUT" path="/usr/lib/vmware/vsan/bin/vsanTraceReader"> (/etc/vmware/vm-support/vsan-traces.mfx) took 0.000 sec
+2026-01-10 09:42:11.265793: <action cmd="copy" options="TIMEOUT" path="/lib64/python3.*/site-packages/vmware/__init__.py*"> (/etc/vmware/vm-support/vsan-traces.mfx) took 0.000 sec
+2026-01-10 09:42:11.411037: <action cmd="copy" options="TIMEOUT" path="/lib64/python3.*/site-packages/vmware/vsan/*.py*"> (/etc/vmware/vm-support/vsan-traces.mfx) took 0.000 sec
+2026-01-10 09:42:11.602833: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/etc/init.d/vsantraced flush"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:11.644871: <action cmd="copy" options="TIMEOUT,IGNORE_MISSING" path="/var/log/vsantraces/vsantracesUrgent.index"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:11.645190: <action cmd="copy" options="TIMEOUT,IGNORE_MISSING" path="/var/log/vsantraces/vsantracesUrgent--*.gz"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:11.645360: <action cmd="copy" options="TIMEOUT,IGNORE_MISSING" path="/var/log/vsantraces/vsantracesDOMObj.index"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:11.645588: <action cmd="copy" options="TIMEOUT,IGNORE_MISSING" path="/var/log/vsantraces/vsantracesDOMObj--*.gz"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:11.645788: <action cmd="copy" options="TIMEOUT,IGNORE_MISSING" path="/var/log/vsantraces/vsanObserver--*.gz"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:11.646016: <action cmd="copy" options="TIMEOUT,IGNORE_MISSING" path="/var/log/vsantraces/vsantracesClom.index"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:11.646176: <action cmd="copy" options="TIMEOUT,IGNORE_MISSING" path="/var/log/vsantraces/vsantracesClom--*.gz"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:11.646366: <action cmd="copy" options="TIMEOUT,IGNORE_MISSING" path="/scratch/vsantraces/vsantracesClom--*.gz"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:11.649405: <action cmd="copy" options="TIMEOUT,IGNORE_MISSING" path="/var/log/vsantraces/vsantracesLSOM.index"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:11.649584: <action cmd="copy" options="TIMEOUT,IGNORE_MISSING" path="/var/log/vsantraces/vsantracesLSOM--*.gz"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:11.649744: <action cmd="copy" options="TIMEOUT,IGNORE_MISSING" path="/var/log/vsantraces/vsantracesUpitBE.index"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:11.649922: <action cmd="copy" options="TIMEOUT,IGNORE_MISSING" path="/var/log/vsantraces/vsantracesUpitBE--*.gz"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:11.650170: <action cmd="copy" options="TIMEOUT,IGNORE_MISSING" path="/scratch/epd-store.db"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:11.650673: <action cmd="copy" options="TIMEOUT,IGNORE_MISSING" path="/locker/epd/epd-store.db"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:11.653728: <action cmd="copy" options="TIMEOUT,IGNORE_MISSING" path="/epd/epd-store.db"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:11.033601: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="python /usr/lib/vmware/vsan/perfsvc/vsan-perfsvc-status.pyc perf_stats_with_dump"> (/etc/vmware/vm-support/vsan-perfsvc-stats.mfx) took 0.000 sec
+2026-01-10 09:42:11.654046: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/sbin/localcli vsan cluster get"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:11.166508: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="python /usr/lib/vmware/vsan/perfsvc/vsan-perfsvc-status.pyc svc_info"> (/etc/vmware/vm-support/vsan-perfsvc.mfx) took 0.000 sec
+2026-01-10 09:42:11.728579: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/sbin/localcli vsan network list"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:11.809302: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/sbin/localcli vsan storage list"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:11.856383: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/sbin/localcli vsan cluster unicastagent list"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:11.966245: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/sbin/localcli vsan perf status get"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:11.880554: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/sbin/localcli hardware pci list"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:08.957391: <action cmd="vmfile" options="MAXSIZE,IGNORE_ERROR,IGNORE_MISSING" path="*.vmdk"> (/etc/vmware/vm-support/vm-disks.mfx) took 3.000 sec
+2026-01-10 09:42:12.003769: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/sbin/localcli vsan debug controller list"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:12.112874: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/sbin/localcli vsan debug disk list"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:12.135957: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/sbin/localcli vsan debug limit get"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:12.407453: <action cmd="run" options="TIMEOUT,RELOCATE,IGNORE_ERROR" path="python ++group=vmsupport /usr/lib/vmware/vsan/esxcli/esxcli_vsan_debug.pyc sync.list --pyprint"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:12.350176: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/sbin/localcli vsan debug resync summary get"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:12.667576: <action cmd="run" options="TIMEOUT,RELOCATE,IGNORE_ERROR" path="python ++group=vmsupport /usr/lib/vmware/vsan/esxcli/esxcli_vsan_debug.pyc objects.overview --pyprint --vmsupport"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:12.531058: <action cmd="run" options="TIMEOUT,RELOCATE,IGNORE_ERROR" path="/sbin/localcli ++group=vmsupport vsan debug object health summary get"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:12.929369: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/sbin/cmmds-tool find -f python"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:12.967829: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/sbin/cmmds-tool -f json readdump -p -d /scratch/log/cmmds.dump"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:12.754091: <action cmd="run" options="TIMEOUT,RELOCATE,IGNORE_ERROR" path="python ++group=vmsupport /usr/lib/vmware/vsan/esxcli/esxcli_vsan_debug.pyc objects.info --pyprint --vmsupport"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:12.928150: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/sbin/vdq -q -H"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:12.998156: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/sbin/cmmds-tool -f json readdump -p -d /scratch/log/cmmds.dump.backup"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:13.021384: <action cmd="copy" options="TIMEOUT" path="/usr/lib/vmware/vsan/bin/vsanTraceReader.py"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:13.013543: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/sbin/vsish -e get /vmkModules/tracing/stats"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:13.038433: <action cmd="copy" options="TIMEOUT" path="/lib64/python3.*/site-packages/vmware/__init__.py*"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:13.029427: <action cmd="copy" options="TIMEOUT" path="/usr/lib/vmware/vsan/bin/vsanTraceReader"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:13.062348: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/usr/lib/vmware/vsan/bin/clom-tool fitness-stats-get"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:13.200093: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/usr/lib/vmware/vsan/bin/clom-tool fitness-config-get"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:12.514928: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/sbin/localcli vsan debug memory list"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:13.289854: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/usr/lib/vmware/vsan/bin/clom-tool stats"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:13.039739: <action cmd="copy" options="TIMEOUT" path="/lib64/python3.*/site-packages/vmware/vsan/*.py*"> (/etc/vmware/vm-support/vsan.mfx) took 0.000 sec
+2026-01-10 09:42:13.298311: <action cmd="run" options="TIMEOUT,RELOCATE,IGNORE_ERROR" path="/usr/lib/vmware/vm-support/bin/vsanIscsiTarget.sh"> (/etc/vmware/vm-support/vsanIscsiTarget.mfx) took 0.000 sec
+2026-01-10 09:42:13.312024: <action cmd="run" options="TIMEOUT,RELOCATE,IGNORE_ERROR" path="/usr/lib/vmware/vm-support/bin/vsanIscsiTargetVitConf.sh"> (/etc/vmware/vm-support/vsanIscsiTarget.mfx) took 0.000 sec
+2026-01-10 09:42:13.460649: <action cmd="copy" options="IGNORE_MISSING,IGNORE_ERROR" path="/var/run/heaptrack/*"> (/etc/vmware/vm-support/vsandp.mfx) took 0.000 sec
+2026-01-10 09:42:13.466551: <action cmd="copy" options="TIMEOUT,IGNORE_MISSING" path="/var/log/vsantraces/vsantracesDP.index"> (/etc/vmware/vm-support/vsandp.mfx) took 0.000 sec
+2026-01-10 09:42:13.467083: <action cmd="copy" options="TIMEOUT,IGNORE_MISSING" path="/var/log/vsantraces/vsantracesDP--*.gz"> (/etc/vmware/vm-support/vsandp.mfx) took 0.000 sec
+2026-01-10 09:42:13.321470: <action cmd="run" options="TIMEOUT,RELOCATE,IGNORE_ERROR" path="/usr/lib/vmware/vm-support/bin/vsanIscsiTargetVitStatus.py"> (/etc/vmware/vm-support/vsanIscsiTarget.mfx) took 0.000 sec
+2026-01-10 09:42:13.410262: <action cmd="run" options="TIMEOUT,RELOCATE,IGNORE_ERROR" path="/usr/lib/vmware/vm-support/bin/vsanIscsiTargetVitConfBackup.sh"> (/etc/vmware/vm-support/vsanIscsiTarget.mfx) took 0.000 sec
+2026-01-10 09:42:13.458845: <action cmd="run" options="RELOCATE,IGNORE_ERROR" path="/usr/lib/vmware/vsan/bin/vsandpd-support.py"> (/etc/vmware/vm-support/vsandp.mfx) took 0.000 sec
+2026-01-10 09:42:13.467328: <action cmd="run" options="TIMEOUT,DUMP_JSON,IGNORE_ERROR" path="/sbin/localcli storage vvol vasaprovider list"> (/etc/vmware/vm-support/vvol.mfx) took 0.000 sec
+2026-01-10 09:42:13.542904: <action cmd="run" options="TIMEOUT,DUMP_JSON,IGNORE_ERROR" path="/sbin/localcli storage vvol storagecontainer list"> (/etc/vmware/vm-support/vvol.mfx) took 0.000 sec
+2026-01-10 09:42:13.560366: <action cmd="run" options="TIMEOUT,DUMP_JSON,IGNORE_ERROR" path="/sbin/localcli storage vvol protocolendpoint list"> (/etc/vmware/vm-support/vvol.mfx) took 0.000 sec
+2026-01-10 09:42:13.861985: <action cmd="run" options="IGNORE_ERROR" path="/bin/cat /var/log/vvold.log"> (/etc/vmware/vm-support/vvol.mfx) took 0.000 sec
+2026-01-10 09:42:13.685854: <action cmd="run" options="DUMP_JSON" path="/sbin/localcli storage core device list --pe-only"> (/etc/vmware/vm-support/vvol.mfx) took 0.000 sec
+2026-01-10 09:42:13.849778: <action cmd="run" options="TIMEOUT,IGNORE_ERROR" path="/sbin/localcli --plugin-dir /usr/lib/vmware/esxcli/int storage internal vvol daemon set  --dump-objects"> (/etc/vmware/vm-support/vvol.mfx) took 0.000 sec
+2026-01-10 09:42:13.775851: <action cmd="run" options="DUMP_JSON" path="/sbin/localcli storage nfs list --pe-only"> (/etc/vmware/vm-support/vvol.mfx) took 0.000 sec
+2026-01-10 09:42:14.081473: <action cmd="run" options="IGNORE_ERROR" path="/usr/lib/vmware/vm-support/bin/encryption-epilog.sh"> (/etc/vmware/vm-support/vm-support-epilog.mfx) took 0.000 sec

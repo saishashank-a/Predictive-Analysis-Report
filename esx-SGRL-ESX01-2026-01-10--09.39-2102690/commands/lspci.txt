@@ -1,0 +1,47 @@
+0000:00:00.0 Host bridge: Intel Corporation 5520 I/O Hub to ESI Port [PCIe RP[0000:00:00.0]]
+0000:00:01.0 PCI bridge: Intel Corporation 5520/5500/X58 I/O Hub PCI Express Root Port 1 [PCIe RP[0000:00:01.0]]
+0000:00:02.0 PCI bridge: Intel Corporation 5520/5500/X58 I/O Hub PCI Express Root Port 2 [PCIe RP[0000:00:02.0]]
+0000:00:03.0 PCI bridge: Intel Corporation 5520/5500/X58 I/O Hub PCI Express Root Port 3 [PCIe RP[0000:00:03.0]]
+0000:00:07.0 PCI bridge: Intel Corporation 5520/5500/X58 I/O Hub PCI Express Root Port 7 [PCIe RP[0000:00:07.0]]
+0000:00:10.0 PIC: Intel Corporation 7500/5520/5500/X58 Physical and Link Layer Registers Port 0 
+0000:00:10.1 PIC: Intel Corporation 7500/5520/5500/X58 Routing and Protocol Layer Registers Port 0 
+0000:00:11.0 PIC: Intel Corporation 7500/5520/5500 Physical and Link Layer Registers Port 1 
+0000:00:11.1 PIC: Intel Corporation 7500/5520/5500 Routing & Protocol Layer Register Port 1 
+0000:00:14.0 PIC: Intel Corporation 7500/5520/5500/X58 I/O Hub System Management Registers 
+0000:00:14.1 PIC: Intel Corporation 7500/5520/5500/X58 I/O Hub GPIO and Scratch Pad Registers 
+0000:00:14.2 PIC: Intel Corporation 7500/5520/5500/X58 I/O Hub Control Status and RAS Registers 
+0000:00:14.3 PIC: Intel Corporation 7500/5520/5500/X58 I/O Hub Throttle Registers 
+0000:00:15.0 PIC: Intel Corporation 7500/5520/5500/X58 Trusted Execution Technology Registers 
+0000:00:16.0 System peripheral: Intel Corporation 5520/5500/X58 Chipset QuickData Technology Device 
+0000:00:16.1 System peripheral: Intel Corporation 5520/5500/X58 Chipset QuickData Technology Device 
+0000:00:16.2 System peripheral: Intel Corporation 5520/5500/X58 Chipset QuickData Technology Device 
+0000:00:16.3 System peripheral: Intel Corporation 5520/5500/X58 Chipset QuickData Technology Device 
+0000:00:16.4 System peripheral: Intel Corporation 5520/5500/X58 Chipset QuickData Technology Device 
+0000:00:16.5 System peripheral: Intel Corporation 5520/5500/X58 Chipset QuickData Technology Device 
+0000:00:16.6 System peripheral: Intel Corporation 5520/5500/X58 Chipset QuickData Technology Device 
+0000:00:16.7 System peripheral: Intel Corporation 5520/5500/X58 Chipset QuickData Technology Device 
+0000:00:1a.0 USB controller: Intel Corporation 82801JI (ICH10 Family) USB UHCI Controller #4 
+0000:00:1a.1 USB controller: Intel Corporation 82801JI (ICH10 Family) USB UHCI Controller #5 
+0000:00:1a.7 USB controller: Intel Corporation 82801JI (ICH10 Family) USB2 EHCI Controller #2 
+0000:00:1c.0 PCI bridge: Intel Corporation 82801JI (ICH10 Family) PCI Express Root Port 1 [PCIe RP[0000:00:1c.0]]
+0000:00:1c.4 PCI bridge: Intel Corporation 82801JI (ICH10 Family) PCI Express Root Port 5 [PCIe RP[0000:00:1c.4]]
+0000:00:1d.0 USB controller: Intel Corporation 82801JI (ICH10 Family) USB UHCI Controller #1 
+0000:00:1d.1 USB controller: Intel Corporation 82801JI (ICH10 Family) USB UHCI Controller #2 
+0000:00:1d.2 USB controller: Intel Corporation 82801JI (ICH10 Family) USB UHCI Controller #3 
+0000:00:1d.7 USB controller: Intel Corporation 82801JI (ICH10 Family) USB2 EHCI Controller #1 [vmhba32]
+0000:00:1e.0 PCI bridge: Intel Corporation 82801 PCI Bridge 
+0000:00:1f.0 ISA bridge: Intel Corporation 82801JIB (ICH10) LPC Interface Controller 
+0000:00:1f.2 IDE interface: Intel Corporation ICH10 4 port SATA IDE Controller [vmhba1]
+0000:00:1f.3 SMBus: Intel Corporation 82801JI (ICH10 Family) SMBus Controller 
+0000:00:1f.5 IDE interface: Intel Corporation ICH10 2 port SATA IDE Controller [vmhba2]
+0000:01:00.0 RAID bus controller: LSI / Symbios Logic MegaRAID SAS GEN2 Controller [vmhba0]
+0000:06:00.0 PCI bridge: Vitesse Semiconductor VSC452 [SuperBMC] 
+0000:07:00.0 VGA compatible controller: Matrox Electronics Systems Ltd. MGA G200EV 
+0000:0b:00.0 Ethernet controller: QLogic Corporation QLogic NetXtreme II BCM5709 1000Base-T [vmnic0]
+0000:0b:00.1 Ethernet controller: QLogic Corporation QLogic NetXtreme II BCM5709 1000Base-T [vmnic1]
+0000:10:00.0 Ethernet controller: QLogic Corporation QLogic NetXtreme II BCM5709 1000Base-T [vmnic2]
+0000:10:00.1 Ethernet controller: QLogic Corporation QLogic NetXtreme II BCM5709 1000Base-T [vmnic3]
+0000:15:00.0 Ethernet controller: Intel(R) I350 Gigabit Network Connection [vmnic4]
+0000:15:00.1 Ethernet controller: Intel(R) I350 Gigabit Network Connection [vmnic5]
+0000:1a:00.0 Fibre Channel: Emulex Corporation LPe12000 Series 8Gb Fibre Channel Adapter 
+0000:1a:00.1 Fibre Channel: Emulex Corporation LPe12000 Series 8Gb Fibre Channel Adapter 

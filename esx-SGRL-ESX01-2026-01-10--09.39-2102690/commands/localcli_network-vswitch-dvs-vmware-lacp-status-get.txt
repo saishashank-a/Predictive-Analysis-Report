@@ -1,0 +1,2 @@
+Errors: 
+LACP is supported on VMware DVSwitch only, and there is no DVSwitch configured on host.

@@ -1,0 +1,24 @@
+# Copyright 2014, VMware, Inc.
+# To filter out excessive logging, add lines with the following syntax:
+#
+#      numLogs | ident | logRegexp
+#
+# Any log line with a substring matching the regular expression logRegexp
+# will appear the first "numLogs" times that it's issued, but will be
+# ignored after that point. For example, the line:
+#
+#      5 | vmkernel | .*
+#
+#  will ensure that only the first 5 vmkernel-related lines appear in the log
+#  and others are ignored.
+#
+#  All comparisons are case-sensitive. logRegexp must be a valid regular
+#  expression confirming to the Python regular expression syntax.
+#  Using '*' for the ident field implies that log messages from all sources
+#  are a potential match. Multiple ident values can be specified in a comma
+#  separated list. Consult /etc/vmsyslog.conf.d/*.conf for possible values
+#  of ident.
+#
+#  This feature should be used only in the case where a log statement is
+#  spewing excessively. Filtering the log too aggressively may make
+#  troubleshooting more difficult if it loses valuable information.

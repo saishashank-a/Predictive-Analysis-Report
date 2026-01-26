@@ -1,0 +1,38 @@
+Rule Class  Rule   Class    Type       Plugin            Matches                            XCOPY Use Array Reported Values  XCOPY Use Multiple Segments  XCOPY Max Transfer Size KiB
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MP             50  runtime  transport  NMP               transport=usb                      false                            false                                                  0  
+MP             51  runtime  transport  NMP               transport=sata                     false                            false                                                  0  
+MP             52  runtime  transport  NMP               transport=ide                      false                            false                                                  0  
+MP             53  runtime  transport  NMP               transport=block                    false                            false                                                  0  
+MP             54  runtime  transport  NMP               transport=unknown                  false                            false                                                  0  
+MP            101  runtime  vendor     MASK_PATH         vendor=DELL model=Universal Xport  false                            false                                                  0  
+MP            101  file     vendor     MASK_PATH         vendor=DELL model=Universal Xport  false                            false                                                  0  
+MP          65535  runtime  vendor     NMP               vendor=* model=*                   false                            false                                                  0  
+Filter      65429  runtime  vendor     VAAI_FILTER       vendor=MSFT model=Virtual HD       false                            false                                                  0  
+Filter      65429  file     vendor     VAAI_FILTER       vendor=MSFT model=Virtual HD       false                            false                                                  0  
+Filter      65430  runtime  vendor     VAAI_FILTER       vendor=EMC model=SYMMETRIX         false                            false                                                  0  
+Filter      65430  file     vendor     VAAI_FILTER       vendor=EMC model=SYMMETRIX         false                            false                                                  0  
+Filter      65431  runtime  vendor     VAAI_FILTER       vendor=DGC model=*                 false                            false                                                  0  
+Filter      65431  file     vendor     VAAI_FILTER       vendor=DGC model=*                 false                            false                                                  0  
+Filter      65432  runtime  vendor     VAAI_FILTER       vendor=EQLOGIC model=*             false                            false                                                  0  
+Filter      65432  file     vendor     VAAI_FILTER       vendor=EQLOGIC model=*             false                            false                                                  0  
+Filter      65433  runtime  vendor     VAAI_FILTER       vendor=NETAPP model=LUN*           false                            false                                                  0  
+Filter      65433  file     vendor     VAAI_FILTER       vendor=NETAPP model=LUN*           false                            false                                                  0  
+Filter      65434  runtime  vendor     VAAI_FILTER       vendor=HITACHI model=*             false                            false                                                  0  
+Filter      65434  file     vendor     VAAI_FILTER       vendor=HITACHI model=*             false                            false                                                  0  
+Filter      65435  runtime  vendor     VAAI_FILTER       vendor=LEFTHAND model=*            false                            false                                                  0  
+Filter      65435  file     vendor     VAAI_FILTER       vendor=LEFTHAND model=*            false                            false                                                  0  
+VAAI        65429  runtime  vendor     VMW_VAAIP_MASK    vendor=MSFT model=Virtual HD       false                            false                                                  0  
+VAAI        65429  file     vendor     VMW_VAAIP_MASK    vendor=MSFT model=Virtual HD       false                            false                                                  0  
+VAAI        65430  runtime  vendor     VMW_VAAIP_SYMM    vendor=EMC model=SYMMETRIX         false                            false                                                  0  
+VAAI        65430  file     vendor     VMW_VAAIP_SYMM    vendor=EMC model=SYMMETRIX         false                            false                                                  0  
+VAAI        65431  runtime  vendor     VMW_VAAIP_CX      vendor=DGC model=*                 false                            false                                                  0  
+VAAI        65431  file     vendor     VMW_VAAIP_CX      vendor=DGC model=*                 false                            false                                                  0  
+VAAI        65432  runtime  vendor     VMW_VAAIP_EQL     vendor=EQLOGIC model=*             false                            false                                                  0  
+VAAI        65432  file     vendor     VMW_VAAIP_EQL     vendor=EQLOGIC model=*             false                            false                                                  0  
+VAAI        65433  runtime  vendor     VMW_VAAIP_NETAPP  vendor=NETAPP model=LUN*           false                            false                                                  0  
+VAAI        65433  file     vendor     VMW_VAAIP_NETAPP  vendor=NETAPP model=LUN*           false                            false                                                  0  
+VAAI        65434  runtime  vendor     VMW_VAAIP_HDS     vendor=HITACHI model=*             false                            false                                                  0  
+VAAI        65434  file     vendor     VMW_VAAIP_HDS     vendor=HITACHI model=*             false                            false                                                  0  
+VAAI        65435  runtime  vendor     VMW_VAAIP_LHN     vendor=LEFTHAND model=*            false                            false                                                  0  
+VAAI        65435  file     vendor     VMW_VAAIP_LHN     vendor=LEFTHAND model=*            false                            false                                                  0  

@@ -1,0 +1,19 @@
+total 72231040
+142609732    128 drwxr-xr-x    1 root     root         77824 Dec 27 05:31 .
+      4   1024 drwxr-xr-t    1 root     root         86016 Jan 10 09:35 ..
+423625924 144384 -rw-------    1 root     root     774266880 Dec 27 05:31 SGRL-ANS001-000001-sesparse.vmdk
+427820228      0 -rw-------    1 root     root           319 Dec 27 03:18 SGRL-ANS001-000001.vmdk
+180356292      0 -rw-r--r--    1 root     root           415 Nov  9 01:03 SGRL-ANS001-24eeed3c.hlog
+419431620   1024 -rw-------    1 root     root        282580 Dec 27 03:00 SGRL-ANS001-Snapshot1.vmsn
+184550596 72076288 -rw-------    1 root     root     161061273600 Dec 27 03:00 SGRL-ANS001-flat.vmdk
+192939204   1024 -rw-------    1 root     root        270840 Dec 27 03:18 SGRL-ANS001.nvram
+188744900      0 -rw-------    1 root     root           556 Dec 27 02:23 SGRL-ANS001.vmdk
+201327812      0 -rw-r--r--    1 root     root           397 Dec 27 03:00 SGRL-ANS001.vmsd
+197133508      0 -rwxr-xr-x    1 root     root          3400 Dec 27 05:31 SGRL-ANS001.vmx
+377488580   1024 -rw-r--r--    1 root     root        208920 Dec 11 09:43 vmware-10.log
+394265796   1024 -rw-r--r--    1 root     root        210290 Dec 18 21:06 vmware-11.log
+310379716   1024 -rw-r--r--    1 root     root        211688 Dec  7 09:29 vmware-6.log
+327156932   1024 -rw-r--r--    1 root     root        215903 Dec  8 13:33 vmware-7.log
+343934148   1024 -rw-r--r--    1 root     root        211230 Dec  9 10:54 vmware-8.log
+360711364   1024 -rw-r--r--    1 root     root        208776 Dec 10 13:58 vmware-9.log
+411043012   1024 -rw-r--r--    1 root     root        251051 Dec 27 05:31 vmware.log

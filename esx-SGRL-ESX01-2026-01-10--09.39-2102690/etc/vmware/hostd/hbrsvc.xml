@@ -1,0 +1,31 @@
+<ConfigRoot>
+   <!-- Replication scheduler parameters -->
+   <scheduler>
+      <!-- Max allowed bandwidth per host (in MB/sec) -->
+      <maxHbrHostBandwidth>20000</maxHbrHostBandwidth>
+      <!-- The algorithm used for scheduling replication -->
+      <!-- Currently: naive, genetic, or hybrid -->
+      <hbrSchedulerAlgorithm>hybrid</hbrSchedulerAlgorithm>
+   </scheduler>
+   <mockup>
+      <!--
+        For each fake VM, we choose a "dirty percentage". On average, we
+        transfer this much of the disk on each instance.  This value
+        directly controls the amount of bandwidth used by the VM for
+        replication.  We choose this value for each VM randomly from the
+        range dirtyPercentMin..dirtyPercentMax
+      -->
+      <dirtyPercentMin>50</dirtyPercentMin>
+      <dirtyPercentMax>70</dirtyPercentMax>
+
+      <!--
+        For each fake VM, we choose a "demandlog percentage".  On average,
+        this percentage of the instance data is transferred in a random
+        order at the end, as if it was overwritten during transfer.  We
+        choose this value for each VM randomly from the range
+        demandlogPercentMin..demandlogPercentMax
+      -->
+      <demandlogPercentMin>0</demandlogPercentMin>
+      <demandlogPercentMax>20</demandlogPercentMax>
+   </mockup>
+</ConfigRoot>

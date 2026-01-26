@@ -1,0 +1,6 @@
+libdir = "/usr/lib/vmware"
+authd.proxy.nfc = "vmware-hostd:ha-nfc"
+authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+authd.fullpath = "/sbin/authd"

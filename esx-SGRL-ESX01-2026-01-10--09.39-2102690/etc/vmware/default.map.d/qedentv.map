@@ -1,0 +1,11 @@
+regtype=native,bus=pci,id=10771629..............,driver=qedentv
+regtype=native,bus=pci,id=10771634..............,driver=qedentv
+regtype=native,bus=pci,id=10771636..............,driver=qedentv
+regtype=native,bus=pci,id=10771644..............,driver=qedentv
+regtype=native,bus=pci,id=10771654..............,driver=qedentv
+regtype=native,bus=pci,id=10771656..............,driver=qedentv
+regtype=native,bus=pci,id=10771666..............,driver=qedentv
+regtype=native,bus=pci,id=10778070..............,driver=qedentv
+regtype=native,bus=pci,id=10778071..............,driver=qedentv
+regtype=native,bus=pci,id=10778072..............,driver=qedentv
+regtype=native,bus=pci,id=10778073..............,driver=qedentv

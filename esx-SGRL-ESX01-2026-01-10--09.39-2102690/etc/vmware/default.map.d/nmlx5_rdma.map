@@ -1,0 +1,1 @@
+regtype=native,bus=logical,id=com.mellanox.nmlx5.rdmaDevice,driver=nmlx5_rdma

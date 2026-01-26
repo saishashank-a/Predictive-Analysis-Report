@@ -1,0 +1,3467 @@
+
+Avago_bootbank_lsi-msgpt3_17.00.02.00-1OEM.670.0.0.8169922:
+   Name: lsi-msgpt3
+   Version: 17.00.02.00-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: Avago
+   Acceptance Level: VMwareCertified
+   Summary: Avago (LSI) Native 12Gbps SAS MPT Driver
+   Description: Avago (LSI) Native 12Gbps SAS MPT Driver for vmkernel
+   ReferenceURLs: 
+   Creation Date: 2019-03-11
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 10000090, PCIID 1000009010281fde, PCIID 1000009010281fe2, PCIID 10000091, PCIID 10000094, PCIID 10000095, PCIID 10000096, PCIID 10000097, PCIID 1000009710280619, PCIID 1000009710281f45, PCIID 1000009710281f46, PCIID 1000009710281f53, PCIID 1000009710281fd2, PCIID 1000009710281fd3, PCIID 1000009711370154, PCIID 100000c0, PCIID 100000c1, PCIID 100000c2, PCIID 100000c3, PCIID 100000c4, PCIID 100000c5, PCIID 100000c6, PCIID 100000c7, PCIID 100000c8, PCIID 100000c811370199, PCIID 100000c9, module, driver
+   Payloads: lsi-msgpt3
+
+BCM_bootbank_bnxtnet_219.0.29.0-1OEM.670.0.0.8169922:
+   Name: bnxtnet
+   Version: 219.0.29.0-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: BCM
+   Acceptance Level: VMwareCertified
+   Summary: Network driver for Broadcom NetXtreme-E Ethernet Controller
+   Description: Broadcom NetXtreme-E VMKAPI network driver for VMware ESXi
+   ReferenceURLs: 
+   Creation Date: 2021-07-30
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 14e41604, PCIID 14e4160414e4d140, PCIID 14e4160414e4d340, PCIID 14e41605, PCIID 14e4160514e4d140, PCIID 14e4160514e4d340, PCIID 14e41606, PCIID 14e41609, PCIID 14e4160914e4d140, PCIID 14e4160914e4d340, PCIID 14e41614, PCIID 14e4161414e4d140, PCIID 14e4161414e4d340, PCIID 14e41614152d8b11, PCIID 14e4161417aa4047, PCIID 14e4161417aa4100, PCIID 14e4161417aa4101, PCIID 14e4161417aa4102, PCIID 14e416c0, PCIID 14e416c1, PCIID 14e416cc, PCIID 14e416ce, PCIID 14e416cf, PCIID 14e416d6, PCIID 14e416d614e44125, PCIID 14e416d614e44126, PCIID 14e416d6159002c5, PCIID 14e416d617aa4120, PCIID 14e416d7, PCIID 14e416d714e44145, PCIID 14e416d714e44146, PCIID 14e416d7159002c3, PCIID 14e416d7159002c5, PCIID 14e416d717aa4103, PCIID 14e416d717aa4105, PCIID 14e416d717aa4140, PCIID 14e416d8, PCIID 14e416d810281feb, PCIID 14e416d814e44165, PCIID 14e416d814e44166, PCIID 14e416d8159002c2, PCIID 14e416d817aa4048, PCIID 14e416d817aa4160, PCIID 14e416d817aa4161, PCIID 14e416d817aa4162, PCIID 14e416d817aa4163, PCIID 14e416d9, PCIID 14e416dc, PCIID 14e416de, PCIID 14e416df, PCIID 14e416e0, PCIID 14e416e1, PCIID 14e416e2, PCIID 14e416e3, PCIID 14e416e4, PCIID 14e416e5, PCIID 14e416eb, PCIID 14e416ec, PCIID 14e416ed, PCIID 14e416ee, PCIID 14e416ef, PCIID 14e41750, PCIID 14e4175014e42100, PCIID 14e4175014e45208, PCIID 14e4175014e45209, PCIID 14e4175014e4d124, PCIID 14e4175014e4df24, PCIID 14e4175017aa404c, PCIID 14e41751, PCIID 14e4175114e41100, PCIID 14e4175114e41598, PCIID 14e4175114e41599, PCIID 14e4175114e44250, PCIID 14e4175114e45045, PCIID 14e4175114e45046, PCIID 14e4175114e45047, PCIID 14e4175114e45048, PCIID 14e4175114e45049, PCIID 14e4175114e45100, PCIID 14e4175114e45250, PCIID 14e4175114e45425, PCIID 14e4175114e4d142, PCIID 14e41752, PCIID 14e4175214e41002, PCIID 14e4175214e41003, PCIID 14e4175214e45150, PCIID 14e4175214e45410, PCIID 14e41800, PCIID 14e41801, PCIID 14e4180114e41598, PCIID 14e4180114e41599, PCIID 14e4180114e4d142, PCIID 14e41802, PCIID 14e4180214e4d124, PCIID 14e4180214e4df24, PCIID 14e41803, PCIID 14e41804, PCIID 14e4180414e41598, PCIID 14e4180414e41599, PCIID 14e4180414e4d142, PCIID 14e41805, PCIID 14e4180514e4d124, PCIID 14e4180514e4df24, PCIID 14e41806, PCIID 14e4180614e41598, PCIID 14e4180614e41599, PCIID 14e4180614e4d124, PCIID 14e4180614e4d142, PCIID 14e4180614e4df24, PCIID 14e41807, PCIID 14e4180714e41598, PCIID 14e4180714e41599, PCIID 14e4180714e4d124, PCIID 14e4180714e4d142, PCIID 14e4180714e4df24, PCIID 14e41808, PCIID 14e41809, PCIID 14e4d80214e48021, PCIID 14e4d80214e48028, PCIID 14e4d82e, module, driver
+   Payloads: bnxtnet
+
+BCM_bootbank_bnxtroce_219.0.13.0-1OEM.670.0.0.8169922:
+   Name: bnxtroce
+   Version: 219.0.13.0-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: BCM
+   Acceptance Level: VMwareCertified
+   Summary: Broadcom NetXtreme-E ROCE Driver
+   Description: Broadcom NetXtreme-E ROCE Driver for VMware ESXi
+   ReferenceURLs: 
+   Creation Date: 2021-07-29
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module, driver
+   Payloads: bnxtroce
+
+BCM_bootbank_lsi-mr3_7.720.04.00-1OEM.670.0.0.8169922:
+   Name: lsi-mr3
+   Version: 7.720.04.00-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: BCM
+   Acceptance Level: VMwareCertified
+   Summary: Broadcom Native MegaRAID SAS
+   Description: Broadcom Native MegaRAID SAS driver for vmkernel
+   ReferenceURLs: 
+   Creation Date: 2022-02-23
+   Depends: esx-version >= 6.7.0, esx-version << 7.0.0, vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 10000014, PCIID 1000001410281f3a, PCIID 1000001410281f3b, PCIID 1000001410281fd4, PCIID 100000141137020e, PCIID 100000141d490602, PCIID 100000141d490604, PCIID 100000141d490607, PCIID 10000015, PCIID 1000001510281f3c, PCIID 1000001510281f3d, PCIID 100000151d490503, PCIID 10000016, PCIID 1000001610281fc9, PCIID 1000001610281fca, PCIID 1000001610281fcb, PCIID 1000001610281fcc, PCIID 1000001610281fcd, PCIID 1000001610281fce, PCIID 1000001610281fcf, PCIID 1000001610281fd0, PCIID 1000001611370210, PCIID 1000001611370213, PCIID 1000001611703508, PCIID 100000161d490601, PCIID 100000161d490603, PCIID 10000017, PCIID 100000171cf27f00, PCIID 100000171d490500, PCIID 100000171d490502, PCIID 1000001780863528, PCIID 1000001780863529, PCIID 1000001b, PCIID 1000001b1d490605, PCIID 1000001c, PCIID 1000001c10543090, PCIID 1000001c1d490501, PCIID 10000052, PCIID 10000053, PCIID 1000005b, PCIID 1000005b10281f2d, PCIID 1000005b10281f2e, PCIID 1000005b10281f2f, PCIID 1000005b10281f30, PCIID 1000005b10281f31, PCIID 1000005b10281f33, PCIID 1000005b10281f34, PCIID 1000005b10281f35, PCIID 1000005b10281f37, PCIID 1000005b10281f38, PCIID 1000005d, PCIID 1000005d10281f41, PCIID 1000005d10281f42, PCIID 1000005d10281f43, PCIID 1000005d10281f47, PCIID 1000005d10281f48, PCIID 1000005d10281f49, PCIID 1000005d10281f4a, PCIID 1000005d10281f4d, PCIID 1000005d10281f4f, PCIID 1000005d10281f54, PCIID 1000005d10281fd1, PCIID 1000005d1d490600, PCIID 1000005d1d490608, PCIID 1000005d1d490609, PCIID 1000005f, PCIID 1000005f10281f44, PCIID 1000005f10281f4b, PCIID 1000005f10281f4c, PCIID 1000005f10281f4e, PCIID 1000007310281f4e, PCIID 1000007310281f50, PCIID 1000007310281f51, PCIID 1000007310281f52, PCIID 1000007310281f53, PCIID 100000ce, PCIID 100000ce1137020c, PCIID 100000cf, PCIID 100000cf1590022c, PCIID 100010e0, PCIID 100010e1, PCIID 100010e110281ae0, PCIID 100010e110281ae1, PCIID 100010e2, PCIID 100010e3, PCIID 100010e4, PCIID 100010e5, PCIID 100010e6, PCIID 100010e7, module, driver
+   Payloads: lsi-mr3
+
+BCM_bootbank_lsi-msgpt35_20.00.00.00-1OEM.670.0.0.8169922:
+   Name: lsi-msgpt35
+   Version: 20.00.00.00-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: BCM
+   Acceptance Level: VMwareCertified
+   Summary: Broadcom Native 12Gbps SAS/PCIe MPT Driver
+   Description: Broadcom Native 12Gbps SAS/PCIe MPT Driver for vmkernel
+   ReferenceURLs: 
+   Creation Date: 2021-07-03
+   Depends: esx-version >= 6.7.0, esx-version << 7.0.0, vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 100000ab, PCIID 100000ab1137020f, PCIID 100000ab80863530, PCIID 100000ac, PCIID 100000ac10281fe3, PCIID 100000ac10281fe4, PCIID 100000ac1d490201, PCIID 100000ac1d490203, PCIID 100000ac80863000, PCIID 100000ac80863020, PCIID 100000ae, PCIID 100000ae11370211, PCIID 100000af, PCIID 100000af11370212, PCIID 100000af1137024f, PCIID 100000af1d490200, PCIID 100000af1d490202, PCIID 100000af1d490204, PCIID 100000b2, PCIID 100000d0, PCIID 100000d1, PCIID 100000e0, PCIID 100000e1, PCIID 100000e2, PCIID 100000e3, PCIID 100000e4, PCIID 100000e5, PCIID 100000e6, PCIID 100000e7, module, driver
+   Payloads: lsi-msgpt35
+
+ELX_bootbank_elx-esx-libelxima-8169922.so_12.0.1188.0-03:
+   Name: elx-esx-libelxima-8169922.so
+   Version: 12.0.1188.0-03
+   Type: bootbank
+   Vendor: ELX
+   Acceptance Level: VMwareCertified
+   Summary: Management to elxiscsi driver module
+   Description: Emulex OneConnect IMA-Plugin
+   ReferenceURLs: General info|http://www.example.com
+   Creation Date: 2018-08-30
+   Depends: uwglibc-2.5-34-1, uwglibc64-2.5-34-1, libvmkuser-6.7.0-1, uwvmkcall-6.7.0-1, vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: False
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: 
+   Payloads: elx-esx-libelxi
+
+EMU_bootbank_brcmfcoe_12.0.1278.0-1OEM.670.0.0.8169922:
+   Name: brcmfcoe
+   Version: 12.0.1278.0-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: EMU
+   Acceptance Level: VMwareCertified
+   Summary: Emulex FCoE Driver
+   Description: Emulex FCoE Driver
+   ReferenceURLs: 
+   Creation Date: 2019-10-02
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 10df0724, PCIID 10df072c, PCIID 19a20714, module, driver
+   Payloads: brcmfcoe
+
+EMU_bootbank_elxiscsi_12.0.1188.0-1OEM.670.0.0.8169922:
+   Name: elxiscsi
+   Version: 12.0.1188.0-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: EMU
+   Acceptance Level: VMwareCertified
+   Summary: iscsi driver for VMware ESX
+   Description: Emulex OneConnect iSCSI Driver
+   ReferenceURLs: 
+   Creation Date: 2018-08-30
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 10df0722, PCIID 19a20222, PCIID 19a20712, module, driver
+   Payloads: elxiscsi
+
+EMU_bootbank_elxnet_12.0.1216.4-1OEM.670.0.0.8169922:
+   Name: elxnet
+   Version: 12.0.1216.4-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: EMU
+   Acceptance Level: VMwareCertified
+   Summary: net driver for VMware ESX
+   Description: Emulex OneConnect Network Driver
+   ReferenceURLs: 
+   Creation Date: 2019-03-11
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 10df0720, PCIID 10df0720103c1934, PCIID 10df0720103c1935, PCIID 10df0720103c21d4, PCIID 10df0720103c220a, PCIID 10df0720103c803f, PCIID 10df072015908153, PCIID 19a20221, PCIID 19a20710, PCIID 19a20710103c177b, PCIID 19a20710103c17a3, PCIID 19a20710103c17a6, PCIID 19a20710103c184e, PCIID 19a20710103c2151, PCIID 19a20710103c3315, PCIID 19a20710103c3340, PCIID 19a20710103c3341, PCIID 19a20710103c3342, PCIID 19a20710103c3343, PCIID 19a20710103c3344, PCIID 19a20710103c3345, PCIID 19a20710103c3376, PCIID 19a20710103c337b, PCIID 19a20710103c337c, PCIID 19a20710103c3391, PCIID 19a20710103c3392, module, driver
+   Payloads: elxnet
+
+EMU_bootbank_lpfc_14.0.326.12-1OEM.670.0.0.8169922:
+   Name: lpfc
+   Version: 14.0.326.12-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: EMU
+   Acceptance Level: VMwareCertified
+   Summary: Emulex FC Driver
+   Description: Emulex Fibre Channel and FCoE Driver
+   ReferenceURLs: 
+   Creation Date: 2021-10-05
+   Depends: esx-version >= 6.7, esx-version << 7.0.0, vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 10dfe260, PCIID 10dfe268, PCIID 10dfe300, PCIID 10dff400, PCIID 10dff500, module, driver
+   Payloads: lpfc
+
+INT_bootbank_i40en_1.16.3.0-1OEM.670.0.0.8169922:
+   Name: i40en
+   Version: 1.16.3.0-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: INT
+   Acceptance Level: VMwareCertified
+   Summary: Network driver for Intel(R) X710/XL710/XXV710/X722 Adapters
+   Description: Native i40en network driver for VMware ESXi
+   ReferenceURLs: 
+   Creation Date: 2021-12-06
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 8086101f, PCIID 8086104e, PCIID 8086104f, PCIID 80861572, PCIID 80861580, PCIID 80861581, PCIID 80861583, PCIID 80861584, PCIID 80861585, PCIID 80861586, PCIID 80861589, PCIID 8086158a, PCIID 8086158b, PCIID 808615ff, PCIID 808637cc, PCIID 808637ce, PCIID 808637cf, PCIID 808637d0, PCIID 808637d1, PCIID 808637d2, PCIID 808637d3, module, driver
+   Payloads: i40en
+
+INT_bootbank_iavmd_2.7.2.1001-1OEM.670.0.0.8169922:
+   Name: iavmd
+   Version: 2.7.2.1001-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: INT
+   Acceptance Level: VMwareCertified
+   Summary: Intel NVME Driver with VMD Technology
+   Description: Intel NVME Driver with VMD Technology
+   ReferenceURLs: 
+   Creation Date: 2021-09-09
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: intel-nvme, intel-nvme-vmd
+   Provides: 
+   Maintenance Mode Required: False
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 8086201d, PCIID 808628c0, module, driver
+   Payloads: iavmd
+
+INT_bootbank_icen_1.7.3.0-1OEM.670.0.0.8169922:
+   Name: icen
+   Version: 1.7.3.0-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: INT
+   Acceptance Level: VMwareCertified
+   Summary: Network driver for Intel(R) E810 Adapters
+   Description: Native icen network driver for VMware ESXi
+   ReferenceURLs: 
+   Creation Date: 2021-10-12
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 80861590, PCIID 80861591, PCIID 80861592, PCIID 80861593, PCIID 80861599, PCIID 8086159a, PCIID 8086159b, module, driver
+   Payloads: icen
+
+INT_bootbank_igbn_1.8.2.0-1OEM.670.0.0.8169922:
+   Name: igbn
+   Version: 1.8.2.0-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: INT
+   Acceptance Level: VMwareCertified
+   Summary: Network driver for Intel(R) 1 Gigabit Server Adapters
+   Description: Native igbn network driver for VMware ESXi
+   ReferenceURLs: 
+   Creation Date: 2021-12-08
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 8086150e, PCIID 8086150f, PCIID 80861510, PCIID 80861511, PCIID 80861516, PCIID 80861521, PCIID 80861522, PCIID 80861523, PCIID 80861524, PCIID 80861527, PCIID 80861533, PCIID 80861536, PCIID 80861537, PCIID 80861538, PCIID 80861539, PCIID 8086157b, PCIID 8086157c, PCIID 80861f40, PCIID 80861f41, PCIID 80861f45, module, driver
+   Payloads: igbn
+
+INT_bootbank_ixgben_1.12.2.0-1OEM.670.0.0.8169922:
+   Name: ixgben
+   Version: 1.12.2.0-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: INT
+   Acceptance Level: VMwareCertified
+   Summary: Network driver for Intel(R) 10 Gigabit Adapters
+   Description: Native ixgben network driver for VMware ESXi
+   ReferenceURLs: 
+   Creation Date: 2021-11-29
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 808610f7, PCIID 808610f8, PCIID 808610f9, PCIID 808610fb, PCIID 808610fc, PCIID 80861507, PCIID 80861514, PCIID 80861517, PCIID 80861528, PCIID 8086154d, PCIID 80861557, PCIID 80861558, PCIID 80861560, PCIID 80861563, PCIID 808615aa, PCIID 808615ab, PCIID 808615ac, PCIID 808615ad, PCIID 808615ae, PCIID 808615c2, PCIID 808615c3, PCIID 808615c4, PCIID 808615c6, PCIID 808615c7, PCIID 808615c8, PCIID 808615ce, PCIID 808615d1, PCIID 808615e4, PCIID 808615e5, module, driver
+   Payloads: ixgben
+
+LVO_bootbank_lnvcustomization_6.73-10.1:
+   Name: lnvcustomization
+   Version: 6.73-10.1
+   Type: bootbank
+   Vendor: LVO
+   Acceptance Level: PartnerSupported
+   Summary: Lenovo customization
+   Description: This package contains Lenovo customization
+   ReferenceURLs: 
+   Creation Date: 2019-06-27
+   Depends: esx-version >= 6.7.0, esx-version << 6.7.3
+   Conflicts: ibmcustomization
+   Replaces: ibmcustomization
+   Provides: 
+   Maintenance Mode Required: False
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: True
+   Tags: 
+   Payloads: lnvcustomizatio
+
+MEL_bootbank_nmlx4-core_3.17.70.1-1OEM.670.0.0.8169922:
+   Name: nmlx4-core
+   Version: 3.17.70.1-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: MEL
+   Acceptance Level: VMwareCertified
+   Summary: Mellanox Technologies ConnectX Native Core Driver
+   Description: Mellanox Technologies ConnectX Native Core Driver
+   ReferenceURLs: 
+   Creation Date: 2019-12-19
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 15b301f6, PCIID 15b301f8, PCIID 15b31003, PCIID 15b31004, PCIID 15b31007, module, driver
+   Payloads: nmlx4-core
+
+MEL_bootbank_nmlx4-en_3.17.70.1-1OEM.670.0.0.8169922:
+   Name: nmlx4-en
+   Version: 3.17.70.1-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: MEL
+   Acceptance Level: VMwareCertified
+   Summary: Mellanox Technologies ConnectX Native Ethernet Driver
+   Description: Mellanox Technologies ConnectX Native Ethernet Driver
+   ReferenceURLs: 
+   Creation Date: 2019-12-19
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module, driver
+   Payloads: nmlx4-en
+
+MEL_bootbank_nmlx4-rdma_3.17.70.1-1OEM.670.0.0.8169922:
+   Name: nmlx4-rdma
+   Version: 3.17.70.1-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: MEL
+   Acceptance Level: VMwareCertified
+   Summary: Mellanox Technologies ConnectX Native RDMA Driver
+   Description: Mellanox Technologies ConnectX Native RDMA Driver
+   ReferenceURLs: 
+   Creation Date: 2019-12-19
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module, driver
+   Payloads: nmlx4-rdma
+
+MEL_bootbank_nmlx5-core_4.17.71.1-1OEM.670.0.0.8169922:
+   Name: nmlx5-core
+   Version: 4.17.71.1-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: MEL
+   Acceptance Level: VMwareCertified
+   Summary: Mellanox Technologies ConnectX4 Native Core Driver
+   Description: Mellanox Technologies ConnectX4 Native Core Driver
+   ReferenceURLs: 
+   Creation Date: 2021-01-14
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 15b31013, PCIID 15b3101315b30003, PCIID 15b3101315b30004, PCIID 15b3101315b30005, PCIID 15b3101315b30006, PCIID 15b3101315b30007, PCIID 15b3101315b30008, PCIID 15b3101315b30009, PCIID 15b3101315b30010, PCIID 15b3101315b30011, PCIID 15b3101315b30012, PCIID 15b3101315b30013, PCIID 15b3101315b30014, PCIID 15b3101315b30020, PCIID 15b3101315b30023, PCIID 15b3101315b30038, PCIID 15b3101315b30039, PCIID 15b3101315b30040, PCIID 15b3101315b30041, PCIID 15b3101315b30044, PCIID 15b3101315b30046, PCIID 15b3101315b30048, PCIID 15b3101315b30049, PCIID 15b31014, PCIID 15b31015, PCIID 15b3101515b30001, PCIID 15b3101515b30002, PCIID 15b3101515b30003, PCIID 15b3101515b30004, PCIID 15b3101515b30005, PCIID 15b3101515b30006, PCIID 15b3101515b30008, PCIID 15b3101515b30009, PCIID 15b3101515b30011, PCIID 15b3101515b30013, PCIID 15b3101515b30020, PCIID 15b3101515b30021, PCIID 15b3101515b30047, PCIID 15b3101515b30048, PCIID 15b3101515b30050, PCIID 15b3101515b30069, PCIID 15b3101515b30070, PCIID 15b3101515b30071, PCIID 15b3101515b30073, PCIID 15b3101515b30091, PCIID 15b3101515b30098, PCIID 15b3101515b30102, PCIID 15b3101515b30103, PCIID 15b31016, PCIID 15b31017, PCIID 15b3101715b30001, PCIID 15b3101715b30003, PCIID 15b3101715b30004, PCIID 15b3101715b30006, PCIID 15b3101715b30007, PCIID 15b3101715b30009, PCIID 15b3101715b30019, PCIID 15b3101715b30020, PCIID 15b3101715b30021, PCIID 15b3101715b30025, PCIID 15b3101715b30040, PCIID 15b3101715b30045, PCIID 15b3101715b30050, PCIID 15b3101715b30052, PCIID 15b3101715b30060, PCIID 15b3101715b30061, PCIID 15b3101715b30063, PCIID 15b3101715b30068, PCIID 15b3101715b30110, PCIID 15b3101715b30114, PCIID 15b3101715b30117, PCIID 15b3101715b30119, PCIID 15b3101715b30121, PCIID 15b3101715b30122, PCIID 15b3101715b30124, PCIID 15b3101715b30128, PCIID 15b3101715b30130, PCIID 15b3101715b30131, PCIID 15b3101715b30160, PCIID 15b3101715b30193, PCIID 15b31018, PCIID 15b31019, PCIID 15b3101915b30002, PCIID 15b3101915b30008, PCIID 15b3101915b30014, PCIID 15b3101915b30035, PCIID 15b3101915b30041, PCIID 15b3101915b30067, PCIID 15b3101915b30090, PCIID 15b3101915b30120, PCIID 15b3101915b30151, PCIID 15b3101915b30195, PCIID 15b3101a, PCIID 15b3101b, PCIID 15b3101b15b30006, PCIID 15b3101b15b30007, PCIID 15b3101b15b30008, PCIID 15b3101b15b30009, PCIID 15b3101b15b30028, PCIID 15b3101b15b30070, PCIID 15b3101b15b30071, PCIID 15b3101b15b30072, PCIID 15b3101b15b30073, PCIID 15b3101b15b30078, PCIID 15b3101c, PCIID 15b3101d, PCIID 15b3101d15b30004, PCIID 15b3101d15b30005, PCIID 15b3101d15b30006, PCIID 15b3101d15b30011, PCIID 15b3101d15b30012, PCIID 15b3101d15b30013, PCIID 15b3101d15b30016, PCIID 15b3101d15b30018, PCIID 15b3101d15b30019, PCIID 15b3101d15b30031, PCIID 15b3101d15b30032, PCIID 15b3101d15b30034, PCIID 15b3101d15b30035, PCIID 15b3101d15b30037, PCIID 15b3101d15b30039, PCIID 15b3101d15b30041, PCIID 15b3101d15b30042, PCIID 15b3101d15b30043, PCIID 15b3101d15b30044, PCIID 15b3101d15b30047, PCIID 15b3101d15b30048, PCIID 15b3101d15b30049, PCIID 15b3101d15b30052, PCIID 15b3101d15b30054, PCIID 15b3101d15b30055, PCIID 15b3101d15b30059, PCIID 15b3101d15b30060, PCIID 15b3101d15b30065, PCIID 15b3101d15b30066, PCIID 15b3101d15b30083, PCIID 15b3101d15b30084, PCIID 15b3101d15b30085, PCIID 15b3101d15b30095, PCIID 15b3101d15b30100, PCIID 15b3101d15b30103, PCIID 15b3101e, PCIID 15b3101f, PCIID 15b3101f15b30001, PCIID 15b3101f15b30002, PCIID 15b3101f15b30003, PCIID 15b3101f15b30004, PCIID 15b3101f15b30005, PCIID 15b3101f15b30008, PCIID 15b3101f15b30009, PCIID 15b3101f15b30010, PCIID 15b3101f15b30011, PCIID 15b3101f15b30016, PCIID 15b3101f15b30017, PCIID 15b3101f15b30018, PCIID 15b3a2d2, PCIID 15b3a2d215b30001, PCIID 15b3a2d215b30008, PCIID 15b3a2d215b30028, PCIID 15b3a2d215b30029, PCIID 15b3a2d215b30035, PCIID 15b3a2d215b30036, PCIID 15b3a2d215b30037, PCIID 15b3a2d215b30038, PCIID 15b3a2d215b30081, PCIID 15b3a2d215b30082, PCIID 15b3a2d215b30084, PCIID 15b3a2d215b30085, PCIID 15b3a2d3, PCIID 15b3a2d6, PCIID 15b3a2d615b30005, PCIID 15b3a2d615b30034, PCIID 15b3a2d615b30035, PCIID 15b3a2d615b30036, PCIID 15b3a2d615b30048, PCIID 15b3a2d615b30049, PCIID 15b3a2d615b30051, PCIID 15b3a2d615b30052, PCIID 15b3a2d615b30055, PCIID 15b3a2d615b30056, PCIID 15b3a2d615b30057, PCIID 15b3a2d615b30060, PCIID 15b3a2d615b30061, PCIID 15b3a2d615b30064, PCIID 15b3a2d615b30065, PCIID 15b3a2d615b30066, PCIID 15b3a2d615b30070, PCIID 15b3a2d615b30071, PCIID 15b3a2d615b30072, PCIID 15b3a2d615b30077, PCIID 15b3a2d615b30078, module, driver
+   Payloads: nmlx5-core
+
+MEL_bootbank_nmlx5-rdma_4.17.71.1-1OEM.670.0.0.8169922:
+   Name: nmlx5-rdma
+   Version: 4.17.71.1-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: MEL
+   Acceptance Level: VMwareCertified
+   Summary: Mellanox Technologies ConnectX-4 Native RDMA Driver
+   Description: Mellanox Technologies ConnectX-4 Native RDMA Driver
+   ReferenceURLs: 
+   Creation Date: 2021-01-14
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module, driver
+   Payloads: nmlx5-rdma
+
+MSCC_bootbank_smartpqi_67.4252.0.103-1OEM.670.0.0.8169922:
+   Name: smartpqi
+   Version: 67.4252.0.103-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: MSCC
+   Acceptance Level: VMwareCertified
+   Summary: SmartPqi Native driver
+   Description: VMware native driver module for Microsemi SmartPqi controllers
+   ReferenceURLs: 
+   Creation Date: 2022-02-18
+   Depends: vmkapi_2_5_0_0, esx-version >= 6.7.0, esx-version << 7.0.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: False
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 9005028f10281fe0, PCIID 9005028f103c0600, PCIID 9005028f103c0601, PCIID 9005028f103c0602, PCIID 9005028f103c0603, PCIID 9005028f103c0609, PCIID 9005028f103c0650, PCIID 9005028f103c0651, PCIID 9005028f103c0652, PCIID 9005028f103c0653, PCIID 9005028f103c0654, PCIID 9005028f103c0655, PCIID 9005028f103c0700, PCIID 9005028f103c0701, PCIID 9005028f103c1100, PCIID 9005028f103c1101, PCIID 9005028f105b1211, PCIID 9005028f105b1321, PCIID 9005028f13fe8312, PCIID 9005028f14581000, PCIID 9005028f152d8a22, PCIID 9005028f152d8a23, PCIID 9005028f152d8a24, PCIID 9005028f152d8a36, PCIID 9005028f152d8a37, PCIID 9005028f15900294, PCIID 9005028f159002db, PCIID 9005028f159002dc, PCIID 9005028f1590032e, PCIID 9005028f15900381, PCIID 9005028f15900382, PCIID 9005028f15900383, PCIID 9005028f193d1104, PCIID 9005028f193d1105, PCIID 9005028f193d1106, PCIID 9005028f193d1107, PCIID 9005028f193d1108, PCIID 9005028f193d1109, PCIID 9005028f193d8460, PCIID 9005028f193d8461, PCIID 9005028f193dc460, PCIID 9005028f193dc461, PCIID 9005028f193df460, PCIID 9005028f193df461, PCIID 9005028f19e5d227, PCIID 9005028f19e5d228, PCIID 9005028f19e5d229, PCIID 9005028f19e5d22a, PCIID 9005028f19e5d22b, PCIID 9005028f19e5d22c, PCIID 9005028f1bd40045, PCIID 9005028f1bd40046, PCIID 9005028f1bd40047, PCIID 9005028f1bd40048, PCIID 9005028f1bd4004a, PCIID 9005028f1bd4004b, PCIID 9005028f1bd4004c, PCIID 9005028f1bd4004f, PCIID 9005028f1bd40051, PCIID 9005028f1bd40052, PCIID 9005028f1bd40053, PCIID 9005028f1bd40054, PCIID 9005028f1bd4006b, PCIID 9005028f1bd4006c, PCIID 9005028f1bd4006d, PCIID 9005028f1bd4006f, PCIID 9005028f1bd40070, PCIID 9005028f1bd40071, PCIID 9005028f1bd40072, PCIID 9005028f1cf20b27, PCIID 9005028f1cf20b29, PCIID 9005028f1cf20b45, PCIID 9005028f1cf25445, PCIID 9005028f1cf25446, PCIID 9005028f1cf25447, PCIID 9005028f1cf25449, PCIID 9005028f1cf2544a, PCIID 9005028f1cf2544b, PCIID 9005028f1cf2544d, PCIID 9005028f1cf2544e, PCIID 9005028f1cf2544f, PCIID 9005028f1d490220, PCIID 9005028f1d490221, PCIID 9005028f1d490520, PCIID 9005028f1d490620, PCIID 9005028f1d490621, PCIID 9005028f1d490622, PCIID 9005028f1d490623, PCIID 9005028f1d8d0800, PCIID 9005028f1d8d0806, PCIID 9005028f1d8d0908, PCIID 9005028f1d8d0916, PCIID 9005028f1dfc3161, PCIID 9005028f1f0c3161, PCIID 9005028f90050608, PCIID 9005028f90050800, PCIID 9005028f90050801, PCIID 9005028f90050802, PCIID 9005028f90050803, PCIID 9005028f90050804, PCIID 9005028f90050805, PCIID 9005028f90050806, PCIID 9005028f90050807, PCIID 9005028f90050808, PCIID 9005028f90050809, PCIID 9005028f9005080a, PCIID 9005028f90050900, PCIID 9005028f90050901, PCIID 9005028f90050902, PCIID 9005028f90050903, PCIID 9005028f90050904, PCIID 9005028f90050905, PCIID 9005028f90050906, PCIID 9005028f90050907, PCIID 9005028f90050908, PCIID 9005028f9005090a, PCIID 9005028f90051200, PCIID 9005028f90051201, PCIID 9005028f90051202, PCIID 9005028f90051280, PCIID 9005028f90051281, PCIID 9005028f90051282, PCIID 9005028f90051300, PCIID 9005028f90051301, PCIID 9005028f90051302, PCIID 9005028f90051303, PCIID 9005028f90051380, PCIID 9005028f90051400, PCIID 9005028f90051402, PCIID 9005028f90051410, PCIID 9005028f90051411, PCIID 9005028f90051412, PCIID 9005028f90051420, PCIID 9005028f90051430, PCIID 9005028f90051440, PCIID 9005028f90051441, PCIID 9005028f90051450, PCIID 9005028f90051452, PCIID 9005028f90051460, PCIID 9005028f90051461, PCIID 9005028f90051462, PCIID 9005028f90051463, PCIID 9005028f90051470, PCIID 9005028f90051471, PCIID 9005028f90051472, PCIID 9005028f90051473, PCIID 9005028f90051474, PCIID 9005028f90051480, PCIID 9005028f90051490, PCIID 9005028f90051491, PCIID 9005028f900514a0, PCIID 9005028f900514a1, PCIID 9005028f900514a2, PCIID 9005028f900514a4, PCIID 9005028f900514a5, PCIID 9005028f900514a6, PCIID 9005028f900514b0, PCIID 9005028f900514b1, PCIID 9005028f900514c0, PCIID 9005028f900514c1, PCIID 9005028f900514c2, PCIID 9005028f900514d0, PCIID 9005028f900514e0, PCIID 9005028f900514f0, module, driver
+   Payloads: smartpqi
+
+Marvell_bootbank_qlnativefc_3.1.87.0-1OEM.670.0.0.8169922:
+   Name: qlnativefc
+   Version: 3.1.87.0-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: Marvell
+   Acceptance Level: VMwareCertified
+   Summary: QLogic Fibre Channel HBA Driver
+   Description: QLogic Native FC driver for vmkernel
+   ReferenceURLs: 
+   Creation Date: 2021-08-30
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 10772031, PCIID 10772061, PCIID 10772071, PCIID 1077207110770283, PCIID 1077207110770290, PCIID 1077207110770295, PCIID 1077207110770297, PCIID 107720711077029e, PCIID 10772071107702a2, PCIID 10772071107702a3, PCIID 10772071107702a4, PCIID 10772071107702a5, PCIID 10772071107702ad, PCIID 10772081, PCIID 10772081107702e1, PCIID 10772081107702e3, PCIID 10772089, PCIID 10772261, PCIID 1077226110770299, PCIID 107722611077029a, PCIID 107722611077029b, PCIID 107722611077029c, PCIID 10772261107702a7, PCIID 10772261107702a8, PCIID 10772261107702ab, PCIID 10772261107702ac, PCIID 10772261107702ae, PCIID 10772261107702af, PCIID 10772261107702b0, PCIID 10772261107702b1, PCIID 10772261107702b2, PCIID 10772261107702b3, PCIID 10772261107702b4, PCIID 10772261107702b6, PCIID 10772261107702b7, PCIID 10772261107702b8, PCIID 10772261107702b9, PCIID 10772261159000f9, PCIID 10772261159000fa, PCIID 1077226115900203, PCIID 1077226115900204, PCIID 10772271, PCIID 10772281, PCIID 10772281107702d3, PCIID 10772281107702d4, PCIID 10772281107702e2, PCIID 10772281107702e4, PCIID 10772281107702ee, PCIID 10772281107702f0, PCIID 10772289, PCIID 10772532, PCIID 10778001, PCIID 10778021, PCIID 10778031, module, driver
+   Payloads: qlnativefc
+
+QLC_bootbank_qcnic_1.0.26.0-1OEM.670.0.0.8169922:
+   Name: qcnic
+   Version: 1.0.26.0-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: QLC
+   Acceptance Level: VMwareCertified
+   Summary: QLogic E3 Common Interface driver
+   Description: QLogic E3 Common Interface driver
+   ReferenceURLs: 
+   Creation Date: 2019-09-05
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: True
+   Stateless Ready: True
+   Overlay: False
+   Tags: module, driver
+   Payloads: qcnic
+
+QLC_bootbank_qedentv-ens_3.11.42.0-1OEM.670.0.0.8169922:
+   Name: qedentv-ens
+   Version: 3.11.42.0-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: QLC
+   Acceptance Level: VMwareCertified
+   Summary: Network driver for QLogic FastLinQ QL45xxx Ethernet Controller
+   Description: VMKAPI QLogic QL45xxx network driver for VMware ESXi
+   ReferenceURLs: 
+   Creation Date: 2021-05-29
+   Depends: qedentv_ver = X.40.33.0, vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 10771629, PCIID 10771634, PCIID 10771636, PCIID 10771644, PCIID 10771654, PCIID 10771656, PCIID 10771666, PCIID 10778070, PCIID 10778071, PCIID 10778072, PCIID 10778073, module, driver
+   Payloads: qedentv-ens
+
+QLC_bootbank_qedentv_3.11.41.0-1OEM.670.0.0.8169922:
+   Name: qedentv
+   Version: 3.11.41.0-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: QLC
+   Acceptance Level: VMwareCertified
+   Summary: Network driver for QLogic FastLinQ QL45xxx Ethernet Controller
+   Description: VMKAPI QLogic QL45xxx network driver for VMware ESXi
+   ReferenceURLs: 
+   Creation Date: 2021-05-27
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: qedentv_ver = X.40.33.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 10771629, PCIID 10771634, PCIID 10771636, PCIID 10771644, PCIID 10771654, PCIID 10771656, PCIID 10771666, PCIID 10778070, PCIID 10778071, PCIID 10778072, PCIID 10778073, module, driver
+   Payloads: qedentv
+
+QLC_bootbank_qedf_2.2.62.0-1OEM.670.0.0.8169922:
+   Name: qedf
+   Version: 2.2.62.0-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: QLC
+   Acceptance Level: VMwareCertified
+   Summary: QLogic E4 FCoE driver
+   Description: QLogic E4 FCoE driver
+   ReferenceURLs: 
+   Creation Date: 2021-05-21
+   Depends: qedentv_ver = X.40.33.0, vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 1077165c10770034, PCIID 1077165c1077e4f1, PCIID 1077165c1077e4f2, PCIID 1077165c1077e4f9, PCIID 1077165c1077e4fa, PCIID 1077165c1077e4fb, PCIID 1077165c15900245, PCIID 1077165c15900287, PCIID 10778080, module, driver
+   Payloads: qedf
+
+QLC_bootbank_qedi_2.19.59.0-1OEM.670.0.0.8169922:
+   Name: qedi
+   Version: 2.19.59.0-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: QLC
+   Acceptance Level: VMwareCertified
+   Summary: QLogic Native iSCSI E4 driver
+   Description: QLogic FastLinQ QL45xxx/QL41xxxx Series 10/25/40/50/100 GbE Controller (iSCSI)
+   ReferenceURLs: 
+   Creation Date: 2021-05-13
+   Depends: qedentv_ver = X.40.33.0, vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: scsi-qedil
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 1077165e, PCIID 10778084, module, driver
+   Payloads: qedi
+
+QLC_bootbank_qedrntv_3.11.40.0-1OEM.670.0.0.8169922:
+   Name: qedrntv
+   Version: 3.11.40.0-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: QLC
+   Acceptance Level: VMwareCertified
+   Summary: RoCE driver for QLogic FastLinQ QL45xxx Ethernet Controller
+   Description: VMKAPI QLogic QL45xxx RoCE driver for VMware ESXi
+   ReferenceURLs: 
+   Creation Date: 2021-05-07
+   Depends: qedentv_ver = X.40.33.0, vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: True
+   Stateless Ready: True
+   Overlay: False
+   Tags: module, driver
+   Payloads: qedrntv
+
+QLC_bootbank_qfle3_1.0.84.0-1OEM.670.0.0.8169922:
+   Name: qfle3
+   Version: 1.0.84.0-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: QLC
+   Acceptance Level: VMwareCertified
+   Summary: Network driver for QLogic E3 Controller
+   Description: Native QLogic E3 network driver for VMware ESXi
+   ReferenceURLs: 
+   Creation Date: 2019-09-05
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 107716a1, PCIID 107716a4, PCIID 107716ad, PCIID 14e4163d, PCIID 14e4163e, PCIID 14e41663, PCIID 14e4168a, PCIID 14e4168a10281f67, PCIID 14e4168a10281f68, PCIID 14e4168a14e40200, PCIID 14e4168a1bcf805f, PCIID 14e4168e, PCIID 14e416a1, PCIID 14e416a2, PCIID 14e416a2103c22fa, PCIID 14e416a4, PCIID 14e416a5, PCIID 14e416ad, PCIID 14e416ae, module, driver
+   Payloads: qfle3
+
+QLC_bootbank_qfle3f_1.0.68.0-1OEM.670.0.0.8169922:
+   Name: qfle3f
+   Version: 1.0.68.0-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: QLC
+   Acceptance Level: VMwareCertified
+   Summary: QLogic E3 Native FC driver
+   Description: QLogic E3 Native FC driver
+   ReferenceURLs: 
+   Creation Date: 2019-09-11
+   Depends: vmkapi_2_2_0_0, vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module, driver
+   Payloads: qfle3f
+
+QLC_bootbank_qfle3i_1.0.23.0-1OEM.670.0.0.8169922:
+   Name: qfle3i
+   Version: 1.0.23.0-1OEM.670.0.0.8169922
+   Type: bootbank
+   Vendor: QLC
+   Acceptance Level: VMwareCertified
+   Summary: Native E3 iSCSI Driver
+   Description: Qlogic E3 iSCSI Native Driver
+   ReferenceURLs: 
+   Creation Date: 2019-08-30
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module, driver
+   Payloads: qfle3i
+
+VMW_bootbank_ata-libata-92_3.00.9.2-16vmw.670.0.0.8169922:
+   Name: ata-libata-92
+   Version: 3.00.9.2-16vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: libata_92: ata driver for VMware ESX
+   Description: ATA Kernel Library for SATA/IDE
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.vmware.libata-9.2.3.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module
+   Payloads: ata-liba
+
+VMW_bootbank_ata-pata-amd_0.3.10-3vmw.670.0.0.8169922:
+   Name: ata-pata-amd
+   Version: 0.3.10-3vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: pata_amd: ata driver for VMware ESX
+   Description: AMD/NVidia PATA Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.libata-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: ata-pata
+
+VMW_bootbank_ata-pata-atiixp_0.4.6-4vmw.670.0.0.8169922:
+   Name: ata-pata-atiixp
+   Version: 0.4.6-4vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: pata_atiixp: ata driver for VMware ESX
+   Description: ATI SATA Controllers Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.libata-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: ata-pata
+
+VMW_bootbank_ata-pata-cmd64x_0.2.5-3vmw.670.0.0.8169922:
+   Name: ata-pata-cmd64x
+   Version: 0.2.5-3vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: pata_cmd64x: ata driver for VMware ESX
+   Description: CMD64x PATA Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.libata-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: ata-pata
+
+VMW_bootbank_ata-pata-hpt3x2n_0.3.4-3vmw.670.0.0.8169922:
+   Name: ata-pata-hpt3x2n
+   Version: 0.3.4-3vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: pata_hpt3x2n: ata driver for VMware ESX
+   Description: Highpoint Technology HPT3x2n PATA Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.libata-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: ata-pata
+
+VMW_bootbank_ata-pata-pdc2027x_1.0-3vmw.670.0.0.8169922:
+   Name: ata-pata-pdc2027x
+   Version: 1.0-3vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: pata_pdc2027x: ata driver for VMware ESX
+   Description: Promise PATA Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.libata-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: ata-pata
+
+VMW_bootbank_ata-pata-serverworks_0.4.3-3vmw.670.0.0.8169922:
+   Name: ata-pata-serverworks
+   Version: 0.4.3-3vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: pata_serverworks: ata driver for VMware ESX
+   Description: Serverworks PATA Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.libata-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: ata-pata
+
+VMW_bootbank_ata-pata-sil680_0.4.8-3vmw.670.0.0.8169922:
+   Name: ata-pata-sil680
+   Version: 0.4.8-3vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: pata_sil680: ata driver for VMware ESX
+   Description: SIL680 IDE/PATA Controller Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.libata-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: ata-pata
+
+VMW_bootbank_ata-pata-via_0.3.3-2vmw.670.0.0.8169922:
+   Name: ata-pata-via
+   Version: 0.3.3-2vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: pata_via: ata driver for VMware ESX
+   Description: VIA SATA Controllers Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.libata-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: ata-pata
+
+VMW_bootbank_block-cciss_3.6.14-10vmw.670.0.0.8169922:
+   Name: block-cciss
+   Version: 3.6.14-10vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: cciss: block driver for VMware ESX
+   Description: Driver for HP/Compaq Smart Array Controllers
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: block-cc
+
+VMW_bootbank_char-random_1.0-3vmw.670.0.0.8169922:
+   Name: char-random
+   Version: 1.0-3vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: random: char driver for VMware ESX
+   Description: random driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.vmware.random-9.2.3.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: char-ran
+
+VMW_bootbank_ehci-ehci-hcd_1.0-4vmw.670.0.0.8169922:
+   Name: ehci-ehci-hcd
+   Version: 1.0-4vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: ehci-hcd: ehci driver for VMware ESX
+   Description: USB 2.0 ehci host driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.usb-10.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: ehci-ehc
+
+VMW_bootbank_hid-hid_1.0-3vmw.670.0.0.8169922:
+   Name: hid-hid
+   Version: 1.0-3vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: hid: hid driver for VMware ESX
+   Description: USB hid driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.usb-10.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.vmware.usbhid-9.2.3.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: hid-hid
+
+VMW_bootbank_ima-qla4xxx_2.02.18-1vmw.670.0.0.8169922:
+   Name: ima-qla4xxx
+   Version: 2.02.18-1vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: qima4xxx: IMA plugin for VMware ESX
+   Description: QLogic IMA plugin for iSCSI devices.
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: 
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: 
+   Payloads: ima-qla4
+
+VMW_bootbank_ipmi-ipmi-devintf_39.1-5vmw.670.1.28.10302608:
+   Name: ipmi-ipmi-devintf
+   Version: 39.1-5vmw.670.1.28.10302608
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: ipmi_devintf: ipmi driver for VMware ESX
+   Description: ipmi driver
+   ReferenceURLs: 
+   Creation Date: 2018-10-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.ipmi-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: ipmi-ipm
+
+VMW_bootbank_ipmi-ipmi-msghandler_39.1-5vmw.670.1.28.10302608:
+   Name: ipmi-ipmi-msghandler
+   Version: 39.1-5vmw.670.1.28.10302608
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: ipmi_msghandler: ipmi driver for VMware ESX
+   Description: ipmi driver
+   ReferenceURLs: 
+   Creation Date: 2018-10-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.vmware.ipmi-9.2.3.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: ipmi-ipm
+
+VMW_bootbank_ipmi-ipmi-si-drv_39.1-5vmw.670.1.28.10302608:
+   Name: ipmi-ipmi-si-drv
+   Version: 39.1-5vmw.670.1.28.10302608
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: ipmi_si_drv: ipmi driver for VMware ESX
+   Description: ipmi driver
+   ReferenceURLs: 
+   Creation Date: 2018-10-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.ipmi-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: ipmi-ipm
+
+VMW_bootbank_iser_1.0.0.0-1vmw.670.1.28.10302608:
+   Name: iser
+   Version: 1.0.0.0-1vmw.670.1.28.10302608
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: VMware Native iSER Driver
+   Description: VMware Native iSER Driver
+   ReferenceURLs: 
+   Creation Date: 2018-10-03
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module, driver
+   Payloads: iser
+
+VMW_bootbank_lpnic_11.4.59.0-1vmw.670.0.0.8169922:
+   Name: lpnic
+   Version: 11.4.59.0-1vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: net driver for VMware ESX
+   Description: Emulex OneConnect Network Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: net-be2net
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 10dfe220, module, driver
+   Payloads: lpnic
+
+VMW_bootbank_lsi-msgpt2_20.00.06.00-2vmw.670.3.73.14320388:
+   Name: lsi-msgpt2
+   Version: 20.00.06.00-2vmw.670.3.73.14320388
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: Avago (LSI) Native 6Gbps SAS MPT Driver
+   Description: Avago (LSI) Native 6Gbps SAS MPT Driver for vmkernel
+   ReferenceURLs: 
+   Creation Date: 2019-08-05
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 1000006e, PCIID 10000080, PCIID 10000081, PCIID 10000082, PCIID 10000083, PCIID 10000084, PCIID 10000085, PCIID 10000086, PCIID 10000087, PCIID 1000008715900041, PCIID 1000008715900042, PCIID 1000008715900043, PCIID 1000008715900044, module, driver
+   Payloads: lsi-msgp
+
+VMW_bootbank_misc-cnic-register_1.78.75.v60.7-1vmw.670.0.0.8169922:
+   Name: misc-cnic-register
+   Version: 1.78.75.v60.7-1vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: cnic_register: misc driver for VMware ESX
+   Description: QLogic NetXtreme II CNIC Registration Agent
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.broadcom.cnic_register-9.2.3.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module
+   Payloads: misc-cni
+
+VMW_bootbank_misc-drivers_6.7.0-2.48.13006603:
+   Name: misc-drivers
+   Version: 6.7.0-2.48.13006603
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: Miscellaneous drivers for ESX
+   Description: This package contains miscellaneous vmklinux drivers that VMware
+maintains internally.
+
+	vmklinux-vmklinux_9 6.7.0-None
+   ReferenceURLs: 
+   Creation Date: 2019-03-26
+   Depends: vmkapi_2_3_0_0, esx-base >= 6.1.0, com.vmware.vmkplexer-4.0
+   Conflicts: 
+   Replaces: VMware-esx-vmklinux26-vmklinux
+   Provides: com.vmware.driverAPI-9.2
+   Maintenance Mode Required: False
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module
+   Payloads: misc-dri
+
+VMW_bootbank_mtip32xx-native_3.9.8-1vmw.670.1.28.10302608:
+   Name: mtip32xx-native
+   Version: 3.9.8-1vmw.670.1.28.10302608
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: P32x/P42x PCIe SSD
+   Description: Micron RealSSD PCIe Native Driver
+   ReferenceURLs: 
+   Creation Date: 2018-10-03
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 13445150, PCIID 13445151, PCIID 13445152, PCIID 13445161, PCIID 13445162, module, driver
+   Payloads: mtip32xx
+
+VMW_bootbank_ne1000_0.8.4-2vmw.670.2.48.13006603:
+   Name: ne1000
+   Version: 0.8.4-2vmw.670.2.48.13006603
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: Networking Driver for Intel PRO/1000 Family Adapters
+   Description: Intel PRO/1000 Gigabit Ethernet Adapter
+   ReferenceURLs: 
+   Creation Date: 2019-03-26
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: False
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 80861049, PCIID 8086104a, PCIID 8086104b, PCIID 8086104c, PCIID 8086104d, PCIID 8086105e, PCIID 8086105e8086005e, PCIID 8086105e8086105e, PCIID 8086105e8086115e, PCIID 8086105e8086125e, PCIID 8086105e8086135e, PCIID 8086105f, PCIID 8086105f80860000, PCIID 8086105f8086005a, PCIID 8086105f8086115f, PCIID 8086105f8086125f, PCIID 8086105f8086135f, PCIID 80861060, PCIID 8086106080860060, PCIID 8086106080861060, PCIID 8086107d, PCIID 8086107d80861082, PCIID 8086107d80861084, PCIID 8086107d80861092, PCIID 8086107e, PCIID 8086107e80861084, PCIID 8086107e80861085, PCIID 8086107e80861094, PCIID 8086107f, PCIID 8086108b, PCIID 8086108c, PCIID 80861096, PCIID 80861098, PCIID 8086109a, PCIID 8086109a8086109a, PCIID 808610a4, PCIID 808610a4808610a4, PCIID 808610a4808611a4, PCIID 808610a5, PCIID 808610a5808610a5, PCIID 808610a5808610a6, PCIID 808610b9, PCIID 808610b980861083, PCIID 808610b980861093, PCIID 808610ba, PCIID 808610bb, PCIID 808610bc, PCIID 808610bc808610bc, PCIID 808610bc808611bc, PCIID 808610bd, PCIID 808610bf, PCIID 808610c0, PCIID 808610c2, PCIID 808610c3, PCIID 808610c4, PCIID 808610c5, PCIID 808610cb, PCIID 808610cc, PCIID 808610cd, PCIID 808610ce, PCIID 808610d3, PCIID 808610d315ad07d0, PCIID 808610d380860001, PCIID 808610d38086a01f, PCIID 808610d5, PCIID 808610d9, PCIID 808610da, PCIID 808610de, PCIID 808610df, PCIID 808610e5, PCIID 808610ea, PCIID 808610eb, PCIID 808610ef, PCIID 808610f0, PCIID 808610f5, PCIID 808610f6, PCIID 808610f615ad0760, PCIID 80861501, PCIID 80861502, PCIID 80861503, PCIID 8086150c, PCIID 80861525, PCIID 8086153a, PCIID 8086153b, PCIID 80861559, PCIID 8086155a, PCIID 8086156f, PCIID 80861570, PCIID 808615a0, PCIID 808615a1, PCIID 808615a2, PCIID 808615a3, PCIID 808615b7, PCIID 808615b8, PCIID 808615b9, PCIID 808615bb, PCIID 808615bc, PCIID 808615bd, PCIID 808615be, PCIID 808615d6, PCIID 808615d7, PCIID 808615d8, PCIID 808615e3, PCIID 8086294c, module, driver
+   Payloads: ne1000
+
+VMW_bootbank_nenic_1.0.29.0-1vmw.670.3.73.14320388:
+   Name: nenic
+   Version: 1.0.29.0-1vmw.670.3.73.14320388
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: Cisco VIC Native driver for VMware ESX
+   Description: Cisco VIC Ethernet NIC Driver
+   ReferenceURLs: 
+   Creation Date: 2019-08-05
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 11370043, PCIID 11370044, module, driver
+   Payloads: nenic
+
+VMW_bootbank_net-bnx2_2.2.4f.v60.10-2vmw.670.0.0.8169922:
+   Name: net-bnx2
+   Version: 2.2.4f.v60.10-2vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: bnx2: net driver for VMware ESX
+   Description: QLogic NetXtreme II Gigabit Ethernet Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.broadcom.cnic_register-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.broadcom.bnx2-9.2.3.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: net-bnx2
+
+VMW_bootbank_net-bnx2x_1.78.80.v60.12-2vmw.670.0.0.8169922:
+   Name: net-bnx2x
+   Version: 1.78.80.v60.12-2vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: bnx2x: net driver for VMware ESX
+   Description: QLogic NetXtreme II 10G/20G Ethernet Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.broadcom.cnic_register-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.broadcom.bnx2x-9.2.3.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: net-bnx2
+
+VMW_bootbank_net-cdc-ether_1.0-3vmw.670.0.0.8169922:
+   Name: net-cdc-ether
+   Version: 1.0-3vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: cdc_ether: net driver for VMware ESX
+   Description: USB network driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.usb-10.0, com.vmware.usbnet-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module
+   Payloads: net-cdc-
+
+VMW_bootbank_net-cnic_1.78.76.v60.13-2vmw.670.0.0.8169922:
+   Name: net-cnic
+   Version: 1.78.76.v60.13-2vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: cnic: net driver for VMware ESX
+   Description: QLogic NetXtreme II CNIC Ethernet Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.broadcom.cnic_register-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.broadcom.cnic-9.2.3.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module
+   Payloads: net-cnic
+
+VMW_bootbank_net-e1000_8.0.3.1-5vmw.670.3.112.16701467:
+   Name: net-e1000
+   Version: 8.0.3.1-5vmw.670.3.112.16701467
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: e1000: net driver for VMware ESX
+   Description: Intel(R) PRO/1000 Network Driver
+   ReferenceURLs: 
+   Creation Date: 2020-08-06
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: net-e100
+
+VMW_bootbank_net-e1000e_3.2.2.1-2vmw.670.0.0.8169922:
+   Name: net-e1000e
+   Version: 3.2.2.1-2vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: e1000e: net driver for VMware ESX
+   Description: Intel(R) PRO/1000 PCI-E Network Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: net-e100
+
+VMW_bootbank_net-enic_2.1.2.38-2vmw.670.0.0.8169922:
+   Name: net-enic
+   Version: 2.1.2.38-2vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: enic: net driver for VMware ESX
+   Description: Cisco VIC Ethernet NIC Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: net-enic
+
+VMW_bootbank_net-fcoe_1.0.29.9.3-7vmw.670.0.0.8169922:
+   Name: net-fcoe
+   Version: 1.0.29.9.3-7vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: fcoe: net driver for VMware ESX
+   Description: FCOE Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.libfcoe-9.2.3.0, com.vmware.libfc-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module
+   Payloads: net-fcoe
+
+VMW_bootbank_net-forcedeth_0.61-2vmw.670.0.0.8169922:
+   Name: net-forcedeth
+   Version: 0.61-2vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: forcedeth: net driver for VMware ESX
+   Description: nVidia forcedeth driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: net-forc
+
+VMW_bootbank_net-igb_5.0.5.1.1-5vmw.670.0.0.8169922:
+   Name: net-igb
+   Version: 5.0.5.1.1-5vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: igb: net driver for VMware ESX
+   Description: Intel(R) Gigabit Ethernet Network Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: net-igb
+
+VMW_bootbank_net-ixgbe_3.7.13.7.14iov-20vmw.670.0.0.8169922:
+   Name: net-ixgbe
+   Version: 3.7.13.7.14iov-20vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: ixgbe: net driver for VMware ESX
+   Description: Intel(R) 10 Gigabit Ethernet Network Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: net-ixgb
+
+VMW_bootbank_net-libfcoe-92_1.0.24.9.4-8vmw.670.0.0.8169922:
+   Name: net-libfcoe-92
+   Version: 1.0.24.9.4-8vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: libfcoe_92: net driver for VMware ESX
+   Description: Libfcoe Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.libfc-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.vmware.libfcoe-9.2.3.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module
+   Payloads: net-libf
+
+VMW_bootbank_net-mlx4-core_1.9.7.0-1vmw.670.0.0.8169922:
+   Name: net-mlx4-core
+   Version: 1.9.7.0-1vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: mlx4_core: net driver for VMware ESX
+   Description: Mellanox Technologies ConnectX core driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.mellanox.mlx4_core-9.2.3.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: net-mlx4
+
+VMW_bootbank_net-mlx4-en_1.9.7.0-1vmw.670.0.0.8169922:
+   Name: net-mlx4-en
+   Version: 1.9.7.0-1vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: mlx4_en: net driver for VMware ESX
+   Description: Mellanox Technologies ConnectX Ethernet driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.mellanox.mlx4_core-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module
+   Payloads: net-mlx4
+
+VMW_bootbank_net-nx-nic_5.0.621-5vmw.670.0.0.8169922:
+   Name: net-nx-nic
+   Version: 5.0.621-5vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: nx_nic: net driver for VMware ESX
+   Description: Qlogic 10G Ethernet Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.netxen.nx_nic-9.2.3.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: net-nx-n
+
+VMW_bootbank_net-tg3_3.131d.v60.4-2vmw.670.0.0.8169922:
+   Name: net-tg3
+   Version: 3.131d.v60.4-2vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: tg3: net driver for VMware ESX
+   Description: Broadcom NetXtreme I Gigabit Ethernet Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.broadcom.tg3-9.2.3.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: net-tg3
+
+VMW_bootbank_net-usbnet_1.0-3vmw.670.0.0.8169922:
+   Name: net-usbnet
+   Version: 1.0-3vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: usbnet: net driver for VMware ESX
+   Description: USB network driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.usb-10.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.vmware.usbnet-9.2.3.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module
+   Payloads: net-usbn
+
+VMW_bootbank_net-vmxnet3_1.1.3.0-3vmw.670.3.104.16075168:
+   Name: net-vmxnet3
+   Version: 1.1.3.0-3vmw.670.3.104.16075168
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: vmxnet3: net driver for VMware ESX
+   Description: VMware vmxnet3
+   ReferenceURLs: 
+   Creation Date: 2020-04-21
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: net-vmxn
+
+VMW_bootbank_nfnic_4.0.0.44-0vmw.670.3.104.16075168:
+   Name: nfnic
+   Version: 4.0.0.44-0vmw.670.3.104.16075168
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: Cisco UCS VIC Native fNIC driver
+   Description: Cisco UCS VIC Native fNIC driver for vmkernel
+   ReferenceURLs: 
+   Creation Date: 2020-04-21
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 11370045, module, driver
+   Payloads: nfnic
+
+VMW_bootbank_nhpsa_2.0.22-3vmw.670.1.28.10302608:
+   Name: nhpsa
+   Version: 2.0.22-3vmw.670.1.28.10302608
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: HPSA native driver
+   Description: VMware native driver module for HPE Smart Array and Smart HBA controllers
+   ReferenceURLs: 
+   Creation Date: 2018-10-03
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 103c3230103c323d, PCIID 103c3239103c21bd, PCIID 103c3239103c21be, PCIID 103c3239103c21bf, PCIID 103c3239103c21c0, PCIID 103c3239103c21c1, PCIID 103c3239103c21c2, PCIID 103c3239103c21c3, PCIID 103c3239103c21c5, PCIID 103c3239103c21c6, PCIID 103c3239103c21c7, PCIID 103c3239103c21c8, PCIID 103c3239103c21ca, PCIID 103c3239103c21cb, PCIID 103c3239103c21cc, PCIID 103c3239103c21cd, PCIID 103c3239103c21ce, PCIID 103c323a103c3241, PCIID 103c323a103c3243, PCIID 103c323a103c3245, PCIID 103c323a103c3247, PCIID 103c323a103c3249, PCIID 103c323a103c324a, PCIID 103c323a103c324b, PCIID 103c323b103c3350, PCIID 103c323b103c3351, PCIID 103c323b103c3352, PCIID 103c323b103c3353, PCIID 103c323b103c3354, PCIID 103c323b103c3355, PCIID 103c323b103c3356, PCIID 103c323c103c1920, PCIID 103c323c103c1921, PCIID 103c323c103c1922, PCIID 103c323c103c1923, PCIID 103c323c103c1924, PCIID 103c323c103c1926, PCIID 103c323c103c1928, module, driver
+   Payloads: nhpsa
+
+VMW_bootbank_ntg3_4.1.5.0-0vmw.670.3.116.16713306:
+   Name: ntg3
+   Version: 4.1.5.0-0vmw.670.3.116.16713306
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: Broadcom NetXtreme I ESX VMKAPI ethernet driver
+   Description: Broadcom NetXtreme I ESX VMKAPI ethernet driver
+   ReferenceURLs: 
+   Creation Date: 2020-08-08
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 14e41643, PCIID 14e41655, PCIID 14e41656, PCIID 14e41657, PCIID 14e4165f, PCIID 14e41665, PCIID 14e41682, PCIID 14e41686, PCIID 14e416f3, module, driver
+   Payloads: ntg3
+
+VMW_bootbank_nvme_1.2.2.28-5vmw.670.3.159.18828794:
+   Name: nvme
+   Version: 1.2.2.28-5vmw.670.3.159.18828794
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: Non-Volatile memory controller driver
+   Description: Non-Volatile memory controller driver
+   ReferenceURLs: 
+   Creation Date: 2021-10-26
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID ................010802, PCIID 111d80d0, PCIID 111d80d0111d80d0, PCIID 111d80d1, PCIID 111d80d1111d80d1, PCIID 111d80d2, PCIID 111d80d2111d80d2, PCIID 1179011010281ffb, PCIID 1179011010281ffc, PCIID 1179011010281ffd, PCIID 1179011010281ffe, PCIID 13445170, PCIID 13445171, PCIID 144da820, PCIID 144da82010281f95, PCIID 144da82010281f96, PCIID 144da82010281f97, PCIID 144da82010281fa4, PCIID 144da82010281fa6, PCIID 144da82010281fba, PCIID 144da82010281fbb, PCIID 144da82010281fbc, PCIID 144da820144da800, PCIID 144da820144da801, PCIID 144da820144da802, PCIID 144da820144da804, PCIID 144da820144da805, PCIID 144da820144da806, PCIID 144da820144da809, PCIID 144da820144da80a, PCIID 144da821, PCIID 144da82110281fb7, PCIID 144da82110281fb8, PCIID 144da82110281fb9, PCIID 144da821144da801, PCIID 144da821144da802, PCIID 144da821144da803, PCIID 144da821144da807, PCIID 144da821144da80d, PCIID 144da821144da80e, PCIID 144da821144da811, PCIID 144da821144da812, PCIID 144da821144da813, PCIID 144da821144da814, PCIID 144da821144da81d, PCIID 144da821144da81e, PCIID 144da821144da81f, PCIID 144da82210281ff3, PCIID 144da82210281ff4, PCIID 144da82210281ff5, PCIID 144da82210281ff6, PCIID 144da82210281ff7, PCIID 144da82210281ff8, PCIID 144da82210281ff9, PCIID 1b4b2241, PCIID 80860a5410281fee, PCIID 80860a5410281fef, PCIID 80860a5410281ff0, PCIID 80860a5410281fff, PCIID 80860a5410282003, PCIID 80860a5410282004, PCIID 80860a5410282005, PCIID 8086270110282000, PCIID 8086270110282001, PCIID 8086270110282002, module, driver
+   Payloads: nvme
+
+VMW_bootbank_nvmxnet3-ens_2.0.0.21-1vmw.670.0.0.8169922:
+   Name: nvmxnet3-ens
+   Version: 2.0.0.21-1vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: Network ENS driver for VMware vmxnet3 Virtual Ethernet Controller
+   Description: Native vmxnet3 network ENS driver for VMware ESXi
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 15ad07b0, module, driver
+   Payloads: nvmxnet3
+
+VMW_bootbank_nvmxnet3_2.0.0.29-1vmw.670.1.28.10302608:
+   Name: nvmxnet3
+   Version: 2.0.0.29-1vmw.670.1.28.10302608
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: Network driver for VMware vmxnet3 Virtual Ethernet Controller
+   Description: Native vmxnet3 network driver for VMware ESXi
+   ReferenceURLs: 
+   Creation Date: 2018-10-03
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 15ad07b0, module, driver
+   Payloads: nvmxnet3
+
+VMW_bootbank_ohci-usb-ohci_1.0-3vmw.670.0.0.8169922:
+   Name: ohci-usb-ohci
+   Version: 1.0-3vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: usb-ohci: ohci driver for VMware ESX
+   Description: USB 1.0 ohci host driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.usb-10.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: ohci-usb
+
+VMW_bootbank_pvscsi_0.1-2vmw.670.0.0.8169922:
+   Name: pvscsi
+   Version: 0.1-2vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: PVSCSI Driver
+   Description: Native driver for VMware PVSCSI
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 15ad07c015ad07c0, module, driver
+   Payloads: pvscsi
+
+VMW_bootbank_qflge_1.1.0.11-1vmw.670.0.0.8169922:
+   Name: qflge
+   Version: 1.1.0.11-1vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: Network driver for QLogic NetXtreme II PCI/PCIe Gigabit Ethernet Adapters
+   Description: Network driver for QLogic NetXtreme II PCI/PCIe Gigabit Ethernet Adapters
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 14e41639, PCIID 14e41639103c7055, PCIID 14e41639103c7059, PCIID 14e4163a, PCIID 14e4163b, PCIID 14e4163c, PCIID 14e4164a, PCIID 14e4164c, PCIID 14e4164c103c7037, PCIID 14e4164c103c7038, PCIID 14e416aa, PCIID 14e416ac, module, driver
+   Payloads: qflge
+
+VMW_bootbank_sata-ahci_3.0-26vmw.670.0.0.8169922:
+   Name: sata-ahci
+   Version: 3.0-26vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: ahci: sata driver for VMware ESX
+   Description: AHCI SATA controllers Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.libata-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: sata-ahc
+
+VMW_bootbank_sata-ata-piix_2.12-10vmw.670.0.0.8169922:
+   Name: sata-ata-piix
+   Version: 2.12-10vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: ata_piix: sata driver for VMware ESX
+   Description: Intel PATA/SATA controllers Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.libata-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: sata-ata
+
+VMW_bootbank_sata-sata-nv_3.5-4vmw.670.0.0.8169922:
+   Name: sata-sata-nv
+   Version: 3.5-4vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: sata_nv: sata driver for VMware ESX
+   Description: nVidia SATA controllers Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.libata-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: sata-sat
+
+VMW_bootbank_sata-sata-promise_2.12-3vmw.670.0.0.8169922:
+   Name: sata-sata-promise
+   Version: 2.12-3vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: sata_promise: sata driver for VMware ESX
+   Description: Promise SATA controllers Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.libata-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: sata-sat
+
+VMW_bootbank_sata-sata-sil24_1.1-1vmw.670.0.0.8169922:
+   Name: sata-sata-sil24
+   Version: 1.1-1vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: sata_sil24: sata driver for VMware ESX
+   Description: Silicon Image 3124/3132 SATA-2 controllers Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.libata-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: sata-sat
+
+VMW_bootbank_sata-sata-sil_2.3-4vmw.670.0.0.8169922:
+   Name: sata-sata-sil
+   Version: 2.3-4vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: sata_sil: sata driver for VMware ESX
+   Description: Silicon Image SATA controllers Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.libata-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: sata-sat
+
+VMW_bootbank_sata-sata-svw_2.3-3vmw.670.0.0.8169922:
+   Name: sata-sata-svw
+   Version: 2.3-3vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: sata_svw: sata driver for VMware ESX
+   Description: BroadCom/ServerWorks/Apple SATA controllers Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.libata-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: sata-sat
+
+VMW_bootbank_scsi-aacraid_1.1.5.1-9vmw.670.0.0.8169922:
+   Name: scsi-aacraid
+   Version: 1.1.5.1-9vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: aacraid: scsi driver for VMware ESX
+   Description: Adaptec aacraid driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: scsi-aac
+
+VMW_bootbank_scsi-adp94xx_1.0.8.12-6vmw.670.0.0.8169922:
+   Name: scsi-adp94xx
+   Version: 1.0.8.12-6vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: adp94xx: scsi driver for VMware ESX
+   Description: Adaptec ADP94xx
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: scsi-adp
+
+VMW_bootbank_scsi-aic79xx_3.1-6vmw.670.0.0.8169922:
+   Name: scsi-aic79xx
+   Version: 3.1-6vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: aic79xx: scsi driver for VMware ESX
+   Description: aic79xx driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: scsi-aic
+
+VMW_bootbank_scsi-bnx2fc_1.78.78.v60.8-1vmw.670.0.0.8169922:
+   Name: scsi-bnx2fc
+   Version: 1.78.78.v60.8-1vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: bnx2fc: scsi driver for VMware ESX
+   Description: QLogic 10G FCoE Offload Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.broadcom.cnic-9.2.3.0, com.vmware.libfcoe-9.2.3.0, com.vmware.libfc-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module
+   Payloads: scsi-bnx
+
+VMW_bootbank_scsi-bnx2i_2.78.76.v60.8-1vmw.670.0.0.8169922:
+   Name: scsi-bnx2i
+   Version: 2.78.76.v60.8-1vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: bnx2i: scsi driver for VMware ESX
+   Description: QLogic NetXtreme II iSCSI HBA Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.broadcom.cnic-9.2.3.0, com.broadcom.cnic_register-9.2.3.0, com.vmware.iscsi_linux-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module
+   Payloads: scsi-bnx
+
+VMW_bootbank_scsi-fnic_1.5.0.45-3vmw.670.0.0.8169922:
+   Name: scsi-fnic
+   Version: 1.5.0.45-3vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: fnic: scsi driver for VMware ESX
+   Description: Cisco VIC FCoE HBA Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.libfc-9.2.3.0, com.vmware.libfcoe-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.cisco.fnic-9.2.3.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: scsi-fni
+
+VMW_bootbank_scsi-hpsa_6.0.0.84-3vmw.670.0.0.8169922:
+   Name: scsi-hpsa
+   Version: 6.0.0.84-3vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: hpsa: scsi driver for VMware ESX
+   Description: HP Smart Array SCSI Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: scsi-hps
+
+VMW_bootbank_scsi-ips_7.12.05-4vmw.670.0.0.8169922:
+   Name: scsi-ips
+   Version: 7.12.05-4vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: ips: scsi driver for VMware ESX
+   Description: Adaptec IPS
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: scsi-ips
+
+VMW_bootbank_scsi-iscsi-linux-92_1.0.0.2-3vmw.670.0.0.8169922:
+   Name: scsi-iscsi-linux-92
+   Version: 1.0.0.2-3vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: iscsi_linux_92: scsi driver for VMware ESX
+   Description: 
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, esx-base >= 6.1.0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.vmware.iscsi_linux-9.2.3.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module
+   Payloads: scsi-isc
+
+VMW_bootbank_scsi-libfc-92_1.0.40.9.3-5vmw.670.0.0.8169922:
+   Name: scsi-libfc-92
+   Version: 1.0.40.9.3-5vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: libfc_92: scsi driver for VMware ESX
+   Description: Libfc Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.vmware.libfc-9.2.3.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module
+   Payloads: scsi-lib
+
+VMW_bootbank_scsi-megaraid-mbox_2.20.5.1-6vmw.670.0.0.8169922:
+   Name: scsi-megaraid-mbox
+   Version: 2.20.5.1-6vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: megaraid_mbox: scsi driver for VMware ESX
+   Description: LSI Logic MegaRAID Driver (New Driver)
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.lsi.megaraid_mbox-9.2.3.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: scsi-meg
+
+VMW_bootbank_scsi-megaraid-sas_6.603.55.00-2vmw.670.0.0.8169922:
+   Name: scsi-megaraid-sas
+   Version: 6.603.55.00-2vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: megaraid_sas: scsi driver for VMware ESX
+   Description: LSI MegaRAID SAS Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: scsi-meg
+
+VMW_bootbank_scsi-megaraid2_2.00.4-9vmw.670.0.0.8169922:
+   Name: scsi-megaraid2
+   Version: 2.00.4-9vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: megaraid2: scsi driver for VMware ESX
+   Description: LSI Logic MegaRAID Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: scsi-meg
+
+VMW_bootbank_scsi-mpt2sas_19.00.00.00-2vmw.670.0.0.8169922:
+   Name: scsi-mpt2sas
+   Version: 19.00.00.00-2vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: mpt2sas: scsi driver for VMware ESX
+   Description: LSI Fusion MPT2 6G SAS driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: scsi-mpt
+
+VMW_bootbank_scsi-mptsas_4.23.01.00-10vmw.670.0.0.8169922:
+   Name: scsi-mptsas
+   Version: 4.23.01.00-10vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: mptsas: scsi driver for VMware ESX
+   Description: LSI Logic Fusion MPT SAS driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: scsi-mpt
+
+VMW_bootbank_scsi-mptspi_4.23.01.00-10vmw.670.0.0.8169922:
+   Name: scsi-mptspi
+   Version: 4.23.01.00-10vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: mptspi: scsi driver for VMware ESX
+   Description: LSI Logic Fusion MPT SPI driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: scsi-mpt
+
+VMW_bootbank_scsi-qla4xxx_5.01.03.2-7vmw.670.0.0.8169922:
+   Name: scsi-qla4xxx
+   Version: 5.01.03.2-7vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: qla4xxx: scsi driver for VMware ESX
+   Description: Qlogic iSCSI HBA Driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.iscsi_linux-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.vmware.qla4xxx-9.2.3.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: scsi-qla
+
+VMW_bootbank_sfvmk_1.0.0.1003-7vmw.670.3.104.16075168:
+   Name: sfvmk
+   Version: 1.0.0.1003-7vmw.670.3.104.16075168
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: Networking driver for Solarflare XtremeScale SFC9xxx Ethernet Controller
+   Description: Networking driver for Solarflare XtremeScale SFC9xxx Ethernet Controller
+   ReferenceURLs: 
+   Creation Date: 2020-04-21
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: False
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 19240a031924, PCIID 19240b0319248022, module, driver
+   Payloads: sfvmk
+
+VMW_bootbank_shim-iscsi-linux-9-2-1-0_6.7.0-0.0.8169922:
+   Name: shim-iscsi-linux-9-2-1-0
+   Version: 6.7.0-0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: iscsi_linux_9_2_1_0: shim driver for VMware ESX
+   Description: Package for driver iscsi_linux_9_2_1_0
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.iscsi_linux-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.vmware.iscsi_linux-9.2.1.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module
+   Payloads: shim-isc
+
+VMW_bootbank_shim-iscsi-linux-9-2-2-0_6.7.0-0.0.8169922:
+   Name: shim-iscsi-linux-9-2-2-0
+   Version: 6.7.0-0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: iscsi_linux_9_2_2_0: shim driver for VMware ESX
+   Description: Package for driver iscsi_linux_9_2_2_0
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.iscsi_linux-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.vmware.iscsi_linux-9.2.2.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module
+   Payloads: shim-isc
+
+VMW_bootbank_shim-libata-9-2-1-0_6.7.0-0.0.8169922:
+   Name: shim-libata-9-2-1-0
+   Version: 6.7.0-0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: libata_9_2_1_0: shim driver for VMware ESX
+   Description: Package for driver libata_9_2_1_0
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.libata-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.vmware.libata-9.2.1.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module
+   Payloads: shim-lib
+
+VMW_bootbank_shim-libata-9-2-2-0_6.7.0-0.0.8169922:
+   Name: shim-libata-9-2-2-0
+   Version: 6.7.0-0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: libata_9_2_2_0: shim driver for VMware ESX
+   Description: Package for driver libata_9_2_2_0
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.libata-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.vmware.libata-9.2.2.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module
+   Payloads: shim-lib
+
+VMW_bootbank_shim-libfc-9-2-1-0_6.7.0-0.0.8169922:
+   Name: shim-libfc-9-2-1-0
+   Version: 6.7.0-0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: libfc_9_2_1_0: shim driver for VMware ESX
+   Description: Package for driver libfc_9_2_1_0
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.libfc-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.vmware.libfc-9.2.1.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module
+   Payloads: shim-lib
+
+VMW_bootbank_shim-libfc-9-2-2-0_6.7.0-0.0.8169922:
+   Name: shim-libfc-9-2-2-0
+   Version: 6.7.0-0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: libfc_9_2_2_0: shim driver for VMware ESX
+   Description: Package for driver libfc_9_2_2_0
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.libfc-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.vmware.libfc-9.2.2.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module
+   Payloads: shim-lib
+
+VMW_bootbank_shim-libfcoe-9-2-1-0_6.7.0-0.0.8169922:
+   Name: shim-libfcoe-9-2-1-0
+   Version: 6.7.0-0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: libfcoe_9_2_1_0: shim driver for VMware ESX
+   Description: Package for driver libfcoe_9_2_1_0
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.libfcoe-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.vmware.libfcoe-9.2.1.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module
+   Payloads: shim-lib
+
+VMW_bootbank_shim-libfcoe-9-2-2-0_6.7.0-0.0.8169922:
+   Name: shim-libfcoe-9-2-2-0
+   Version: 6.7.0-0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: libfcoe_9_2_2_0: shim driver for VMware ESX
+   Description: Package for driver libfcoe_9_2_2_0
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.libfcoe-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.vmware.libfcoe-9.2.2.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module
+   Payloads: shim-lib
+
+VMW_bootbank_shim-vmklinux-9-2-1-0_6.7.0-0.0.8169922:
+   Name: shim-vmklinux-9-2-1-0
+   Version: 6.7.0-0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: vmklinux_9_2_1_0: shim driver for VMware ESX
+   Description: Package for driver vmklinux_9_2_1_0
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, esx-base >= 6.1.0, com.vmware.driverAPI-9.2
+   Conflicts: 
+   Replaces: 
+   Provides: com.vmware.driverAPI-9.2.1.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module
+   Payloads: shim-vmk
+
+VMW_bootbank_shim-vmklinux-9-2-2-0_6.7.0-0.0.8169922:
+   Name: shim-vmklinux-9-2-2-0
+   Version: 6.7.0-0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: vmklinux_9_2_2_0: shim driver for VMware ESX
+   Description: Package for driver vmklinux_9_2_2_0
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, esx-base >= 6.1.0, com.vmware.driverAPI-9.2
+   Conflicts: 
+   Replaces: 
+   Provides: com.vmware.driverAPI-9.2.2.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module
+   Payloads: shim-vmk
+
+VMW_bootbank_shim-vmklinux-9-2-3-0_6.7.0-0.0.8169922:
+   Name: shim-vmklinux-9-2-3-0
+   Version: 6.7.0-0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: vmklinux_9_2_3_0: shim driver for VMware ESX
+   Description: Package for driver vmklinux_9_2_3_0
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, esx-base >= 6.1.0, com.vmware.driverAPI-9.2
+   Conflicts: 
+   Replaces: 
+   Provides: com.vmware.driverAPI-9.2.3.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module
+   Payloads: shim-vmk
+
+VMW_bootbank_uhci-usb-uhci_1.0-3vmw.670.0.0.8169922:
+   Name: uhci-usb-uhci
+   Version: 1.0-3vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: usb-uhci: uhci driver for VMware ESX
+   Description: USB 1.0 uhci host driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.usb-10.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: uhci-usb
+
+VMW_bootbank_usb-storage-usb-storage_1.0-3vmw.670.0.0.8169922:
+   Name: usb-storage-usb-storage
+   Version: 1.0-3vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: usb-storage: usb-storage driver for VMware ESX
+   Description: USB storage driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.usb-10.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.vmware.usbstorage-9.2.3.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: usb-stor
+
+VMW_bootbank_usbcore-usb_1.0-3vmw.670.0.0.8169922:
+   Name: usbcore-usb
+   Version: 1.0-3vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: usb: usbcore driver for VMware ESX
+   Description: USB core driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0
+   Conflicts: 
+   Replaces: 
+   Provides: com.vmware.usb-10.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: usbcore-
+
+VMW_bootbank_vmkata_0.1-1vmw.670.0.0.8169922:
+   Name: vmkata
+   Version: 0.1-1vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: ATA Driver
+   Description: Native ATA driver for VMware
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_5_0_0, vmkapi_incompat_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: True
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 11660240, PCIID 11660241, PCIID 11660242, PCIID 1166024a, PCIID 1166024b, PCIID 80861c00, PCIID 80861c01, PCIID 80861c08, PCIID 80861c09, PCIID 80861d00, PCIID 80861d08, PCIID 80861e00, PCIID 80861e01, PCIID 80861e08, PCIID 80861e09, PCIID 80861f20, PCIID 80861f21, PCIID 80861f30, PCIID 80861f31, PCIID 808623a1, PCIID 808623a6, PCIID 80862411, PCIID 80862421, PCIID 8086244a, PCIID 8086244b, PCIID 8086245b, PCIID 8086248a, PCIID 8086248b, PCIID 808624ca, PCIID 808624cb, PCIID 808624d1, PCIID 808624db, PCIID 808624df, PCIID 808625a2, PCIID 808625a3, PCIID 808625b0, PCIID 80862651, PCIID 8086266f, PCIID 80862680, PCIID 8086269e, PCIID 808627c0, PCIID 808627c4, PCIID 808627df, PCIID 80862820, PCIID 80862825, PCIID 80862828, PCIID 80862850, PCIID 80862920, PCIID 80862921, PCIID 80862926, PCIID 80862928, PCIID 8086292d, PCIID 8086292e, PCIID 80863a00, PCIID 80863a06, PCIID 80863a20, PCIID 80863a26, PCIID 80863b20, PCIID 80863b21, PCIID 80863b26, PCIID 80863b28, PCIID 80863b2d, PCIID 80863b2e, PCIID 80867010, PCIID 80867111, PCIID 80867199, PCIID 80867601, PCIID 808684ca, PCIID 80868c00, PCIID 80868c01, PCIID 80868c08, PCIID 80868c09, PCIID 80868d00, PCIID 80868d08, PCIID 80868d60, PCIID 80868d68, module, driver
+   Payloads: vmkata
+
+VMW_bootbank_vmkfcoe_1.0.0.1-1vmw.670.1.28.10302608:
+   Name: vmkfcoe
+   Version: 1.0.0.1-1vmw.670.1.28.10302608
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: Native Software FCoE Driver for VMware ESX
+   Description: Native Software FCoE Driver for VMware ESX
+   ReferenceURLs: 
+   Creation Date: 2018-10-03
+   Depends: vmkapi_2_5_0_0, vmkapi_incompat_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module, driver
+   Payloads: vmkfcoe
+
+VMW_bootbank_vmkplexer-vmkplexer_6.7.0-0.0.8169922:
+   Name: vmkplexer-vmkplexer
+   Version: 6.7.0-0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: vmkplexer: vmkplexer driver for VMware ESX
+   Description: Package for driver vmkplexer
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, esx-base >= 6.1.0
+   Conflicts: 
+   Replaces: VMware-esx-vmkplexer
+   Provides: com.vmware.vmkplexer-4.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: module
+   Payloads: vmkplexe
+
+VMW_bootbank_vmkusb_0.1-4vmw.670.3.159.18828794:
+   Name: vmkusb
+   Version: 0.1-4vmw.670.3.159.18828794
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: USB Driver
+   Description: USB Native Driver for VMware
+   ReferenceURLs: 
+   Creation Date: 2021-10-26
+   Depends: vmkapi_2_5_0_0, vmkapi_incompat_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: True
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID ................0c0300, PCIID ................0c0310, PCIID ................0c0320, PCIID ................0c0330, module, driver
+   Payloads: vmkusb
+
+VMW_bootbank_vmw-ahci_2.0.7-2vmw.670.3.143.17700523:
+   Name: vmw-ahci
+   Version: 2.0.7-2vmw.670.3.143.17700523
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: VMware Native AHCI Driver
+   Description: VMware Native AHCI Driver
+   ReferenceURLs: 
+   Creation Date: 2021-03-03
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID ................010601, PCIID 10024390, PCIID 10024391, PCIID 10024392, PCIID 10024393, PCIID 10024394, PCIID 10227800, PCIID 10227801, PCIID 10227804, PCIID 10227900, PCIID 10227901, PCIID 10227904, PCIID 10b95288, PCIID 10de0ad0, PCIID 10de0ad4, PCIID 10de0d88, PCIID 144d1600, PCIID 144da801, PCIID 15ad07e0, PCIID 1b210612, PCIID 1b4b9230, PCIID 1b4b923010281fd6, PCIID 1b4b923010281fe2, PCIID 1b4b923010282010, PCIID 1b4b92301d490300, PCIID 1b622923, PCIID 808619b0, PCIID 808619b1, PCIID 808619b2, PCIID 808619b3, PCIID 808619b4, PCIID 808619b5, PCIID 808619b6, PCIID 808619b7, PCIID 808619be, PCIID 808619bf, PCIID 808619c0, PCIID 808619c1, PCIID 808619c2, PCIID 808619c3, PCIID 808619c4, PCIID 808619c5, PCIID 808619c6, PCIID 808619c7, PCIID 808619ce, PCIID 808619cf, PCIID 80861c02, PCIID 80861c03, PCIID 80861c04, PCIID 80861c05, PCIID 80861c06, PCIID 80861c07, PCIID 80861d02, PCIID 80861d04, PCIID 80861d06, PCIID 80861e02, PCIID 80861e03, PCIID 80861f22, PCIID 80861f23, PCIID 80861f24, PCIID 80861f25, PCIID 80861f26, PCIID 80861f27, PCIID 80861f2e, PCIID 80861f2f, PCIID 80861f32, PCIID 80861f33, PCIID 80861f34, PCIID 80861f35, PCIID 80861f36, PCIID 80861f37, PCIID 80861f3e, PCIID 80861f3f, PCIID 80862321, PCIID 80862323, PCIID 80862326, PCIID 808623a3, PCIID 80862652, PCIID 80862653, PCIID 80862681, PCIID 80862682, PCIID 80862683, PCIID 808627c1, PCIID 808627c3, PCIID 808627c5, PCIID 808627c6, PCIID 80862821, PCIID 80862822, PCIID 80862823, PCIID 80862824, PCIID 80862826, PCIID 80862827, PCIID 80862829, PCIID 8086282a, PCIID 80862922, PCIID 80862923, PCIID 80862924, PCIID 80862925, PCIID 80862927, PCIID 80862929, PCIID 8086292a, PCIID 8086292b, PCIID 8086292f, PCIID 8086294d, PCIID 8086294e, PCIID 80863a02, PCIID 80863a05, PCIID 80863a22, PCIID 80863a25, PCIID 80863b22, PCIID 80863b23, PCIID 80863b24, PCIID 80863b25, PCIID 80863b29, PCIID 80863b2b, PCIID 80863b2c, PCIID 80863b2f, PCIID 80868c02, PCIID 80868c03, PCIID 80868c04, PCIID 80868c05, PCIID 80868c06, PCIID 80868c07, PCIID 80868c0e, PCIID 80868c0f, PCIID 80868d02, PCIID 80868d04, PCIID 80868d06, PCIID 80868d0e, PCIID 80868d62, PCIID 80868d64, PCIID 80868d66, PCIID 80868d6e, PCIID 80869c03, PCIID 80869c83, PCIID 80869d03, PCIID 80869d05, PCIID 80869d07, PCIID 8086a102, PCIID 8086a103, PCIID 8086a105, PCIID 8086a106, PCIID 8086a107, PCIID 8086a10f, PCIID 8086a182, PCIID 8086a1d2, PCIID 8086a202, PCIID 8086a252, PCIID 8086a282, PCIID 8086a352, module, driver
+   Payloads: vmw-ahci
+
+VMW_bootbank_xhci-xhci_1.0-3vmw.670.0.0.8169922:
+   Name: xhci-xhci
+   Version: 1.0-3vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMW
+   Acceptance Level: VMwareCertified
+   Summary: xhci: xhci driver for VMware ESX
+   Description: USB 3.0 xhci host driver
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_3_0_0, com.vmware.driverAPI-9.2.3.0, com.vmware.usb-10.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: xhci-xhc
+
+VMware_bootbank_cpu-microcode_6.7.0-3.155.18812553:
+   Name: cpu-microcode
+   Version: 6.7.0-3.155.18812553
+   Type: bootbank
+   Vendor: VMware
+   Acceptance Level: VMwareCertified
+   Summary: CPU microcode updates
+   Description: This package contains selected CPU microcode updates. Generally,
+microcode is the responsibility of the CPU vendors and hardware
+platform vendors. Microcode updates are developed by the CPU
+vendor, tested by the platform vendor, and supplied to customers
+when necessary as part of platform firmware (BIOS) updates.
+Additionally, however, ESXi sometimes applies microcode updates
+that are important for security or ESXi functionality.
+   ReferenceURLs: 
+   Creation Date: 2021-10-22
+   Depends: esx-version >= 6.0.0, esx-version <= 6.7.0
+   Conflicts: 
+   Replaces: ivb-patch
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: 
+   Payloads: uc_amd, uc_hygon, uc_intel
+
+VMware_bootbank_elx-esx-libelxima.so_11.4.1184.2-3.89.15160138:
+   Name: elx-esx-libelxima.so
+   Version: 11.4.1184.2-3.89.15160138
+   Type: bootbank
+   Vendor: VMware
+   Acceptance Level: VMwareCertified
+   Summary: IMA plugin for elxiscsi driver
+   Description: This package contains the IMA plugin of the elxiscsi driver.
+   ReferenceURLs: 
+   Creation Date: 2019-11-23
+   Depends: 
+   Conflicts: 
+   Replaces: ima-be2iscsi, elxima
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: 
+   Payloads: elx-esx-
+
+VMware_bootbank_esx-base_6.7.0-3.163.19195723:
+   Name: esx-base
+   Version: 6.7.0-3.163.19195723
+   Type: bootbank
+   Vendor: VMware
+   Acceptance Level: VMwareCertified
+   Summary: ESXi base system
+   Description: VMware ESXi is a thin hypervisor integrated into server hardware. The compact, hardware embedded architecture of VMware ESXi raises the bar for security and reliability and lays the foundation for a dynamic, automated datacenter.
+   ReferenceURLs: 
+   Creation Date: 2022-01-12
+   Depends: vsan >= 6.7.0-3.163, vsan << 6.7.0-3.164, esx-update >= 6.7.0-3.163, esx-update << 6.7.0-3.164
+   Conflicts: misc-drivers << 5.5.0, native-misc-drivers << 6.1.0
+   Replaces: esx-xlibs, esx-tboot
+   Provides: cim.CMPI = 1.0, cim.CMPI = 2.0, cim.DMTF.DSP1004 = 1.0.0-1.0, cim.DMTF.DSP1030 = 1.0.0-1.0, cim.DMTF.DSP1022 = 1.0.0-1.0, cim.DMTF.DSP1013 = 1.0.1-1.0, cim.DMTF.DSP1054 = 1.1.0-0.5, cim.DMTF.DSP1025 = 1.0.0-1.0, cim.SNIA.DSP1025.Job_Control = 1.1.0-0.5, cim.DMTF.DSP1075 = 1.0.0-0.5, cim.DMTF.DSP1011 = 1.0.2-1.0, cim.DMTF.DSP1027 = 1.0.1-1.0, cim.DMTF.DSP1015 = 1.0.1-1.0, cim.DMTF.DSP1033 = 1.0.0-1.0, cim.DMTF.DSP1010 = 1.0.0-1.0, cim.DMTF.DSP1009 = 1.0.0-1.0, cim.DMTF.DSP1023 = 1.0.0-1.0, cim.DMTF.DSP1026 = 1.0.0-1.0, jumpstart = 1, jumpstart = 2, jumpstart = 3, jumpstart = 4, esxcli = 1.0.0, hostprofile = 5.0.0, hostprofile = 5.1.0, nicmgmt = 0.1, nsx-api = 2.1, com.vmware.dvfilter-2.0.0.0, com.vmware.vds-2.0.0.0, uwglibc-2.5-34-1, uwglibc-2.5-81-1, uwglibc-2.12.2-1, uwglibc64-2.5-34-1, uwglibc64-2.5-81-1, uwglibc64-2.12.2-1, libvmkuser-5.0.0-1, libvmkuser-5.1.0-1, libvmkuser-5.5.0-1, libvmkuser-6.0.0-1, libvmkuser-6.5.0-1, libvmkuser-6.7.0-1, uwvmkcall-5.0.0-1, uwvmkcall-5.1.0-1, uwvmkcall-5.5.0-1, uwvmkcall-6.0.0-1, uwvmkcall-6.5.0-1, uwvmkcall-6.7.0-1, vmkepsecapi_2.0.0.0, vmkapi_2_5_0_0, vmkapi_2_4_0_0, vmkapi_2_3_0_0, vmkapi_2_2_0_0, vmkapi_incompat_2_5_0_0, vmiof_2_5_0_0, vmiof_2_0_0_0, vmiof_1_1_0_0, vmiof_1_0_0_0, esx-version = 6.7.0-3.163.19195723
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: 
+   Payloads: BOOTx64.EFI, README, b, btldr, chardevs, efiboot.img, esximage.zip, extlinux, features, isoinfo, isolinux.bin, jumpstrt, k, mboot.c32, mbr.bin, mcopy, menu.c32, metadata.xml, osl.txt, precheck.py, prep.py, procfs, s, safeboot.c32, sb, user, useropts, vim, vmx
+
+VMware_bootbank_esx-dvfilter-generic-fastpath_6.7.0-0.0.8169922:
+   Name: esx-dvfilter-generic-fastpath
+   Version: 6.7.0-0.0.8169922
+   Type: bootbank
+   Vendor: VMware
+   Acceptance Level: VMwareCertified
+   Summary: dvfilter-generic-fastpath module
+   Description: This package contains dvfilter-generic-fastpath(TrafficFilter) module.
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: esx-version = 6.7.0, vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: trafficFilter = 0.1.0.0
+   Maintenance Mode Required: False
+   Hardware Platforms Required: 
+   Live Install Allowed: True
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: 
+   Payloads: esx-dvfi
+
+VMware_bootbank_esx-ui_1.33.7-15803439:
+   Name: esx-ui
+   Version: 1.33.7-15803439
+   Type: bootbank
+   Vendor: VMware
+   Acceptance Level: VMwareCertified
+   Summary: VMware Host Client
+   Description: An embedded web UI for ESXi
+   ReferenceURLs: 
+   Creation Date: 2020-03-10
+   Depends: esx-version >= 5.0.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: False
+   Hardware Platforms Required: 
+   Live Install Allowed: True
+   Live Remove Allowed: True
+   Stateless Ready: True
+   Overlay: False
+   Tags: 
+   Payloads: esx-ui
+
+VMware_bootbank_esx-update_6.7.0-3.163.19195723:
+   Name: esx-update
+   Version: 6.7.0-3.163.19195723
+   Type: bootbank
+   Vendor: VMware
+   Acceptance Level: VMwareCertified
+   Summary: ESXi install/upgrade components.
+   Description: Libraries and binaries for ESXi install/upgrade functionalities.
+   ReferenceURLs: 
+   Creation Date: 2022-01-12
+   Depends: esx-base >= 6.7.0-3.163, esx-base << 6.7.0-3.164
+   Conflicts: 
+   Replaces: 
+   Provides: esximage = 1.0
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: 
+   Payloads: esxupdt, weaselin
+
+VMware_bootbank_esx-xserver_6.7.0-3.73.14320388:
+   Name: esx-xserver
+   Version: 6.7.0-3.73.14320388
+   Type: bootbank
+   Vendor: VMware
+   Acceptance Level: VMwareCertified
+   Summary: ESXi X.Org Xserver
+   Description: X.Org Xserver and supporting libraries for OpenGL support.
+   ReferenceURLs: 
+   Creation Date: 2019-08-05
+   Depends: esx-version = 6.7.0
+   Conflicts: 
+   Replaces: xorg, esx-xorg
+   Provides: 
+   Maintenance Mode Required: False
+   Hardware Platforms Required: 
+   Live Install Allowed: True
+   Live Remove Allowed: True
+   Stateless Ready: True
+   Overlay: True
+   Tags: 
+   Payloads: xorg
+
+VMware_bootbank_lsu-hp-hpsa-plugin_2.0.0-16vmw.670.1.28.10302608:
+   Name: lsu-hp-hpsa-plugin
+   Version: 2.0.0-16vmw.670.1.28.10302608
+   Type: bootbank
+   Vendor: VMware
+   Acceptance Level: VMwareCertified
+   Summary: HPSA LSU Management Plugin
+   Description: HPSA LSU Management Plugin
+   ReferenceURLs: 
+   Creation Date: 2018-10-03
+   Depends: 
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: False
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: 
+   Payloads: lsu-hp-h
+
+VMware_bootbank_lsu-intel-vmd-plugin_1.0.0-2vmw.670.1.28.10302608:
+   Name: lsu-intel-vmd-plugin
+   Version: 1.0.0-2vmw.670.1.28.10302608
+   Type: bootbank
+   Vendor: VMware
+   Acceptance Level: VMwareCertified
+   Summary: Intel VMD LSU Management Plugin
+   Description: Intel VMD LSU Management Plugin
+   ReferenceURLs: 
+   Creation Date: 2018-10-03
+   Depends: 
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: False
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: 
+   Payloads: lsu-inte
+
+VMware_bootbank_lsu-lsi-drivers-plugin_1.0.0-1vmw.670.2.48.13006603:
+   Name: lsu-lsi-drivers-plugin
+   Version: 1.0.0-1vmw.670.2.48.13006603
+   Type: bootbank
+   Vendor: VMware
+   Acceptance Level: VMwareCertified
+   Summary: LSI MSGPT35 LSU Management Plugin
+   Description: LSI MSGPT35 LSU Management Plugin
+   ReferenceURLs: 
+   Creation Date: 2019-03-26
+   Depends: 
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: False
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: 
+   Payloads: lsu-lsi-
+
+VMware_bootbank_lsu-lsi-lsi-mr3-plugin_1.0.0-13vmw.670.1.28.10302608:
+   Name: lsu-lsi-lsi-mr3-plugin
+   Version: 1.0.0-13vmw.670.1.28.10302608
+   Type: bootbank
+   Vendor: VMware
+   Acceptance Level: VMwareCertified
+   Summary: LSI MR3 LSU Management Plugin
+   Description: LSI MR3 LSU Management Plugin
+   ReferenceURLs: 
+   Creation Date: 2018-10-03
+   Depends: 
+   Conflicts: 
+   Replaces: lsu-lsi-mptsas-plugin
+   Provides: 
+   Maintenance Mode Required: False
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: 
+   Payloads: lsu-lsi-
+
+VMware_bootbank_lsu-lsi-lsi-msgpt3-plugin_1.0.0-9vmw.670.2.48.13006603:
+   Name: lsu-lsi-lsi-msgpt3-plugin
+   Version: 1.0.0-9vmw.670.2.48.13006603
+   Type: bootbank
+   Vendor: VMware
+   Acceptance Level: VMwareCertified
+   Summary: LSI MSGPT3 LSU Management Plugin
+   Description: LSI MSGPT3 LSU Management Plugin
+   ReferenceURLs: 
+   Creation Date: 2019-03-26
+   Depends: 
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: False
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: 
+   Payloads: lsu-lsi-
+
+VMware_bootbank_lsu-lsi-megaraid-sas-plugin_1.0.0-9vmw.670.0.0.8169922:
+   Name: lsu-lsi-megaraid-sas-plugin
+   Version: 1.0.0-9vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMware
+   Acceptance Level: VMwareCertified
+   Summary: LSI MegaRAID SAS LSU Management Plugin
+   Description: LSI MegaRAID SAS LSU Management Plugin
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: 
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: False
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: 
+   Payloads: lsu-lsi-
+
+VMware_bootbank_lsu-lsi-mpt2sas-plugin_2.0.0-7vmw.670.0.0.8169922:
+   Name: lsu-lsi-mpt2sas-plugin
+   Version: 2.0.0-7vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMware
+   Acceptance Level: VMwareCertified
+   Summary: LSI MPT2SAS LSU Management Plugin
+   Description: LSI MPT2SAS LSU Management Plugin
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: 
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: False
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: 
+   Payloads: lsu-lsi-
+
+VMware_bootbank_lsu-smartpqi-plugin_1.0.0-4vmw.670.3.159.18828794:
+   Name: lsu-smartpqi-plugin
+   Version: 1.0.0-4vmw.670.3.159.18828794
+   Type: bootbank
+   Vendor: VMware
+   Acceptance Level: VMwareCertified
+   Summary: SMARTPQI LSU Management Plugin
+   Description: SMARTPQI LSU Management Plugin
+   ReferenceURLs: 
+   Creation Date: 2021-10-26
+   Depends: 
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: False
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: 
+   Payloads: lsu-smar
+
+VMware_bootbank_native-misc-drivers_6.7.0-3.89.15160138:
+   Name: native-misc-drivers
+   Version: 6.7.0-3.89.15160138
+   Type: bootbank
+   Vendor: VMware
+   Acceptance Level: VMwareCertified
+   Summary: Miscellaneous drivers for ESX
+   Description: This package contains miscellaneous driver infrastructure components that VMware maintains internally.
+
+	nominal PCIID tags for Native driver for VMware MISSING 0.1-1vmw.670.3.89.15160138
+	device map for static drivers in the vmkernel 1.0-1vmw.670.3.89.15160138
+	RDMA for VMware ESX 0.001-1vmw.670.3.89.15160138
+	Intel Crystal Ridge NVDIMM Driver 1.0-1vmw.670.3.89.15160138
+	Fake PMem Device Driver 1.0-1vmw.670.3.89.15160138
+	Native S/W iSCSI driver 1.0.0-1vmw.670.3.89.15160138
+   ReferenceURLs: 
+   Creation Date: 2019-11-23
+   Depends: vmkapi_2_5_0_0, vmkapi_incompat_2_5_0_0
+   Conflicts: 
+   Replaces: net-r8168, net-r8169, net-sky2, net-s2io, emulex-esx-elxnetcli << 11.1.28.1
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: True
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: driver, module
+   Payloads: native-m
+
+VMware_bootbank_rste_2.0.2.0088-7vmw.670.0.0.8169922:
+   Name: rste
+   Version: 2.0.2.0088-7vmw.670.0.0.8169922
+   Type: bootbank
+   Vendor: VMware
+   Acceptance Level: VMwareCertified
+   Summary: rste: SCU SAS/SATA for VMware ESX
+   Description: Intel SCU SAS/SATA for VMware ESX
+   ReferenceURLs: 
+   Creation Date: 2018-04-03
+   Depends: vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: scsi-rste
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: PCIID 80861d60, PCIID 80861d64, PCIID 80861d65, PCIID 80861d68, PCIID 80861d69, PCIID 80861d6a, PCIID 80861d6b, module, driver
+   Payloads: rste
+
+VMware_bootbank_vmware-esx-esxcli-nvme-plugin_1.2.0.36-2vmw.670.3.116.16713306:
+   Name: vmware-esx-esxcli-nvme-plugin
+   Version: 1.2.0.36-2vmw.670.3.116.16713306
+   Type: bootbank
+   Vendor: VMware
+   Acceptance Level: VMwareCertified
+   Summary: esxcli plugin for VMware nvme driver
+   Description: This package contains the esxcli plugin of the VMware nvme driver.
+   ReferenceURLs: 
+   Creation Date: 2020-08-08
+   Depends: 
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: False
+   Hardware Platforms Required: 
+   Live Install Allowed: True
+   Live Remove Allowed: True
+   Stateless Ready: True
+   Overlay: False
+   Tags: 
+   Payloads: vmware-e
+
+VMware_bootbank_vsan_6.7.0-3.163.19184739:
+   Name: vsan
+   Version: 6.7.0-3.163.19184739
+   Type: bootbank
+   Vendor: VMware
+   Acceptance Level: VMwareCertified
+   Summary: VSAN ESXi
+   Description: VSAN for ESXi.
+   ReferenceURLs: 
+   Creation Date: 2022-01-10
+   Depends: esx-base >= 6.7.0-3.163, esx-base << 6.7.0-3.164, vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: vsanepd
+   Provides: 
+   Maintenance Mode Required: True
+   Hardware Platforms Required: 
+   Live Install Allowed: False
+   Live Remove Allowed: False
+   Stateless Ready: True
+   Overlay: False
+   Tags: 
+   Payloads: vsan
+
+VMware_bootbank_vsanhealth_6.7.0-3.163.19184740:
+   Name: vsanhealth
+   Version: 6.7.0-3.163.19184740
+   Type: bootbank
+   Vendor: VMware
+   Acceptance Level: VMwareCertified
+   Summary: ESXi VSAN Health Service
+   Description: VSAN Refresh for ESXi.
+   ReferenceURLs: 
+   Creation Date: 2022-01-10
+   Depends: esx-base >= 6.7.0-3.163, esx-base << 6.7.0-3.164, vmkapi_2_5_0_0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: False
+   Hardware Platforms Required: 
+   Live Install Allowed: True
+   Live Remove Allowed: True
+   Stateless Ready: True
+   Overlay: False
+   Tags: 
+   Payloads: vsanheal, vsanmgmt
+
+VMware_locker_tools-light_11.3.5.18557794-18812553:
+   Name: tools-light
+   Version: 11.3.5.18557794-18812553
+   Type: locker
+   Vendor: VMware
+   Acceptance Level: VMwareCertified
+   Summary: VMware Tools VIB for Windows and Linux guests (generated by ESXi server build 18812553)
+   Description: This package contains cdrom and floppy images used to install the VMware Tools inside virtual machines.
+   ReferenceURLs: 
+   Creation Date: 2021-10-22
+   Depends: esx-version >= 6.6.0
+   Conflicts: 
+   Replaces: 
+   Provides: 
+   Maintenance Mode Required: False
+   Hardware Platforms Required: 
+   Live Install Allowed: True
+   Live Remove Allowed: True
+   Stateless Ready: True
+   Overlay: False
+   Tags: 
+   Payloads: tools
+

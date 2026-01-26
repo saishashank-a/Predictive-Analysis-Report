@@ -1,0 +1,23 @@
+
+IOFilter:
+   Name: spm
+   Vendor: VMW
+   Version: 1.0.230
+   Description: VMware Storage I/O Control
+   ID: VMW_spm_1.0.0
+   LocalID: spm
+   Class: datastoreIoControl
+   Release Date: 2016-07-21
+   Enabled: Yes
+
+IOFilter:
+   Name: vmwarevmcrypt
+   Vendor: VMW
+   Version: 1.0.0
+   Description: VMcrypt IO Filter
+   ID: VMW_vmwarevmcrypt_1.0.0
+   LocalID: vmwarevmcrypt
+   Class: encryption
+   Release Date: 2016-07-21
+   Enabled: Yes
+

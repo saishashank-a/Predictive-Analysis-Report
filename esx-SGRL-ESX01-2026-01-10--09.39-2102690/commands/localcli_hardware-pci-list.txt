@@ -1,0 +1,1693 @@
+
+0000:00:00.0:
+   Address: 0000:00:00.0
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x00
+   Function: 0x0
+   VMkernel Name: PCIe RP[0000:00:00.0]
+   Vendor Name: Intel Corporation
+   Device Name: 5520 I/O Hub to ESI Port
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3406
+   SubVendor ID: 0x1014
+   SubDevice ID: 0x7270
+   Device Class: 0x0600
+   Device Class Name: Host bridge
+   Programming Interface: 0x00
+   Revision ID: 0x22
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x00
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:01.0:
+   Address: 0000:00:01.0
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x01
+   Function: 0x0
+   VMkernel Name: PCIe RP[0000:00:01.0]
+   Vendor Name: Intel Corporation
+   Device Name: 5520/5500/X58 I/O Hub PCI Express Root Port 1
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3408
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x22
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x00
+   Spawned Bus: 0x0b
+   Flags: 0x3243
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:02.0:
+   Address: 0000:00:02.0
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x02
+   Function: 0x0
+   VMkernel Name: PCIe RP[0000:00:02.0]
+   Vendor Name: Intel Corporation
+   Device Name: 5520/5500/X58 I/O Hub PCI Express Root Port 2
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3409
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x22
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x00
+   Spawned Bus: 0x10
+   Flags: 0x3243
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:03.0:
+   Address: 0000:00:03.0
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x03
+   Function: 0x0
+   VMkernel Name: PCIe RP[0000:00:03.0]
+   Vendor Name: Intel Corporation
+   Device Name: 5520/5500/X58 I/O Hub PCI Express Root Port 3
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x340a
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x22
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x00
+   Spawned Bus: 0x15
+   Flags: 0x3243
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:07.0:
+   Address: 0000:00:07.0
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x07
+   Function: 0x0
+   VMkernel Name: PCIe RP[0000:00:07.0]
+   Vendor Name: Intel Corporation
+   Device Name: 5520/5500/X58 I/O Hub PCI Express Root Port 7
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x340e
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x22
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x00
+   Spawned Bus: 0x1a
+   Flags: 0x3243
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:10.0:
+   Address: 0000:00:10.0
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x10
+   Function: 0x0
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: 7500/5520/5500/X58 Physical and Link Layer Registers Port 0
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3425
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0800
+   Device Class Name: PIC
+   Programming Interface: 0x00
+   Revision ID: 0x22
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0xff
+   Spawned Bus: 0x00
+   Flags: 0x3200
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:10.1:
+   Address: 0000:00:10.1
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x10
+   Function: 0x1
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: 7500/5520/5500/X58 Routing and Protocol Layer Registers Port 0
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3426
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0800
+   Device Class Name: PIC
+   Programming Interface: 0x00
+   Revision ID: 0x22
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0xff
+   Spawned Bus: 0x00
+   Flags: 0x3200
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:11.0:
+   Address: 0000:00:11.0
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x11
+   Function: 0x0
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: 7500/5520/5500 Physical and Link Layer Registers Port 1
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3427
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0800
+   Device Class Name: PIC
+   Programming Interface: 0x00
+   Revision ID: 0x22
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0xff
+   Spawned Bus: 0x00
+   Flags: 0x3200
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:11.1:
+   Address: 0000:00:11.1
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x11
+   Function: 0x1
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: 7500/5520/5500 Routing & Protocol Layer Register Port 1
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3428
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0800
+   Device Class Name: PIC
+   Programming Interface: 0x00
+   Revision ID: 0x22
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0xff
+   Spawned Bus: 0x00
+   Flags: 0x3200
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:14.0:
+   Address: 0000:00:14.0
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x14
+   Function: 0x0
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: 7500/5520/5500/X58 I/O Hub System Management Registers
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x342e
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0800
+   Device Class Name: PIC
+   Programming Interface: 0x00
+   Revision ID: 0x22
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0xff
+   Spawned Bus: 0x00
+   Flags: 0x3200
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:14.1:
+   Address: 0000:00:14.1
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x14
+   Function: 0x1
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: 7500/5520/5500/X58 I/O Hub GPIO and Scratch Pad Registers
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3422
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0800
+   Device Class Name: PIC
+   Programming Interface: 0x00
+   Revision ID: 0x22
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0xff
+   Spawned Bus: 0x00
+   Flags: 0x3200
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:14.2:
+   Address: 0000:00:14.2
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x14
+   Function: 0x2
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: 7500/5520/5500/X58 I/O Hub Control Status and RAS Registers
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3423
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0800
+   Device Class Name: PIC
+   Programming Interface: 0x00
+   Revision ID: 0x22
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0xff
+   Spawned Bus: 0x00
+   Flags: 0x3200
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:14.3:
+   Address: 0000:00:14.3
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x14
+   Function: 0x3
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: 7500/5520/5500/X58 I/O Hub Throttle Registers
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3438
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0800
+   Device Class Name: PIC
+   Programming Interface: 0x00
+   Revision ID: 0x22
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0xff
+   Spawned Bus: 0x00
+   Flags: 0x3200
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:15.0:
+   Address: 0000:00:15.0
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x15
+   Function: 0x0
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: 7500/5520/5500/X58 Trusted Execution Technology Registers
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x342f
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0800
+   Device Class Name: PIC
+   Programming Interface: 0x20
+   Revision ID: 0x22
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0xff
+   Spawned Bus: 0x00
+   Flags: 0x3200
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:16.0:
+   Address: 0000:00:16.0
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x16
+   Function: 0x0
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: 5520/5500/X58 Chipset QuickData Technology Device
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3430
+   SubVendor ID: 0x1014
+   SubDevice ID: 0x3430
+   Device Class: 0x0880
+   Device Class Name: System peripheral
+   Programming Interface: 0x00
+   Revision ID: 0x22
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x00
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:16.1:
+   Address: 0000:00:16.1
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x16
+   Function: 0x1
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: 5520/5500/X58 Chipset QuickData Technology Device
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3431
+   SubVendor ID: 0x1014
+   SubDevice ID: 0x3431
+   Device Class: 0x0880
+   Device Class Name: System peripheral
+   Programming Interface: 0x00
+   Revision ID: 0x22
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x01
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:16.2:
+   Address: 0000:00:16.2
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x16
+   Function: 0x2
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: 5520/5500/X58 Chipset QuickData Technology Device
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3432
+   SubVendor ID: 0x1014
+   SubDevice ID: 0x3432
+   Device Class: 0x0880
+   Device Class Name: System peripheral
+   Programming Interface: 0x00
+   Revision ID: 0x22
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x02
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:16.3:
+   Address: 0000:00:16.3
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x16
+   Function: 0x3
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: 5520/5500/X58 Chipset QuickData Technology Device
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3433
+   SubVendor ID: 0x1014
+   SubDevice ID: 0x3433
+   Device Class: 0x0880
+   Device Class Name: System peripheral
+   Programming Interface: 0x00
+   Revision ID: 0x22
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x03
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:16.4:
+   Address: 0000:00:16.4
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x16
+   Function: 0x4
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: 5520/5500/X58 Chipset QuickData Technology Device
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3429
+   SubVendor ID: 0x1014
+   SubDevice ID: 0x3429
+   Device Class: 0x0880
+   Device Class Name: System peripheral
+   Programming Interface: 0x00
+   Revision ID: 0x22
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x00
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:16.5:
+   Address: 0000:00:16.5
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x16
+   Function: 0x5
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: 5520/5500/X58 Chipset QuickData Technology Device
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x342a
+   SubVendor ID: 0x1014
+   SubDevice ID: 0x342a
+   Device Class: 0x0880
+   Device Class Name: System peripheral
+   Programming Interface: 0x00
+   Revision ID: 0x22
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x01
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:16.6:
+   Address: 0000:00:16.6
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x16
+   Function: 0x6
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: 5520/5500/X58 Chipset QuickData Technology Device
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x342b
+   SubVendor ID: 0x1014
+   SubDevice ID: 0x342b
+   Device Class: 0x0880
+   Device Class Name: System peripheral
+   Programming Interface: 0x00
+   Revision ID: 0x22
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x02
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:16.7:
+   Address: 0000:00:16.7
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x16
+   Function: 0x7
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: 5520/5500/X58 Chipset QuickData Technology Device
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x342c
+   SubVendor ID: 0x1014
+   SubDevice ID: 0x342c
+   Device Class: 0x0880
+   Device Class Name: System peripheral
+   Programming Interface: 0x00
+   Revision ID: 0x22
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x03
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:1a.0:
+   Address: 0000:00:1a.0
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x1a
+   Function: 0x0
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: 82801JI (ICH10 Family) USB UHCI Controller #4
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3a37
+   SubVendor ID: 0x1014
+   SubDevice ID: 0x3a37
+   Device Class: 0x0c03
+   Device Class Name: USB controller
+   Programming Interface: 0x00
+   Revision ID: 0x00
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x2f
+   PCI Pin: 0x00
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: 17
+   Module Name: vmkusb
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: PCI 0:0:26:0
+   Reset Method: Function reset
+   FPT Sharable: false
+
+0000:00:1a.1:
+   Address: 0000:00:1a.1
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x1a
+   Function: 0x1
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: 82801JI (ICH10 Family) USB UHCI Controller #5
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3a38
+   SubVendor ID: 0x1014
+   SubDevice ID: 0x3a38
+   Device Class: 0x0c03
+   Device Class Name: USB controller
+   Programming Interface: 0x00
+   Revision ID: 0x00
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x30
+   PCI Pin: 0x01
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: 17
+   Module Name: vmkusb
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: PCI 0:0:26:1
+   Reset Method: Function reset
+   FPT Sharable: false
+
+0000:00:1a.7:
+   Address: 0000:00:1a.7
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x1a
+   Function: 0x7
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: 82801JI (ICH10 Family) USB2 EHCI Controller #2
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3a3c
+   SubVendor ID: 0x1014
+   SubDevice ID: 0x3a3c
+   Device Class: 0x0c03
+   Device Class Name: USB controller
+   Programming Interface: 0x20
+   Revision ID: 0x00
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x31
+   PCI Pin: 0x02
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: 17
+   Module Name: vmkusb
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: PCI 0:0:26:7
+   Reset Method: Function reset
+   FPT Sharable: false
+
+0000:00:1c.0:
+   Address: 0000:00:1c.0
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x1c
+   Function: 0x0
+   VMkernel Name: PCIe RP[0000:00:1c.0]
+   Vendor Name: Intel Corporation
+   Device Name: 82801JI (ICH10 Family) PCI Express Root Port 1
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3a40
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x00
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x00
+   Spawned Bus: 0x01
+   Flags: 0x3203
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:1c.4:
+   Address: 0000:00:1c.4
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x1c
+   Function: 0x4
+   VMkernel Name: PCIe RP[0000:00:1c.4]
+   Vendor Name: Intel Corporation
+   Device Name: 82801JI (ICH10 Family) PCI Express Root Port 5
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3a48
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x00
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x00
+   Spawned Bus: 0x06
+   Flags: 0x3243
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:1d.0:
+   Address: 0000:00:1d.0
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x1d
+   Function: 0x0
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: 82801JI (ICH10 Family) USB UHCI Controller #1
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3a34
+   SubVendor ID: 0x1014
+   SubDevice ID: 0x3a34
+   Device Class: 0x0c03
+   Device Class Name: USB controller
+   Programming Interface: 0x00
+   Revision ID: 0x00
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x2f
+   PCI Pin: 0x00
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: 17
+   Module Name: vmkusb
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: PCI 0:0:29:0
+   Reset Method: Function reset
+   FPT Sharable: false
+
+0000:00:1d.1:
+   Address: 0000:00:1d.1
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x1d
+   Function: 0x1
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: 82801JI (ICH10 Family) USB UHCI Controller #2
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3a35
+   SubVendor ID: 0x1014
+   SubDevice ID: 0x3a35
+   Device Class: 0x0c03
+   Device Class Name: USB controller
+   Programming Interface: 0x00
+   Revision ID: 0x00
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x30
+   PCI Pin: 0x01
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: 17
+   Module Name: vmkusb
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: PCI 0:0:29:1
+   Reset Method: Function reset
+   FPT Sharable: false
+
+0000:00:1d.2:
+   Address: 0000:00:1d.2
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x1d
+   Function: 0x2
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: 82801JI (ICH10 Family) USB UHCI Controller #3
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3a36
+   SubVendor ID: 0x1014
+   SubDevice ID: 0x3a36
+   Device Class: 0x0c03
+   Device Class Name: USB controller
+   Programming Interface: 0x00
+   Revision ID: 0x00
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x31
+   PCI Pin: 0x02
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: 17
+   Module Name: vmkusb
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: PCI 0:0:29:2
+   Reset Method: Function reset
+   FPT Sharable: false
+
+0000:00:1d.7:
+   Address: 0000:00:1d.7
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x1d
+   Function: 0x7
+   VMkernel Name: vmhba32
+   Vendor Name: Intel Corporation
+   Device Name: 82801JI (ICH10 Family) USB2 EHCI Controller #1
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3a3a
+   SubVendor ID: 0x1014
+   SubDevice ID: 0x3a3a
+   Device Class: 0x0c03
+   Device Class Name: USB controller
+   Programming Interface: 0x20
+   Revision ID: 0x00
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x2f
+   PCI Pin: 0x00
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: 17
+   Module Name: vmkusb
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: PCI 0:0:29:7
+   Reset Method: Function reset
+   FPT Sharable: false
+
+0000:00:1e.0:
+   Address: 0000:00:1e.0
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x1e
+   Function: 0x0
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: 82801 PCI Bridge
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x244e
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x01
+   Revision ID: 0x90
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0xff
+   Spawned Bus: 0x1f
+   Flags: 0x3242
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:1f.0:
+   Address: 0000:00:1f.0
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x1f
+   Function: 0x0
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: 82801JIB (ICH10) LPC Interface Controller
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3a18
+   SubVendor ID: 0x1014
+   SubDevice ID: 0x3a18
+   Device Class: 0x0601
+   Device Class Name: ISA bridge
+   Programming Interface: 0x00
+   Revision ID: 0x00
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0xff
+   Spawned Bus: 0x00
+   Flags: 0x3200
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:1f.2:
+   Address: 0000:00:1f.2
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x1f
+   Function: 0x2
+   VMkernel Name: vmhba1
+   Vendor Name: Intel Corporation
+   Device Name: ICH10 4 port SATA IDE Controller
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3a20
+   SubVendor ID: 0x1014
+   SubDevice ID: 0x3a20
+   Device Class: 0x0101
+   Device Class Name: IDE interface
+   Programming Interface: 0x8f
+   Revision ID: 0x00
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x32
+   PCI Pin: 0x00
+   Spawned Bus: 0x00
+   Flags: 0x3205
+   Module ID: 18
+   Module Name: vmkata
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: PCI 0:0:31:2
+   Reset Method: Function reset
+   FPT Sharable: false
+
+0000:00:1f.3:
+   Address: 0000:00:1f.3
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x1f
+   Function: 0x3
+   VMkernel Name: 
+   Vendor Name: Intel Corporation
+   Device Name: 82801JI (ICH10 Family) SMBus Controller
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3a30
+   SubVendor ID: 0x1014
+   SubDevice ID: 0x3a30
+   Device Class: 0x0c05
+   Device Class Name: SMBus
+   Programming Interface: 0x00
+   Revision ID: 0x00
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x01
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: 
+   Reset Method: None
+   FPT Sharable: false
+
+0000:00:1f.5:
+   Address: 0000:00:1f.5
+   Segment: 0x0000
+   Bus: 0x00
+   Slot: 0x1f
+   Function: 0x5
+   VMkernel Name: vmhba2
+   Vendor Name: Intel Corporation
+   Device Name: ICH10 2 port SATA IDE Controller
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x3a26
+   SubVendor ID: 0x1014
+   SubDevice ID: 0x3a26
+   Device Class: 0x0101
+   Device Class Name: IDE interface
+   Programming Interface: 0x85
+   Revision ID: 0x00
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x33
+   PCI Pin: 0x02
+   Spawned Bus: 0x00
+   Flags: 0x3205
+   Module ID: 18
+   Module Name: vmkata
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: 
+   Dependent Device: PCI 0:0:31:5
+   Reset Method: Function reset
+   FPT Sharable: false
+
+0000:01:00.0:
+   Address: 0000:01:00.0
+   Segment: 0x0000
+   Bus: 0x01
+   Slot: 0x00
+   Function: 0x0
+   VMkernel Name: vmhba0
+   Vendor Name: LSI / Symbios Logic
+   Device Name: MegaRAID SAS GEN2 Controller
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x1000
+   Device ID: 0x0079
+   SubVendor ID: 0x1014
+   SubDevice ID: 0x03b2
+   Device Class: 0x0104
+   Device Class Name: RAID bus controller
+   Programming Interface: 0x00
+   Revision ID: 0x05
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x32
+   PCI Pin: 0x00
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: 4159
+   Module Name: megaraid_sas
+   Chassis: 0
+   Physical Slot: 5
+   Slot Description: LSI SAS 1068
+   Passthru Capable: false
+   Parent Device: PCI 0:0:28:0
+   Dependent Device: PCI 0:1:0:0
+   Reset Method: Function reset
+   FPT Sharable: false
+
+0000:06:00.0:
+   Address: 0000:06:00.0
+   Segment: 0x0000
+   Bus: 0x06
+   Slot: 0x00
+   Function: 0x0
+   VMkernel Name: 
+   Vendor Name: Vitesse Semiconductor
+   Device Name: VSC452 [SuperBMC]
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x101b
+   Device ID: 0x0452
+   SubVendor ID: 0x0000
+   SubDevice ID: 0x0000
+   Device Class: 0x0604
+   Device Class Name: PCI bridge
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x00
+   Spawned Bus: 0x07
+   Flags: 0x3243
+   Module ID: 0
+   Module Name: vmkernel
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: 
+   Passthru Capable: false
+   Parent Device: PCI 0:0:28:4
+   Dependent Device: 
+   Reset Method: Bridge reset
+   FPT Sharable: false
+
+0000:07:00.0:
+   Address: 0000:07:00.0
+   Segment: 0x0000
+   Bus: 0x07
+   Slot: 0x00
+   Function: 0x0
+   VMkernel Name: 
+   Vendor Name: Matrox Electronics Systems Ltd.
+   Device Name: MGA G200EV
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x102b
+   Device ID: 0x0530
+   SubVendor ID: 0x1014
+   SubDevice ID: 0x0369
+   Device Class: 0x0300
+   Device Class Name: VGA compatible controller
+   Programming Interface: 0x00
+   Revision ID: 0x00
+   Interrupt Line: 0x0b
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x00
+   Spawned Bus: 0x00
+   Flags: 0x3221
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: Matrox G200eV
+   Passthru Capable: false
+   Parent Device: PCI 0:6:0:0
+   Dependent Device: PCI 0:6:0:0
+   Reset Method: Bridge reset
+   FPT Sharable: false
+
+0000:0b:00.0:
+   Address: 0000:0b:00.0
+   Segment: 0x0000
+   Bus: 0x0b
+   Slot: 0x00
+   Function: 0x0
+   VMkernel Name: vmnic0
+   Vendor Name: QLogic Corporation
+   Device Name: QLogic NetXtreme II BCM5709 1000Base-T
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x14e4
+   Device ID: 0x1639
+   SubVendor ID: 0x1014
+   SubDevice ID: 0x03a9
+   Device Class: 0x0200
+   Device Class Name: Ethernet controller
+   Programming Interface: 0x00
+   Revision ID: 0x20
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x00
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: 24
+   Module Name: qflge
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: Ethernet 1 BroadCom 5709C Ethernet Controller
+   Passthru Capable: false
+   Parent Device: PCI 0:0:1:0
+   Dependent Device: PCI 0:0:1:0
+   Reset Method: Bridge reset
+   FPT Sharable: false
+
+0000:0b:00.1:
+   Address: 0000:0b:00.1
+   Segment: 0x0000
+   Bus: 0x0b
+   Slot: 0x00
+   Function: 0x1
+   VMkernel Name: vmnic1
+   Vendor Name: QLogic Corporation
+   Device Name: QLogic NetXtreme II BCM5709 1000Base-T
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x14e4
+   Device ID: 0x1639
+   SubVendor ID: 0x1014
+   SubDevice ID: 0x03a9
+   Device Class: 0x0200
+   Device Class Name: Ethernet controller
+   Programming Interface: 0x00
+   Revision ID: 0x20
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x01
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: 24
+   Module Name: qflge
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: Ethernet 2 BroadCom 5709C Ethernet Controller
+   Passthru Capable: false
+   Parent Device: PCI 0:0:1:0
+   Dependent Device: PCI 0:0:1:0
+   Reset Method: Bridge reset
+   FPT Sharable: false
+
+0000:10:00.0:
+   Address: 0000:10:00.0
+   Segment: 0x0000
+   Bus: 0x10
+   Slot: 0x00
+   Function: 0x0
+   VMkernel Name: vmnic2
+   Vendor Name: QLogic Corporation
+   Device Name: QLogic NetXtreme II BCM5709 1000Base-T
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x14e4
+   Device ID: 0x1639
+   SubVendor ID: 0x1014
+   SubDevice ID: 0x03a9
+   Device Class: 0x0200
+   Device Class Name: Ethernet controller
+   Programming Interface: 0x00
+   Revision ID: 0x20
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x00
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: 24
+   Module Name: qflge
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: Ethernet 3 BroadCom 5709C Ethernet Controller
+   Passthru Capable: false
+   Parent Device: PCI 0:0:2:0
+   Dependent Device: PCI 0:0:2:0
+   Reset Method: Bridge reset
+   FPT Sharable: false
+
+0000:10:00.1:
+   Address: 0000:10:00.1
+   Segment: 0x0000
+   Bus: 0x10
+   Slot: 0x00
+   Function: 0x1
+   VMkernel Name: vmnic3
+   Vendor Name: QLogic Corporation
+   Device Name: QLogic NetXtreme II BCM5709 1000Base-T
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x14e4
+   Device ID: 0x1639
+   SubVendor ID: 0x1014
+   SubDevice ID: 0x03a9
+   Device Class: 0x0200
+   Device Class Name: Ethernet controller
+   Programming Interface: 0x00
+   Revision ID: 0x20
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x01
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: 24
+   Module Name: qflge
+   Chassis: 0
+   Physical Slot: 4294967295
+   Slot Description: Ethernet 4 BroadCom 5709C Ethernet Controller
+   Passthru Capable: false
+   Parent Device: PCI 0:0:2:0
+   Dependent Device: PCI 0:0:2:0
+   Reset Method: Bridge reset
+   FPT Sharable: false
+
+0000:15:00.0:
+   Address: 0000:15:00.0
+   Segment: 0x0000
+   Bus: 0x15
+   Slot: 0x00
+   Function: 0x0
+   VMkernel Name: vmnic4
+   Vendor Name: Intel Corporation
+   Device Name: I350 Gigabit Network Connection
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x1521
+   SubVendor ID: 0x8086
+   SubDevice ID: 0x0002
+   Device Class: 0x0200
+   Device Class Name: Ethernet controller
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x00
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: 25
+   Module Name: igbn
+   Chassis: 0
+   Physical Slot: 1
+   Slot Description: System Slot 1
+   Passthru Capable: false
+   Parent Device: PCI 0:0:3:0
+   Dependent Device: PCI 0:21:0:0
+   Reset Method: Function reset
+   FPT Sharable: false
+
+0000:15:00.1:
+   Address: 0000:15:00.1
+   Segment: 0x0000
+   Bus: 0x15
+   Slot: 0x00
+   Function: 0x1
+   VMkernel Name: vmnic5
+   Vendor Name: Intel Corporation
+   Device Name: I350 Gigabit Network Connection
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x8086
+   Device ID: 0x1521
+   SubVendor ID: 0x8086
+   SubDevice ID: 0x0002
+   Device Class: 0x0200
+   Device Class Name: Ethernet controller
+   Programming Interface: 0x00
+   Revision ID: 0x01
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x01
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: 25
+   Module Name: igbn
+   Chassis: 0
+   Physical Slot: 1
+   Slot Description: System Slot 1
+   Passthru Capable: false
+   Parent Device: PCI 0:0:3:0
+   Dependent Device: PCI 0:21:0:1
+   Reset Method: Function reset
+   FPT Sharable: false
+
+0000:1a:00.0:
+   Address: 0000:1a:00.0
+   Segment: 0x0000
+   Bus: 0x1a
+   Slot: 0x00
+   Function: 0x0
+   VMkernel Name: 
+   Vendor Name: Emulex Corporation
+   Device Name: LPe12000 Series 8Gb Fibre Channel Adapter
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x10df
+   Device ID: 0xf100
+   SubVendor ID: 0x10df
+   SubDevice ID: 0xf100
+   Device Class: 0x0c04
+   Device Class Name: Fibre Channel
+   Programming Interface: 0x00
+   Revision ID: 0x03
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x00
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 3
+   Slot Description: System Slot 2
+   Passthru Capable: false
+   Parent Device: PCI 0:0:7:0
+   Dependent Device: PCI 0:0:7:0
+   Reset Method: Bridge reset
+   FPT Sharable: false
+
+0000:1a:00.1:
+   Address: 0000:1a:00.1
+   Segment: 0x0000
+   Bus: 0x1a
+   Slot: 0x00
+   Function: 0x1
+   VMkernel Name: 
+   Vendor Name: Emulex Corporation
+   Device Name: LPe12000 Series 8Gb Fibre Channel Adapter
+   Configured Owner: VMkernel
+   Current Owner: VMkernel
+   Vendor ID: 0x10df
+   Device ID: 0xf100
+   SubVendor ID: 0x10df
+   SubDevice ID: 0xf100
+   Device Class: 0x0c04
+   Device Class Name: Fibre Channel
+   Programming Interface: 0x00
+   Revision ID: 0x03
+   Interrupt Line: 0xff
+   IRQ: 255
+   Interrupt Vector: 0x00
+   PCI Pin: 0x01
+   Spawned Bus: 0x00
+   Flags: 0x3201
+   Module ID: -1
+   Module Name: None
+   Chassis: 0
+   Physical Slot: 3
+   Slot Description: System Slot 2
+   Passthru Capable: false
+   Parent Device: PCI 0:0:7:0
+   Dependent Device: PCI 0:0:7:0
+   Reset Method: Bridge reset
+   FPT Sharable: false
+

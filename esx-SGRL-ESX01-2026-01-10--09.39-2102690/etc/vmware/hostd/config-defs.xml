@@ -1,0 +1,70 @@
+<ConfigRoot>
+  <_length>3</_length>
+  <_type>vim.option.OptionDef[]</_type>
+  <e id="0">
+    <_type>vim.option.OptionDef</_type>
+    <dynamicType></dynamicType>
+    <dynamicProperty>
+      <_length>0</_length>
+      <_type>vmodl.DynamicProperty[]</_type>
+    </dynamicProperty>
+    <label>security.host.ruissl</label>
+    <summary>Require SSL to be used when communicating with the host over port 902.</summary>
+    <key>security.host.ruissl</key>
+    <optionType>
+      <_type>vim.option.BoolOption</_type>
+      <dynamicType></dynamicType>
+      <dynamicProperty>
+        <_length>0</_length>
+        <_type>vmodl.DynamicProperty[]</_type>
+      </dynamicProperty>
+      <valueIsReadonly>false</valueIsReadonly>
+      <supported>true</supported>
+      <defaultValue>true</defaultValue>
+    </optionType>
+  </e>
+  <e id="1">
+    <_type>vim.option.OptionDef</_type>
+    <dynamicType></dynamicType>
+    <dynamicProperty>
+      <_length>0</_length>
+      <_type>vmodl.DynamicProperty[]</_type>
+    </dynamicProperty>
+    <label>vGPU.consolidation</label>
+    <summary>Assignment policy to place shared passthru graphics VMs on same physical GPU until full.</summary>
+    <key>vGPU.consolidation</key>
+    <optionType>
+      <_type>vim.option.BoolOption</_type>
+      <dynamicType></dynamicType>
+      <dynamicProperty>
+        <_length>0</_length>
+        <_type>vmodl.DynamicProperty[]</_type>
+      </dynamicProperty>
+      <valueIsReadonly>false</valueIsReadonly>
+      <supported>true</supported>
+      <defaultValue>false</defaultValue>
+    </optionType>
+  </e>
+  <e id="2">
+    <_type>vim.option.OptionDef</_type>
+    <dynamicType></dynamicType>
+    <dynamicProperty>
+      <_length>0</_length>
+      <_type>vmodl.DynamicProperty[]</_type>
+    </dynamicProperty>
+    <label>monitor.if_pschange_mc_workaround</label>
+    <summary>Enable workaround for Machine Check Error on Page Size Change (CVE-2018-12207).</summary>
+    <key>monitor.if_pschange_mc_workaround</key>
+    <optionType>
+      <_type>vim.option.BoolOption</_type>
+      <dynamicType></dynamicType>
+      <dynamicProperty>
+        <_length>0</_length>
+        <_type>vmodl.DynamicProperty[]</_type>
+      </dynamicProperty>
+      <valueIsReadonly>false</valueIsReadonly>
+      <supported>true</supported>
+      <defaultValue>false</defaultValue>
+    </optionType>
+  </e>
+</ConfigRoot>

@@ -1,0 +1,4 @@
+# vmkfstools -q SGRL-NSX001.vmdk
+SGRL-NSX001.vmdk is not an rdm
+# vmkfstools -q SGRL-NSX001_1.vmdk
+SGRL-NSX001_1.vmdk is not an rdm

@@ -1,0 +1,12 @@
+# VMware software license
+StartFields = "Cpt, ProductID, LicenseVersion, LicenseType, LicenseEdition, Option, Epoch"
+Cpt = "COPYRIGHT (c) VMware, Inc."
+ProductID = "VMware ESX Server"
+LicenseVersion = "6.0"
+LicenseType = "Site"
+Epoch = "2013-6-1"
+LicenseEdition = "esx.foundationEmbeddedOem.cpuPackage"
+Option = "7"
+Data = "FileVersion=6.7.2.1;capacityType=cpuPackage;enable=vsmp:32,h264remote,esxHost,vimapi,contentlib,vstorage,smartcard;eoem=true;desc=VMware vSphere 6 Foundation for Embedded OEMs"
+DataHash = "c8dae4b4-c7276259-921f43c3-d236d813-4e83e050"
+Hash = "a2ffb895-eaf557ba-90a5aa81-0b4c89af-ccd10173"

@@ -1,0 +1,437 @@
+2026-01-10T07:55:20.019Z: Execute ['init']
+2026-01-10T07:55:20.045Z: Create host/iofilters/iofiltervpd
+2026-01-10T07:55:20.045Z: Get group ID of host/iofilters
+2026-01-10T07:55:20.045Z: Set memory config for host/iofilters/iofiltervpd: ['min=0', 'max=0', 'minLimit=-1']
+2026-01-10T07:55:20.045Z: Get group ID of host/iofilters/iofiltervpd
+2026-01-10T07:55:20.046Z: Set cpu config for host/iofilters/iofiltervpd: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.046Z: Get group ID of host/iofilters/iofiltervpd
+2026-01-10T07:55:20.046Z: Create host/vim/vimuser/terminal
+2026-01-10T07:55:20.046Z: Get group ID of host/vim/vimuser
+2026-01-10T07:55:20.046Z: Set memory config for host/vim/vimuser/terminal: ['min=45', 'max=-1', 'minLimit=-1']
+2026-01-10T07:55:20.046Z: Get group ID of host/vim/vimuser/terminal
+2026-01-10T07:55:20.046Z: Set cpu config for host/vim/vimuser/terminal: ['min=0', 'max=-1', 'minLimit=-1', 'shares=500']
+2026-01-10T07:55:20.047Z: Get group ID of host/vim/vimuser/terminal
+2026-01-10T07:55:20.047Z: Create host/vim/vimuser/terminal/shell
+2026-01-10T07:55:20.047Z: Get group ID of host/vim/vimuser/terminal
+2026-01-10T07:55:20.047Z: Set memory config for host/vim/vimuser/terminal/shell: ['min=0', 'max=512', 'minLimit=-1']
+2026-01-10T07:55:20.047Z: Get group ID of host/vim/vimuser/terminal/shell
+2026-01-10T07:55:20.047Z: Set cpu config for host/vim/vimuser/terminal/shell: ['min=0', 'max=-1', 'minLimit=-1', 'shares=500']
+2026-01-10T07:55:20.047Z: Get group ID of host/vim/vimuser/terminal/shell
+2026-01-10T07:55:20.048Z: Create host/vim/vimuser/terminal/ssh
+2026-01-10T07:55:20.048Z: Get group ID of host/vim/vimuser/terminal
+2026-01-10T07:55:20.048Z: Set memory config for host/vim/vimuser/terminal/ssh: ['min=0', 'max=800', 'minLimit=-1']
+2026-01-10T07:55:20.048Z: Get group ID of host/vim/vimuser/terminal/ssh
+2026-01-10T07:55:20.048Z: Set cpu config for host/vim/vimuser/terminal/ssh: ['min=0', 'max=-1', 'minLimit=-1', 'shares=500']
+2026-01-10T07:55:20.048Z: Get group ID of host/vim/vimuser/terminal/ssh
+2026-01-10T07:55:20.048Z: Create host/vim/vmvisor/aam
+2026-01-10T07:55:20.049Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.049Z: Set memory config for host/vim/vmvisor/aam: ['min=0', 'max=0', 'minLimit=-1']
+2026-01-10T07:55:20.049Z: Get group ID of host/vim/vmvisor/aam
+2026-01-10T07:55:20.049Z: Set cpu config for host/vim/vmvisor/aam: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.049Z: Get group ID of host/vim/vmvisor/aam
+2026-01-10T07:55:20.049Z: Create host/vim/vmvisor/boot
+2026-01-10T07:55:20.049Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.050Z: Set memory config for host/vim/vmvisor/boot: ['min=0', 'max=200', 'minLimit=-1']
+2026-01-10T07:55:20.050Z: Get group ID of host/vim/vmvisor/boot
+2026-01-10T07:55:20.050Z: Set cpu config for host/vim/vmvisor/boot: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.050Z: Get group ID of host/vim/vmvisor/boot
+2026-01-10T07:55:20.050Z: Create host/vim/vmvisor/dcui
+2026-01-10T07:55:20.050Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.050Z: Set memory config for host/vim/vmvisor/dcui: ['min=45', 'max=101', 'minLimit=-1']
+2026-01-10T07:55:20.050Z: Get group ID of host/vim/vmvisor/dcui
+2026-01-10T07:55:20.051Z: Set cpu config for host/vim/vmvisor/dcui: ['min=0', 'max=-1', 'minLimit=-1', 'shares=500']
+2026-01-10T07:55:20.051Z: Get group ID of host/vim/vmvisor/dcui
+2026-01-10T07:55:20.051Z: Create host/vim/vmvisor/dhclient
+2026-01-10T07:55:20.051Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.051Z: Set memory config for host/vim/vmvisor/dhclient: ['min=0', 'max=0', 'minLimit=-1']
+2026-01-10T07:55:20.051Z: Get group ID of host/vim/vmvisor/dhclient
+2026-01-10T07:55:20.051Z: Set cpu config for host/vim/vmvisor/dhclient: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.052Z: Get group ID of host/vim/vmvisor/dhclient
+2026-01-10T07:55:20.052Z: Create host/vim/vmvisor/dhclientrelease
+2026-01-10T07:55:20.052Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.052Z: Set memory config for host/vim/vmvisor/dhclientrelease: ['min=0', 'max=0', 'minLimit=-1']
+2026-01-10T07:55:20.052Z: Get group ID of host/vim/vmvisor/dhclientrelease
+2026-01-10T07:55:20.052Z: Set cpu config for host/vim/vmvisor/dhclientrelease: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.052Z: Get group ID of host/vim/vmvisor/dhclientrelease
+2026-01-10T07:55:20.053Z: Create host/vim/vmvisor/hbrca
+2026-01-10T07:55:20.053Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.053Z: Set memory config for host/vim/vmvisor/hbrca: ['min=0', 'max=0', 'minLimit=-1']
+2026-01-10T07:55:20.053Z: Get group ID of host/vim/vmvisor/hbrca
+2026-01-10T07:55:20.053Z: Set cpu config for host/vim/vmvisor/hbrca: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.053Z: Get group ID of host/vim/vmvisor/hbrca
+2026-01-10T07:55:20.053Z: Create host/vim/vmvisor/hostd
+2026-01-10T07:55:20.053Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.054Z: Set memory config for host/vim/vmvisor/hostd: ['min=954', 'max=954', 'minLimit=-1']
+2026-01-10T07:55:20.054Z: Get group ID of host/vim/vmvisor/hostd
+2026-01-10T07:55:20.054Z: Set cpu config for host/vim/vmvisor/hostd: ['min=106', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.054Z: Get group ID of host/vim/vmvisor/hostd
+2026-01-10T07:55:20.054Z: Create host/vim/vmvisor/hostd-probe
+2026-01-10T07:55:20.054Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.054Z: Set memory config for host/vim/vmvisor/hostd-probe: ['min=28', 'max=28', 'minLimit=-1']
+2026-01-10T07:55:20.055Z: Get group ID of host/vim/vmvisor/hostd-probe
+2026-01-10T07:55:20.055Z: Set cpu config for host/vim/vmvisor/hostd-probe: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.055Z: Get group ID of host/vim/vmvisor/hostd-probe
+2026-01-10T07:55:20.055Z: Create host/vim/vmvisor/hostd-probe/stats
+2026-01-10T07:55:20.055Z: Get group ID of host/vim/vmvisor/hostd-probe
+2026-01-10T07:55:20.055Z: Set memory config for host/vim/vmvisor/hostd-probe/stats: ['min=0', 'max=-1', 'minLimit=-1']
+2026-01-10T07:55:20.055Z: Get group ID of host/vim/vmvisor/hostd-probe/stats
+2026-01-10T07:55:20.056Z: Set cpu config for host/vim/vmvisor/hostd-probe/stats: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.056Z: Get group ID of host/vim/vmvisor/hostd-probe/stats
+2026-01-10T07:55:20.056Z: Create host/vim/vmvisor/hostd-probe/stats/awk
+2026-01-10T07:55:20.056Z: Get group ID of host/vim/vmvisor/hostd-probe/stats
+2026-01-10T07:55:20.056Z: Set memory config for host/vim/vmvisor/hostd-probe/stats/awk: ['min=0', 'max=-1', 'minLimit=-1']
+2026-01-10T07:55:20.056Z: Get group ID of host/vim/vmvisor/hostd-probe/stats/awk
+2026-01-10T07:55:20.056Z: Set cpu config for host/vim/vmvisor/hostd-probe/stats/awk: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.057Z: Get group ID of host/vim/vmvisor/hostd-probe/stats/awk
+2026-01-10T07:55:20.057Z: Create host/vim/vmvisor/hostd-probe/stats/head
+2026-01-10T07:55:20.057Z: Get group ID of host/vim/vmvisor/hostd-probe/stats
+2026-01-10T07:55:20.057Z: Set memory config for host/vim/vmvisor/hostd-probe/stats/head: ['min=0', 'max=-1', 'minLimit=-1']
+2026-01-10T07:55:20.057Z: Get group ID of host/vim/vmvisor/hostd-probe/stats/head
+2026-01-10T07:55:20.057Z: Set cpu config for host/vim/vmvisor/hostd-probe/stats/head: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.057Z: Get group ID of host/vim/vmvisor/hostd-probe/stats/head
+2026-01-10T07:55:20.057Z: Create host/vim/vmvisor/hostd-probe/stats/logger
+2026-01-10T07:55:20.058Z: Get group ID of host/vim/vmvisor/hostd-probe/stats
+2026-01-10T07:55:20.058Z: Set memory config for host/vim/vmvisor/hostd-probe/stats/logger: ['min=0', 'max=-1', 'minLimit=-1']
+2026-01-10T07:55:20.058Z: Get group ID of host/vim/vmvisor/hostd-probe/stats/logger
+2026-01-10T07:55:20.058Z: Set cpu config for host/vim/vmvisor/hostd-probe/stats/logger: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.058Z: Get group ID of host/vim/vmvisor/hostd-probe/stats/logger
+2026-01-10T07:55:20.058Z: Create host/vim/vmvisor/hostd-probe/stats/ls
+2026-01-10T07:55:20.058Z: Get group ID of host/vim/vmvisor/hostd-probe/stats
+2026-01-10T07:55:20.059Z: Set memory config for host/vim/vmvisor/hostd-probe/stats/ls: ['min=0', 'max=-1', 'minLimit=-1']
+2026-01-10T07:55:20.059Z: Get group ID of host/vim/vmvisor/hostd-probe/stats/ls
+2026-01-10T07:55:20.059Z: Set cpu config for host/vim/vmvisor/hostd-probe/stats/ls: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.059Z: Get group ID of host/vim/vmvisor/hostd-probe/stats/ls
+2026-01-10T07:55:20.059Z: Create host/vim/vmvisor/hostd-probe/stats/pgrep
+2026-01-10T07:55:20.059Z: Get group ID of host/vim/vmvisor/hostd-probe/stats
+2026-01-10T07:55:20.059Z: Set memory config for host/vim/vmvisor/hostd-probe/stats/pgrep: ['min=0', 'max=-1', 'minLimit=-1']
+2026-01-10T07:55:20.060Z: Get group ID of host/vim/vmvisor/hostd-probe/stats/pgrep
+2026-01-10T07:55:20.060Z: Set cpu config for host/vim/vmvisor/hostd-probe/stats/pgrep: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.060Z: Get group ID of host/vim/vmvisor/hostd-probe/stats/pgrep
+2026-01-10T07:55:20.060Z: Create host/vim/vmvisor/hostd-probe/stats/probe
+2026-01-10T07:55:20.060Z: Get group ID of host/vim/vmvisor/hostd-probe/stats
+2026-01-10T07:55:20.060Z: Set memory config for host/vim/vmvisor/hostd-probe/stats/probe: ['min=0', 'max=-1', 'minLimit=-1']
+2026-01-10T07:55:20.060Z: Get group ID of host/vim/vmvisor/hostd-probe/stats/probe
+2026-01-10T07:55:20.061Z: Set cpu config for host/vim/vmvisor/hostd-probe/stats/probe: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.061Z: Get group ID of host/vim/vmvisor/hostd-probe/stats/probe
+2026-01-10T07:55:20.061Z: Create host/vim/vmvisor/hostd-probe/stats/sh
+2026-01-10T07:55:20.061Z: Get group ID of host/vim/vmvisor/hostd-probe/stats
+2026-01-10T07:55:20.061Z: Set memory config for host/vim/vmvisor/hostd-probe/stats/sh: ['min=0', 'max=-1', 'minLimit=-1']
+2026-01-10T07:55:20.061Z: Get group ID of host/vim/vmvisor/hostd-probe/stats/sh
+2026-01-10T07:55:20.061Z: Set cpu config for host/vim/vmvisor/hostd-probe/stats/sh: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.061Z: Get group ID of host/vim/vmvisor/hostd-probe/stats/sh
+2026-01-10T07:55:20.062Z: Create host/vim/vmvisor/hostd-probe/stats/vmkbacktrace
+2026-01-10T07:55:20.062Z: Get group ID of host/vim/vmvisor/hostd-probe/stats
+2026-01-10T07:55:20.062Z: Set memory config for host/vim/vmvisor/hostd-probe/stats/vmkbacktrace: ['min=0', 'max=-1', 'minLimit=-1']
+2026-01-10T07:55:20.062Z: Get group ID of host/vim/vmvisor/hostd-probe/stats/vmkbacktrace
+2026-01-10T07:55:20.062Z: Set cpu config for host/vim/vmvisor/hostd-probe/stats/vmkbacktrace: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.062Z: Get group ID of host/vim/vmvisor/hostd-probe/stats/vmkbacktrace
+2026-01-10T07:55:20.062Z: Create host/vim/vmvisor/hostd-probe/stats/vmware
+2026-01-10T07:55:20.063Z: Get group ID of host/vim/vmvisor/hostd-probe/stats
+2026-01-10T07:55:20.063Z: Set memory config for host/vim/vmvisor/hostd-probe/stats/vmware: ['min=0', 'max=-1', 'minLimit=-1']
+2026-01-10T07:55:20.063Z: Get group ID of host/vim/vmvisor/hostd-probe/stats/vmware
+2026-01-10T07:55:20.063Z: Set cpu config for host/vim/vmvisor/hostd-probe/stats/vmware: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.063Z: Get group ID of host/vim/vmvisor/hostd-probe/stats/vmware
+2026-01-10T07:55:20.063Z: Create host/vim/vmvisor/hostdCgiServer
+2026-01-10T07:55:20.063Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.064Z: Set memory config for host/vim/vmvisor/hostdCgiServer: ['min=30', 'max=50', 'minLimit=-1']
+2026-01-10T07:55:20.064Z: Get group ID of host/vim/vmvisor/hostdCgiServer
+2026-01-10T07:55:20.064Z: Set cpu config for host/vim/vmvisor/hostdCgiServer: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.064Z: Get group ID of host/vim/vmvisor/hostdCgiServer
+2026-01-10T07:55:20.064Z: Create host/vim/vmvisor/imaShim32d
+2026-01-10T07:55:20.064Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.064Z: Set memory config for host/vim/vmvisor/imaShim32d: ['min=0', 'max=0', 'minLimit=-1']
+2026-01-10T07:55:20.065Z: Get group ID of host/vim/vmvisor/imaShim32d
+2026-01-10T07:55:20.065Z: Set cpu config for host/vim/vmvisor/imaShim32d: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.065Z: Get group ID of host/vim/vmvisor/imaShim32d
+2026-01-10T07:55:20.065Z: Create host/vim/vmvisor/init
+2026-01-10T07:55:20.065Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.065Z: Set memory config for host/vim/vmvisor/init: ['min=109', 'max=220', 'minLimit=-1']
+2026-01-10T07:55:20.065Z: Get group ID of host/vim/vmvisor/init
+2026-01-10T07:55:20.065Z: Set cpu config for host/vim/vmvisor/init: ['min=0', 'max=-1', 'minLimit=-1', 'shares=500']
+2026-01-10T07:55:20.066Z: Get group ID of host/vim/vmvisor/init
+2026-01-10T07:55:20.066Z: Create host/vim/vmvisor/lacpd
+2026-01-10T07:55:20.066Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.066Z: Set memory config for host/vim/vmvisor/lacpd: ['min=13', 'max=13', 'minLimit=-1']
+2026-01-10T07:55:20.066Z: Get group ID of host/vim/vmvisor/lacpd
+2026-01-10T07:55:20.066Z: Set cpu config for host/vim/vmvisor/lacpd: ['min=0', 'max=10', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.066Z: Get group ID of host/vim/vmvisor/lacpd
+2026-01-10T07:55:20.067Z: Create host/vim/vmvisor/lbt
+2026-01-10T07:55:20.067Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.067Z: Set memory config for host/vim/vmvisor/lbt: ['min=13', 'max=16', 'minLimit=-1']
+2026-01-10T07:55:20.067Z: Get group ID of host/vim/vmvisor/lbt
+2026-01-10T07:55:20.067Z: Set cpu config for host/vim/vmvisor/lbt: ['min=0', 'max=30', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.067Z: Get group ID of host/vim/vmvisor/lbt
+2026-01-10T07:55:20.067Z: Create host/vim/vmvisor/likewise
+2026-01-10T07:55:20.068Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.068Z: Set memory config for host/vim/vmvisor/likewise: ['min=0', 'max=0', 'minLimit=-1']
+2026-01-10T07:55:20.068Z: Get group ID of host/vim/vmvisor/likewise
+2026-01-10T07:55:20.068Z: Set cpu config for host/vim/vmvisor/likewise: ['min=0', 'max=30', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.068Z: Get group ID of host/vim/vmvisor/likewise
+2026-01-10T07:55:20.068Z: Create host/vim/vmvisor/loadESX
+2026-01-10T07:55:20.068Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.069Z: Set memory config for host/vim/vmvisor/loadESX: ['min=0', 'max=-1', 'minLimit=-1']
+2026-01-10T07:55:20.069Z: Get group ID of host/vim/vmvisor/loadESX
+2026-01-10T07:55:20.069Z: Set cpu config for host/vim/vmvisor/loadESX: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.069Z: Get group ID of host/vim/vmvisor/loadESX
+2026-01-10T07:55:20.069Z: Create host/vim/vmvisor/logging
+2026-01-10T07:55:20.069Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.069Z: Set memory config for host/vim/vmvisor/logging: ['min=106', 'max=106', 'minLimit=-1']
+2026-01-10T07:55:20.069Z: Get group ID of host/vim/vmvisor/logging
+2026-01-10T07:55:20.070Z: Set cpu config for host/vim/vmvisor/logging: ['min=15', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.070Z: Get group ID of host/vim/vmvisor/logging
+2026-01-10T07:55:20.070Z: Create host/vim/vmvisor/memScrubber
+2026-01-10T07:55:20.070Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.070Z: Set memory config for host/vim/vmvisor/memScrubber: ['min=0', 'max=0', 'minLimit=-1']
+2026-01-10T07:55:20.070Z: Get group ID of host/vim/vmvisor/memScrubber
+2026-01-10T07:55:20.070Z: Set cpu config for host/vim/vmvisor/memScrubber: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1']
+2026-01-10T07:55:20.071Z: Get group ID of host/vim/vmvisor/memScrubber
+2026-01-10T07:55:20.071Z: Create host/vim/vmvisor/net-daemons
+2026-01-10T07:55:20.071Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.071Z: Set memory config for host/vim/vmvisor/net-daemons: ['min=15', 'max=50', 'minLimit=-1']
+2026-01-10T07:55:20.071Z: Get group ID of host/vim/vmvisor/net-daemons
+2026-01-10T07:55:20.071Z: Set cpu config for host/vim/vmvisor/net-daemons: ['min=0', 'max=10', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.071Z: Get group ID of host/vim/vmvisor/net-daemons
+2026-01-10T07:55:20.072Z: Create host/vim/vmvisor/netcpa
+2026-01-10T07:55:20.072Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.072Z: Set memory config for host/vim/vmvisor/netcpa: ['min=0', 'max=0', 'minLimit=-1']
+2026-01-10T07:55:20.072Z: Get group ID of host/vim/vmvisor/netcpa
+2026-01-10T07:55:20.072Z: Set cpu config for host/vim/vmvisor/netcpa: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.072Z: Get group ID of host/vim/vmvisor/netcpa
+2026-01-10T07:55:20.072Z: Create host/vim/vmvisor/petronas
+2026-01-10T07:55:20.072Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.073Z: Set memory config for host/vim/vmvisor/petronas: ['min=0', 'max=0', 'minLimit=-1']
+2026-01-10T07:55:20.073Z: Get group ID of host/vim/vmvisor/petronas
+2026-01-10T07:55:20.073Z: Set cpu config for host/vim/vmvisor/petronas: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.073Z: Get group ID of host/vim/vmvisor/petronas
+2026-01-10T07:55:20.073Z: Create host/vim/vmvisor/nfcd
+2026-01-10T07:55:20.073Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.073Z: Set memory config for host/vim/vmvisor/nfcd: ['min=8', 'max=8', 'minLimit=-1']
+2026-01-10T07:55:20.074Z: Get group ID of host/vim/vmvisor/nfcd
+2026-01-10T07:55:20.074Z: Set cpu config for host/vim/vmvisor/nfcd: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.074Z: Get group ID of host/vim/vmvisor/nfcd
+2026-01-10T07:55:20.074Z: Create host/vim/vmvisor/nfsgssd
+2026-01-10T07:55:20.074Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.074Z: Set memory config for host/vim/vmvisor/nfsgssd: ['min=0', 'max=0', 'minLimit=-1']
+2026-01-10T07:55:20.074Z: Get group ID of host/vim/vmvisor/nfsgssd
+2026-01-10T07:55:20.075Z: Set cpu config for host/vim/vmvisor/nfsgssd: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.075Z: Get group ID of host/vim/vmvisor/nfsgssd
+2026-01-10T07:55:20.075Z: Create host/vim/vmvisor/nicmgmtd
+2026-01-10T07:55:20.075Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.075Z: Set memory config for host/vim/vmvisor/nicmgmtd: ['min=0', 'max=0', 'minLimit=-1']
+2026-01-10T07:55:20.075Z: Get group ID of host/vim/vmvisor/nicmgmtd
+2026-01-10T07:55:20.075Z: Set cpu config for host/vim/vmvisor/nicmgmtd: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.076Z: Get group ID of host/vim/vmvisor/nicmgmtd
+2026-01-10T07:55:20.076Z: Create host/vim/vmvisor/nscd
+2026-01-10T07:55:20.076Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.076Z: Set memory config for host/vim/vmvisor/nscd: ['min=20', 'max=20', 'minLimit=-1']
+2026-01-10T07:55:20.076Z: Get group ID of host/vim/vmvisor/nscd
+2026-01-10T07:55:20.076Z: Set cpu config for host/vim/vmvisor/nscd: ['min=0', 'max=10', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.076Z: Get group ID of host/vim/vmvisor/nscd
+2026-01-10T07:55:20.077Z: Create host/vim/vmvisor/ntpd
+2026-01-10T07:55:20.077Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.077Z: Set memory config for host/vim/vmvisor/ntpd: ['min=15', 'max=15', 'minLimit=-1']
+2026-01-10T07:55:20.077Z: Get group ID of host/vim/vmvisor/ntpd
+2026-01-10T07:55:20.077Z: Set cpu config for host/vim/vmvisor/ntpd: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.077Z: Get group ID of host/vim/vmvisor/ntpd
+2026-01-10T07:55:20.077Z: Create host/vim/vmvisor/osfsd
+2026-01-10T07:55:20.077Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.078Z: Set memory config for host/vim/vmvisor/osfsd: ['min=0', 'max=0', 'minLimit=-1']
+2026-01-10T07:55:20.078Z: Get group ID of host/vim/vmvisor/osfsd
+2026-01-10T07:55:20.078Z: Set cpu config for host/vim/vmvisor/osfsd: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.078Z: Get group ID of host/vim/vmvisor/osfsd
+2026-01-10T07:55:20.078Z: Create host/vim/vmvisor/pcscd
+2026-01-10T07:55:20.078Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.078Z: Set memory config for host/vim/vmvisor/pcscd: ['min=0', 'max=0', 'minLimit=-1']
+2026-01-10T07:55:20.079Z: Get group ID of host/vim/vmvisor/pcscd
+2026-01-10T07:55:20.079Z: Set cpu config for host/vim/vmvisor/pcscd: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.079Z: Get group ID of host/vim/vmvisor/pcscd
+2026-01-10T07:55:20.079Z: Create host/vim/vmvisor/plugins
+2026-01-10T07:55:20.079Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.079Z: Set memory config for host/vim/vmvisor/plugins: ['min=0', 'max=-1', 'minLimit=-1']
+2026-01-10T07:55:20.079Z: Get group ID of host/vim/vmvisor/plugins
+2026-01-10T07:55:20.080Z: Set cpu config for host/vim/vmvisor/plugins: ['min=0', 'max=30', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.080Z: Get group ID of host/vim/vmvisor/plugins
+2026-01-10T07:55:20.080Z: Create host/vim/vmvisor/rabbitmqproxy
+2026-01-10T07:55:20.080Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.080Z: Set memory config for host/vim/vmvisor/rabbitmqproxy: ['min=23', 'max=23', 'minLimit=-1']
+2026-01-10T07:55:20.080Z: Get group ID of host/vim/vmvisor/rabbitmqproxy
+2026-01-10T07:55:20.080Z: Set cpu config for host/vim/vmvisor/rabbitmqproxy: ['min=0', 'max=30', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.081Z: Get group ID of host/vim/vmvisor/rabbitmqproxy
+2026-01-10T07:55:20.081Z: Create host/vim/vmvisor/sensord
+2026-01-10T07:55:20.081Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.081Z: Set memory config for host/vim/vmvisor/sensord: ['min=0', 'max=0', 'minLimit=-1']
+2026-01-10T07:55:20.081Z: Get group ID of host/vim/vmvisor/sensord
+2026-01-10T07:55:20.081Z: Set cpu config for host/vim/vmvisor/sensord: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.081Z: Get group ID of host/vim/vmvisor/sensord
+2026-01-10T07:55:20.081Z: Create host/vim/vmvisor/sfcb
+2026-01-10T07:55:20.082Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.082Z: Set memory config for host/vim/vmvisor/sfcb: ['min=0', 'max=0', 'minLimit=-1']
+2026-01-10T07:55:20.082Z: Get group ID of host/vim/vmvisor/sfcb
+2026-01-10T07:55:20.082Z: Set cpu config for host/vim/vmvisor/sfcb: ['min=0', 'max=30', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.082Z: Get group ID of host/vim/vmvisor/sfcb
+2026-01-10T07:55:20.082Z: Create host/vim/vmvisor/sfcb_aux
+2026-01-10T07:55:20.082Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.083Z: Set memory config for host/vim/vmvisor/sfcb_aux: ['min=0', 'max=0', 'minLimit=-1']
+2026-01-10T07:55:20.083Z: Get group ID of host/vim/vmvisor/sfcb_aux
+2026-01-10T07:55:20.083Z: Set cpu config for host/vim/vmvisor/sfcb_aux: ['min=0', 'max=30', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.083Z: Get group ID of host/vim/vmvisor/sfcb_aux
+2026-01-10T07:55:20.083Z: Create host/vim/vmvisor/sioc
+2026-01-10T07:55:20.083Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.083Z: Set memory config for host/vim/vmvisor/sioc: ['min=56', 'max=56', 'minLimit=-1']
+2026-01-10T07:55:20.084Z: Get group ID of host/vim/vmvisor/sioc
+2026-01-10T07:55:20.084Z: Set cpu config for host/vim/vmvisor/sioc: ['min=0', 'max=30', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.084Z: Get group ID of host/vim/vmvisor/sioc
+2026-01-10T07:55:20.084Z: Create host/vim/vmvisor/slp
+2026-01-10T07:55:20.084Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.084Z: Set memory config for host/vim/vmvisor/slp: ['min=11', 'max=11', 'minLimit=-1']
+2026-01-10T07:55:20.084Z: Get group ID of host/vim/vmvisor/slp
+2026-01-10T07:55:20.085Z: Set cpu config for host/vim/vmvisor/slp: ['min=0', 'max=30', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.085Z: Get group ID of host/vim/vmvisor/slp
+2026-01-10T07:55:20.085Z: Create host/vim/vmvisor/smartd
+2026-01-10T07:55:20.085Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.085Z: Set memory config for host/vim/vmvisor/smartd: ['min=15', 'max=50', 'minLimit=-1']
+2026-01-10T07:55:20.085Z: Get group ID of host/vim/vmvisor/smartd
+2026-01-10T07:55:20.085Z: Set cpu config for host/vim/vmvisor/smartd: ['min=0', 'max=10', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.085Z: Get group ID of host/vim/vmvisor/smartd
+2026-01-10T07:55:20.086Z: Create host/vim/vmvisor/snmpd
+2026-01-10T07:55:20.086Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.086Z: Set memory config for host/vim/vmvisor/snmpd: ['min=0', 'max=0', 'minLimit=-1']
+2026-01-10T07:55:20.086Z: Get group ID of host/vim/vmvisor/snmpd
+2026-01-10T07:55:20.086Z: Set cpu config for host/vim/vmvisor/snmpd: ['min=0', 'max=10', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.086Z: Get group ID of host/vim/vmvisor/snmpd
+2026-01-10T07:55:20.086Z: Create host/vim/vmvisor/swapobjd
+2026-01-10T07:55:20.087Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.087Z: Set memory config for host/vim/vmvisor/swapobjd: ['min=0', 'max=0', 'minLimit=-1']
+2026-01-10T07:55:20.087Z: Get group ID of host/vim/vmvisor/swapobjd
+2026-01-10T07:55:20.087Z: Set cpu config for host/vim/vmvisor/swapobjd: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.087Z: Get group ID of host/vim/vmvisor/swapobjd
+2026-01-10T07:55:20.087Z: Create host/vim/vmvisor/upitd
+2026-01-10T07:55:20.087Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.088Z: Set memory config for host/vim/vmvisor/upitd: ['min=0', 'max=0', 'minLimit=-1']
+2026-01-10T07:55:20.088Z: Get group ID of host/vim/vmvisor/upitd
+2026-01-10T07:55:20.088Z: Set cpu config for host/vim/vmvisor/upitd: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.088Z: Get group ID of host/vim/vmvisor/upitd
+2026-01-10T07:55:20.088Z: Create host/vim/vmvisor/upittraced
+2026-01-10T07:55:20.088Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.088Z: Set memory config for host/vim/vmvisor/upittraced: ['min=0', 'max=0', 'minLimit=-1']
+2026-01-10T07:55:20.089Z: Get group ID of host/vim/vmvisor/upittraced
+2026-01-10T07:55:20.089Z: Set cpu config for host/vim/vmvisor/upittraced: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.089Z: Get group ID of host/vim/vmvisor/upittraced
+2026-01-10T07:55:20.089Z: Create host/vim/vmvisor/usbArbitrator
+2026-01-10T07:55:20.089Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.089Z: Set memory config for host/vim/vmvisor/usbArbitrator: ['min=20', 'max=20', 'minLimit=-1']
+2026-01-10T07:55:20.089Z: Get group ID of host/vim/vmvisor/usbArbitrator
+2026-01-10T07:55:20.090Z: Set cpu config for host/vim/vmvisor/usbArbitrator: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.090Z: Get group ID of host/vim/vmvisor/usbArbitrator
+2026-01-10T07:55:20.090Z: Create host/vim/vmvisor/uwdaemons
+2026-01-10T07:55:20.090Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.090Z: Set memory config for host/vim/vmvisor/uwdaemons: ['min=0', 'max=-1', 'minLimit=-1']
+2026-01-10T07:55:20.090Z: Get group ID of host/vim/vmvisor/uwdaemons
+2026-01-10T07:55:20.090Z: Set cpu config for host/vim/vmvisor/uwdaemons: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.090Z: Get group ID of host/vim/vmvisor/uwdaemons
+2026-01-10T07:55:20.091Z: Create host/vim/vmvisor/vmfstraced
+2026-01-10T07:55:20.091Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.091Z: Set memory config for host/vim/vmvisor/vmfstraced: ['min=0', 'max=0', 'minLimit=-1']
+2026-01-10T07:55:20.091Z: Get group ID of host/vim/vmvisor/vmfstraced
+2026-01-10T07:55:20.091Z: Set cpu config for host/vim/vmvisor/vmfstraced: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.091Z: Get group ID of host/vim/vmvisor/vmfstraced
+2026-01-10T07:55:20.091Z: Create host/vim/vmvisor/vmkdevmgr
+2026-01-10T07:55:20.092Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.092Z: Set memory config for host/vim/vmvisor/vmkdevmgr: ['min=8', 'max=82', 'minLimit=-1']
+2026-01-10T07:55:20.092Z: Get group ID of host/vim/vmvisor/vmkdevmgr
+2026-01-10T07:55:20.092Z: Set cpu config for host/vim/vmvisor/vmkdevmgr: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.092Z: Get group ID of host/vim/vmvisor/vmkdevmgr
+2026-01-10T07:55:20.092Z: Create host/vim/vmvisor/vmkeventd
+2026-01-10T07:55:20.092Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.093Z: Set memory config for host/vim/vmvisor/vmkeventd: ['min=25', 'max=92', 'minLimit=-1']
+2026-01-10T07:55:20.093Z: Get group ID of host/vim/vmvisor/vmkeventd
+2026-01-10T07:55:20.093Z: Set cpu config for host/vim/vmvisor/vmkeventd: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.093Z: Get group ID of host/vim/vmvisor/vmkeventd
+2026-01-10T07:55:20.093Z: Create host/vim/vmvisor/vmkiscsid
+2026-01-10T07:55:20.093Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.093Z: Set memory config for host/vim/vmvisor/vmkiscsid: ['min=0', 'max=0', 'minLimit=-1']
+2026-01-10T07:55:20.093Z: Get group ID of host/vim/vmvisor/vmkiscsid
+2026-01-10T07:55:20.094Z: Set cpu config for host/vim/vmvisor/vmkiscsid: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.094Z: Get group ID of host/vim/vmvisor/vmkiscsid
+2026-01-10T07:55:20.094Z: Create host/vim/vmvisor/vmsupport
+2026-01-10T07:55:20.094Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.094Z: Set memory config for host/vim/vmvisor/vmsupport: ['min=0', 'max=1500', 'minLimit=-1']
+2026-01-10T07:55:20.094Z: Get group ID of host/vim/vmvisor/vmsupport
+2026-01-10T07:55:20.094Z: Set cpu config for host/vim/vmvisor/vmsupport: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.095Z: Get group ID of host/vim/vmvisor/vmsupport
+2026-01-10T07:55:20.095Z: Create host/vim/vmvisor/vobd
+2026-01-10T07:55:20.095Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.095Z: Set memory config for host/vim/vmvisor/vobd: ['min=28', 'max=28', 'minLimit=-1']
+2026-01-10T07:55:20.095Z: Get group ID of host/vim/vmvisor/vobd
+2026-01-10T07:55:20.095Z: Set cpu config for host/vim/vmvisor/vobd: ['min=0', 'max=30', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.095Z: Get group ID of host/vim/vmvisor/vobd
+2026-01-10T07:55:20.096Z: Create host/vim/vmvisor/vpxa
+2026-01-10T07:55:20.096Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.096Z: Set memory config for host/vim/vmvisor/vpxa: ['min=502', 'max=502', 'minLimit=-1']
+2026-01-10T07:55:20.096Z: Get group ID of host/vim/vmvisor/vpxa
+2026-01-10T07:55:20.096Z: Set cpu config for host/vim/vmvisor/vpxa: ['min=28', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.096Z: Get group ID of host/vim/vmvisor/vpxa
+2026-01-10T07:55:20.096Z: Create host/vim/vmvisor/vvold
+2026-01-10T07:55:20.097Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.097Z: Set memory config for host/vim/vmvisor/vvold: ['min=0', 'max=0', 'minLimit=-1']
+2026-01-10T07:55:20.097Z: Get group ID of host/vim/vmvisor/vvold
+2026-01-10T07:55:20.097Z: Set cpu config for host/vim/vmvisor/vvold: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.097Z: Get group ID of host/vim/vmvisor/vvold
+2026-01-10T07:55:20.097Z: Create host/vim/vmvisor/vvoltraced
+2026-01-10T07:55:20.097Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.098Z: Set memory config for host/vim/vmvisor/vvoltraced: ['min=0', 'max=0', 'minLimit=-1']
+2026-01-10T07:55:20.098Z: Get group ID of host/vim/vmvisor/vvoltraced
+2026-01-10T07:55:20.098Z: Set cpu config for host/vim/vmvisor/vvoltraced: ['min=0', 'max=-1', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.098Z: Get group ID of host/vim/vmvisor/vvoltraced
+2026-01-10T07:55:20.098Z: Create host/vim/vmvisor/wsman
+2026-01-10T07:55:20.098Z: Get group ID of host/vim/vmvisor
+2026-01-10T07:55:20.098Z: Set memory config for host/vim/vmvisor/wsman: ['min=0', 'max=0', 'minLimit=-1']
+2026-01-10T07:55:20.098Z: Get group ID of host/vim/vmvisor/wsman
+2026-01-10T07:55:20.099Z: Set cpu config for host/vim/vmvisor/wsman: ['min=0', 'max=30', 'minLimit=-1', 'shares=1000']
+2026-01-10T07:55:20.099Z: Get group ID of host/vim/vmvisor/wsman
+2026-01-10T07:55:20.137Z: Reparent host/vim/vmvisor/init.2097557 to host/vim/vmvisor/init
+2026-01-10T07:55:20.137Z: Get group ID of host/vim/vmvisor/init.2097557
+2026-01-10T07:55:20.137Z: Get group ID of host/vim/vmvisor/init
+2026-01-10T07:55:20.138Z: Set cpu config for host/vim: ['min=174']
+2026-01-10T07:55:20.138Z: Get group ID of host/vim
+2026-01-10T07:55:20.138Z: init took 0.11898112297058105 seconds
+2026-01-10T07:55:38.999Z: Execute ['switchToNonSwapMode']
+2026-01-10T07:55:39.028Z: Set memory config for host/vim/vmvisor/hostd: ['min=954']
+2026-01-10T07:55:39.028Z: Get group ID of host/vim/vmvisor/hostd
+2026-01-10T07:55:39.028Z: host/vim/vmvisor/hostd now in non-swap mode
+2026-01-10T07:55:39.028Z: Set memory config for host/vim/vmvisor/vpxa: ['min=502']
+2026-01-10T07:55:39.028Z: Get group ID of host/vim/vmvisor/vpxa
+2026-01-10T07:55:39.029Z: host/vim/vmvisor/vpxa now in non-swap mode
+2026-01-10T07:55:39.029Z: switchToNonSwapMode took 0.029867172241210938 seconds
+2026-01-10T07:55:48.995Z: Execute ['increaseRPMemMaxSize', 'host/iofilters/iofiltervpd', '25']
+2026-01-10T07:55:48.995Z: Increase resource pool size for host/iofilters/iofiltervpd: ['min=25', 'max=25']
+2026-01-10T07:55:48.995Z: Get group ID of host/iofilters/iofiltervpd
+2026-01-10T07:55:48.996Z: increaseRPMemMaxSize took 0.0003833770751953125 seconds
+2026-01-10T07:55:51.479Z: Execute ['setRPMemMaxSize', 'host/vim/vmvisor/swapobjd', '16']
+2026-01-10T07:55:51.480Z: Set memory config for host/vim/vmvisor/swapobjd: ['min=16', 'max=16']
+2026-01-10T07:55:51.480Z: Get group ID of host/vim/vmvisor/swapobjd
+2026-01-10T07:55:51.480Z: setRPMemMaxSize took 0.00038456916809082031 seconds
+2026-01-10T07:55:52.103Z: Execute ['setRPMemMaxSize', 'host/vim/vmvisor/vvold', '200']
+2026-01-10T07:55:52.103Z: Set memory config for host/vim/vmvisor/vvold: ['min=200', 'max=200']
+2026-01-10T07:55:52.103Z: Get group ID of host/vim/vmvisor/vvold
+2026-01-10T07:55:52.104Z: setRPMemMaxSize took 0.00038504600524902344 seconds
+2026-01-10T07:55:53.401Z: Execute ['setRPMemMaxSize', 'host/vim/vmvisor/vvold', '0']
+2026-01-10T07:55:53.401Z: Set memory config for host/vim/vmvisor/vvold: ['min=0', 'max=0']
+2026-01-10T07:55:53.401Z: Get group ID of host/vim/vmvisor/vvold
+2026-01-10T07:55:53.401Z: setRPMemMaxSize took 0.0003948211669921875 seconds
+2026-01-10T07:55:55.534Z: Execute ['setRPMemMaxSize', 'host/vim/vmvisor/sensord', '10']
+2026-01-10T07:55:55.534Z: Set memory config for host/vim/vmvisor/sensord: ['min=10', 'max=10']
+2026-01-10T07:55:55.534Z: Get group ID of host/vim/vmvisor/sensord
+2026-01-10T07:55:55.534Z: setRPMemMaxSize took 0.00039625167846679688 seconds
+2026-01-10T07:55:56.579Z: Execute ['setRPMemMaxSize', 'rabbitmqproxy', '255']
+2026-01-10T07:55:56.579Z: Set memory config for host/vim/vmvisor/rabbitmqproxy: ['min=255', 'max=255']
+2026-01-10T07:55:56.579Z: Get group ID of host/vim/vmvisor/rabbitmqproxy
+2026-01-10T07:55:56.580Z: setRPMemMaxSize took 0.00041723251342773438 seconds
+2026-01-10T07:55:56.923Z: Execute ['setRPMemMaxSize', 'rabbitmqproxy', '0']
+2026-01-10T07:55:56.923Z: Set memory config for host/vim/vmvisor/rabbitmqproxy: ['min=0', 'max=0']
+2026-01-10T07:55:56.923Z: Get group ID of host/vim/vmvisor/rabbitmqproxy
+2026-01-10T07:55:56.923Z: setRPMemMaxSize took 0.00040102005004882812 seconds
+2026-01-10T07:55:57.987Z: Execute ['setRPMemMaxSize', 'host/vim/vmvisor/nicmgmtd', '15']
+2026-01-10T07:55:57.987Z: Set memory config for host/vim/vmvisor/nicmgmtd: ['min=15', 'max=15']
+2026-01-10T07:55:57.988Z: Get group ID of host/vim/vmvisor/nicmgmtd
+2026-01-10T07:55:57.988Z: setRPMemMaxSize took 0.00043153762817382812 seconds

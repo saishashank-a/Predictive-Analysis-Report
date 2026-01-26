@@ -1,0 +1,22 @@
+VMFS-6.82 (Raw Major Version: 24) file system spanning 1 partitions.
+File system label (if any): datastore1
+Mode: public
+Capacity 5385888989184 (5136384 file blocks * 1048576), 4515661086720 (4306470 blocks) avail, max supported file size 70368744177664
+Volume Creation Time: Mon Jan  1 01:09:34 2001
+Files (max/free): 16384/15844
+Ptr Blocks (max/free): 0/0
+Sub Blocks (max/free): 16384/15804
+Secondary Ptr Blocks (max/free): 256/255
+File Blocks (overcommit/used/overcommit %): 0/829914/0
+Ptr Blocks  (overcommit/used/overcommit %): 0/0/0
+Sub Blocks  (overcommit/used/overcommit %): 0/580/0
+Large File Blocks (total/used/file block clusters): 10032/101/1536
+Volume Metadata size: 1589510144
+Disk Block Size: 512/512/0
+UUID: 3a4fd8ce-fc4375c4-effb-5cf3fce846f8
+Logical device: 3a4fd8ce-f2fb6b00-6359-5cf3fce846f8
+Partitions spanned (on "lvm"):
+	naa.600605b004213bc001e293503af49afb:3
+Is Native Snapshot Capable: NO
+OBJLIB-LIB: ObjLib cleanup done.
+WORKER: asyncOps=0 maxActiveOps=0 maxPending=0 maxCompleted=0

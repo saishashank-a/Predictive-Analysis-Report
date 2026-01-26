@@ -1,0 +1,10 @@
+% Manifest name: usb
+% Manifest group: Hardware
+% Manifest default: Enabled
+% Manifest tag: hardware
+# action Options file/command
+
+run IGNORE_ERROR,TIMEOUT=10 lsusb
+run IGNORE_ERROR,TIMEOUT=10 lsusb -t
+run IGNORE_ERROR,TIMEOUT=10 lsusb -v
+safecopy IGNORE_MISSING /vmfs/devices/char/vmkdriver/usbdevices

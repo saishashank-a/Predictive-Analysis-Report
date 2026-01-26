@@ -1,0 +1,9 @@
+GITHASH:0
+CHANGE:9482690
+BRANCH:vsphere67ep23
+UID:201
+VMTREE:/build/mts/release/bora-19195723/bora
+VMBLD:release
+BUILDTAG:gobuild
+BUILDNUMBER:19195723
+STAGEPATH:build/esx/release

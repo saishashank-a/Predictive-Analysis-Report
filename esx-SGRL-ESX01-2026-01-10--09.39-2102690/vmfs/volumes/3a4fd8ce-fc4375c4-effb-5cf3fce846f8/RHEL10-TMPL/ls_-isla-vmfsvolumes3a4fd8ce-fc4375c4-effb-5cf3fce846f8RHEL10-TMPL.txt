@@ -1,0 +1,12 @@
+total 6272
+41946884    128 drwxr-xr-x    1 root     root         73728 Sep 12 18:30 .
+      4   1024 drwxr-xr-t    1 root     root         86016 Jan 10 09:35 ..
+    644      0 -rw-r--r--    1 root     root           241 Sep 12 17:28 RHEL10-TMPL-739f8086.hlog
+8389252      0 -rw-------    1 root     root     161061273600 Sep 12 17:28 RHEL10-TMPL-flat.vmdk
+41943684   1024 -rw-------    1 root     root        270840 Sep 12 18:30 RHEL10-TMPL.nvram
+12583556      0 -rw-------    1 root     root           479 Sep 12 17:28 RHEL10-TMPL.vmdk
+16777860      0 -rw-r--r--    1 root     root             0 Sep 12 17:28 RHEL10-TMPL.vmsd
+4194948      0 -rwxr-xr-x    1 root     root          2845 Sep 12 18:30 RHEL10-TMPL.vmx
+33555076   1024 -rw-r--r--    1 root     root        184440 Sep 12 17:29 vmware-1.log
+58720900   1024 -rw-r--r--    1 root     root        276139 Sep 12 17:34 vmware-2.log
+75498116   2048 -rw-r--r--    1 root     root       1219332 Sep 12 18:30 vmware.log

@@ -1,0 +1,95 @@
+% Manifest name: VSAN
+% Manifest group: Storage
+% Manifest default: Enabled
+% Manifest tag: storage,vsan
+# action Options file/command
+
+# Force vsantraced to flush traces to disk, and copy them.
+# This manifest includes all but the high-volume traces.  Overall
+# space load should be:
+#   urgent traces: 100MB
+#   observer traces: 50MB
+#   clom traces: 64MB
+run TIMEOUT=10,IGNORE_ERROR /etc/init.d/vsantraced flush
+copy TIMEOUT=10,IGNORE_MISSING /var/log/vsantraces/vsantracesUrgent.index
+copy TIMEOUT=10,IGNORE_MISSING /var/log/vsantraces/vsantracesUrgent--*.gz
+copy TIMEOUT=10,IGNORE_MISSING /var/log/vsantraces/vsantracesDOMObj.index
+copy TIMEOUT=10,IGNORE_MISSING /var/log/vsantraces/vsantracesDOMObj--*.gz
+copy TIMEOUT=10,IGNORE_MISSING /var/log/vsantraces/vsanObserver--*.gz
+copy TIMEOUT=10,IGNORE_MISSING /var/log/vsantraces/vsantracesClom.index
+copy TIMEOUT=10,IGNORE_MISSING /var/log/vsantraces/vsantracesClom--*.gz
+# Sometimes clom traces are not redirected.  Try /scratch as a backup.
+copy TIMEOUT=10,IGNORE_MISSING /scratch/vsantraces/vsantracesClom--*.gz
+copy TIMEOUT=10,IGNORE_MISSING /var/log/vsantraces/vsantracesLSOM.index
+copy TIMEOUT=10,IGNORE_MISSING /var/log/vsantraces/vsantracesLSOM--*.gz
+copy TIMEOUT=10,IGNORE_MISSING /var/log/vsantraces/vsantracesUpitBE.index
+copy TIMEOUT=10,IGNORE_MISSING /var/log/vsantraces/vsantracesUpitBE--*.gz
+# copy epd database
+copy TIMEOUT=10,IGNORE_MISSING /scratch/epd-store.db
+copy TIMEOUT=10,IGNORE_MISSING /locker/epd/epd-store.db
+copy TIMEOUT=10,IGNORE_MISSING /epd/epd-store.db
+
+# Get some esxcli info.
+# Cluster info:
+run TIMEOUT=10,IGNORE_ERROR /sbin/localcli vsan cluster get
+
+# Network info:
+run TIMEOUT=10,IGNORE_ERROR /sbin/localcli vsan network list
+
+# Storage info:
+run TIMEOUT=30,IGNORE_ERROR /sbin/localcli vsan storage list
+
+# unicast neighbor info:
+run TIMEOUT=10,IGNORE_ERROR /sbin/localcli vsan cluster unicastagent list
+
+# pci info:
+run TIMEOUT=10,IGNORE_ERROR /sbin/localcli hardware pci list
+
+# Perfomance service status:
+run TIMEOUT=10,IGNORE_ERROR /sbin/localcli vsan perf status get
+
+# Debug info:
+run TIMEOUT=10,IGNORE_ERROR /sbin/localcli vsan debug controller list
+run TIMEOUT=10,IGNORE_ERROR /sbin/localcli vsan debug disk list
+run TIMEOUT=10,IGNORE_ERROR /sbin/localcli vsan debug limit get
+run TIMEOUT=10,IGNORE_ERROR /sbin/localcli vsan debug resync summary get
+run TIMEOUT=10,RELOCATE=/commands/localcli_vsan-debug-resync-list.txt,IGNORE_ERROR python ++group=vmsupport /usr/lib/vmware/vsan/esxcli/esxcli_vsan_debug.pyc sync.list --pyprint
+run TIMEOUT=10,IGNORE_ERROR /sbin/localcli vsan debug memory list
+# Object debug info collecting could be time consuming when there is a large
+# number of objects.
+run TIMEOUT=10,RELOCATE=/commands/localcli_vsan-debug-object-health-summary.txt,IGNORE_ERROR /sbin/localcli ++group=vmsupport vsan debug object health summary get
+run TIMEOUT=360,RELOCATE=/commands/localcli_vsan-debug-object-overview.txt,IGNORE_ERROR python ++group=vmsupport /usr/lib/vmware/vsan/esxcli/esxcli_vsan_debug.pyc objects.overview --pyprint --vmsupport
+run TIMEOUT=360,RELOCATE=/commands/localcli_vsan-debug-object-list.txt,IGNORE_ERROR python ++group=vmsupport /usr/lib/vmware/vsan/esxcli/esxcli_vsan_debug.pyc objects.info --pyprint --vmsupport
+
+# Disk query info:
+run TIMEOUT=30,IGNORE_ERROR /sbin/vdq -q -H
+
+# CMMDS Directory content.
+run TIMEOUT=10,IGNORE_ERROR /sbin/cmmds-tool find -f python
+
+# copy out the periodic CMMDS directory dump in python dictionary format.
+# This is slightly different than the dump above as this might not have
+# consistent/accurate information right at the time the support bundle
+# is created as these dumps are collected periodically and one might be
+# looking at the dump that was collected about 20 seconds prior to when
+# the support bundle was collected.
+run TIMEOUT=10,IGNORE_ERROR /sbin/cmmds-tool -f json readdump -p -d /scratch/log/cmmds.dump
+run TIMEOUT=10,IGNORE_ERROR /sbin/cmmds-tool -f json readdump -p -d /scratch/log/cmmds.dump.backup
+
+# Some interesting VSI information.
+run TIMEOUT=10,IGNORE_ERROR /sbin/vsish -e get /vmkModules/tracing/stats
+
+#
+# Tracing and cmmds analysis scripts for out of the box trace and directory inspection
+#
+copy TIMEOUT=10 /usr/lib/vmware/vsan/bin/vsanTraceReader.py
+copy TIMEOUT=10 /usr/lib/vmware/vsan/bin/vsanTraceReader
+copy TIMEOUT=10 /lib64/python3.*/site-packages/vmware/__init__.py*
+copy TIMEOUT=10 /lib64/python3.*/site-packages/vmware/vsan/*.py*
+
+#
+# CLOM
+#
+run TIMEOUT=10,IGNORE_ERROR /usr/lib/vmware/vsan/bin/clom-tool fitness-stats-get
+run TIMEOUT=10,IGNORE_ERROR /usr/lib/vmware/vsan/bin/clom-tool fitness-config-get
+run TIMEOUT=10,IGNORE_ERROR /usr/lib/vmware/vsan/bin/clom-tool stats

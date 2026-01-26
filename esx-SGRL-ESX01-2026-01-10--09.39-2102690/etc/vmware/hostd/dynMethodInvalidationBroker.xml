@@ -1,0 +1,238 @@
+<!--
+   Configuration file supplying required mapping of esxcli to channel messages
+   for state invalidation purposes. If unspecified the ignoredMethods defaults
+   to the values shown below. Each rule should contain one or more
+   methodInvalidation elements.
+
+   <rule id="n">
+      <typePrefix>vim.EsxCLI.system.coredump</typePrefix>
+      <ignoredMethods>
+         <methodPrefix id="1">list</methodPrefix>
+         <methodPrefix id="2">get</methodPrefix>
+      </ignoredMethods>
+      <methodInvalidation id="1">
+         <methodPrefix></methodPrefix>
+         <channelMsg>/hostd/legacy/dumppart</channelMsg>
+      </methodInvalidation>
+      ...
+   </rule>
+-->
+
+<dynamicMethodInvalidationBrokerConfig>
+   <rule id="1">
+      <typePrefix>vim.EsxCLI.system.coredump</typePrefix>
+      <methodInvalidation id="1">
+         <channelMsg>/hostd/legacy/dumppart</channelMsg>
+      </methodInvalidation>
+   </rule>
+   <rule id="2">
+      <typePrefix>vim.EsxCLI.network.firewall</typePrefix>
+      <methodInvalidation id="1">
+         <channelMsg>/hostd/legacy/firewall</channelMsg>
+      </methodInvalidation>
+   </rule>
+   <rule id="3">
+      <typePrefix>vim.EsxCLI.system.syslog.config</typePrefix>
+      <methodInvalidation id="1">
+         <channelMsg>/hostd/legacy/syslog</channelMsg>
+      </methodInvalidation>
+   </rule>
+   <rule id="4">
+      <typePrefix>vim.EsxCLI.system.settings.advanced</typePrefix>
+      <methodInvalidation id="1">
+         <channelMsg>/hostd/legacy/system/settings/advanced</channelMsg>
+      </methodInvalidation>
+   </rule>
+   <rule id="5">
+      <typePrefix>vim.EsxCLI.system.settings.kernel</typePrefix>
+      <methodInvalidation id="1">
+         <channelMsg>/hostd/legacy/system/settings/kernel</channelMsg>
+      </methodInvalidation>
+   </rule>
+   <rule id="6">
+      <typePrefix>vim.EsxCLI.network.ip</typePrefix>
+      <methodInvalidation id="1">
+         <channelMsg>/hostd/legacy/network</channelMsg>
+      </methodInvalidation>
+   </rule>
+   <rule id="7">
+      <typePrefix>vim.EsxCLI.network.vswitch.standard</typePrefix>
+      <methodInvalidation id="1">
+         <channelMsg>/hostd/legacy/network</channelMsg>
+      </methodInvalidation>
+   </rule>
+   <rule id="8">
+      <typePrefix>vim.EsxCLI.network.nic</typePrefix>
+      <methodInvalidation id="1">
+         <channelMsg>/hostd/legacy/network</channelMsg>
+      </methodInvalidation>
+   </rule>
+   <rule id="9">
+      <typePrefix>vim.EsxCLI.system.hostname</typePrefix>
+      <methodInvalidation id="1">
+         <channelMsg>/hostd/legacy/network</channelMsg>
+      </methodInvalidation>
+   </rule>
+   <rule id="10">
+      <typePrefix>vim.EsxCLI.iscsi</typePrefix>
+      <methodInvalidation id="1">
+         <channelMsg>/hostd/legacy/storage/iscsi</channelMsg>
+      </methodInvalidation>
+   </rule>
+   <rule id="11">
+      <typePrefix>vim.EsxCLI.fcoe</typePrefix>
+      <methodInvalidation id="1">
+         <channelMsg>/hostd/legacy/storage/fcoe</channelMsg>
+      </methodInvalidation>
+   </rule>
+   <rule id="12">
+      <typePrefix>vim.EsxCLI.storage.core</typePrefix>
+      <methodInvalidation id="1">
+         <channelMsg>/hostd/legacy/storage</channelMsg>
+      </methodInvalidation>
+   </rule>
+   <rule id="13">
+      <typePrefix>vim.EsxCLI.storage.filesystem</typePrefix>
+      <methodInvalidation id="1">
+         <channelMsg>/hostd/legacy/storage/filesystem</channelMsg>
+      </methodInvalidation>
+   </rule>
+   <rule id="14">
+      <typePrefix>vim.EsxCLI.storage.nmp</typePrefix>
+      <methodInvalidation id="1">
+         <channelMsg>/hostd/legacy/storage/nmp</channelMsg>
+      </methodInvalidation>
+   </rule>
+   <rule id="15">
+      <typePrefix>vim.EsxCLI.iscsi.software</typePrefix>
+      <methodInvalidation id="1">
+         <channelMsg>/hostd/legacy/storage/swiscsi</channelMsg>
+      </methodInvalidation>
+   </rule>
+   <rule id="16">
+      <typePrefix>vim.EsxCLI.storage.vmfs</typePrefix>
+      <methodInvalidation id="1">
+         <channelMsg>/hostd/legacy/storage</channelMsg>
+      </methodInvalidation>
+   </rule>
+   <rule id="17">
+      <typePrefix>vim.EsxCLI.storage.nfs</typePrefix>
+      <methodInvalidation id="1">
+         <methodPrefix>remove</methodPrefix>
+         <channelMsg>/hostd/legacy/storage/nfs</channelMsg>
+      </methodInvalidation>
+      <methodInvalidation id="2">
+         <channelMsg>/hostd/legacy/firewall</channelMsg>
+      </methodInvalidation>
+   </rule>
+   <rule id="18">
+      <typePrefix>vim.host.DatastoreSystem</typePrefix>
+      <methodInvalidation id="1">
+         <methodPrefix>createNasDatastore</methodPrefix>
+         <channelMsg>/hostd/legacy/firewall</channelMsg>
+      </methodInvalidation>
+      <methodInvalidation id="2">
+         <methodPrefix>removeDatastore</methodPrefix>
+         <channelMsg>/hostd/legacy/firewall</channelMsg>
+      </methodInvalidation>
+   </rule>
+   <rule id="19">
+      <typePrefix>vim.EsxCLI.system.welcomemsg</typePrefix>
+      <methodInvalidation id="1">
+         <channelMsg>/hostd/legacy/welcomemsg</channelMsg>
+      </methodInvalidation>
+   </rule>
+   <rule id="20">
+      <typePrefix>vim.EsxCLI.hardware.cpu.global</typePrefix>
+      <methodInvalidation id="1">
+         <channelMsg>/hostd/legacy/hardware/cpu</channelMsg>
+      </methodInvalidation>
+   </rule>
+   <rule id="21">
+      <typePrefix>vim.profile.host.profileEngine.HostProfileManager</typePrefix>
+      <methodInvalidation id="1">
+         <methodPrefix>applyHostConfig</methodPrefix>
+         <channelMsg>/hostd/legacy/dumppart</channelMsg>
+      </methodInvalidation>
+      <methodInvalidation id="2">
+         <methodPrefix>applyHostConfig</methodPrefix>
+         <channelMsg>/hostd/legacy/firewall</channelMsg>
+      </methodInvalidation>
+      <methodInvalidation id="3">
+         <methodPrefix>applyHostConfig</methodPrefix>
+         <channelMsg>/hostd/legacy/syslog</channelMsg>
+      </methodInvalidation>
+      <methodInvalidation id="4">
+         <methodPrefix>applyHostConfig</methodPrefix>
+         <channelMsg>/hostd/legacy/system/settings/advanced</channelMsg>
+      </methodInvalidation>
+      <methodInvalidation id="5">
+         <methodPrefix>applyHostConfig</methodPrefix>
+         <channelMsg>/hostd/legacy/system/settings/kernel</channelMsg>
+      </methodInvalidation>
+      <methodInvalidation id="6">
+         <methodPrefix>applyHostConfig</methodPrefix>
+         <channelMsg>/hostd/legacy/network</channelMsg>
+      </methodInvalidation>
+      <methodInvalidation id="7">
+         <methodPrefix>applyHostConfig</methodPrefix>
+         <channelMsg>/hostd/legacy/storage</channelMsg>
+      </methodInvalidation>
+      <methodInvalidation id="8">
+         <methodPrefix>applyHostConfig</methodPrefix>
+         <channelMsg>/hostd/legacy/rm</channelMsg>
+      </methodInvalidation>
+      <methodInvalidation id="9">
+         <methodPrefix>applyHostConfig</methodPrefix>
+         <channelMsg>/hostd/legacy/welcomemsg</channelMsg>
+      </methodInvalidation>
+      <methodInvalidation id="10">
+         <methodPrefix>applyHostConfig</methodPrefix>
+         <channelMsg>/hostd/legacy/hardware/cpu</channelMsg>
+      </methodInvalidation>
+      <methodInvalidation id="11">
+         <methodPrefix>applyHostConfig</methodPrefix>
+         <channelMsg>/hostd/legacy/hostCacheConfig</channelMsg>
+      </methodInvalidation>
+      <methodInvalidation id="12">
+         <channelMsg>/hostd/legacy/sched/swap/system</channelMsg>
+      </methodInvalidation>
+   </rule>
+   <rule id="22">
+      <typePrefix>vim.EsxCLI.system.snmp</typePrefix>
+      <methodInvalidation id="1">
+         <channelMsg>/host/snmpd</channelMsg>
+      </methodInvalidation>
+   </rule>
+   <rule id="23">
+      <typePrefix>vim.EsxCLI.sched.swap.system</typePrefix>
+      <methodInvalidation id="1">
+         <channelMsg>/hostd/legacy/sched/swap/system</channelMsg>
+      </methodInvalidation>
+   </rule>
+   <rule id="24">
+      <typePrefix>vim.EsxCLI.vsan</typePrefix>
+      <methodInvalidation id="1">
+         <channelMsg>/hostd/legacy/vsan</channelMsg>
+      </methodInvalidation>
+   </rule>
+   <rule id="25">
+      <typePrefix>vim.EsxCLI.graphics.host</typePrefix>
+      <methodInvalidation id="1">
+         <channelMsg>/hostd/legacy/graphics/host</channelMsg>
+      </methodInvalidation>
+   </rule>
+   <rule id="26">
+      <typePrefix>vim.EsxCLI.hardware.power.policy</typePrefix>
+      <methodInvalidation id="1">
+         <channelMsg>/hostd/legacy/hardware/power/policy</channelMsg>
+      </methodInvalidation>
+   </rule>
+   <rule id="27">
+      <typePrefix>vim.EsxCLI.system.wbem</typePrefix>
+      <methodInvalidation id="1">
+         <channelMsg>/host/snmpd</channelMsg>
+      </methodInvalidation>
+   </rule>
+
+</dynamicMethodInvalidationBrokerConfig>

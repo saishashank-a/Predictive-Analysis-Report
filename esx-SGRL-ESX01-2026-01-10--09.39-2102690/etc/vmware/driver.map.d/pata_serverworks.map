@@ -1,0 +1,6 @@
+regtype=linux,bus=pci,id=1166:0211 0000:0000,driver=pata_serverworks,class=storage
+regtype=linux,bus=pci,id=1166:0212 0000:0000,driver=pata_serverworks,class=storage
+regtype=linux,bus=pci,id=1166:0213 0000:0000,driver=pata_serverworks,class=storage
+regtype=linux,bus=pci,id=1166:0214 0000:0000,driver=pata_serverworks,class=storage
+regtype=linux,bus=pci,id=1166:0215 0000:0000,driver=pata_serverworks,class=storage
+regtype=linux,bus=pci,id=1166:0217 0000:0000,driver=pata_serverworks,class=storage

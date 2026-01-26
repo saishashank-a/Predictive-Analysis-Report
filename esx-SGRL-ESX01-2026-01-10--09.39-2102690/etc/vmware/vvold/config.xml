@@ -1,0 +1,52 @@
+<config>
+  <log>
+    <!-- default log level -->
+    <level>info</level>
+    <!-- default number of log files to rotate amongst -->
+    <maxFileNum>50</maxFileNum>
+    <!-- default size(in bytes) of each log file before rolling over to next -->
+    <maxFileSize>1048576</maxFileSize>
+    <memoryLevel>trivia</memoryLevel>
+    <!-- controls whether logger sends its output to console also -->
+    <outputToConsole>false</outputToConsole>
+    <!-- If true, log to files on disk -->
+    <outputToFiles>false</outputToFiles>
+    <!-- If true, logs to syslog -->
+    <outputToSyslog>true</outputToSyslog>
+    <!-- default sys log level -->
+    <syslogLevel>info</syslogLevel>
+    <name>vvold</name>
+    <!-- syslog configuration.  Only used if outputToSyslog is true. -->
+    <syslog>
+      <!-- syslog facility to use when logging -->
+      <facility>local4</facility>
+      <!-- syslog identifier to use when logging -->
+      <ident>VVold</ident>
+      <!-- The section header contents are placed in this file at startup.
+           When vmsyslogd rotates the vvold log file, it logs the content of this
+           file to syslog. This is being done so that we don't lose context on log
+           rotations.
+           IMPORTANT: Value needs to match that in onrotate entry in
+           vmsyslog.d/vvold.conf
+      -->
+      <logHeaderFile>/var/run/vmware/vvoldLogHeader.txt</logHeaderFile>
+    </syslog>
+  </log>
+  <vmacore>
+    <!-- default thread pool configuration for Posix impl -->
+    <threadPool>
+      <!-- Minimum number of IO threads -->
+      <IoMin>2</IoMin>
+      <!-- Maximum number of IO threads -->
+      <IoMax>22</IoMax>
+      <!-- Minimum number of worker threads -->
+      <TaskMin>2</TaskMin>
+      <!-- Maximum number of worker threads -->
+      <TaskMax>52</TaskMax>
+      <!-- Thread Name prefix. This adds vvold- prefix to worker thread name -->
+      <threadNamePrefix>vvold</threadNamePrefix>
+    </threadPool>
+  </vmacore>
+  <!-- working directory  -->
+  <workingDir>/var/log/vmware</workingDir>
+</config>

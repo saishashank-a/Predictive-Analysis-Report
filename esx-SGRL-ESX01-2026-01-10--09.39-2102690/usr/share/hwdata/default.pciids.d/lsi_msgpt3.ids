@@ -1,0 +1,41 @@
+#
+# This file is mechanically generated.  Any changes you make
+# manually will be lost at the next build.
+#
+# Please edit <driver>_devices.py file for permanent changes.
+#
+# Vendors, devices and subsystems.
+#
+# Syntax (initial indentation must be done with TAB characters):
+#
+# vendor  vendor_name
+#       device  device_name                            <-- single TAB
+#               subvendor subdevice  subsystem_name    <-- two TABs
+
+1000  Avago (LSI Logic)
+	0090  Fusion-MPT 12GSAS SAS3108_1 PCI-Express
+		1028 1fde  Dell FD33xS HBA
+		1028 1fe2  Dell FD33xD HBA
+	0091  Fusion-MPT 12GSAS SAS3108_2 PCI-Express
+	0094  Fusion-MPT 12GSAS SAS3108_5 PCI-Express
+	0095  Fusion-MPT 12GSAS SAS3108_6 PCI-Express
+	0096  Fusion-MPT 12GSAS SAS3004 PCI-Express
+	0097  Fusion-MPT 12GSAS SAS3008 PCI-Express
+		1028 0619  Dell SAS3008 HBA
+		1028 1f45  Dell HBA330 Adapter
+		1028 1f46  Dell 12Gbps SAS HBA external
+		1028 1f53  Dell HBA330 Mini
+		1028 1fd2  Dell HBA330 MX
+		1028 1fd3  Dell HBA330 MMZ
+		1137 0154  Cisco 9300-8i 12G SAS HBA
+	00c0  Fusion-MPT 12GSAS SAS3324_1 PCI-Express
+	00c1  Fusion-MPT 12GSAS SAS3324_2 PCI-Express
+	00c2  Fusion-MPT 12GSAS SAS3324_3 PCI-Express
+	00c3  Fusion-MPT 12GSAS SAS3324_4 PCI-Express
+	00c4  Fusion-MPT 12GSAS SAS3224 PCI-Express
+	00c5  Fusion-MPT 12GSAS SAS3316_1 PCI-Express
+	00c6  Fusion-MPT 12GSAS SAS3316_2 PCI-Express
+	00c7  Fusion-MPT 12GSAS SAS3316_3 PCI-Express
+	00c8  Fusion-MPT 12GSAS SAS3316_4 PCI-Express
+		1137 0199  UCS S3260 Dual Pass Through Controller based on Broadcom 3316 ROC
+	00c9  Fusion-MPT 12GSAS SAS3216 PCI-Express

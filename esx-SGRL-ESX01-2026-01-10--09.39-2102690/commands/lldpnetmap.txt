@@ -1,0 +1,11 @@
+2026-01-10T09:41:18.394649: Enabling hidden portsets in VSI
+2026-01-10T09:41:18.395318: Found vusb0 in VSI: /net/portsets/pps/ports/8
+2026-01-10T09:41:18.395506: Found vmnic0 in VSI: /net/portsets/vSwitch0/ports/33554434
+2026-01-10T09:41:18.395759: Enabling LLDP on vmnic0
+2026-01-10T09:41:18.395847: Enabling LLDP on vusb0
+2026-01-10T09:41:23.397178: Got LLDP info for vmnic0
+2026-01-10T09:42:03.412048: No LLDP info on ['vusb0'] after 45 seconds
+2026-01-10T09:42:03.412225: Disabling LLDP on vmnic0
+2026-01-10T09:42:03.412349: Disabling LLDP on vusb0
+2026-01-10T09:42:03.412456: Disabling hidden portsets in VSI
+{"047493dabc7fd3": ["vmnic0"]}

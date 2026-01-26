@@ -1,0 +1,18 @@
+total 25746560
+427819012    128 drwxr-xr-x    1 root     root         77824 Nov 15 09:45 .
+      4   1024 drwxr-xr-t    1 root     root         86016 Jan 10 09:35 ..
+318767492      0 -rw-r--r--    1 root     root           415 Sep  3 08:36 SGRL-ADC001-0c79cee2.hlog
+322961796 25653248 -rw-------    1 root     root     161061273600 Nov 15 09:45 SGRL-ADC001-flat.vmdk
+331350404   1024 -rw-------    1 root     root        270840 Nov 15 09:45 SGRL-ADC001.nvram
+327156100      0 -rw-------    1 root     root           556 Nov 15 09:35 SGRL-ADC001.vmdk
+339739012      0 -rw-r--r--    1 root     root             0 Sep  3 08:36 SGRL-ADC001.vmsd
+335544708      0 -rwxr-xr-x    1 root     root          3541 Nov 15 09:45 SGRL-ADC001.vmx
+364904836      0 -rw-------    1 root     root            47 Sep  3 08:42 SGRL-ADC001.vmxf
+679477636   1024 -rw-r--r--    1 root     root        236528 Nov 15 02:44 vmware-10.log
+696254852   1024 -rw-r--r--    1 root     root        236512 Nov 15 03:02 vmware-11.log
+713032068   1024 -rw-r--r--    1 root     root        342293 Nov 15 08:26 vmware-12.log
+729809284   1024 -rw-r--r--    1 root     root        276550 Nov 15 08:43 vmware-13.log
+645923204   1024 -rw-r--r--    1 root     root        234321 Nov 15 02:02 vmware-8.log
+662700420   1024 -rw-r--r--    1 root     root        238526 Nov 15 03:09 vmware-9.log
+746586500   1024 -rw-r--r--    1 root     root        235431 Nov 15 09:45 vmware.log
+583008644  83968 -rw-------    1 root     root      85983232 Oct 24 00:06 vmx-SGRL-ADC001-1406279652-1.vswp

@@ -1,0 +1,10 @@
+total 800896
+138415428    128 drwxr-xr-x    1 root     root         73728 Sep 13 16:21 .
+      4   1024 drwxr-xr-t    1 root     root         86016 Jan 10 09:35 ..
+8389956      0 -rw-r--r--    1 root     root           424 Sep 12 14:53 SGRL-8ESX001-3d7c399e.hlog
+20972868   1024 -rw-------    1 root     root        270840 Sep 13 15:12 SGRL-8ESX001.nvram
+29361476      0 -rw-r--r--    1 root     root             0 Sep 12 14:53 SGRL-8ESX001.vmsd
+25167172      0 -rwxr-xr-x    1 root     root          2749 Sep 13 16:21 SGRL-8ESX001.vmx
+12584260 797696 -rw-------    1 root     root     10737418240 Sep 13 16:21 SGRL-8ESX001_1-flat.vmdk
+16778564      0 -rw-------    1 root     root           557 Sep 13 15:12 SGRL-8ESX001_1.vmdk
+46138692   1024 -rw-r--r--    1 root     root        259304 Sep 13 16:21 vmware.log

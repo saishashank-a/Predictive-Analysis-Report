@@ -1,0 +1,23 @@
+# Disk DescriptorFile
+version=1
+encoding="UTF-8"
+CID=96e7b11e
+parentCID=ffffffff
+createType="vmfs"
+
+# Extent description
+RW 31457280 VMFS "SGRL-VCSA01_6-flat.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.geometry.cylinders = "1958"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "32d39803c369ddb31442e48996e7b11e"
+ddb.thinProvisioned = "1"
+ddb.toolsInstallType = "4"
+ddb.toolsVersion = "10346"
+ddb.uuid = "60 00 C2 9e 1e 65 a9 bc-88 df 76 38 da d3 84 99"
+ddb.virtualHWVersion = "14"

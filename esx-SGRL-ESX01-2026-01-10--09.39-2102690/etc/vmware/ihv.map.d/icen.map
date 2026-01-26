@@ -1,0 +1,7 @@
+regtype=native,bus=pci,id=80861590..............,driver=icen
+regtype=native,bus=pci,id=80861591..............,driver=icen
+regtype=native,bus=pci,id=80861592..............,driver=icen
+regtype=native,bus=pci,id=80861593..............,driver=icen
+regtype=native,bus=pci,id=80861599..............,driver=icen
+regtype=native,bus=pci,id=8086159a..............,driver=icen
+regtype=native,bus=pci,id=8086159b..............,driver=icen

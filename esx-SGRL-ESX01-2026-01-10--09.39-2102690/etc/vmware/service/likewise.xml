@@ -1,0 +1,8 @@
+<ConfigRoot>
+   <service id='0000'>
+      <id>lwsmd</id>
+      <required>false</required>
+      <packagename>esx-base</packagename>
+      <packagedescription>This VIB contains all of the base functionality of vSphere ESXi.</packagedescription>
+   </service>
+</ConfigRoot>

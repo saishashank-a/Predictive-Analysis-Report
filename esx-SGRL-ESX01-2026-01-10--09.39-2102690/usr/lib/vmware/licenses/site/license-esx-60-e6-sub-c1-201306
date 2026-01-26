@@ -1,0 +1,12 @@
+# VMware software license
+StartFields = "Cpt, ProductID, LicenseVersion, LicenseType, LicenseEdition, Option, Epoch"
+Cpt = "COPYRIGHT (c) VMware, Inc."
+ProductID = "VMware ESX Server"
+LicenseVersion = "6.0"
+LicenseType = "Site"
+Epoch = "2013-6-1"
+LicenseEdition = "esx.essentialsPlusSubscription.cpuPackage"
+Option = "7"
+Data = "FileVersion=6.7.2.1;capacityType=cpuPackage;enable=vsmp:0,h264remote,esxHost,vimapi,contentlib,vstorage,vmotion,xswitchvmotion,das,dr,endpoint,replication,vshield;addon=hotplug,drs,svmotion;subscription=1;desc=VMware vSphere 6 Essentials Plus Time-Limited"
+DataHash = "272bb9ac-d067bef5-ead4bf80-2a18a0a2-500fc687"
+Hash = "6d4504d5-f5936bcb-16e1309d-6d639993-8422cb79"

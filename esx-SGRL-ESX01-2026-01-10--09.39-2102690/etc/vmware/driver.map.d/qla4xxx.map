@@ -1,0 +1,2 @@
+regtype=linux,bus=pci,id=1077:4022 0000:0000,driver=qla4xxx,class=storage
+regtype=linux,bus=pci,id=1077:4032 0000:0000,driver=qla4xxx,class=storage

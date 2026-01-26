@@ -1,0 +1,25 @@
+
+SettingsAdvancedOption:
+   Path: /UserVars/SuppressHyperthreadWarning
+   Type: integer
+   Int Value: 1
+   Default Int Value: 0
+   Min Value: 0
+   Max Value: 1
+   String Value: 
+   Default String Value: 
+   Valid Characters: 
+   Description: Don't show warning for potential security vulnerability due to hyperthreading
+
+SettingsAdvancedOption:
+   Path: /UserVars/HostClientCEIPOptIn
+   Type: integer
+   Int Value: 2
+   Default Int Value: 0
+   Min Value: 0
+   Max Value: 2
+   String Value: 
+   Default String Value: 
+   Valid Characters: 
+   Description: Whether or not to opt-in for CEIP in Host Client, 0 for ask, 1 for yes, 2 for no
+

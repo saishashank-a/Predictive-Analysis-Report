@@ -1,0 +1,12 @@
+regtype=linux,bus=pci,id=14e4:1639 0000:0000,driver=bnx2,class=network
+regtype=linux,bus=pci,id=14e4:1639 103c:7055,driver=bnx2,class=network
+regtype=linux,bus=pci,id=14e4:1639 103c:7059,driver=bnx2,class=network
+regtype=linux,bus=pci,id=14e4:163a 0000:0000,driver=bnx2,class=network
+regtype=linux,bus=pci,id=14e4:163b 0000:0000,driver=bnx2,class=network
+regtype=linux,bus=pci,id=14e4:163c 0000:0000,driver=bnx2,class=network
+regtype=linux,bus=pci,id=14e4:164a 0000:0000,driver=bnx2,class=network
+regtype=linux,bus=pci,id=14e4:164c 0000:0000,driver=bnx2,class=network
+regtype=linux,bus=pci,id=14e4:164c 103c:7037,driver=bnx2,class=network
+regtype=linux,bus=pci,id=14e4:164c 103c:7038,driver=bnx2,class=network
+regtype=linux,bus=pci,id=14e4:16aa 0000:0000,driver=bnx2,class=network
+regtype=linux,bus=pci,id=14e4:16ac 0000:0000,driver=bnx2,class=network

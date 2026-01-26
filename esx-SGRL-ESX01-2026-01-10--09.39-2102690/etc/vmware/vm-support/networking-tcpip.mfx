@@ -1,0 +1,10 @@
+% Manifest name: tcpip
+% Manifest group: Network
+% Manifest default: Enabled
+% Manifest tag: networking,tcpip
+# action Options file/command
+run DUMP_JSON     /usr/sbin/localcli network ip connection list
+run DUMP_JSON     /usr/sbin/localcli network ip neighbor list
+run -             /usr/sbin/esxcfg-route -l
+run IGNORE_ERROR  /usr/sbin/esxcfg-route -f V6 -l
+run -             /usr/sbin/tracenet

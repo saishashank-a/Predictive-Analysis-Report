@@ -1,0 +1,7 @@
+total 2048
+  65534    256 drwxr-xr-x    1 root     root             8 Jan  1  1970 3a4fd8c6-3cd0683c-d0c1-5cf3fce846f8
+      4   1024 drwxr-xr-t    1 root     root         86016 Jan 10 09:35 3a4fd8ce-fc4375c4-effb-5cf3fce846f8
+  65534    256 drwxr-xr-x    1 root     root             8 Jan  1  1970 3a4fd8cf-6ef45abc-002e-5cf3fce846f8
+  65534    256 drwxr-xr-x    1 root     root             8 Jan  1  1970 5766f37e-4592eb56-f9ee-6436272ca19f
+  65534    256 drwxr-xr-x    1 root     root             8 Jan  1  1970 66630e7d-33d835cd-586e-86703aad3a4f
+73697734912880      0 lrwxr-xr-x    1 root     root            35 Jan 10 09:40 datastore1 -> 3a4fd8ce-fc4375c4-effb-5cf3fce846f8

@@ -1,0 +1,820 @@
+<config>
+<!--  Host agent configuration file for ESX/ESXi -->
+
+   <!-- the version of this config file -->
+   <version>6.6.0.0</version>
+
+   <!-- working directory  -->
+   <workingDir>/var/log/vmware/</workingDir>
+
+   <!-- location to examine for configuration files that are needed -->
+   <defaultConfigPath> /etc/vmware/ </defaultConfigPath>
+
+   <!-- stdout for hostd process  -->
+   <!-- <stdoutFile>/var/log/vmware/hostd-stdout.txt</stdoutFile> -->
+
+   <!-- stderr for hostd process  -->
+   <!-- <stderrFile>/var/log/vmware/hostd-stderr.txt</stderrFile> -->
+
+   <!-- Memory death point for hostd -->
+   <hostdStopMemInMB> 316 </hostdStopMemInMB>
+
+   <!-- Memory watermark for hostd -->
+   <hostdWarnMemInMB> 256 </hostdWarnMemInMB>
+
+   <!-- hostd memory per VM estimate -->
+   <hostdPerVMMemInKB> 1706 </hostdPerVMMemInKB>
+
+   <!-- hostd base memory estimate -->
+   <hostdBaseMemInMB> 227 </hostdBaseMemInMB>
+
+   <!-- hostd min num of fds -->
+   <!-- Override by vmacore/threadPool/MaxFdsPerThread  -->
+   <hostdMinFds> 3072 </hostdMinFds>
+
+   <!-- hostd absolute max num of fds -->
+   <hostdMaxFds> 4096 </hostdMaxFds>
+
+   <!-- hostd mmap threshold in kilo bytes -->
+   <hostdMmapThreshold> 32 </hostdMmapThreshold>
+
+   <!-- Maximum number of hostd threads -->
+   <hostdMaxThreads> 128 </hostdMaxThreads>
+
+   <!-- Mode in which hostd runs: defines product type -->
+   <hostdMode> esx </hostdMode>
+
+   <!-- Frequency of memory checker -->
+   <!-- Disabled pending resolution of stack size issue -->
+   <!-- memoryCheckerTimeInSecs> 0 </memoryCheckerTimeInSecs -->
+
+   <!-- Time duration for which sync primitive is allowed to be locked
+        before logging a warning -->
+   <!-- lockDurationTresholdInMillis> 0 </lockDurationTresholdInMillis -->
+
+   <!-- Code coverage feature -->
+   <!--  <coverage>
+           <enabled>false</enabled>
+           <dataDir>/tmp</dataDir>
+         </coverage> -->
+
+   <log>
+      <!-- controls where rolling log files are stored -->
+      <directory>/var/log/vmware/</directory>
+
+      <!-- name of log file -->
+      <name>hostd</name>
+
+      <!-- controls whether logger sends its output to console also -->
+      <outputToConsole>false</outputToConsole>
+
+      <!-- If true, log to files on disk -->
+      <outputToFiles>false</outputToFiles>
+
+      <!-- default size(in bytes) of each log file before rolling over to next -->
+      <maxFileSize>524288</maxFileSize>
+
+      <!-- default number of log files to rotate amongst -->
+      <maxFileNum>8</maxFileNum>
+
+      <!-- default log level -->
+      <!-- <level/> -->
+
+      <!-- If true, logs to syslog -->
+      <outputToSyslog>true</outputToSyslog>
+
+      <!-- syslog configuration.  Only used if outputToSyslog is true. -->
+      <syslog>
+         <!-- syslog identifier to use when logging -->
+         <ident>Hostd</ident>
+
+         <!-- syslog facility to use when logging -->
+         <facility>local4</facility>
+
+         <!-- The section header contents are placed in this file at startup.
+              When vmsyslogd rotates the hostd log file, it logs the content of this
+              file to syslog. This is being done so that we don't lose context on log
+              rotations.
+              IMPORTANT: Value needs to match that in onrotate entry in
+              vmsyslog.d/hostd.conf
+         -->
+         <logHeaderFile>/var/run/vmware/hostdLogHeader.txt</logHeaderFile>
+      </syslog>
+
+   </log>
+
+   <!-- Log level configuration (Rules are applied in order) -->
+
+   <level id="ActiveDirectoryAuthentication">
+      <logName> ActiveDirectoryAuthentication </logName>
+      <logLevel> warning </logLevel>
+      <prefix> false </prefix>
+   </level>
+   <level id="Vmsvc">
+      <logName> Vmsvc </logName>
+      <!-- <logLevel/> -->
+      <prefix> true </prefix>
+   </level>
+   <level id="Vigor">
+      <logName> Vigor </logName>
+      <!-- <logLevel/> -->
+      <prefix> true </prefix>
+   </level>
+   <level id="Vcsvc">
+      <logName> Vcsvc </logName>
+      <!-- <logLevel/> -->
+      <prefix> true </prefix>
+   </level>
+   <level id="Statssvc">
+      <logName> Statssvc </logName>
+      <!-- <logLevel/> -->
+      <prefix> true </prefix>
+   </level>
+   <level id="Hostsvc">
+      <logName> Hostsvc </logName>
+      <!-- <logLevel/> -->
+      <prefix> true </prefix>
+   </level>
+   <level id="Vimsvc">
+      <logName> Vimsvc </logName>
+      <!-- <logLevel/> -->
+      <prefix> true </prefix>
+   </level>
+   <level id="Hbrsvc">
+      <logName> Hbrsvc </logName>
+      <!-- <logLevel/> -->
+      <prefix> true </prefix>
+   </level>
+   <level id="Proxysvc">
+      <logName> Proxysvc </logName>
+      <!-- <logLevel/> -->
+      <prefix> true </prefix>
+   </level>
+   <level id="Snmpsvc">
+      <logName> Snmpsvc </logName>
+      <!-- <logLevel/> -->
+      <prefix> true </prefix>
+   </level>
+   <!-- Remove the following node to disable SSL -->
+   <ssl>
+      <!-- The server private key file -->
+      <privateKey>/etc/vmware/ssl/rui.key</privateKey>
+
+      <!-- The server side certificate file -->
+      <certificate>/etc/vmware/ssl/rui.crt</certificate>
+
+      <!-- Client-side CAFile verify location -->
+      <keyStoreFile>/etc/vmware/ssl/castore.pem</keyStoreFile>
+   </ssl>
+
+   <!--   <traceFileDest>/var/log/vmware/hostd/trace.log</traceFileDest> -->
+
+   <!-- Directory on the Console OS accessible to the DatastoreBrowser -->
+   <browsableConsoleDir>/vmimages</browsableConsoleDir>
+
+   <!-- Location of vm inventory file on legacy host -->
+   <legacyVmInventory>/etc/vmware/vm-list</legacyVmInventory>
+
+   <vmacore>
+      <pluginBaseDir>/lib/</pluginBaseDir>
+      <!-- default thread pool configuration for Posix impl -->
+      <threadPool>
+        <!-- defaults to 'true', use fair work queues thread pool -->
+        <fairThreadPool>true</fairThreadPool>
+
+        <!-- defaults to 14, max number of threads used for FWQ items -->
+        <!-- The default value of 14 is aligned with 10 for the ASIO due to
+             reservations for higher priorities.
+             Moreover some tests (WeakRefTests.Concurrency) expect to be able to
+             run 10 concurrent tasks, and so would block with lower value. -->
+        <!-- <maxThreads>14</maxThreads> -->
+
+        <!-- defaults to 5, initial number of threads used for FWQ items -->
+        <!-- <minThreads>5</minThreads> -->
+
+        <!-- defaults to 2, number of IO threads used by the FWQ thread pool -->
+        <!-- These threads perform the asynchronous IO and provide timer services.
+             Generally small number should be enough as no blocking operations
+             are executed within IO threads.
+             A CPU intensive operation performed in these threads is SSL handling,
+             so on multi-CPU machine with high volume of SSL traffic it may be
+             beneficial increasing this number. -->
+        <!-- <ioThreads>2</ioThreads> -->
+
+        <!-- defaults to 3, ratio between the number of concurrent items in a
+             priority and threads reserved for higher priority queues
+             One thread is reserved for every N concurrent items. -->
+        <reservationRatio>2</reservationRatio>
+
+        <!-- Non FWQ thread pool limits -->
+
+        <IoMin>2</IoMin>
+        <IoMax>52</IoMax>
+
+        <!-- defaults to 2, initial number of threads used for long running tasks -->
+        <TaskMin>2</TaskMin>
+
+        <!-- defaults to 10, but sometimes useful to change for unit tests -->
+        <TaskMax>22</TaskMax>
+        <!-- Do not set MaxFdsPerThread if hostdMinFds is set above -->
+        <!-- MaxFdsPerThread> 2048 </MaxFdsPerThread -->
+        <NumKeepAlive>8</NumKeepAlive>
+        <ThreadCheckTimeSecs>600</ThreadCheckTimeSecs>
+        <ThreadStackSizeKb>256</ThreadStackSizeKb>
+        <threadNamePrefix>hostd</threadNamePrefix>
+      </threadPool>
+
+      <rootPasswdExpiration>false</rootPasswdExpiration>
+
+      <ssl>
+          <doVersionCheck> false </doVersionCheck>
+          <!-- allowed SSL/TLS protocol versions -->
+          <!-- <protocols>tls1.2</protocols> -->
+          <libraryPath>/lib/</libraryPath>
+          <!-- <fips>true</fips> -->
+      </ssl>
+
+      <vmdb>
+         <!-- maximum number of VMDB connections allowed -->
+         <!-- <maxConnectionCount>100</maxConnectionCount> -->
+      </vmdb>
+
+      <!-- enable plugin loading -->
+      <loadPlugins> true </loadPlugins>
+
+      <!-- enable/disable the dynamic loading of plugins -->
+      <loadDynamicPlugins> false </loadDynamicPlugins>
+
+      <!-- Enable/disable the stack tracer -->
+      <!-- <useStackTracer>false</useStackTracer> -->
+
+      <http>
+         <!-- Num of max proxy connections -->
+         <!-- PR 604415: Temporary lower the connections limit to 128 -->
+         <maxConnections> 128 </maxConnections>
+         <!-- Enable XFrameOptionsHeader -->
+         <EnableXFrameOptionsHeader>true</EnableXFrameOptionsHeader>
+         <!-- type of XFrameOptionsHeader -->
+         <XFrameOptionsHeader>DENY</XFrameOptionsHeader>
+      </http>
+   </vmacore>
+
+   <!-- VMOMI configuration -->
+   <vmomi>
+      <!-- VMOMI validator configuration -->
+      <validation>
+         <!-- The validation is enabled by default -->
+         <!-- <enabled>true</enabled> -->
+      </validation>
+
+      <soapRequest>
+         <!-- maximum size of each XML message. -->
+         <maxDocSize> 62914560 </maxDocSize>
+         <!-- maximum nodes in of each XML message. -->
+         <maxElements> 524288 </maxElements>
+         <!-- maximum node depth of each XML message. -->
+         <maxDepth> 1000 </maxDepth>
+         <!-- maximum size of each XML message for unauthenticated SOAP requests -->
+         <maxUnauthenticatedDocSize> 100000 </maxUnauthenticatedDocSize>
+      </soapRequest>
+   </vmomi>
+
+   <datastoreDocHandler>
+      <!-- <maxRunningRequests>5</maxRunningRequests> -->
+      <!-- <maxRequestQueueSize>500</maxRequestQueueSize> -->
+      <!-- <maxStreamTransfers>4</maxStreamTransfers> -->
+   </datastoreDocHandler>
+
+   <dispatcher>
+      <!-- turns dispatcher on/off -->
+      <!-- <enabled>true</enabled> -->
+
+      <!-- The file containing dispatcher policies -->
+      <!-- <dispatcherConfig>/etc/vmware/hostd/dispatcher.xml</dispatcherConfig> -->
+
+      <!-- The file containing tag extraction rules -->
+      <!-- <tagExtractorConfig>/etc/vmware/hostd/tagExtractor.xml</tagExtractorConfig> -->
+
+      <!-- Enables debugging output -->
+      <!-- <debug>false</debug> -->
+
+      <!-- Debug flags -->
+      <!-- <flags>0</flags> -->
+   </dispatcher>
+
+   <plugins>
+      <vimsvc>
+         <path>libvimsvc.so</path>
+
+         <!-- default administrator principal -->
+         <!-- <defaultPrincipal>root</defaultPrincipal> -->
+
+         <!-- default file used to persist ACL data -->
+         <!-- <authorization>/etc/vmware/hostd/authorization.xml</authorization> -->
+
+         <!-- default setting for performing authorization checks -->
+         <enableAuthCheck>true</enableAuthCheck>
+
+         <!-- default setting for where vmware-hostd-ticket directory is created -->
+         <!-- <localTicketParentDir>/tmp</localTicketParentDir> -->
+
+         <!-- default setting for life time of a local ticket -->
+         <!-- <localTicketLifeSecs>10</localTicketLifeSecs> -->
+
+         <!-- default setting for maximum number of times a ticket can be used -->
+         <!-- <localTicketMaxUse>1</localTicketMaxUse> -->
+
+	 <!-- time to retain tasks after they complete -->
+	 <!-- <taskRetentionInMins> 10 </taskRetentionInMins> -->
+
+	 <!-- cleanup interval time between task reaping -->
+	 <!-- <taskCleanupIntervalInMins> 1 </taskCleanupIntervalInMins> -->
+
+         <!-- maximum number of events to store -->
+         <!-- <maxEvents>1000</maxEvents> -->
+
+	 <!-- development build default setting for license mockup -->
+	 <licenseMockup>false</licenseMockup>
+
+         <!-- cloning of objects by i18nFilter -->
+         <!-- <i18nCloneDisabled> true </i18nCloneDisabled> -->
+         <license>
+            <!-- location of the read-write flexlm configuration file -->
+            <!-- <config> /etc/vmware/license.cfg </config> -->
+         </license>
+         <userManager>
+            <!-- Max time in seconds to wait for a subcommand to complete -->
+            <!-- <subcommandWait> 10 </subcommandWait> -->
+         </userManager>
+
+         <!-- VC API lockdown mode (MN) - true to enable handling it -->
+         <apiLockdown>true</apiLockdown>
+         <requires>hostsvc solo</requires>
+
+      </vimsvc>
+      <hostsvc>
+         <path>libhostsvc.so</path>
+         <tpm>
+            <enableResetLockValue>true</enableResetLockValue>
+         </tpm>
+
+          <vflash>
+             <defaultVFlashModule>vfc</defaultVFlashModule>
+             <vffsUuid>0</vffsUuid>
+             <refreshVffsInterval>10</refreshVffsInterval>
+             <vFlashResourceUsageThreshold>80</vFlashResourceUsageThreshold>
+             <maxVFlashResourceGBForVmCache>2048</maxVFlashResourceGBForVmCache>
+          </vflash>
+
+         <datastore>
+            <!-- default datastore inventory-->
+            <!-- <inventory>/etc/vmware/hostd/datastores.xml</inventory> -->
+
+            <!-- default datastore refresh interval in minutes -->
+            <!-- use 0 to disable the auto refresh -->
+            <!-- <refreshInterval>0</refreshInterval> -->
+
+            <!-- default datastore list refetch interval, after getting a VMFS event, in seconds-->
+            <!-- <refetchVMFSDatastoreListInterval>30</refetchVMFSDatastoreListInterval> -->
+         </datastore>
+
+         <mockup>
+            <!-- turns mockup impl on/off -->
+            <enabled>false</enabled>
+
+            <!-- default filepath for host info -->
+            <filepath>/etc/vmware/hostd/mockup-linux.vha</filepath>
+         </mockup>
+
+         <!-- default location of the hostsvc config file -->
+         <!-- <config>/etc/vmware/hostd/hostsvc.xml</config> -->
+
+         <!-- default location of the resource pool config file -->
+         <!-- <pools>/etc/vmware/hostd/pools.xml</pools> -->
+
+         <!-- default location of the host service list -->
+         <services>/etc/vmware/service/</services>
+
+         <storage>
+            <!-- storage data synchronization policy-->
+
+	    <!-- policy: invalidate on configuration change (default) -->
+            <!-- <syncpolicy>invalid_change</syncpolicy> -->
+
+	    <!-- policy: always fetch data when queried -->
+            <!-- <syncpolicy>fetch_always</syncpolicy> -->
+
+	    <!-- policy: fetch data on configuration change -->
+            <!-- <syncpolicy>fetch_change</syncpolicy> -->
+
+            <!-- default storage inventory refetch interval, after getting multiple Path-state change event, in seconds-->
+           <refetchStorageInterval>120</refetchStorageInterval>
+         </storage>
+
+         <rsrc>
+            <!-- Refresh interval (in seconds) for root resource pool capacity -->
+            <!-- <refreshInterval>60</refreshInterval> -->
+         </rsrc>
+         <vmfs2upgrade>
+            <!-- <undoattempts>15</undoattempts> -->
+            <!-- <timeoutmsec>2000</timeoutmsec> -->
+         </vmfs2upgrade>
+
+         <!-- Storage I/O Resource Manager settings -->
+         <storageiorm>
+             <enabled>false</enabled>
+             <congestionThreshold.min>1</congestionThreshold.min>
+             <congestionThreshold.max>100</congestionThreshold.max>
+             <congestionThreshold.default>30</congestionThreshold.default>
+         </storageiorm>
+         <dvSwitch>
+             <status>
+                 <includeExternalComponent>true</includeExternalComponent>
+                 <externalComponents>
+                     <comp id="overlay">
+                         <compKey>com.vmware.common.host.volatile.overlay.status</compKey>
+                     </comp>
+                 </externalComponents>
+             </status>
+         </dvSwitch>
+         <opaqueNetwork>
+            <!-- maximum message size allowed in opaque network manager IPC, in bytes. -->
+            <!-- <maxMsgSize> 65536 </maxMsgSize> -->
+            <!-- maximum wait time for opaque network response -->
+            <!-- <taskTimeout> 30 </taskTimeout> -->
+            <!-- Kill switch to disable health check for
+                 opaque switch. com.vmware.common.opaqueDvs.status.component.all
+                 will disable health for all components. Specific component key
+                 like "com.vmware.common.opaqueDvs.status.component.nsxa" can be
+                 added disable health check for that component. -->
+            <!-- <disableHealthCheck>
+                <comp id="all">
+                    <compKey>com.vmware.common.opaqueDvs.status.component.all</compKey>
+                </comp>
+            </disableHealthCheck> -->
+         </opaqueNetwork>
+
+         <diagnostic>
+            <!-- Time interval in minutes after which a generated support bundle will be removed -->
+            <bundleExpirationTime>60</bundleExpirationTime>
+         </diagnostic>
+      </hostsvc>
+      <vmsvc>
+         <path>libvmsvc.so</path>
+
+         <!--
+         Check for version mismatches against the vmkernel.
+         This is disabled by default for developers but for all other
+         users, they must keep their vmkernels upto date.
+          -->
+         <checkVersionMismatch> false </checkVersionMismatch>
+         <!-- <vmDirectory> /vmupgrade </vmDirectory> -->
+         <!-- <maxSnapshotDepth> 32 </maxSnapshotDepth> -->
+
+         <!-- Configuration options for quiesced snapshots -->
+         <quiescedSnap>
+            <!-- Seconds that quiesce requests will queue before continuing. -->
+            <!-- <serializeTimeout> 120 </serializeTimeout> -->
+         </quiescedSnap>
+
+         <!-- The maximum number of virtual disks allowed on this host -->
+         <!-- <maxDisksPerVirtualMachine> 120 </maxDisksPerVirtualMachine> -->
+
+         <!-- The timer interval for task updates in microseconds -->
+         <!-- <taskTimerInterval> 1000000 </taskTimerInterval> -->
+
+         <!-- Default user context to use to perform VM operations -->
+         <!-- <datastorePrincipal>root</datastorePrincipal> -->
+
+         <!-- Virtual machine VMotion parameters -->
+         <vmotion>
+            <!-- Timeout for VMotion prepare operation (milliseconds) -->
+            <!-- <prepareTimeout> 30000 </prepareTimeout> -->
+
+            <!-- Timeout for VMotion source initiate operation (milliseconds) -->
+            <!-- <srcInitiateTimeout> 30000 </srcInitiateTimeout> -->
+
+            <!-- Timeout for VMotion destination ID population (milliseconds) -->
+            <!-- <dstIdTimeout> 60000 </dstIdTimeout> -->
+         </vmotion>
+         <!-- <defaultPowerOffType> soft </defaultPowerOffType> -->
+         <!-- <defaultSuspendType> hard </defaultSuspendType> -->
+         <!-- <defaultResetType> hard </defaultResetType> -->
+         <!-- <validateVMId> false </validateVMId> -->
+         <!-- <enforceMaxRegisteredVms> false </enforceMaxRegisteredVms> -->
+
+         <!-- Whether use to object-UUID based directories for
+              VM provisioning on object-backed datastores.  -->
+         <useObjectUuidPaths>true</useObjectUuidPaths>
+
+         <requires>vimsvc</requires>
+
+	 <!-- Setting to enable/disable the use of vigorVim to read the -->
+         <!-- vm configuration information -->
+         <useVigorVim> true </useVigorVim>
+      </vmsvc>
+      <vcsvc>
+         <path>libvcsvc.so</path>
+         <!-- VMotion parameters -->
+         <vmotion>
+            <!-- Location of the VMotion journal; either an absolute -->
+            <!-- path or relative to the default log path -->
+            <!-- <journalDir> journal </journalDir> -->
+
+            <!-- Source-side VMotion timeout (milliseconds) -->
+            <!-- <srcBeginTimeout> 240000 </srcBeginTimeout> -->
+
+            <!-- Destination-side VMotion timeout (milliseconds) -->
+            <!-- <dstBeginTimeout> 60000 </dstBeginTimeout> -->
+         </vmotion>
+
+         <!-- AgentManager parameters -->
+         <agentMgr>
+           <!-- Timeout (in seconds) for the upgrade command -->
+           <timeout> 1200 </timeout>
+
+           <!-- Name of the upgrade directory (relative to a provided tmpdir) -->
+           <!-- <upgradeDir> ha-agentmgr </upgradeDir> -->
+
+           <!-- Name of the upgrade executable file -->
+           <!-- <upgradeExe> upgrade </upgradeExe> -->
+
+           <!-- Name of the upgrade signature file, used to validate the executable -->
+           <!-- <upgradeSig> upgrade.sig </upgradeSig> -->
+
+           <!-- upgradeCerts is a path to a file containing accepted signer certificates -->
+           <!-- <upgradeCerts>/usr/share/certs/vmware.cert</upgradeCerts> -->
+         </agentMgr>
+
+         <requires>hostsvc</requires>
+      </vcsvc>
+      <solo>
+         <path>libsolo.so</path>
+
+	 <!-- The file containing the list of environment description files -->
+         <environments>/etc/vmware/hostd/environments.xml</environments>
+
+         <!-- The file containing the virtual machine inventory -->
+         <!-- <vmInventory>/etc/vmware/hostd/vmInventory.xml</vmInventory> -->
+
+         <!-- The file containing the AutoStart settings -->
+         <!-- <vmAutoStart>/etc/vmware/hostd/vmAutoStart.xml</vmAutoStart> -->
+
+         <!-- The file containing the resource pool and VM resource settings -->
+         <!-- <resources>/etc/vmware/hostd/resources.xml</resources> -->
+
+	 <!-- The file containing the hardware info mockup -->
+         <hwInfo>/etc/vmware/hostd/hwInfo.xml</hwInfo>
+
+         <!-- Disable Resource Pool Initialization -->
+         <!-- <disableResourcePoolInit> false </disableResourcePoolInit> -->
+
+	 <!-- Soap port. Also turns on proxy forwarding to a TCP port -->
+	 <soapPort> 8307 </soapPort>
+
+	 <!-- Secure Soap port for accecpting SSL tunneling from proxy -->
+	 <!-- If disabled, SSL tunneling is done over a named pipe. -->
+         <!-- <secureSoapPort>8306</secureSoapPort> -->
+
+         <!-- Whether to enable secure Soap adapter -->
+         <enableSecureSoap> true </enableSecureSoap>
+
+	 <!-- 64 bit support -->
+	 <!-- <support64bit> true </support64bit> -->
+
+	 <!-- Enable Vmomi tracing -->
+	 <!-- <traceVmomi> true </traceVmomi> -->
+
+	 <!-- The log level at which to output vmomi tracing -->
+	 <traceAt> verbose </traceAt>
+
+	 <!-- Whether to only trace faults in the return -->
+	 <!-- <traceFaultsOnly> true </traceFaultsOnly> -->
+
+	 <!-- Cause segv -->
+	 <!-- <causeSegv> false </causeSegv> -->
+
+	 <!-- Cause exception -->
+	 <!-- <causeException> false </causeException> -->
+
+	 <loglevels>
+	       <module>
+	          <name> disklib </name>
+	          <level> 0 </level>
+	       </module>
+	       <!-- <module> -->
+	          <!-- <name> baz </name> -->
+	          <!-- <level> 2 </level> -->
+	          <!-- <extension> bar </extension> -->
+	       <!-- </module> -->
+	 </loglevels>
+
+         <!-- web server settings -->
+         <webServer>
+            <port>8309</port>
+            <!-- <docRoot>default installpath/docroot</docRoot> -->
+            <!-- <enableWebscriptLauncher> true </enableWebscriptLauncher> -->
+         </webServer>
+
+         <!-- Enable managed object browser -->
+         <!-- <enableMob>true</enableMob> -->
+
+         <dynamo>
+            <enabled> true </enabled>
+
+            <manager id="0">
+               <enabled> true </enabled>
+               <moId>ha-dynamic-type-manager-python</moId>
+               <type>soap-stdio</type>
+               <soap-stdio>
+                  <command>/usr/bin/sh</command>
+                  <arg id="0">-l</arg>
+                  <arg id="1">-c</arg>
+                  <arg id="2">/usr/bin/python -m PyVmomiServer -g --loglevel info -s PyVmomiServer</arg>
+               </soap-stdio>
+            </manager>
+
+            <manager id="1">
+               <enabled> true </enabled>
+               <moId>ha-dynamic-type-manager-local-cli</moId>
+               <type>vmware-cli</type>
+               <vmware-cli>
+                  <path>/usr/lib/vmware/esxcli</path>
+               </vmware-cli>
+            </manager>
+         </dynamo>
+
+         <!-- Managed method executer -->
+         <!-- <mme> -->
+            <!-- <enabled> true </enabled> -->
+         <!-- </mme> -->
+
+         <requires>hostsvc</requires>
+      </solo>
+
+      <!-- Reverse HTTP Proxy service -->
+      <proxysvc>
+         <path>libproxysvc.so</path>
+
+         <!-- default location of the proxy config file -->
+         <endpoints>/etc/vmware/rhttpproxy/endpoints.conf</endpoints>
+         <requires>hostsvc</requires>
+
+      </proxysvc>
+
+      <statssvc>
+         <path>libstatssvc.so</path>
+         <mockup>
+            <!-- turns mockup impl on/off -->
+            <enabled>false</enabled>
+         </mockup>
+
+         <!-- Directory to store stats related files in -->
+         <!-- <depotDir> /var/lib/vmware/hostd/stats/ </depotDir> -->
+
+         <!-- Name of the StatsDepot -->
+         <!-- <depotName> hostAgentStats </depotName> -->
+
+         <!-- Max number of stats to purge in one shot -->
+         <!-- <maxStatsPurged> 1000 </maxStatsPurged> -->
+
+         <!-- Real time stats collection interval -->
+         <!-- <collectionInterval> 20 </collectionInterval> -->
+
+         <!-- The threshold to log pnic error stats -->
+         <!-- <pnicStatsLogThreshold> 50 </pnicStatsLogThreshold> -->
+
+         <!-- Enable historical stats collection -->
+         <historicalStatsEnabled> false </historicalStatsEnabled>
+
+         <!-- Enable collection of virtual disk stats -->
+         <collectVdiskStats> true </collectVdiskStats>
+
+         <!-- Enable collection of Host Datastore stats -->
+         <collectHostDsStats> true </collectHostDsStats>
+
+         <!-- Enable collection of Storage Path and Adapter stats -->
+         <collectPathAdapterStats> true </collectPathAdapterStats>
+
+         <!-- Enable collection of VM Datastore stats -->
+         <collectVmDsStats> true </collectVmDsStats>
+
+         <!-- Enable collection of VFlash Module stats -->
+         <collectVFlashModuleStats> true </collectVFlashModuleStats>
+
+         <!-- Enable collection of VSAN DOM stats -->
+         <collectVSanDomStats> false </collectVSanDomStats>
+
+         <!-- Samples buffer size. Default to 128K -->
+         <!-- samplesBufferSize> 131072 </samplesBufferSize -->
+
+      </statssvc>
+
+      <partitionsvc>
+         <path>libpartitionsvc.so</path>
+         <enabled>true</enabled>
+      </partitionsvc>
+
+      <internalsvc>
+         <path>libinternalsvc.so</path>
+         <requires>hostsvc</requires>
+      </internalsvc>
+
+      <!-- The nfc service -->
+      <nfcsvc>
+         <path>libnfcsvc.so</path>
+         <enabled>true</enabled>
+         <maxMemory>50331648</maxMemory>
+         <maxStreamMemory>10485760</maxStreamMemory>
+      </nfcsvc>
+
+      <httpnfcsvc>
+         <path>libhttpnfcsvc.so</path>
+         <enabled>true</enabled>
+         <requires>proxysvc</requires>
+      </httpnfcsvc>
+
+      <ovfmgrsvc>
+         <path>libovfmgrsvc.so</path>
+         <enabled>true</enabled>
+      </ovfmgrsvc>
+
+      <snmpsvc>
+         <enabled> true </enabled>
+         <path>libsnmpsvc.so</path>
+         <!-- Whether to generate VMware SNMP traps -->
+         <generateTraps> true </generateTraps>
+      </snmpsvc>
+
+      <directorysvc>
+         <path>libdirectorysvc.so</path>
+         <enabled>true</enabled>
+      </directorysvc>
+
+      <vdisksvc>
+         <path>libvdisksvc.so</path>
+         <enabled>true</enabled>
+      </vdisksvc>
+
+      <vslmsvc>
+         <path>libvslmsvc.so</path>
+         <enabled>true</enabled>
+      </vslmsvc>
+
+      <blklistsvc>
+         <path>libblklistsvc.so</path>
+         <enabled>true</enabled>
+      </blklistsvc>
+
+      <cimsvc>
+         <path>libcimsvc.so</path>
+         <enabled>true</enabled>
+      </cimsvc>
+
+      <hbrsvc>
+         <path>libhbrsvc.so</path>
+         <enabled>true</enabled>
+         <requires>vmsvc</requires>
+      </hbrsvc>
+
+      <cbrcsvc>
+         <path>libcbrcsvc.so</path>
+         <enabled>true</enabled>
+      </cbrcsvc>
+
+      <hostspecsvc>
+         <path>libhostspecsv.so</path>
+         <enabled>true</enabled>
+      </hostspecsvc>
+
+      <guestsvc>
+         <path>libguestsvc.so</path>
+         <enabled>true</enabled>
+      </guestsvc>
+
+      <entitystoresvc>
+         <path>libentitystoresvc.so</path>
+         <enabled>true</enabled>
+      </entitystoresvc>
+
+   </plugins>
+
+   <!--Locale preferences-->
+   <!--DefaultLocale - this is the preferred default locale -->
+   <!--InstallPath   - this is the location of the locale files-->
+   <!--
+   <locale>
+      <DefaultLocale>en_US</DefaultLocale>
+      <InstallPath>/usr/lib/vmware/hostd/locale/</InstallPath>
+   </locale>
+   -->
+
+   <!-- Timeout settings for vim-cmd -->
+   <!-- 1800 will be used if a nonpositive value is specified -->
+   <vimcmd>
+      <soapStubAdapter>
+         <blockingTimeoutSeconds>0</blockingTimeoutSeconds>
+      </soapStubAdapter>
+   </vimcmd>
+
+</config>

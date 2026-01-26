@@ -1,0 +1,2 @@
+regtype=native,bus=logical,id=com.qlogic.cnicDev,driver=qcnic
+regtype=native,bus=logical,id=com.qlogic.cnicDevL,driver=qcnic

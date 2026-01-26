@@ -1,0 +1,654 @@
+Command gatherdata successful. Wrote results to file /tmp/2103332/gd_results.bin
+Command extractprofile successful. Wrote results to file /tmp/2103332/profile.bin
+Profile: Pluggable Storage Architecture (PSA) configuration
+Summary: How should Pluggable Storage Architecture (PSA) storage devices and plugins be configured?
+Enabled: True
+Path: storage.psa_psaProfile_PluggableStorageArchitectureProfile
+Profile: PSA device sharing "naa.600605b004213bc001e293503af49afb"
+Summary: Configuration for the storage device sharing on the Pluggable Storage Architecture (PSA).
+Enabled: True
+Path: storage.psa_psaProfile_PluggableStorageArchitectureProfile.psa_psaProfile_PsaDeviceSharingProfile["0a97c53db4716364d1e8f3b7b0c358dea7d459c3995dc4e27104a1adf79c0714"]
+
+Policies:
+  * Sharing
+       Id = psa.psaProfile.PsaDeviceSharingPolicy
+       Current Option: Sharing
+       Parameters:
+          deviceName = naa.600605b004213bc001e293503af49afb
+          isSharedClusterwide = False
+
+Profile: PSA claimrule number "101"
+Summary: What custom claimrules should Pluggable Storage Architecture (PSA) plugins use to claim storage devices? (Note: default claimrules are not shown and cannot be removed but can be overridden)
+Enabled: True
+Path: storage.psa_psaProfile_PluggableStorageArchitectureProfile.psa_psaProfile_PsaClaimrulesProfile["5cb092ea093511466755af237dae3b9661db95a38972f67499cdc4ee685ef1e0"]
+
+Policies:
+  * Claim information
+       Id = psa.psaProfile.PsaClaimInformationPolicy
+       Current Option: Claim information
+       Parameters:
+          ruleNumber = 101
+          pluginName = MASK_PATH
+          claimruleClass = MP
+  * Claim type
+       Id = psa.psaProfile.PsaClaimTypePolicy
+       Current Option: Vendor-model
+       Parameters:
+          vendorName = DELL
+          model = Universal Xport
+
+Profile: PSA claimrule number "65429"
+Summary: What custom claimrules should Pluggable Storage Architecture (PSA) plugins use to claim storage devices? (Note: default claimrules are not shown and cannot be removed but can be overridden)
+Enabled: True
+Path: storage.psa_psaProfile_PluggableStorageArchitectureProfile.psa_psaProfile_PsaClaimrulesProfile["1a9b631ece33fa87af47fa80aea6172a9fb6db58b58c9bf9d96c44fbf4234bf5"]
+
+Policies:
+  * Claim information
+       Id = psa.psaProfile.PsaClaimInformationPolicy
+       Current Option: Claim information
+       Parameters:
+          ruleNumber = 65429
+          pluginName = VAAI_FILTER
+          claimruleClass = Filter
+  * Claim type
+       Id = psa.psaProfile.PsaClaimTypePolicy
+       Current Option: Vendor-model
+       Parameters:
+          vendorName = MSFT
+          model = Virtual HD
+
+Profile: PSA claimrule number "65430"
+Summary: What custom claimrules should Pluggable Storage Architecture (PSA) plugins use to claim storage devices? (Note: default claimrules are not shown and cannot be removed but can be overridden)
+Enabled: True
+Path: storage.psa_psaProfile_PluggableStorageArchitectureProfile.psa_psaProfile_PsaClaimrulesProfile["2435ec2b311dd8adce9d40fdf1f42455399e57d279ae74c9f13a7022a9dd1366"]
+
+Policies:
+  * Claim information
+       Id = psa.psaProfile.PsaClaimInformationPolicy
+       Current Option: Claim information
+       Parameters:
+          ruleNumber = 65430
+          pluginName = VAAI_FILTER
+          claimruleClass = Filter
+  * Claim type
+       Id = psa.psaProfile.PsaClaimTypePolicy
+       Current Option: Vendor-model
+       Parameters:
+          vendorName = EMC
+          model = SYMMETRIX
+
+Profile: PSA claimrule number "65431"
+Summary: What custom claimrules should Pluggable Storage Architecture (PSA) plugins use to claim storage devices? (Note: default claimrules are not shown and cannot be removed but can be overridden)
+Enabled: True
+Path: storage.psa_psaProfile_PluggableStorageArchitectureProfile.psa_psaProfile_PsaClaimrulesProfile["cc0d62bd8eb1ef64e04520719b75def9b3b2fdd10ddf0c0e7349fd6769052114"]
+
+Policies:
+  * Claim information
+       Id = psa.psaProfile.PsaClaimInformationPolicy
+       Current Option: Claim information
+       Parameters:
+          ruleNumber = 65431
+          pluginName = VAAI_FILTER
+          claimruleClass = Filter
+  * Claim type
+       Id = psa.psaProfile.PsaClaimTypePolicy
+       Current Option: Vendor-model
+       Parameters:
+          vendorName = DGC
+          model = *
+
+Profile: PSA claimrule number "65432"
+Summary: What custom claimrules should Pluggable Storage Architecture (PSA) plugins use to claim storage devices? (Note: default claimrules are not shown and cannot be removed but can be overridden)
+Enabled: True
+Path: storage.psa_psaProfile_PluggableStorageArchitectureProfile.psa_psaProfile_PsaClaimrulesProfile["2920bd5f0c067b42e4570ccae4fed5c6b3617c7cf7a2b7df963bceb3bc1b3636"]
+
+Policies:
+  * Claim information
+       Id = psa.psaProfile.PsaClaimInformationPolicy
+       Current Option: Claim information
+       Parameters:
+          ruleNumber = 65432
+          pluginName = VAAI_FILTER
+          claimruleClass = Filter
+  * Claim type
+       Id = psa.psaProfile.PsaClaimTypePolicy
+       Current Option: Vendor-model
+       Parameters:
+          vendorName = EQLOGIC
+          model = *
+
+Profile: PSA claimrule number "65433"
+Summary: What custom claimrules should Pluggable Storage Architecture (PSA) plugins use to claim storage devices? (Note: default claimrules are not shown and cannot be removed but can be overridden)
+Enabled: True
+Path: storage.psa_psaProfile_PluggableStorageArchitectureProfile.psa_psaProfile_PsaClaimrulesProfile["e804e491a83e9adfaf180845c64bb21fc234eed4fd32921c251c35963de10009"]
+
+Policies:
+  * Claim information
+       Id = psa.psaProfile.PsaClaimInformationPolicy
+       Current Option: Claim information
+       Parameters:
+          ruleNumber = 65433
+          pluginName = VAAI_FILTER
+          claimruleClass = Filter
+  * Claim type
+       Id = psa.psaProfile.PsaClaimTypePolicy
+       Current Option: Vendor-model
+       Parameters:
+          vendorName = NETAPP
+          model = LUN*
+
+Profile: PSA claimrule number "65434"
+Summary: What custom claimrules should Pluggable Storage Architecture (PSA) plugins use to claim storage devices? (Note: default claimrules are not shown and cannot be removed but can be overridden)
+Enabled: True
+Path: storage.psa_psaProfile_PluggableStorageArchitectureProfile.psa_psaProfile_PsaClaimrulesProfile["216d6304589a5c7766b5c12ff6ff1555e1f1f9688f75239aa6d510ed43726de0"]
+
+Policies:
+  * Claim information
+       Id = psa.psaProfile.PsaClaimInformationPolicy
+       Current Option: Claim information
+       Parameters:
+          ruleNumber = 65434
+          pluginName = VAAI_FILTER
+          claimruleClass = Filter
+  * Claim type
+       Id = psa.psaProfile.PsaClaimTypePolicy
+       Current Option: Vendor-model
+       Parameters:
+          vendorName = HITACHI
+          model = *
+
+Profile: PSA claimrule number "65435"
+Summary: What custom claimrules should Pluggable Storage Architecture (PSA) plugins use to claim storage devices? (Note: default claimrules are not shown and cannot be removed but can be overridden)
+Enabled: True
+Path: storage.psa_psaProfile_PluggableStorageArchitectureProfile.psa_psaProfile_PsaClaimrulesProfile["dd72d5035bd252e95ff65482f471c35f8b1bbea56973589ccd6958fc394730f4"]
+
+Policies:
+  * Claim information
+       Id = psa.psaProfile.PsaClaimInformationPolicy
+       Current Option: Claim information
+       Parameters:
+          ruleNumber = 65435
+          pluginName = VAAI_FILTER
+          claimruleClass = Filter
+  * Claim type
+       Id = psa.psaProfile.PsaClaimTypePolicy
+       Current Option: Vendor-model
+       Parameters:
+          vendorName = LEFTHAND
+          model = *
+
+Profile: PSA claimrule number "65429"
+Summary: What custom claimrules should Pluggable Storage Architecture (PSA) plugins use to claim storage devices? (Note: default claimrules are not shown and cannot be removed but can be overridden)
+Enabled: True
+Path: storage.psa_psaProfile_PluggableStorageArchitectureProfile.psa_psaProfile_PsaClaimrulesProfile["0b9d1a649d68592d08338ea2d938097228823a6695f90b16a29998da5de16d95"]
+
+Policies:
+  * Claim information
+       Id = psa.psaProfile.PsaClaimInformationPolicy
+       Current Option: Claim information
+       Parameters:
+          ruleNumber = 65429
+          pluginName = VMW_VAAIP_MASK
+          claimruleClass = VAAI
+          xcopyUseArrayReportedValues = False
+          xcopyUseMultipleSegments = False
+          xcopyMaxTransferSize = 0
+          xcopyMaxTransferSizeKiB = 0
+  * Claim type
+       Id = psa.psaProfile.PsaClaimTypePolicy
+       Current Option: Vendor-model
+       Parameters:
+          vendorName = MSFT
+          model = Virtual HD
+
+Profile: PSA claimrule number "65430"
+Summary: What custom claimrules should Pluggable Storage Architecture (PSA) plugins use to claim storage devices? (Note: default claimrules are not shown and cannot be removed but can be overridden)
+Enabled: True
+Path: storage.psa_psaProfile_PluggableStorageArchitectureProfile.psa_psaProfile_PsaClaimrulesProfile["b7fd482c9910c122e5292ac8501b2415b2981b3de127228c033f662339aa8665"]
+
+Policies:
+  * Claim information
+       Id = psa.psaProfile.PsaClaimInformationPolicy
+       Current Option: Claim information
+       Parameters:
+          ruleNumber = 65430
+          pluginName = VMW_VAAIP_SYMM
+          claimruleClass = VAAI
+          xcopyUseArrayReportedValues = False
+          xcopyUseMultipleSegments = False
+          xcopyMaxTransferSize = 0
+          xcopyMaxTransferSizeKiB = 0
+  * Claim type
+       Id = psa.psaProfile.PsaClaimTypePolicy
+       Current Option: Vendor-model
+       Parameters:
+          vendorName = EMC
+          model = SYMMETRIX
+
+Profile: PSA claimrule number "65431"
+Summary: What custom claimrules should Pluggable Storage Architecture (PSA) plugins use to claim storage devices? (Note: default claimrules are not shown and cannot be removed but can be overridden)
+Enabled: True
+Path: storage.psa_psaProfile_PluggableStorageArchitectureProfile.psa_psaProfile_PsaClaimrulesProfile["a768d6e9734d989cb64d9f5e2fa439f7c92d9eae3160ee10ef4693c7e64bf011"]
+
+Policies:
+  * Claim information
+       Id = psa.psaProfile.PsaClaimInformationPolicy
+       Current Option: Claim information
+       Parameters:
+          ruleNumber = 65431
+          pluginName = VMW_VAAIP_CX
+          claimruleClass = VAAI
+          xcopyUseArrayReportedValues = False
+          xcopyUseMultipleSegments = False
+          xcopyMaxTransferSize = 0
+          xcopyMaxTransferSizeKiB = 0
+  * Claim type
+       Id = psa.psaProfile.PsaClaimTypePolicy
+       Current Option: Vendor-model
+       Parameters:
+          vendorName = DGC
+          model = *
+
+Profile: PSA claimrule number "65432"
+Summary: What custom claimrules should Pluggable Storage Architecture (PSA) plugins use to claim storage devices? (Note: default claimrules are not shown and cannot be removed but can be overridden)
+Enabled: True
+Path: storage.psa_psaProfile_PluggableStorageArchitectureProfile.psa_psaProfile_PsaClaimrulesProfile["66d9f7634586679c4e51a175e7bdba1e8827f5f5f432ad33f78739281d43048b"]
+
+Policies:
+  * Claim information
+       Id = psa.psaProfile.PsaClaimInformationPolicy
+       Current Option: Claim information
+       Parameters:
+          ruleNumber = 65432
+          pluginName = VMW_VAAIP_EQL
+          claimruleClass = VAAI
+          xcopyUseArrayReportedValues = False
+          xcopyUseMultipleSegments = False
+          xcopyMaxTransferSize = 0
+          xcopyMaxTransferSizeKiB = 0
+  * Claim type
+       Id = psa.psaProfile.PsaClaimTypePolicy
+       Current Option: Vendor-model
+       Parameters:
+          vendorName = EQLOGIC
+          model = *
+
+Profile: PSA claimrule number "65433"
+Summary: What custom claimrules should Pluggable Storage Architecture (PSA) plugins use to claim storage devices? (Note: default claimrules are not shown and cannot be removed but can be overridden)
+Enabled: True
+Path: storage.psa_psaProfile_PluggableStorageArchitectureProfile.psa_psaProfile_PsaClaimrulesProfile["15abab549cc4b10d62c19199e05417c8e860e5b91f2e3ae93588d28124461394"]
+
+Policies:
+  * Claim information
+       Id = psa.psaProfile.PsaClaimInformationPolicy
+       Current Option: Claim information
+       Parameters:
+          ruleNumber = 65433
+          pluginName = VMW_VAAIP_NETAPP
+          claimruleClass = VAAI
+          xcopyUseArrayReportedValues = False
+          xcopyUseMultipleSegments = False
+          xcopyMaxTransferSize = 0
+          xcopyMaxTransferSizeKiB = 0
+  * Claim type
+       Id = psa.psaProfile.PsaClaimTypePolicy
+       Current Option: Vendor-model
+       Parameters:
+          vendorName = NETAPP
+          model = LUN*
+
+Profile: PSA claimrule number "65434"
+Summary: What custom claimrules should Pluggable Storage Architecture (PSA) plugins use to claim storage devices? (Note: default claimrules are not shown and cannot be removed but can be overridden)
+Enabled: True
+Path: storage.psa_psaProfile_PluggableStorageArchitectureProfile.psa_psaProfile_PsaClaimrulesProfile["451942443cfc1babbce9f4435a1076c4d64aac47fd57d3b6cb0a8ce7bbf879f7"]
+
+Policies:
+  * Claim information
+       Id = psa.psaProfile.PsaClaimInformationPolicy
+       Current Option: Claim information
+       Parameters:
+          ruleNumber = 65434
+          pluginName = VMW_VAAIP_HDS
+          claimruleClass = VAAI
+          xcopyUseArrayReportedValues = False
+          xcopyUseMultipleSegments = False
+          xcopyMaxTransferSize = 0
+          xcopyMaxTransferSizeKiB = 0
+  * Claim type
+       Id = psa.psaProfile.PsaClaimTypePolicy
+       Current Option: Vendor-model
+       Parameters:
+          vendorName = HITACHI
+          model = *
+
+Profile: PSA claimrule number "65435"
+Summary: What custom claimrules should Pluggable Storage Architecture (PSA) plugins use to claim storage devices? (Note: default claimrules are not shown and cannot be removed but can be overridden)
+Enabled: True
+Path: storage.psa_psaProfile_PluggableStorageArchitectureProfile.psa_psaProfile_PsaClaimrulesProfile["6812b124e595d87547c13f369ef0a067b627dad177079c4443959c81b6f229ee"]
+
+Policies:
+  * Claim information
+       Id = psa.psaProfile.PsaClaimInformationPolicy
+       Current Option: Claim information
+       Parameters:
+          ruleNumber = 65435
+          pluginName = VMW_VAAIP_LHN
+          claimruleClass = VAAI
+          xcopyUseArrayReportedValues = False
+          xcopyUseMultipleSegments = False
+          xcopyMaxTransferSize = 0
+          xcopyMaxTransferSizeKiB = 0
+  * Claim type
+       Id = psa.psaProfile.PsaClaimTypePolicy
+       Current Option: Vendor-model
+       Parameters:
+          vendorName = LEFTHAND
+          model = *
+
+Profile: Host boot device configuration
+Summary: What is the boot device and what are its settings?
+Enabled: True
+Path: storage.psa_psaProfile_PluggableStorageArchitectureProfile.psa_psaProfile_PsaBootDeviceProfile
+
+Policies:
+  * Boot device
+       Id = psa.psaProfile.PsaBootDevicePolicy
+       Current Option: Boot device
+       Parameters:
+          haveBootDisk = True
+          bootDisk = naa.600605b004213bc001e293503af49afb
+          isLocal = True
+
+Profile: PSA device setting "naa.600605b004213bc001e293503af49afb"
+Summary: How should Pluggable Storage Architecture (PSA) storage devices setting be configured?
+Enabled: True
+Path: storage.psa_psaProfile_PluggableStorageArchitectureProfile.psa_psaProfile_PsaDeviceSettingProfile["b03e313956b2403247cc34c57b0bf5202b8467ad45c9c325e5181fdda012ad21"]
+
+Policies:
+  * Setting
+       Id = psa.psaProfile.PsaDeviceSettingPolicy
+       Current Option: Setting
+       Parameters:
+          deviceName = naa.600605b004213bc001e293503af49afb
+          isPerenniallyReserved = False
+
+Profile: PSA device configuration "naa.600605b004213bc001e293503af49afb"
+Summary: How should Pluggable Storage Architecture (PSA) storage devices be configured?
+Enabled: True
+Path: storage.psa_psaProfile_PluggableStorageArchitectureProfile.psa_psaProfile_PsaDeviceConfigurationProfile["fe19a33d4cd1dbedf94f42c5727ad2e8382e8525ef2b766aab593510e7da18b7"]
+
+Policies:
+  * Configuration
+       Id = psa.psaProfile.PsaDeviceConfigurationPolicy
+       Current Option: Configuration
+       Parameters:
+          deviceName = naa.600605b004213bc001e293503af49afb
+          deviceStateOn = True
+          queueFullThreshold = 0
+          queueFullSampleSize = 0
+          numReqOutstanding = 32
+
+Profile: PSA device inquiry cache "naa.600605b004213bc001e293503af49afb"
+Summary: How should Pluggable Storage Architecture (PSA) storage device inquiry cache setting be configured?
+Enabled: True
+Path: storage.psa_psaProfile_PluggableStorageArchitectureProfile.psa_psaProfile_PsaDeviceInquiryCacheProfile["71f0a771105479b07dd27c0298591c24181c5f9f8a36ff638b169fcb2bcc12c8"]
+
+Policies:
+  * Device inquiry cache
+       Id = psa.psaProfile.PsaDeviceInquiryCachePolicy
+       Current Option: Device inquiry cache
+       Parameters:
+          deviceName = naa.600605b004213bc001e293503af49afb
+          ignoreCache = False
+
+
+Command displayprofile successful
+Profile: Native Multi-Pathing (NMP)
+Summary: How should Native Multi-Pathing (NMP) storage devices and plugins be configured?
+Enabled: True
+Path: storage.nmp_nmpProfile_NativeMultiPathingProfile
+Profile: Storage Array Type Plugin (SATP) configuration
+Summary: How should Storage Array Type Plugin (SATP) plugins be configured on a per-device basis?
+Enabled: True
+Path: storage.nmp_nmpProfile_NativeMultiPathingProfile.nmp_nmpProfile_StorageArrayTypePluginProfile
+
+
+Found no profiles in the array specified by path:
+storage.nmp_nmpProfile_NativeMultiPathingProfile.nmp_nmpProfile_StorageArrayTypePluginProfile.nmp_nmpProfile_SatpClaimrulesProfile
+Profile: SATP "VMW_SATP_MSA" default PSP configuration
+Summary: What Path Selection Policy (PSP) should be configured as the default on a per-SATP basis?
+Enabled: True
+Path: storage.nmp_nmpProfile_NativeMultiPathingProfile.nmp_nmpProfile_StorageArrayTypePluginProfile.nmp_nmpProfile_DefaultPspProfile["5fd4ddba0941fb6376ce05924a3e2cd1ef3af63517345f89030e1b28876ac396"]
+
+Policies:
+  * Path Selection Policy
+       Id = nmp.nmpProfile.DefaultPspPolicy
+       Current Option: Set a default PSP for a SATP
+       Parameters:
+          satpName = VMW_SATP_MSA
+          pspName = VMW_PSP_MRU
+
+Profile: SATP "VMW_SATP_ALUA" default PSP configuration
+Summary: What Path Selection Policy (PSP) should be configured as the default on a per-SATP basis?
+Enabled: True
+Path: storage.nmp_nmpProfile_NativeMultiPathingProfile.nmp_nmpProfile_StorageArrayTypePluginProfile.nmp_nmpProfile_DefaultPspProfile["a11d956c9f4ec92ed14eebba87dbca1ba944ecade29cde6985b50f3989337999"]
+
+Policies:
+  * Path Selection Policy
+       Id = nmp.nmpProfile.DefaultPspPolicy
+       Current Option: Set a default PSP for a SATP
+       Parameters:
+          satpName = VMW_SATP_ALUA
+          pspName = VMW_PSP_MRU
+
+Profile: SATP "VMW_SATP_DEFAULT_AP" default PSP configuration
+Summary: What Path Selection Policy (PSP) should be configured as the default on a per-SATP basis?
+Enabled: True
+Path: storage.nmp_nmpProfile_NativeMultiPathingProfile.nmp_nmpProfile_StorageArrayTypePluginProfile.nmp_nmpProfile_DefaultPspProfile["bb7e1b64093a385f17d8f7ec39d7f6c4878e075e70f86e2c5bf73d720e0a2886"]
+
+Policies:
+  * Path Selection Policy
+       Id = nmp.nmpProfile.DefaultPspPolicy
+       Current Option: Set a default PSP for a SATP
+       Parameters:
+          satpName = VMW_SATP_DEFAULT_AP
+          pspName = VMW_PSP_MRU
+
+Profile: SATP "VMW_SATP_SVC" default PSP configuration
+Summary: What Path Selection Policy (PSP) should be configured as the default on a per-SATP basis?
+Enabled: True
+Path: storage.nmp_nmpProfile_NativeMultiPathingProfile.nmp_nmpProfile_StorageArrayTypePluginProfile.nmp_nmpProfile_DefaultPspProfile["40f86b502dfa0fcb2f728498f0e5f0552edfbcf02bb8058cc0d906aacde5e3c4"]
+
+Policies:
+  * Path Selection Policy
+       Id = nmp.nmpProfile.DefaultPspPolicy
+       Current Option: Set a default PSP for a SATP
+       Parameters:
+          satpName = VMW_SATP_SVC
+          pspName = VMW_PSP_FIXED
+
+Profile: SATP "VMW_SATP_EQL" default PSP configuration
+Summary: What Path Selection Policy (PSP) should be configured as the default on a per-SATP basis?
+Enabled: True
+Path: storage.nmp_nmpProfile_NativeMultiPathingProfile.nmp_nmpProfile_StorageArrayTypePluginProfile.nmp_nmpProfile_DefaultPspProfile["8f4e10ecfa10be9948e068083f8766ec567bd59e7ae6d9ab2d21bf437adb86a5"]
+
+Policies:
+  * Path Selection Policy
+       Id = nmp.nmpProfile.DefaultPspPolicy
+       Current Option: Set a default PSP for a SATP
+       Parameters:
+          satpName = VMW_SATP_EQL
+          pspName = VMW_PSP_FIXED
+
+Profile: SATP "VMW_SATP_INV" default PSP configuration
+Summary: What Path Selection Policy (PSP) should be configured as the default on a per-SATP basis?
+Enabled: True
+Path: storage.nmp_nmpProfile_NativeMultiPathingProfile.nmp_nmpProfile_StorageArrayTypePluginProfile.nmp_nmpProfile_DefaultPspProfile["e44bf6e81802d3fd9de74b61f4ea7241817d8814b847c9353fc7b811243783b9"]
+
+Policies:
+  * Path Selection Policy
+       Id = nmp.nmpProfile.DefaultPspPolicy
+       Current Option: Set a default PSP for a SATP
+       Parameters:
+          satpName = VMW_SATP_INV
+          pspName = VMW_PSP_FIXED
+
+Profile: SATP "VMW_SATP_EVA" default PSP configuration
+Summary: What Path Selection Policy (PSP) should be configured as the default on a per-SATP basis?
+Enabled: True
+Path: storage.nmp_nmpProfile_NativeMultiPathingProfile.nmp_nmpProfile_StorageArrayTypePluginProfile.nmp_nmpProfile_DefaultPspProfile["1f3fc3b722a0dd6c8fcb2875e64845629824f02d5e6446ced97d2c75b6d98817"]
+
+Policies:
+  * Path Selection Policy
+       Id = nmp.nmpProfile.DefaultPspPolicy
+       Current Option: Set a default PSP for a SATP
+       Parameters:
+          satpName = VMW_SATP_EVA
+          pspName = VMW_PSP_FIXED
+
+Profile: SATP "VMW_SATP_ALUA_CX" default PSP configuration
+Summary: What Path Selection Policy (PSP) should be configured as the default on a per-SATP basis?
+Enabled: True
+Path: storage.nmp_nmpProfile_NativeMultiPathingProfile.nmp_nmpProfile_StorageArrayTypePluginProfile.nmp_nmpProfile_DefaultPspProfile["4bf304ee80f2821b6479247b2fbf9d0c92df87412049064646b2dbe3533e6203"]
+
+Policies:
+  * Path Selection Policy
+       Id = nmp.nmpProfile.DefaultPspPolicy
+       Current Option: Set a default PSP for a SATP
+       Parameters:
+          satpName = VMW_SATP_ALUA_CX
+          pspName = VMW_PSP_RR
+
+Profile: SATP "VMW_SATP_SYMM" default PSP configuration
+Summary: What Path Selection Policy (PSP) should be configured as the default on a per-SATP basis?
+Enabled: True
+Path: storage.nmp_nmpProfile_NativeMultiPathingProfile.nmp_nmpProfile_StorageArrayTypePluginProfile.nmp_nmpProfile_DefaultPspProfile["34f55dc13ab5fe99fb5b3b4942c4f90bd84fd38de3f0f19fd4489fae7a6bcfa6"]
+
+Policies:
+  * Path Selection Policy
+       Id = nmp.nmpProfile.DefaultPspPolicy
+       Current Option: Set a default PSP for a SATP
+       Parameters:
+          satpName = VMW_SATP_SYMM
+          pspName = VMW_PSP_RR
+
+Profile: SATP "VMW_SATP_CX" default PSP configuration
+Summary: What Path Selection Policy (PSP) should be configured as the default on a per-SATP basis?
+Enabled: True
+Path: storage.nmp_nmpProfile_NativeMultiPathingProfile.nmp_nmpProfile_StorageArrayTypePluginProfile.nmp_nmpProfile_DefaultPspProfile["c53ced137b955b510adc13ee87be9002b42a7744de5b3d2da730d7f9df99df5f"]
+
+Policies:
+  * Path Selection Policy
+       Id = nmp.nmpProfile.DefaultPspPolicy
+       Current Option: Set a default PSP for a SATP
+       Parameters:
+          satpName = VMW_SATP_CX
+          pspName = VMW_PSP_MRU
+
+Profile: SATP "VMW_SATP_LSI" default PSP configuration
+Summary: What Path Selection Policy (PSP) should be configured as the default on a per-SATP basis?
+Enabled: True
+Path: storage.nmp_nmpProfile_NativeMultiPathingProfile.nmp_nmpProfile_StorageArrayTypePluginProfile.nmp_nmpProfile_DefaultPspProfile["8fec9cbd2744eaee77888abbf4e9cdb6a8a8ed4b74ffbef084cb1c256fc8afc2"]
+
+Policies:
+  * Path Selection Policy
+       Id = nmp.nmpProfile.DefaultPspPolicy
+       Current Option: Set a default PSP for a SATP
+       Parameters:
+          satpName = VMW_SATP_LSI
+          pspName = VMW_PSP_MRU
+
+Profile: SATP "VMW_SATP_DEFAULT_AA" default PSP configuration
+Summary: What Path Selection Policy (PSP) should be configured as the default on a per-SATP basis?
+Enabled: True
+Path: storage.nmp_nmpProfile_NativeMultiPathingProfile.nmp_nmpProfile_StorageArrayTypePluginProfile.nmp_nmpProfile_DefaultPspProfile["c8f6b3dce37f4b1d4925952bf044f7c55924d4d51cbeeb4e89ffac9f41e2e399"]
+
+Policies:
+  * Path Selection Policy
+       Id = nmp.nmpProfile.DefaultPspPolicy
+       Current Option: Set a default PSP for a SATP
+       Parameters:
+          satpName = VMW_SATP_DEFAULT_AA
+          pspName = VMW_PSP_FIXED
+
+Profile: SATP "VMW_SATP_LOCAL" default PSP configuration
+Summary: What Path Selection Policy (PSP) should be configured as the default on a per-SATP basis?
+Enabled: True
+Path: storage.nmp_nmpProfile_NativeMultiPathingProfile.nmp_nmpProfile_StorageArrayTypePluginProfile.nmp_nmpProfile_DefaultPspProfile["68b5e69bafecec9b4ab29ba8fd838e8c6697b98e99c429e66d001435399cc7e7"]
+
+Policies:
+  * Path Selection Policy
+       Id = nmp.nmpProfile.DefaultPspPolicy
+       Current Option: Set a default PSP for a SATP
+       Parameters:
+          satpName = VMW_SATP_LOCAL
+          pspName = VMW_PSP_FIXED
+
+
+Profile: PSP and SATP configuration for NMP devices
+Summary: How should Native Multi-Pathing (NMP) storage devices be configured?
+Enabled: True
+Path: storage.nmp_nmpProfile_NativeMultiPathingProfile.nmp_nmpProfile_NmpDeviceProfile
+Profile: PSP configuration for "naa.600605b004213bc001e293503af49afb"
+Summary: How should Native Multi-Pathing (NMP) storage devices be configured?
+Enabled: True
+Path: storage.nmp_nmpProfile_NativeMultiPathingProfile.nmp_nmpProfile_NmpDeviceProfile.nmp_nmpProfile_NmpDeviceConfigurationProfile["0c6042b29c1c2a6c8f011e8e732d4f7666f98fd716b3555a52d580fd13b0fed6"]
+
+Policies:
+  * PSP configuration
+       Id = nmp.nmpProfile.DevicePspAssignmentPolicy
+       Current Option: Set the PSP for a storage device
+       Parameters:
+          deviceName = naa.600605b004213bc001e293503af49afb
+          pspName = VMW_PSP_FIXED
+
+
+
+Found no profiles in the array specified by path:
+storage.nmp_nmpProfile_NativeMultiPathingProfile.nmp_nmpProfile_NmpDeviceProfile.nmp_nmpProfile_SatpDeviceProfile
+
+Profile: Path Selection Policy (PSP) configuration
+Summary: How should NMP Path Selection Policy (PSP) plugins be configured?
+Enabled: True
+Path: storage.nmp_nmpProfile_NativeMultiPathingProfile.nmp_nmpProfile_PathSelectionPolicyProfile
+
+
+Found no profiles in the array specified by path:
+storage.nmp_nmpProfile_NativeMultiPathingProfile.nmp_nmpProfile_PathSelectionPolicyProfile.nmp_nmpProfile_PspDeviceConfigurationProfile
+
+
+Found no profiles in the array specified by path:
+storage.nmp_nmpProfile_NativeMultiPathingProfile.nmp_nmpProfile_PathSelectionPolicyProfile.nmp_nmpProfile_FixedPspConfigurationProfile
+
+
+Found no profiles in the array specified by path:
+storage.nmp_nmpProfile_NativeMultiPathingProfile.nmp_nmpProfile_PathSelectionPolicyProfile.nmp_nmpProfile_RoundRobinPspConfigurationProfile
+
+
+Command displayprofile successful
+Profile: Virtual Volumes (VVOL)
+Summary: Configuration for Virtual Volumes (VVOL) storage containers and VASA providers.
+Enabled: True
+Path: storage.vvol_vvolProfile_VirtualVolumesProfile
+
+
+Found no profiles in the array specified by path:
+storage.vvol_vvolProfile_VirtualVolumesProfile.vvol_vvolProfile_VvolVasaProviderConfigurationProfile
+
+
+Found no profiles in the array specified by path:
+storage.vvol_vvolProfile_VirtualVolumesProfile.vvol_vvolProfile_VvolStorageContainerConfigurationProfile
+Profile: Vvol VASA Context "d29026ec-22da-444a-8a43-40bdd86cbfee" configuration
+Summary: Configuration for the Virtual Volumes VASA Context on the vSphere (ESXi) host.
+Enabled: True
+Path: storage.vvol_vvolProfile_VirtualVolumesProfile.vvol_vvolProfile_VvolVasaContextConfigurationProfile["d1cc405ae52b6c927695a94f0088eadca8487153c13cf2fa9332d59215a0c670"]
+
+Policies:
+  * Virtual Volumes VASA Context configuration policy
+       Id = vvol.vvolProfile.VasaContextPolicy
+       Current Option: Virtual Volumes VASA Context UUID
+       Parameters:
+          vcUuid = d29026ec-22da-444a-8a43-40bdd86cbfee
+
+
+Command displayprofile successful

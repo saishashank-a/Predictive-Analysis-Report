@@ -1,0 +1,109 @@
+
+T:  Bus=01 Lev=00 Prnt=00 Port=00 Cnt=00 Dev#=  1 Spd=12   MxCh= 2
+V:  Not available for Passthrough
+B:  Alloc=  0/900 us ( 0%), #Int=  0, #Iso=  0
+D:  Ver= 1.00 Cls=09(hub  ) Sub=00 Prot=00 MxPS=64 #Cfgs=  1
+P:  Vendor=0e0f ProdID=8001 Rev= 1.00
+S:  Manufacturer=Intel
+S:  Product=UHCI root HUB
+C:* #Ifs= 1 Cfg#= 1 Atr=40 MxPwr=  0mA
+I:* If#= 0 Alt= 0 #EPs= 1 Cls=09(hub  ) Sub=00 Prot=00 Driver=uhub
+E:  Ad=81(I) Atr=03(Intr) MxPS=   8 Ivl=255ms
+
+T:  Bus=02 Lev=00 Prnt=00 Port=00 Cnt=00 Dev#=  1 Spd=12   MxCh= 2
+V:  Not available for Passthrough
+B:  Alloc=  0/900 us ( 0%), #Int=  0, #Iso=  0
+D:  Ver= 1.00 Cls=09(hub  ) Sub=00 Prot=00 MxPS=64 #Cfgs=  1
+P:  Vendor=0e0f ProdID=8001 Rev= 1.00
+S:  Manufacturer=Intel
+S:  Product=UHCI root HUB
+C:* #Ifs= 1 Cfg#= 1 Atr=40 MxPwr=  0mA
+I:* If#= 0 Alt= 0 #EPs= 1 Cls=09(hub  ) Sub=00 Prot=00 Driver=uhub
+E:  Ad=81(I) Atr=03(Intr) MxPS=   8 Ivl=255ms
+
+T:  Bus=03 Lev=00 Prnt=00 Port=00 Cnt=00 Dev#=  1 Spd=480  MxCh= 6
+V:  Not available for Passthrough
+B:  Alloc=  0/800 us ( 0%), #Int=  0, #Iso=  0
+D:  Ver= 2.00 Cls=09(hub  ) Sub=00 Prot=01 MxPS=64 #Cfgs=  1
+P:  Vendor=0e0f ProdID=8002 Rev= 1.00
+S:  Manufacturer=Intel
+S:  Product=EHCI root HUB
+C:* #Ifs= 1 Cfg#= 1 Atr=40 MxPwr=  0mA
+I:* If#= 0 Alt= 0 #EPs= 1 Cls=09(hub  ) Sub=00 Prot=00 Driver=uhub
+E:  Ad=81(I) Atr=03(Intr) MxPS=   8 Ivl=0ms
+
+T:  Bus=04 Lev=00 Prnt=00 Port=00 Cnt=00 Dev#=  1 Spd=12   MxCh= 2
+V:  Not available for Passthrough
+B:  Alloc= 10/900 us ( 2%), #Int=  1, #Iso=  0
+D:  Ver= 1.00 Cls=09(hub  ) Sub=00 Prot=00 MxPS=64 #Cfgs=  1
+P:  Vendor=0e0f ProdID=8001 Rev= 1.00
+S:  Manufacturer=Intel
+S:  Product=UHCI root HUB
+C:* #Ifs= 1 Cfg#= 1 Atr=40 MxPwr=  0mA
+I:* If#= 0 Alt= 0 #EPs= 1 Cls=09(hub  ) Sub=00 Prot=00 Driver=uhub
+E:  Ad=81(I) Atr=03(Intr) MxPS=   8 Ivl=255ms
+
+T:  Bus=04 Lev=01 Prnt=01 Port=01 Cnt=01 Dev#=  2 Spd=12   MxCh= 0
+V:  Not available for Passthrough
+D:  Ver= 2.00 Cls=02(cdc-c) Sub=00 Prot=00 MxPS=64 #Cfgs=  2
+P:  Vendor=04b3 ProdID=4010 Rev= 2.15
+S:  Manufacturer=IBM
+S:  Product=RNDISCDC ETHER
+C:  #Ifs= 2 Cfg#= 2 Atr=c0 MxPwr=100mA
+C:* #Ifs= 2 Cfg#= 1 Atr=c0 MxPwr=100mA
+I:  If#= 0 Alt= 0 #EPs= 1 Cls=02(cdc-c) Sub=02 Prot=ff Driver=(none)
+E:  Ad=82(I) Atr=03(Intr) MxPS=  16 Ivl=32ms
+I:  If#= 1 Alt= 0 #EPs= 2 Cls=0a(cdc-d) Sub=00 Prot=00 Driver=(none)
+E:  Ad=81(I) Atr=02(Bulk) MxPS=  64 Ivl=0ms
+E:  Ad=01(O) Atr=02(Bulk) MxPS=  64 Ivl=0ms
+I:* If#= 0 Alt= 0 #EPs= 1 Cls=02(cdc-c) Sub=06 Prot=00 Driver=cdce
+E:  Ad=82(I) Atr=03(Intr) MxPS=  16 Ivl=32ms
+I:  If#= 1 Alt= 0 #EPs= 0 Cls=0a(cdc-d) Sub=00 Prot=00 Driver=(none)
+I:* If#= 1 Alt= 1 #EPs= 2 Cls=0a(cdc-d) Sub=00 Prot=00 Driver=(none)
+E:  Ad=81(I) Atr=02(Bulk) MxPS=  64 Ivl=0ms
+E:  Ad=01(O) Atr=02(Bulk) MxPS=  64 Ivl=0ms
+
+T:  Bus=05 Lev=00 Prnt=00 Port=00 Cnt=00 Dev#=  1 Spd=12   MxCh= 2
+V:  Not available for Passthrough
+B:  Alloc=  0/900 us ( 0%), #Int=  0, #Iso=  0
+D:  Ver= 1.00 Cls=09(hub  ) Sub=00 Prot=00 MxPS=64 #Cfgs=  1
+P:  Vendor=0e0f ProdID=8001 Rev= 1.00
+S:  Manufacturer=Intel
+S:  Product=UHCI root HUB
+C:* #Ifs= 1 Cfg#= 1 Atr=40 MxPwr=  0mA
+I:* If#= 0 Alt= 0 #EPs= 1 Cls=09(hub  ) Sub=00 Prot=00 Driver=uhub
+E:  Ad=81(I) Atr=03(Intr) MxPS=   8 Ivl=255ms
+
+T:  Bus=06 Lev=00 Prnt=00 Port=00 Cnt=00 Dev#=  1 Spd=12   MxCh= 2
+V:  Not available for Passthrough
+B:  Alloc=  0/900 us ( 0%), #Int=  0, #Iso=  0
+D:  Ver= 1.00 Cls=09(hub  ) Sub=00 Prot=00 MxPS=64 #Cfgs=  1
+P:  Vendor=0e0f ProdID=8001 Rev= 1.00
+S:  Manufacturer=Intel
+S:  Product=UHCI root HUB
+C:* #Ifs= 1 Cfg#= 1 Atr=40 MxPwr=  0mA
+I:* If#= 0 Alt= 0 #EPs= 1 Cls=09(hub  ) Sub=00 Prot=00 Driver=uhub
+E:  Ad=81(I) Atr=03(Intr) MxPS=   8 Ivl=255ms
+
+T:  Bus=07 Lev=00 Prnt=00 Port=00 Cnt=00 Dev#=  1 Spd=480  MxCh= 6
+V:  Not available for Passthrough
+B:  Alloc=  0/800 us ( 0%), #Int=  0, #Iso=  0
+D:  Ver= 2.00 Cls=09(hub  ) Sub=00 Prot=01 MxPS=64 #Cfgs=  1
+P:  Vendor=0e0f ProdID=8002 Rev= 1.00
+S:  Manufacturer=Intel
+S:  Product=EHCI root HUB
+C:* #Ifs= 1 Cfg#= 1 Atr=40 MxPwr=  0mA
+I:* If#= 0 Alt= 0 #EPs= 1 Cls=09(hub  ) Sub=00 Prot=00 Driver=uhub
+E:  Ad=81(I) Atr=03(Intr) MxPS=   8 Ivl=0ms
+
+T:  Bus=07 Lev=01 Prnt=01 Port=03 Cnt=01 Dev#=  2 Spd=480  MxCh= 0
+V:  Available for Passthrough
+D:  Ver= 2.00 Cls=00(>ifc ) Sub=00 Prot=00 MxPS=64 #Cfgs=  1
+P:  Vendor=0e39 ProdID=f101 Rev= 0.90
+S:  Manufacturer=SMART
+S:  Product=USB-IBM
+S:  SerialNumber=2002012643120492
+C:* #Ifs= 1 Cfg#= 1 Atr=80 MxPwr=100mA
+I:* If#= 0 Alt= 0 #EPs= 2 Cls=08(stor.) Sub=06 Prot=50 Driver=(none)
+E:  Ad=81(I) Atr=02(Bulk) MxPS= 512 Ivl=0ms
+E:  Ad=02(O) Atr=02(Bulk) MxPS= 512 Ivl=0ms

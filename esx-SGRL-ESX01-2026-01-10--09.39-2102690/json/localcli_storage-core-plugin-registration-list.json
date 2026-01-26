@@ -1,0 +1,251 @@
+
+[
+
+      {
+         "Dependencies": "",
+         "Full Path": "",
+         "Module Name": "vmw_vaaip_emc",
+         "Plugin Class": "VAAI",
+         "Plugin Name": "None"
+      }, 
+
+      {
+         "Dependencies": "",
+         "Full Path": "",
+         "Module Name": "vmw_vaaip_t10",
+         "Plugin Class": "VAAI",
+         "Plugin Name": "VMW_VAAIP_T10"
+      }, 
+
+      {
+         "Dependencies": "",
+         "Full Path": "",
+         "Module Name": "vmw_vaaip_mask",
+         "Plugin Class": "VAAI",
+         "Plugin Name": "VMW_VAAIP_MASK"
+      }, 
+
+      {
+         "Dependencies": "vmw_vaaip_emc",
+         "Full Path": "",
+         "Module Name": "vmw_vaaip_symm",
+         "Plugin Class": "VAAI",
+         "Plugin Name": "VMW_VAAIP_SYMM"
+      }, 
+
+      {
+         "Dependencies": "",
+         "Full Path": "",
+         "Module Name": "vmw_vaaip_netapp",
+         "Plugin Class": "VAAI",
+         "Plugin Name": "VMW_VAAIP_NETAPP"
+      }, 
+
+      {
+         "Dependencies": "",
+         "Full Path": "",
+         "Module Name": "vmw_vaaip_lhn",
+         "Plugin Class": "VAAI",
+         "Plugin Name": "VMW_VAAIP_LHN"
+      }, 
+
+      {
+         "Dependencies": "",
+         "Full Path": "",
+         "Module Name": "vmw_vaaip_hds",
+         "Plugin Class": "VAAI",
+         "Plugin Name": "VMW_VAAIP_HDS"
+      }, 
+
+      {
+         "Dependencies": "",
+         "Full Path": "",
+         "Module Name": "vmw_vaaip_eql",
+         "Plugin Class": "VAAI",
+         "Plugin Name": "VMW_VAAIP_EQL"
+      }, 
+
+      {
+         "Dependencies": "vmw_vaaip_emc,vmw_satp_lib_cx",
+         "Full Path": "",
+         "Module Name": "vmw_vaaip_cx",
+         "Plugin Class": "VAAI",
+         "Plugin Name": "VMW_VAAIP_CX"
+      }, 
+
+      {
+         "Dependencies": "",
+         "Full Path": "",
+         "Module Name": "vaai_filter",
+         "Plugin Class": "Filter",
+         "Plugin Name": "VAAI_FILTER"
+      }, 
+
+      {
+         "Dependencies": "",
+         "Full Path": "",
+         "Module Name": "vmw_psp_lib",
+         "Plugin Class": "PSP",
+         "Plugin Name": "None"
+      }, 
+
+      {
+         "Dependencies": "vmw_psp_lib",
+         "Full Path": "",
+         "Module Name": "vmw_psp_mru",
+         "Plugin Class": "PSP",
+         "Plugin Name": "VMW_PSP_MRU"
+      }, 
+
+      {
+         "Dependencies": "vmw_psp_lib",
+         "Full Path": "",
+         "Module Name": "vmw_psp_rr",
+         "Plugin Class": "PSP",
+         "Plugin Name": "VMW_PSP_RR"
+      }, 
+
+      {
+         "Dependencies": "vmw_psp_lib",
+         "Full Path": "",
+         "Module Name": "vmw_psp_fixed",
+         "Plugin Class": "PSP",
+         "Plugin Name": "VMW_PSP_FIXED"
+      }, 
+
+      {
+         "Dependencies": "",
+         "Full Path": "",
+         "Module Name": "mask_path_plugin",
+         "Plugin Class": "MP",
+         "Plugin Name": "MASK_PATH"
+      }, 
+
+      {
+         "Dependencies": "",
+         "Full Path": "",
+         "Module Name": "hpp",
+         "Plugin Class": "MP",
+         "Plugin Name": "HPP"
+      }, 
+
+      {
+         "Dependencies": "",
+         "Full Path": "",
+         "Module Name": "nmp",
+         "Plugin Class": "MP",
+         "Plugin Name": "NMP"
+      }, 
+
+      {
+         "Dependencies": "",
+         "Full Path": "",
+         "Module Name": "vmw_satp_symm",
+         "Plugin Class": "SATP",
+         "Plugin Name": "VMW_SATP_SYMM"
+      }, 
+
+      {
+         "Dependencies": "",
+         "Full Path": "",
+         "Module Name": "vmw_satp_svc",
+         "Plugin Class": "SATP",
+         "Plugin Name": "VMW_SATP_SVC"
+      }, 
+
+      {
+         "Dependencies": "",
+         "Full Path": "",
+         "Module Name": "vmw_satp_msa",
+         "Plugin Class": "SATP",
+         "Plugin Name": "VMW_SATP_MSA"
+      }, 
+
+      {
+         "Dependencies": "",
+         "Full Path": "",
+         "Module Name": "vmw_satp_lsi",
+         "Plugin Class": "SATP",
+         "Plugin Name": "VMW_SATP_LSI"
+      }, 
+
+      {
+         "Dependencies": "vmw_satp_lib_cx",
+         "Full Path": "",
+         "Module Name": "vmw_satp_inv",
+         "Plugin Class": "SATP",
+         "Plugin Name": "VMW_SATP_INV"
+      }, 
+
+      {
+         "Dependencies": "",
+         "Full Path": "",
+         "Module Name": "vmw_satp_eva",
+         "Plugin Class": "SATP",
+         "Plugin Name": "VMW_SATP_EVA"
+      }, 
+
+      {
+         "Dependencies": "",
+         "Full Path": "",
+         "Module Name": "vmw_satp_eql",
+         "Plugin Class": "SATP",
+         "Plugin Name": "VMW_SATP_EQL"
+      }, 
+
+      {
+         "Dependencies": "vmw_satp_lib_cx",
+         "Full Path": "",
+         "Module Name": "vmw_satp_cx",
+         "Plugin Class": "SATP",
+         "Plugin Name": "VMW_SATP_CX"
+      }, 
+
+      {
+         "Dependencies": "vmw_satp_alua,vmw_satp_lib_cx",
+         "Full Path": "",
+         "Module Name": "vmw_satp_alua_cx",
+         "Plugin Class": "SATP",
+         "Plugin Name": "VMW_SATP_ALUA_CX"
+      }, 
+
+      {
+         "Dependencies": "",
+         "Full Path": "",
+         "Module Name": "vmw_satp_lib_cx",
+         "Plugin Class": "SATP",
+         "Plugin Name": "None"
+      }, 
+
+      {
+         "Dependencies": "",
+         "Full Path": "",
+         "Module Name": "vmw_satp_alua",
+         "Plugin Class": "SATP",
+         "Plugin Name": "VMW_SATP_ALUA"
+      }, 
+
+      {
+         "Dependencies": "",
+         "Full Path": "",
+         "Module Name": "vmw_satp_default_ap",
+         "Plugin Class": "SATP",
+         "Plugin Name": "VMW_SATP_DEFAULT_AP"
+      }, 
+
+      {
+         "Dependencies": "",
+         "Full Path": "",
+         "Module Name": "vmw_satp_default_aa",
+         "Plugin Class": "SATP",
+         "Plugin Name": "VMW_SATP_DEFAULT_AA"
+      }, 
+
+      {
+         "Dependencies": "",
+         "Full Path": "",
+         "Module Name": "vmw_satp_local",
+         "Plugin Class": "SATP",
+         "Plugin Name": "VMW_SATP_LOCAL"
+      }
+]

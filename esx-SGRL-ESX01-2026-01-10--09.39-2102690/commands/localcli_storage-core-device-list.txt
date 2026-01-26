@@ -1,0 +1,45 @@
+
+naa.600605b004213bc001e293503af49afb:
+   Display Name: Local IBM Disk (naa.600605b004213bc001e293503af49afb)
+   Has Settable Display Name: true
+   Size: 5144118
+   Device Type: Direct-Access 
+   Multipath Plugin: NMP
+   Devfs Path: /vmfs/devices/disks/naa.600605b004213bc001e293503af49afb
+   Vendor: IBM
+   Model: ServeRAID M5015
+   Revision: 2.13
+   SCSI Level: 5
+   Is Pseudo: false
+   Status: on
+   Is RDM Capable: false
+   Is Local: true
+   Is Removable: false
+   Is SSD: false
+   Is VVOL PE: false
+   Is Offline: false
+   Is Perennially Reserved: false
+   Queue Full Sample Size: 0
+   Queue Full Threshold: 0
+   Thin Provisioning Status: unknown
+   Attached Filters: 
+   VAAI Status: unsupported
+   Other UIDs: vml.0200000000600605b004213bc001e293503af49afb536572766552
+   Is Shared Clusterwide: false
+   Is SAS: false
+   Is USB: false
+   Is Boot Device: true
+   Device Max Queue Depth: 128
+   No of outstanding IOs with competing worlds: 32
+   Drive Type: logical
+   RAID Level: RAID5
+   Number of Physical Drives: 7
+   Protection Enabled: false
+   PI Activated: false
+   PI Type: 0
+   PI Protection Mask: NO PROTECTION
+   Supported Guard Types: NO GUARD SUPPORT
+   DIX Enabled: false
+   DIX Guard Type: NO GUARD SUPPORT
+   Emulated DIX/DIF Enabled: false
+

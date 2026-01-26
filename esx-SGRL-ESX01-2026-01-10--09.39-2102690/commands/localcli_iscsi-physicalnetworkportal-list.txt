@@ -1,0 +1,2 @@
+Adapter  Vmnic  MAC Address  MAC Address Valid  Current Speed  Max Speed  Max Frame Size
+----------------------------------------------------------------------------------------

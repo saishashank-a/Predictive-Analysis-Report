@@ -1,0 +1,11 @@
+% Manifest name: CoreDumps
+% Manifest group: System
+% Manifest default: Enabled
+% Manifest tag: vmkernel
+# action Options file/command
+
+# Collect all zdump files in /var/core
+copy IGNORE_MISSING,FILTER=/usr/lib/vmware/vm-support/bin/collect-zdump.sh /var/core/*-zdump*
+
+# Collect an ESXi dump - if there is one - from the dump partition
+run RELOCATE=/var/core/vmkernel-zdump,IGNORE_ERROR /usr/lib/vmware/vm-support/bin/collect-vmkernel-dump-partition.sh

@@ -1,0 +1,7 @@
+HBA Name  Driver        Link State  UID             Capabilities  Description
+-----------------------------------------------------------------------------
+vmhba0    megaraid_sas  link-n/a    unknown.vmhba0                (0000:01:00.0) LSI / Symbios Logic MegaRAID SAS GEN2 Controller
+vmhba1    vmkata        link-n/a    sata.vmhba1                   (0000:00:1f.2) Intel Corporation ICH10 4 port SATA IDE Controller
+vmhba2    vmkata        link-n/a    sata.vmhba2                   (0000:00:1f.5) Intel Corporation ICH10 2 port SATA IDE Controller
+vmhba64   vmkata        link-n/a    sata.vmhba64                  (0000:00:1f.2) Intel Corporation ICH10 4 port SATA IDE Controller
+vmhba65   vmkata        link-n/a    sata.vmhba65                  (0000:00:1f.5) Intel Corporation ICH10 2 port SATA IDE Controller

@@ -1,0 +1,12 @@
+% Manifest name: EsxImage
+% Manifest group: System
+% Manifest default: Enabled
+% Manifest tag: esxsoftware
+# action Options file/command
+copy IGNORE_MISSING /var/run/log/esxupdate.log
+run DUMP_JSON localcli software acceptance get
+run DUMP_JSON localcli software profile get
+run DUMP_JSON localcli software vib get
+run DUMP_JSON localcli software vib list
+run DUMP_JSON localcli software profile get --rebooting-image
+run DUMP_JSON localcli software vib get --rebooting-image

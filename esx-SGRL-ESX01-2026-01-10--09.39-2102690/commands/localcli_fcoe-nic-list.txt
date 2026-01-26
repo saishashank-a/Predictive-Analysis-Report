@@ -1,0 +1,55 @@
+
+vmnic0:
+   User Priority: 3
+   Source MAC: 5c:f3:fc:e8:46:f8
+   Active: false
+   Priority Settable: false
+   Source MAC Settable: false
+   VLAN Range Settable: true
+   VN2VN Mode Enabled: false
+
+vmnic1:
+   User Priority: 3
+   Source MAC: 5c:f3:fc:e8:46:fa
+   Active: false
+   Priority Settable: false
+   Source MAC Settable: false
+   VLAN Range Settable: true
+   VN2VN Mode Enabled: false
+
+vmnic2:
+   User Priority: 3
+   Source MAC: 5c:f3:fc:6a:ac:60
+   Active: false
+   Priority Settable: false
+   Source MAC Settable: false
+   VLAN Range Settable: true
+   VN2VN Mode Enabled: false
+
+vmnic3:
+   User Priority: 3
+   Source MAC: 5c:f3:fc:6a:ac:62
+   Active: false
+   Priority Settable: false
+   Source MAC Settable: false
+   VLAN Range Settable: true
+   VN2VN Mode Enabled: false
+
+vmnic4:
+   User Priority: 3
+   Source MAC: a0:36:9f:03:25:88
+   Active: false
+   Priority Settable: false
+   Source MAC Settable: false
+   VLAN Range Settable: true
+   VN2VN Mode Enabled: false
+
+vmnic5:
+   User Priority: 3
+   Source MAC: a0:36:9f:03:25:89
+   Active: false
+   Priority Settable: false
+   Source MAC Settable: false
+   VLAN Range Settable: true
+   VN2VN Mode Enabled: false
+

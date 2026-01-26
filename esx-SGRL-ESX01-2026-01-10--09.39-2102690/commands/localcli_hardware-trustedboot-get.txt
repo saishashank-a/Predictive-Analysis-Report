@@ -1,0 +1,3 @@
+TrustedbootGet:
+   Drtm Enabled: false
+   Tpm Present: true

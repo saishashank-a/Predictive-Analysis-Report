@@ -1,0 +1,2 @@
+# vmkfstools -q OpenVPN.vmdk
+OpenVPN.vmdk is not an rdm

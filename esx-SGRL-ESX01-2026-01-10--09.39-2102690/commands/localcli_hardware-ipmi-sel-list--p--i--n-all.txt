@@ -1,0 +1,5121 @@
+
+Record:1:
+   Record Id: 1
+   When: 2017-12-15T15:22:53
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Event Logging Disabled Log area reset/cleared
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 01 00 02 cd e8 33 5a 20 00 04 10 b6 6f 02 ff ff 
+
+Record:2:
+   Record Id: 2
+   When: 2018-04-28T18:55:10
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 02 00 02 8e c3 e4 5a 20 00 04 01 32 01 57 aa aa 
+
+Record:3:
+   Record Id: 3
+   When: 2018-04-28T19:38:20
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 03 00 02 ac cd e4 5a 20 00 04 01 32 01 59 ad ad 
+
+Record:4:
+   Record Id: 4
+   When: 2018-04-28T19:39:19
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 04 00 02 e7 cd e4 5a 20 00 04 09 01 6f 00 ff ff 
+
+Record:5:
+   Record Id: 5
+   When: 2018-04-29T04:22:02
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-recoverable going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 05 00 02 6a 48 e5 5a 20 00 04 01 32 01 5b b1 b1 
+
+Record:6:
+   Record Id: 6
+   When: 2018-04-29T06:35:28
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-recoverable going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 06 00 02 b0 67 e5 5a 20 00 04 01 32 81 5b ac b1 
+
+Record:7:
+   Record Id: 7
+   When: 2018-04-29T07:01:00
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 07 00 02 ac 6d e5 5a 20 00 04 01 32 81 59 a8 ad 
+
+Record:8:
+   Record Id: 8
+   When: 2018-04-29T07:30:21
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 08 00 02 8d 74 e5 5a 20 00 04 01 32 81 57 a5 aa 
+
+Record:9:
+   Record Id: 9
+   When: 2018-04-29T19:29:44
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 09 00 02 28 1d e6 5a 20 00 04 01 32 01 57 aa aa 
+
+Record:10:
+   Record Id: 10
+   When: 2018-04-29T20:01:19
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 0a 00 02 8f 24 e6 5a 20 00 04 01 32 01 59 ad ad 
+
+Record:11:
+   Record Id: 11
+   When: 2018-04-29T22:43:22
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-recoverable going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 0b 00 02 8a 4a e6 5a 20 00 04 01 32 01 5b b1 b1 
+
+Record:12:
+   Record Id: 12
+   When: 2018-04-30T06:42:54
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-recoverable going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 0c 00 02 ee ba e6 5a 20 00 04 01 32 81 5b ac b1 
+
+Record:13:
+   Record Id: 13
+   When: 2018-04-30T07:11:07
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 0d 00 02 8b c1 e6 5a 20 00 04 01 32 81 59 a8 ad 
+
+Record:14:
+   Record Id: 14
+   When: 2018-04-30T07:41:05
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 0e 00 02 91 c8 e6 5a 20 00 04 01 32 81 57 a5 aa 
+
+Record:15:
+   Record Id: 15
+   When: 2018-04-30T21:13:41
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 0f 00 02 05 87 e7 5a 20 00 04 01 32 01 57 aa aa 
+
+Record:16:
+   Record Id: 16
+   When: 2018-04-30T21:44:59
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 10 00 02 5b 8e e7 5a 20 00 04 01 32 01 59 ad ad 
+
+Record:17:
+   Record Id: 17
+   When: 2018-05-01T01:23:38
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-recoverable going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 11 00 02 9a c1 e7 5a 20 00 04 01 32 01 5b b1 b1 
+
+Record:18:
+   Record Id: 18
+   When: 2018-05-01T06:37:28
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-recoverable going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 12 00 02 28 0b e8 5a 20 00 04 01 32 81 5b ac b1 
+
+Record:19:
+   Record Id: 19
+   When: 2018-05-01T07:00:53
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 13 00 02 a5 10 e8 5a 20 00 04 01 32 81 59 a8 ad 
+
+Record:20:
+   Record Id: 20
+   When: 2018-05-01T07:28:22
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 14 00 02 16 17 e8 5a 20 00 04 01 32 81 57 a5 aa 
+
+Record:21:
+   Record Id: 21
+   When: 2018-05-01T19:32:56
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 15 00 02 e8 c0 e8 5a 20 00 04 01 32 01 57 aa aa 
+
+Record:22:
+   Record Id: 22
+   When: 2018-05-01T20:09:16
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 16 00 02 6c c9 e8 5a 20 00 04 01 32 01 59 ad ad 
+
+Record:23:
+   Record Id: 23
+   When: 2018-05-01T22:08:54
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-recoverable going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 17 00 02 76 e5 e8 5a 20 00 04 01 32 01 5b b1 b1 
+
+Record:24:
+   Record Id: 24
+   When: 2018-05-02T06:48:05
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-recoverable going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 18 00 02 25 5f e9 5a 20 00 04 01 32 81 5b ac b1 
+
+Record:25:
+   Record Id: 25
+   When: 2018-05-02T07:13:51
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 19 00 02 2f 65 e9 5a 20 00 04 01 32 81 59 a8 ad 
+
+Record:26:
+   Record Id: 26
+   When: 2018-05-02T07:41:49
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 1a 00 02 bd 6b e9 5a 20 00 04 01 32 81 57 a5 aa 
+
+Record:27:
+   Record Id: 27
+   When: 2018-05-03T21:23:30
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 1b 00 02 d2 7d eb 5a 20 00 04 01 32 01 57 aa aa 
+
+Record:28:
+   Record Id: 28
+   When: 2018-05-03T21:55:39
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 1c 00 02 5b 85 eb 5a 20 00 04 01 32 01 59 ad ad 
+
+Record:29:
+   Record Id: 29
+   When: 2018-05-03T23:26:40
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-recoverable going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 1d 00 02 b0 9a eb 5a 20 00 04 01 32 01 5b b1 b1 
+
+Record:30:
+   Record Id: 30
+   When: 2018-05-04T06:41:56
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-recoverable going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 1e 00 02 b4 00 ec 5a 20 00 04 01 32 81 5b ac b1 
+
+Record:31:
+   Record Id: 31
+   When: 2018-05-04T07:05:23
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 1f 00 02 33 06 ec 5a 20 00 04 01 32 81 59 a8 ad 
+
+Record:32:
+   Record Id: 32
+   When: 2018-05-04T07:30:31
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 20 00 02 17 0c ec 5a 20 00 04 01 32 81 57 a5 aa 
+
+Record:33:
+   Record Id: 33
+   When: 2018-05-04T21:35:42
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 21 00 02 2e d2 ec 5a 20 00 04 01 32 01 57 aa aa 
+
+Record:34:
+   Record Id: 34
+   When: 2018-05-04T22:07:12
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 22 00 02 90 d9 ec 5a 20 00 04 01 32 01 59 ad ad 
+
+Record:35:
+   Record Id: 35
+   When: 2018-05-05T00:38:40
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-recoverable going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 23 00 02 10 fd ec 5a 20 00 04 01 32 01 5b b1 b1 
+
+Record:36:
+   Record Id: 36
+   When: 2018-05-05T06:45:43
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-recoverable going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 24 00 02 17 53 ed 5a 20 00 04 01 32 81 5b ac b1 
+
+Record:37:
+   Record Id: 37
+   When: 2018-05-05T07:06:54
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 25 00 02 0e 58 ed 5a 20 00 04 01 32 81 59 a8 ad 
+
+Record:38:
+   Record Id: 38
+   When: 2018-05-05T07:34:23
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 26 00 02 7f 5e ed 5a 20 00 04 01 32 81 57 a5 aa 
+
+Record:39:
+   Record Id: 39
+   When: 2018-05-05T19:55:50
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 27 00 02 46 0c ee 5a 20 00 04 01 32 01 57 aa aa 
+
+Record:40:
+   Record Id: 40
+   When: 2018-05-05T20:26:41
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 28 00 02 81 13 ee 5a 20 00 04 01 32 01 59 ad ad 
+
+Record:41:
+   Record Id: 41
+   When: 2018-05-05T22:12:37
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-recoverable going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 29 00 02 55 2c ee 5a 20 00 04 01 32 01 5b b1 b1 
+
+Record:42:
+   Record Id: 42
+   When: 2018-05-06T06:47:41
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-recoverable going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 2a 00 02 0d a5 ee 5a 20 00 04 01 32 81 5b ac b1 
+
+Record:43:
+   Record Id: 43
+   When: 2018-05-06T07:10:40
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 2b 00 02 70 aa ee 5a 20 00 04 01 32 81 59 a8 ad 
+
+Record:44:
+   Record Id: 44
+   When: 2018-05-06T07:38:11
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 2c 00 02 e3 b0 ee 5a 20 00 04 01 32 81 57 a5 aa 
+
+Record:45:
+   Record Id: 45
+   When: 2018-05-09T21:43:19
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 2d 00 02 77 6b f3 5a 20 00 04 01 32 01 57 aa aa 
+
+Record:46:
+   Record Id: 46
+   When: 2018-05-09T22:31:04
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 2e 00 02 a8 76 f3 5a 20 00 04 01 32 01 59 ad ad 
+
+Record:47:
+   Record Id: 47
+   When: 2018-05-10T07:20:03
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 2f 00 02 a3 f2 f3 5a 20 00 04 01 32 81 59 a8 ad 
+
+Record:48:
+   Record Id: 48
+   When: 2018-05-10T08:25:47
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 30 00 02 0b 02 f4 5a 20 00 04 01 32 81 57 a5 aa 
+
+Record:49:
+   Record Id: 49
+   When: 2018-05-10T21:46:16
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 31 00 02 a8 bd f4 5a 20 00 04 09 01 6f 00 ff ff 
+
+Record:50:
+   Record Id: 50
+   When: 2018-05-10T21:48:22
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 32 00 02 26 be f4 5a 20 00 04 09 01 6f 00 ff ff 
+
+Record:51:
+   Record Id: 51
+   When: 2018-05-10T22:28:00
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 33 00 02 70 c7 f4 5a 20 00 04 01 32 01 57 aa aa 
+
+Record:52:
+   Record Id: 52
+   When: 2018-05-10T23:50:10
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 34 00 02 b2 da f4 5a 20 00 04 01 32 01 59 ad ad 
+
+Record:53:
+   Record Id: 53
+   When: 2018-05-11T06:51:48
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 35 00 02 84 3d f5 5a 20 00 04 01 32 81 59 a8 ad 
+
+Record:54:
+   Record Id: 54
+   When: 2018-05-11T07:23:06
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 36 00 02 da 44 f5 5a 20 00 04 01 32 81 57 a5 aa 
+
+Record:55:
+   Record Id: 55
+   When: 2018-05-11T22:26:57
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 37 00 02 b1 18 f6 5a 20 00 04 01 32 01 57 aa aa 
+
+Record:56:
+   Record Id: 56
+   When: 2018-05-11T23:59:47
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 38 00 02 73 2e f6 5a 20 00 04 01 32 01 59 ad ad 
+
+Record:57:
+   Record Id: 57
+   When: 2018-05-12T06:53:30
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 39 00 02 6a 8f f6 5a 20 00 04 01 32 81 59 a8 ad 
+
+Record:58:
+   Record Id: 58
+   When: 2018-05-12T07:28:34
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 3a 00 02 a2 97 f6 5a 20 00 04 01 32 81 57 a5 aa 
+
+Record:59:
+   Record Id: 59
+   When: 2018-05-12T20:06:38
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 3b 00 02 4e 49 f7 5a 20 00 04 01 32 01 57 aa aa 
+
+Record:60:
+   Record Id: 60
+   When: 2018-05-12T21:13:35
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 3c 00 02 ff 58 f7 5a 20 00 04 01 32 01 59 ad ad 
+
+Record:61:
+   Record Id: 61
+   When: 2018-05-13T06:59:19
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 3d 00 02 47 e2 f7 5a 20 00 04 01 32 81 59 a8 ad 
+
+Record:62:
+   Record Id: 62
+   When: 2018-05-13T07:39:45
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 3e 00 02 c1 eb f7 5a 20 00 04 01 32 81 57 a5 aa 
+
+Record:63:
+   Record Id: 63
+   When: 2018-05-14T15:06:54
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 3f 00 02 0e a6 f9 5a 20 00 04 09 01 ef 00 ff ff 
+
+Record:64:
+   Record Id: 64
+   When: 2018-05-14T15:07:00
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 40 00 02 14 a6 f9 5a 20 00 04 0f b5 6f c2 00 ff 
+
+Record:65:
+   Record Id: 65
+   When: 2018-05-14T15:10:00
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 41 00 02 c8 a6 f9 5a 20 00 04 0f b5 6f c2 13 ff 
+
+Record:66:
+   Record Id: 66
+   When: 2018-05-14T21:29:30
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 42 00 02 ba ff f9 5a 20 00 04 01 32 01 57 aa aa 
+
+Record:67:
+   Record Id: 67
+   When: 2018-05-15T00:41:05
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 43 00 02 a1 2c fa 5a 20 00 04 01 32 01 59 ad ad 
+
+Record:68:
+   Record Id: 68
+   When: 2018-05-15T00:42:02
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 44 00 02 da 2c fa 5a 20 00 04 09 01 6f 00 ff ff 
+
+Record:69:
+   Record Id: 69
+   When: 2018-05-15T06:49:32
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 45 00 02 fc 82 fa 5a 20 00 04 01 32 81 59 a8 ad 
+
+Record:70:
+   Record Id: 70
+   When: 2018-05-15T07:22:56
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 46 00 02 d0 8a fa 5a 20 00 04 01 32 81 57 a5 aa 
+
+Record:71:
+   Record Id: 71
+   When: 2018-05-15T22:25:02
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 47 00 02 3e 5e fb 5a 20 00 04 01 32 01 57 aa aa 
+
+Record:72:
+   Record Id: 72
+   When: 2018-05-16T00:55:01
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 48 00 02 65 81 fb 5a 20 00 04 01 32 01 59 ad ad 
+
+Record:73:
+   Record Id: 73
+   When: 2018-05-16T06:51:58
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 49 00 02 0e d5 fb 5a 20 00 04 01 32 81 59 a8 ad 
+
+Record:74:
+   Record Id: 74
+   When: 2018-05-16T07:22:59
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 4a 00 02 53 dc fb 5a 20 00 04 01 32 81 57 a5 aa 
+
+Record:75:
+   Record Id: 75
+   When: 2018-05-16T15:30:04
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 4b 00 02 7c 4e fc 5a 20 00 04 09 01 ef 00 ff ff 
+
+Record:76:
+   Record Id: 76
+   When: 2018-05-16T15:30:10
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 4c 00 02 82 4e fc 5a 20 00 04 0f b5 6f c2 00 ff 
+
+Record:77:
+   Record Id: 77
+   When: 2018-05-16T15:33:05
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 4d 00 02 31 4f fc 5a 20 00 04 0f b5 6f c2 13 ff 
+
+Record:78:
+   Record Id: 78
+   When: 2018-05-16T21:56:23
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 4e 00 02 07 a9 fc 5a 20 00 04 0f b5 6f c2 00 ff 
+
+Record:79:
+   Record Id: 79
+   When: 2018-05-16T21:59:43
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 4f 00 02 cf a9 fc 5a 20 00 04 0f b5 6f c2 13 ff 
+
+Record:80:
+   Record Id: 80
+   When: 2018-05-16T22:29:10
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 50 00 02 b6 b0 fc 5a 20 00 04 01 32 01 57 aa aa 
+
+Record:81:
+   Record Id: 81
+   When: 2018-05-16T22:32:08
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 51 00 02 68 b1 fc 5a 20 00 04 0f b5 6f c2 00 ff 
+
+Record:82:
+   Record Id: 82
+   When: 2018-05-16T22:35:00
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 52 00 02 14 b2 fc 5a 20 00 04 0f b5 6f c2 13 ff 
+
+Record:83:
+   Record Id: 83
+   When: 2018-05-17T03:57:28
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 53 00 02 a8 fd fc 5a 20 00 04 01 32 01 59 ad ad 
+
+Record:84:
+   Record Id: 84
+   When: 2018-05-17T03:58:23
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 54 00 02 df fd fc 5a 20 00 04 09 01 6f 00 ff ff 
+
+Record:85:
+   Record Id: 85
+   When: 2018-05-17T06:40:43
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 55 00 02 eb 23 fd 5a 20 00 04 01 32 81 59 a8 ad 
+
+Record:86:
+   Record Id: 86
+   When: 2018-05-17T07:09:28
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 56 00 02 a8 2a fd 5a 20 00 04 01 32 81 57 a5 aa 
+
+Record:87:
+   Record Id: 87
+   When: 2018-05-17T09:19:40
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 57 00 02 2c 49 fd 5a 20 00 04 09 01 ef 00 ff ff 
+
+Record:88:
+   Record Id: 88
+   When: 2018-05-17T09:19:46
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 58 00 02 32 49 fd 5a 20 00 04 0f b5 6f c2 00 ff 
+
+Record:89:
+   Record Id: 89
+   When: 2018-05-17T09:22:35
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 59 00 02 db 49 fd 5a 20 00 04 0f b5 6f c2 13 ff 
+
+Record:90:
+   Record Id: 90
+   When: 2018-05-17T23:57:35
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 5a 00 02 ef 16 fe 5a 20 00 04 01 32 01 57 aa aa 
+
+Record:91:
+   Record Id: 91
+   When: 2018-05-18T06:23:45
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 5b 00 02 71 71 fe 5a 20 00 04 01 32 81 57 a5 aa 
+
+Record:92:
+   Record Id: 92
+   When: 2018-05-19T00:16:53
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 5c 00 02 f5 6c ff 5a 20 00 04 01 32 01 57 aa aa 
+
+Record:93:
+   Record Id: 93
+   When: 2018-05-19T06:24:17
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 5d 00 02 11 c3 ff 5a 20 00 04 01 32 81 57 a5 aa 
+
+Record:94:
+   Record Id: 94
+   When: 2018-05-19T20:12:17
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 5e 00 02 21 85 00 5b 20 00 04 01 32 01 57 aa aa 
+
+Record:95:
+   Record Id: 95
+   When: 2018-05-20T03:54:12
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 5f 00 02 64 f1 00 5b 20 00 04 01 32 01 59 ad ad 
+
+Record:96:
+   Record Id: 96
+   When: 2018-05-20T03:55:06
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 60 00 02 9a f1 00 5b 20 00 04 09 01 6f 00 ff ff 
+
+Record:97:
+   Record Id: 97
+   When: 2018-05-20T06:42:05
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 61 00 02 bd 18 01 5b 20 00 04 01 32 81 59 a8 ad 
+
+Record:98:
+   Record Id: 98
+   When: 2018-05-20T07:17:11
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 62 00 02 f7 20 01 5b 20 00 04 01 32 81 57 a5 aa 
+
+Record:99:
+   Record Id: 99
+   When: 2018-05-20T20:42:16
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 63 00 02 a8 dd 01 5b 20 00 04 01 32 01 57 aa aa 
+
+Record:100:
+   Record Id: 100
+   When: 2018-05-20T23:55:44
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 64 00 02 00 0b 02 5b 20 00 04 01 32 01 59 ad ad 
+
+Record:101:
+   Record Id: 101
+   When: 2018-05-21T06:49:47
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 65 00 02 0b 6c 02 5b 20 00 04 01 32 81 59 a8 ad 
+
+Record:102:
+   Record Id: 102
+   When: 2018-05-21T07:24:49
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 66 00 02 41 74 02 5b 20 00 04 01 32 81 57 a5 aa 
+
+Record:103:
+   Record Id: 103
+   When: 2018-05-21T10:48:29
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 67 00 02 fd a3 02 5b 20 00 04 09 01 ef 00 ff ff 
+
+Record:104:
+   Record Id: 104
+   When: 2018-05-21T10:48:35
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 68 00 02 03 a4 02 5b 20 00 04 0f b5 6f c2 00 ff 
+
+Record:105:
+   Record Id: 105
+   When: 2018-05-21T10:51:37
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 69 00 02 b9 a4 02 5b 20 00 04 0f b5 6f c2 13 ff 
+
+Record:106:
+   Record Id: 106
+   When: 2018-05-21T23:01:23
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 6a 00 02 c3 4f 03 5b 20 00 04 01 32 01 57 aa aa 
+
+Record:107:
+   Record Id: 107
+   When: 2018-05-22T06:28:16
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 6b 00 02 80 b8 03 5b 20 00 04 01 32 81 57 a5 aa 
+
+Record:108:
+   Record Id: 108
+   When: 2018-05-22T23:41:01
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 6c 00 02 8d aa 04 5b 20 00 04 09 01 6f 00 ff ff 
+
+Record:109:
+   Record Id: 109
+   When: 2018-05-24T00:48:25
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 6d 00 02 d9 0b 06 5b 20 00 04 01 32 01 57 aa aa 
+
+Record:110:
+   Record Id: 110
+   When: 2018-05-24T07:06:29
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 6e 00 02 75 64 06 5b 20 00 04 01 32 81 57 a5 aa 
+
+Record:111:
+   Record Id: 111
+   When: 2018-05-24T23:43:59
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Assert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 6f 00 02 3f 4e 07 5b 20 00 04 01 32 01 57 aa aa 
+
+Record:112:
+   Record Id: 112
+   When: 2018-05-25T07:09:22
+   Event Type: 1 (Other)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Temperature Upper Non-critical going high
+   Sensor Number: 50
+   Raw: 
+   Formatted-Raw: 70 00 02 a2 b6 07 5b 20 00 04 01 32 81 57 a5 aa 
+
+Record:113:
+   Record Id: 113
+   When: 2018-06-01T18:35:28
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 71 00 02 f0 91 11 5b 20 00 04 09 01 ef 00 ff ff 
+
+Record:114:
+   Record Id: 114
+   When: 2018-06-01T18:35:34
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 72 00 02 f6 91 11 5b 20 00 04 0f b5 6f c2 00 ff 
+
+Record:115:
+   Record Id: 115
+   When: 2018-06-01T18:38:35
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 73 00 02 ab 92 11 5b 20 00 04 0f b5 6f c2 13 ff 
+
+Record:116:
+   Record Id: 116
+   When: 2018-09-17T09:57:08
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 74 00 02 74 7a 9f 5b 20 00 04 0f b5 6f c2 00 ff 
+
+Record:117:
+   Record Id: 117
+   When: 2018-09-17T09:59:56
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 75 00 02 1c 7b 9f 5b 20 00 04 0f b5 6f c2 13 ff 
+
+Record:118:
+   Record Id: 118
+   When: 2018-12-22T11:08:22
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 76 00 02 26 1b 1e 5c 20 00 04 0f b5 6f c2 00 ff 
+
+Record:119:
+   Record Id: 119
+   When: 2018-12-22T11:11:09
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 77 00 02 cd 1b 1e 5c 20 00 04 0f b5 6f c2 13 ff 
+
+Record:120:
+   Record Id: 120
+   When: 2019-03-23T12:49:35
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Event Entry added to auxiliary log
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 78 00 02 5f 2b 96 5c 20 00 04 12 cc 6f c3 01 00 
+
+Record:121:
+   Record Id: 121
+   When: 2019-03-23T12:49:40
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Memory Correctable ECC logging limit reached
+   Sensor Number: 222
+   Raw: 
+   Formatted-Raw: 79 00 02 64 2b 96 5c 20 00 04 0c de 6f 05 ff ff 
+
+Record:122:
+   Record Id: 122
+   When: 2019-08-19T09:37:48
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 7a 00 02 ec 6d 5a 5d 20 00 04 0f b5 6f c2 00 ff 
+
+Record:123:
+   Record Id: 123
+   When: 2019-08-19T09:40:34
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 7b 00 02 92 6e 5a 5d 20 00 04 0f b5 6f c2 13 ff 
+
+Record:124:
+   Record Id: 124
+   When: 2020-03-18T13:16:38
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Event Entry added to auxiliary log
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 7c 00 02 36 1f 72 5e 20 00 04 12 cc 6f c3 01 00 
+
+Record:125:
+   Record Id: 125
+   When: 2020-03-18T13:16:47
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Memory Correctable ECC logging limit reached
+   Sensor Number: 220
+   Raw: 
+   Formatted-Raw: 7d 00 02 3f 1f 72 5e 20 00 04 0c dc 6f 05 ff ff 
+
+Record:126:
+   Record Id: 126
+   When: 2020-08-21T14:57:21
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 7e 00 02 d1 e0 3f 5f 20 00 04 09 01 6f 00 ff ff 
+
+Record:127:
+   Record Id: 127
+   When: 2020-11-15T19:46:05
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 7f 00 02 7d 85 b1 5f 20 00 04 09 01 6f 00 ff ff 
+
+Record:128:
+   Record Id: 128
+   When: 2020-11-15T19:48:10
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 80 00 02 fa 85 b1 5f 20 00 04 09 01 6f 00 ff ff 
+
+Record:129:
+   Record Id: 129
+   When: 2020-11-16T21:07:36
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 81 00 02 18 ea b2 5f 20 00 04 09 01 6f 00 ff ff 
+
+Record:130:
+   Record Id: 130
+   When: 2020-11-16T21:09:39
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 82 00 02 93 ea b2 5f 20 00 04 09 01 6f 00 ff ff 
+
+Record:131:
+   Record Id: 131
+   When: 2020-12-18T16:26:39
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 83 00 02 3f d8 dc 5f 20 00 04 09 01 6f 00 ff ff 
+
+Record:132:
+   Record Id: 132
+   When: 2020-12-18T16:28:41
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 84 00 02 b9 d8 dc 5f 20 00 04 09 01 6f 00 ff ff 
+
+Record:133:
+   Record Id: 133
+   When: 2021-03-25T17:37:35
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 85 00 02 5f ca 5c 60 20 00 04 09 01 6f 00 ff ff 
+
+Record:134:
+   Record Id: 134
+   When: 2021-03-25T17:39:37
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 86 00 02 d9 ca 5c 60 20 00 04 09 01 6f 00 ff ff 
+
+Record:135:
+   Record Id: 135
+   When: 2021-08-07T16:55:07
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 87 00 02 eb ba 0e 61 20 00 04 09 01 6f 00 ff ff 
+
+Record:136:
+   Record Id: 136
+   When: 2021-08-07T16:57:10
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 88 00 02 66 bb 0e 61 20 00 04 09 01 6f 00 ff ff 
+
+Record:137:
+   Record Id: 137
+   When: 2022-01-03T14:19:04
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 89 00 02 d8 05 d3 61 20 00 04 09 01 6f 00 ff ff 
+
+Record:138:
+   Record Id: 138
+   When: 2022-01-03T14:21:06
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 8a 00 02 52 06 d3 61 20 00 04 09 01 6f 00 ff ff 
+
+Record:139:
+   Record Id: 139
+   When: 2022-01-04T16:27:05
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 8b 00 02 59 75 d4 61 20 00 04 09 01 ef 00 ff ff 
+
+Record:140:
+   Record Id: 140
+   When: 2022-01-04T16:27:22
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 8c 00 02 6a 75 d4 61 20 00 04 0f b5 6f c2 00 ff 
+
+Record:141:
+   Record Id: 141
+   When: 2022-01-04T16:31:40
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 8d 00 02 6c 76 d4 61 20 00 04 0f b5 6f c2 13 ff 
+
+Record:142:
+   Record Id: 142
+   When: 2022-01-04T16:32:26
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 8e 00 02 9a 76 d4 61 20 00 04 0f b5 6f c2 00 ff 
+
+Record:143:
+   Record Id: 143
+   When: 2022-01-04T16:32:42
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 8f 00 02 aa 76 d4 61 20 00 04 09 01 6f 00 ff ff 
+
+Record:144:
+   Record Id: 144
+   When: 2022-01-17T10:10:42
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 90 00 02 a2 40 e5 61 20 00 04 09 01 ef 00 ff ff 
+
+Record:145:
+   Record Id: 145
+   When: 2022-01-17T10:10:47
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 91 00 02 a7 40 e5 61 20 00 04 0f b5 6f c2 00 ff 
+
+Record:146:
+   Record Id: 146
+   When: 2022-01-18T14:21:11
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 92 00 02 d7 cc e6 61 20 00 04 0f b5 6f c2 13 ff 
+
+Record:147:
+   Record Id: 147
+   When: 2022-01-18T14:27:32
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 93 00 02 54 ce e6 61 20 00 04 0f b5 6f c2 13 ff 
+
+Record:148:
+   Record Id: 148
+   When: 2022-01-18T14:33:30
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 94 00 02 ba cf e6 61 20 00 04 0f b5 6f c2 00 ff 
+
+Record:149:
+   Record Id: 149
+   When: 2022-01-18T14:36:30
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 95 00 02 6e d0 e6 61 20 00 04 0f b5 6f c2 13 ff 
+
+Record:150:
+   Record Id: 150
+   When: 2022-01-18T17:59:28
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: 96 00 02 00 00 e7 61 20 00 04 08 70 6f 03 ff ff 
+
+Record:151:
+   Record Id: 151
+   When: 2022-01-18T17:59:28
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: 97 00 02 00 00 e7 61 20 00 04 08 7f 0b 01 ff ff 
+
+Record:152:
+   Record Id: 152
+   When: 2022-01-27T11:31:13
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 98 00 02 81 82 f2 61 20 00 04 0f b5 6f c2 00 ff 
+
+Record:153:
+   Record Id: 153
+   When: 2022-01-27T11:31:13
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: 99 00 02 81 82 f2 61 20 00 04 08 70 6f 03 ff ff 
+
+Record:154:
+   Record Id: 154
+   When: 2022-01-27T11:31:13
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: 9a 00 02 81 82 f2 61 20 00 04 08 7f 0b 01 ff ff 
+
+Record:155:
+   Record Id: 155
+   When: 2022-01-27T11:33:50
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: 9b 00 02 1e 83 f2 61 20 00 04 08 70 6f 03 ff ff 
+
+Record:156:
+   Record Id: 156
+   When: 2022-01-27T11:33:50
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: 9c 00 02 1e 83 f2 61 20 00 04 08 7f 0b 01 ff ff 
+
+Record:157:
+   Record Id: 157
+   When: 2022-01-27T11:35:20
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 9d 00 02 78 83 f2 61 20 00 04 0f b5 6f c2 00 ff 
+
+Record:158:
+   Record Id: 158
+   When: 2022-01-27T11:50:36
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 9e 00 02 0c 87 f2 61 20 00 04 0f b5 6f c2 00 ff 
+
+Record:159:
+   Record Id: 159
+   When: 2022-01-27T11:50:36
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: 9f 00 02 0c 87 f2 61 20 00 04 08 70 6f 03 ff ff 
+
+Record:160:
+   Record Id: 160
+   When: 2022-01-27T11:50:36
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: a0 00 02 0c 87 f2 61 20 00 04 08 7f 0b 01 ff ff 
+
+Record:161:
+   Record Id: 161
+   When: 2022-01-27T11:53:14
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: a1 00 02 aa 87 f2 61 20 00 04 08 70 6f 03 ff ff 
+
+Record:162:
+   Record Id: 162
+   When: 2022-01-27T11:53:14
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: a2 00 02 aa 87 f2 61 20 00 04 08 7f 0b 01 ff ff 
+
+Record:163:
+   Record Id: 163
+   When: 2022-01-27T12:07:44
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: a3 00 02 10 8b f2 61 20 00 04 0f b5 6f c2 00 ff 
+
+Record:164:
+   Record Id: 164
+   When: 2022-01-27T12:07:44
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: a4 00 02 10 8b f2 61 20 00 04 08 70 6f 03 ff ff 
+
+Record:165:
+   Record Id: 165
+   When: 2022-01-27T12:07:44
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: a5 00 02 10 8b f2 61 20 00 04 08 7f 0b 01 ff ff 
+
+Record:166:
+   Record Id: 166
+   When: 2022-01-27T12:10:34
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: a6 00 02 ba 8b f2 61 20 00 04 0f b5 6f c2 13 ff 
+
+Record:167:
+   Record Id: 167
+   When: 2022-01-27T12:10:34
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: a7 00 02 ba 8b f2 61 20 00 04 08 70 6f 03 ff ff 
+
+Record:168:
+   Record Id: 168
+   When: 2022-01-27T12:10:34
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: a8 00 02 ba 8b f2 61 20 00 04 08 7f 0b 01 ff ff 
+
+Record:169:
+   Record Id: 169
+   When: 2022-01-27T12:41:56
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: a9 00 02 14 93 f2 61 20 00 04 09 01 6f 00 ff ff 
+
+Record:170:
+   Record Id: 170
+   When: 2022-01-27T12:52:10
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: aa 00 02 7a 95 f2 61 20 00 04 0f b5 6f c2 00 ff 
+
+Record:171:
+   Record Id: 171
+   When: 2022-01-27T12:52:10
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: ab 00 02 7a 95 f2 61 20 00 04 08 70 6f 03 ff ff 
+
+Record:172:
+   Record Id: 172
+   When: 2022-01-27T12:52:10
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: ac 00 02 7a 95 f2 61 20 00 04 08 7f 0b 01 ff ff 
+
+Record:173:
+   Record Id: 173
+   When: 2022-01-27T12:54:51
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: ad 00 02 1b 96 f2 61 20 00 04 0f b5 6f c2 13 ff 
+
+Record:174:
+   Record Id: 174
+   When: 2022-01-27T12:54:51
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: ae 00 02 1b 96 f2 61 20 00 04 08 70 6f 03 ff ff 
+
+Record:175:
+   Record Id: 175
+   When: 2022-01-27T12:54:51
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: af 00 02 1b 96 f2 61 20 00 04 08 7f 0b 01 ff ff 
+
+Record:176:
+   Record Id: 176
+   When: 2022-01-27T14:15:43
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: b0 00 02 0f a9 f2 61 20 00 04 0f b5 6f c2 00 ff 
+
+Record:177:
+   Record Id: 177
+   When: 2022-01-27T14:18:54
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: b1 00 02 ce a9 f2 61 20 00 04 0f b5 6f c2 13 ff 
+
+Record:178:
+   Record Id: 178
+   When: 2022-01-27T14:29:35
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: b2 00 02 4f ac f2 61 20 00 04 0f b5 6f c2 00 ff 
+
+Record:179:
+   Record Id: 179
+   When: 2022-01-27T14:32:46
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: b3 00 02 0e ad f2 61 20 00 04 0f b5 6f c2 13 ff 
+
+Record:180:
+   Record Id: 180
+   When: 2022-01-27T14:40:06
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: b4 00 02 c6 ae f2 61 20 00 04 0f b5 6f c2 00 ff 
+
+Record:181:
+   Record Id: 181
+   When: 2022-01-27T14:42:43
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: b5 00 02 63 af f2 61 20 00 04 0f b5 6f c2 13 ff 
+
+Record:182:
+   Record Id: 182
+   When: 2022-01-27T14:57:01
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: b6 00 02 bd b2 f2 61 20 00 04 0f b5 6f c2 00 ff 
+
+Record:183:
+   Record Id: 183
+   When: 2022-01-27T15:03:03
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: b7 00 02 27 b4 f2 61 20 00 04 0f b5 6f c2 13 ff 
+
+Record:184:
+   Record Id: 184
+   When: 2022-01-27T15:11:42
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: b8 00 02 2e b6 f2 61 20 00 04 0f b5 6f c2 00 ff 
+
+Record:185:
+   Record Id: 185
+   When: 2022-01-27T15:14:52
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: b9 00 02 ec b6 f2 61 20 00 04 0f b5 6f c2 13 ff 
+
+Record:186:
+   Record Id: 186
+   When: 2022-01-27T15:21:18
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: ba 00 02 6e b8 f2 61 20 00 04 0f b5 6f c2 00 ff 
+
+Record:187:
+   Record Id: 187
+   When: 2022-01-27T15:23:55
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: bb 00 02 0b b9 f2 61 20 00 04 0f b5 6f c2 13 ff 
+
+Record:188:
+   Record Id: 188
+   When: 2022-01-27T17:04:27
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: bc 00 02 9b d0 f2 61 20 00 04 09 01 6f 00 ff ff 
+
+Record:189:
+   Record Id: 189
+   When: 2022-01-29T14:51:06
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: bd 00 02 5a 54 f5 61 20 00 04 0f b5 6f c2 00 ff 
+
+Record:190:
+   Record Id: 190
+   When: 2022-01-29T14:51:06
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: be 00 02 5a 54 f5 61 20 00 04 08 70 6f 03 ff ff 
+
+Record:191:
+   Record Id: 191
+   When: 2022-01-29T14:51:06
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: bf 00 02 5a 54 f5 61 20 00 04 08 7f 0b 01 ff ff 
+
+Record:192:
+   Record Id: 192
+   When: 2022-01-29T14:53:42
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: c0 00 02 f6 54 f5 61 20 00 04 0f b5 6f c2 13 ff 
+
+Record:193:
+   Record Id: 193
+   When: 2022-01-29T14:53:42
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: c1 00 02 f6 54 f5 61 20 00 04 08 70 6f 03 ff ff 
+
+Record:194:
+   Record Id: 194
+   When: 2022-01-29T14:53:42
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: c2 00 02 f6 54 f5 61 20 00 04 08 7f 0b 01 ff ff 
+
+Record:195:
+   Record Id: 195
+   When: 2022-01-29T15:53:05
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot Predictive Failure
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: c3 00 02 e1 62 f5 61 20 00 04 0d 65 6f 02 ff ff 
+
+Record:196:
+   Record Id: 196
+   When: 2022-01-29T16:28:34
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 96
+   Raw: 
+   Formatted-Raw: c4 00 02 32 6b f5 61 20 00 04 0d 60 6f 05 ff ff 
+
+Record:197:
+   Record Id: 197
+   When: 2022-01-29T16:28:34
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 97
+   Raw: 
+   Formatted-Raw: c5 00 02 32 6b f5 61 20 00 04 0d 61 6f 05 ff ff 
+
+Record:198:
+   Record Id: 198
+   When: 2022-01-29T16:28:34
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 98
+   Raw: 
+   Formatted-Raw: c6 00 02 32 6b f5 61 20 00 04 0d 62 6f 05 ff ff 
+
+Record:199:
+   Record Id: 199
+   When: 2022-01-29T16:28:34
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 99
+   Raw: 
+   Formatted-Raw: c7 00 02 32 6b f5 61 20 00 04 0d 63 6f 05 ff ff 
+
+Record:200:
+   Record Id: 200
+   When: 2022-01-29T16:28:34
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 100
+   Raw: 
+   Formatted-Raw: c8 00 02 32 6b f5 61 20 00 04 0d 64 6f 05 ff ff 
+
+Record:201:
+   Record Id: 201
+   When: 2022-01-29T16:28:34
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot Drive Fault
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: c9 00 02 32 6b f5 61 20 00 04 0d 65 6f 01 ff ff 
+
+Record:202:
+   Record Id: 202
+   When: 2022-01-29T16:28:34
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot Predictive Failure
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: ca 00 02 32 6b f5 61 20 00 04 0d 65 ef 02 ff ff 
+
+Record:203:
+   Record Id: 203
+   When: 2022-01-29T16:28:34
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 102
+   Raw: 
+   Formatted-Raw: cb 00 02 32 6b f5 61 20 00 04 0d 66 6f 05 ff ff 
+
+Record:204:
+   Record Id: 204
+   When: 2022-01-29T16:28:34
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 103
+   Raw: 
+   Formatted-Raw: cc 00 02 32 6b f5 61 20 00 04 0d 67 6f 05 ff ff 
+
+Record:205:
+   Record Id: 205
+   When: 2022-01-29T22:11:50
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: cd 00 02 a6 bb f5 61 20 00 04 09 01 6f 00 ff ff 
+
+Record:206:
+   Record Id: 206
+   When: 2022-02-02T17:19:56
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: ce 00 02 3c bd fa 61 20 00 04 0f b5 6f c2 00 ff 
+
+Record:207:
+   Record Id: 207
+   When: 2022-02-02T17:19:56
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: cf 00 02 3c bd fa 61 20 00 04 08 70 6f 03 ff ff 
+
+Record:208:
+   Record Id: 208
+   When: 2022-02-02T17:19:56
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: d0 00 02 3c bd fa 61 20 00 04 08 7f 0b 01 ff ff 
+
+Record:209:
+   Record Id: 209
+   When: 2022-02-02T17:21:50
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 96
+   Raw: 
+   Formatted-Raw: d1 00 02 ae bd fa 61 20 00 04 0d 60 6f 05 ff ff 
+
+Record:210:
+   Record Id: 210
+   When: 2022-02-02T17:21:50
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 97
+   Raw: 
+   Formatted-Raw: d2 00 02 ae bd fa 61 20 00 04 0d 61 6f 05 ff ff 
+
+Record:211:
+   Record Id: 211
+   When: 2022-02-02T17:21:50
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 98
+   Raw: 
+   Formatted-Raw: d3 00 02 ae bd fa 61 20 00 04 0d 62 6f 05 ff ff 
+
+Record:212:
+   Record Id: 212
+   When: 2022-02-02T17:21:50
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 99
+   Raw: 
+   Formatted-Raw: d4 00 02 ae bd fa 61 20 00 04 0d 63 6f 05 ff ff 
+
+Record:213:
+   Record Id: 213
+   When: 2022-02-02T17:21:50
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 100
+   Raw: 
+   Formatted-Raw: d5 00 02 ae bd fa 61 20 00 04 0d 64 6f 05 ff ff 
+
+Record:214:
+   Record Id: 214
+   When: 2022-02-02T17:21:50
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot Drive Fault
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: d6 00 02 ae bd fa 61 20 00 04 0d 65 6f 01 ff ff 
+
+Record:215:
+   Record Id: 215
+   When: 2022-02-02T17:21:50
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 102
+   Raw: 
+   Formatted-Raw: d7 00 02 ae bd fa 61 20 00 04 0d 66 6f 05 ff ff 
+
+Record:216:
+   Record Id: 216
+   When: 2022-02-02T17:21:50
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 103
+   Raw: 
+   Formatted-Raw: d8 00 02 ae bd fa 61 20 00 04 0d 67 6f 05 ff ff 
+
+Record:217:
+   Record Id: 217
+   When: 2022-02-02T17:22:29
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 96
+   Raw: 
+   Formatted-Raw: d9 00 02 d5 bd fa 61 20 00 04 0d 60 6f 05 ff ff 
+
+Record:218:
+   Record Id: 218
+   When: 2022-02-02T17:22:29
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 97
+   Raw: 
+   Formatted-Raw: da 00 02 d5 bd fa 61 20 00 04 0d 61 6f 05 ff ff 
+
+Record:219:
+   Record Id: 219
+   When: 2022-02-02T17:22:29
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 98
+   Raw: 
+   Formatted-Raw: db 00 02 d5 bd fa 61 20 00 04 0d 62 6f 05 ff ff 
+
+Record:220:
+   Record Id: 220
+   When: 2022-02-02T17:22:29
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 99
+   Raw: 
+   Formatted-Raw: dc 00 02 d5 bd fa 61 20 00 04 0d 63 6f 05 ff ff 
+
+Record:221:
+   Record Id: 221
+   When: 2022-02-02T17:22:29
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 100
+   Raw: 
+   Formatted-Raw: dd 00 02 d5 bd fa 61 20 00 04 0d 64 6f 05 ff ff 
+
+Record:222:
+   Record Id: 222
+   When: 2022-02-02T17:22:29
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot Drive Fault
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: de 00 02 d5 bd fa 61 20 00 04 0d 65 6f 01 ff ff 
+
+Record:223:
+   Record Id: 223
+   When: 2022-02-02T17:22:29
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 102
+   Raw: 
+   Formatted-Raw: df 00 02 d5 bd fa 61 20 00 04 0d 66 6f 05 ff ff 
+
+Record:224:
+   Record Id: 224
+   When: 2022-02-02T17:22:29
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 103
+   Raw: 
+   Formatted-Raw: e0 00 02 d5 bd fa 61 20 00 04 0d 67 6f 05 ff ff 
+
+Record:225:
+   Record Id: 225
+   When: 2022-02-02T17:22:34
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: e1 00 02 da bd fa 61 20 00 04 0f b5 6f c2 13 ff 
+
+Record:226:
+   Record Id: 226
+   When: 2022-02-02T17:22:34
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: e2 00 02 da bd fa 61 20 00 04 08 70 6f 03 ff ff 
+
+Record:227:
+   Record Id: 227
+   When: 2022-02-02T17:22:34
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: e3 00 02 da bd fa 61 20 00 04 08 7f 0b 01 ff ff 
+
+Record:228:
+   Record Id: 228
+   When: 2022-02-02T22:54:27
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: e4 00 02 a3 0b fb 61 20 00 04 09 01 6f 00 ff ff 
+
+Record:229:
+   Record Id: 229
+   When: 2022-02-03T11:27:08
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: e5 00 02 0c bc fb 61 20 00 04 0f b5 6f c2 00 ff 
+
+Record:230:
+   Record Id: 230
+   When: 2022-02-03T11:27:08
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: e6 00 02 0c bc fb 61 20 00 04 08 70 6f 03 ff ff 
+
+Record:231:
+   Record Id: 231
+   When: 2022-02-03T11:27:09
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: e7 00 02 0d bc fb 61 20 00 04 08 7f 0b 01 ff ff 
+
+Record:232:
+   Record Id: 232
+   When: 2022-02-03T11:29:09
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 96
+   Raw: 
+   Formatted-Raw: e8 00 02 85 bc fb 61 20 00 04 0d 60 6f 05 ff ff 
+
+Record:233:
+   Record Id: 233
+   When: 2022-02-03T11:29:09
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 97
+   Raw: 
+   Formatted-Raw: e9 00 02 85 bc fb 61 20 00 04 0d 61 6f 05 ff ff 
+
+Record:234:
+   Record Id: 234
+   When: 2022-02-03T11:29:09
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 98
+   Raw: 
+   Formatted-Raw: ea 00 02 85 bc fb 61 20 00 04 0d 62 6f 05 ff ff 
+
+Record:235:
+   Record Id: 235
+   When: 2022-02-03T11:29:09
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 99
+   Raw: 
+   Formatted-Raw: eb 00 02 85 bc fb 61 20 00 04 0d 63 6f 05 ff ff 
+
+Record:236:
+   Record Id: 236
+   When: 2022-02-03T11:29:09
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 100
+   Raw: 
+   Formatted-Raw: ec 00 02 85 bc fb 61 20 00 04 0d 64 6f 05 ff ff 
+
+Record:237:
+   Record Id: 237
+   When: 2022-02-03T11:29:09
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot Drive Fault
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: ed 00 02 85 bc fb 61 20 00 04 0d 65 6f 01 ff ff 
+
+Record:238:
+   Record Id: 238
+   When: 2022-02-03T11:29:09
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 102
+   Raw: 
+   Formatted-Raw: ee 00 02 85 bc fb 61 20 00 04 0d 66 6f 05 ff ff 
+
+Record:239:
+   Record Id: 239
+   When: 2022-02-03T11:29:09
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 103
+   Raw: 
+   Formatted-Raw: ef 00 02 85 bc fb 61 20 00 04 0d 67 6f 05 ff ff 
+
+Record:240:
+   Record Id: 240
+   When: 2022-02-03T11:29:45
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 96
+   Raw: 
+   Formatted-Raw: f0 00 02 a9 bc fb 61 20 00 04 0d 60 6f 05 ff ff 
+
+Record:241:
+   Record Id: 241
+   When: 2022-02-03T11:29:45
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 97
+   Raw: 
+   Formatted-Raw: f1 00 02 a9 bc fb 61 20 00 04 0d 61 6f 05 ff ff 
+
+Record:242:
+   Record Id: 242
+   When: 2022-02-03T11:29:45
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 98
+   Raw: 
+   Formatted-Raw: f2 00 02 a9 bc fb 61 20 00 04 0d 62 6f 05 ff ff 
+
+Record:243:
+   Record Id: 243
+   When: 2022-02-03T11:29:45
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 99
+   Raw: 
+   Formatted-Raw: f3 00 02 a9 bc fb 61 20 00 04 0d 63 6f 05 ff ff 
+
+Record:244:
+   Record Id: 244
+   When: 2022-02-03T11:29:45
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 100
+   Raw: 
+   Formatted-Raw: f4 00 02 a9 bc fb 61 20 00 04 0d 64 6f 05 ff ff 
+
+Record:245:
+   Record Id: 245
+   When: 2022-02-03T11:29:45
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot Drive Fault
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: f5 00 02 a9 bc fb 61 20 00 04 0d 65 6f 01 ff ff 
+
+Record:246:
+   Record Id: 246
+   When: 2022-02-03T11:29:45
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 102
+   Raw: 
+   Formatted-Raw: f6 00 02 a9 bc fb 61 20 00 04 0d 66 6f 05 ff ff 
+
+Record:247:
+   Record Id: 247
+   When: 2022-02-03T11:29:45
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 103
+   Raw: 
+   Formatted-Raw: f7 00 02 a9 bc fb 61 20 00 04 0d 67 6f 05 ff ff 
+
+Record:248:
+   Record Id: 248
+   When: 2022-02-03T11:29:52
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: f8 00 02 b0 bc fb 61 20 00 04 0f b5 6f c2 13 ff 
+
+Record:249:
+   Record Id: 249
+   When: 2022-02-03T11:29:52
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: f9 00 02 b0 bc fb 61 20 00 04 08 70 6f 03 ff ff 
+
+Record:250:
+   Record Id: 250
+   When: 2022-02-03T11:29:52
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: fa 00 02 b0 bc fb 61 20 00 04 08 7f 0b 01 ff ff 
+
+Record:251:
+   Record Id: 251
+   When: 2022-02-03T11:34:00
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: fb 00 02 a8 bd fb 61 20 00 04 0f b5 6f c2 00 ff 
+
+Record:252:
+   Record Id: 252
+   When: 2022-02-03T11:34:06
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 96
+   Raw: 
+   Formatted-Raw: fc 00 02 ae bd fb 61 20 00 04 0d 60 ef 05 ff ff 
+
+Record:253:
+   Record Id: 253
+   When: 2022-02-03T11:34:06
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 97
+   Raw: 
+   Formatted-Raw: fd 00 02 ae bd fb 61 20 00 04 0d 61 ef 05 ff ff 
+
+Record:254:
+   Record Id: 254
+   When: 2022-02-03T11:34:06
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 98
+   Raw: 
+   Formatted-Raw: fe 00 02 ae bd fb 61 20 00 04 0d 62 ef 05 ff ff 
+
+Record:255:
+   Record Id: 255
+   When: 2022-02-03T11:34:06
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 99
+   Raw: 
+   Formatted-Raw: ff 00 02 ae bd fb 61 20 00 04 0d 63 ef 05 ff ff 
+
+Record:256:
+   Record Id: 256
+   When: 2022-02-03T11:34:06
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 100
+   Raw: 
+   Formatted-Raw: 00 01 02 ae bd fb 61 20 00 04 0d 64 ef 05 ff ff 
+
+Record:257:
+   Record Id: 257
+   When: 2022-02-03T11:34:06
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot Drive Fault
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: 01 01 02 ae bd fb 61 20 00 04 0d 65 ef 01 ff ff 
+
+Record:258:
+   Record Id: 258
+   When: 2022-02-03T11:34:06
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 102
+   Raw: 
+   Formatted-Raw: 02 01 02 ae bd fb 61 20 00 04 0d 66 ef 05 ff ff 
+
+Record:259:
+   Record Id: 259
+   When: 2022-02-03T11:34:06
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 103
+   Raw: 
+   Formatted-Raw: 03 01 02 ae bd fb 61 20 00 04 0d 67 ef 05 ff ff 
+
+Record:260:
+   Record Id: 260
+   When: 2022-02-03T11:35:59
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 96
+   Raw: 
+   Formatted-Raw: 04 01 02 1f be fb 61 20 00 04 0d 60 6f 05 ff ff 
+
+Record:261:
+   Record Id: 261
+   When: 2022-02-03T11:36:00
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 97
+   Raw: 
+   Formatted-Raw: 05 01 02 20 be fb 61 20 00 04 0d 61 6f 05 ff ff 
+
+Record:262:
+   Record Id: 262
+   When: 2022-02-03T11:36:00
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 98
+   Raw: 
+   Formatted-Raw: 06 01 02 20 be fb 61 20 00 04 0d 62 6f 05 ff ff 
+
+Record:263:
+   Record Id: 263
+   When: 2022-02-03T11:36:00
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 99
+   Raw: 
+   Formatted-Raw: 07 01 02 20 be fb 61 20 00 04 0d 63 6f 05 ff ff 
+
+Record:264:
+   Record Id: 264
+   When: 2022-02-03T11:36:00
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 100
+   Raw: 
+   Formatted-Raw: 08 01 02 20 be fb 61 20 00 04 0d 64 6f 05 ff ff 
+
+Record:265:
+   Record Id: 265
+   When: 2022-02-03T11:36:00
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot Drive Fault
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: 09 01 02 20 be fb 61 20 00 04 0d 65 6f 01 ff ff 
+
+Record:266:
+   Record Id: 266
+   When: 2022-02-03T11:36:00
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 102
+   Raw: 
+   Formatted-Raw: 0a 01 02 20 be fb 61 20 00 04 0d 66 6f 05 ff ff 
+
+Record:267:
+   Record Id: 267
+   When: 2022-02-03T11:36:00
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 103
+   Raw: 
+   Formatted-Raw: 0b 01 02 20 be fb 61 20 00 04 0d 67 6f 05 ff ff 
+
+Record:268:
+   Record Id: 268
+   When: 2022-02-03T11:58:07
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 0c 01 02 4f c3 fb 61 20 00 04 0f b5 6f c2 00 ff 
+
+Record:269:
+   Record Id: 269
+   When: 2022-02-03T11:58:07
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: 0d 01 02 4f c3 fb 61 20 00 04 08 70 6f 03 ff ff 
+
+Record:270:
+   Record Id: 270
+   When: 2022-02-03T11:58:07
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: 0e 01 02 4f c3 fb 61 20 00 04 08 7f 0b 01 ff ff 
+
+Record:271:
+   Record Id: 271
+   When: 2022-02-03T12:00:07
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 96
+   Raw: 
+   Formatted-Raw: 0f 01 02 c7 c3 fb 61 20 00 04 0d 60 6f 05 ff ff 
+
+Record:272:
+   Record Id: 272
+   When: 2022-02-03T12:00:07
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 97
+   Raw: 
+   Formatted-Raw: 10 01 02 c7 c3 fb 61 20 00 04 0d 61 6f 05 ff ff 
+
+Record:273:
+   Record Id: 273
+   When: 2022-02-03T12:00:07
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 98
+   Raw: 
+   Formatted-Raw: 11 01 02 c7 c3 fb 61 20 00 04 0d 62 6f 05 ff ff 
+
+Record:274:
+   Record Id: 274
+   When: 2022-02-03T12:00:07
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 99
+   Raw: 
+   Formatted-Raw: 12 01 02 c7 c3 fb 61 20 00 04 0d 63 6f 05 ff ff 
+
+Record:275:
+   Record Id: 275
+   When: 2022-02-03T12:00:07
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 100
+   Raw: 
+   Formatted-Raw: 13 01 02 c7 c3 fb 61 20 00 04 0d 64 6f 05 ff ff 
+
+Record:276:
+   Record Id: 276
+   When: 2022-02-03T12:00:07
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot Drive Fault
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: 14 01 02 c7 c3 fb 61 20 00 04 0d 65 6f 01 ff ff 
+
+Record:277:
+   Record Id: 277
+   When: 2022-02-03T12:00:07
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 102
+   Raw: 
+   Formatted-Raw: 15 01 02 c7 c3 fb 61 20 00 04 0d 66 6f 05 ff ff 
+
+Record:278:
+   Record Id: 278
+   When: 2022-02-03T12:00:07
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 103
+   Raw: 
+   Formatted-Raw: 16 01 02 c7 c3 fb 61 20 00 04 0d 67 6f 05 ff ff 
+
+Record:279:
+   Record Id: 279
+   When: 2022-02-03T12:01:08
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 96
+   Raw: 
+   Formatted-Raw: 17 01 02 04 c4 fb 61 20 00 04 0d 60 6f 05 ff ff 
+
+Record:280:
+   Record Id: 280
+   When: 2022-02-03T12:01:08
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 97
+   Raw: 
+   Formatted-Raw: 18 01 02 04 c4 fb 61 20 00 04 0d 61 6f 05 ff ff 
+
+Record:281:
+   Record Id: 281
+   When: 2022-02-03T12:01:08
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 98
+   Raw: 
+   Formatted-Raw: 19 01 02 04 c4 fb 61 20 00 04 0d 62 6f 05 ff ff 
+
+Record:282:
+   Record Id: 282
+   When: 2022-02-03T12:01:08
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 99
+   Raw: 
+   Formatted-Raw: 1a 01 02 04 c4 fb 61 20 00 04 0d 63 6f 05 ff ff 
+
+Record:283:
+   Record Id: 283
+   When: 2022-02-03T12:01:08
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 100
+   Raw: 
+   Formatted-Raw: 1b 01 02 04 c4 fb 61 20 00 04 0d 64 6f 05 ff ff 
+
+Record:284:
+   Record Id: 284
+   When: 2022-02-03T12:01:08
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot Drive Fault
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: 1c 01 02 04 c4 fb 61 20 00 04 0d 65 6f 01 ff ff 
+
+Record:285:
+   Record Id: 285
+   When: 2022-02-03T12:01:08
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 102
+   Raw: 
+   Formatted-Raw: 1d 01 02 04 c4 fb 61 20 00 04 0d 66 6f 05 ff ff 
+
+Record:286:
+   Record Id: 286
+   When: 2022-02-03T12:01:08
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 103
+   Raw: 
+   Formatted-Raw: 1e 01 02 04 c4 fb 61 20 00 04 0d 67 6f 05 ff ff 
+
+Record:287:
+   Record Id: 287
+   When: 2022-02-03T12:01:14
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: 1f 01 02 0a c4 fb 61 20 00 04 08 70 6f 03 ff ff 
+
+Record:288:
+   Record Id: 288
+   When: 2022-02-03T12:01:14
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: 20 01 02 0a c4 fb 61 20 00 04 08 7f 0b 01 ff ff 
+
+Record:289:
+   Record Id: 289
+   When: 2022-02-03T12:05:47
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 21 01 02 1b c5 fb 61 20 00 04 0f b5 6f c2 13 ff 
+
+Record:290:
+   Record Id: 290
+   When: 2022-02-03T13:53:39
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 22 01 02 63 de fb 61 20 00 04 09 01 6f 00 ff ff 
+
+Record:291:
+   Record Id: 291
+   When: 2022-02-03T13:53:39
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 23 01 02 63 de fb 61 20 00 04 09 01 6f 00 ff ff 
+
+Record:292:
+   Record Id: 292
+   When: 2022-02-04T21:40:05
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 24 01 02 35 9d fd 61 20 00 04 09 01 6f 00 ff ff 
+
+Record:293:
+   Record Id: 293
+   When: 2022-02-04T21:40:11
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: 25 01 02 3b 9d fd 61 20 00 04 08 70 6f 03 ff ff 
+
+Record:294:
+   Record Id: 294
+   When: 2022-02-04T21:40:11
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: 26 01 02 3b 9d fd 61 20 00 04 08 7f 0b 01 ff ff 
+
+Record:295:
+   Record Id: 295
+   When: 2022-02-04T21:42:07
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 27 01 02 af 9d fd 61 20 00 04 09 01 6f 00 ff ff 
+
+Record:296:
+   Record Id: 296
+   When: 2022-02-04T21:42:14
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: 28 01 02 b6 9d fd 61 20 00 04 08 70 6f 03 ff ff 
+
+Record:297:
+   Record Id: 297
+   When: 2022-02-04T21:42:14
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: 29 01 02 b6 9d fd 61 20 00 04 08 7f 0b 01 ff ff 
+
+Record:298:
+   Record Id: 298
+   When: 2022-02-04T21:45:21
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 2a 01 02 71 9e fd 61 20 00 04 09 01 ef 00 ff ff 
+
+Record:299:
+   Record Id: 299
+   When: 2022-02-04T21:45:27
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 2b 01 02 77 9e fd 61 20 00 04 0f b5 6f c2 00 ff 
+
+Record:300:
+   Record Id: 300
+   When: 2022-02-04T21:47:49
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 96
+   Raw: 
+   Formatted-Raw: 2c 01 02 05 9f fd 61 20 00 04 0d 60 6f 05 ff ff 
+
+Record:301:
+   Record Id: 301
+   When: 2022-02-04T21:47:49
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 97
+   Raw: 
+   Formatted-Raw: 2d 01 02 05 9f fd 61 20 00 04 0d 61 6f 05 ff ff 
+
+Record:302:
+   Record Id: 302
+   When: 2022-02-04T21:47:49
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 98
+   Raw: 
+   Formatted-Raw: 2e 01 02 05 9f fd 61 20 00 04 0d 62 6f 05 ff ff 
+
+Record:303:
+   Record Id: 303
+   When: 2022-02-04T21:47:50
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 99
+   Raw: 
+   Formatted-Raw: 2f 01 02 06 9f fd 61 20 00 04 0d 63 6f 05 ff ff 
+
+Record:304:
+   Record Id: 304
+   When: 2022-02-04T21:47:50
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 100
+   Raw: 
+   Formatted-Raw: 30 01 02 06 9f fd 61 20 00 04 0d 64 6f 05 ff ff 
+
+Record:305:
+   Record Id: 305
+   When: 2022-02-04T21:47:50
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot Drive Fault
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: 31 01 02 06 9f fd 61 20 00 04 0d 65 6f 01 ff ff 
+
+Record:306:
+   Record Id: 306
+   When: 2022-02-04T21:47:50
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 102
+   Raw: 
+   Formatted-Raw: 32 01 02 06 9f fd 61 20 00 04 0d 66 6f 05 ff ff 
+
+Record:307:
+   Record Id: 307
+   When: 2022-02-04T21:47:50
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 103
+   Raw: 
+   Formatted-Raw: 33 01 02 06 9f fd 61 20 00 04 0d 67 6f 05 ff ff 
+
+Record:308:
+   Record Id: 308
+   When: 2022-02-04T21:49:14
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 34 01 02 5a 9f fd 61 20 00 04 0f b5 6f c2 13 ff 
+
+Record:309:
+   Record Id: 309
+   When: 2022-02-04T22:54:56
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 35 01 02 c0 ae fd 61 20 00 04 09 01 6f 00 ff ff 
+
+Record:310:
+   Record Id: 310
+   When: 2022-02-05T15:42:06
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 36 01 02 ce 9a fe 61 20 00 04 0f b5 6f c2 00 ff 
+
+Record:311:
+   Record Id: 311
+   When: 2022-02-05T15:42:06
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: 37 01 02 ce 9a fe 61 20 00 04 08 70 6f 03 ff ff 
+
+Record:312:
+   Record Id: 312
+   When: 2022-02-05T15:42:06
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: 38 01 02 ce 9a fe 61 20 00 04 08 7f 0b 01 ff ff 
+
+Record:313:
+   Record Id: 313
+   When: 2022-02-05T15:44:11
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 96
+   Raw: 
+   Formatted-Raw: 39 01 02 4b 9b fe 61 20 00 04 0d 60 6f 05 ff ff 
+
+Record:314:
+   Record Id: 314
+   When: 2022-02-05T15:44:11
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 97
+   Raw: 
+   Formatted-Raw: 3a 01 02 4b 9b fe 61 20 00 04 0d 61 6f 05 ff ff 
+
+Record:315:
+   Record Id: 315
+   When: 2022-02-05T15:44:11
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 98
+   Raw: 
+   Formatted-Raw: 3b 01 02 4b 9b fe 61 20 00 04 0d 62 6f 05 ff ff 
+
+Record:316:
+   Record Id: 316
+   When: 2022-02-05T15:44:11
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 99
+   Raw: 
+   Formatted-Raw: 3c 01 02 4b 9b fe 61 20 00 04 0d 63 6f 05 ff ff 
+
+Record:317:
+   Record Id: 317
+   When: 2022-02-05T15:44:11
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 100
+   Raw: 
+   Formatted-Raw: 3d 01 02 4b 9b fe 61 20 00 04 0d 64 6f 05 ff ff 
+
+Record:318:
+   Record Id: 318
+   When: 2022-02-05T15:44:11
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot Drive Fault
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: 3e 01 02 4b 9b fe 61 20 00 04 0d 65 6f 01 ff ff 
+
+Record:319:
+   Record Id: 319
+   When: 2022-02-05T15:44:11
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 102
+   Raw: 
+   Formatted-Raw: 3f 01 02 4b 9b fe 61 20 00 04 0d 66 6f 05 ff ff 
+
+Record:320:
+   Record Id: 320
+   When: 2022-02-05T15:44:11
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 103
+   Raw: 
+   Formatted-Raw: 40 01 02 4b 9b fe 61 20 00 04 0d 67 6f 05 ff ff 
+
+Record:321:
+   Record Id: 321
+   When: 2022-02-05T15:44:47
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 96
+   Raw: 
+   Formatted-Raw: 41 01 02 6f 9b fe 61 20 00 04 0d 60 6f 05 ff ff 
+
+Record:322:
+   Record Id: 322
+   When: 2022-02-05T15:44:47
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 97
+   Raw: 
+   Formatted-Raw: 42 01 02 6f 9b fe 61 20 00 04 0d 61 6f 05 ff ff 
+
+Record:323:
+   Record Id: 323
+   When: 2022-02-05T15:44:47
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 98
+   Raw: 
+   Formatted-Raw: 43 01 02 6f 9b fe 61 20 00 04 0d 62 6f 05 ff ff 
+
+Record:324:
+   Record Id: 324
+   When: 2022-02-05T15:44:47
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 99
+   Raw: 
+   Formatted-Raw: 44 01 02 6f 9b fe 61 20 00 04 0d 63 6f 05 ff ff 
+
+Record:325:
+   Record Id: 325
+   When: 2022-02-05T15:44:47
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 100
+   Raw: 
+   Formatted-Raw: 45 01 02 6f 9b fe 61 20 00 04 0d 64 6f 05 ff ff 
+
+Record:326:
+   Record Id: 326
+   When: 2022-02-05T15:44:47
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot Drive Fault
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: 46 01 02 6f 9b fe 61 20 00 04 0d 65 6f 01 ff ff 
+
+Record:327:
+   Record Id: 327
+   When: 2022-02-05T15:44:47
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 102
+   Raw: 
+   Formatted-Raw: 47 01 02 6f 9b fe 61 20 00 04 0d 66 6f 05 ff ff 
+
+Record:328:
+   Record Id: 328
+   When: 2022-02-05T15:44:47
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 103
+   Raw: 
+   Formatted-Raw: 48 01 02 6f 9b fe 61 20 00 04 0d 67 6f 05 ff ff 
+
+Record:329:
+   Record Id: 329
+   When: 2022-02-05T15:44:53
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: 49 01 02 75 9b fe 61 20 00 04 08 70 6f 03 ff ff 
+
+Record:330:
+   Record Id: 330
+   When: 2022-02-05T15:44:53
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: 4a 01 02 75 9b fe 61 20 00 04 08 7f 0b 01 ff ff 
+
+Record:331:
+   Record Id: 331
+   When: 2022-02-05T15:45:40
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 4b 01 02 a4 9b fe 61 20 00 04 0f b5 6f c2 13 ff 
+
+Record:332:
+   Record Id: 332
+   When: 2022-02-05T21:34:12
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 4c 01 02 54 ed fe 61 20 00 04 09 01 6f 00 ff ff 
+
+Record:333:
+   Record Id: 333
+   When: 2022-04-24T13:51:28
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 4d 01 02 e0 55 65 62 20 00 04 0f b5 6f c2 00 ff 
+
+Record:334:
+   Record Id: 334
+   When: 2022-04-24T13:51:28
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: 4e 01 02 e0 55 65 62 20 00 04 08 70 6f 03 ff ff 
+
+Record:335:
+   Record Id: 335
+   When: 2022-04-24T13:51:29
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: 4f 01 02 e1 55 65 62 20 00 04 08 7f 0b 01 ff ff 
+
+Record:336:
+   Record Id: 336
+   When: 2022-04-24T13:53:55
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 96
+   Raw: 
+   Formatted-Raw: 50 01 02 73 56 65 62 20 00 04 0d 60 6f 05 ff ff 
+
+Record:337:
+   Record Id: 337
+   When: 2022-04-24T13:53:55
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 97
+   Raw: 
+   Formatted-Raw: 51 01 02 73 56 65 62 20 00 04 0d 61 6f 05 ff ff 
+
+Record:338:
+   Record Id: 338
+   When: 2022-04-24T13:53:55
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 98
+   Raw: 
+   Formatted-Raw: 52 01 02 73 56 65 62 20 00 04 0d 62 6f 05 ff ff 
+
+Record:339:
+   Record Id: 339
+   When: 2022-04-24T13:53:55
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 99
+   Raw: 
+   Formatted-Raw: 53 01 02 73 56 65 62 20 00 04 0d 63 6f 05 ff ff 
+
+Record:340:
+   Record Id: 340
+   When: 2022-04-24T13:53:55
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 100
+   Raw: 
+   Formatted-Raw: 54 01 02 73 56 65 62 20 00 04 0d 64 6f 05 ff ff 
+
+Record:341:
+   Record Id: 341
+   When: 2022-04-24T13:53:55
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot Drive Fault
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: 55 01 02 73 56 65 62 20 00 04 0d 65 6f 01 ff ff 
+
+Record:342:
+   Record Id: 342
+   When: 2022-04-24T13:53:55
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 102
+   Raw: 
+   Formatted-Raw: 56 01 02 73 56 65 62 20 00 04 0d 66 6f 05 ff ff 
+
+Record:343:
+   Record Id: 343
+   When: 2022-04-24T13:53:55
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 103
+   Raw: 
+   Formatted-Raw: 57 01 02 73 56 65 62 20 00 04 0d 67 6f 05 ff ff 
+
+Record:344:
+   Record Id: 344
+   When: 2022-04-24T13:54:01
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: 58 01 02 79 56 65 62 20 00 04 08 70 6f 03 ff ff 
+
+Record:345:
+   Record Id: 345
+   When: 2022-04-24T13:54:01
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: 59 01 02 79 56 65 62 20 00 04 08 7f 0b 01 ff ff 
+
+Record:346:
+   Record Id: 346
+   When: 2022-04-24T13:54:59
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 5a 01 02 b3 56 65 62 20 00 04 0f b5 6f c2 13 ff 
+
+Record:347:
+   Record Id: 347
+   When: 2022-04-24T20:18:39
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 5b 01 02 9f b0 65 62 20 00 04 09 01 6f 00 ff ff 
+
+Record:348:
+   Record Id: 348
+   When: 2022-05-03T09:46:37
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 5c 01 02 fd f9 70 62 20 00 04 09 01 6f 00 ff ff 
+
+Record:349:
+   Record Id: 349
+   When: 2022-05-03T09:46:42
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: 5d 01 02 02 fa 70 62 20 00 04 08 70 6f 03 ff ff 
+
+Record:350:
+   Record Id: 350
+   When: 2022-05-03T09:46:42
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: 5e 01 02 02 fa 70 62 20 00 04 08 7f 0b 01 ff ff 
+
+Record:351:
+   Record Id: 351
+   When: 2022-05-03T09:48:28
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 5f 01 02 6c fa 70 62 20 00 04 09 01 6f 00 ff ff 
+
+Record:352:
+   Record Id: 352
+   When: 2022-05-03T09:48:36
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: 60 01 02 74 fa 70 62 20 00 04 08 70 6f 03 ff ff 
+
+Record:353:
+   Record Id: 353
+   When: 2022-05-03T09:48:36
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: 61 01 02 74 fa 70 62 20 00 04 08 7f 0b 01 ff ff 
+
+Record:354:
+   Record Id: 354
+   When: 2022-05-03T10:12:45
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 62 01 02 1d 00 71 62 20 00 04 09 01 6f 00 ff ff 
+
+Record:355:
+   Record Id: 355
+   When: 2022-05-03T10:12:51
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: 63 01 02 23 00 71 62 20 00 04 08 70 6f 03 ff ff 
+
+Record:356:
+   Record Id: 356
+   When: 2022-05-03T10:12:51
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: 64 01 02 23 00 71 62 20 00 04 08 7f 0b 01 ff ff 
+
+Record:357:
+   Record Id: 357
+   When: 2022-05-03T10:14:39
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 65 01 02 8f 00 71 62 20 00 04 09 01 6f 00 ff ff 
+
+Record:358:
+   Record Id: 358
+   When: 2022-05-03T10:14:47
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: 66 01 02 97 00 71 62 20 00 04 08 70 6f 03 ff ff 
+
+Record:359:
+   Record Id: 359
+   When: 2022-05-03T10:14:47
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: 67 01 02 97 00 71 62 20 00 04 08 7f 0b 01 ff ff 
+
+Record:360:
+   Record Id: 360
+   When: 2022-05-03T10:17:00
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 68 01 02 1c 01 71 62 20 00 04 09 01 ef 00 ff ff 
+
+Record:361:
+   Record Id: 361
+   When: 2022-05-03T10:17:05
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 69 01 02 21 01 71 62 20 00 04 0f b5 6f c2 00 ff 
+
+Record:362:
+   Record Id: 362
+   When: 2022-05-03T10:19:15
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 96
+   Raw: 
+   Formatted-Raw: 6a 01 02 a3 01 71 62 20 00 04 0d 60 6f 05 ff ff 
+
+Record:363:
+   Record Id: 363
+   When: 2022-05-03T10:19:15
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 97
+   Raw: 
+   Formatted-Raw: 6b 01 02 a3 01 71 62 20 00 04 0d 61 6f 05 ff ff 
+
+Record:364:
+   Record Id: 364
+   When: 2022-05-03T10:19:15
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 98
+   Raw: 
+   Formatted-Raw: 6c 01 02 a3 01 71 62 20 00 04 0d 62 6f 05 ff ff 
+
+Record:365:
+   Record Id: 365
+   When: 2022-05-03T10:19:15
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 99
+   Raw: 
+   Formatted-Raw: 6d 01 02 a3 01 71 62 20 00 04 0d 63 6f 05 ff ff 
+
+Record:366:
+   Record Id: 366
+   When: 2022-05-03T10:19:15
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 100
+   Raw: 
+   Formatted-Raw: 6e 01 02 a3 01 71 62 20 00 04 0d 64 6f 05 ff ff 
+
+Record:367:
+   Record Id: 367
+   When: 2022-05-03T10:19:15
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot Drive Fault
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: 6f 01 02 a3 01 71 62 20 00 04 0d 65 6f 01 ff ff 
+
+Record:368:
+   Record Id: 368
+   When: 2022-05-03T10:19:15
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 102
+   Raw: 
+   Formatted-Raw: 70 01 02 a3 01 71 62 20 00 04 0d 66 6f 05 ff ff 
+
+Record:369:
+   Record Id: 369
+   When: 2022-05-03T10:19:15
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 103
+   Raw: 
+   Formatted-Raw: 71 01 02 a3 01 71 62 20 00 04 0d 67 6f 05 ff ff 
+
+Record:370:
+   Record Id: 370
+   When: 2022-05-03T10:20:40
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 72 01 02 f8 01 71 62 20 00 04 0f b5 6f c2 13 ff 
+
+Record:371:
+   Record Id: 371
+   When: 2022-05-03T10:40:58
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 73 01 02 ba 06 71 62 20 00 04 09 01 6f 00 ff ff 
+
+Record:372:
+   Record Id: 372
+   When: 2022-05-03T11:25:15
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 74 01 02 1b 11 71 62 20 00 04 09 01 ef 00 ff ff 
+
+Record:373:
+   Record Id: 373
+   When: 2022-05-03T11:25:21
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 75 01 02 21 11 71 62 20 00 04 0f b5 6f c2 00 ff 
+
+Record:374:
+   Record Id: 374
+   When: 2022-05-03T11:26:23
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 96
+   Raw: 
+   Formatted-Raw: 76 01 02 5f 11 71 62 20 00 04 0d 60 ef 05 ff ff 
+
+Record:375:
+   Record Id: 375
+   When: 2022-05-03T11:26:23
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 97
+   Raw: 
+   Formatted-Raw: 77 01 02 5f 11 71 62 20 00 04 0d 61 ef 05 ff ff 
+
+Record:376:
+   Record Id: 376
+   When: 2022-05-03T11:26:23
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 98
+   Raw: 
+   Formatted-Raw: 78 01 02 5f 11 71 62 20 00 04 0d 62 ef 05 ff ff 
+
+Record:377:
+   Record Id: 377
+   When: 2022-05-03T11:26:23
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 99
+   Raw: 
+   Formatted-Raw: 79 01 02 5f 11 71 62 20 00 04 0d 63 ef 05 ff ff 
+
+Record:378:
+   Record Id: 378
+   When: 2022-05-03T11:26:23
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 100
+   Raw: 
+   Formatted-Raw: 7a 01 02 5f 11 71 62 20 00 04 0d 64 ef 05 ff ff 
+
+Record:379:
+   Record Id: 379
+   When: 2022-05-03T11:26:23
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot Drive Fault
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: 7b 01 02 5f 11 71 62 20 00 04 0d 65 ef 01 ff ff 
+
+Record:380:
+   Record Id: 380
+   When: 2022-05-03T11:26:23
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 102
+   Raw: 
+   Formatted-Raw: 7c 01 02 5f 11 71 62 20 00 04 0d 66 ef 05 ff ff 
+
+Record:381:
+   Record Id: 381
+   When: 2022-05-03T11:26:23
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 103
+   Raw: 
+   Formatted-Raw: 7d 01 02 5f 11 71 62 20 00 04 0d 67 ef 05 ff ff 
+
+Record:382:
+   Record Id: 382
+   When: 2022-05-03T11:27:21
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 96
+   Raw: 
+   Formatted-Raw: 7e 01 02 99 11 71 62 20 00 04 0d 60 6f 05 ff ff 
+
+Record:383:
+   Record Id: 383
+   When: 2022-05-03T11:27:21
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 97
+   Raw: 
+   Formatted-Raw: 7f 01 02 99 11 71 62 20 00 04 0d 61 6f 05 ff ff 
+
+Record:384:
+   Record Id: 384
+   When: 2022-05-03T11:27:21
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 98
+   Raw: 
+   Formatted-Raw: 80 01 02 99 11 71 62 20 00 04 0d 62 6f 05 ff ff 
+
+Record:385:
+   Record Id: 385
+   When: 2022-05-03T11:27:21
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Event Logging Disabled Log almost full
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 81 01 02 99 11 71 62 20 00 04 10 b6 6f 05 ff ff 
+
+Record:386:
+   Record Id: 386
+   When: 2022-05-03T11:27:21
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 99
+   Raw: 
+   Formatted-Raw: 82 01 02 99 11 71 62 20 00 04 0d 63 6f 05 ff ff 
+
+Record:387:
+   Record Id: 387
+   When: 2022-05-03T11:27:21
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 100
+   Raw: 
+   Formatted-Raw: 83 01 02 99 11 71 62 20 00 04 0d 64 6f 05 ff ff 
+
+Record:388:
+   Record Id: 388
+   When: 2022-05-03T11:27:21
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot Drive Fault
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: 84 01 02 99 11 71 62 20 00 04 0d 65 6f 01 ff ff 
+
+Record:389:
+   Record Id: 389
+   When: 2022-05-03T11:27:21
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 102
+   Raw: 
+   Formatted-Raw: 85 01 02 99 11 71 62 20 00 04 0d 66 6f 05 ff ff 
+
+Record:390:
+   Record Id: 390
+   When: 2022-05-03T11:27:21
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 103
+   Raw: 
+   Formatted-Raw: 86 01 02 99 11 71 62 20 00 04 0d 67 6f 05 ff ff 
+
+Record:391:
+   Record Id: 391
+   When: 2022-05-03T11:28:01
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 87 01 02 c1 11 71 62 20 00 04 0f b5 6f c2 13 ff 
+
+Record:392:
+   Record Id: 392
+   When: 2022-05-03T13:56:42
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 88 01 02 9a 34 71 62 20 00 04 09 01 6f 00 ff ff 
+
+Record:393:
+   Record Id: 393
+   When: 2022-06-04T21:15:18
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 89 01 02 66 cb 9b 62 20 00 04 0f b5 6f c2 00 ff 
+
+Record:394:
+   Record Id: 394
+   When: 2022-06-04T21:15:18
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: 8a 01 02 66 cb 9b 62 20 00 04 08 70 6f 03 ff ff 
+
+Record:395:
+   Record Id: 395
+   When: 2022-06-04T21:15:18
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: 8b 01 02 66 cb 9b 62 20 00 04 08 7f 0b 01 ff ff 
+
+Record:396:
+   Record Id: 396
+   When: 2022-06-04T21:17:09
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 96
+   Raw: 
+   Formatted-Raw: 8c 01 02 d5 cb 9b 62 20 00 04 0d 60 6f 05 ff ff 
+
+Record:397:
+   Record Id: 397
+   When: 2022-06-04T21:17:09
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 97
+   Raw: 
+   Formatted-Raw: 8d 01 02 d5 cb 9b 62 20 00 04 0d 61 6f 05 ff ff 
+
+Record:398:
+   Record Id: 398
+   When: 2022-06-04T21:17:09
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 98
+   Raw: 
+   Formatted-Raw: 8e 01 02 d5 cb 9b 62 20 00 04 0d 62 6f 05 ff ff 
+
+Record:399:
+   Record Id: 399
+   When: 2022-06-04T21:17:09
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 99
+   Raw: 
+   Formatted-Raw: 8f 01 02 d5 cb 9b 62 20 00 04 0d 63 6f 05 ff ff 
+
+Record:400:
+   Record Id: 400
+   When: 2022-06-04T21:17:09
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 100
+   Raw: 
+   Formatted-Raw: 90 01 02 d5 cb 9b 62 20 00 04 0d 64 6f 05 ff ff 
+
+Record:401:
+   Record Id: 401
+   When: 2022-06-04T21:17:09
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot Drive Fault
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: 91 01 02 d5 cb 9b 62 20 00 04 0d 65 6f 01 ff ff 
+
+Record:402:
+   Record Id: 402
+   When: 2022-06-04T21:17:09
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 102
+   Raw: 
+   Formatted-Raw: 92 01 02 d5 cb 9b 62 20 00 04 0d 66 6f 05 ff ff 
+
+Record:403:
+   Record Id: 403
+   When: 2022-06-04T21:17:09
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 103
+   Raw: 
+   Formatted-Raw: 93 01 02 d5 cb 9b 62 20 00 04 0d 67 6f 05 ff ff 
+
+Record:404:
+   Record Id: 404
+   When: 2022-06-04T21:17:46
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 96
+   Raw: 
+   Formatted-Raw: 94 01 02 fa cb 9b 62 20 00 04 0d 60 6f 05 ff ff 
+
+Record:405:
+   Record Id: 405
+   When: 2022-06-04T21:17:46
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 97
+   Raw: 
+   Formatted-Raw: 95 01 02 fa cb 9b 62 20 00 04 0d 61 6f 05 ff ff 
+
+Record:406:
+   Record Id: 406
+   When: 2022-06-04T21:17:46
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 98
+   Raw: 
+   Formatted-Raw: 96 01 02 fa cb 9b 62 20 00 04 0d 62 6f 05 ff ff 
+
+Record:407:
+   Record Id: 407
+   When: 2022-06-04T21:17:46
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 99
+   Raw: 
+   Formatted-Raw: 97 01 02 fa cb 9b 62 20 00 04 0d 63 6f 05 ff ff 
+
+Record:408:
+   Record Id: 408
+   When: 2022-06-04T21:17:46
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 100
+   Raw: 
+   Formatted-Raw: 98 01 02 fa cb 9b 62 20 00 04 0d 64 6f 05 ff ff 
+
+Record:409:
+   Record Id: 409
+   When: 2022-06-04T21:17:46
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot Drive Fault
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: 99 01 02 fa cb 9b 62 20 00 04 0d 65 6f 01 ff ff 
+
+Record:410:
+   Record Id: 410
+   When: 2022-06-04T21:17:46
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 102
+   Raw: 
+   Formatted-Raw: 9a 01 02 fa cb 9b 62 20 00 04 0d 66 6f 05 ff ff 
+
+Record:411:
+   Record Id: 411
+   When: 2022-06-04T21:17:47
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 103
+   Raw: 
+   Formatted-Raw: 9b 01 02 fb cb 9b 62 20 00 04 0d 67 6f 05 ff ff 
+
+Record:412:
+   Record Id: 412
+   When: 2022-06-04T21:17:53
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 9c 01 02 01 cc 9b 62 20 00 04 0f b5 6f c2 13 ff 
+
+Record:413:
+   Record Id: 413
+   When: 2022-06-04T21:17:53
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: 9d 01 02 01 cc 9b 62 20 00 04 08 70 6f 03 ff ff 
+
+Record:414:
+   Record Id: 414
+   When: 2022-06-04T21:17:53
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: 9e 01 02 01 cc 9b 62 20 00 04 08 7f 0b 01 ff ff 
+
+Record:415:
+   Record Id: 415
+   When: 2022-06-05T00:25:49
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: 9f 01 02 0d f8 9b 62 20 00 04 09 01 6f 00 ff ff 
+
+Record:416:
+   Record Id: 416
+   When: 2022-06-05T20:47:10
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: a0 01 02 4e 16 9d 62 20 00 04 0f b5 6f c2 00 ff 
+
+Record:417:
+   Record Id: 417
+   When: 2022-06-05T20:47:10
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: a1 01 02 4e 16 9d 62 20 00 04 08 70 6f 03 ff ff 
+
+Record:418:
+   Record Id: 418
+   When: 2022-06-05T20:47:10
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: a2 01 02 4e 16 9d 62 20 00 04 08 7f 0b 01 ff ff 
+
+Record:419:
+   Record Id: 419
+   When: 2022-06-05T20:49:00
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 96
+   Raw: 
+   Formatted-Raw: a3 01 02 bc 16 9d 62 20 00 04 0d 60 6f 05 ff ff 
+
+Record:420:
+   Record Id: 420
+   When: 2022-06-05T20:49:00
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 97
+   Raw: 
+   Formatted-Raw: a4 01 02 bc 16 9d 62 20 00 04 0d 61 6f 05 ff ff 
+
+Record:421:
+   Record Id: 421
+   When: 2022-06-05T20:49:00
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 98
+   Raw: 
+   Formatted-Raw: a5 01 02 bc 16 9d 62 20 00 04 0d 62 6f 05 ff ff 
+
+Record:422:
+   Record Id: 422
+   When: 2022-06-05T20:49:00
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 99
+   Raw: 
+   Formatted-Raw: a6 01 02 bc 16 9d 62 20 00 04 0d 63 6f 05 ff ff 
+
+Record:423:
+   Record Id: 423
+   When: 2022-06-05T20:49:00
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 100
+   Raw: 
+   Formatted-Raw: a7 01 02 bc 16 9d 62 20 00 04 0d 64 6f 05 ff ff 
+
+Record:424:
+   Record Id: 424
+   When: 2022-06-05T20:49:00
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot Drive Fault
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: a8 01 02 bc 16 9d 62 20 00 04 0d 65 6f 01 ff ff 
+
+Record:425:
+   Record Id: 425
+   When: 2022-06-05T20:49:00
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 102
+   Raw: 
+   Formatted-Raw: a9 01 02 bc 16 9d 62 20 00 04 0d 66 6f 05 ff ff 
+
+Record:426:
+   Record Id: 426
+   When: 2022-06-05T20:49:00
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 103
+   Raw: 
+   Formatted-Raw: aa 01 02 bc 16 9d 62 20 00 04 0d 67 6f 05 ff ff 
+
+Record:427:
+   Record Id: 427
+   When: 2022-06-05T20:49:31
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 96
+   Raw: 
+   Formatted-Raw: ab 01 02 db 16 9d 62 20 00 04 0d 60 6f 05 ff ff 
+
+Record:428:
+   Record Id: 428
+   When: 2022-06-05T20:49:31
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 97
+   Raw: 
+   Formatted-Raw: ac 01 02 db 16 9d 62 20 00 04 0d 61 6f 05 ff ff 
+
+Record:429:
+   Record Id: 429
+   When: 2022-06-05T20:49:31
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 98
+   Raw: 
+   Formatted-Raw: ad 01 02 db 16 9d 62 20 00 04 0d 62 6f 05 ff ff 
+
+Record:430:
+   Record Id: 430
+   When: 2022-06-05T20:49:31
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 99
+   Raw: 
+   Formatted-Raw: ae 01 02 db 16 9d 62 20 00 04 0d 63 6f 05 ff ff 
+
+Record:431:
+   Record Id: 431
+   When: 2022-06-05T20:49:31
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 100
+   Raw: 
+   Formatted-Raw: af 01 02 db 16 9d 62 20 00 04 0d 64 6f 05 ff ff 
+
+Record:432:
+   Record Id: 432
+   When: 2022-06-05T20:49:31
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot Drive Fault
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: b0 01 02 db 16 9d 62 20 00 04 0d 65 6f 01 ff ff 
+
+Record:433:
+   Record Id: 433
+   When: 2022-06-05T20:49:31
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 102
+   Raw: 
+   Formatted-Raw: b1 01 02 db 16 9d 62 20 00 04 0d 66 6f 05 ff ff 
+
+Record:434:
+   Record Id: 434
+   When: 2022-06-05T20:49:31
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 103
+   Raw: 
+   Formatted-Raw: b2 01 02 db 16 9d 62 20 00 04 0d 67 6f 05 ff ff 
+
+Record:435:
+   Record Id: 435
+   When: 2022-06-05T20:49:38
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: b3 01 02 e2 16 9d 62 20 00 04 0f b5 6f c2 13 ff 
+
+Record:436:
+   Record Id: 436
+   When: 2022-06-05T20:49:38
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: b4 01 02 e2 16 9d 62 20 00 04 08 70 6f 03 ff ff 
+
+Record:437:
+   Record Id: 437
+   When: 2022-06-05T20:49:38
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: b5 01 02 e2 16 9d 62 20 00 04 08 7f 0b 01 ff ff 
+
+Record:438:
+   Record Id: 438
+   When: 2022-06-05T23:21:54
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: b6 01 02 92 3a 9d 62 20 00 04 09 01 6f 00 ff ff 
+
+Record:439:
+   Record Id: 439
+   When: 2022-08-29T22:01:46
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: b7 01 02 4a 37 0d 63 20 00 04 09 01 6f 00 ff ff 
+
+Record:440:
+   Record Id: 440
+   When: 2022-08-29T22:01:52
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: b8 01 02 50 37 0d 63 20 00 04 08 70 6f 03 ff ff 
+
+Record:441:
+   Record Id: 441
+   When: 2022-08-29T22:01:52
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: b9 01 02 50 37 0d 63 20 00 04 08 7f 0b 01 ff ff 
+
+Record:442:
+   Record Id: 442
+   When: 2022-08-29T22:03:43
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: ba 01 02 bf 37 0d 63 20 00 04 09 01 6f 00 ff ff 
+
+Record:443:
+   Record Id: 443
+   When: 2022-08-29T22:03:50
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: bb 01 02 c6 37 0d 63 20 00 04 08 70 6f 03 ff ff 
+
+Record:444:
+   Record Id: 444
+   When: 2022-08-29T22:03:50
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: bc 01 02 c6 37 0d 63 20 00 04 08 7f 0b 01 ff ff 
+
+Record:445:
+   Record Id: 445
+   When: 2022-08-29T22:17:46
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: bd 01 02 0a 3b 0d 63 20 00 04 09 01 ef 00 ff ff 
+
+Record:446:
+   Record Id: 446
+   When: 2022-08-29T22:17:51
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: be 01 02 0f 3b 0d 63 20 00 04 0f b5 6f c2 00 ff 
+
+Record:447:
+   Record Id: 447
+   When: 2022-08-29T22:19:50
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 96
+   Raw: 
+   Formatted-Raw: bf 01 02 86 3b 0d 63 20 00 04 0d 60 6f 05 ff ff 
+
+Record:448:
+   Record Id: 448
+   When: 2022-08-29T22:19:50
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 97
+   Raw: 
+   Formatted-Raw: c0 01 02 86 3b 0d 63 20 00 04 0d 61 6f 05 ff ff 
+
+Record:449:
+   Record Id: 449
+   When: 2022-08-29T22:19:50
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 98
+   Raw: 
+   Formatted-Raw: c1 01 02 86 3b 0d 63 20 00 04 0d 62 6f 05 ff ff 
+
+Record:450:
+   Record Id: 450
+   When: 2022-08-29T22:19:50
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 99
+   Raw: 
+   Formatted-Raw: c2 01 02 86 3b 0d 63 20 00 04 0d 63 6f 05 ff ff 
+
+Record:451:
+   Record Id: 451
+   When: 2022-08-29T22:19:50
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 100
+   Raw: 
+   Formatted-Raw: c3 01 02 86 3b 0d 63 20 00 04 0d 64 6f 05 ff ff 
+
+Record:452:
+   Record Id: 452
+   When: 2022-08-29T22:19:50
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot Drive Fault
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: c4 01 02 86 3b 0d 63 20 00 04 0d 65 6f 01 ff ff 
+
+Record:453:
+   Record Id: 453
+   When: 2022-08-29T22:19:50
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 102
+   Raw: 
+   Formatted-Raw: c5 01 02 86 3b 0d 63 20 00 04 0d 66 6f 05 ff ff 
+
+Record:454:
+   Record Id: 454
+   When: 2022-08-29T22:19:50
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 103
+   Raw: 
+   Formatted-Raw: c6 01 02 86 3b 0d 63 20 00 04 0d 67 6f 05 ff ff 
+
+Record:455:
+   Record Id: 455
+   When: 2022-08-29T22:20:31
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: c7 01 02 af 3b 0d 63 20 00 04 0f b5 6f c2 13 ff 
+
+Record:456:
+   Record Id: 456
+   When: 2022-08-29T22:54:58
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: c8 01 02 c2 43 0d 63 20 00 04 09 01 6f 00 ff ff 
+
+Record:457:
+   Record Id: 457
+   When: 2022-09-02T19:23:30
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: c9 01 02 32 58 12 63 20 00 04 0f b5 6f c2 00 ff 
+
+Record:458:
+   Record Id: 458
+   When: 2022-09-02T19:23:30
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: ca 01 02 32 58 12 63 20 00 04 08 70 6f 03 ff ff 
+
+Record:459:
+   Record Id: 459
+   When: 2022-09-02T19:23:30
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: cb 01 02 32 58 12 63 20 00 04 08 7f 0b 01 ff ff 
+
+Record:460:
+   Record Id: 460
+   When: 2022-09-02T19:25:26
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 96
+   Raw: 
+   Formatted-Raw: cc 01 02 a6 58 12 63 20 00 04 0d 60 6f 05 ff ff 
+
+Record:461:
+   Record Id: 461
+   When: 2022-09-02T19:25:26
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 97
+   Raw: 
+   Formatted-Raw: cd 01 02 a6 58 12 63 20 00 04 0d 61 6f 05 ff ff 
+
+Record:462:
+   Record Id: 462
+   When: 2022-09-02T19:25:26
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 98
+   Raw: 
+   Formatted-Raw: ce 01 02 a6 58 12 63 20 00 04 0d 62 6f 05 ff ff 
+
+Record:463:
+   Record Id: 463
+   When: 2022-09-02T19:25:26
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 99
+   Raw: 
+   Formatted-Raw: cf 01 02 a6 58 12 63 20 00 04 0d 63 6f 05 ff ff 
+
+Record:464:
+   Record Id: 464
+   When: 2022-09-02T19:25:26
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 100
+   Raw: 
+   Formatted-Raw: d0 01 02 a6 58 12 63 20 00 04 0d 64 6f 05 ff ff 
+
+Record:465:
+   Record Id: 465
+   When: 2022-09-02T19:25:26
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot Drive Fault
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: d1 01 02 a6 58 12 63 20 00 04 0d 65 6f 01 ff ff 
+
+Record:466:
+   Record Id: 466
+   When: 2022-09-02T19:25:26
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 102
+   Raw: 
+   Formatted-Raw: d2 01 02 a6 58 12 63 20 00 04 0d 66 6f 05 ff ff 
+
+Record:467:
+   Record Id: 467
+   When: 2022-09-02T19:25:26
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 103
+   Raw: 
+   Formatted-Raw: d3 01 02 a6 58 12 63 20 00 04 0d 67 6f 05 ff ff 
+
+Record:468:
+   Record Id: 468
+   When: 2022-09-02T19:25:59
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 96
+   Raw: 
+   Formatted-Raw: d4 01 02 c7 58 12 63 20 00 04 0d 60 6f 05 ff ff 
+
+Record:469:
+   Record Id: 469
+   When: 2022-09-02T19:25:59
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 97
+   Raw: 
+   Formatted-Raw: d5 01 02 c7 58 12 63 20 00 04 0d 61 6f 05 ff ff 
+
+Record:470:
+   Record Id: 470
+   When: 2022-09-02T19:25:59
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 98
+   Raw: 
+   Formatted-Raw: d6 01 02 c7 58 12 63 20 00 04 0d 62 6f 05 ff ff 
+
+Record:471:
+   Record Id: 471
+   When: 2022-09-02T19:25:59
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 99
+   Raw: 
+   Formatted-Raw: d7 01 02 c7 58 12 63 20 00 04 0d 63 6f 05 ff ff 
+
+Record:472:
+   Record Id: 472
+   When: 2022-09-02T19:25:59
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 100
+   Raw: 
+   Formatted-Raw: d8 01 02 c7 58 12 63 20 00 04 0d 64 6f 05 ff ff 
+
+Record:473:
+   Record Id: 473
+   When: 2022-09-02T19:25:59
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot Drive Fault
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: d9 01 02 c7 58 12 63 20 00 04 0d 65 6f 01 ff ff 
+
+Record:474:
+   Record Id: 474
+   When: 2022-09-02T19:25:59
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 102
+   Raw: 
+   Formatted-Raw: da 01 02 c7 58 12 63 20 00 04 0d 66 6f 05 ff ff 
+
+Record:475:
+   Record Id: 475
+   When: 2022-09-02T19:25:59
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 103
+   Raw: 
+   Formatted-Raw: db 01 02 c7 58 12 63 20 00 04 0d 67 6f 05 ff ff 
+
+Record:476:
+   Record Id: 476
+   When: 2022-09-02T19:26:05
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: dc 01 02 cd 58 12 63 20 00 04 0f b5 6f c2 13 ff 
+
+Record:477:
+   Record Id: 477
+   When: 2022-09-02T19:26:05
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Power Supply AC lost
+   Sensor Number: 112
+   Raw: 
+   Formatted-Raw: dd 01 02 cd 58 12 63 20 00 04 08 70 6f 03 ff ff 
+
+Record:478:
+   Record Id: 478
+   When: 2022-09-02T19:26:05
+   Event Type: 11 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Supply Redundancy Lost
+   Sensor Number: 127
+   Raw: 
+   Formatted-Raw: de 01 02 cd 58 12 63 20 00 04 08 7f 0b 01 ff ff 
+
+Record:479:
+   Record Id: 479
+   When: 2022-09-02T23:20:48
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: df 01 02 d0 8f 12 63 20 00 04 09 01 6f 00 ff ff 
+
+Record:480:
+   Record Id: 480
+   When: 2022-09-03T07:18:30
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: e0 01 02 c6 ff 12 63 20 00 04 09 01 ef 00 ff ff 
+
+Record:481:
+   Record Id: 481
+   When: 2022-09-03T07:18:36
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: e1 01 02 cc ff 12 63 20 00 04 0f b5 6f c2 00 ff 
+
+Record:482:
+   Record Id: 482
+   When: 2022-09-03T07:19:37
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 96
+   Raw: 
+   Formatted-Raw: e2 01 02 09 00 13 63 20 00 04 0d 60 ef 05 ff ff 
+
+Record:483:
+   Record Id: 483
+   When: 2022-09-03T07:19:38
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 97
+   Raw: 
+   Formatted-Raw: e3 01 02 0a 00 13 63 20 00 04 0d 61 ef 05 ff ff 
+
+Record:484:
+   Record Id: 484
+   When: 2022-09-03T07:19:38
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 98
+   Raw: 
+   Formatted-Raw: e4 01 02 0a 00 13 63 20 00 04 0d 62 ef 05 ff ff 
+
+Record:485:
+   Record Id: 485
+   When: 2022-09-03T07:19:38
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 99
+   Raw: 
+   Formatted-Raw: e5 01 02 0a 00 13 63 20 00 04 0d 63 ef 05 ff ff 
+
+Record:486:
+   Record Id: 486
+   When: 2022-09-03T07:19:38
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 100
+   Raw: 
+   Formatted-Raw: e6 01 02 0a 00 13 63 20 00 04 0d 64 ef 05 ff ff 
+
+Record:487:
+   Record Id: 487
+   When: 2022-09-03T07:19:38
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot Drive Fault
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: e7 01 02 0a 00 13 63 20 00 04 0d 65 ef 01 ff ff 
+
+Record:488:
+   Record Id: 488
+   When: 2022-09-03T07:19:38
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 102
+   Raw: 
+   Formatted-Raw: e8 01 02 0a 00 13 63 20 00 04 0d 66 ef 05 ff ff 
+
+Record:489:
+   Record Id: 489
+   When: 2022-09-03T07:19:38
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 103
+   Raw: 
+   Formatted-Raw: e9 01 02 0a 00 13 63 20 00 04 0d 67 ef 05 ff ff 
+
+Record:490:
+   Record Id: 490
+   When: 2022-09-03T07:20:36
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 96
+   Raw: 
+   Formatted-Raw: ea 01 02 44 00 13 63 20 00 04 0d 60 6f 05 ff ff 
+
+Record:491:
+   Record Id: 491
+   When: 2022-09-03T07:20:36
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 97
+   Raw: 
+   Formatted-Raw: eb 01 02 44 00 13 63 20 00 04 0d 61 6f 05 ff ff 
+
+Record:492:
+   Record Id: 492
+   When: 2022-09-03T07:20:37
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 98
+   Raw: 
+   Formatted-Raw: ec 01 02 45 00 13 63 20 00 04 0d 62 6f 05 ff ff 
+
+Record:493:
+   Record Id: 493
+   When: 2022-09-03T07:20:37
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 99
+   Raw: 
+   Formatted-Raw: ed 01 02 45 00 13 63 20 00 04 0d 63 6f 05 ff ff 
+
+Record:494:
+   Record Id: 494
+   When: 2022-09-03T07:20:37
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 100
+   Raw: 
+   Formatted-Raw: ee 01 02 45 00 13 63 20 00 04 0d 64 6f 05 ff ff 
+
+Record:495:
+   Record Id: 495
+   When: 2022-09-03T07:20:37
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot Drive Fault
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: ef 01 02 45 00 13 63 20 00 04 0d 65 6f 01 ff ff 
+
+Record:496:
+   Record Id: 496
+   When: 2022-09-03T07:20:37
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 102
+   Raw: 
+   Formatted-Raw: f0 01 02 45 00 13 63 20 00 04 0d 66 6f 05 ff ff 
+
+Record:497:
+   Record Id: 497
+   When: 2022-09-03T07:20:37
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 103
+   Raw: 
+   Formatted-Raw: f1 01 02 45 00 13 63 20 00 04 0d 67 6f 05 ff ff 
+
+Record:498:
+   Record Id: 498
+   When: 2022-09-03T07:21:17
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: f2 01 02 6d 00 13 63 20 00 04 0f b5 6f c2 13 ff 
+
+Record:499:
+   Record Id: 499
+   When: 2022-09-04T00:16:35
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: f3 01 02 63 ee 13 63 20 00 04 09 01 6f 00 ff ff 
+
+Record:500:
+   Record Id: 500
+   When: 2022-09-04T07:07:09
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Power Unit Power off/down
+   Sensor Number: 1
+   Raw: 
+   Formatted-Raw: f4 01 02 9d 4e 14 63 20 00 04 09 01 ef 00 ff ff 
+
+Record:501:
+   Record Id: 501
+   When: 2022-09-04T07:07:15
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + System Firmware Progress Unspecified
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: f5 01 02 a3 4e 14 63 20 00 04 0f b5 6f c2 00 ff 
+
+Record:502:
+   Record Id: 502
+   When: 2022-09-04T07:08:17
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 96
+   Raw: 
+   Formatted-Raw: f6 01 02 e1 4e 14 63 20 00 04 0d 60 ef 05 ff ff 
+
+Record:503:
+   Record Id: 503
+   When: 2022-09-04T07:08:17
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 97
+   Raw: 
+   Formatted-Raw: f7 01 02 e1 4e 14 63 20 00 04 0d 61 ef 05 ff ff 
+
+Record:504:
+   Record Id: 504
+   When: 2022-09-04T07:08:17
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 98
+   Raw: 
+   Formatted-Raw: f8 01 02 e1 4e 14 63 20 00 04 0d 62 ef 05 ff ff 
+
+Record:505:
+   Record Id: 505
+   When: 2022-09-04T07:08:17
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 99
+   Raw: 
+   Formatted-Raw: f9 01 02 e1 4e 14 63 20 00 04 0d 63 ef 05 ff ff 
+
+Record:506:
+   Record Id: 506
+   When: 2022-09-04T07:08:17
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 100
+   Raw: 
+   Formatted-Raw: fa 01 02 e1 4e 14 63 20 00 04 0d 64 ef 05 ff ff 
+
+Record:507:
+   Record Id: 507
+   When: 2022-09-04T07:08:17
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot Drive Fault
+   Sensor Number: 101
+   Raw: 
+   Formatted-Raw: fb 01 02 e1 4e 14 63 20 00 04 0d 65 ef 01 ff ff 
+
+Record:508:
+   Record Id: 508
+   When: 2022-09-04T07:08:17
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 102
+   Raw: 
+   Formatted-Raw: fc 01 02 e1 4e 14 63 20 00 04 0d 66 ef 05 ff ff 
+
+Record:509:
+   Record Id: 509
+   When: 2022-09-04T07:08:17
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Deassert + Drive Slot In Critical Array
+   Sensor Number: 103
+   Raw: 
+   Formatted-Raw: fd 01 02 e1 4e 14 63 20 00 04 0d 67 ef 05 ff ff 
+
+Record:510:
+   Record Id: 510
+   When: 2022-09-04T07:09:15
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 96
+   Raw: 
+   Formatted-Raw: fe 01 02 1b 4f 14 63 20 00 04 0d 60 6f 05 ff ff 
+
+Record:511:
+   Record Id: 511
+   When: 2022-09-04T07:09:15
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Drive Slot In Critical Array
+   Sensor Number: 97
+   Raw: 
+   Formatted-Raw: ff 01 02 1b 4f 14 63 20 00 04 0d 61 6f 05 ff ff 
+
+Record:512:
+   Record Id: 512
+   When: 2022-09-04T07:09:15
+   Event Type: 111 (Unknown)
+   SEL Type: 2 (System Event)
+   Message: Assert + Event Logging Disabled Log full
+   Sensor Number: 0
+   Raw: 
+   Formatted-Raw: 00 02 02 1b 4f 14 63 20 00 04 10 b6 6f 04 ff ff 
+

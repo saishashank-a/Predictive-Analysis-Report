@@ -1,0 +1,909 @@
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:1f.3 id=80863a3010143a300c0500.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: scan event for bus=pci addr=p0000:00:1f.2 id=80863a2010143a2001018f.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: scan succeeded for device 0x46584306f277ccf4
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Set alias for device 0x4d084306f277d30b
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Failed to set driver for 0x4d084306f277d30b: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: scan event for bus=pci addr=p0000:00:1f.2 id=80863a2010143a2001018f.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: scan succeeded for device 0x46584306f277ccf4
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Set alias for device 0x4d1a4306f277d5af
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Failed to set driver for 0x4d1a4306f277d5af: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: scan event for bus=pci addr=p0000:00:1f.5 id=80863a2610143a26010185.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: scan succeeded for device 0x25f04306f277cf4a
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Set alias for device 0x63c64306f277d6f2
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Failed to set driver for 0x63c64306f277d6f2: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: scan event for bus=pci addr=p0000:00:1f.5 id=80863a2610143a26010185.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: scan succeeded for device 0x25f04306f277cf4a
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Set alias for device 0x63964306f277d80a
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Failed to set driver for 0x63964306f277d80a: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#m00008501#0 id=com.vmware.uplink.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#m00008501#0 id=com.vmware.uplink.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Set alias for device 0x5f4b4306f277dbdd
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Failed to set driver for 0x5f4b4306f277dbdd: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#m00008501#0 id=com.vmware.uplink
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#m00008502#0 id=com.vmware.uplink.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#m00008502#0 id=com.vmware.uplink.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Set alias for device 0x1c154306f277dc76
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Failed to set driver for 0x1c154306f277dc76: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#m00008502#0 id=com.vmware.uplink
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#m00008503#0 id=com.vmware.uplink.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#m00008503#0 id=com.vmware.uplink.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Set alias for device 0x29194306f277de37
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Failed to set driver for 0x29194306f277de37: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#m00008503#0 id=com.vmware.uplink
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#m00008504#0 id=com.vmware.uplink.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#m00008504#0 id=com.vmware.uplink.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Set alias for device 0x12fd4306f277df63
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Failed to set driver for 0x12fd4306f277df63: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#m00008504#0 id=com.vmware.uplink
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#s00000001.00#0 id=com.vmware.uplink.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#s00000001.00#0 id=com.vmware.uplink.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Set alias for device 0x55cb4306f277e23e
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Failed to set driver for 0x55cb4306f277e23e: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#s00000001.00#0 id=com.vmware.uplink
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#s00000001.01#0 id=com.vmware.uplink.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#s00000001.01#0 id=com.vmware.uplink.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Set alias for device 0xa624306f277e374
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Failed to set driver for 0xa624306f277e374: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2025-12-27T00:44:13Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#s00000001.01#0 id=com.vmware.uplink
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: VMKDevMgrAcceptSocket entry
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: VMKDevMgrScanMsg parse = 0, scanCount = 3
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#m00008501#0 id=com.vmware.uplink.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#m00008501#0 id=com.vmware.uplink.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Set alias for device 0x5f4b4306f277dbdd
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#m00008502#0 id=com.vmware.uplink.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#m00008502#0 id=com.vmware.uplink.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Set alias for device 0x1c154306f277dc76
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#m00008503#0 id=com.vmware.uplink.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#m00008503#0 id=com.vmware.uplink.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Set alias for device 0x29194306f277de37
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#m00008504#0 id=com.vmware.uplink.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#m00008504#0 id=com.vmware.uplink.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Set alias for device 0x12fd4306f277df63
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#s00000001.00#0 id=com.vmware.uplink.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#s00000001.00#0 id=com.vmware.uplink.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Set alias for device 0x55cb4306f277e23e
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#s00000001.01#0 id=com.vmware.uplink.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#s00000001.01#0 id=com.vmware.uplink.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Set alias for device 0xa624306f277e374
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Set alias for device 0x4d084306f277d30b
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Failed to set driver for 0x4d084306f277d30b: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Set alias for device 0x4d1a4306f277d5af
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Failed to set driver for 0x4d1a4306f277d5af: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Set alias for device 0x63c64306f277d6f2
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Failed to set driver for 0x63c64306f277d6f2: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Set alias for device 0x63964306f277d80a
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Failed to set driver for 0x63964306f277d80a: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:00.0 id=8086340610147270060000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:10.0 id=8086342500000000080000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:10.1 id=8086342600000000080000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:11.0 id=8086342700000000080000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:11.1 id=8086342800000000080000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.0 id=8086342e00000000080000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.1 id=8086342200000000080000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.2 id=8086342300000000080000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.3 id=8086343800000000080000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:15.0 id=8086342f00000000080020.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.0 id=8086343010143430088000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.1 id=8086343110143431088000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.2 id=8086343210143432088000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.3 id=8086343310143433088000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.4 id=8086342910143429088000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.5 id=8086342a1014342a088000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.6 id=8086342b1014342b088000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.7 id=8086342c1014342c088000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:1f.0 id=80863a1810143a18060100.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:1f.3 id=80863a3010143a300c0500.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=m00008301 id=102b053010140369030000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=s00000003.00 id=10dff10010dff1000c0400.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=s00000003.01 id=10dff10010dff1000c0400.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Set alias for device 0x4d084306f277d30b
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Failed to set driver for 0x4d084306f277d30b: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Set alias for device 0x4d1a4306f277d5af
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Failed to set driver for 0x4d1a4306f277d5af: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Set alias for device 0x63c64306f277d6f2
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Failed to set driver for 0x63c64306f277d6f2: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Set alias for device 0x63964306f277d80a
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Failed to set driver for 0x63964306f277d80a: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:00.0 id=8086340610147270060000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:10.0 id=8086342500000000080000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:10.1 id=8086342600000000080000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:11.0 id=8086342700000000080000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:11.1 id=8086342800000000080000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.0 id=8086342e00000000080000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.1 id=8086342200000000080000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.2 id=8086342300000000080000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.3 id=8086343800000000080000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:15.0 id=8086342f00000000080020.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.0 id=8086343010143430088000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.1 id=8086343110143431088000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.2 id=8086343210143432088000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.3 id=8086343310143433088000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.4 id=8086342910143429088000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.5 id=8086342a1014342a088000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.6 id=8086342b1014342b088000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.7 id=8086342c1014342c088000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:1f.0 id=80863a1810143a18060100.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:1f.3 id=80863a3010143a300c0500.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=m00008301 id=102b053010140369030000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=s00000003.00 id=10dff10010dff1000c0400.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=s00000003.01 id=10dff10010dff1000c0400.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Set alias for device 0x4d084306f277d30b
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Failed to set driver for 0x4d084306f277d30b: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Set alias for device 0x4d1a4306f277d5af
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Failed to set driver for 0x4d1a4306f277d5af: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Set alias for device 0x63c64306f277d6f2
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Failed to set driver for 0x63c64306f277d6f2: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Set alias for device 0x63964306f277d80a
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Failed to set driver for 0x63964306f277d80a: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:00.0 id=8086340610147270060000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:10.0 id=8086342500000000080000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:10.1 id=8086342600000000080000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:11.0 id=8086342700000000080000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:11.1 id=8086342800000000080000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.0 id=8086342e00000000080000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.1 id=8086342200000000080000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.2 id=8086342300000000080000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.3 id=8086343800000000080000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:15.0 id=8086342f00000000080020.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.0 id=8086343010143430088000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.1 id=8086343110143431088000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.2 id=8086343210143432088000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.3 id=8086343310143433088000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.4 id=8086342910143429088000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.5 id=8086342a1014342a088000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.6 id=8086342b1014342b088000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.7 id=8086342c1014342c088000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:1f.0 id=80863a1810143a18060100.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:1f.3 id=80863a3010143a300c0500.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=m00008301 id=102b053010140369030000.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=s00000003.00 id=10dff10010dff1000c0400.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: ADD event for bus=pci addr=s00000003.01 id=10dff10010dff1000c0400.
+2025-12-27T00:44:14Z vmkdevmgr[2097780]: VMKDevMgrAcceptSocket reply: processed
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: VMKDevMgrAcceptSocket entry
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: VMKDevMgrScanMsg parse = 0, scanCount = 1
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: Set alias for device 0x4d084306f277d30b
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: Set alias for device 0x4d1a4306f277d5af
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: Set alias for device 0x63c64306f277d6f2
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: Set alias for device 0x63964306f277d80a
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:00.0 id=8086340610147270060000.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:10.0 id=8086342500000000080000.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:10.1 id=8086342600000000080000.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:11.0 id=8086342700000000080000.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:11.1 id=8086342800000000080000.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.0 id=8086342e00000000080000.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.1 id=8086342200000000080000.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.2 id=8086342300000000080000.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.3 id=8086343800000000080000.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:15.0 id=8086342f00000000080020.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.0 id=8086343010143430088000.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.1 id=8086343110143431088000.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.2 id=8086343210143432088000.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.3 id=8086343310143433088000.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.4 id=8086342910143429088000.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.5 id=8086342a1014342a088000.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.6 id=8086342b1014342b088000.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.7 id=8086342c1014342c088000.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:1f.0 id=80863a1810143a18060100.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:1f.3 id=80863a3010143a300c0500.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: ADD event for bus=pci addr=m00008301 id=102b053010140369030000.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: ADD event for bus=pci addr=s00000003.00 id=10dff10010dff1000c0400.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: ADD event for bus=pci addr=s00000003.01 id=10dff10010dff1000c0400.
+2025-12-27T00:44:16Z vmkdevmgr[2097780]: VMKDevMgrAcceptSocket reply: processed
+2025-12-27T00:44:19Z vmkdevmgr[2097780]: scan event for bus=pci addr=p0000:00:1d.0 id=80863a3410143a340c0300.
+2025-12-27T00:44:19Z vmkdevmgr[2097780]: scan succeeded for device 0x5fbf4306f277c3bc
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_amd.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/libpci_bus.so
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/libpci_bus.so
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Registering plugin for bus: pci
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Registered plugin for bus: pci
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: BusPlugin_Register: Registered bus type: pci
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_atiixp.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_cmd64x.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_hpt3x2n.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_pdc2027x.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_serverworks.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_sil680.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_via.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/cciss.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/random.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ehci-hcd.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/hid.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_devintf.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_msghandler.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_si_drv.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/bnx2.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/bnx2x.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/e1000.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/e1000e.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/enic.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/forcedeth.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/igb.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ixgbe.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mlx4_core.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/nx_nic.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/tg3.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/vmxnet3.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-ohci.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ahci.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ata_piix.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_nv.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_promise.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_sil24.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_sil.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_svw.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/aacraid.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/adp94xx.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/aic79xx.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/fnic.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/hpsa.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ips.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid_mbox.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid_sas.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid2.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mpt2sas.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mptsas.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mptspi.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/qla4xxx.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-uhci.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-storage.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/xhci.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_msgpt3.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/bnxtnet.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/bnxtroce.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/liblogical_bus.so
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/liblogical_bus.so
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Registering plugin for bus: logical
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Registered plugin for bus: logical
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: BusPlugin_Register: Registered bus type: logical
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_mr3.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_msgpt35.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/brcmfcoe.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/elxiscsi.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/elxnet.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/lpfc.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/i40en.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/iavmd.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/igbn.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/ixgben.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_core.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_en.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_rdma.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx5_core.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx5_rdma.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/smartpqi.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/qlnativefc.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/qcnic.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/qedentv.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/qedf.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/qedi.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/qedrntv.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/qfle3.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/qfle3f.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/qfle3i.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/iser.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/lpnic.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_msgpt2.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/mtip32xx_native.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/ne1000.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/nenic.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/nfnic.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/nhpsa.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/ntg3.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvme.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvmxnet3.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/pvscsi.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/qflge.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/sfvmk.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkata.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkfcoe.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkusb_acpi.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/libacpi_bus.so
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/libacpi_bus.so
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Registering plugin for bus: acpi
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Registered plugin for bus: acpi
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: BusPlugin_Register: Registered bus type: acpi
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkusb_pci.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmw_ahci_acpi.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmw_ahci_pci.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/nrdma.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/intelnvdimm.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/iscsi_vmk.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvdroot.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/fakepmem.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/rste.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/ihv.map.d/icen.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/ihv.map.d/qedentv_ens.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/ihv.map.d/nvmxnet3_ens.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/oem.map.d/vmkernel.map
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: DriverMap: 110 maps loaded. 2278 entries.
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: LoadAliases: hostProfile = false
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: AddAlias: Not committing alias vmnic0 for busAddress m00008501
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: AddAlias: Not committing alias vmnic1 for busAddress m00008502
+2026-01-10T07:55:22Z vmkdevmgr[2097689]: AddAlias: Not committing alias vmhba0 for busAddress m00008a01
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: AddAlias: Not committing alias vmhba1 for busAddress p0000:00:1f.2
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: AddAlias: Not committing alias vmnic2 for busAddress m00008503
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: AddAlias: Not committing alias vmhba2 for busAddress p0000:00:1f.5
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: AddAlias: Not committing alias vmnic3 for busAddress m00008504
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: AddAlias: Not committing alias vmnic5 for busAddress s00000001.01
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: AddAlias: Not committing alias vmnic4 for busAddress s00000001.00
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: AddAlias: skipping matching alias vmnic1 for pci device m00008502 with assigned alias vmnic1
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: AddAlias: skipping matching alias vmnic4 for pci device s00000001.00 with assigned alias vmnic4
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: AddAlias: skipping matching alias vmhba1 for pci device p0000:00:1f.2 with assigned alias vmhba1
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: AddAlias: skipping matching alias vmhba2 for pci device p0000:00:1f.5 with assigned alias vmhba2
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: AddAlias: skipping matching alias vmnic0 for pci device m00008501 with assigned alias vmnic0
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: AddAlias: skipping matching alias vmnic5 for pci device s00000001.01 with assigned alias vmnic5
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: AddAlias: skipping matching alias vmnic2 for pci device m00008503 with assigned alias vmnic2
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: AddAlias: skipping matching alias vmnic3 for pci device m00008504 with assigned alias vmnic3
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: AddAlias: skipping matching alias vmhba0 for pci device m00008a01 with assigned alias vmhba0
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: LoadAliases: using busAddress ordering
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_amd.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/libpci_bus.so
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/libpci_bus.so
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Registering plugin for bus: pci
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Registered plugin for bus: pci
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: BusPlugin_Register: Registered bus type: pci
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_atiixp.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_cmd64x.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_hpt3x2n.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_pdc2027x.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_serverworks.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_sil680.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/pata_via.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/cciss.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/random.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ehci-hcd.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/hid.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_devintf.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_msghandler.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ipmi_si_drv.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/bnx2.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/bnx2x.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/e1000.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/e1000e.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/enic.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/forcedeth.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/igb.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ixgbe.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mlx4_core.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/nx_nic.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/tg3.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/vmxnet3.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-ohci.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ahci.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ata_piix.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_nv.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_promise.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_sil24.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_sil.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/sata_svw.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/aacraid.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/adp94xx.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/aic79xx.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/fnic.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/hpsa.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/ips.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid_mbox.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid_sas.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/megaraid2.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mpt2sas.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mptsas.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/mptspi.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/qla4xxx.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-uhci.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb-storage.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/usb.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/driver.map.d/xhci.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_msgpt3.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/bnxtnet.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/bnxtroce.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/liblogical_bus.so
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/liblogical_bus.so
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Registering plugin for bus: logical
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Registered plugin for bus: logical
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: BusPlugin_Register: Registered bus type: logical
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_mr3.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_msgpt35.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/brcmfcoe.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/elxiscsi.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/elxnet.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/lpfc.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/i40en.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/iavmd.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/igbn.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/ixgben.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_core.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_en.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx4_rdma.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx5_core.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/nmlx5_rdma.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/smartpqi.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/qlnativefc.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/qcnic.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/qedentv.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/qedf.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/qedi.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/qedrntv.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/qfle3.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/qfle3f.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/qfle3i.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/iser.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/lpnic.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/lsi_msgpt2.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/mtip32xx_native.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/ne1000.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/nenic.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/nfnic.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/nhpsa.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/ntg3.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvme.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvmxnet3.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/pvscsi.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/qflge.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/sfvmk.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkata.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkfcoe.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkusb_acpi.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Open plugin: /usr/lib/vmware/drivers/lib/libacpi_bus.so
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Getting reg for plugins: /usr/lib/vmware/drivers/lib/libacpi_bus.so
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Registering plugin for bus: acpi
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Registered plugin for bus: acpi
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: BusPlugin_Register: Registered bus type: acpi
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmkusb_pci.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmw_ahci_acpi.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/vmw_ahci_pci.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/nrdma.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/intelnvdimm.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/iscsi_vmk.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/nvdroot.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/fakepmem.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/default.map.d/rste.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/ihv.map.d/icen.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/ihv.map.d/qedentv_ens.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/ihv.map.d/nvmxnet3_ens.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: Parsing map: /etc/vmware/oem.map.d/vmkernel.map
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: DriverMap: 110 maps loaded. 2278 entries.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: Found logical alias vmnic2
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: Found logical alias vmnic3
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: Found logical alias vmnic4
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: Found logical alias vmnic0
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: Found logical alias vmnic1
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: Found logical alias vmnic5
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:00.0
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:01.0
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:02.0
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:03.0
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:07.0
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000003.00
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: s00000003.01
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:10.0
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:10.1
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:11.0
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:11.1
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:14.0
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:14.1
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:14.2
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:14.3
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:15.0
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:16.0
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:16.1
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:16.2
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:16.3
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:16.4
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:16.5
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:16.6
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:16.7
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:1a.0
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:1a.1
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:1a.7
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:1c.0
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: not a vmnic alias vmhba0
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:1c.4
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:06:00.0
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: m00008301
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:1d.0
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:1d.1
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:1d.2
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:1d.7
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:1e.0
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:1f.0
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: not a vmnic alias vmhba1
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:1f.3
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: InheritVmklinuxAliases: not a vmnic alias vmhba2
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: ConfigFile: /etc/vmware/esx.conf: skipping non-dirty write
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: VmkCtl: [context]zKq7AVICAgAAAEvnJAEHdm1rY3RsAABIegVsaWJ2bWtjdGxjb3JlLnNvAAEWzwFsaWJwY2lfYnVzLnNvAAKihCxsaWJ2bWtjdGwuc28AAwC/AHZta2Rldm1ncgADZLgABL0ZAmxpYmMuc28uNgADfb0A[/context]
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: NewDriverMap: Loaded aliases for plugin pci
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: NewDriverMap: Loaded aliases for plugin acpi
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: ConfigFile: /etc/vmware/esx.conf: skipping non-dirty write
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: VmkCtl: [context]zKq7AVICAgAAAEvnJAEHdm1rY3RsAABIegVsaWJ2bWtjdGxjb3JlLnNvAAHsmAFsaWJsb2dpY2FsX2J1cy5zbwACkIUsbGlidm1rY3RsLnNvAAMAvwB2bWtkZXZtZ3IAA2S4AAS9GQJsaWJjLnNvLjYAA329AA==[/context]
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: NewDriverMap: Loaded aliases for plugin logical
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: NewDriverMap: Cleaned pending delete for plugin acpi
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: NewDriverMap: Cleaned pending delete for plugin logical
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: NewDriverMap: Cleaned pending delete for plugin pci
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: Entering initial tree walk
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:00.0 id=8086340610147270060000.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:10.0 id=8086342500000000080000.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:10.1 id=8086342600000000080000.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:11.0 id=8086342700000000080000.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:11.1 id=8086342800000000080000.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:14.0 id=8086342e00000000080000.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:14.1 id=8086342200000000080000.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:14.2 id=8086342300000000080000.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:14.3 id=8086343800000000080000.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:15.0 id=8086342f00000000080020.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:16.0 id=8086343010143430088000.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:16.1 id=8086343110143431088000.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:16.2 id=8086343210143432088000.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:16.3 id=8086343310143433088000.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:16.4 id=8086342910143429088000.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:16.5 id=8086342a1014342a088000.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:16.6 id=8086342b1014342b088000.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:16.7 id=8086342c1014342c088000.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:1a.0 id=80863a3710143a370c0300.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: Found driver vmkusb for device bus=pci addr=p0000:00:1a.0 id=80863a3710143a370c0300.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:1a.1 id=80863a3810143a380c0300.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: Found driver vmkusb for device bus=pci addr=p0000:00:1a.1 id=80863a3810143a380c0300.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:1a.7 id=80863a3c10143a3c0c0320.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: Found driver vmkusb for device bus=pci addr=p0000:00:1a.7 id=80863a3c10143a3c0c0320.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:1d.0 id=80863a3410143a340c0300.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: Found driver vmkusb for device bus=pci addr=p0000:00:1d.0 id=80863a3410143a340c0300.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:1d.1 id=80863a3510143a350c0300.
+2026-01-10T07:55:23Z vmkdevmgr[2097689]: Found driver vmkusb for device bus=pci addr=p0000:00:1d.1 id=80863a3510143a350c0300.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:1d.2 id=80863a3610143a360c0300.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: Found driver vmkusb for device bus=pci addr=p0000:00:1d.2 id=80863a3610143a360c0300.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:1d.7 id=80863a3a10143a3a0c0320.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: Found driver vmkusb for device bus=pci addr=p0000:00:1d.7 id=80863a3a10143a3a0c0320.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:1f.0 id=80863a1810143a18060100.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:1f.2 id=80863a2010143a2001018f.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: Found driver vmkata for device bus=pci addr=p0000:00:1f.2 id=80863a2010143a2001018f.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:1f.3 id=80863a3010143a300c0500.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: ADD event for bus=pci addr=p0000:00:1f.5 id=80863a2610143a26010185.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: Found driver vmkata for device bus=pci addr=p0000:00:1f.5 id=80863a2610143a26010185.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: ADD event for bus=pci addr=m00008a01 id=10000079101403b2010400.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: Found driver megaraid_sas for device bus=pci addr=m00008a01 id=10000079101403b2010400.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: Binding to vmklinux for driver megaraid_sas
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: ADD event for bus=pci addr=m00008301 id=102b053010140369030000.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: ADD event for bus=pci addr=m00008501 id=14e41639101403a9020000.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: Found driver qflge for device bus=pci addr=m00008501 id=14e41639101403a9020000.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: ADD event for bus=pci addr=m00008502 id=14e41639101403a9020000.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: Found driver qflge for device bus=pci addr=m00008502 id=14e41639101403a9020000.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: ADD event for bus=pci addr=m00008503 id=14e41639101403a9020000.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: Found driver qflge for device bus=pci addr=m00008503 id=14e41639101403a9020000.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: ADD event for bus=pci addr=m00008504 id=14e41639101403a9020000.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: Found driver qflge for device bus=pci addr=m00008504 id=14e41639101403a9020000.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: ADD event for bus=pci addr=s00000001.00 id=8086152180860002020000.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: Found driver igbn for device bus=pci addr=s00000001.00 id=8086152180860002020000.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: ADD event for bus=pci addr=s00000001.01 id=8086152180860002020000.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: Found driver igbn for device bus=pci addr=s00000001.01 id=8086152180860002020000.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: ADD event for bus=pci addr=s00000003.00 id=10dff10010dff1000c0400.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: ADD event for bus=pci addr=s00000003.01 id=10dff10010dff1000c0400.
+2026-01-10T07:55:24Z vmkdevmgr[2097689]: Initial tree walk complete
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Waiting for kernel events
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:00.0 id=8086340610147270060000.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=pci addr=s00000003.00 id=10dff10010dff1000c0400.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=pci addr=s00000003.01 id=10dff10010dff1000c0400.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:10.0 id=8086342500000000080000.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:10.1 id=8086342600000000080000.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:11.0 id=8086342700000000080000.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:11.1 id=8086342800000000080000.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.0 id=8086342e00000000080000.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.1 id=8086342200000000080000.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.2 id=8086342300000000080000.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.3 id=8086343800000000080000.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:15.0 id=8086342f00000000080020.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.0 id=8086343010143430088000.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.1 id=8086343110143431088000.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.2 id=8086343210143432088000.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.3 id=8086343310143433088000.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.4 id=8086342910143429088000.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.5 id=8086342a1014342a088000.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.6 id=8086342b1014342b088000.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.7 id=8086342c1014342c088000.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=pci addr=m00008301 id=102b053010140369030000.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:1f.0 id=80863a1810143a18060100.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:1f.3 id=80863a3010143a300c0500.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: scan event for bus=pci addr=p0000:00:1f.2 id=80863a2010143a2001018f.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: scan succeeded for device 0x3abe4306f277cc86
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Set alias for device 0x4354306f277d343
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Failed to set driver for 0x4354306f277d343: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: scan event for bus=pci addr=p0000:00:1f.2 id=80863a2010143a2001018f.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: scan succeeded for device 0x3abe4306f277cc86
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Set alias for device 0x51864306f277d53a
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Failed to set driver for 0x51864306f277d53a: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: scan event for bus=pci addr=p0000:00:1f.5 id=80863a2610143a26010185.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: scan succeeded for device 0x578e4306f277cf63
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Set alias for device 0x21cd4306f277d6aa
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Failed to set driver for 0x21cd4306f277d6aa: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: scan event for bus=pci addr=p0000:00:1f.5 id=80863a2610143a26010185.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: scan succeeded for device 0x578e4306f277cf63
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Set alias for device 0x54e4306f277d857
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Failed to set driver for 0x54e4306f277d857: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#m00008501#0 id=com.vmware.uplink.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#m00008501#0 id=com.vmware.uplink.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Set alias for device 0x5b2b4306f277db4a
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Failed to set driver for 0x5b2b4306f277db4a: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#m00008501#0 id=com.vmware.uplink
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#m00008502#0 id=com.vmware.uplink.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#m00008502#0 id=com.vmware.uplink.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Set alias for device 0x543a4306f277dc84
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Failed to set driver for 0x543a4306f277dc84: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#m00008502#0 id=com.vmware.uplink
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#m00008503#0 id=com.vmware.uplink.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#m00008503#0 id=com.vmware.uplink.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Set alias for device 0x3d3b4306f277de0e
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Failed to set driver for 0x3d3b4306f277de0e: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#m00008503#0 id=com.vmware.uplink
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#m00008504#0 id=com.vmware.uplink.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#m00008504#0 id=com.vmware.uplink.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Set alias for device 0x5734306f277df51
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Failed to set driver for 0x5734306f277df51: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#m00008504#0 id=com.vmware.uplink
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#s00000001.00#0 id=com.vmware.uplink.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#s00000001.00#0 id=com.vmware.uplink.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Set alias for device 0x38124306f277e2be
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Failed to set driver for 0x38124306f277e2be: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#s00000001.00#0 id=com.vmware.uplink
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#s00000001.01#0 id=com.vmware.uplink.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#s00000001.01#0 id=com.vmware.uplink.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Set alias for device 0x62c84306f277e369
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Failed to set driver for 0x62c84306f277e369: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2026-01-10T07:55:24Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#s00000001.01#0 id=com.vmware.uplink
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: VMKDevMgrAcceptSocket entry
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: VMKDevMgrScanMsg parse = 0, scanCount = 3
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#m00008501#0 id=com.vmware.uplink.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#m00008501#0 id=com.vmware.uplink.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Set alias for device 0x5b2b4306f277db4a
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#m00008502#0 id=com.vmware.uplink.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#m00008502#0 id=com.vmware.uplink.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Set alias for device 0x543a4306f277dc84
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#m00008503#0 id=com.vmware.uplink.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#m00008503#0 id=com.vmware.uplink.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Set alias for device 0x3d3b4306f277de0e
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#m00008504#0 id=com.vmware.uplink.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#m00008504#0 id=com.vmware.uplink.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Set alias for device 0x5734306f277df51
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#s00000001.00#0 id=com.vmware.uplink.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#s00000001.00#0 id=com.vmware.uplink.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Set alias for device 0x38124306f277e2be
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#s00000001.01#0 id=com.vmware.uplink.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#s00000001.01#0 id=com.vmware.uplink.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Set alias for device 0x62c84306f277e369
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Set alias for device 0x4354306f277d343
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Failed to set driver for 0x4354306f277d343: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Set alias for device 0x51864306f277d53a
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Failed to set driver for 0x51864306f277d53a: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Set alias for device 0x21cd4306f277d6aa
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Failed to set driver for 0x21cd4306f277d6aa: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Set alias for device 0x54e4306f277d857
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Failed to set driver for 0x54e4306f277d857: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:00.0 id=8086340610147270060000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:10.0 id=8086342500000000080000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:10.1 id=8086342600000000080000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:11.0 id=8086342700000000080000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:11.1 id=8086342800000000080000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.0 id=8086342e00000000080000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.1 id=8086342200000000080000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.2 id=8086342300000000080000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.3 id=8086343800000000080000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:15.0 id=8086342f00000000080020.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.0 id=8086343010143430088000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.1 id=8086343110143431088000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.2 id=8086343210143432088000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.3 id=8086343310143433088000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.4 id=8086342910143429088000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.5 id=8086342a1014342a088000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.6 id=8086342b1014342b088000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.7 id=8086342c1014342c088000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:1f.0 id=80863a1810143a18060100.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:1f.3 id=80863a3010143a300c0500.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=m00008301 id=102b053010140369030000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=s00000003.00 id=10dff10010dff1000c0400.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=s00000003.01 id=10dff10010dff1000c0400.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Set alias for device 0x4354306f277d343
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Failed to set driver for 0x4354306f277d343: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Set alias for device 0x51864306f277d53a
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Failed to set driver for 0x51864306f277d53a: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Set alias for device 0x21cd4306f277d6aa
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Failed to set driver for 0x21cd4306f277d6aa: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Set alias for device 0x54e4306f277d857
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Failed to set driver for 0x54e4306f277d857: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:00.0 id=8086340610147270060000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:10.0 id=8086342500000000080000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:10.1 id=8086342600000000080000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:11.0 id=8086342700000000080000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:11.1 id=8086342800000000080000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.0 id=8086342e00000000080000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.1 id=8086342200000000080000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.2 id=8086342300000000080000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.3 id=8086343800000000080000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:15.0 id=8086342f00000000080020.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.0 id=8086343010143430088000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.1 id=8086343110143431088000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.2 id=8086343210143432088000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.3 id=8086343310143433088000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.4 id=8086342910143429088000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.5 id=8086342a1014342a088000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.6 id=8086342b1014342b088000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.7 id=8086342c1014342c088000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:1f.0 id=80863a1810143a18060100.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:1f.3 id=80863a3010143a300c0500.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=m00008301 id=102b053010140369030000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=s00000003.00 id=10dff10010dff1000c0400.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=s00000003.01 id=10dff10010dff1000c0400.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Set alias for device 0x4354306f277d343
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Failed to set driver for 0x4354306f277d343: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Set alias for device 0x51864306f277d53a
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Failed to set driver for 0x51864306f277d53a: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Set alias for device 0x21cd4306f277d6aa
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Failed to set driver for 0x21cd4306f277d6aa: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Set alias for device 0x54e4306f277d857
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Failed to set driver for 0x54e4306f277d857: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: Error binding driver vmkernel for bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:00.0 id=8086340610147270060000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:10.0 id=8086342500000000080000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:10.1 id=8086342600000000080000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:11.0 id=8086342700000000080000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:11.1 id=8086342800000000080000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.0 id=8086342e00000000080000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.1 id=8086342200000000080000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.2 id=8086342300000000080000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.3 id=8086343800000000080000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:15.0 id=8086342f00000000080020.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.0 id=8086343010143430088000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.1 id=8086343110143431088000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.2 id=8086343210143432088000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.3 id=8086343310143433088000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.4 id=8086342910143429088000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.5 id=8086342a1014342a088000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.6 id=8086342b1014342b088000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.7 id=8086342c1014342c088000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:1f.0 id=80863a1810143a18060100.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:1f.3 id=80863a3010143a300c0500.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=m00008301 id=102b053010140369030000.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=s00000003.00 id=10dff10010dff1000c0400.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: ADD event for bus=pci addr=s00000003.01 id=10dff10010dff1000c0400.
+2026-01-10T07:55:25Z vmkdevmgr[2097780]: VMKDevMgrAcceptSocket reply: processed
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: VMKDevMgrAcceptSocket entry
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: VMKDevMgrScanMsg parse = 0, scanCount = 1
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.2#0 id=com.vmware.HBAPort.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: Set alias for device 0x4354306f277d343
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.2#1 id=com.vmware.HBAPort.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: Set alias for device 0x51864306f277d53a
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.5#0 id=com.vmware.HBAPort.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: Set alias for device 0x21cd4306f277d6aa
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: ADD event for bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: Found driver vmkernel for device bus=logical addr=pci#p0000:00:1f.5#1 id=com.vmware.HBAPort.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: Set alias for device 0x54e4306f277d857
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:00.0 id=8086340610147270060000.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:10.0 id=8086342500000000080000.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:10.1 id=8086342600000000080000.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:11.0 id=8086342700000000080000.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:11.1 id=8086342800000000080000.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.0 id=8086342e00000000080000.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.1 id=8086342200000000080000.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.2 id=8086342300000000080000.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:14.3 id=8086343800000000080000.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:15.0 id=8086342f00000000080020.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.0 id=8086343010143430088000.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.1 id=8086343110143431088000.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.2 id=8086343210143432088000.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.3 id=8086343310143433088000.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.4 id=8086342910143429088000.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.5 id=8086342a1014342a088000.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.6 id=8086342b1014342b088000.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:16.7 id=8086342c1014342c088000.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:1f.0 id=80863a1810143a18060100.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: ADD event for bus=pci addr=p0000:00:1f.3 id=80863a3010143a300c0500.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: ADD event for bus=pci addr=m00008301 id=102b053010140369030000.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: ADD event for bus=pci addr=s00000003.00 id=10dff10010dff1000c0400.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: ADD event for bus=pci addr=s00000003.01 id=10dff10010dff1000c0400.
+2026-01-10T07:55:27Z vmkdevmgr[2097780]: VMKDevMgrAcceptSocket reply: processed
+2026-01-10T07:55:29Z vmkdevmgr[2097780]: scan event for bus=pci addr=p0000:00:1d.0 id=80863a3410143a340c0300.
+2026-01-10T07:55:29Z vmkdevmgr[2097780]: scan succeeded for device 0x1c574306f277c3b3

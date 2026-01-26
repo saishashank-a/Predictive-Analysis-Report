@@ -1,0 +1,147 @@
+<dispatchPolicyConfig>
+   <limitPolicies>
+     <policy id="LimitNetworkConfig">
+       <description>Limit the number of NetworkSystem methods to only one at a time</description>
+       <enabled>True</enabled>
+       <matchCriterionList>
+          <criterion id="1">
+            <tagName>IsNetworkConfig</tagName>
+            <value>1</value>
+          </criterion>
+       </matchCriterionList>
+       <limit>2</limit>
+     </policy>
+     <policy id="LimitDvsConfig">
+       <description>Limit the number of HostDvsManager methods to only one at a time</description>
+       <enabled>True</enabled>
+       <matchCriterionList>
+          <criterion id="1">
+            <tagName>IsDvsConfig</tagName>
+            <value>1</value>
+          </criterion>
+       </matchCriterionList>
+       <limit>2</limit>
+     </policy>
+     <policy id="LimitDatastoreBrowserSearch">
+       <description>Limit the number of datastore browser searches</description>
+       <enabled>True</enabled>
+       <matchCriterionList>
+          <criterion id="1">
+            <tagName>IsDatastoreBrowserSearch</tagName>
+            <value>1</value>
+          </criterion>
+       </matchCriterionList>
+       <limit>4</limit>
+     </policy>
+     <policy id="LimitFoundryVMOp">
+       <description>Limit the number of VM ops involving foundry</description>
+       <enabled>True</enabled>
+       <matchCriterionList>
+          <criterion id="1">
+            <tagName>IsVMFoundryOp</tagName>
+            <value>1</value>
+          </criterion>
+       </matchCriterionList>
+       <limit>60</limit>
+     </policy>
+     <policy id="LimitVMThrottledOp">
+       <description>Limit the number of VM ops</description>
+       <enabled>True</enabled>
+       <matchCriterionList>
+          <criterion id="1">
+            <tagName>IsVMThrottledOp</tagName>
+            <value>1</value>
+          </criterion>
+       </matchCriterionList>
+       <limit>10</limit>
+     </policy>
+     <policy id="LimitHbrThrottledOp">
+       <description>Limit the number of HBR ops</description>
+       <enabled>True</enabled>
+       <matchCriterionList>
+          <criterion id="1">
+             <tagName>IsHbrThrottledOp</tagName>
+            <value>1</value>
+          </criterion>
+       </matchCriterionList>
+       <limit>6</limit>
+     </policy>
+     <policy id="LimitNfcManagerOp">
+       <description>Limit the number of NfcManager ops</description>
+       <enabled>True</enabled>
+       <matchCriterionList>
+          <criterion id="1">
+             <tagName>IsNfcManagerOp</tagName>
+            <value>1</value>
+          </criterion>
+       </matchCriterionList>
+       <limit>4</limit>
+     </policy>
+     <policy id="LimitHostProfilesConfigThrottledOp">
+       <description>Limit the number of Host Profiles ops used for getting and setting configuration</description>
+       <enabled>True</enabled>
+       <matchCriterionList>
+          <criterion id="1">
+             <tagName>IsHostProfilesConfigThrottledOp</tagName>
+            <value>1</value>
+          </criterion>
+       </matchCriterionList>
+       <limit>1</limit>
+     </policy>
+     <policy id="LimitHostProfilesEditThrottledOp">
+       <description>Limit the number of Host Profiles ops used for editing</description>
+       <enabled>True</enabled>
+       <matchCriterionList>
+          <criterion id="1">
+             <tagName>IsHostProfilesEditThrottledOp</tagName>
+            <value>1</value>
+          </criterion>
+       </matchCriterionList>
+       <limit>1</limit>
+     </policy>
+     <policy id="LimitCBRCThrottledOp">
+       <description>Limit the number of CBRC ops</description>
+       <enabled>True</enabled>
+       <matchCriterionList>
+          <criterion id="1">
+             <tagName>IsCBRCThrottledOp</tagName>
+            <value>1</value>
+          </criterion>
+       </matchCriterionList>
+       <limit>8</limit>
+     </policy>
+     <policy id="LimitEsxcliOp">
+       <description>Limit the number of esxcli ops</description>
+       <enabled>True</enabled>
+       <matchCriterionList>
+          <criterion id="1">
+             <tagName>IsEsxcliOp</tagName>
+             <value>1</value>
+          </criterion>
+       </matchCriterionList>
+       <limit>3</limit>
+     </policy>
+     <policy id="LimitEsxcliAccountPermissionOp">
+       <description>Limit the number of esxcli account/permission ops</description>
+       <enabled>True</enabled>
+       <matchCriterionList>
+          <criterion id="1">
+             <tagName>IsEsxcliAccountPermissionOp</tagName>
+             <value>1</value>
+          </criterion>
+       </matchCriterionList>
+       <limit>1</limit>
+     </policy>
+     <policy id="LimitVStorageObjectManagerOp">
+       <description>Limit the number of VStorageObjectManager ops</description>
+       <enabled>True</enabled>
+       <matchCriterionList>
+          <criterion id="1">
+            <tagName>IsVStorageObjectManagerOp</tagName>
+            <value>1</value>
+          </criterion>
+       </matchCriterionList>
+       <limit>4</limit>
+     </policy>
+  </limitPolicies>
+</dispatchPolicyConfig>

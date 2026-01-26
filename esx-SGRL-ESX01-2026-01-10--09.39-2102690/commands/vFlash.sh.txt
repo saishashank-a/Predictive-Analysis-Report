@@ -1,0 +1,35 @@
+vFlash module and cache statistics information
+
+Module:  vfc
+ModuleInfo:
+   minSupportedModuleVersion: 1.0.0.0
+   revision: 1.0.0.0
+   supportedCacheBlockSizeMax: 1048576
+   supportedCacheBlockSizeMin: 4096
+   supportedCacheSizeMax: 429496729600
+   supportedCacheSizeMin: 4194304
+   supportedDiskSizeMax: 17592186044416
+   supportedModeMask: WriteThru 
+
+Cache:  Name
+VFlashInfoImpl::GetDeviceCache: Failed to get per device cache info: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+Errors: 
+Unable to get cache information for module:vfc cache:Name
+
+
+VFlashInfoImpl::GetDeviceCacheStats: Failed to get per device cache statistics info: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+Errors: 
+Unable to get cache statistics for module:vfc cache:Name
+
+
+Cache:  ----
+VFlashInfoImpl::GetDeviceCache: Failed to get per device cache info: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+Errors: 
+Unable to get cache information for module:vfc cache:----
+
+
+VFlashInfoImpl::GetDeviceCacheStats: Failed to get per device cache statistics info: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+Errors: 
+Unable to get cache statistics for module:vfc cache:----
+
+

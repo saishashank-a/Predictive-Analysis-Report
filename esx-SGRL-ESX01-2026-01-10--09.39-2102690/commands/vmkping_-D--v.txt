@@ -1,0 +1,33 @@
+vmk0: inet addr: 192.168.1.100 netmask: 255.255.255.0 MTU: 1500 HWaddr: 5c:f3:fc:e8:46:f8
+PING 192.168.1.100 (192.168.1.100): 56 data bytes
+64 bytes from 192.168.1.100: icmp_seq=0 ttl=64 time=0.043 ms
+64 bytes from 192.168.1.100: icmp_seq=1 ttl=64 time=0.036 ms
+64 bytes from 192.168.1.100: icmp_seq=2 ttl=64 time=0.063 ms
+
+--- 192.168.1.100 ping statistics ---
+3 packets transmitted, 3 packets received, 0% packet loss
+round-trip min/avg/max = 0.036/0.047/0.063 ms
+
+Trying to ping gateway: 192.168.1.254
+PING 192.168.1.254 (192.168.1.254): 56 data bytes
+64 bytes from 192.168.1.254: icmp_seq=0 ttl=64 time=1.183 ms
+64 bytes from 192.168.1.254: icmp_seq=1 ttl=64 time=0.582 ms
+64 bytes from 192.168.1.254: icmp_seq=2 ttl=64 time=0.601 ms
+
+--- 192.168.1.254 ping statistics ---
+3 packets transmitted, 3 packets received, 0% packet loss
+round-trip min/avg/max = 0.582/0.789/1.183 ms
+
+*** IPv6 default gateway not configured ***
+
+Checking for IPv6 routers reachable on interface vmk0: PING ff02::2 (ff02::2): 56 data bytes
+RX ND_NEIGHBOR_SOLICIT: from fe80::20c:29ff:fe34:59ef requesting fe80::20c:29ff:fe34:59ef
+64 bytes from fe80::20c:29ff:fe34:59ef: icmp_seq=0 time=0.863 ms
+64 bytes from fe80::7693:daff:febc:7fd3: icmp_seq=0 time=1.678 ms (DUP!)
+64 bytes from fe80::20c:29ff:fe34:59ef: icmp_seq=1 time=0.249 ms
+
+--- ff02::2 ping statistics ---
+2 packets transmitted, 2 packets received, +1 duplicates, 0% packet loss
+round-trip min/avg/max = 0.249/1.395/1.678 ms
+
+

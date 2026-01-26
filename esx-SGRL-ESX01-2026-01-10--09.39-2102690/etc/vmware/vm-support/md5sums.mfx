@@ -1,0 +1,14 @@
+% Manifest name: md5sums
+% Manifest group: IntegrityChecks
+% Manifest default: Enabled
+% Manifest tag: md5sum
+# action Options file/command
+
+run - sh -c '/bin/md5sum $(find /bin/ -type f)'
+run - sh -c '/bin/md5sum $(find /sbin/ -type f)'
+
+# /lib and /lib64 contain subdirs that get matched as part of the glob
+# md5sum doesn't print an error, but exits with a non-zero error code,
+# so ignore errors in those directories.
+run IGNORE_ERROR sh -c '/bin/md5sum $(find /lib/ -type f)'
+run IGNORE_ERROR sh -c '/bin/md5sum $(find /lib64/ -type f)'

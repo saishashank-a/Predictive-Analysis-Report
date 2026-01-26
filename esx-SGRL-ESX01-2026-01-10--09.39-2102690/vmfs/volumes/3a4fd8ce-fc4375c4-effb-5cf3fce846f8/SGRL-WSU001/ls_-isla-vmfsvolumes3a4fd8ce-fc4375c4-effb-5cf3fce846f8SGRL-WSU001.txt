@@ -1,0 +1,14 @@
+total 63177920
+4195460    128 drwxr-xr-x    1 root     root         77824 Jan 10 09:24 .
+      4   1024 drwxr-xr-t    1 root     root         86016 Jan 10 09:35 ..
+12585476      0 -rw-r--r--    1 root     root           415 Jan  1  2001 SGRL-WSU001-31c1de07.hlog
+16779780 24565760 -rw-------    1 root     root     161061273600 Jan 10 09:24 SGRL-WSU001-flat.vmdk
+25168388   1024 -rw-------    1 root     root        270840 Jan 10 09:24 SGRL-WSU001.nvram
+20974084      0 -rw-------    1 root     root           556 Jan 10 08:23 SGRL-WSU001.vmdk
+33556996      0 -rw-r--r--    1 root     root             0 Jan  1  2001 SGRL-WSU001.vmsd
+29362692     64 -rwxr-xr-x    1 root     root          3743 Jan 10 09:24 SGRL-WSU001.vmx
+67111428      0 -rw-------    1 root     root            47 Jan  1  2001 SGRL-WSU001.vmxf
+37751300 38607872 -rw-------    1 root     root     536870912000 Jan 10 09:24 SGRL-WSU001_1-flat.vmdk
+41945604      0 -rw-------    1 root     root           482 Jan 10 08:23 SGRL-WSU001_1.vmdk
+58722820   1024 -rw-r--r--    1 root     root        355948 Jan  1  2001 vmware-1.log
+96471556   1024 -rw-r--r--    1 root     root        245018 Jan 10 09:24 vmware.log

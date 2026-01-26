@@ -1,0 +1,2 @@
+# vmkfstools -q SGRL-LNX001.vmdk
+SGRL-LNX001.vmdk is not an rdm

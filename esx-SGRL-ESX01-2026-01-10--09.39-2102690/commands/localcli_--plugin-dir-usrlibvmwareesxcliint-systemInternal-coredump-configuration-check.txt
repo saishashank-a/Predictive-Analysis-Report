@@ -1,0 +1,4 @@
+Entity        Capacity State  Recommended Value
+-----------------------------------------------
+Dump Targets  Sufficient               3824 MiB  
+Scratch       Insufficient             8672 MiB  

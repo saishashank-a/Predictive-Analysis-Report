@@ -1,0 +1,26 @@
+#
+# This file is mechanically generated.  Any changes you make
+# manually will be lost at the next build.
+#
+# Please edit <driver>_devices.py file for permanent changes.
+#
+# Vendors, devices and subsystems.
+#
+# Syntax (initial indentation must be done with TAB characters):
+#
+# vendor  vendor_name
+#       device  device_name                            <-- single TAB
+#               subvendor subdevice  subsystem_name    <-- two TABs
+
+1077  QLogic Corp.
+	1629  QLogic FastLinQ QL45xxx 10/25/40/50/100 GbE Ethernet Adapter
+	1634  QLogic FastLinQ QL45xxx 10/25/40/50/100 GbE Ethernet Adapter
+	1636  QLogic FastLinQ QL45xxx 10/25/40/50/100 GbE Ethernet Adapter
+	1644  QLogic FastLinQ QL45xxx 100 GbE Ethernet Adapter
+	1654  QLogic FastLinQ QL45xxx 10/25/50 GbE Ethernet Adapter
+	1656  QLogic FastLinQ QL45xxx 25 GbE Ethernet Adapter
+	1666  QLogic FastLinQ QL45xxx 10 GbE Ethernet Adapter
+	8070  QLogic FastLinQ QL41xxx 1/10/25 GbE Ethernet Adapter
+	8071  QLogic FastLinQ QL41xxx 10 GbE Ethernet Adapter
+	8072  QLogic FastLinQ QL41xxx 40 GbE Ethernet Adapter
+	8073  QLogic FastLinQ QL41xxx 25 GbE Ethernet Adapter

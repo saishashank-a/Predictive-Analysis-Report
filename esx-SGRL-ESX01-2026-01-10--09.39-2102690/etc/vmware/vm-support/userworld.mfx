@@ -1,0 +1,11 @@
+% Manifest name: ProcessInformation
+% Manifest group: Userworld
+% Manifest default: Enabled
+% Manifest tag: userworld
+# action Options file/command
+run IGNORE_ERROR ps -cPTgjstz
+run IGNORE_ERROR ps -Cc --tree
+run -  /sbin/memstats -r uw-stats
+run IGNORE_ERROR /usr/lib/vmware/rp/bin/diagRP --path-to-gid
+
+

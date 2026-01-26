@@ -1,0 +1,9 @@
+!vsan iscsi not enabled!
+====================RAW OUTPUT====================
+--------------------------------------------------
+>localcli --formatter json vsan iscsi status get
+
+{
+   "Enabled": false
+}
+

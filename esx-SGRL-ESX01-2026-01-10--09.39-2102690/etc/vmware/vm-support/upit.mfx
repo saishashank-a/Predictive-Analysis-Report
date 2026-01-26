@@ -1,0 +1,16 @@
+% Manifest name: UPIT
+% Manifest group: Storage
+% Manifest default: Enabled
+% Manifest tag: storage,upit
+# action Options file/command
+
+# PE info:
+run DUMP_JSON /sbin/localcli storage core device list --pe-only
+run DUMP_JSON /sbin/localcli storage nfs list --pe-only
+
+# Copy archive files:
+run IGNORE_ERROR,RELOCATE=/var/log/UPITArchive.tar.gz /usr/lib/vmware/vm-support/bin/dump-upit-info.py
+
+# UPIT Daemon log: the /var/log/upitd.log is already copied as part of the
+# system-log.mfx.
+

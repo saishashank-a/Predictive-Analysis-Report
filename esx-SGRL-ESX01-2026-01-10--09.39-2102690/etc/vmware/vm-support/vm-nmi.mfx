@@ -1,0 +1,9 @@
+% Manifest name: Send_NMI_To_Guest
+% Manifest group: HungVM
+% Manifest default: Disabled
+% Manifest tag: vm,logs,sensitive
+% Manifest vmonly: True
+# action Options file/command
+
+# coredump the vmx
+vmcmd EXTENSION=tgz,IGNORE_ERROR /usr/lib/vmware/vm-support/bin/debug-hung-vm "{VMCFG}" nmi

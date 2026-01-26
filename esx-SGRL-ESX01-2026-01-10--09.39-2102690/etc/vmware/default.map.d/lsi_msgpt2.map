@@ -1,0 +1,13 @@
+regtype=native,bus=pci,id=1000006e..............,driver=lsi_msgpt2
+regtype=native,bus=pci,id=10000080..............,driver=lsi_msgpt2
+regtype=native,bus=pci,id=10000081..............,driver=lsi_msgpt2
+regtype=native,bus=pci,id=10000082..............,driver=lsi_msgpt2
+regtype=native,bus=pci,id=10000083..............,driver=lsi_msgpt2
+regtype=native,bus=pci,id=10000084..............,driver=lsi_msgpt2
+regtype=native,bus=pci,id=10000085..............,driver=lsi_msgpt2
+regtype=native,bus=pci,id=10000086..............,driver=lsi_msgpt2
+regtype=native,bus=pci,id=10000087..............,driver=lsi_msgpt2
+regtype=native,bus=pci,id=1000008715900041......,driver=lsi_msgpt2
+regtype=native,bus=pci,id=1000008715900042......,driver=lsi_msgpt2
+regtype=native,bus=pci,id=1000008715900043......,driver=lsi_msgpt2
+regtype=native,bus=pci,id=1000008715900044......,driver=lsi_msgpt2

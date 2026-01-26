@@ -1,0 +1,12 @@
+# VMware software license
+StartFields = "Cpt, ProductID, LicenseVersion, LicenseType, LicenseEdition, Option, Epoch"
+Cpt = "COPYRIGHT (c) VMware, Inc."
+ProductID = "VMware ESX Server"
+LicenseVersion = "6.0"
+LicenseType = "Site"
+Epoch = "2013-6-1"
+LicenseEdition = "esx.vcloudStandard.cpuPackage"
+Option = "7"
+Data = "FileVersion=6.7.2.1;capacityType=cpuPackage;suiteLicense=primary;enable=vsmp:0,h264remote,esxHost,vimapi,contentlib,vstorage,vmotion,xswitchvmotion,das,dr,endpoint,replication,vshield,hotplug,svmotion,smartcard,ft:8,vvolumes,storageawarenessapi,spbm,vaai,drs,serialuri:2,mpio,bigdataex,rem,dvs,hostprofile,autodeploy,sriov,sioshares,dpvmotion,storagedrs,metrovmotion,viewaccel,appha,vflash,xvcvmotion,vgpu,proactiveha,vmcrypt,encryptedvmotion,predictivedrs,pmem;desc=VMware vCloud Suite 6 Standard for vSphere;suiteDesc=VMware vCloud Suite 6 Standard"
+DataHash = "130788ab-22a29163-0fc046f2-16e34b34-141e3a2b"
+Hash = "716bb27b-595468d4-80c4507b-5768b0f5-a9130696"

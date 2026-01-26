@@ -1,0 +1,9 @@
+Name              Enabled  Loaded
+---------------------------------
+sfcb_base         true     false
+vmw_base          true     false
+vmw_hdr           true     false
+vmw_iodmProvider  true     false
+vmw_kmodule       true     false
+vmw_omc           true     false
+vmw_pci           true     false

@@ -1,0 +1,1 @@
+regtype=native,bus=acpi,id=ACPI0012,driver=vmkernel

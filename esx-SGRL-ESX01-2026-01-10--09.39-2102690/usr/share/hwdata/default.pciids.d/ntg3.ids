@@ -1,0 +1,24 @@
+#
+# This file is mechanically generated.  Any changes you make
+# manually will be lost at the next build.
+#
+# Please edit <driver>_devices.py file for permanent changes.
+#
+# Vendors, devices and subsystems.
+#
+# Syntax (initial indentation must be done with TAB characters):
+#
+# vendor  vendor_name
+#       device  device_name                            <-- single TAB
+#               subvendor subdevice  subsystem_name    <-- two TABs
+
+14e4  Broadcom Corporation
+	1643  NetXtreme BCM5725 Gigabit Ethernet
+	1655  NetXtreme BCM5717 Gigabit Ethernet
+	1656  NetXtreme BCM5718 Gigabit Ethernet
+	1657  NetXtreme BCM5719 Gigabit Ethernet
+	165f  NetXtreme BCM5720 Gigabit Ethernet
+	1665  NetXtreme BCM5717 Gigabit Ethernet
+	1682  NetXtreme BCM57762 Gigabit Ethernet
+	1686  NetXtreme BCM57766 Gigabit Ethernet
+	16f3  NetXtreme BCM5727 Gigabit Ethernet

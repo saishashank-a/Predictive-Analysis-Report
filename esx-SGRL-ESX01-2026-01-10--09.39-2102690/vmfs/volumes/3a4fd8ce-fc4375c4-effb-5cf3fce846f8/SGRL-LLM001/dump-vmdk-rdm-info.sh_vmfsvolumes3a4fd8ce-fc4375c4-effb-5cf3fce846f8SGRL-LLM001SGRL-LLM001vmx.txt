@@ -1,0 +1,4 @@
+# vmkfstools -q SGRL-LLM001.vmdk
+SGRL-LLM001.vmdk is not an rdm
+# vmkfstools -q SGRL-LLM001_1.vmdk
+SGRL-LLM001_1.vmdk is not an rdm

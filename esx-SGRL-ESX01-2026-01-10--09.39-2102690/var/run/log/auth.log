@@ -1,0 +1,48 @@
+2001-01-01T01:36:49Z sshd[2100697]: /etc/ssh/sshd_config line 24: Unsupported option PrintLastLog
+2001-01-01T01:36:49Z sshd[2100697]: FIPS mode initialized
+2001-01-01T01:36:49Z sshd[2100697]: Connection from 192.168.1.158 port 49359
+2001-01-01T01:37:05Z sshd[2100697]: Accepted keyboard-interactive/pam for root from 192.168.1.158 port 49359 ssh2
+2001-01-01T01:37:05Z sshd[2100697]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2001-01-01T01:37:05Z sshd[2100700]: Session opened for 'root' on /dev/char/pty/t0
+2025-12-27T00:30:24Z sshd[2099797]: /etc/ssh/sshd_config line 24: Unsupported option PrintLastLog
+2025-12-27T00:30:24Z sshd[2099797]: FIPS mode initialized
+2025-12-27T00:30:24Z sshd[2099797]: Connection from 192.168.1.158 port 52890
+2025-12-27T00:30:33Z sshd[2099799]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.158  user=root
+2025-12-27T00:30:36Z sshd[2099797]: error: PAM: Authentication failure for root from 192.168.1.158
+2025-12-27T00:30:36Z sshd[2099800]: pam_tally2(sshd:auth): user root (0) tally 6, deny 5
+2025-12-27T00:30:43Z sshd[2099800]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.158  user=root
+2025-12-27T00:30:45Z sshd[2099797]: error: PAM: Authentication failure for root from 192.168.1.158
+2025-12-27T00:30:45Z sshd[2099809]: pam_tally2(sshd:auth): user root (0) tally 7, deny 5
+2025-12-27T00:30:51Z sshd[2099797]: error: PAM: Authentication failure for root from 192.168.1.158
+2025-12-27T00:30:51Z sshd[2099818]: pam_tally2(sshd:auth): user root (0) tally 8, deny 5
+2025-12-27T00:30:51Z sshd[2099797]: Postponed keyboard-interactive for root from 192.168.1.158 port 52890 ssh2 [preauth]
+2025-12-27T00:30:59Z sshd[2099818]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.158  user=root
+2025-12-27T00:31:01Z sshd[2099797]: error: PAM: Authentication failure for root from 192.168.1.158
+2025-12-27T00:31:01Z sshd[2099797]: Failed keyboard-interactive/pam for root from 192.168.1.158 port 52890 ssh2
+2025-12-27T00:31:01Z sshd[2099827]: pam_tally2(sshd:auth): user root (0) tally 9, deny 5
+2025-12-27T00:31:01Z sshd[2099797]: Postponed keyboard-interactive for root from 192.168.1.158 port 52890 ssh2 [preauth]
+2025-12-27T00:31:29Z sshd[2099827]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.158  user=root
+2025-12-27T00:31:31Z sshd[2099797]: error: PAM: Authentication failure for root from 192.168.1.158
+2025-12-27T00:31:31Z sshd[2099797]: Failed keyboard-interactive/pam for root from 192.168.1.158 port 52890 ssh2
+2025-12-27T00:31:31Z sshd[2099837]: pam_tally2(sshd:auth): user root (0) tally 10, deny 5
+2025-12-27T00:31:31Z sshd[2099797]: Postponed keyboard-interactive for root from 192.168.1.158 port 52890 ssh2 [preauth]
+2025-12-27T00:31:46Z sshd[2099797]: error: PAM: Authentication failure for root from 192.168.1.158
+2025-12-27T00:31:46Z sshd[2099797]: Failed keyboard-interactive/pam for root from 192.168.1.158 port 52890 ssh2
+2025-12-27T00:31:46Z sshd[2099797]: error: maximum authentication attempts exceeded for root from 192.168.1.158 port 52890 ssh2 [preauth]
+2025-12-27T00:31:46Z sshd[2099797]: Disconnecting authenticating user root 192.168.1.158 port 52890: Too many authentication failures [preauth]
+2025-12-27T00:32:47Z sshd[2099870]: /etc/ssh/sshd_config line 24: Unsupported option PrintLastLog
+2025-12-27T00:32:47Z sshd[2099870]: FIPS mode initialized
+2025-12-27T00:32:47Z sshd[2099870]: Connection from 192.168.1.158 port 50979
+2025-12-27T00:32:49Z sshd[2099872]: pam_tally2(sshd:auth): user root (0) tally 11, deny 5
+2025-12-27T00:32:57Z sshd[2099870]: error: PAM: Authentication failure for root from 192.168.1.158
+2025-12-27T00:32:57Z sshd[2099881]: pam_tally2(sshd:auth): user root (0) tally 12, deny 5
+2025-12-27T00:34:15Z sshd[2099870]: error: PAM: Authentication failure for root from 192.168.1.158
+2025-12-27T00:34:15Z sshd[2099919]: pam_tally2(sshd:auth): user root (0) tally 14, deny 5
+2025-12-27T00:34:47Z sshd[2099870]: fatal: Timeout before authentication for 192.168.1.158 port 50979
+2025-12-27T00:34:55Z sshd[2099955]: /etc/ssh/sshd_config line 24: Unsupported option PrintLastLog
+2025-12-27T00:34:55Z sshd[2099955]: FIPS mode initialized
+2025-12-27T00:34:55Z sshd[2099955]: Connection from 192.168.1.158 port 55288
+2025-12-27T00:34:57Z sshd[2099957]: pam_tally2(sshd:auth): user root (0) tally 15, deny 5
+2025-12-27T00:35:03Z sshd[2099955]: error: PAM: Authentication failure for root from 192.168.1.158
+2025-12-27T00:35:03Z sshd[2099976]: pam_tally2(sshd:auth): user root (0) tally 16, deny 5
+2025-12-27T00:35:35Z sshd[2099955]: Connection closed by authenticating user root 192.168.1.158 port 55288 [preauth]

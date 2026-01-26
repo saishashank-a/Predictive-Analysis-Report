@@ -1,0 +1,35 @@
+Executing:: netdbg vswitch instance list
+vSwitch0                                                                        
+Total Ports:5376 Available:5362
+  Client                         PortID          DVPortID                             MAC                  Uplink         
+  Management                     33554433                                             00:00:00:00:00:00    n/a            
+  vmnic0                         33554434                                             00:00:00:00:00:00                   
+  Shadow of vmnic0               33554435                                             00:50:56:57:22:29    n/a            
+  vmk0                           33554436                                             5c:f3:fc:e8:46:f8    vmnic0         
+  VyOS-Router                    33554437                                             00:0c:29:34:59:ef    vmnic0         
+  SGRL-VCSA01                    33554438                                             00:0c:29:09:c0:d9    vmnic0         
+  SGRL-ADC001                    33554441                                             00:50:56:87:af:26    vmnic0         
+
+--------------------------------------------------------------------------------
+Executing:: netdbg vswitch runtime get
+AllowFastPath:                  0
+AllowMirrorStats:               0
+IGMPQueries:                    2
+IGMPQueryInterval:              125
+IGMPRouterIP:                   0.0.0.0
+IGMPV3MaxSrcIPNum:              10
+IGMPVersion:                    3
+MLDRouterIP:                    FE80::FFFF:FFFF:FFFF:FFFF
+MLDV2MaxSrcIPNum:               10
+MLDVersion:                     2
+MaxRARPsPerInterval:            128
+RARPAdvertisementDuration:      60
+ReversePathFwdCheck:            1
+ReversePathFwdCheckPromisc:     0
+TeamPolicyUpDelay:              100
+--------------------------------------------------------------------------------
+Executing:: netdbg vswitch mac-learning get
+Aging Time:                     300
+MAC Limit:                      65536
+Learn Static:                   False
+--------------------------------------------------------------------------------

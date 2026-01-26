@@ -1,0 +1,12 @@
+
+[
+
+      {
+         "Device Name": "naa.600605b004213bc001e293503af49afb",
+         "Extent Number": 0,
+         "LVM UUID": "3a4fd8ce-f2fb6b00-6359-5cf3fce846f8",
+         "Partition": 3,
+         "VMFS UUID": "3a4fd8ce-fc4375c4-effb-5cf3fce846f8",
+         "Volume Name": "datastore1"
+      }
+]

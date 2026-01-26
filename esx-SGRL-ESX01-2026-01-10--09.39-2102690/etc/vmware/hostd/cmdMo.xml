@@ -1,0 +1,49 @@
+<!-- Configuration file for proxied managed objects.
+     Add a new managedObject entry for each proxied MO.
+     Then, add a corresponding entry in #bora/install/vmvisor/packaging/manifest-sys
+     (look for cmdMo.xml or usr/lib/vmware/hostd/hmo.
+     NOTE: /bin/sh has to be used to launch Python MO scripts right now as
+     hostd does not have PYTHONHOME set up, but a login shell does.
+ -->
+<config>
+<managedObject id="1">
+  <type> vim.host.ImageConfigManager </type>
+  <moId> ha-image-config-manager-py </moId>
+  <cmd> /usr/bin/sh </cmd>
+  <arg id="1"> -l </arg>
+  <arg id="2"> -c </arg>
+  <arg id="3"> /usr/lib/vmware/hostd/hmo/imageConfigManager.py --cgi -s ImageConfigManager --loglevel info </arg>
+</managedObject>
+<managedObject id="2">
+  <type> vim.profile.host.profileEngine.HostProfileManager </type>
+  <moId> ha-hostprofileengine-hostprofilemanager </moId>
+  <timeOutInSeconds> 1800 </timeOutInSeconds>
+  <cmd> /usr/bin/sh </cmd>
+  <!-- NOTE: The ++group arg is a ESX UW-specific trigger to run the process
+       in a specific resource group instead of hostd's resource group. -->
+  <arg id="1"> ++group=host/vim/tmp </arg>
+  <arg id="2"> -l </arg>
+  <arg id="3"> -c </arg>
+  <arg id="4"> /usr/lib/vmware/hostd/hmo/hostProfileEngine.py --cgi -s HostProfileManager --loglevel info </arg>
+</managedObject>
+<managedObject id="3">
+  <type> vim.profile.host.profileEngine.ComplianceManager </type>
+  <moId> ha-hostprofileengine-compliancemanager </moId>
+  <timeOutInSeconds> 1800 </timeOutInSeconds>
+  <cmd> /usr/bin/sh </cmd>
+  <!-- NOTE: The ++group arg is a ESX UW-specific trigger to run the process
+       in a specific resource group instead of hostd's resource group. -->
+  <arg id="1"> ++group=host/vim/tmp </arg>
+  <arg id="2"> -l </arg>
+  <arg id="3"> -c </arg>
+  <arg id="4"> /usr/lib/vmware/hostd/hmo/hostProfileEngine.py --cgi -s ComplianceManager --loglevel info </arg>
+</managedObject>
+<managedObject id="4">
+  <type> vim.host.SystemDebugManager </type>
+  <moId> ha-system-debug-manager </moId>
+  <cmd> /usr/bin/sh </cmd>
+  <arg id="1"> -l </arg>
+  <arg id="2"> -c </arg>
+  <arg id="3"> /usr/lib/vmware/hostd/hmo/SystemDebugManager.py --cgi -s SystemDebugManager </arg>
+</managedObject>
+</config>

@@ -1,0 +1,35 @@
+#
+# This file is mechanically generated.  Any changes you make
+# manually will be lost at the next build.
+#
+# Please edit <driver>_devices.py file for permanent changes.
+#
+# Vendors, devices and subsystems.
+#
+# Syntax (initial indentation must be done with TAB characters):
+#
+# vendor  vendor_name
+#       device  device_name                            <-- single TAB
+#               subvendor subdevice  subsystem_name    <-- two TABs
+
+8086  Intel(R)
+	150e  82580 Gigabit Network Connection
+	150f  82580 Gigabit Fiber Network Connection
+	1510  82580 Gigabit Backplane Connection
+	1511  82580 Gigabit SFP Connection
+	1516  82580 Gigabit Network Connection
+	1521  I350 Gigabit Network Connection
+	1522  I350 Gigabit Fiber Network Connection
+	1523  I350 Gigabit Backplane Connection
+	1524  I350 Gigabit Connection
+	1527  82580 Gigabit Fiber Network Connection
+	1533  I210 Gigabit Network Connection
+	1536  I210 Gigabit Fiber Network Connection
+	1537  I210 Gigabit Backplane Connection
+	1538  I210 Gigabit Network Connection
+	1539  I211 Gigabit Network Connection
+	157b  I210 Gigabit Network Connection
+	157c  I210 Gigabit Backplane Connection
+	1f40  Ethernet Connection I354 1.0 GbE Backplane
+	1f41  Ethernet Connection I354
+	1f45  Ethernet Connection I354 2.5 GbE Backplane

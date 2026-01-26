@@ -1,0 +1,141 @@
+0000:00:00.0 Bridge Host bridge: Intel Corporation 5520 I/O Hub to ESI Port [PCIe RP[0000:00:00.0]]
+	 Class 0600: 8086:3406
+
+0000:00:01.0 Bridge PCI bridge: Intel Corporation 5520/5500/X58 I/O Hub PCI Express Root Port 1 [PCIe RP[0000:00:01.0]]
+	 Class 0604: 8086:3408
+
+0000:00:02.0 Bridge PCI bridge: Intel Corporation 5520/5500/X58 I/O Hub PCI Express Root Port 2 [PCIe RP[0000:00:02.0]]
+	 Class 0604: 8086:3409
+
+0000:00:03.0 Bridge PCI bridge: Intel Corporation 5520/5500/X58 I/O Hub PCI Express Root Port 3 [PCIe RP[0000:00:03.0]]
+	 Class 0604: 8086:340a
+
+0000:00:07.0 Bridge PCI bridge: Intel Corporation 5520/5500/X58 I/O Hub PCI Express Root Port 7 [PCIe RP[0000:00:07.0]]
+	 Class 0604: 8086:340e
+
+0000:00:10.0 Generic system peripheral PIC: Intel Corporation 7500/5520/5500/X58 Physical and Link Layer Registers Port 0 
+	 Class 0800: 8086:3425
+
+0000:00:10.1 Generic system peripheral PIC: Intel Corporation 7500/5520/5500/X58 Routing and Protocol Layer Registers Port 0 
+	 Class 0800: 8086:3426
+
+0000:00:11.0 Generic system peripheral PIC: Intel Corporation 7500/5520/5500 Physical and Link Layer Registers Port 1 
+	 Class 0800: 8086:3427
+
+0000:00:11.1 Generic system peripheral PIC: Intel Corporation 7500/5520/5500 Routing & Protocol Layer Register Port 1 
+	 Class 0800: 8086:3428
+
+0000:00:14.0 Generic system peripheral PIC: Intel Corporation 7500/5520/5500/X58 I/O Hub System Management Registers 
+	 Class 0800: 8086:342e
+
+0000:00:14.1 Generic system peripheral PIC: Intel Corporation 7500/5520/5500/X58 I/O Hub GPIO and Scratch Pad Registers 
+	 Class 0800: 8086:3422
+
+0000:00:14.2 Generic system peripheral PIC: Intel Corporation 7500/5520/5500/X58 I/O Hub Control Status and RAS Registers 
+	 Class 0800: 8086:3423
+
+0000:00:14.3 Generic system peripheral PIC: Intel Corporation 7500/5520/5500/X58 I/O Hub Throttle Registers 
+	 Class 0800: 8086:3438
+
+0000:00:15.0 Generic system peripheral PIC: Intel Corporation 7500/5520/5500/X58 Trusted Execution Technology Registers 
+	 Class 0800: 8086:342f
+
+0000:00:16.0 Generic system peripheral System peripheral: Intel Corporation 5520/5500/X58 Chipset QuickData Technology Device 
+	 Class 0880: 8086:3430
+
+0000:00:16.1 Generic system peripheral System peripheral: Intel Corporation 5520/5500/X58 Chipset QuickData Technology Device 
+	 Class 0880: 8086:3431
+
+0000:00:16.2 Generic system peripheral System peripheral: Intel Corporation 5520/5500/X58 Chipset QuickData Technology Device 
+	 Class 0880: 8086:3432
+
+0000:00:16.3 Generic system peripheral System peripheral: Intel Corporation 5520/5500/X58 Chipset QuickData Technology Device 
+	 Class 0880: 8086:3433
+
+0000:00:16.4 Generic system peripheral System peripheral: Intel Corporation 5520/5500/X58 Chipset QuickData Technology Device 
+	 Class 0880: 8086:3429
+
+0000:00:16.5 Generic system peripheral System peripheral: Intel Corporation 5520/5500/X58 Chipset QuickData Technology Device 
+	 Class 0880: 8086:342a
+
+0000:00:16.6 Generic system peripheral System peripheral: Intel Corporation 5520/5500/X58 Chipset QuickData Technology Device 
+	 Class 0880: 8086:342b
+
+0000:00:16.7 Generic system peripheral System peripheral: Intel Corporation 5520/5500/X58 Chipset QuickData Technology Device 
+	 Class 0880: 8086:342c
+
+0000:00:1a.0 Serial bus controller USB controller: Intel Corporation 82801JI (ICH10 Family) USB UHCI Controller #4 
+	 Class 0c03: 8086:3a37
+
+0000:00:1a.1 Serial bus controller USB controller: Intel Corporation 82801JI (ICH10 Family) USB UHCI Controller #5 
+	 Class 0c03: 8086:3a38
+
+0000:00:1a.7 Serial bus controller USB controller: Intel Corporation 82801JI (ICH10 Family) USB2 EHCI Controller #2 
+	 Class 0c03: 8086:3a3c
+
+0000:00:1c.0 Bridge PCI bridge: Intel Corporation 82801JI (ICH10 Family) PCI Express Root Port 1 [PCIe RP[0000:00:1c.0]]
+	 Class 0604: 8086:3a40
+
+0000:00:1c.4 Bridge PCI bridge: Intel Corporation 82801JI (ICH10 Family) PCI Express Root Port 5 [PCIe RP[0000:00:1c.4]]
+	 Class 0604: 8086:3a48
+
+0000:00:1d.0 Serial bus controller USB controller: Intel Corporation 82801JI (ICH10 Family) USB UHCI Controller #1 
+	 Class 0c03: 8086:3a34
+
+0000:00:1d.1 Serial bus controller USB controller: Intel Corporation 82801JI (ICH10 Family) USB UHCI Controller #2 
+	 Class 0c03: 8086:3a35
+
+0000:00:1d.2 Serial bus controller USB controller: Intel Corporation 82801JI (ICH10 Family) USB UHCI Controller #3 
+	 Class 0c03: 8086:3a36
+
+0000:00:1d.7 Serial bus controller USB controller: Intel Corporation 82801JI (ICH10 Family) USB2 EHCI Controller #1 [vmhba32]
+	 Class 0c03: 8086:3a3a
+
+0000:00:1e.0 Bridge PCI bridge: Intel Corporation 82801 PCI Bridge 
+	 Class 0604: 8086:244e
+
+0000:00:1f.0 Bridge ISA bridge: Intel Corporation 82801JIB (ICH10) LPC Interface Controller 
+	 Class 0601: 8086:3a18
+
+0000:00:1f.2 Mass storage controller IDE interface: Intel Corporation ICH10 4 port SATA IDE Controller [vmhba1]
+	 Class 0101: 8086:3a20
+
+0000:00:1f.3 Serial bus controller SMBus: Intel Corporation 82801JI (ICH10 Family) SMBus Controller 
+	 Class 0c05: 8086:3a30
+
+0000:00:1f.5 Mass storage controller IDE interface: Intel Corporation ICH10 2 port SATA IDE Controller [vmhba2]
+	 Class 0101: 8086:3a26
+
+0000:01:00.0 Mass storage controller RAID bus controller: LSI / Symbios Logic MegaRAID SAS GEN2 Controller [vmhba0]
+	 Class 0104: 1000:0079
+
+0000:06:00.0 Bridge PCI bridge: Vitesse Semiconductor VSC452 [SuperBMC] 
+	 Class 0604: 101b:0452
+
+0000:07:00.0 Display controller VGA compatible controller: Matrox Electronics Systems Ltd. MGA G200EV 
+	 Class 0300: 102b:0530
+
+0000:0b:00.0 Network controller Ethernet controller: QLogic Corporation QLogic NetXtreme II BCM5709 1000Base-T [vmnic0]
+	 Class 0200: 14e4:1639
+
+0000:0b:00.1 Network controller Ethernet controller: QLogic Corporation QLogic NetXtreme II BCM5709 1000Base-T [vmnic1]
+	 Class 0200: 14e4:1639
+
+0000:10:00.0 Network controller Ethernet controller: QLogic Corporation QLogic NetXtreme II BCM5709 1000Base-T [vmnic2]
+	 Class 0200: 14e4:1639
+
+0000:10:00.1 Network controller Ethernet controller: QLogic Corporation QLogic NetXtreme II BCM5709 1000Base-T [vmnic3]
+	 Class 0200: 14e4:1639
+
+0000:15:00.0 Network controller Ethernet controller: Intel(R) I350 Gigabit Network Connection [vmnic4]
+	 Class 0200: 8086:1521
+
+0000:15:00.1 Network controller Ethernet controller: Intel(R) I350 Gigabit Network Connection [vmnic5]
+	 Class 0200: 8086:1521
+
+0000:1a:00.0 Serial bus controller Fibre Channel: Emulex Corporation LPe12000 Series 8Gb Fibre Channel Adapter 
+	 Class 0c04: 10df:f100
+
+0000:1a:00.1 Serial bus controller Fibre Channel: Emulex Corporation LPe12000 Series 8Gb Fibre Channel Adapter 
+	 Class 0c04: 10df:f100
+

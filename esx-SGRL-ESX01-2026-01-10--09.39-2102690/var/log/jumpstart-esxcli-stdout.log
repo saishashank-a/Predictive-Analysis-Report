@@ -1,0 +1,290 @@
+2026-01-10T07:55:20.557Z| Executor Reset - polling for commands
+2026-01-10T07:55:20.908Z| 2097634:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2026-01-10T07:55:20.908Z| 2097634:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2026-01-10T07:55:20.908Z| 2097634:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2026-01-10T07:55:22.196Z| DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2026-01-10T07:55:22.196Z| DictionaryLoad: Cannot open file "//.vmware/config": No such file or directory.
+2026-01-10T07:55:22.196Z| DictionaryLoad: Cannot open file "//.vmware/preferences": No such file or directory.
+2026-01-10T07:55:22.201Z| lib/ssl: OpenSSL using FIPS_drbg for RAND
+2026-01-10T07:55:22.201Z| lib/ssl: protocol list tls1.2
+2026-01-10T07:55:22.201Z| lib/ssl: protocol list tls1.2 (openssl flags 0x17000000)
+2026-01-10T07:55:22.201Z| lib/ssl: cipher list ECDHE+AESGCM:RSA+AESGCM:ECDHE+AES:RSA+AES
+2026-01-10T07:55:22.201Z| lib/ssl: curves list prime256v1:secp384r1:secp521r1
+2026-01-10T07:55:27.101Z| LoadVmklinuxDriver: Loaded module megaraid_sas
+2026-01-10T07:55:27.722Z| NetworkInfoImpl: Enabling 1 netstack instances during boot
+2026-01-10T07:55:27.765Z| VmKernelNicInfo::LoadConfig: Storing previous management interface:'vmk0'
+2026-01-10T07:55:27.765Z| VmKernelNicInfo::LoadConfig: Processing migration for'vmk0'
+2026-01-10T07:55:27.765Z| VmKernelNicInfo::LoadConfig: Processing config for'vmk0'
+2026-01-10T07:55:27.767Z| ConfigFile: /etc/vmware/esx.conf: skipping non-dirty write
+2026-01-10T07:55:27.769Z| VmkCtl: [context]zKq7AVICAgAAAEvnJAEPdm1rY3RsAABIegVsaWJ2bWtjdGxjb3JlLnNvAAG1nTRsaWJ2bWtjdGwuc28AATzpNAEoQzQBPQ01ATHZNgJrqAFsaWJib290LnNvAAMvmAVsaWJjcHB0b29scy5zbwADMEUFBBwfAmp1bXBzdGFydAAFHxwAbGlicG9sbERlZmF1bHQuc28ABXgcAAVtJwAFIywABFAFAg==[/context]
+2026-01-10T07:55:27.769Z| GetManagementInterface: Tagging vmk0 as Management
+2026-01-10T07:55:27.770Z| SetTaggedManagementInterface: Writing vmk0 to the ManagementIface node
+2026-01-10T07:55:27.772Z| VmkNic: IPv4 address set up successfully on vmknic vmk0
+2026-01-10T07:55:27.772Z| GetManagementInterface: Tagging vmk0 as Management
+2026-01-10T07:55:27.773Z| SetTaggedManagementInterface: Writing vmk0 to the ManagementIface node
+2026-01-10T07:55:27.775Z| VmkNic: IPv6 address set up successfully on vmknic vmk0
+2026-01-10T07:55:27.775Z| RoutingInfo: LoadConfig called on RoutingInfo
+2026-01-10T07:55:27.776Z| GetManagementInterface: Tagging vmk0 as Management
+2026-01-10T07:55:27.777Z| SetTaggedManagementInterface: Writing vmk0 to the ManagementIface node
+2026-01-10T07:55:27.778Z| VmkNic: Enable: netstack:'defaultTcpipStack', interface:'vmk0', portStr:'Management Network'
+2026-01-10T07:55:27.787Z| RoutingInfo: LoadConfig called on RoutingInfo
+2026-01-10T07:55:27.800Z| GetManagementInterface: Tagging vmk0 as Management
+2026-01-10T07:55:27.810Z| SetTaggedManagementInterface: Writing vmk0 to the ManagementIface node
+2026-01-10T07:55:28.018Z| iScsi: No iBFT data present in the BIOS
+2026-01-10T07:55:28.053Z| NetworkInfoImpl: vmnic0 is not bootable
+2026-01-10T07:55:28.054Z| NetworkInfoImpl: vmnic0: FCoE not enabled
+2026-01-10T07:55:28.054Z| NetworkInfoImpl: vmnic1 is not bootable
+2026-01-10T07:55:28.055Z| NetworkInfoImpl: vmnic1: FCoE not enabled
+2026-01-10T07:55:28.056Z| NetworkInfoImpl: vmnic2 is not bootable
+2026-01-10T07:55:28.057Z| NetworkInfoImpl: vmnic2: FCoE not enabled
+2026-01-10T07:55:28.057Z| NetworkInfoImpl: vmnic3 is not bootable
+2026-01-10T07:55:28.058Z| NetworkInfoImpl: vmnic3: FCoE not enabled
+2026-01-10T07:55:28.058Z| NetworkInfoImpl: vmnic4 is not bootable
+2026-01-10T07:55:28.059Z| NetworkInfoImpl: vmnic4: FCoE not enabled
+2026-01-10T07:55:28.060Z| NetworkInfoImpl: vmnic5 is not bootable
+2026-01-10T07:55:28.061Z| NetworkInfoImpl: vmnic5: FCoE not enabled
+2026-01-10T07:55:28.063Z| Storage: devListStabilityCount 3
+2026-01-10T07:55:28.063Z| 
+2026-01-10T07:55:32.070Z| StorageInfo: Number of paths 1
+2026-01-10T07:55:32.072Z| Storage: devListStabilityCount 3
+2026-01-10T07:55:32.072Z| 
+2026-01-10T07:55:36.080Z| StorageInfo: Number of devices 1
+2026-01-10T07:55:36.085Z| ConfigFile: /etc/vmware/esx.conf: skipping non-dirty write
+2026-01-10T07:55:36.087Z| VmkCtl: [context]zKq7AVICAgAAAEvnJAEPdm1rY3RsAABIegVsaWJ2bWtjdGxjb3JlLnNvAAEzVUVsaWJ2bWtjdGwuc28AAVxtRQHVzkcBis9HAnkxAmxpYmJvb3Quc28AAy+YBWxpYmNwcHRvb2xzLnNvAAMwRQUEHB8CanVtcHN0YXJ0AAUfHABsaWJwb2xsRGVmYXVsdC5zbwAFeBwABW0nAAUjLAAEUAUCBjt9AGxpYnB0aHJlYWQuc28uMAA=[/context]
+2026-01-10T07:55:36.099Z| ConfigFile: /etc/vmware/esx.conf: skipping non-dirty write
+2026-01-10T07:55:36.100Z| VmkCtl: [context]zKq7AVICAgAAAEvnJAEPdm1rY3RsAABIegVsaWJ2bWtjdGxjb3JlLnNvAAEzVUVsaWJ2bWtjdGwuc28AAVxtRQHVzkcBis9HAnkxAmxpYmJvb3Quc28AAy+YBWxpYmNwcHRvb2xzLnNvAAMwRQUEHB8CanVtcHN0YXJ0AAUfHABsaWJwb2xsRGVmYXVsdC5zbwAFeBwABW0nAAUjLAAEUAUCBjt9AGxpYnB0aHJlYWQuc28uMAA=[/context]
+2026-01-10T07:55:36.189Z| GetTypedFileSystems: fstype vfat
+2026-01-10T07:55:36.189Z| GetTypedFileSystems: uuid 66630e7d-33d835cd-586e-86703aad3a4f
+2026-01-10T07:55:36.190Z| GetTypedFileSystems: uuid 3a4fd8cf-6ef45abc-002e-5cf3fce846f8
+2026-01-10T07:55:36.191Z| GetTypedFileSystems: uuid 3a4fd8c6-3cd0683c-d0c1-5cf3fce846f8
+2026-01-10T07:55:36.192Z| GetTypedFileSystems: uuid 5766f37e-4592eb56-f9ee-6436272ca19f
+2026-01-10T07:55:36.193Z| GetTypedFileSystems: fstype vfat
+2026-01-10T07:55:36.193Z| GetTypedFileSystems: uuid 66630e7d-33d835cd-586e-86703aad3a4f
+2026-01-10T07:55:36.193Z| GetTypedFileSystems: uuid 3a4fd8cf-6ef45abc-002e-5cf3fce846f8
+2026-01-10T07:55:36.193Z| GetTypedFileSystems: uuid 3a4fd8c6-3cd0683c-d0c1-5cf3fce846f8
+2026-01-10T07:55:36.193Z| GetTypedFileSystems: uuid 5766f37e-4592eb56-f9ee-6436272ca19f
+2026-01-10T07:55:36.194Z| GetTypedFileSystems: fstype vfat
+2026-01-10T07:55:36.194Z| GetTypedFileSystems: uuid 66630e7d-33d835cd-586e-86703aad3a4f
+2026-01-10T07:55:36.194Z| GetTypedFileSystems: uuid 3a4fd8cf-6ef45abc-002e-5cf3fce846f8
+2026-01-10T07:55:36.194Z| GetTypedFileSystems: uuid 3a4fd8c6-3cd0683c-d0c1-5cf3fce846f8
+2026-01-10T07:55:36.194Z| GetTypedFileSystems: uuid 5766f37e-4592eb56-f9ee-6436272ca19f
+2026-01-10T07:55:36.194Z| GetTypedFileSystems: fstype vfat
+2026-01-10T07:55:36.194Z| GetTypedFileSystems: uuid 66630e7d-33d835cd-586e-86703aad3a4f
+2026-01-10T07:55:36.194Z| GetTypedFileSystems: uuid 3a4fd8cf-6ef45abc-002e-5cf3fce846f8
+2026-01-10T07:55:36.194Z| GetTypedFileSystems: uuid 3a4fd8c6-3cd0683c-d0c1-5cf3fce846f8
+2026-01-10T07:55:36.194Z| GetTypedFileSystems: uuid 5766f37e-4592eb56-f9ee-6436272ca19f
+2026-01-10T07:55:36.195Z| GetTypedFileSystems: fstype vfat
+2026-01-10T07:55:36.195Z| GetTypedFileSystems: uuid 66630e7d-33d835cd-586e-86703aad3a4f
+2026-01-10T07:55:36.195Z| GetTypedFileSystems: uuid 3a4fd8cf-6ef45abc-002e-5cf3fce846f8
+2026-01-10T07:55:36.195Z| GetTypedFileSystems: uuid 3a4fd8c6-3cd0683c-d0c1-5cf3fce846f8
+2026-01-10T07:55:36.195Z| GetTypedFileSystems: uuid 5766f37e-4592eb56-f9ee-6436272ca19f
+2026-01-10T07:55:36.432Z| VsanInfoImpl: Refresh config generation
+2026-01-10T07:55:37.657Z| VmFileSystem: Begin automounting 3a4fd8ce-fc4375c4-effb-5cf3fce846f8
+2026-01-10T07:55:37.729Z| VmFileSystem: Automounted volume 3a4fd8ce-f2fb6b00-6359-5cf3fce846f8
+2026-01-10T07:55:38.496Z| GetVmfsFileSystems: VFFS mounted volumes from fsswitch
+2026-01-10T07:55:38.496Z| GetMountedVmfsFileSystemsInt: Found 0 mounted VFFS volumes
+2026-01-10T07:55:38.496Z| GetVmfsFileSystems: VFFS umounted volumes from LVM
+2026-01-10T07:55:38.497Z| GetUnmountedVmfsFileSystems: There are 0 unmounted (NoSnaphot) volumes
+2026-01-10T07:55:38.497Z| GetUnmountedVmfsFileSystemsInt: Found 0 unmounted VFFS volumes
+2026-01-10T07:55:38.588Z| VmkCtl: Diagnostic File configured; not auto creating
+2026-01-10T07:55:38.588Z| BmcInfoImpl: Retrieve Version information failed
+2026-01-10T07:55:38.593Z| Common: MSR       0x3a =                0x5
+2026-01-10T07:55:38.593Z| Common: MSR      0x480 =   0xda04000000000f
+2026-01-10T07:55:38.593Z| Common: MSR      0x481 =       0x7f00000016
+2026-01-10T07:55:38.593Z| Common: MSR      0x482 = 0xfff9fffe0401e172
+2026-01-10T07:55:38.593Z| Common: MSR      0x483 =   0x7fffff00036dff
+2026-01-10T07:55:38.593Z| Common: MSR      0x484 =     0xffff000011ff
+2026-01-10T07:55:38.593Z| Common: MSR      0x485 =            0x401e7
+2026-01-10T07:55:38.593Z| Common: MSR      0x486 =         0x80000021
+2026-01-10T07:55:38.593Z| Common: MSR      0x487 =         0xffffffff
+2026-01-10T07:55:38.593Z| Common: MSR      0x488 =             0x2000
+2026-01-10T07:55:38.593Z| Common: MSR      0x489 =            0x267ff
+2026-01-10T07:55:38.593Z| Common: MSR      0x48a =               0x2a
+2026-01-10T07:55:38.593Z| Common: MSR      0x48b =      0x4ff00000000
+2026-01-10T07:55:38.594Z| Common: MSR      0x48c =      0xf0106134141
+2026-01-10T07:55:38.594Z| Common: MSR      0x48d =       0x7f00000016
+2026-01-10T07:55:38.594Z| Common: MSR      0x48e = 0xfff9fffe04006172
+2026-01-10T07:55:38.594Z| Common: MSR      0x48f =   0x7fffff00036dfb
+2026-01-10T07:55:38.594Z| Common: MSR      0x490 =     0xffff000011fb
+2026-01-10T07:55:38.594Z| Common: MSR      0x491 =                  0
+2026-01-10T07:55:38.594Z| Common: MSR 0xc0010114 =                  0
+2026-01-10T07:55:38.594Z| Common: MSR       0xce =      0xc0004011403
+2026-01-10T07:55:38.594Z| Common: MSR      0x10a =                  0
+2026-01-10T07:55:38.601Z| VmkCtl: Dump file determined to be large enough, size: 4009754624 (recommended minimum: 4009754624)
+2026-01-10T07:55:38.615Z| GetTypedFileSystems: fstype vfat
+2026-01-10T07:55:38.615Z| GetTypedFileSystems: uuid 66630e7d-33d835cd-586e-86703aad3a4f
+2026-01-10T07:55:38.616Z| GetTypedFileSystems: uuid 3a4fd8cf-6ef45abc-002e-5cf3fce846f8
+2026-01-10T07:55:38.616Z| GetTypedFileSystems: uuid 3a4fd8c6-3cd0683c-d0c1-5cf3fce846f8
+2026-01-10T07:55:38.617Z| GetTypedFileSystems: uuid 5766f37e-4592eb56-f9ee-6436272ca19f
+2026-01-10T07:55:38.617Z| GetTypedFileSystems: uuid 6113eae0-017e72cb-dd88-7c4fe078f4fa
+2026-01-10T07:55:38.673Z| GetTypedFileSystems: uuid 3aa697ed-3301c127-ab77-6b3f94b30287
+2026-01-10T07:55:38.727Z| GetTypedFileSystems: uuid 3a4fcbb5-bccfa3cc-15bf-5cf3fce846f8
+2026-01-10T07:55:38.781Z| VmkCtl: partition table is GPT
+2026-01-10T07:55:38.788Z| Common: MSR       0x3a =                0x5
+2026-01-10T07:55:38.788Z| Common: MSR      0x480 =   0xda04000000000f
+2026-01-10T07:55:38.788Z| Common: MSR      0x481 =       0x7f00000016
+2026-01-10T07:55:38.788Z| Common: MSR      0x482 = 0xfff9fffe0401e172
+2026-01-10T07:55:38.788Z| Common: MSR      0x483 =   0x7fffff00036dff
+2026-01-10T07:55:38.788Z| Common: MSR      0x484 =     0xffff000011ff
+2026-01-10T07:55:38.788Z| Common: MSR      0x485 =            0x401e7
+2026-01-10T07:55:38.788Z| Common: MSR      0x486 =         0x80000021
+2026-01-10T07:55:38.788Z| Common: MSR      0x487 =         0xffffffff
+2026-01-10T07:55:38.788Z| Common: MSR      0x488 =             0x2000
+2026-01-10T07:55:38.788Z| Common: MSR      0x489 =            0x267ff
+2026-01-10T07:55:38.788Z| Common: MSR      0x48a =               0x2a
+2026-01-10T07:55:38.788Z| Common: MSR      0x48b =      0x4ff00000000
+2026-01-10T07:55:38.788Z| Common: MSR      0x48c =      0xf0106134141
+2026-01-10T07:55:38.788Z| Common: MSR      0x48d =       0x7f00000016
+2026-01-10T07:55:38.788Z| Common: MSR      0x48e = 0xfff9fffe04006172
+2026-01-10T07:55:38.788Z| Common: MSR      0x48f =   0x7fffff00036dfb
+2026-01-10T07:55:38.788Z| Common: MSR      0x490 =     0xffff000011fb
+2026-01-10T07:55:38.788Z| Common: MSR      0x491 =                  0
+2026-01-10T07:55:38.788Z| Common: MSR 0xc0010114 =                  0
+2026-01-10T07:55:38.788Z| Common: MSR       0xce =      0xc0004011403
+2026-01-10T07:55:38.788Z| Common: MSR      0x10a =                  0
+2026-01-10T07:55:38.795Z| VmkCtl: Cannot expand the coredump partition, since the coredump partition is not located at the end of the disk naa.600605b004213bc001e293503af49afb.
+2026-01-10T07:55:38.824Z| VsanInfoImpl: Refresh config generation
+2026-01-10T07:55:42.795Z| Common: MSR       0x3a =                0x5
+2026-01-10T07:55:42.795Z| Common: MSR      0x480 =   0xda04000000000f
+2026-01-10T07:55:42.795Z| Common: MSR      0x481 =       0x7f00000016
+2026-01-10T07:55:42.795Z| Common: MSR      0x482 = 0xfff9fffe0401e172
+2026-01-10T07:55:42.795Z| Common: MSR      0x483 =   0x7fffff00036dff
+2026-01-10T07:55:42.795Z| Common: MSR      0x484 =     0xffff000011ff
+2026-01-10T07:55:42.795Z| Common: MSR      0x485 =            0x401e7
+2026-01-10T07:55:42.795Z| Common: MSR      0x486 =         0x80000021
+2026-01-10T07:55:42.795Z| Common: MSR      0x487 =         0xffffffff
+2026-01-10T07:55:42.795Z| Common: MSR      0x488 =             0x2000
+2026-01-10T07:55:42.795Z| Common: MSR      0x489 =            0x267ff
+2026-01-10T07:55:42.795Z| Common: MSR      0x48a =               0x2a
+2026-01-10T07:55:42.795Z| Common: MSR      0x48b =      0x4ff00000000
+2026-01-10T07:55:42.795Z| Common: MSR      0x48c =      0xf0106134141
+2026-01-10T07:55:42.795Z| Common: MSR      0x48d =       0x7f00000016
+2026-01-10T07:55:42.795Z| Common: MSR      0x48e = 0xfff9fffe04006172
+2026-01-10T07:55:42.795Z| Common: MSR      0x48f =   0x7fffff00036dfb
+2026-01-10T07:55:42.795Z| Common: MSR      0x490 =     0xffff000011fb
+2026-01-10T07:55:42.795Z| Common: MSR      0x491 =                  0
+2026-01-10T07:55:42.795Z| Common: MSR 0xc0010114 =                  0
+2026-01-10T07:55:42.795Z| Common: MSR       0xce =      0xc0004011403
+2026-01-10T07:55:42.796Z| Common: MSR      0x10a =                  0
+2026-01-10T07:55:42.800Z| Common: MSR       0x3a =                0x5
+2026-01-10T07:55:42.800Z| Common: MSR      0x480 =   0xda04000000000f
+2026-01-10T07:55:42.800Z| Common: MSR      0x481 =       0x7f00000016
+2026-01-10T07:55:42.800Z| Common: MSR      0x482 = 0xfff9fffe0401e172
+2026-01-10T07:55:42.800Z| Common: MSR      0x483 =   0x7fffff00036dff
+2026-01-10T07:55:42.800Z| Common: MSR      0x484 =     0xffff000011ff
+2026-01-10T07:55:42.800Z| Common: MSR      0x485 =            0x401e7
+2026-01-10T07:55:42.800Z| Common: MSR      0x486 =         0x80000021
+2026-01-10T07:55:42.800Z| Common: MSR      0x487 =         0xffffffff
+2026-01-10T07:55:42.800Z| Common: MSR      0x488 =             0x2000
+2026-01-10T07:55:42.800Z| Common: MSR      0x489 =            0x267ff
+2026-01-10T07:55:42.800Z| Common: MSR      0x48a =               0x2a
+2026-01-10T07:55:42.800Z| Common: MSR      0x48b =      0x4ff00000000
+2026-01-10T07:55:42.800Z| Common: MSR      0x48c =      0xf0106134141
+2026-01-10T07:55:42.800Z| Common: MSR      0x48d =       0x7f00000016
+2026-01-10T07:55:42.800Z| Common: MSR      0x48e = 0xfff9fffe04006172
+2026-01-10T07:55:42.800Z| Common: MSR      0x48f =   0x7fffff00036dfb
+2026-01-10T07:55:42.800Z| Common: MSR      0x490 =     0xffff000011fb
+2026-01-10T07:55:42.800Z| Common: MSR      0x491 =                  0
+2026-01-10T07:55:42.800Z| Common: MSR 0xc0010114 =                  0
+2026-01-10T07:55:42.800Z| Common: MSR       0xce =      0xc0004011403
+2026-01-10T07:55:42.800Z| Common: MSR      0x10a =                  0
+2026-01-10T07:55:42.804Z| Common: MSR       0x3a =                0x5
+2026-01-10T07:55:42.804Z| Common: MSR      0x480 =   0xda04000000000f
+2026-01-10T07:55:42.804Z| Common: MSR      0x481 =       0x7f00000016
+2026-01-10T07:55:42.804Z| Common: MSR      0x482 = 0xfff9fffe0401e172
+2026-01-10T07:55:42.804Z| Common: MSR      0x483 =   0x7fffff00036dff
+2026-01-10T07:55:42.804Z| Common: MSR      0x484 =     0xffff000011ff
+2026-01-10T07:55:42.804Z| Common: MSR      0x485 =            0x401e7
+2026-01-10T07:55:42.804Z| Common: MSR      0x486 =         0x80000021
+2026-01-10T07:55:42.804Z| Common: MSR      0x487 =         0xffffffff
+2026-01-10T07:55:42.804Z| Common: MSR      0x488 =             0x2000
+2026-01-10T07:55:42.804Z| Common: MSR      0x489 =            0x267ff
+2026-01-10T07:55:42.804Z| Common: MSR      0x48a =               0x2a
+2026-01-10T07:55:42.804Z| Common: MSR      0x48b =      0x4ff00000000
+2026-01-10T07:55:42.804Z| Common: MSR      0x48c =      0xf0106134141
+2026-01-10T07:55:42.804Z| Common: MSR      0x48d =       0x7f00000016
+2026-01-10T07:55:42.804Z| Common: MSR      0x48e = 0xfff9fffe04006172
+2026-01-10T07:55:42.804Z| Common: MSR      0x48f =   0x7fffff00036dfb
+2026-01-10T07:55:42.804Z| Common: MSR      0x490 =     0xffff000011fb
+2026-01-10T07:55:42.804Z| Common: MSR      0x491 =                  0
+2026-01-10T07:55:42.804Z| Common: MSR 0xc0010114 =                  0
+2026-01-10T07:55:42.804Z| Common: MSR       0xce =      0xc0004011403
+2026-01-10T07:55:42.804Z| Common: MSR      0x10a =                  0
+2026-01-10T07:55:42.808Z| GetVmfsFileSystems: Vmfs mounted volumes from fsswitch
+2026-01-10T07:55:42.808Z| GetMountedVmfsFileSystemsInt: uuid 3a4fd8ce-fc4375c4-effb-5cf3fce846f8
+2026-01-10T07:55:42.809Z| OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2026-01-10T07:55:42.809Z| OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2026-01-10T07:55:42.812Z| PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2026-01-10T07:55:42.812Z| ObjLibPluginInit: Initialized plugin
+2026-01-10T07:55:42.812Z| UpitBackend_GetAPI: Received request for API com.vmware.plugin.objlib.backend.api@1.0
+2026-01-10T07:55:42.812Z| OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2026-01-10T07:55:42.812Z| OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2026-01-10T07:55:42.815Z| PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2026-01-10T07:55:42.815Z| ObjLibPluginInit: Initialized plugin
+2026-01-10T07:55:42.815Z| VsanBackend_GetAPI: Received request for API com.vmware.plugin.objlib.backend.api@1.0
+2026-01-10T07:55:42.815Z| OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2026-01-10T07:55:42.817Z| OBJLIB-LIB: Objlib initialized.
+2026-01-10T07:55:42.817Z| GetMountedVmfsFileSystemsInt: Found 1 mounted VMFS volumes
+2026-01-10T07:55:42.817Z| GetMountedVmfsFileSystemsInt: Found 0 mounted VMFS-L volumes
+2026-01-10T07:55:42.817Z| GetMountedVmfsFileSystemsInt: Found 0 mounted VFFS volumes
+2026-01-10T07:55:42.817Z| GetVmfsFileSystems: Vmfs umounted volumes from LVM
+2026-01-10T07:55:42.817Z| GetUnmountedVmfsFileSystems: There are 0 unmounted (NoSnaphot) volumes
+2026-01-10T07:55:42.817Z| GetUnmountedVmfsFileSystemsInt: Found 0 unmounted VMFS volumes
+2026-01-10T07:55:42.817Z| GetUnmountedVmfsFileSystemsInt: Found 0 unmounted VMFS-L volumes
+2026-01-10T07:55:42.817Z| GetUnmountedVmfsFileSystemsInt: Found 0 unmounted VFFS volumes
+2026-01-10T07:55:42.817Z| GetTypedFileSystems: fstype vfat
+2026-01-10T07:55:42.817Z| GetTypedFileSystems: uuid 66630e7d-33d835cd-586e-86703aad3a4f
+2026-01-10T07:55:42.817Z| GetTypedFileSystems: uuid 3a4fd8cf-6ef45abc-002e-5cf3fce846f8
+2026-01-10T07:55:42.817Z| GetTypedFileSystems: uuid 3a4fd8c6-3cd0683c-d0c1-5cf3fce846f8
+2026-01-10T07:55:42.817Z| GetTypedFileSystems: uuid 5766f37e-4592eb56-f9ee-6436272ca19f
+2026-01-10T07:55:42.817Z| GetTypedFileSystems: uuid 6113eae0-017e72cb-dd88-7c4fe078f4fa
+2026-01-10T07:55:42.817Z| GetTypedFileSystems: uuid 3aa697ed-3301c127-ab77-6b3f94b30287
+2026-01-10T07:55:42.817Z| GetTypedFileSystems: uuid 3a4fcbb5-bccfa3cc-15bf-5cf3fce846f8
+2026-01-10T07:55:42.817Z| GetTypedFileSystems: fstype vvol
+2026-01-10T07:55:42.817Z| GetTypedFileSystems: fstype vsan
+2026-01-10T07:55:42.817Z| GetTypedFileSystems: fstype PMEM
+2026-01-10T07:55:43.503Z| SlowRefresh: path /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8 total blocks 5385888989184 used blocks 773859573760grow = 0
+2026-01-10T07:55:43.504Z| OBJLIB-LIB: ObjLib cleanup done.
+2026-01-10T07:55:43.505Z| GetVmfsFileSystems: Vmfs mounted volumes from fsswitch
+2026-01-10T07:55:43.505Z| GetMountedVmfsFileSystemsInt: uuid 3a4fd8ce-fc4375c4-effb-5cf3fce846f8
+2026-01-10T07:55:43.505Z| OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2026-01-10T07:55:43.505Z| OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2026-01-10T07:55:43.506Z| PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2026-01-10T07:55:43.507Z| ObjLibPluginInit: Initialized plugin
+2026-01-10T07:55:43.507Z| UpitBackend_GetAPI: Received request for API com.vmware.plugin.objlib.backend.api@1.0
+2026-01-10T07:55:43.507Z| OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2026-01-10T07:55:43.507Z| OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2026-01-10T07:55:43.509Z| PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2026-01-10T07:55:43.509Z| ObjLibPluginInit: Initialized plugin
+2026-01-10T07:55:43.509Z| VsanBackend_GetAPI: Received request for API com.vmware.plugin.objlib.backend.api@1.0
+2026-01-10T07:55:43.509Z| OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2026-01-10T07:55:43.511Z| OBJLIB-LIB: Objlib initialized.
+2026-01-10T07:55:43.511Z| GetMountedVmfsFileSystemsInt: Found 1 mounted VMFS volumes
+2026-01-10T07:55:43.511Z| GetMountedVmfsFileSystemsInt: Found 0 mounted VMFS-L volumes
+2026-01-10T07:55:43.511Z| GetMountedVmfsFileSystemsInt: Found 0 mounted VFFS volumes
+2026-01-10T07:55:43.511Z| GetVmfsFileSystems: Vmfs umounted volumes from LVM
+2026-01-10T07:55:43.511Z| GetUnmountedVmfsFileSystems: There are 0 unmounted (NoSnaphot) volumes
+2026-01-10T07:55:43.511Z| GetUnmountedVmfsFileSystemsInt: Found 0 unmounted VMFS volumes
+2026-01-10T07:55:43.511Z| GetUnmountedVmfsFileSystemsInt: Found 0 unmounted VMFS-L volumes
+2026-01-10T07:55:43.511Z| GetUnmountedVmfsFileSystemsInt: Found 0 unmounted VFFS volumes
+2026-01-10T07:55:43.511Z| GetTypedFileSystems: fstype vfat
+2026-01-10T07:55:43.511Z| GetTypedFileSystems: uuid 66630e7d-33d835cd-586e-86703aad3a4f
+2026-01-10T07:55:43.511Z| GetTypedFileSystems: uuid 3a4fd8cf-6ef45abc-002e-5cf3fce846f8
+2026-01-10T07:55:43.511Z| GetTypedFileSystems: uuid 3a4fd8c6-3cd0683c-d0c1-5cf3fce846f8
+2026-01-10T07:55:43.511Z| GetTypedFileSystems: uuid 5766f37e-4592eb56-f9ee-6436272ca19f
+2026-01-10T07:55:43.511Z| GetTypedFileSystems: uuid 6113eae0-017e72cb-dd88-7c4fe078f4fa
+2026-01-10T07:55:43.511Z| GetTypedFileSystems: uuid 3aa697ed-3301c127-ab77-6b3f94b30287
+2026-01-10T07:55:43.511Z| GetTypedFileSystems: uuid 3a4fcbb5-bccfa3cc-15bf-5cf3fce846f8
+2026-01-10T07:55:43.511Z| GetTypedFileSystems: fstype vvol
+2026-01-10T07:55:43.511Z| GetTypedFileSystems: fstype vsan
+2026-01-10T07:55:43.511Z| GetTypedFileSystems: fstype PMEM
+2026-01-10T07:55:43.513Z| SlowRefresh: path /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8 total blocks 5385888989184 used blocks 773859573760grow = 0
+2026-01-10T07:55:43.513Z| OBJLIB-LIB: ObjLib cleanup done.
+2026-01-10T07:55:43.533Z| Util: Retrieve component: VSAN-iSCSI, field: vitLunNaaEnable value: 0
+2026-01-10T07:55:43.533Z| VsanIscsiTargetImpl: Constructing VsanIscsiTargetImpl() 0x39617C9F40, lunNaa: Disabled
+2026-01-10T07:55:43.533Z| Parser: Initializing VIT parser lib
+2026-01-10T07:55:43.533Z| VsanInfoImpl: Refresh config generation
+2026-01-10T07:55:43.534Z| VsanIscsiTargetImpl: The host is not in a vSAN cluster.
+2026-01-10T07:55:43.534Z| Util: Retrieved vit status successfully
+2026-01-10T07:55:43.534Z| VsanIscsiTargetImpl: Destructing VsanIscsiTargetImpl() 0x39617C9F40
+2026-01-10T07:55:44.631Z| Jumpstart executor signalled to stop

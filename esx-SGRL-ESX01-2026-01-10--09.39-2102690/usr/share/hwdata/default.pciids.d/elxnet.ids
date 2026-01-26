@@ -1,0 +1,42 @@
+#
+# This file is mechanically generated.  Any changes you make
+# manually will be lost at the next build.
+#
+# Please edit <driver>_devices.py file for permanent changes.
+#
+# Vendors, devices and subsystems.
+#
+# Syntax (initial indentation must be done with TAB characters):
+#
+# vendor  vendor_name
+#       device  device_name                            <-- single TAB
+#               subvendor subdevice  subsystem_name    <-- two TABs
+
+10df  Emulex Corporation
+	0720  Emulex OneConnect OCe14000 NIC
+		103c 1934  HPE FlexFabric 20Gb 2-port 650M Adapter
+		103c 1935  HPE FlexFabric 20Gb 2-port 650FLB Adapter
+		103c 21d4  HPE CN1200E 2P Converged Network Adapter
+		103c 220a  HPE FlexFabric 10Gb 2-port 556FLR-SFP+ Adapter
+		103c 803f  HPE Ethernet 10Gb 2-port 557SFP+ Adapter
+		1590 8153  HPE StoreFabric CN1200E 10GBASE-T Dual Port Converged Network Adapter
+19a2  Emulex Corporation
+	0221  Emulex OneConnect OCe11100 NIC
+	0710  Emulex OneConnect OCe11100 NIC
+		103c 177b  HP BL8X0c i3 Dual Port FlexFabric 10Gb Embedded CNIC
+		103c 17a3  HP Integrity_CN1100E PCIe 2-port CNA
+		103c 17a6  HP Integrity NC552SFP 2P 10GbE Adapter
+		103c 184e  HP Flex-10 10Gb 2-port 552M Adapter
+		103c 2151  HP OCl11102-F5-HP Dual Port FlexFabric 10Gb Embedded CNIC
+		103c 3315  HP NC553i Dual Port FlexFabric 10Gb Converged Network Adapter
+		103c 3340  HP NC552SFP Dual Port 10GbE Server Adapter
+		103c 3341  HP NC552m Dual Port Flex-10 10Gbe BL-c Adapter
+		103c 3342  Emulex OneConnect OCe11102-I-HP NIC
+		103c 3343  Emulex OneConnect OCm11102-I-HP NIC
+		103c 3344  HP CN1100E Converged Network Adapter
+		103c 3345  HP NC553m Dual Port FlexFabric 10Gb Network Adapter
+		103c 3376  HP FlexFabric 10Gb 2-port 554FLR-SFP+ Adapter
+		103c 337b  HP FlexFabric 10Gb 2-port 554FLB Adapter
+		103c 337c  HP FlexFabric 10Gb 2-port 554M Adapter
+		103c 3391  HP AT093A 10GbE-SFP PCIe 1p 8Gb FC and 1p 1/10GbE Adtr
+		103c 3392  HP AT094A 10GbE-SFP PCIe 2p 8Gb FC and 2p 1/10GbE Adtr

@@ -1,0 +1,2 @@
+VSISHPath_Form():Extraneous 'tracing' in path.
+VSISHCmdGetInt():mal-formed path

@@ -1,0 +1,7 @@
+regtype=native,bus=pci,id=80861d60..............,driver=rste
+regtype=native,bus=pci,id=80861d64..............,driver=rste
+regtype=native,bus=pci,id=80861d65..............,driver=rste
+regtype=native,bus=pci,id=80861d68..............,driver=rste
+regtype=native,bus=pci,id=80861d69..............,driver=rste
+regtype=native,bus=pci,id=80861d6a..............,driver=rste
+regtype=native,bus=pci,id=80861d6b..............,driver=rste

@@ -1,0 +1,15 @@
+<services>
+   <VsanSoapSvc>
+      <path>/lib64/python3.5/lib-dynload/_VsanMgmtServer.so</path>
+      <wsdlRoot>/usr/lib/vmware/vsan/perfsvc</wsdlRoot>
+      <sdkPath>/vsan</sdkPath>
+      <sdkTunnelPath>/vsanperf</sdkTunnelPath>
+      <sdkPort>9096</sdkPort>
+      <sdkTunnelPort>9095</sdkTunnelPort>
+   </VsanSoapSvc>
+
+   <VsanDbgSvc>
+      <path>/lib64/python3.5/lib-dynload/_VsanMgmtServer.so</path>
+      <requires>VsanSoapSvc</requires>
+   </VsanDbgSvc>
+</services>

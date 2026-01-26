@@ -1,0 +1,1835 @@
+2001-01-01T01:16:51Z usbarb[2098726]: VTHREAD 738565150272 "usbArb" wid 2098726
+2001-01-01T01:16:51Z usbarb[2098726]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T01:16:51Z usbarb[2098726]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2001-01-01T01:16:51Z usbarb[2098726]: DICT --- NON PERSISTENT (null)
+2001-01-01T01:16:51Z usbarb[2098726]: DICT --- HOST DEFAULTS /etc/vmware/config
+2001-01-01T01:16:51Z usbarb[2098726]: DICT                    libdir = "/usr/lib/vmware"
+2001-01-01T01:16:51Z usbarb[2098726]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2001-01-01T01:16:51Z usbarb[2098726]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2001-01-01T01:16:51Z usbarb[2098726]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2001-01-01T01:16:51Z usbarb[2098726]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2001-01-01T01:16:51Z usbarb[2098726]: DICT            authd.fullpath = "/sbin/authd"
+2001-01-01T01:16:51Z usbarb[2098726]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2001-01-01T01:16:51Z usbarb[2098726]: VMware USB Arbitration Service Version 17.2.1
+2001-01-01T01:16:51Z usbarb[2098726]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2001-01-01T01:16:51Z usbarb[2098726]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2001-01-01T01:16:51Z usbarb[2098726]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2001-01-01T01:16:51Z usbarb[2098726]: SOCKET connect failed, error 2: No such file or directory
+2001-01-01T01:16:51Z usbarb[2098726]: USBArb: Failed to connect to the existing arbitrator.
+2001-01-01T01:16:51Z usbarb[2098726]: USBArb: listening socket 9 created successfully
+2001-01-01T01:16:51Z usbarb[2098726]: USBArb: adding listening socket 9 to poll queue
+2001-01-01T01:16:51Z usbarb[2098726]: USBGL: usb device change detected: start enumeration.
+2001-01-01T01:17:04Z usbarb[2098726]: USBArb: new socket connection estibalished: socket 10
+2001-01-01T01:17:04Z usbarb[2098726]: USBArb: new client ABB381FCB0 created, socket 10 added to poll queue
+2001-01-01T01:17:04Z usbarb[2098726]: USBArb: Client 2098983 connected (version: 7)
+2001-01-01T01:28:42Z usbarb[2098726]: USBGL: usb device change detected: start enumeration.
+2001-01-01T03:31:52Z usbarb[2098726]: USBArb: new socket connection estibalished: socket 11
+2001-01-01T03:31:52Z usbarb[2098726]: USBArb: new client ABB381FD50 created, socket 11 added to poll queue
+2001-01-01T03:31:52Z usbarb[2098726]: USBArb: Client 2100557 connected (version: 7)
+2001-01-01T03:40:08Z usbarb[2098726]: USBArb: new socket connection estibalished: socket 12
+2001-01-01T03:40:08Z usbarb[2098726]: USBArb: new client ABB381FE50 created, socket 12 added to poll queue
+2001-01-01T03:40:08Z usbarb[2098726]: USBArb: Client 2100988 connected (version: 7)
+2001-01-01T03:59:05Z usbarb[2098726]: USBArb: pipe 11 closed by client ABF4A38F90
+2001-01-01T03:59:05Z usbarb[2098726]: USBArb: removing client ABB381FD50: pid=2100557, pipe=11
+2001-01-01T03:59:05Z usbarb[2098726]: USBArb: Client 2100557 disconnected
+2001-01-01T05:55:16Z usbarb[2098726]: USBArb: new socket connection estibalished: socket 11
+2001-01-01T05:55:16Z usbarb[2098726]: USBArb: new client ABB381FD50 created, socket 11 added to poll queue
+2001-01-01T05:55:16Z usbarb[2098726]: USBArb: Client 2102492 connected (version: 7)
+2001-01-01T05:59:14Z usbarb[2098726]: USBArb: new socket connection estibalished: socket 13
+2001-01-01T05:59:14Z usbarb[2098726]: USBArb: new client ABB381FF50 created, socket 13 added to poll queue
+2001-01-01T05:59:14Z usbarb[2098726]: USBArb: Client 2102762 connected (version: 7)
+2001-01-01T05:59:16Z usbarb[2098726]: USBArb: pipe 13 closed by client ABF4A38F90
+2001-01-01T05:59:16Z usbarb[2098726]: USBArb: removing client ABB381FF50: pid=2102762, pipe=13
+2001-01-01T05:59:16Z usbarb[2098726]: USBArb: Client 2102762 disconnected
+2001-01-01T06:00:30Z usbarb[2098726]: USBArb: new socket connection estibalished: socket 13
+2001-01-01T06:00:30Z usbarb[2098726]: USBArb: new client ABB381FF50 created, socket 13 added to poll queue
+2001-01-01T06:00:30Z usbarb[2098726]: USBArb: Client 2102924 connected (version: 7)
+2001-01-01T06:00:32Z usbarb[2098726]: USBArb: pipe 13 closed by client ABF4A38F90
+2001-01-01T06:00:32Z usbarb[2098726]: USBArb: removing client ABB381FF50: pid=2102924, pipe=13
+2001-01-01T06:00:32Z usbarb[2098726]: USBArb: Client 2102924 disconnected
+2001-01-01T06:00:33Z usbarb[2098726]: USBArb: new socket connection estibalished: socket 13
+2001-01-01T06:00:33Z usbarb[2098726]: USBArb: new client ABB381FF50 created, socket 13 added to poll queue
+2001-01-01T06:00:33Z usbarb[2098726]: USBArb: Client 2102940 connected (version: 7)
+2001-01-01T06:00:35Z usbarb[2098726]: USBArb: pipe 13 closed by client ABF4A38F90
+2001-01-01T06:00:35Z usbarb[2098726]: USBArb: removing client ABB381FF50: pid=2102940, pipe=13
+2001-01-01T06:00:35Z usbarb[2098726]: USBArb: Client 2102940 disconnected
+2001-01-01T06:00:38Z usbarb[2098726]: USBArb: new socket connection estibalished: socket 13
+2001-01-01T06:00:38Z usbarb[2098726]: USBArb: new client ABB381FF50 created, socket 13 added to poll queue
+2001-01-01T06:00:38Z usbarb[2098726]: USBArb: Client 2103064 connected (version: 7)
+2001-01-01T06:00:40Z usbarb[2098726]: USBArb: pipe 13 closed by client ABF4A38F90
+2001-01-01T06:00:40Z usbarb[2098726]: USBArb: removing client ABB381FF50: pid=2103064, pipe=13
+2001-01-01T06:00:40Z usbarb[2098726]: USBArb: Client 2103064 disconnected
+2001-01-01T06:00:50Z usbarb[2098726]: USBArb: new socket connection estibalished: socket 13
+2001-01-01T06:00:50Z usbarb[2098726]: USBArb: new client ABB381FF50 created, socket 13 added to poll queue
+2001-01-01T06:00:50Z usbarb[2098726]: USBArb: Client 2103099 connected (version: 7)
+2001-01-01T06:00:52Z usbarb[2098726]: USBArb: pipe 13 closed by client ABF4A38F90
+2001-01-01T06:00:52Z usbarb[2098726]: USBArb: removing client ABB381FF50: pid=2103099, pipe=13
+2001-01-01T06:00:52Z usbarb[2098726]: USBArb: Client 2103099 disconnected
+2001-01-01T06:00:53Z usbarb[2098726]: USBArb: new socket connection estibalished: socket 13
+2001-01-01T06:00:53Z usbarb[2098726]: USBArb: new client ABB381FF50 created, socket 13 added to poll queue
+2001-01-01T06:00:53Z usbarb[2098726]: USBArb: Client 2103223 connected (version: 7)
+2001-01-01T06:00:55Z usbarb[2098726]: USBArb: pipe 13 closed by client ABF4A38F90
+2001-01-01T06:00:55Z usbarb[2098726]: USBArb: removing client ABB381FF50: pid=2103223, pipe=13
+2001-01-01T06:00:55Z usbarb[2098726]: USBArb: Client 2103223 disconnected
+2001-01-01T06:00:58Z usbarb[2098726]: USBArb: new socket connection estibalished: socket 13
+2001-01-01T06:00:58Z usbarb[2098726]: USBArb: new client ABB381FF50 created, socket 13 added to poll queue
+2001-01-01T06:00:58Z usbarb[2098726]: USBArb: Client 2103237 connected (version: 7)
+2001-01-01T06:01:00Z usbarb[2098726]: USBArb: pipe 13 closed by client ABF4A38F90
+2001-01-01T06:01:00Z usbarb[2098726]: USBArb: removing client ABB381FF50: pid=2103237, pipe=13
+2001-01-01T06:01:00Z usbarb[2098726]: USBArb: Client 2103237 disconnected
+2001-01-01T06:01:11Z usbarb[2098726]: USBArb: new socket connection estibalished: socket 13
+2001-01-01T06:01:11Z usbarb[2098726]: USBArb: new client ABB381FF50 created, socket 13 added to poll queue
+2001-01-01T06:01:11Z usbarb[2098726]: USBArb: Client 2103496 connected (version: 7)
+2001-01-01T06:01:13Z usbarb[2098726]: USBArb: pipe 13 closed by client ABF4A38F90
+2001-01-01T06:01:13Z usbarb[2098726]: USBArb: removing client ABB381FF50: pid=2103496, pipe=13
+2001-01-01T06:01:13Z usbarb[2098726]: USBArb: Client 2103496 disconnected
+2001-01-01T06:01:21Z usbarb[2098726]: USBArb: new socket connection estibalished: socket 13
+2001-01-01T06:01:21Z usbarb[2098726]: USBArb: new client ABB381FF50 created, socket 13 added to poll queue
+2001-01-01T06:01:21Z usbarb[2098726]: USBArb: Client 2103620 connected (version: 7)
+2001-01-01T06:01:24Z usbarb[2098726]: USBArb: pipe 13 closed by client ABF4A38F90
+2001-01-01T06:01:24Z usbarb[2098726]: USBArb: removing client ABB381FF50: pid=2103620, pipe=13
+2001-01-01T06:01:24Z usbarb[2098726]: USBArb: Client 2103620 disconnected
+2001-01-01T06:01:27Z usbarb[2098726]: USBArb: new socket connection estibalished: socket 13
+2001-01-01T06:01:27Z usbarb[2098726]: USBArb: new client ABB381FF50 created, socket 13 added to poll queue
+2001-01-01T06:01:27Z usbarb[2098726]: USBArb: Client 2103634 connected (version: 7)
+2001-01-01T06:01:29Z usbarb[2098726]: USBArb: pipe 13 closed by client ABF4A38F90
+2001-01-01T06:01:29Z usbarb[2098726]: USBArb: removing client ABB381FF50: pid=2103634, pipe=13
+2001-01-01T06:01:29Z usbarb[2098726]: USBArb: Client 2103634 disconnected
+2001-01-01T06:01:31Z usbarb[2098726]: USBArb: new socket connection estibalished: socket 13
+2001-01-01T06:01:31Z usbarb[2098726]: USBArb: new client ABB381FF50 created, socket 13 added to poll queue
+2001-01-01T06:01:31Z usbarb[2098726]: USBArb: Client 2103648 connected (version: 7)
+2001-01-01T06:01:33Z usbarb[2098726]: USBArb: pipe 13 closed by client ABF4A38F90
+2001-01-01T06:01:33Z usbarb[2098726]: USBArb: removing client ABB381FF50: pid=2103648, pipe=13
+2001-01-01T06:01:33Z usbarb[2098726]: USBArb: Client 2103648 disconnected
+2001-01-01T06:01:44Z usbarb[2098726]: USBArb: new socket connection estibalished: socket 13
+2001-01-01T06:01:44Z usbarb[2098726]: USBArb: new client ABB381FF50 created, socket 13 added to poll queue
+2001-01-01T06:01:44Z usbarb[2098726]: USBArb: Client 2103780 connected (version: 7)
+2001-01-01T06:01:46Z usbarb[2098726]: USBArb: pipe 13 closed by client ABF4A38F90
+2001-01-01T06:01:46Z usbarb[2098726]: USBArb: removing client ABB381FF50: pid=2103780, pipe=13
+2001-01-01T06:01:46Z usbarb[2098726]: USBArb: Client 2103780 disconnected
+2001-01-01T06:02:31Z usbarb[2098726]: USBArb: new socket connection estibalished: socket 13
+2001-01-01T06:02:31Z usbarb[2098726]: USBArb: new client ABB381FF50 created, socket 13 added to poll queue
+2001-01-01T06:02:32Z usbarb[2098726]: USBArb: Client 2103946 connected (version: 7)
+2001-01-01T06:02:34Z usbarb[2098726]: USBArb: pipe 13 closed by client ABF4A38F90
+2001-01-01T06:02:34Z usbarb[2098726]: USBArb: removing client ABB381FF50: pid=2103946, pipe=13
+2001-01-01T06:02:34Z usbarb[2098726]: USBArb: Client 2103946 disconnected
+2001-01-01T06:02:35Z usbarb[2098726]: USBArb: new socket connection estibalished: socket 13
+2001-01-01T06:02:35Z usbarb[2098726]: USBArb: new client ABB381FF50 created, socket 13 added to poll queue
+2001-01-01T06:02:35Z usbarb[2098726]: USBArb: Client 2103960 connected (version: 7)
+2001-01-01T06:02:37Z usbarb[2098726]: USBArb: pipe 13 closed by client ABF4A38F90
+2001-01-01T06:02:37Z usbarb[2098726]: USBArb: removing client ABB381FF50: pid=2103960, pipe=13
+2001-01-01T06:02:37Z usbarb[2098726]: USBArb: Client 2103960 disconnected
+2001-01-01T06:11:51Z usbarb[2098726]: USBArb: new socket connection estibalished: socket 13
+2001-01-01T06:11:51Z usbarb[2098726]: USBArb: new client ABB381FF50 created, socket 13 added to poll queue
+2001-01-01T06:11:51Z usbarb[2098726]: USBArb: Client 2104497 connected (version: 7)
+2001-01-01T06:12:21Z usbarb[2098726]: USBArb: pipe 13 closed by client ABF4A38F90
+2001-01-01T06:12:21Z usbarb[2098726]: USBArb: removing client ABB381FF50: pid=2104497, pipe=13
+2001-01-01T06:12:21Z usbarb[2098726]: USBArb: Client 2104497 disconnected
+2001-01-01T06:12:37Z usbarb[2098726]: USBArb: new socket connection estibalished: socket 13
+2001-01-01T06:12:37Z usbarb[2098726]: USBArb: new client ABB381FF50 created, socket 13 added to poll queue
+2001-01-01T06:12:37Z usbarb[2098726]: USBArb: Client 2104761 connected (version: 7)
+2001-01-01T06:12:39Z usbarb[2098726]: USBArb: pipe 13 closed by client ABF4A38F90
+2001-01-01T06:12:39Z usbarb[2098726]: USBArb: removing client ABB381FF50: pid=2104761, pipe=13
+2001-01-01T06:12:39Z usbarb[2098726]: USBArb: Client 2104761 disconnected
+2001-01-01T06:33:25Z usbarb[2098726]: USBArb: new socket connection estibalished: socket 13
+2001-01-01T06:33:25Z usbarb[2098726]: USBArb: new client ABB381FF50 created, socket 13 added to poll queue
+2001-01-01T06:33:25Z usbarb[2098726]: USBArb: Client 2105101 connected (version: 7)
+2001-01-01T06:37:37Z usbarb[2098726]: USBArb: new socket connection estibalished: socket 14
+2001-01-01T06:37:37Z usbarb[2098726]: USBArb: new client ABB381FFF0 created, socket 14 added to poll queue
+2001-01-01T06:37:38Z usbarb[2098726]: USBArb: Client 2105362 connected (version: 7)
+2001-01-01T06:39:49Z usbarb[2098726]: USBArb: new socket connection estibalished: socket 15
+2001-01-01T06:39:49Z usbarb[2098726]: USBArb: new client ABB38200F0 created, socket 15 added to poll queue
+2001-01-01T06:39:49Z usbarb[2098726]: USBArb: Client 2105672 connected (version: 7)
+2001-01-01T09:53:22Z usbarb[2098726]: USBArb: pipe 14 closed by client ABF4A38F90
+2001-01-01T09:53:22Z usbarb[2098726]: USBArb: removing client ABB381FFF0: pid=2105362, pipe=14
+2001-01-01T09:53:22Z usbarb[2098726]: USBArb: Client 2105362 disconnected
+2001-01-01T09:53:33Z usbarb[2098726]: USBArb: pipe 15 closed by client ABF4A38F90
+2001-01-01T09:53:33Z usbarb[2098726]: USBArb: removing client ABB38200F0: pid=2105672, pipe=15
+2001-01-01T09:53:33Z usbarb[2098726]: USBArb: Client 2105672 disconnected
+2001-01-01T09:54:35Z usbarb[2098726]: USBArb: pipe 13 closed by client ABF4A38F90
+2001-01-01T09:54:35Z usbarb[2098726]: USBArb: removing client ABB381FF50: pid=2105101, pipe=13
+2001-01-01T09:54:35Z usbarb[2098726]: USBArb: Client 2105101 disconnected
+2001-01-01T09:55:06Z usbarb[2098726]: USBArb: pipe 11 closed by client ABF4A38F90
+2001-01-01T09:55:06Z usbarb[2098726]: USBArb: removing client ABB381FD50: pid=2102492, pipe=11
+2001-01-01T09:55:06Z usbarb[2098726]: USBArb: Client 2102492 disconnected
+2001-01-01T09:55:18Z usbarb[2098726]: USBArb: pipe 12 closed by client ABF4A38F90
+2001-01-01T09:55:18Z usbarb[2098726]: USBArb: removing client ABB381FE50: pid=2100988, pipe=12
+2001-01-01T09:55:18Z usbarb[2098726]: USBArb: Client 2100988 disconnected
+2001-01-01T09:56:28Z usbarb[2098726]: USBArb: pipe 10 closed by client ABF4A38F90
+2001-01-01T09:56:28Z usbarb[2098726]: USBArb: removing client ABB381FCB0: pid=2098983, pipe=10
+2001-01-01T09:56:28Z usbarb[2098726]: USBArb: Client 2098983 disconnected
+2001-01-01T09:56:30Z usbarb[2098726]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:02:24Z usbarb[2098603]: VTHREAD 471064655424 "usbArb" wid 2098603
+2001-01-01T00:02:24Z usbarb[2098603]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:24Z usbarb[2098603]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2001-01-01T00:02:24Z usbarb[2098603]: DICT --- NON PERSISTENT (null)
+2001-01-01T00:02:24Z usbarb[2098603]: DICT --- HOST DEFAULTS /etc/vmware/config
+2001-01-01T00:02:24Z usbarb[2098603]: DICT                    libdir = "/usr/lib/vmware"
+2001-01-01T00:02:24Z usbarb[2098603]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2001-01-01T00:02:24Z usbarb[2098603]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2001-01-01T00:02:24Z usbarb[2098603]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2001-01-01T00:02:24Z usbarb[2098603]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2001-01-01T00:02:24Z usbarb[2098603]: DICT            authd.fullpath = "/sbin/authd"
+2001-01-01T00:02:24Z usbarb[2098603]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2001-01-01T00:02:24Z usbarb[2098603]: VMware USB Arbitration Service Version 17.2.1
+2001-01-01T00:02:24Z usbarb[2098603]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2001-01-01T00:02:24Z usbarb[2098603]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2001-01-01T00:02:24Z usbarb[2098603]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2001-01-01T00:02:24Z usbarb[2098603]: SOCKET connect failed, error 2: No such file or directory
+2001-01-01T00:02:24Z usbarb[2098603]: USBArb: Failed to connect to the existing arbitrator.
+2001-01-01T00:02:24Z usbarb[2098603]: USBArb: listening socket 9 created successfully
+2001-01-01T00:02:24Z usbarb[2098603]: USBArb: adding listening socket 9 to poll queue
+2001-01-01T00:02:24Z usbarb[2098603]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:02:37Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 10
+2001-01-01T00:02:37Z usbarb[2098603]: USBArb: new client 6D6B3C5CB0 created, socket 10 added to poll queue
+2001-01-01T00:02:37Z usbarb[2098603]: USBArb: Client 2098862 connected (version: 7)
+2001-08-31T01:57:21Z usbarb[2098603]: USBArb: pipe 10 closed by client 6DAC5DEF90
+2001-08-31T01:57:21Z usbarb[2098603]: USBArb: removing client 6D6B3C5CB0: pid=2098862, pipe=10
+2001-08-31T01:57:21Z usbarb[2098603]: USBArb: Client 2098862 disconnected
+2001-08-31T01:57:24Z usbarb[2098603]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:02:23Z usbarb[2098602]: VTHREAD 711298553408 "usbArb" wid 2098602
+2001-01-01T00:02:23Z usbarb[2098602]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:23Z usbarb[2098602]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2001-01-01T00:02:23Z usbarb[2098602]: DICT --- NON PERSISTENT (null)
+2001-01-01T00:02:23Z usbarb[2098602]: DICT --- HOST DEFAULTS /etc/vmware/config
+2001-01-01T00:02:23Z usbarb[2098602]: DICT                    libdir = "/usr/lib/vmware"
+2001-01-01T00:02:23Z usbarb[2098602]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2001-01-01T00:02:23Z usbarb[2098602]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2001-01-01T00:02:23Z usbarb[2098602]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2001-01-01T00:02:23Z usbarb[2098602]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2001-01-01T00:02:23Z usbarb[2098602]: DICT            authd.fullpath = "/sbin/authd"
+2001-01-01T00:02:23Z usbarb[2098602]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2001-01-01T00:02:23Z usbarb[2098602]: VMware USB Arbitration Service Version 17.2.1
+2001-01-01T00:02:23Z usbarb[2098602]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2001-01-01T00:02:23Z usbarb[2098602]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2001-01-01T00:02:23Z usbarb[2098602]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2001-01-01T00:02:23Z usbarb[2098602]: SOCKET connect failed, error 2: No such file or directory
+2001-01-01T00:02:23Z usbarb[2098602]: USBArb: Failed to connect to the existing arbitrator.
+2001-01-01T00:02:23Z usbarb[2098602]: USBArb: listening socket 9 created successfully
+2001-01-01T00:02:23Z usbarb[2098602]: USBArb: adding listening socket 9 to poll queue
+2001-01-01T00:02:23Z usbarb[2098602]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:02:36Z usbarb[2098602]: USBArb: new socket connection estibalished: socket 10
+2001-01-01T00:02:36Z usbarb[2098602]: USBArb: new client A55A4ABCB0 created, socket 10 added to poll queue
+2001-01-01T00:02:36Z usbarb[2098602]: USBArb: Client 2098860 connected (version: 7)
+2001-09-01T02:54:18Z usbarb[2098602]: USBArb: new socket connection estibalished: socket 11
+2001-09-01T02:54:18Z usbarb[2098602]: USBArb: new client A55A4ABD50 created, socket 11 added to poll queue
+2001-09-01T02:54:18Z usbarb[2098602]: USBArb: Client 2101198 connected (version: 7)
+2001-09-01T03:09:13Z usbarb[2098602]: USBArb: pipe 11 closed by client A59B6C4F90
+2001-09-01T03:09:13Z usbarb[2098602]: USBArb: removing client A55A4ABD50: pid=2101198, pipe=11
+2001-09-01T03:09:13Z usbarb[2098602]: USBArb: Client 2101198 disconnected
+2001-09-01T03:09:16Z usbarb[2098602]: USBArb: new socket connection estibalished: socket 11
+2001-09-01T03:09:16Z usbarb[2098602]: USBArb: new client A55A4ABD50 created, socket 11 added to poll queue
+2001-09-01T03:09:16Z usbarb[2098602]: USBArb: Client 2101566 connected (version: 7)
+2001-09-01T03:17:45Z usbarb[2098602]: USBArb: pipe 11 closed by client A59B6C4F90
+2001-09-01T03:17:45Z usbarb[2098602]: USBArb: removing client A55A4ABD50: pid=2101566, pipe=11
+2001-09-01T03:17:45Z usbarb[2098602]: USBArb: Client 2101566 disconnected
+2001-09-01T03:34:02Z usbarb[2098602]: USBArb: new socket connection estibalished: socket 11
+2001-09-01T03:34:02Z usbarb[2098602]: USBArb: new client A55A4ABD50 created, socket 11 added to poll queue
+2001-09-01T03:34:02Z usbarb[2098602]: USBArb: Client 2103030 connected (version: 7)
+2001-09-01T03:56:52Z usbarb[2098602]: USBArb: pipe 11 closed by client A59B6C4F90
+2001-09-01T03:56:52Z usbarb[2098602]: USBArb: removing client A55A4ABD50: pid=2103030, pipe=11
+2001-09-01T03:56:52Z usbarb[2098602]: USBArb: Client 2103030 disconnected
+2001-09-01T03:58:20Z usbarb[2098602]: USBArb: new socket connection estibalished: socket 11
+2001-09-01T03:58:20Z usbarb[2098602]: USBArb: new client A55A4ABD50 created, socket 11 added to poll queue
+2001-09-01T03:58:20Z usbarb[2098602]: USBArb: Client 2103917 connected (version: 7)
+2001-09-01T04:45:56Z usbarb[2098602]: USBArb: new socket connection estibalished: socket 12
+2001-09-01T04:45:56Z usbarb[2098602]: USBArb: new client A55A4ABE50 created, socket 12 added to poll queue
+2001-09-01T04:45:56Z usbarb[2098602]: USBArb: Client 2105097 connected (version: 7)
+2001-09-01T05:17:14Z usbarb[2098602]: USBArb: new socket connection estibalished: socket 13
+2001-09-01T05:17:14Z usbarb[2098602]: USBArb: new client A55A4ABF50 created, socket 13 added to poll queue
+2001-09-01T05:17:14Z usbarb[2098602]: USBArb: Client 2105673 connected (version: 7)
+2001-09-01T05:41:54Z usbarb[2098602]: USBArb: pipe 11 closed by client A59B6C4F90
+2001-09-01T05:41:54Z usbarb[2098602]: USBArb: removing client A55A4ABD50: pid=2103917, pipe=11
+2001-09-01T05:41:54Z usbarb[2098602]: USBArb: Client 2103917 disconnected
+2001-09-01T05:42:06Z usbarb[2098602]: USBArb: pipe 13 closed by client A59B6C4F90
+2001-09-01T05:42:06Z usbarb[2098602]: USBArb: removing client A55A4ABF50: pid=2105673, pipe=13
+2001-09-01T05:42:06Z usbarb[2098602]: USBArb: Client 2105673 disconnected
+2001-09-01T05:42:09Z usbarb[2098602]: USBArb: pipe 12 closed by client A59B6C4F90
+2001-09-01T05:42:09Z usbarb[2098602]: USBArb: removing client A55A4ABE50: pid=2105097, pipe=12
+2001-09-01T05:42:09Z usbarb[2098602]: USBArb: Client 2105097 disconnected
+2001-09-01T05:43:18Z usbarb[2098602]: USBArb: pipe 10 closed by client A59B6C4F90
+2001-09-01T05:43:18Z usbarb[2098602]: USBArb: removing client A55A4ABCB0: pid=2098860, pipe=10
+2001-09-01T05:43:18Z usbarb[2098602]: USBArb: Client 2098860 disconnected
+2001-09-01T05:43:20Z usbarb[2098602]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:02:28Z usbarb[2098636]: VTHREAD 34684483136 "usbArb" wid 2098636
+2001-01-01T00:02:28Z usbarb[2098636]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:28Z usbarb[2098636]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2001-01-01T00:02:28Z usbarb[2098636]: DICT --- NON PERSISTENT (null)
+2001-01-01T00:02:28Z usbarb[2098636]: DICT --- HOST DEFAULTS /etc/vmware/config
+2001-01-01T00:02:28Z usbarb[2098636]: DICT                    libdir = "/usr/lib/vmware"
+2001-01-01T00:02:28Z usbarb[2098636]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2001-01-01T00:02:28Z usbarb[2098636]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2001-01-01T00:02:28Z usbarb[2098636]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2001-01-01T00:02:28Z usbarb[2098636]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2001-01-01T00:02:28Z usbarb[2098636]: DICT            authd.fullpath = "/sbin/authd"
+2001-01-01T00:02:28Z usbarb[2098636]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2001-01-01T00:02:28Z usbarb[2098636]: VMware USB Arbitration Service Version 17.2.1
+2001-01-01T00:02:28Z usbarb[2098636]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2001-01-01T00:02:28Z usbarb[2098636]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2001-01-01T00:02:28Z usbarb[2098636]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2001-01-01T00:02:28Z usbarb[2098636]: SOCKET connect failed, error 2: No such file or directory
+2001-01-01T00:02:28Z usbarb[2098636]: USBArb: Failed to connect to the existing arbitrator.
+2001-01-01T00:02:28Z usbarb[2098636]: USBArb: listening socket 9 created successfully
+2001-01-01T00:02:28Z usbarb[2098636]: USBArb: adding listening socket 9 to poll queue
+2001-01-01T00:02:28Z usbarb[2098636]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:02:41Z usbarb[2098636]: USBArb: new socket connection estibalished: socket 10
+2001-01-01T00:02:41Z usbarb[2098636]: USBArb: new client 7D0F35CB0 created, socket 10 added to poll queue
+2001-01-01T00:02:41Z usbarb[2098636]: USBArb: Client 2098896 connected (version: 7)
+2001-01-01T00:05:22Z usbarb[2098636]: USBArb: new socket connection estibalished: socket 11
+2001-01-01T00:05:22Z usbarb[2098636]: USBArb: new client 7D0F35D50 created, socket 11 added to poll queue
+2001-01-01T00:05:22Z usbarb[2098636]: USBArb: Client 2099677 connected (version: 7)
+2001-01-01T00:09:41Z usbarb[2098636]: USBArb: new socket connection estibalished: socket 12
+2001-01-01T00:09:41Z usbarb[2098636]: USBArb: new client 7D0F35E50 created, socket 12 added to poll queue
+2001-01-01T00:09:41Z usbarb[2098636]: USBArb: Client 2099824 connected (version: 7)
+2001-01-01T00:47:27Z usbarb[2098636]: USBArb: pipe 11 closed by client 81214EF90
+2001-01-01T00:47:27Z usbarb[2098636]: USBArb: removing client 7D0F35D50: pid=2099677, pipe=11
+2001-01-01T00:47:27Z usbarb[2098636]: USBArb: Client 2099677 disconnected
+2001-01-01T00:48:24Z usbarb[2098636]: USBArb: new socket connection estibalished: socket 11
+2001-01-01T00:48:24Z usbarb[2098636]: USBArb: new client 7D0F35D50 created, socket 11 added to poll queue
+2001-01-01T00:48:24Z usbarb[2098636]: USBArb: Client 2100242 connected (version: 7)
+2001-01-01T00:50:52Z usbarb[2098636]: USBArb: pipe 12 closed by client 81214EF90
+2001-01-01T00:50:52Z usbarb[2098636]: USBArb: removing client 7D0F35E50: pid=2099824, pipe=12
+2001-01-01T00:50:52Z usbarb[2098636]: USBArb: Client 2099824 disconnected
+2001-01-01T00:51:41Z usbarb[2098636]: USBArb: pipe 11 closed by client 81214EF90
+2001-01-01T00:51:41Z usbarb[2098636]: USBArb: removing client 7D0F35D50: pid=2100242, pipe=11
+2001-01-01T00:51:41Z usbarb[2098636]: USBArb: Client 2100242 disconnected
+2025-09-02T10:59:02Z usbarb[2098636]: VTHREAD 477148014144 "usbArb" wid 2098636
+2025-09-02T10:59:02Z usbarb[2098636]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-09-02T10:59:02Z usbarb[2098636]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2025-09-02T10:59:02Z usbarb[2098636]: DICT --- NON PERSISTENT (null)
+2025-09-02T10:59:02Z usbarb[2098636]: DICT --- HOST DEFAULTS /etc/vmware/config
+2025-09-02T10:59:02Z usbarb[2098636]: DICT                    libdir = "/usr/lib/vmware"
+2025-09-02T10:59:02Z usbarb[2098636]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2025-09-02T10:59:02Z usbarb[2098636]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2025-09-02T10:59:02Z usbarb[2098636]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2025-09-02T10:59:02Z usbarb[2098636]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2025-09-02T10:59:02Z usbarb[2098636]: DICT            authd.fullpath = "/sbin/authd"
+2025-09-02T10:59:02Z usbarb[2098636]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2025-09-02T10:59:02Z usbarb[2098636]: VMware USB Arbitration Service Version 17.2.1
+2025-09-02T10:59:02Z usbarb[2098636]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2025-09-02T10:59:02Z usbarb[2098636]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2025-09-02T10:59:02Z usbarb[2098636]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2025-09-02T10:59:02Z usbarb[2098636]: SOCKET connect failed, error 2: No such file or directory
+2025-09-02T10:59:02Z usbarb[2098636]: USBArb: Failed to connect to the existing arbitrator.
+2025-09-02T10:59:02Z usbarb[2098636]: USBArb: listening socket 9 created successfully
+2025-09-02T10:59:02Z usbarb[2098636]: USBArb: adding listening socket 9 to poll queue
+2025-09-02T10:59:02Z usbarb[2098636]: USBGL: usb device change detected: start enumeration.
+2025-09-02T10:59:15Z usbarb[2098636]: USBArb: new socket connection estibalished: socket 10
+2025-09-02T10:59:15Z usbarb[2098636]: USBArb: new client 6ED5D50CB0 created, socket 10 added to poll queue
+2025-09-02T10:59:15Z usbarb[2098636]: USBArb: Client 2098896 connected (version: 7)
+2025-09-02T11:54:45Z usbarb[2098636]: USBArb: new socket connection estibalished: socket 11
+2025-09-02T11:54:45Z usbarb[2098636]: USBArb: new client 6ED5D50D50 created, socket 11 added to poll queue
+2025-09-02T11:54:45Z usbarb[2098636]: USBArb: Client 2102239 connected (version: 7)
+2025-09-02T12:28:40Z usbarb[2098636]: USBArb: new socket connection estibalished: socket 12
+2025-09-02T12:28:40Z usbarb[2098636]: USBArb: new client 6ED5D50E50 created, socket 12 added to poll queue
+2025-09-02T12:28:40Z usbarb[2098636]: USBArb: pipe 11 closed by client 6F16F69F90
+2025-09-02T12:28:40Z usbarb[2098636]: USBArb: removing client 6ED5D50D50: pid=2102239, pipe=11
+2025-09-02T12:28:40Z usbarb[2098636]: USBArb: Client 2102239 disconnected
+2025-09-02T12:28:40Z usbarb[2098636]: USBArb: Client 2102691 connected (version: 7)
+2025-09-02T12:33:06Z usbarb[2098636]: USBArb: new socket connection estibalished: socket 11
+2025-09-02T12:33:06Z usbarb[2098636]: USBArb: new client 6ED5D50D50 created, socket 11 added to poll queue
+2025-09-02T12:33:06Z usbarb[2098636]: USBArb: Client 2102721 connected (version: 7)
+2025-09-02T12:37:22Z usbarb[2098636]: USBArb: pipe 11 closed by client 6F16F69F90
+2025-09-02T12:37:22Z usbarb[2098636]: USBArb: removing client 6ED5D50D50: pid=2102721, pipe=11
+2025-09-02T12:37:22Z usbarb[2098636]: USBArb: Client 2102721 disconnected
+2025-09-02T12:37:39Z usbarb[2098636]: USBArb: pipe 12 closed by client 6F16F69F90
+2025-09-02T12:37:39Z usbarb[2098636]: USBArb: removing client 6ED5D50E50: pid=2102691, pipe=12
+2025-09-02T12:37:39Z usbarb[2098636]: USBArb: Client 2102691 disconnected
+2025-09-02T12:38:41Z usbarb[2098636]: USBArb: pipe 10 closed by client 6F16F69F90
+2025-09-02T12:38:41Z usbarb[2098636]: USBArb: removing client 6ED5D50CB0: pid=2098896, pipe=10
+2025-09-02T12:38:41Z usbarb[2098636]: USBArb: Client 2098896 disconnected
+2025-09-02T12:38:43Z usbarb[2098636]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:02:31Z usbarb[2098634]: VTHREAD 282932131392 "usbArb" wid 2098634
+2001-01-01T00:02:31Z usbarb[2098634]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:31Z usbarb[2098634]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2001-01-01T00:02:31Z usbarb[2098634]: DICT --- NON PERSISTENT (null)
+2001-01-01T00:02:31Z usbarb[2098634]: DICT --- HOST DEFAULTS /etc/vmware/config
+2001-01-01T00:02:31Z usbarb[2098634]: DICT                    libdir = "/usr/lib/vmware"
+2001-01-01T00:02:31Z usbarb[2098634]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2001-01-01T00:02:31Z usbarb[2098634]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2001-01-01T00:02:31Z usbarb[2098634]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2001-01-01T00:02:31Z usbarb[2098634]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2001-01-01T00:02:31Z usbarb[2098634]: DICT            authd.fullpath = "/sbin/authd"
+2001-01-01T00:02:31Z usbarb[2098634]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2001-01-01T00:02:31Z usbarb[2098634]: VMware USB Arbitration Service Version 17.2.1
+2001-01-01T00:02:31Z usbarb[2098634]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2001-01-01T00:02:31Z usbarb[2098634]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2001-01-01T00:02:31Z usbarb[2098634]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2001-01-01T00:02:31Z usbarb[2098634]: SOCKET connect failed, error 2: No such file or directory
+2001-01-01T00:02:31Z usbarb[2098634]: USBArb: Failed to connect to the existing arbitrator.
+2001-01-01T00:02:31Z usbarb[2098634]: USBArb: listening socket 9 created successfully
+2001-01-01T00:02:31Z usbarb[2098634]: USBArb: adding listening socket 9 to poll queue
+2001-01-01T00:02:31Z usbarb[2098634]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:02:43Z usbarb[2098634]: USBArb: new socket connection estibalished: socket 10
+2001-01-01T00:02:43Z usbarb[2098634]: USBArb: new client 419DA9DCB0 created, socket 10 added to poll queue
+2001-01-01T00:02:43Z usbarb[2098634]: USBArb: Client 2098896 connected (version: 7)
+2001-01-01T00:03:42Z usbarb[2098634]: USBArb: new socket connection estibalished: socket 11
+2001-01-01T00:03:42Z usbarb[2098634]: USBArb: new client 419DA9DD50 created, socket 11 added to poll queue
+2001-01-01T00:03:42Z usbarb[2098634]: USBArb: Client 2099818 connected (version: 7)
+2001-01-01T00:04:16Z usbarb[2098634]: USBArb: pipe 11 closed by client 41DECB6F90
+2001-01-01T00:04:16Z usbarb[2098634]: USBArb: removing client 419DA9DD50: pid=2099818, pipe=11
+2001-01-01T00:04:16Z usbarb[2098634]: USBArb: Client 2099818 disconnected
+2001-09-03T00:07:06Z usbarb[2098634]: USBArb: new socket connection estibalished: socket 11
+2001-09-03T00:07:06Z usbarb[2098634]: USBArb: new client 419DA9DD50 created, socket 11 added to poll queue
+2001-09-03T00:07:06Z usbarb[2098634]: USBArb: Client 2100499 connected (version: 7)
+2001-09-03T00:30:11Z usbarb[2098634]: USBArb: new socket connection estibalished: socket 12
+2001-09-03T00:30:11Z usbarb[2098634]: USBArb: new client 419DA9DE50 created, socket 12 added to poll queue
+2001-09-03T00:30:11Z usbarb[2098634]: USBArb: Client 2100746 connected (version: 7)
+2001-09-03T08:21:24Z usbarb[2098634]: USBArb: new socket connection estibalished: socket 13
+2001-09-03T08:21:24Z usbarb[2098634]: USBArb: new client 419DA9DF50 created, socket 13 added to poll queue
+2001-09-03T08:21:24Z usbarb[2098634]: USBArb: Client 2104408 connected (version: 7)
+2001-09-03T08:31:19Z usbarb[2098634]: USBArb: pipe 12 closed by client 41DECB6F90
+2001-09-03T08:31:19Z usbarb[2098634]: USBArb: removing client 419DA9DE50: pid=2100746, pipe=12
+2001-09-03T08:31:19Z usbarb[2098634]: USBArb: Client 2100746 disconnected
+2001-09-03T08:38:19Z usbarb[2098634]: USBArb: pipe 13 closed by client 41DECB6F90
+2001-09-03T08:38:19Z usbarb[2098634]: USBArb: removing client 419DA9DF50: pid=2104408, pipe=13
+2001-09-03T08:38:19Z usbarb[2098634]: USBArb: Client 2104408 disconnected
+2001-09-03T08:41:18Z usbarb[2098634]: USBArb: new socket connection estibalished: socket 12
+2001-09-03T08:41:18Z usbarb[2098634]: USBArb: new client 419DA9DE50 created, socket 12 added to poll queue
+2001-09-03T08:41:18Z usbarb[2098634]: USBArb: Client 2105152 connected (version: 7)
+2001-09-03T08:41:59Z usbarb[2098634]: USBArb: new socket connection estibalished: socket 13
+2001-09-03T08:41:59Z usbarb[2098634]: USBArb: new client 419DA9DF50 created, socket 13 added to poll queue
+2001-09-03T08:41:59Z usbarb[2098634]: USBArb: Client 2105299 connected (version: 7)
+2001-09-03T09:21:45Z usbarb[2098634]: USBArb: pipe 13 closed by client 41DECB6F90
+2001-09-03T09:21:45Z usbarb[2098634]: USBArb: removing client 419DA9DF50: pid=2105299, pipe=13
+2001-09-03T09:21:45Z usbarb[2098634]: USBArb: Client 2105299 disconnected
+2001-09-03T09:21:48Z usbarb[2098634]: USBArb: pipe 12 closed by client 41DECB6F90
+2001-09-03T09:21:48Z usbarb[2098634]: USBArb: removing client 419DA9DE50: pid=2105152, pipe=12
+2001-09-03T09:21:48Z usbarb[2098634]: USBArb: Client 2105152 disconnected
+2001-09-03T09:25:23Z usbarb[2098634]: USBArb: pipe 11 closed by client 41DECB6F90
+2001-09-03T09:25:23Z usbarb[2098634]: USBArb: removing client 419DA9DD50: pid=2100499, pipe=11
+2001-09-03T09:25:23Z usbarb[2098634]: USBArb: Client 2100499 disconnected
+2001-09-03T09:26:49Z usbarb[2098634]: USBArb: pipe 10 closed by client 41DECB6F90
+2001-09-03T09:26:49Z usbarb[2098634]: USBArb: removing client 419DA9DCB0: pid=2098896, pipe=10
+2001-09-03T09:26:49Z usbarb[2098634]: USBArb: Client 2098896 disconnected
+2001-09-03T09:26:52Z usbarb[2098634]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:02:29Z usbarb[2098634]: VTHREAD 23042307648 "usbArb" wid 2098634
+2001-01-01T00:02:29Z usbarb[2098634]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:29Z usbarb[2098634]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2001-01-01T00:02:29Z usbarb[2098634]: DICT --- NON PERSISTENT (null)
+2001-01-01T00:02:29Z usbarb[2098634]: DICT --- HOST DEFAULTS /etc/vmware/config
+2001-01-01T00:02:29Z usbarb[2098634]: DICT                    libdir = "/usr/lib/vmware"
+2001-01-01T00:02:29Z usbarb[2098634]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2001-01-01T00:02:29Z usbarb[2098634]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2001-01-01T00:02:29Z usbarb[2098634]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2001-01-01T00:02:29Z usbarb[2098634]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2001-01-01T00:02:29Z usbarb[2098634]: DICT            authd.fullpath = "/sbin/authd"
+2001-01-01T00:02:29Z usbarb[2098634]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2001-01-01T00:02:29Z usbarb[2098634]: VMware USB Arbitration Service Version 17.2.1
+2001-01-01T00:02:29Z usbarb[2098634]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2001-01-01T00:02:29Z usbarb[2098634]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2001-01-01T00:02:29Z usbarb[2098634]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2001-01-01T00:02:29Z usbarb[2098634]: SOCKET connect failed, error 2: No such file or directory
+2001-01-01T00:02:29Z usbarb[2098634]: USBArb: Failed to connect to the existing arbitrator.
+2001-01-01T00:02:29Z usbarb[2098634]: USBArb: listening socket 9 created successfully
+2001-01-01T00:02:29Z usbarb[2098634]: USBArb: adding listening socket 9 to poll queue
+2001-01-01T00:02:29Z usbarb[2098634]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:02:41Z usbarb[2098634]: USBArb: new socket connection estibalished: socket 10
+2001-01-01T00:02:41Z usbarb[2098634]: USBArb: new client 51B05DCB0 created, socket 10 added to poll queue
+2001-01-01T00:02:41Z usbarb[2098634]: USBArb: Client 2098896 connected (version: 7)
+2001-09-04T00:08:35Z usbarb[2098634]: USBArb: new socket connection estibalished: socket 11
+2001-09-04T00:08:35Z usbarb[2098634]: USBArb: new client 51B05DD50 created, socket 11 added to poll queue
+2001-09-04T00:08:35Z usbarb[2098634]: USBArb: Client 2099814 connected (version: 7)
+2001-09-04T00:56:54Z usbarb[2098634]: USBArb: new socket connection estibalished: socket 12
+2001-09-04T00:56:54Z usbarb[2098634]: USBArb: new client 51B05DE50 created, socket 12 added to poll queue
+2001-09-04T00:56:54Z usbarb[2098634]: USBArb: Client 2100704 connected (version: 7)
+2001-09-04T01:49:39Z usbarb[2098634]: USBArb: pipe 12 closed by client 55C276F90
+2001-09-04T01:49:39Z usbarb[2098634]: USBArb: removing client 51B05DE50: pid=2100704, pipe=12
+2001-09-04T01:49:39Z usbarb[2098634]: USBArb: Client 2100704 disconnected
+2001-09-04T01:50:26Z usbarb[2098634]: USBArb: new socket connection estibalished: socket 12
+2001-09-04T01:50:26Z usbarb[2098634]: USBArb: new client 51B05DE50 created, socket 12 added to poll queue
+2001-09-04T01:50:26Z usbarb[2098634]: USBArb: Client 2101681 connected (version: 7)
+2001-09-04T02:20:29Z usbarb[2098634]: USBArb: pipe 11 closed by client 55C276F90
+2001-09-04T02:20:29Z usbarb[2098634]: USBArb: removing client 51B05DD50: pid=2099814, pipe=11
+2001-09-04T02:20:29Z usbarb[2098634]: USBArb: Client 2099814 disconnected
+2001-09-04T02:22:32Z usbarb[2098634]: USBArb: pipe 12 closed by client 55C276F90
+2001-09-04T02:22:32Z usbarb[2098634]: USBArb: removing client 51B05DE50: pid=2101681, pipe=12
+2001-09-04T02:22:32Z usbarb[2098634]: USBArb: Client 2101681 disconnected
+2001-09-04T02:24:40Z usbarb[2098634]: USBArb: new socket connection estibalished: socket 11
+2001-09-04T02:24:40Z usbarb[2098634]: USBArb: new client 51B05DD50 created, socket 11 added to poll queue
+2001-09-04T02:24:40Z usbarb[2098634]: USBArb: Client 2103277 connected (version: 7)
+2001-09-04T02:43:05Z usbarb[2098634]: USBArb: pipe 11 closed by client 55C276F90
+2001-09-04T02:43:05Z usbarb[2098634]: USBArb: removing client 51B05DD50: pid=2103277, pipe=11
+2001-09-04T02:43:05Z usbarb[2098634]: USBArb: Client 2103277 disconnected
+2001-09-04T02:44:57Z usbarb[2098634]: USBArb: pipe 10 closed by client 55C276F90
+2001-09-04T02:44:57Z usbarb[2098634]: USBArb: removing client 51B05DCB0: pid=2098896, pipe=10
+2001-09-04T02:44:57Z usbarb[2098634]: USBArb: Client 2098896 disconnected
+2001-09-04T02:44:59Z usbarb[2098634]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:02:29Z usbarb[2098635]: VTHREAD 760074352192 "usbArb" wid 2098635
+2001-01-01T00:02:29Z usbarb[2098635]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:29Z usbarb[2098635]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2001-01-01T00:02:29Z usbarb[2098635]: DICT --- NON PERSISTENT (null)
+2001-01-01T00:02:29Z usbarb[2098635]: DICT --- HOST DEFAULTS /etc/vmware/config
+2001-01-01T00:02:29Z usbarb[2098635]: DICT                    libdir = "/usr/lib/vmware"
+2001-01-01T00:02:29Z usbarb[2098635]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2001-01-01T00:02:29Z usbarb[2098635]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2001-01-01T00:02:29Z usbarb[2098635]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2001-01-01T00:02:29Z usbarb[2098635]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2001-01-01T00:02:29Z usbarb[2098635]: DICT            authd.fullpath = "/sbin/authd"
+2001-01-01T00:02:29Z usbarb[2098635]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2001-01-01T00:02:29Z usbarb[2098635]: VMware USB Arbitration Service Version 17.2.1
+2001-01-01T00:02:29Z usbarb[2098635]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2001-01-01T00:02:29Z usbarb[2098635]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2001-01-01T00:02:29Z usbarb[2098635]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2001-01-01T00:02:29Z usbarb[2098635]: SOCKET connect failed, error 2: No such file or directory
+2001-01-01T00:02:29Z usbarb[2098635]: USBArb: Failed to connect to the existing arbitrator.
+2001-01-01T00:02:29Z usbarb[2098635]: USBArb: listening socket 9 created successfully
+2001-01-01T00:02:29Z usbarb[2098635]: USBArb: adding listening socket 9 to poll queue
+2001-01-01T00:02:29Z usbarb[2098635]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:02:43Z usbarb[2098635]: USBArb: new socket connection estibalished: socket 10
+2001-01-01T00:02:43Z usbarb[2098635]: USBArb: new client B0B58E5CB0 created, socket 10 added to poll queue
+2001-01-01T00:02:43Z usbarb[2098635]: USBArb: Client 2098896 connected (version: 7)
+2001-01-01T00:05:34Z usbarb[2098635]: USBArb: new socket connection estibalished: socket 11
+2001-01-01T00:05:34Z usbarb[2098635]: USBArb: new client B0B58E5D50 created, socket 11 added to poll queue
+2001-01-01T00:05:34Z usbarb[2098635]: USBArb: Client 2099666 connected (version: 7)
+2001-01-01T00:05:40Z usbarb[2098635]: USBArb: new socket connection estibalished: socket 12
+2001-01-01T00:05:40Z usbarb[2098635]: USBArb: new client B0B58E5E50 created, socket 12 added to poll queue
+2001-01-01T00:05:40Z usbarb[2098635]: USBArb: Client 2099809 connected (version: 7)
+2001-01-01T00:07:58Z usbarb[2098635]: USBArb: pipe 12 closed by client B0F6AFEF90
+2001-01-01T00:07:58Z usbarb[2098635]: USBArb: removing client B0B58E5E50: pid=2099809, pipe=12
+2001-01-01T00:07:58Z usbarb[2098635]: USBArb: Client 2099809 disconnected
+2001-01-01T00:08:04Z usbarb[2098635]: USBArb: new socket connection estibalished: socket 12
+2001-01-01T00:08:04Z usbarb[2098635]: USBArb: new client B0B58E5E50 created, socket 12 added to poll queue
+2001-01-01T00:08:04Z usbarb[2098635]: USBArb: Client 2100007 connected (version: 7)
+2001-01-01T01:54:37Z usbarb[2098635]: USBArb: new socket connection estibalished: socket 13
+2001-01-01T01:54:37Z usbarb[2098635]: USBArb: new client B0B58E5F50 created, socket 13 added to poll queue
+2001-01-01T01:54:37Z usbarb[2098635]: USBArb: Client 2101927 connected (version: 7)
+2001-01-01T01:54:40Z usbarb[2098635]: USBArb: new socket connection estibalished: socket 14
+2001-01-01T01:54:40Z usbarb[2098635]: USBArb: new client B0B58E5FF0 created, socket 14 added to poll queue
+2001-01-01T01:54:40Z usbarb[2098635]: USBArb: Client 2101940 connected (version: 7)
+2001-01-01T02:01:16Z usbarb[2098635]: USBArb: pipe 12 closed by client B0F6AFEF90
+2001-01-01T02:01:16Z usbarb[2098635]: USBArb: removing client B0B58E5E50: pid=2100007, pipe=12
+2001-01-01T02:01:16Z usbarb[2098635]: USBArb: Client 2100007 disconnected
+2001-01-01T02:28:02Z usbarb[2098635]: USBArb: pipe 13 closed by client B0F6AFEF90
+2001-01-01T02:28:02Z usbarb[2098635]: USBArb: removing client B0B58E5F50: pid=2101927, pipe=13
+2001-01-01T02:28:02Z usbarb[2098635]: USBArb: Client 2101927 disconnected
+2001-01-01T02:32:52Z usbarb[2098635]: USBArb: pipe 14 closed by client B0F6AFEF90
+2001-01-01T02:32:52Z usbarb[2098635]: USBArb: removing client B0B58E5FF0: pid=2101940, pipe=14
+2001-01-01T02:32:52Z usbarb[2098635]: USBArb: Client 2101940 disconnected
+2001-01-01T02:43:54Z usbarb[2098635]: USBArb: new socket connection estibalished: socket 12
+2001-01-01T02:43:54Z usbarb[2098635]: USBArb: new client B0B58E5E50 created, socket 12 added to poll queue
+2001-01-01T02:43:54Z usbarb[2098635]: USBArb: Client 2103862 connected (version: 7)
+2001-01-01T03:03:03Z usbarb[2098635]: USBArb: pipe 12 closed by client B0F6AFEF90
+2001-01-01T03:03:03Z usbarb[2098635]: USBArb: removing client B0B58E5E50: pid=2103862, pipe=12
+2001-01-01T03:03:03Z usbarb[2098635]: USBArb: Client 2103862 disconnected
+2001-01-01T03:04:39Z usbarb[2098635]: USBArb: new socket connection estibalished: socket 12
+2001-01-01T03:04:39Z usbarb[2098635]: USBArb: new client B0B58E5E50 created, socket 12 added to poll queue
+2001-01-01T03:04:39Z usbarb[2098635]: USBArb: Client 2105042 connected (version: 7)
+2001-01-01T03:28:16Z usbarb[2098635]: USBArb: pipe 12 closed by client B0F6AFEF90
+2001-01-01T03:28:16Z usbarb[2098635]: USBArb: removing client B0B58E5E50: pid=2105042, pipe=12
+2001-01-01T03:28:16Z usbarb[2098635]: USBArb: Client 2105042 disconnected
+2001-01-01T03:41:56Z usbarb[2098635]: USBArb: new socket connection estibalished: socket 12
+2001-01-01T03:41:56Z usbarb[2098635]: USBArb: new client B0B58E5E50 created, socket 12 added to poll queue
+2001-01-01T03:41:56Z usbarb[2098635]: USBArb: Client 2106026 connected (version: 7)
+2001-01-01T04:07:31Z usbarb[2098635]: USBArb: new socket connection estibalished: socket 13
+2001-01-01T04:07:31Z usbarb[2098635]: USBArb: new client B0B58E5F50 created, socket 13 added to poll queue
+2001-01-01T04:07:32Z usbarb[2098635]: USBArb: Client 2106488 connected (version: 7)
+2001-01-01T09:34:20Z usbarb[2098635]: USBArb: new socket connection estibalished: socket 14
+2001-01-01T09:34:20Z usbarb[2098635]: USBArb: new client B0B58E5FF0 created, socket 14 added to poll queue
+2001-01-01T09:34:20Z usbarb[2098635]: USBArb: Client 2108925 connected (version: 7)
+2001-01-01T14:18:04Z usbarb[2098635]: USBArb: pipe 11 closed by client B0F6AFEF90
+2001-01-01T14:18:04Z usbarb[2098635]: USBArb: removing client B0B58E5D50: pid=2099666, pipe=11
+2001-01-01T14:18:04Z usbarb[2098635]: USBArb: Client 2099666 disconnected
+2001-01-01T14:18:17Z usbarb[2098635]: USBArb: pipe 13 closed by client B0F6AFEF90
+2001-01-01T14:18:17Z usbarb[2098635]: USBArb: removing client B0B58E5F50: pid=2106488, pipe=13
+2001-01-01T14:18:17Z usbarb[2098635]: USBArb: Client 2106488 disconnected
+2001-01-01T14:18:23Z usbarb[2098635]: USBArb: pipe 12 closed by client B0F6AFEF90
+2001-01-01T14:18:23Z usbarb[2098635]: USBArb: removing client B0B58E5E50: pid=2106026, pipe=12
+2001-01-01T14:18:23Z usbarb[2098635]: USBArb: Client 2106026 disconnected
+2001-01-01T14:18:30Z usbarb[2098635]: USBArb: pipe 14 closed by client B0F6AFEF90
+2001-01-01T14:18:30Z usbarb[2098635]: USBArb: removing client B0B58E5FF0: pid=2108925, pipe=14
+2001-01-01T14:18:30Z usbarb[2098635]: USBArb: Client 2108925 disconnected
+2001-01-01T14:19:37Z usbarb[2098635]: USBArb: pipe 10 closed by client B0F6AFEF90
+2001-01-01T14:19:37Z usbarb[2098635]: USBArb: removing client B0B58E5CB0: pid=2098896, pipe=10
+2001-01-01T14:19:37Z usbarb[2098635]: USBArb: Client 2098896 disconnected
+2001-01-01T14:19:39Z usbarb[2098635]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:02:30Z usbarb[2098635]: VTHREAD 703669552704 "usbArb" wid 2098635
+2001-01-01T00:02:30Z usbarb[2098635]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:30Z usbarb[2098635]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2001-01-01T00:02:30Z usbarb[2098635]: DICT --- NON PERSISTENT (null)
+2001-01-01T00:02:30Z usbarb[2098635]: DICT --- HOST DEFAULTS /etc/vmware/config
+2001-01-01T00:02:30Z usbarb[2098635]: DICT                    libdir = "/usr/lib/vmware"
+2001-01-01T00:02:30Z usbarb[2098635]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2001-01-01T00:02:30Z usbarb[2098635]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2001-01-01T00:02:30Z usbarb[2098635]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2001-01-01T00:02:30Z usbarb[2098635]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2001-01-01T00:02:30Z usbarb[2098635]: DICT            authd.fullpath = "/sbin/authd"
+2001-01-01T00:02:30Z usbarb[2098635]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2001-01-01T00:02:30Z usbarb[2098635]: VMware USB Arbitration Service Version 17.2.1
+2001-01-01T00:02:30Z usbarb[2098635]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2001-01-01T00:02:30Z usbarb[2098635]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2001-01-01T00:02:30Z usbarb[2098635]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2001-01-01T00:02:30Z usbarb[2098635]: SOCKET connect failed, error 2: No such file or directory
+2001-01-01T00:02:30Z usbarb[2098635]: USBArb: Failed to connect to the existing arbitrator.
+2001-01-01T00:02:30Z usbarb[2098635]: USBArb: listening socket 9 created successfully
+2001-01-01T00:02:30Z usbarb[2098635]: USBArb: adding listening socket 9 to poll queue
+2001-01-01T00:02:30Z usbarb[2098635]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:02:43Z usbarb[2098635]: USBArb: new socket connection estibalished: socket 10
+2001-01-01T00:02:43Z usbarb[2098635]: USBArb: new client A393916CB0 created, socket 10 added to poll queue
+2001-01-01T00:02:43Z usbarb[2098635]: USBArb: Client 2098896 connected (version: 7)
+2001-01-01T00:04:27Z usbarb[2098635]: USBArb: new socket connection estibalished: socket 11
+2001-01-01T00:04:27Z usbarb[2098635]: USBArb: new client A393916D50 created, socket 11 added to poll queue
+2001-01-01T00:04:27Z usbarb[2098635]: USBArb: Client 2099668 connected (version: 7)
+2001-09-07T14:27:29Z usbarb[2098635]: USBArb: new socket connection estibalished: socket 12
+2001-09-07T14:27:29Z usbarb[2098635]: USBArb: new client A393916E50 created, socket 12 added to poll queue
+2001-09-07T14:27:29Z usbarb[2098635]: USBArb: Client 2101728 connected (version: 7)
+2001-09-07T16:11:23Z usbarb[2098635]: USBArb: pipe 11 closed by client A3D4B2FF90
+2001-09-07T16:11:23Z usbarb[2098635]: USBArb: removing client A393916D50: pid=2099668, pipe=11
+2001-09-07T16:11:23Z usbarb[2098635]: USBArb: Client 2099668 disconnected
+2001-09-07T16:11:27Z usbarb[2098635]: USBArb: pipe 12 closed by client A3D4B2FF90
+2001-09-07T16:11:27Z usbarb[2098635]: USBArb: removing client A393916E50: pid=2101728, pipe=12
+2001-09-07T16:11:27Z usbarb[2098635]: USBArb: Client 2101728 disconnected
+2001-09-07T16:13:08Z usbarb[2098635]: USBArb: pipe 10 closed by client A3D4B2FF90
+2001-09-07T16:13:08Z usbarb[2098635]: USBArb: removing client A393916CB0: pid=2098896, pipe=10
+2001-09-07T16:13:08Z usbarb[2098635]: USBArb: Client 2098896 disconnected
+2001-09-07T16:13:11Z usbarb[2098635]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:02:24Z usbarb[2098603]: VTHREAD 710822000192 "usbArb" wid 2098603
+2001-01-01T00:02:24Z usbarb[2098603]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:24Z usbarb[2098603]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2001-01-01T00:02:24Z usbarb[2098603]: DICT --- NON PERSISTENT (null)
+2001-01-01T00:02:24Z usbarb[2098603]: DICT --- HOST DEFAULTS /etc/vmware/config
+2001-01-01T00:02:24Z usbarb[2098603]: DICT                    libdir = "/usr/lib/vmware"
+2001-01-01T00:02:24Z usbarb[2098603]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2001-01-01T00:02:24Z usbarb[2098603]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2001-01-01T00:02:24Z usbarb[2098603]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2001-01-01T00:02:24Z usbarb[2098603]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2001-01-01T00:02:24Z usbarb[2098603]: DICT            authd.fullpath = "/sbin/authd"
+2001-01-01T00:02:24Z usbarb[2098603]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2001-01-01T00:02:24Z usbarb[2098603]: VMware USB Arbitration Service Version 17.2.1
+2001-01-01T00:02:24Z usbarb[2098603]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2001-01-01T00:02:24Z usbarb[2098603]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2001-01-01T00:02:24Z usbarb[2098603]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2001-01-01T00:02:24Z usbarb[2098603]: SOCKET connect failed, error 2: No such file or directory
+2001-01-01T00:02:24Z usbarb[2098603]: USBArb: Failed to connect to the existing arbitrator.
+2001-01-01T00:02:24Z usbarb[2098603]: USBArb: listening socket 9 created successfully
+2001-01-01T00:02:24Z usbarb[2098603]: USBArb: adding listening socket 9 to poll queue
+2001-01-01T00:02:24Z usbarb[2098603]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:02:37Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 10
+2001-01-01T00:02:37Z usbarb[2098603]: USBArb: new client A53DE31CB0 created, socket 10 added to poll queue
+2001-01-01T00:02:37Z usbarb[2098603]: USBArb: Client 2098864 connected (version: 7)
+2001-09-19T08:50:56Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 11
+2001-09-19T08:50:56Z usbarb[2098603]: USBArb: new client A53DE31D50 created, socket 11 added to poll queue
+2001-09-19T08:50:56Z usbarb[2098603]: USBArb: Client 2100465 connected (version: 7)
+2001-09-19T08:52:36Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 12
+2001-09-19T08:52:36Z usbarb[2098603]: USBArb: new client A53DE31E50 created, socket 12 added to poll queue
+2001-09-19T08:52:36Z usbarb[2098603]: USBArb: Client 2100625 connected (version: 7)
+2001-09-19T09:15:02Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 13
+2001-09-19T09:15:02Z usbarb[2098603]: USBArb: new client A53DE31F50 created, socket 13 added to poll queue
+2001-09-19T09:15:02Z usbarb[2098603]: USBArb: Client 2102554 connected (version: 7)
+2001-09-19T10:31:16Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 14
+2001-09-19T10:31:16Z usbarb[2098603]: USBArb: new client A53DE31FF0 created, socket 14 added to poll queue
+2001-09-19T10:31:16Z usbarb[2098603]: USBArb: Client 2103819 connected (version: 7)
+2001-09-12T11:36:50Z usbarb[2098603]: USBArb: pipe 12 closed by client A57F04AF90
+2001-09-12T11:36:50Z usbarb[2098603]: USBArb: removing client A53DE31E50: pid=2100625, pipe=12
+2001-09-12T11:36:50Z usbarb[2098603]: USBArb: Client 2100625 disconnected
+2001-09-12T11:43:27Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 12
+2001-09-12T11:43:27Z usbarb[2098603]: USBArb: new client A53DE31E50 created, socket 12 added to poll queue
+2001-09-12T11:43:27Z usbarb[2098603]: USBArb: Client 2104863 connected (version: 7)
+2001-09-12T11:49:13Z usbarb[2098603]: USBArb: pipe 12 closed by client A57F04AF90
+2001-09-12T11:49:13Z usbarb[2098603]: USBArb: removing client A53DE31E50: pid=2104863, pipe=12
+2001-09-12T11:49:13Z usbarb[2098603]: USBArb: Client 2104863 disconnected
+2001-09-12T16:09:34Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 12
+2001-09-12T16:09:34Z usbarb[2098603]: USBArb: new client A53DE31E50 created, socket 12 added to poll queue
+2001-09-12T16:09:34Z usbarb[2098603]: USBArb: Client 2110668 connected (version: 7)
+2001-09-12T16:31:43Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 15
+2001-09-12T16:31:43Z usbarb[2098603]: USBArb: new client A53DE320F0 created, socket 15 added to poll queue
+2001-09-12T16:31:44Z usbarb[2098603]: USBArb: Client 2111233 connected (version: 7)
+2001-09-12T16:32:45Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 16
+2001-09-12T16:32:45Z usbarb[2098603]: USBArb: new client A53DE321F0 created, socket 16 added to poll queue
+2001-09-12T16:32:45Z usbarb[2098603]: USBArb: Client 2111606 connected (version: 7)
+2001-09-12T16:45:12Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 17
+2001-09-12T16:45:12Z usbarb[2098603]: USBArb: new client A53DE322F0 created, socket 17 added to poll queue
+2001-09-12T16:45:12Z usbarb[2098603]: USBArb: Client 2112302 connected (version: 7)
+2001-09-12T16:49:56Z usbarb[2098603]: USBArb: pipe 17 closed by client A57F04AF90
+2001-09-12T16:49:56Z usbarb[2098603]: USBArb: removing client A53DE322F0: pid=2112302, pipe=17
+2001-09-12T16:49:56Z usbarb[2098603]: USBArb: Client 2112302 disconnected
+2001-09-12T16:50:03Z usbarb[2098603]: USBArb: pipe 15 closed by client A57F04AF90
+2001-09-12T16:50:03Z usbarb[2098603]: USBArb: removing client A53DE320F0: pid=2111233, pipe=15
+2001-09-12T16:50:03Z usbarb[2098603]: USBArb: Client 2111233 disconnected
+2001-09-12T16:50:14Z usbarb[2098603]: USBArb: pipe 16 closed by client A57F04AF90
+2001-09-12T16:50:14Z usbarb[2098603]: USBArb: removing client A53DE321F0: pid=2111606, pipe=16
+2001-09-12T16:50:14Z usbarb[2098603]: USBArb: Client 2111606 disconnected
+2001-09-12T16:51:25Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 15
+2001-09-12T16:51:25Z usbarb[2098603]: USBArb: new client A53DE322F0 created, socket 15 added to poll queue
+2001-09-12T16:51:25Z usbarb[2098603]: USBArb: Client 2112848 connected (version: 7)
+2001-09-12T16:51:27Z usbarb[2098603]: USBArb: pipe 15 closed by client A57F04AF90
+2001-09-12T16:51:27Z usbarb[2098603]: USBArb: removing client A53DE322F0: pid=2112848, pipe=15
+2001-09-12T16:51:27Z usbarb[2098603]: USBArb: Client 2112848 disconnected
+2001-09-12T16:54:31Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 15
+2001-09-12T16:54:31Z usbarb[2098603]: USBArb: new client A53DE321F0 created, socket 15 added to poll queue
+2001-09-12T16:54:31Z usbarb[2098603]: USBArb: Client 2112995 connected (version: 7)
+2001-09-12T16:54:33Z usbarb[2098603]: USBArb: pipe 15 closed by client A57F04AF90
+2001-09-12T16:54:33Z usbarb[2098603]: USBArb: removing client A53DE321F0: pid=2112995, pipe=15
+2001-09-12T16:54:33Z usbarb[2098603]: USBArb: Client 2112995 disconnected
+2001-09-12T16:55:16Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 15
+2001-09-12T16:55:16Z usbarb[2098603]: USBArb: new client A53DE322F0 created, socket 15 added to poll queue
+2001-09-12T16:55:16Z usbarb[2098603]: USBArb: Client 2113150 connected (version: 7)
+2001-09-12T16:55:18Z usbarb[2098603]: USBArb: pipe 15 closed by client A57F04AF90
+2001-09-12T16:55:18Z usbarb[2098603]: USBArb: removing client A53DE322F0: pid=2113150, pipe=15
+2001-09-12T16:55:18Z usbarb[2098603]: USBArb: Client 2113150 disconnected
+2001-09-12T16:57:22Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 15
+2001-09-12T16:57:22Z usbarb[2098603]: USBArb: new client A53DE321F0 created, socket 15 added to poll queue
+2001-09-12T16:57:22Z usbarb[2098603]: USBArb: Client 2113331 connected (version: 7)
+2001-09-12T16:57:24Z usbarb[2098603]: USBArb: pipe 15 closed by client A57F04AF90
+2001-09-12T16:57:24Z usbarb[2098603]: USBArb: removing client A53DE321F0: pid=2113331, pipe=15
+2001-09-12T16:57:24Z usbarb[2098603]: USBArb: Client 2113331 disconnected
+2001-09-12T16:59:49Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 15
+2001-09-12T16:59:49Z usbarb[2098603]: USBArb: new client A53DE322F0 created, socket 15 added to poll queue
+2001-09-12T16:59:49Z usbarb[2098603]: USBArb: Client 2113501 connected (version: 7)
+2001-09-12T17:00:14Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 16
+2001-09-12T17:00:14Z usbarb[2098603]: USBArb: new client A53DE321F0 created, socket 16 added to poll queue
+2001-09-12T17:00:14Z usbarb[2098603]: USBArb: Client 2113657 connected (version: 7)
+2001-09-12T17:11:50Z usbarb[2098603]: USBArb: pipe 14 closed by client A57F04AF90
+2001-09-12T17:11:50Z usbarb[2098603]: USBArb: removing client A53DE31FF0: pid=2103819, pipe=14
+2001-09-12T17:11:50Z usbarb[2098603]: USBArb: Client 2103819 disconnected
+2001-09-12T17:13:42Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 14
+2001-09-12T17:13:42Z usbarb[2098603]: USBArb: new client A53DE320F0 created, socket 14 added to poll queue
+2001-09-12T17:13:42Z usbarb[2098603]: USBArb: Client 2114583 connected (version: 7)
+2001-09-12T17:13:44Z usbarb[2098603]: USBArb: pipe 14 closed by client A57F04AF90
+2001-09-12T17:13:44Z usbarb[2098603]: USBArb: removing client A53DE320F0: pid=2114583, pipe=14
+2001-09-12T17:13:44Z usbarb[2098603]: USBArb: Client 2114583 disconnected
+2001-09-12T17:15:30Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 14
+2001-09-12T17:15:30Z usbarb[2098603]: USBArb: new client A53DE31FF0 created, socket 14 added to poll queue
+2001-09-12T17:15:30Z usbarb[2098603]: USBArb: Client 2114769 connected (version: 7)
+2001-09-12T17:15:32Z usbarb[2098603]: USBArb: pipe 14 closed by client A57F04AF90
+2001-09-12T17:15:32Z usbarb[2098603]: USBArb: removing client A53DE31FF0: pid=2114769, pipe=14
+2001-09-12T17:15:32Z usbarb[2098603]: USBArb: Client 2114769 disconnected
+2001-09-12T17:17:21Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 14
+2001-09-12T17:17:21Z usbarb[2098603]: USBArb: new client A53DE320F0 created, socket 14 added to poll queue
+2001-09-12T17:17:21Z usbarb[2098603]: USBArb: Client 2115078 connected (version: 7)
+2001-09-12T17:17:23Z usbarb[2098603]: USBArb: pipe 14 closed by client A57F04AF90
+2001-09-12T17:17:23Z usbarb[2098603]: USBArb: removing client A53DE320F0: pid=2115078, pipe=14
+2001-09-12T17:17:23Z usbarb[2098603]: USBArb: Client 2115078 disconnected
+2001-09-12T17:18:09Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 14
+2001-09-12T17:18:09Z usbarb[2098603]: USBArb: new client A53DE31FF0 created, socket 14 added to poll queue
+2001-09-12T17:18:09Z usbarb[2098603]: USBArb: Client 2115223 connected (version: 7)
+2001-09-12T17:18:12Z usbarb[2098603]: USBArb: pipe 14 closed by client A57F04AF90
+2001-09-12T17:18:12Z usbarb[2098603]: USBArb: removing client A53DE31FF0: pid=2115223, pipe=14
+2001-09-12T17:18:12Z usbarb[2098603]: USBArb: Client 2115223 disconnected
+2001-09-12T17:31:03Z usbarb[2098603]: USBArb: pipe 16 closed by client A57F04AF90
+2001-09-12T17:31:03Z usbarb[2098603]: USBArb: removing client A53DE321F0: pid=2113657, pipe=16
+2001-09-12T17:31:03Z usbarb[2098603]: USBArb: Client 2113657 disconnected
+2001-09-12T17:36:55Z usbarb[2098603]: USBArb: pipe 15 closed by client A57F04AF90
+2001-09-12T17:36:55Z usbarb[2098603]: USBArb: removing client A53DE322F0: pid=2113501, pipe=15
+2001-09-12T17:36:55Z usbarb[2098603]: USBArb: Client 2113501 disconnected
+2001-09-12T17:40:03Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 14
+2001-09-12T17:40:03Z usbarb[2098603]: USBArb: new client A53DE320F0 created, socket 14 added to poll queue
+2001-09-12T17:40:03Z usbarb[2098603]: USBArb: Client 2117278 connected (version: 7)
+2001-09-12T18:29:33Z usbarb[2098603]: USBArb: pipe 14 closed by client A57F04AF90
+2001-09-12T18:29:33Z usbarb[2098603]: USBArb: removing client A53DE320F0: pid=2117278, pipe=14
+2001-09-12T18:29:33Z usbarb[2098603]: USBArb: Client 2117278 disconnected
+2001-09-12T18:33:01Z usbarb[2098603]: USBArb: pipe 11 closed by client A57F04AF90
+2001-09-12T18:33:01Z usbarb[2098603]: USBArb: removing client A53DE31D50: pid=2100465, pipe=11
+2001-09-12T18:33:01Z usbarb[2098603]: USBArb: Client 2100465 disconnected
+2001-09-12T18:33:01Z usbarb[2098603]: USBArb: pipe 12 closed by client A57F04AF90
+2001-09-12T18:33:01Z usbarb[2098603]: USBArb: removing client A53DE31E50: pid=2110668, pipe=12
+2001-09-12T18:33:01Z usbarb[2098603]: USBArb: Client 2110668 disconnected
+2001-09-12T18:33:14Z usbarb[2098603]: USBArb: pipe 13 closed by client A57F04AF90
+2001-09-12T18:33:14Z usbarb[2098603]: USBArb: removing client A53DE31F50: pid=2102554, pipe=13
+2001-09-12T18:33:14Z usbarb[2098603]: USBArb: Client 2102554 disconnected
+2001-09-12T18:33:41Z usbarb[2098603]: USBArb: pipe 10 closed by client A57F04AF90
+2001-09-12T18:33:41Z usbarb[2098603]: USBArb: removing client A53DE31CB0: pid=2098864, pipe=10
+2001-09-12T18:33:41Z usbarb[2098603]: USBArb: Client 2098864 disconnected
+2001-09-12T18:33:43Z usbarb[2098603]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:02:23Z usbarb[2098602]: VTHREAD 49184908864 "usbArb" wid 2098602
+2001-01-01T00:02:23Z usbarb[2098602]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:23Z usbarb[2098602]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2001-01-01T00:02:23Z usbarb[2098602]: DICT --- NON PERSISTENT (null)
+2001-01-01T00:02:23Z usbarb[2098602]: DICT --- HOST DEFAULTS /etc/vmware/config
+2001-01-01T00:02:23Z usbarb[2098602]: DICT                    libdir = "/usr/lib/vmware"
+2001-01-01T00:02:23Z usbarb[2098602]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2001-01-01T00:02:23Z usbarb[2098602]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2001-01-01T00:02:23Z usbarb[2098602]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2001-01-01T00:02:23Z usbarb[2098602]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2001-01-01T00:02:23Z usbarb[2098602]: DICT            authd.fullpath = "/sbin/authd"
+2001-01-01T00:02:23Z usbarb[2098602]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2001-01-01T00:02:23Z usbarb[2098602]: VMware USB Arbitration Service Version 17.2.1
+2001-01-01T00:02:23Z usbarb[2098602]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2001-01-01T00:02:23Z usbarb[2098602]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2001-01-01T00:02:23Z usbarb[2098602]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2001-01-01T00:02:23Z usbarb[2098602]: SOCKET connect failed, error 2: No such file or directory
+2001-01-01T00:02:23Z usbarb[2098602]: USBArb: Failed to connect to the existing arbitrator.
+2001-01-01T00:02:23Z usbarb[2098602]: USBArb: listening socket 9 created successfully
+2001-01-01T00:02:23Z usbarb[2098602]: USBArb: adding listening socket 9 to poll queue
+2001-01-01T00:02:23Z usbarb[2098602]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:02:36Z usbarb[2098602]: USBArb: new socket connection estibalished: socket 10
+2001-01-01T00:02:36Z usbarb[2098602]: USBArb: new client B313E4CB0 created, socket 10 added to poll queue
+2001-01-01T00:02:36Z usbarb[2098602]: USBArb: Client 2098864 connected (version: 7)
+2001-09-13T06:02:06Z usbarb[2098602]: USBArb: new socket connection estibalished: socket 11
+2001-09-13T06:02:06Z usbarb[2098602]: USBArb: new client B313E4D50 created, socket 11 added to poll queue
+2001-09-13T06:02:06Z usbarb[2098602]: USBArb: Client 2099945 connected (version: 7)
+2001-09-13T06:02:35Z usbarb[2098602]: USBArb: new socket connection estibalished: socket 12
+2001-09-13T06:02:35Z usbarb[2098602]: USBArb: new client B313E4E50 created, socket 12 added to poll queue
+2001-09-13T06:02:35Z usbarb[2098602]: USBArb: Client 2100091 connected (version: 7)
+2001-09-13T06:06:12Z usbarb[2098602]: USBArb: new socket connection estibalished: socket 13
+2001-09-13T06:06:12Z usbarb[2098602]: USBArb: new client B313E4F50 created, socket 13 added to poll queue
+2001-09-13T06:06:12Z usbarb[2098602]: USBArb: Client 2100270 connected (version: 7)
+2001-09-13T06:06:54Z usbarb[2098602]: USBArb: new socket connection estibalished: socket 14
+2001-09-13T06:06:54Z usbarb[2098602]: USBArb: new client B313E4FF0 created, socket 14 added to poll queue
+2001-09-13T06:06:54Z usbarb[2098602]: USBArb: Client 2100417 connected (version: 7)
+2001-09-13T06:09:57Z usbarb[2098602]: USBArb: new socket connection estibalished: socket 15
+2001-09-13T06:09:57Z usbarb[2098602]: USBArb: new client B313E50F0 created, socket 15 added to poll queue
+2001-09-13T06:09:57Z usbarb[2098602]: USBArb: Client 2100563 connected (version: 7)
+2001-09-13T06:27:32Z usbarb[2098602]: USBArb: pipe 14 closed by client B725FDF90
+2001-09-13T06:27:32Z usbarb[2098602]: USBArb: removing client B313E4FF0: pid=2100417, pipe=14
+2001-09-13T06:27:32Z usbarb[2098602]: USBArb: Client 2100417 disconnected
+2001-09-13T06:33:50Z usbarb[2098602]: USBArb: new socket connection estibalished: socket 14
+2001-09-13T06:33:50Z usbarb[2098602]: USBArb: new client B313E4FF0 created, socket 14 added to poll queue
+2001-09-13T06:33:50Z usbarb[2098602]: USBArb: Client 2101447 connected (version: 7)
+2001-09-13T16:21:43Z usbarb[2098602]: USBArb: pipe 12 closed by client B725FDF90
+2001-09-13T16:21:43Z usbarb[2098602]: USBArb: removing client B313E4E50: pid=2100091, pipe=12
+2001-09-13T16:21:43Z usbarb[2098602]: USBArb: Client 2100091 disconnected
+2001-09-13T16:21:43Z usbarb[2098602]: USBArb: pipe 15 closed by client B725FDF90
+2001-09-13T16:21:43Z usbarb[2098602]: USBArb: removing client B313E50F0: pid=2100563, pipe=15
+2001-09-13T16:21:43Z usbarb[2098602]: USBArb: Client 2100563 disconnected
+2001-09-13T16:21:47Z usbarb[2098602]: USBArb: pipe 14 closed by client B725FDF90
+2001-09-13T16:21:47Z usbarb[2098602]: USBArb: removing client B313E4FF0: pid=2101447, pipe=14
+2001-09-13T16:21:47Z usbarb[2098602]: USBArb: Client 2101447 disconnected
+2001-09-13T16:21:47Z usbarb[2098602]: USBArb: pipe 11 closed by client B725FDF90
+2001-09-13T16:21:47Z usbarb[2098602]: USBArb: removing client B313E4D50: pid=2099945, pipe=11
+2001-09-13T16:21:47Z usbarb[2098602]: USBArb: Client 2099945 disconnected
+2001-09-13T16:22:00Z usbarb[2098602]: USBArb: pipe 13 closed by client B725FDF90
+2001-09-13T16:22:00Z usbarb[2098602]: USBArb: removing client B313E4F50: pid=2100270, pipe=13
+2001-09-13T16:22:00Z usbarb[2098602]: USBArb: Client 2100270 disconnected
+2001-09-13T16:22:46Z usbarb[2098602]: USBArb: pipe 10 closed by client B725FDF90
+2001-09-13T16:22:46Z usbarb[2098602]: USBArb: removing client B313E4CB0: pid=2098864, pipe=10
+2001-09-13T16:22:46Z usbarb[2098602]: USBArb: Client 2098864 disconnected
+2001-09-13T16:22:49Z usbarb[2098602]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:02:24Z usbarb[2098603]: VTHREAD 313541162560 "usbArb" wid 2098603
+2001-01-01T00:02:24Z usbarb[2098603]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:24Z usbarb[2098603]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2001-01-01T00:02:24Z usbarb[2098603]: DICT --- NON PERSISTENT (null)
+2001-01-01T00:02:24Z usbarb[2098603]: DICT --- HOST DEFAULTS /etc/vmware/config
+2001-01-01T00:02:24Z usbarb[2098603]: DICT                    libdir = "/usr/lib/vmware"
+2001-01-01T00:02:24Z usbarb[2098603]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2001-01-01T00:02:24Z usbarb[2098603]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2001-01-01T00:02:24Z usbarb[2098603]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2001-01-01T00:02:24Z usbarb[2098603]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2001-01-01T00:02:24Z usbarb[2098603]: DICT            authd.fullpath = "/sbin/authd"
+2001-01-01T00:02:24Z usbarb[2098603]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2001-01-01T00:02:24Z usbarb[2098603]: VMware USB Arbitration Service Version 17.2.1
+2001-01-01T00:02:24Z usbarb[2098603]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2001-01-01T00:02:24Z usbarb[2098603]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2001-01-01T00:02:24Z usbarb[2098603]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2001-01-01T00:02:24Z usbarb[2098603]: SOCKET connect failed, error 2: No such file or directory
+2001-01-01T00:02:24Z usbarb[2098603]: USBArb: Failed to connect to the existing arbitrator.
+2001-01-01T00:02:24Z usbarb[2098603]: USBArb: listening socket 9 created successfully
+2001-01-01T00:02:24Z usbarb[2098603]: USBArb: adding listening socket 9 to poll queue
+2001-01-01T00:02:24Z usbarb[2098603]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:02:37Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 10
+2001-01-01T00:02:37Z usbarb[2098603]: USBArb: new client 48BE1A9CB0 created, socket 10 added to poll queue
+2001-01-01T00:02:37Z usbarb[2098603]: USBArb: Client 2098864 connected (version: 7)
+2001-10-24T00:06:42Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 11
+2001-10-24T00:06:42Z usbarb[2098603]: USBArb: new client 48BE1A9D50 created, socket 11 added to poll queue
+2001-10-24T00:06:42Z usbarb[2098603]: USBArb: Client 2099661 connected (version: 7)
+2001-10-24T00:07:04Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 12
+2001-10-24T00:07:04Z usbarb[2098603]: USBArb: new client 48BE1A9E50 created, socket 12 added to poll queue
+2001-10-24T00:07:04Z usbarb[2098603]: USBArb: Client 2099809 connected (version: 7)
+2001-10-24T00:07:04Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 13
+2001-10-24T00:07:04Z usbarb[2098603]: USBArb: new client 48BE1A9F50 created, socket 13 added to poll queue
+2001-10-24T00:07:04Z usbarb[2098603]: USBArb: Client 2099810 connected (version: 7)
+2001-10-24T00:09:17Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 14
+2001-10-24T00:09:17Z usbarb[2098603]: USBArb: new client 48BE1A9FF0 created, socket 14 added to poll queue
+2001-10-24T00:09:17Z usbarb[2098603]: USBArb: Client 2100181 connected (version: 7)
+2001-01-01T00:41:58Z usbarb[2098603]: VTHREAD 893847864896 "usbArb" wid 2098603
+2001-01-01T00:41:58Z usbarb[2098603]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:41:58Z usbarb[2098603]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2001-01-01T00:41:58Z usbarb[2098603]: DICT --- NON PERSISTENT (null)
+2001-01-01T00:41:58Z usbarb[2098603]: DICT --- HOST DEFAULTS /etc/vmware/config
+2001-01-01T00:41:58Z usbarb[2098603]: DICT                    libdir = "/usr/lib/vmware"
+2001-01-01T00:41:58Z usbarb[2098603]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2001-01-01T00:41:58Z usbarb[2098603]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2001-01-01T00:41:58Z usbarb[2098603]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2001-01-01T00:41:58Z usbarb[2098603]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2001-01-01T00:41:58Z usbarb[2098603]: DICT            authd.fullpath = "/sbin/authd"
+2001-01-01T00:41:58Z usbarb[2098603]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2001-01-01T00:41:58Z usbarb[2098603]: VMware USB Arbitration Service Version 17.2.1
+2001-01-01T00:41:58Z usbarb[2098603]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2001-01-01T00:41:58Z usbarb[2098603]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2001-01-01T00:41:58Z usbarb[2098603]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2001-01-01T00:41:58Z usbarb[2098603]: SOCKET connect failed, error 2: No such file or directory
+2001-01-01T00:41:58Z usbarb[2098603]: USBArb: Failed to connect to the existing arbitrator.
+2001-01-01T00:41:58Z usbarb[2098603]: USBArb: listening socket 9 created successfully
+2001-01-01T00:41:58Z usbarb[2098603]: USBArb: adding listening socket 9 to poll queue
+2001-01-01T00:41:58Z usbarb[2098603]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:42:12Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 10
+2001-01-01T00:42:12Z usbarb[2098603]: USBArb: new client CFDB142CB0 created, socket 10 added to poll queue
+2001-01-01T00:42:12Z usbarb[2098603]: USBArb: Client 2098864 connected (version: 7)
+2001-11-09T00:44:42Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 11
+2001-11-09T00:44:42Z usbarb[2098603]: USBArb: new client CFDB142D50 created, socket 11 added to poll queue
+2001-11-09T00:44:42Z usbarb[2098603]: USBArb: Client 2099790 connected (version: 7)
+2001-11-09T00:44:58Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 12
+2001-11-09T00:44:58Z usbarb[2098603]: USBArb: new client CFDB142E50 created, socket 12 added to poll queue
+2001-11-09T00:44:58Z usbarb[2098603]: USBArb: Client 2099933 connected (version: 7)
+2001-11-09T00:45:05Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 13
+2001-11-09T00:45:05Z usbarb[2098603]: USBArb: new client CFDB142F50 created, socket 13 added to poll queue
+2001-11-09T00:45:05Z usbarb[2098603]: USBArb: Client 2100062 connected (version: 7)
+2001-11-09T01:10:59Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 14
+2001-11-09T01:10:59Z usbarb[2098603]: USBArb: new client CFDB142FF0 created, socket 14 added to poll queue
+2001-11-09T01:11:00Z usbarb[2098603]: USBArb: Client 2104207 connected (version: 7)
+2001-11-09T02:22:03Z usbarb[2098603]: USBArb: pipe 13 closed by client D01C35BF90
+2001-11-09T02:22:03Z usbarb[2098603]: USBArb: removing client CFDB142F50: pid=2100062, pipe=13
+2001-11-09T02:22:03Z usbarb[2098603]: USBArb: Client 2100062 disconnected
+2001-11-09T02:22:22Z usbarb[2098603]: USBArb: pipe 14 closed by client D01C35BF90
+2001-11-09T02:22:22Z usbarb[2098603]: USBArb: removing client CFDB142FF0: pid=2104207, pipe=14
+2001-11-09T02:22:22Z usbarb[2098603]: USBArb: Client 2104207 disconnected
+2001-11-09T02:22:44Z usbarb[2098603]: USBArb: pipe 12 closed by client D01C35BF90
+2001-11-09T02:22:44Z usbarb[2098603]: USBArb: removing client CFDB142E50: pid=2099933, pipe=12
+2001-11-09T02:22:44Z usbarb[2098603]: USBArb: Client 2099933 disconnected
+2001-11-09T02:23:11Z usbarb[2098603]: USBArb: pipe 11 closed by client D01C35BF90
+2001-11-09T02:23:11Z usbarb[2098603]: USBArb: removing client CFDB142D50: pid=2099790, pipe=11
+2001-11-09T02:23:11Z usbarb[2098603]: USBArb: Client 2099790 disconnected
+2001-11-09T02:25:28Z usbarb[2098603]: USBArb: pipe 10 closed by client D01C35BF90
+2001-11-09T02:25:28Z usbarb[2098603]: USBArb: removing client CFDB142CB0: pid=2098864, pipe=10
+2001-11-09T02:25:28Z usbarb[2098603]: USBArb: Client 2098864 disconnected
+2001-11-09T02:25:30Z usbarb[2098603]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:06:44Z usbarb[2098604]: VTHREAD 717751658048 "usbArb" wid 2098604
+2001-01-01T00:06:44Z usbarb[2098604]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:06:44Z usbarb[2098604]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2001-01-01T00:06:44Z usbarb[2098604]: DICT --- NON PERSISTENT (null)
+2001-01-01T00:06:44Z usbarb[2098604]: DICT --- HOST DEFAULTS /etc/vmware/config
+2001-01-01T00:06:44Z usbarb[2098604]: DICT                    libdir = "/usr/lib/vmware"
+2001-01-01T00:06:44Z usbarb[2098604]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2001-01-01T00:06:44Z usbarb[2098604]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2001-01-01T00:06:44Z usbarb[2098604]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2001-01-01T00:06:44Z usbarb[2098604]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2001-01-01T00:06:44Z usbarb[2098604]: DICT            authd.fullpath = "/sbin/authd"
+2001-01-01T00:06:44Z usbarb[2098604]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2001-01-01T00:06:44Z usbarb[2098604]: VMware USB Arbitration Service Version 17.2.1
+2001-01-01T00:06:44Z usbarb[2098604]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2001-01-01T00:06:44Z usbarb[2098604]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2001-01-01T00:06:44Z usbarb[2098604]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2001-01-01T00:06:44Z usbarb[2098604]: SOCKET connect failed, error 2: No such file or directory
+2001-01-01T00:06:44Z usbarb[2098604]: USBArb: Failed to connect to the existing arbitrator.
+2001-01-01T00:06:44Z usbarb[2098604]: USBArb: listening socket 9 created successfully
+2001-01-01T00:06:44Z usbarb[2098604]: USBArb: adding listening socket 9 to poll queue
+2001-01-01T00:06:44Z usbarb[2098604]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:06:58Z usbarb[2098604]: USBArb: new socket connection estibalished: socket 10
+2001-01-01T00:06:58Z usbarb[2098604]: USBArb: new client A6DAED4CB0 created, socket 10 added to poll queue
+2001-01-01T00:06:58Z usbarb[2098604]: USBArb: Client 2098864 connected (version: 7)
+2001-01-01T00:18:34Z usbarb[2098604]: USBArb: new socket connection estibalished: socket 11
+2001-01-01T00:18:34Z usbarb[2098604]: USBArb: new client A6DAED4D50 created, socket 11 added to poll queue
+2001-01-01T00:18:34Z usbarb[2098604]: USBArb: Client 2099660 connected (version: 7)
+2001-01-01T00:18:37Z usbarb[2098604]: USBArb: new socket connection estibalished: socket 12
+2001-01-01T00:18:37Z usbarb[2098604]: USBArb: new client A6DAED4E50 created, socket 12 added to poll queue
+2001-01-01T00:18:37Z usbarb[2098604]: USBArb: Client 2099673 connected (version: 7)
+2001-01-01T00:18:42Z usbarb[2098604]: USBArb: new socket connection estibalished: socket 13
+2001-01-01T00:18:42Z usbarb[2098604]: USBArb: new client A6DAED4F50 created, socket 13 added to poll queue
+2001-01-01T00:18:42Z usbarb[2098604]: USBArb: Client 2099823 connected (version: 7)
+2001-01-01T00:22:03Z usbarb[2098604]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:26:09Z usbarb[2098604]: USBArb: new socket connection estibalished: socket 14
+2001-01-01T00:26:09Z usbarb[2098604]: USBArb: new client A6DAED4FF0 created, socket 14 added to poll queue
+2001-01-01T00:26:09Z usbarb[2098604]: USBArb: Client 2100025 connected (version: 7)
+2001-01-01T00:26:33Z usbarb[2098604]: USBArb: new socket connection estibalished: socket 15
+2001-01-01T00:26:33Z usbarb[2098604]: USBArb: new client A6DAED50F0 created, socket 15 added to poll queue
+2001-01-01T00:26:33Z usbarb[2098604]: USBArb: Client 2100329 connected (version: 7)
+2001-01-01T07:32:39Z usbarb[2098604]: USBArb: new socket connection estibalished: socket 16
+2001-01-01T07:32:39Z usbarb[2098604]: USBArb: new client A6DAED51F0 created, socket 16 added to poll queue
+2001-01-01T07:32:39Z usbarb[2098604]: USBArb: Client 2104768 connected (version: 7)
+2001-01-01T07:32:42Z usbarb[2098604]: USBArb: new socket connection estibalished: socket 17
+2001-01-01T07:32:42Z usbarb[2098604]: USBArb: new client A6DAED52F0 created, socket 17 added to poll queue
+2001-01-01T07:32:42Z usbarb[2098604]: USBArb: Client 2104781 connected (version: 7)
+2001-01-01T13:05:20Z usbarb[2098604]: USBArb: pipe 16 closed by client A71C0EDF90
+2001-01-01T13:05:20Z usbarb[2098604]: USBArb: removing client A6DAED51F0: pid=2104768, pipe=16
+2001-01-01T13:05:20Z usbarb[2098604]: USBArb: Client 2104768 disconnected
+2001-01-01T13:05:21Z usbarb[2098604]: USBArb: pipe 17 closed by client A71C0EDF90
+2001-01-01T13:05:21Z usbarb[2098604]: USBArb: removing client A6DAED52F0: pid=2104781, pipe=17
+2001-01-01T13:05:21Z usbarb[2098604]: USBArb: Client 2104781 disconnected
+2001-01-01T13:05:21Z usbarb[2098604]: USBArb: pipe 15 closed by client A71C0EDF90
+2001-01-01T13:05:21Z usbarb[2098604]: USBArb: removing client A6DAED50F0: pid=2100329, pipe=15
+2001-01-01T13:05:21Z usbarb[2098604]: USBArb: Client 2100329 disconnected
+2001-01-01T13:05:39Z usbarb[2098604]: USBArb: pipe 11 closed by client A71C0EDF90
+2001-01-01T13:05:39Z usbarb[2098604]: USBArb: removing client A6DAED4D50: pid=2099660, pipe=11
+2001-01-01T13:05:39Z usbarb[2098604]: USBArb: Client 2099660 disconnected
+2001-01-01T13:05:39Z usbarb[2098604]: USBArb: pipe 13 closed by client A71C0EDF90
+2001-01-01T13:05:39Z usbarb[2098604]: USBArb: removing client A6DAED4F50: pid=2099823, pipe=13
+2001-01-01T13:05:39Z usbarb[2098604]: USBArb: Client 2099823 disconnected
+2001-01-01T13:05:43Z usbarb[2098604]: USBArb: pipe 12 closed by client A71C0EDF90
+2001-01-01T13:05:43Z usbarb[2098604]: USBArb: removing client A6DAED4E50: pid=2099673, pipe=12
+2001-01-01T13:05:43Z usbarb[2098604]: USBArb: Client 2099673 disconnected
+2001-01-01T13:05:51Z usbarb[2098604]: USBArb: pipe 14 closed by client A71C0EDF90
+2001-01-01T13:05:51Z usbarb[2098604]: USBArb: removing client A6DAED4FF0: pid=2100025, pipe=14
+2001-01-01T13:05:51Z usbarb[2098604]: USBArb: Client 2100025 disconnected
+2001-01-01T13:06:59Z usbarb[2098604]: USBArb: pipe 10 closed by client A71C0EDF90
+2001-01-01T13:06:59Z usbarb[2098604]: USBArb: removing client A6DAED4CB0: pid=2098864, pipe=10
+2001-01-01T13:06:59Z usbarb[2098604]: USBArb: Client 2098864 disconnected
+2001-01-01T13:07:01Z usbarb[2098604]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:02:24Z usbarb[2098603]: VTHREAD 904961259072 "usbArb" wid 2098603
+2001-01-01T00:02:24Z usbarb[2098603]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:24Z usbarb[2098603]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2001-01-01T00:02:24Z usbarb[2098603]: DICT --- NON PERSISTENT (null)
+2001-01-01T00:02:24Z usbarb[2098603]: DICT --- HOST DEFAULTS /etc/vmware/config
+2001-01-01T00:02:24Z usbarb[2098603]: DICT                    libdir = "/usr/lib/vmware"
+2001-01-01T00:02:24Z usbarb[2098603]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2001-01-01T00:02:24Z usbarb[2098603]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2001-01-01T00:02:24Z usbarb[2098603]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2001-01-01T00:02:24Z usbarb[2098603]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2001-01-01T00:02:24Z usbarb[2098603]: DICT            authd.fullpath = "/sbin/authd"
+2001-01-01T00:02:24Z usbarb[2098603]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2001-01-01T00:02:24Z usbarb[2098603]: VMware USB Arbitration Service Version 17.2.1
+2001-01-01T00:02:24Z usbarb[2098603]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2001-01-01T00:02:24Z usbarb[2098603]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2001-01-01T00:02:24Z usbarb[2098603]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2001-01-01T00:02:24Z usbarb[2098603]: SOCKET connect failed, error 2: No such file or directory
+2001-01-01T00:02:24Z usbarb[2098603]: USBArb: Failed to connect to the existing arbitrator.
+2001-01-01T00:02:24Z usbarb[2098603]: USBArb: listening socket 9 created successfully
+2001-01-01T00:02:24Z usbarb[2098603]: USBArb: adding listening socket 9 to poll queue
+2001-01-01T00:02:24Z usbarb[2098603]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:02:37Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 10
+2001-01-01T00:02:37Z usbarb[2098603]: USBArb: new client D2717D1CB0 created, socket 10 added to poll queue
+2001-01-01T00:02:37Z usbarb[2098603]: USBArb: Client 2098864 connected (version: 7)
+2001-11-15T01:01:32Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 11
+2001-11-15T01:01:32Z usbarb[2098603]: USBArb: new client D2717D1D50 created, socket 11 added to poll queue
+2001-11-15T01:01:32Z usbarb[2098603]: USBArb: Client 2099724 connected (version: 7)
+2001-11-15T01:01:42Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 12
+2001-11-15T01:01:42Z usbarb[2098603]: USBArb: new client D2717D1E50 created, socket 12 added to poll queue
+2001-11-15T01:01:42Z usbarb[2098603]: USBArb: Client 2099867 connected (version: 7)
+2001-11-15T01:04:22Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 13
+2001-11-15T01:04:22Z usbarb[2098603]: USBArb: new client D2717D1F50 created, socket 13 added to poll queue
+2001-11-15T01:04:22Z usbarb[2098603]: USBArb: Client 2100235 connected (version: 7)
+2001-11-15T02:02:53Z usbarb[2098603]: USBArb: pipe 12 closed by client D2B29EAF90
+2001-11-15T02:02:53Z usbarb[2098603]: USBArb: removing client D2717D1E50: pid=2099867, pipe=12
+2001-11-15T02:02:53Z usbarb[2098603]: USBArb: Client 2099867 disconnected
+2001-11-15T03:04:42Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 12
+2001-11-15T03:04:42Z usbarb[2098603]: USBArb: new client D2717D1E50 created, socket 12 added to poll queue
+2001-11-15T03:04:42Z usbarb[2098603]: USBArb: Client 2103479 connected (version: 7)
+2001-11-15T03:08:41Z usbarb[2098603]: USBArb: pipe 11 closed by client D2B29EAF90
+2001-11-15T03:08:41Z usbarb[2098603]: USBArb: removing client D2717D1D50: pid=2099724, pipe=11
+2001-11-15T03:08:41Z usbarb[2098603]: USBArb: Client 2099724 disconnected
+2001-11-15T03:09:37Z usbarb[2098603]: USBArb: pipe 12 closed by client D2B29EAF90
+2001-11-15T03:09:37Z usbarb[2098603]: USBArb: removing client D2717D1E50: pid=2103479, pipe=12
+2001-11-15T03:09:37Z usbarb[2098603]: USBArb: Client 2103479 disconnected
+2001-11-15T03:12:07Z usbarb[2098603]: USBArb: pipe 13 closed by client D2B29EAF90
+2001-11-15T03:12:07Z usbarb[2098603]: USBArb: removing client D2717D1F50: pid=2100235, pipe=13
+2001-11-15T03:12:07Z usbarb[2098603]: USBArb: Client 2100235 disconnected
+2001-11-15T03:14:29Z usbarb[2098603]: USBArb: pipe 10 closed by client D2B29EAF90
+2001-11-15T03:14:29Z usbarb[2098603]: USBArb: removing client D2717D1CB0: pid=2098864, pipe=10
+2001-11-15T03:14:29Z usbarb[2098603]: USBArb: Client 2098864 disconnected
+2001-11-15T03:14:31Z usbarb[2098603]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:02:22Z usbarb[2098603]: VTHREAD 471340746304 "usbArb" wid 2098603
+2001-01-01T00:02:22Z usbarb[2098603]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:22Z usbarb[2098603]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2001-01-01T00:02:22Z usbarb[2098603]: DICT --- NON PERSISTENT (null)
+2001-01-01T00:02:22Z usbarb[2098603]: DICT --- HOST DEFAULTS /etc/vmware/config
+2001-01-01T00:02:22Z usbarb[2098603]: DICT                    libdir = "/usr/lib/vmware"
+2001-01-01T00:02:22Z usbarb[2098603]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2001-01-01T00:02:22Z usbarb[2098603]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2001-01-01T00:02:22Z usbarb[2098603]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2001-01-01T00:02:22Z usbarb[2098603]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2001-01-01T00:02:22Z usbarb[2098603]: DICT            authd.fullpath = "/sbin/authd"
+2001-01-01T00:02:22Z usbarb[2098603]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2001-01-01T00:02:22Z usbarb[2098603]: VMware USB Arbitration Service Version 17.2.1
+2001-01-01T00:02:22Z usbarb[2098603]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2001-01-01T00:02:22Z usbarb[2098603]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2001-01-01T00:02:22Z usbarb[2098603]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2001-01-01T00:02:22Z usbarb[2098603]: SOCKET connect failed, error 2: No such file or directory
+2001-01-01T00:02:22Z usbarb[2098603]: USBArb: Failed to connect to the existing arbitrator.
+2001-01-01T00:02:22Z usbarb[2098603]: USBArb: listening socket 9 created successfully
+2001-01-01T00:02:22Z usbarb[2098603]: USBArb: adding listening socket 9 to poll queue
+2001-01-01T00:02:22Z usbarb[2098603]: USBGL: usb device change detected: start enumeration.
+2001-01-01T00:02:34Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 10
+2001-01-01T00:02:34Z usbarb[2098603]: USBArb: new client 6D7BB12CB0 created, socket 10 added to poll queue
+2001-01-01T00:02:34Z usbarb[2098603]: USBArb: Client 2098864 connected (version: 7)
+2001-11-15T00:18:52Z usbarb[2098603]: USBArb: pipe 10 closed by client 6DBCD2BF90
+2001-11-15T00:18:52Z usbarb[2098603]: USBArb: removing client 6D7BB12CB0: pid=2098864, pipe=10
+2001-11-15T00:18:52Z usbarb[2098603]: USBArb: Client 2098864 disconnected
+2001-11-15T00:18:54Z usbarb[2098603]: USBGL: usb device change detected: start enumeration.
+2025-11-15T00:22:57Z usbarb[2098603]: VTHREAD 143673378368 "usbArb" wid 2098603
+2025-11-15T00:22:57Z usbarb[2098603]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-15T00:22:57Z usbarb[2098603]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2025-11-15T00:22:57Z usbarb[2098603]: DICT --- NON PERSISTENT (null)
+2025-11-15T00:22:57Z usbarb[2098603]: DICT --- HOST DEFAULTS /etc/vmware/config
+2025-11-15T00:22:57Z usbarb[2098603]: DICT                    libdir = "/usr/lib/vmware"
+2025-11-15T00:22:57Z usbarb[2098603]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2025-11-15T00:22:57Z usbarb[2098603]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2025-11-15T00:22:57Z usbarb[2098603]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2025-11-15T00:22:57Z usbarb[2098603]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2025-11-15T00:22:57Z usbarb[2098603]: DICT            authd.fullpath = "/sbin/authd"
+2025-11-15T00:22:57Z usbarb[2098603]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2025-11-15T00:22:57Z usbarb[2098603]: VMware USB Arbitration Service Version 17.2.1
+2025-11-15T00:22:57Z usbarb[2098603]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2025-11-15T00:22:57Z usbarb[2098603]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2025-11-15T00:22:57Z usbarb[2098603]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2025-11-15T00:22:57Z usbarb[2098603]: SOCKET connect failed, error 2: No such file or directory
+2025-11-15T00:22:57Z usbarb[2098603]: USBArb: Failed to connect to the existing arbitrator.
+2025-11-15T00:22:57Z usbarb[2098603]: USBArb: listening socket 9 created successfully
+2025-11-15T00:22:57Z usbarb[2098603]: USBArb: adding listening socket 9 to poll queue
+2025-11-15T00:22:57Z usbarb[2098603]: USBGL: usb device change detected: start enumeration.
+2025-11-15T00:23:10Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 10
+2025-11-15T00:23:10Z usbarb[2098603]: USBArb: new client 213131ECB0 created, socket 10 added to poll queue
+2025-11-15T00:23:10Z usbarb[2098603]: USBArb: Client 2098866 connected (version: 7)
+2025-11-15T01:12:42Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 11
+2025-11-15T01:12:42Z usbarb[2098603]: USBArb: new client 213131ED50 created, socket 11 added to poll queue
+2025-11-15T01:12:42Z usbarb[2098603]: USBArb: Client 2099989 connected (version: 7)
+2025-11-15T01:43:17Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 12
+2025-11-15T01:43:17Z usbarb[2098603]: USBArb: new client 213131EE50 created, socket 12 added to poll queue
+2025-11-15T01:43:17Z usbarb[2098603]: USBArb: Client 2100713 connected (version: 7)
+2025-11-15T02:05:52Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 13
+2025-11-15T02:05:52Z usbarb[2098603]: USBArb: new client 213131EF50 created, socket 13 added to poll queue
+2025-11-15T02:05:52Z usbarb[2098603]: USBArb: Client 2101118 connected (version: 7)
+2025-11-15T02:44:27Z usbarb[2098603]: USBArb: pipe 12 closed by client 2172537F90
+2025-11-15T02:44:27Z usbarb[2098603]: USBArb: removing client 213131EE50: pid=2100713, pipe=12
+2025-11-15T02:44:27Z usbarb[2098603]: USBArb: Client 2100713 disconnected
+2025-11-15T02:48:40Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 12
+2025-11-15T02:48:40Z usbarb[2098603]: USBArb: new client 213131EE50 created, socket 12 added to poll queue
+2025-11-15T02:48:40Z usbarb[2098603]: USBArb: Client 2101696 connected (version: 7)
+2025-11-15T02:55:55Z usbarb[2098603]: USBArb: pipe 11 closed by client 2172537F90
+2025-11-15T02:55:55Z usbarb[2098603]: USBArb: removing client 213131ED50: pid=2099989, pipe=11
+2025-11-15T02:55:55Z usbarb[2098603]: USBArb: Client 2099989 disconnected
+2025-11-15T02:56:19Z usbarb[2098603]: USBArb: pipe 13 closed by client 2172537F90
+2025-11-15T02:56:19Z usbarb[2098603]: USBArb: removing client 213131EF50: pid=2101118, pipe=13
+2025-11-15T02:56:19Z usbarb[2098603]: USBArb: Client 2101118 disconnected
+2025-11-15T03:02:25Z usbarb[2098603]: USBArb: pipe 12 closed by client 2172537F90
+2025-11-15T03:02:25Z usbarb[2098603]: USBArb: removing client 213131EE50: pid=2101696, pipe=12
+2025-11-15T03:02:25Z usbarb[2098603]: USBArb: Client 2101696 disconnected
+2025-11-15T03:02:45Z usbarb[2098603]: USBArb: pipe 10 closed by client 2172537F90
+2025-11-15T03:02:45Z usbarb[2098603]: USBArb: removing client 213131ECB0: pid=2098866, pipe=10
+2025-11-15T03:02:45Z usbarb[2098603]: USBArb: Client 2098866 disconnected
+2025-11-15T03:02:48Z usbarb[2098603]: USBGL: usb device change detected: start enumeration.
+2025-11-15T06:06:57Z usbarb[2098603]: VTHREAD 707231888960 "usbArb" wid 2098603
+2025-11-15T06:06:57Z usbarb[2098603]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-15T06:06:57Z usbarb[2098603]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2025-11-15T06:06:57Z usbarb[2098603]: DICT --- NON PERSISTENT (null)
+2025-11-15T06:06:57Z usbarb[2098603]: DICT --- HOST DEFAULTS /etc/vmware/config
+2025-11-15T06:06:57Z usbarb[2098603]: DICT                    libdir = "/usr/lib/vmware"
+2025-11-15T06:06:57Z usbarb[2098603]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2025-11-15T06:06:57Z usbarb[2098603]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2025-11-15T06:06:57Z usbarb[2098603]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2025-11-15T06:06:57Z usbarb[2098603]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2025-11-15T06:06:57Z usbarb[2098603]: DICT            authd.fullpath = "/sbin/authd"
+2025-11-15T06:06:57Z usbarb[2098603]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2025-11-15T06:06:57Z usbarb[2098603]: VMware USB Arbitration Service Version 17.2.1
+2025-11-15T06:06:57Z usbarb[2098603]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2025-11-15T06:06:57Z usbarb[2098603]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2025-11-15T06:06:57Z usbarb[2098603]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2025-11-15T06:06:57Z usbarb[2098603]: SOCKET connect failed, error 2: No such file or directory
+2025-11-15T06:06:57Z usbarb[2098603]: USBArb: Failed to connect to the existing arbitrator.
+2025-11-15T06:06:57Z usbarb[2098603]: USBArb: listening socket 9 created successfully
+2025-11-15T06:06:57Z usbarb[2098603]: USBArb: adding listening socket 9 to poll queue
+2025-11-15T06:06:57Z usbarb[2098603]: USBGL: usb device change detected: start enumeration.
+2025-11-15T06:07:10Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 10
+2025-11-15T06:07:10Z usbarb[2098603]: USBArb: new client A467E65CB0 created, socket 10 added to poll queue
+2025-11-15T06:07:10Z usbarb[2098603]: USBArb: Client 2098864 connected (version: 7)
+2025-11-15T06:18:59Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 11
+2025-11-15T06:18:59Z usbarb[2098603]: USBArb: new client A467E65D50 created, socket 11 added to poll queue
+2025-11-15T06:18:59Z usbarb[2098603]: USBArb: Client 2099679 connected (version: 7)
+2025-11-15T06:19:16Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 12
+2025-11-15T06:19:16Z usbarb[2098603]: USBArb: new client A467E65E50 created, socket 12 added to poll queue
+2025-11-15T06:19:16Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 13
+2025-11-15T06:19:16Z usbarb[2098603]: USBArb: new client A467E65F50 created, socket 13 added to poll queue
+2025-11-15T06:19:16Z usbarb[2098603]: USBArb: Client 2099853 connected (version: 7)
+2025-11-15T06:19:16Z usbarb[2098603]: USBArb: Client 2099854 connected (version: 7)
+2025-11-15T08:26:53Z usbarb[2098603]: USBArb: pipe 13 closed by client A4A907EF90
+2025-11-15T08:26:53Z usbarb[2098603]: USBArb: removing client A467E65F50: pid=2099854, pipe=13
+2025-11-15T08:26:53Z usbarb[2098603]: USBArb: Client 2099854 disconnected
+2025-11-15T08:27:23Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 13
+2025-11-15T08:27:23Z usbarb[2098603]: USBArb: new client A467E65F50 created, socket 13 added to poll queue
+2025-11-15T08:27:23Z usbarb[2098603]: USBArb: Client 2101586 connected (version: 7)
+2025-11-15T08:43:09Z usbarb[2098603]: USBArb: pipe 13 closed by client A4A907EF90
+2025-11-15T08:43:09Z usbarb[2098603]: USBArb: removing client A467E65F50: pid=2101586, pipe=13
+2025-11-15T08:43:09Z usbarb[2098603]: USBArb: Client 2101586 disconnected
+2025-11-15T08:47:27Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 13
+2025-11-15T08:47:27Z usbarb[2098603]: USBArb: new client A467E65F50 created, socket 13 added to poll queue
+2025-11-15T08:47:27Z usbarb[2098603]: USBArb: Client 2101947 connected (version: 7)
+2025-11-15T08:47:29Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 14
+2025-11-15T08:47:29Z usbarb[2098603]: USBArb: new client A467E66050 created, socket 14 added to poll queue
+2025-11-15T08:47:30Z usbarb[2098603]: USBArb: Client 2101952 connected (version: 7)
+2025-11-15T08:47:36Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 15
+2025-11-15T08:47:36Z usbarb[2098603]: USBArb: new client A467E66150 created, socket 15 added to poll queue
+2025-11-15T08:47:36Z usbarb[2098603]: USBArb: Client 2102091 connected (version: 7)
+2025-11-15T08:58:34Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 16
+2025-11-15T08:58:34Z usbarb[2098603]: USBArb: new client A467E66250 created, socket 16 added to poll queue
+2025-11-15T08:58:34Z usbarb[2098603]: USBArb: Client 2102453 connected (version: 7)
+2025-11-15T09:21:15Z usbarb[2098603]: USBArb: pipe 16 closed by client A4A907EF90
+2025-11-15T09:21:15Z usbarb[2098603]: USBArb: removing client A467E66250: pid=2102453, pipe=16
+2025-11-15T09:21:15Z usbarb[2098603]: USBArb: Client 2102453 disconnected
+2025-11-15T09:23:38Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 16
+2025-11-15T09:23:38Z usbarb[2098603]: USBArb: new client A467E66250 created, socket 16 added to poll queue
+2025-11-15T09:23:38Z usbarb[2098603]: USBArb: Client 2102995 connected (version: 7)
+2025-11-15T09:30:18Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 17
+2025-11-15T09:30:18Z usbarb[2098603]: USBArb: new client A467E66350 created, socket 17 added to poll queue
+2025-11-15T09:30:18Z usbarb[2098603]: USBArb: Client 2103166 connected (version: 7)
+2025-11-15T09:34:59Z usbarb[2098603]: USBArb: pipe 16 closed by client A4A907EF90
+2025-11-15T09:34:59Z usbarb[2098603]: USBArb: removing client A467E66250: pid=2102995, pipe=16
+2025-11-15T09:34:59Z usbarb[2098603]: USBArb: Client 2102995 disconnected
+2025-11-15T09:35:06Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 16
+2025-11-15T09:35:06Z usbarb[2098603]: USBArb: new client A467E66250 created, socket 16 added to poll queue
+2025-11-15T09:35:06Z usbarb[2098603]: USBArb: Client 2103452 connected (version: 7)
+2025-11-15T09:45:21Z usbarb[2098603]: USBArb: pipe 16 closed by client A4A907EF90
+2025-11-15T09:45:21Z usbarb[2098603]: USBArb: removing client A467E66250: pid=2103452, pipe=16
+2025-11-15T09:45:21Z usbarb[2098603]: USBArb: Client 2103452 disconnected
+2025-11-15T09:45:28Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 16
+2025-11-15T09:45:28Z usbarb[2098603]: USBArb: new client A467E66250 created, socket 16 added to poll queue
+2025-11-15T09:45:28Z usbarb[2098603]: USBArb: Client 2103632 connected (version: 7)
+2025-11-15T10:40:50Z usbarb[2098603]: USBArb: pipe 12 closed by client A4A907EF90
+2025-11-15T10:40:50Z usbarb[2098603]: USBArb: removing client A467E65E50: pid=2099853, pipe=12
+2025-11-15T10:40:50Z usbarb[2098603]: USBArb: Client 2099853 disconnected
+2025-11-15T10:43:36Z usbarb[2098603]: USBArb: pipe 17 closed by client A4A907EF90
+2025-11-15T10:43:36Z usbarb[2098603]: USBArb: removing client A467E66350: pid=2103166, pipe=17
+2025-11-15T10:43:36Z usbarb[2098603]: USBArb: Client 2103166 disconnected
+2025-11-15T10:43:41Z usbarb[2098603]: USBArb: pipe 11 closed by client A4A907EF90
+2025-11-15T10:43:41Z usbarb[2098603]: USBArb: removing client A467E65D50: pid=2099679, pipe=11
+2025-11-15T10:43:41Z usbarb[2098603]: USBArb: Client 2099679 disconnected
+2025-11-15T10:43:42Z usbarb[2098603]: USBArb: pipe 13 closed by client A4A907EF90
+2025-11-15T10:43:42Z usbarb[2098603]: USBArb: removing client A467E65F50: pid=2101947, pipe=13
+2025-11-15T10:43:42Z usbarb[2098603]: USBArb: Client 2101947 disconnected
+2025-11-15T10:43:42Z usbarb[2098603]: USBArb: pipe 14 closed by client A4A907EF90
+2025-11-15T10:43:42Z usbarb[2098603]: USBArb: removing client A467E66050: pid=2101952, pipe=14
+2025-11-15T10:43:42Z usbarb[2098603]: USBArb: Client 2101952 disconnected
+2025-11-15T10:43:42Z usbarb[2098603]: USBArb: pipe 15 closed by client A4A907EF90
+2025-11-15T10:43:42Z usbarb[2098603]: USBArb: removing client A467E66150: pid=2102091, pipe=15
+2025-11-15T10:43:42Z usbarb[2098603]: USBArb: Client 2102091 disconnected
+2025-11-15T10:43:57Z usbarb[2098603]: USBArb: pipe 16 closed by client A4A907EF90
+2025-11-15T10:43:57Z usbarb[2098603]: USBArb: removing client A467E66250: pid=2103632, pipe=16
+2025-11-15T10:43:57Z usbarb[2098603]: USBArb: Client 2103632 disconnected
+2025-11-15T10:45:52Z usbarb[2098603]: USBArb: pipe 10 closed by client A4A907EF90
+2025-11-15T10:45:52Z usbarb[2098603]: USBArb: removing client A467E65CB0: pid=2098864, pipe=10
+2025-11-15T10:45:52Z usbarb[2098603]: USBArb: Client 2098864 disconnected
+2025-11-15T10:45:54Z usbarb[2098603]: USBGL: usb device change detected: start enumeration.
+2025-11-15T20:03:25Z usbarb[2098603]: VTHREAD 378378872384 "usbArb" wid 2098603
+2025-11-15T20:03:25Z usbarb[2098603]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-15T20:03:25Z usbarb[2098603]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2025-11-15T20:03:25Z usbarb[2098603]: DICT --- NON PERSISTENT (null)
+2025-11-15T20:03:25Z usbarb[2098603]: DICT --- HOST DEFAULTS /etc/vmware/config
+2025-11-15T20:03:25Z usbarb[2098603]: DICT                    libdir = "/usr/lib/vmware"
+2025-11-15T20:03:25Z usbarb[2098603]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2025-11-15T20:03:25Z usbarb[2098603]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2025-11-15T20:03:25Z usbarb[2098603]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2025-11-15T20:03:25Z usbarb[2098603]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2025-11-15T20:03:25Z usbarb[2098603]: DICT            authd.fullpath = "/sbin/authd"
+2025-11-15T20:03:25Z usbarb[2098603]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2025-11-15T20:03:25Z usbarb[2098603]: VMware USB Arbitration Service Version 17.2.1
+2025-11-15T20:03:25Z usbarb[2098603]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2025-11-15T20:03:25Z usbarb[2098603]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2025-11-15T20:03:25Z usbarb[2098603]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2025-11-15T20:03:25Z usbarb[2098603]: SOCKET connect failed, error 2: No such file or directory
+2025-11-15T20:03:25Z usbarb[2098603]: USBArb: Failed to connect to the existing arbitrator.
+2025-11-15T20:03:25Z usbarb[2098603]: USBArb: listening socket 9 created successfully
+2025-11-15T20:03:25Z usbarb[2098603]: USBArb: adding listening socket 9 to poll queue
+2025-11-15T20:03:25Z usbarb[2098603]: USBGL: usb device change detected: start enumeration.
+2025-11-15T20:03:39Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 10
+2025-11-15T20:03:39Z usbarb[2098603]: USBArb: new client 57D6BB8CB0 created, socket 10 added to poll queue
+2025-11-15T20:03:39Z usbarb[2098603]: USBArb: Client 2098864 connected (version: 7)
+2025-11-15T20:08:29Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 11
+2025-11-15T20:08:29Z usbarb[2098603]: USBArb: new client 57D6BB8D50 created, socket 11 added to poll queue
+2025-11-15T20:08:29Z usbarb[2098603]: USBArb: Client 2099643 connected (version: 7)
+2025-11-15T20:08:31Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 12
+2025-11-15T20:08:31Z usbarb[2098603]: USBArb: new client 57D6BB8E50 created, socket 12 added to poll queue
+2025-11-15T20:08:31Z usbarb[2098603]: USBArb: Client 2099656 connected (version: 7)
+2025-11-15T20:09:37Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 13
+2025-11-15T20:09:37Z usbarb[2098603]: USBArb: new client 57D6BB8F50 created, socket 13 added to poll queue
+2025-11-15T20:09:37Z usbarb[2098603]: USBArb: Client 2099800 connected (version: 7)
+2025-11-15T20:17:16Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 14
+2025-11-15T20:17:16Z usbarb[2098603]: USBArb: new client 57D6BB8FF0 created, socket 14 added to poll queue
+2025-11-15T20:17:16Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 15
+2025-11-15T20:17:16Z usbarb[2098603]: USBArb: new client 57D6BB90F0 created, socket 15 added to poll queue
+2025-11-15T20:17:16Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 16
+2025-11-15T20:17:16Z usbarb[2098603]: USBArb: new client 57D6BB91F0 created, socket 16 added to poll queue
+2025-11-15T20:17:16Z usbarb[2098603]: USBArb: Client 2100001 connected (version: 7)
+2025-11-15T20:17:16Z usbarb[2098603]: USBArb: Client 2100002 connected (version: 7)
+2025-11-15T20:17:16Z usbarb[2098603]: USBArb: Client 2100003 connected (version: 7)
+2025-11-15T20:26:18Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 17
+2025-11-15T20:26:18Z usbarb[2098603]: USBArb: new client 57D6BB92F0 created, socket 17 added to poll queue
+2025-11-15T20:26:18Z usbarb[2098603]: USBArb: Client 2100200 connected (version: 7)
+2025-11-15T21:48:28Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 18
+2025-11-15T21:48:28Z usbarb[2098603]: USBArb: new client 57D6BB9410 created, socket 18 added to poll queue
+2025-11-15T21:48:28Z usbarb[2098603]: USBArb: Client 2101862 connected (version: 7)
+2025-11-15T21:48:32Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 19
+2025-11-15T21:48:32Z usbarb[2098603]: USBArb: new client 57D6BB9530 created, socket 19 added to poll queue
+2025-11-15T21:48:32Z usbarb[2098603]: USBArb: Client 2101875 connected (version: 7)
+2025-11-16T00:53:17Z usbarb[2098603]: USBArb: pipe 11 closed by client 5817DD1F90
+2025-11-16T00:53:17Z usbarb[2098603]: USBArb: removing client 57D6BB8D50: pid=2099643, pipe=11
+2025-11-16T00:53:17Z usbarb[2098603]: USBArb: Client 2099643 disconnected
+2025-11-16T00:53:21Z usbarb[2098603]: USBArb: pipe 12 closed by client 5817DD1F90
+2025-11-16T00:53:21Z usbarb[2098603]: USBArb: removing client 57D6BB8E50: pid=2099656, pipe=12
+2025-11-16T00:53:21Z usbarb[2098603]: USBArb: Client 2099656 disconnected
+2025-11-16T00:53:22Z usbarb[2098603]: USBArb: pipe 18 closed by client 5817DD1F90
+2025-11-16T00:53:22Z usbarb[2098603]: USBArb: removing client 57D6BB9410: pid=2101862, pipe=18
+2025-11-16T00:53:22Z usbarb[2098603]: USBArb: Client 2101862 disconnected
+2025-11-16T00:53:23Z usbarb[2098603]: USBArb: pipe 14 closed by client 5817DD1F90
+2025-11-16T00:53:23Z usbarb[2098603]: USBArb: removing client 57D6BB8FF0: pid=2100001, pipe=14
+2025-11-16T00:53:23Z usbarb[2098603]: USBArb: Client 2100001 disconnected
+2025-11-16T00:53:23Z usbarb[2098603]: USBArb: pipe 15 closed by client 5817DD1F90
+2025-11-16T00:53:23Z usbarb[2098603]: USBArb: removing client 57D6BB90F0: pid=2100002, pipe=15
+2025-11-16T00:53:23Z usbarb[2098603]: USBArb: Client 2100002 disconnected
+2025-11-16T00:53:23Z usbarb[2098603]: USBArb: pipe 16 closed by client 5817DD1F90
+2025-11-16T00:53:23Z usbarb[2098603]: USBArb: removing client 57D6BB91F0: pid=2100003, pipe=16
+2025-11-16T00:53:23Z usbarb[2098603]: USBArb: Client 2100003 disconnected
+2025-11-16T00:53:24Z usbarb[2098603]: USBArb: pipe 19 closed by client 5817DD1F90
+2025-11-16T00:53:24Z usbarb[2098603]: USBArb: removing client 57D6BB9530: pid=2101875, pipe=19
+2025-11-16T00:53:24Z usbarb[2098603]: USBArb: Client 2101875 disconnected
+2025-11-16T00:53:33Z usbarb[2098603]: USBArb: pipe 13 closed by client 5817DD1F90
+2025-11-16T00:53:33Z usbarb[2098603]: USBArb: removing client 57D6BB8F50: pid=2099800, pipe=13
+2025-11-16T00:53:33Z usbarb[2098603]: USBArb: Client 2099800 disconnected
+2025-11-16T00:53:40Z usbarb[2098603]: USBArb: pipe 17 closed by client 5817DD1F90
+2025-11-16T00:53:40Z usbarb[2098603]: USBArb: removing client 57D6BB92F0: pid=2100200, pipe=17
+2025-11-16T00:53:40Z usbarb[2098603]: USBArb: Client 2100200 disconnected
+2025-11-16T00:59:02Z usbarb[2098603]: USBArb: pipe 10 closed by client 5817DD1F90
+2025-11-16T00:59:02Z usbarb[2098603]: USBArb: removing client 57D6BB8CB0: pid=2098864, pipe=10
+2025-11-16T00:59:02Z usbarb[2098603]: USBArb: Client 2098864 disconnected
+2025-11-16T00:59:04Z usbarb[2098603]: USBGL: usb device change detected: start enumeration.
+2025-11-16T05:14:26Z usbarb[2098604]: VTHREAD 608025110080 "usbArb" wid 2098604
+2025-11-16T05:14:26Z usbarb[2098604]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-16T05:14:26Z usbarb[2098604]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2025-11-16T05:14:26Z usbarb[2098604]: DICT --- NON PERSISTENT (null)
+2025-11-16T05:14:26Z usbarb[2098604]: DICT --- HOST DEFAULTS /etc/vmware/config
+2025-11-16T05:14:26Z usbarb[2098604]: DICT                    libdir = "/usr/lib/vmware"
+2025-11-16T05:14:26Z usbarb[2098604]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2025-11-16T05:14:26Z usbarb[2098604]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2025-11-16T05:14:26Z usbarb[2098604]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2025-11-16T05:14:26Z usbarb[2098604]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2025-11-16T05:14:26Z usbarb[2098604]: DICT            authd.fullpath = "/sbin/authd"
+2025-11-16T05:14:26Z usbarb[2098604]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2025-11-16T05:14:26Z usbarb[2098604]: VMware USB Arbitration Service Version 17.2.1
+2025-11-16T05:14:26Z usbarb[2098604]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2025-11-16T05:14:26Z usbarb[2098604]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2025-11-16T05:14:26Z usbarb[2098604]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2025-11-16T05:14:26Z usbarb[2098604]: SOCKET connect failed, error 2: No such file or directory
+2025-11-16T05:14:26Z usbarb[2098604]: USBArb: Failed to connect to the existing arbitrator.
+2025-11-16T05:14:26Z usbarb[2098604]: USBArb: listening socket 9 created successfully
+2025-11-16T05:14:26Z usbarb[2098604]: USBArb: adding listening socket 9 to poll queue
+2025-11-16T05:14:26Z usbarb[2098604]: USBGL: usb device change detected: start enumeration.
+2025-11-16T05:14:39Z usbarb[2098604]: USBArb: new socket connection estibalished: socket 10
+2025-11-16T05:14:39Z usbarb[2098604]: USBArb: new client 8D4EB70CB0 created, socket 10 added to poll queue
+2025-11-16T05:14:39Z usbarb[2098604]: USBArb: Client 2098864 connected (version: 7)
+2025-11-16T05:22:27Z usbarb[2098604]: USBArb: new socket connection estibalished: socket 11
+2025-11-16T05:22:27Z usbarb[2098604]: USBArb: new client 8D4EB70D50 created, socket 11 added to poll queue
+2025-11-16T05:22:27Z usbarb[2098604]: USBArb: new socket connection estibalished: socket 12
+2025-11-16T05:22:27Z usbarb[2098604]: USBArb: new client 8D4EB70E50 created, socket 12 added to poll queue
+2025-11-16T05:22:27Z usbarb[2098604]: USBArb: Client 2099659 connected (version: 7)
+2025-11-16T05:22:27Z usbarb[2098604]: USBArb: Client 2099660 connected (version: 7)
+2025-11-16T05:44:20Z usbarb[2098604]: USBArb: new socket connection estibalished: socket 13
+2025-11-16T05:44:20Z usbarb[2098604]: USBArb: new client 8D4EB70F50 created, socket 13 added to poll queue
+2025-11-16T05:44:20Z usbarb[2098604]: USBArb: Client 2099908 connected (version: 7)
+2025-11-16T05:46:19Z usbarb[2098604]: USBArb: new socket connection estibalished: socket 14
+2025-11-16T05:46:19Z usbarb[2098604]: USBArb: new client 8D4EB70FF0 created, socket 14 added to poll queue
+2025-11-16T05:46:19Z usbarb[2098604]: USBArb: Client 2100088 connected (version: 7)
+2025-11-16T05:58:44Z usbarb[2098604]: USBArb: new socket connection estibalished: socket 15
+2025-11-16T05:58:44Z usbarb[2098604]: USBArb: new client 8D4EB710F0 created, socket 15 added to poll queue
+2025-11-16T05:58:44Z usbarb[2098604]: USBArb: Client 2100332 connected (version: 7)
+2025-11-16T06:54:00Z usbarb[2098604]: USBArb: pipe 12 closed by client 8D8FD89F90
+2025-11-16T06:54:00Z usbarb[2098604]: USBArb: removing client 8D4EB70E50: pid=2099660, pipe=12
+2025-11-16T06:54:00Z usbarb[2098604]: USBArb: Client 2099660 disconnected
+2025-11-16T06:54:04Z usbarb[2098604]: USBArb: pipe 11 closed by client 8D8FD89F90
+2025-11-16T06:54:04Z usbarb[2098604]: USBArb: removing client 8D4EB70D50: pid=2099659, pipe=11
+2025-11-16T06:54:04Z usbarb[2098604]: USBArb: Client 2099659 disconnected
+2025-11-16T06:54:06Z usbarb[2098604]: USBArb: pipe 15 closed by client 8D8FD89F90
+2025-11-16T06:54:06Z usbarb[2098604]: USBArb: removing client 8D4EB710F0: pid=2100332, pipe=15
+2025-11-16T06:54:06Z usbarb[2098604]: USBArb: Client 2100332 disconnected
+2025-11-16T06:54:12Z usbarb[2098604]: USBArb: pipe 13 closed by client 8D8FD89F90
+2025-11-16T06:54:12Z usbarb[2098604]: USBArb: removing client 8D4EB70F50: pid=2099908, pipe=13
+2025-11-16T06:54:12Z usbarb[2098604]: USBArb: Client 2099908 disconnected
+2025-11-16T06:59:08Z usbarb[2098604]: USBArb: pipe 14 closed by client 8D8FD89F90
+2025-11-16T06:59:08Z usbarb[2098604]: USBArb: removing client 8D4EB70FF0: pid=2100088, pipe=14
+2025-11-16T06:59:08Z usbarb[2098604]: USBArb: Client 2100088 disconnected
+2025-11-16T07:01:15Z usbarb[2098604]: USBArb: pipe 10 closed by client 8D8FD89F90
+2025-11-16T07:01:15Z usbarb[2098604]: USBArb: removing client 8D4EB70CB0: pid=2098864, pipe=10
+2025-11-16T07:01:15Z usbarb[2098604]: USBArb: Client 2098864 disconnected
+2025-11-16T07:01:18Z usbarb[2098604]: USBGL: usb device change detected: start enumeration.
+2025-12-06T23:50:26Z usbarb[2098603]: VTHREAD 265747392064 "usbArb" wid 2098603
+2025-12-06T23:50:26Z usbarb[2098603]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-06T23:50:26Z usbarb[2098603]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2025-12-06T23:50:26Z usbarb[2098603]: DICT --- NON PERSISTENT (null)
+2025-12-06T23:50:26Z usbarb[2098603]: DICT --- HOST DEFAULTS /etc/vmware/config
+2025-12-06T23:50:26Z usbarb[2098603]: DICT                    libdir = "/usr/lib/vmware"
+2025-12-06T23:50:26Z usbarb[2098603]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2025-12-06T23:50:26Z usbarb[2098603]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2025-12-06T23:50:26Z usbarb[2098603]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2025-12-06T23:50:26Z usbarb[2098603]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2025-12-06T23:50:26Z usbarb[2098603]: DICT            authd.fullpath = "/sbin/authd"
+2025-12-06T23:50:26Z usbarb[2098603]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2025-12-06T23:50:26Z usbarb[2098603]: VMware USB Arbitration Service Version 17.2.1
+2025-12-06T23:50:26Z usbarb[2098603]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2025-12-06T23:50:26Z usbarb[2098603]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2025-12-06T23:50:26Z usbarb[2098603]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2025-12-06T23:50:26Z usbarb[2098603]: SOCKET connect failed, error 2: No such file or directory
+2025-12-06T23:50:26Z usbarb[2098603]: USBArb: Failed to connect to the existing arbitrator.
+2025-12-06T23:50:26Z usbarb[2098603]: USBArb: listening socket 9 created successfully
+2025-12-06T23:50:26Z usbarb[2098603]: USBArb: adding listening socket 9 to poll queue
+2025-12-06T23:50:26Z usbarb[2098603]: USBGL: usb device change detected: start enumeration.
+2025-12-06T23:50:39Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 10
+2025-12-06T23:50:39Z usbarb[2098603]: USBArb: new client 3D9D5F8CB0 created, socket 10 added to poll queue
+2025-12-06T23:50:39Z usbarb[2098603]: USBArb: Client 2098864 connected (version: 7)
+2025-12-07T00:36:07Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 11
+2025-12-07T00:36:07Z usbarb[2098603]: USBArb: new client 3D9D5F8D50 created, socket 11 added to poll queue
+2025-12-07T00:36:07Z usbarb[2098603]: USBArb: Client 2099927 connected (version: 7)
+2025-12-07T00:36:32Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 12
+2025-12-07T00:36:32Z usbarb[2098603]: USBArb: new client 3D9D5F8E50 created, socket 12 added to poll queue
+2025-12-07T00:36:32Z usbarb[2098603]: USBArb: Client 2100226 connected (version: 7)
+2025-12-07T00:37:39Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 13
+2025-12-07T00:37:39Z usbarb[2098603]: USBArb: new client 3D9D5F8F50 created, socket 13 added to poll queue
+2025-12-07T00:37:39Z usbarb[2098603]: USBArb: Client 2100399 connected (version: 7)
+2025-12-07T00:40:09Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 14
+2025-12-07T00:40:09Z usbarb[2098603]: USBArb: new client 3D9D5F8FF0 created, socket 14 added to poll queue
+2025-12-07T00:40:09Z usbarb[2098603]: USBArb: Client 2100584 connected (version: 7)
+2025-12-07T08:43:30Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 15
+2025-12-07T08:43:30Z usbarb[2098603]: USBArb: new client 3D9D5F90F0 created, socket 15 added to poll queue
+2025-12-07T08:43:30Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 16
+2025-12-07T08:43:30Z usbarb[2098603]: USBArb: new client 3D9D5F91F0 created, socket 16 added to poll queue
+2025-12-07T08:43:30Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 17
+2025-12-07T08:43:30Z usbarb[2098603]: USBArb: new client 3D9D5F92F0 created, socket 17 added to poll queue
+2025-12-07T08:43:30Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 18
+2025-12-07T08:43:30Z usbarb[2098603]: USBArb: new client 3D9D5F93F0 created, socket 18 added to poll queue
+2025-12-07T08:43:30Z usbarb[2098603]: USBArb: Client 2104859 connected (version: 7)
+2025-12-07T08:43:30Z usbarb[2098603]: USBArb: Client 2104861 connected (version: 7)
+2025-12-07T08:43:30Z usbarb[2098603]: USBArb: Client 2104860 connected (version: 7)
+2025-12-07T08:43:30Z usbarb[2098603]: USBArb: Client 2104858 connected (version: 7)
+2025-12-07T09:29:13Z usbarb[2098603]: USBArb: pipe 11 closed by client 3DDE811F90
+2025-12-07T09:29:13Z usbarb[2098603]: USBArb: removing client 3D9D5F8D50: pid=2099927, pipe=11
+2025-12-07T09:29:13Z usbarb[2098603]: USBArb: Client 2099927 disconnected
+2025-12-07T09:29:13Z usbarb[2098603]: USBArb: pipe 14 closed by client 3DDE811F90
+2025-12-07T09:29:13Z usbarb[2098603]: USBArb: removing client 3D9D5F8FF0: pid=2100584, pipe=14
+2025-12-07T09:29:13Z usbarb[2098603]: USBArb: Client 2100584 disconnected
+2025-12-07T09:29:18Z usbarb[2098603]: USBArb: pipe 17 closed by client 3DDE811F90
+2025-12-07T09:29:18Z usbarb[2098603]: USBArb: removing client 3D9D5F92F0: pid=2104860, pipe=17
+2025-12-07T09:29:18Z usbarb[2098603]: USBArb: Client 2104860 disconnected
+2025-12-07T09:29:19Z usbarb[2098603]: USBArb: pipe 15 closed by client 3DDE811F90
+2025-12-07T09:29:19Z usbarb[2098603]: USBArb: removing client 3D9D5F90F0: pid=2104859, pipe=15
+2025-12-07T09:29:19Z usbarb[2098603]: USBArb: Client 2104859 disconnected
+2025-12-07T09:29:19Z usbarb[2098603]: USBArb: pipe 16 closed by client 3DDE811F90
+2025-12-07T09:29:19Z usbarb[2098603]: USBArb: removing client 3D9D5F91F0: pid=2104861, pipe=16
+2025-12-07T09:29:19Z usbarb[2098603]: USBArb: Client 2104861 disconnected
+2025-12-07T09:29:19Z usbarb[2098603]: USBArb: pipe 18 closed by client 3DDE811F90
+2025-12-07T09:29:19Z usbarb[2098603]: USBArb: removing client 3D9D5F93F0: pid=2104858, pipe=18
+2025-12-07T09:29:19Z usbarb[2098603]: USBArb: Client 2104858 disconnected
+2025-12-07T09:29:20Z usbarb[2098603]: USBArb: pipe 13 closed by client 3DDE811F90
+2025-12-07T09:29:20Z usbarb[2098603]: USBArb: removing client 3D9D5F8F50: pid=2100399, pipe=13
+2025-12-07T09:29:20Z usbarb[2098603]: USBArb: Client 2100399 disconnected
+2025-12-07T09:29:24Z usbarb[2098603]: USBArb: pipe 12 closed by client 3DDE811F90
+2025-12-07T09:29:24Z usbarb[2098603]: USBArb: removing client 3D9D5F8E50: pid=2100226, pipe=12
+2025-12-07T09:29:24Z usbarb[2098603]: USBArb: Client 2100226 disconnected
+2025-12-07T09:30:21Z usbarb[2098603]: USBArb: pipe 10 closed by client 3DDE811F90
+2025-12-07T09:30:21Z usbarb[2098603]: USBArb: removing client 3D9D5F8CB0: pid=2098864, pipe=10
+2025-12-07T09:30:21Z usbarb[2098603]: USBArb: Client 2098864 disconnected
+2025-12-07T09:30:23Z usbarb[2098603]: USBGL: usb device change detected: start enumeration.
+2025-12-08T11:31:35Z usbarb[2098603]: VTHREAD 627619251776 "usbArb" wid 2098603
+2025-12-08T11:31:35Z usbarb[2098603]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-08T11:31:35Z usbarb[2098603]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2025-12-08T11:31:35Z usbarb[2098603]: DICT --- NON PERSISTENT (null)
+2025-12-08T11:31:35Z usbarb[2098603]: DICT --- HOST DEFAULTS /etc/vmware/config
+2025-12-08T11:31:35Z usbarb[2098603]: DICT                    libdir = "/usr/lib/vmware"
+2025-12-08T11:31:35Z usbarb[2098603]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2025-12-08T11:31:35Z usbarb[2098603]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2025-12-08T11:31:35Z usbarb[2098603]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2025-12-08T11:31:35Z usbarb[2098603]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2025-12-08T11:31:35Z usbarb[2098603]: DICT            authd.fullpath = "/sbin/authd"
+2025-12-08T11:31:35Z usbarb[2098603]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2025-12-08T11:31:35Z usbarb[2098603]: VMware USB Arbitration Service Version 17.2.1
+2025-12-08T11:31:35Z usbarb[2098603]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2025-12-08T11:31:35Z usbarb[2098603]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2025-12-08T11:31:35Z usbarb[2098603]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2025-12-08T11:31:35Z usbarb[2098603]: SOCKET connect failed, error 2: No such file or directory
+2025-12-08T11:31:35Z usbarb[2098603]: USBArb: Failed to connect to the existing arbitrator.
+2025-12-08T11:31:35Z usbarb[2098603]: USBArb: listening socket 9 created successfully
+2025-12-08T11:31:35Z usbarb[2098603]: USBArb: adding listening socket 9 to poll queue
+2025-12-08T11:31:35Z usbarb[2098603]: USBGL: usb device change detected: start enumeration.
+2025-12-08T11:31:48Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 10
+2025-12-08T11:31:48Z usbarb[2098603]: USBArb: new client 91DE9DECB0 created, socket 10 added to poll queue
+2025-12-08T11:31:48Z usbarb[2098603]: USBArb: Client 2098864 connected (version: 7)
+2025-12-08T11:39:40Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 11
+2025-12-08T11:39:40Z usbarb[2098603]: USBArb: new client 91DE9DED50 created, socket 11 added to poll queue
+2025-12-08T11:39:40Z usbarb[2098603]: USBArb: Client 2099649 connected (version: 7)
+2025-12-08T11:40:24Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 12
+2025-12-08T11:40:24Z usbarb[2098603]: USBArb: new client 91DE9DEE50 created, socket 12 added to poll queue
+2025-12-08T11:40:24Z usbarb[2098603]: USBArb: Client 2099803 connected (version: 7)
+2025-12-08T11:40:56Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 13
+2025-12-08T11:40:56Z usbarb[2098603]: USBArb: new client 91DE9DEF50 created, socket 13 added to poll queue
+2025-12-08T11:40:57Z usbarb[2098603]: USBArb: Client 2100109 connected (version: 7)
+2025-12-08T12:57:15Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 14
+2025-12-08T12:57:15Z usbarb[2098603]: USBArb: new client 91DE9DEFF0 created, socket 14 added to poll queue
+2025-12-08T12:57:15Z usbarb[2098603]: USBArb: Client 2101028 connected (version: 7)
+2025-12-08T13:33:36Z usbarb[2098603]: USBArb: pipe 13 closed by client 921FBF7F90
+2025-12-08T13:33:36Z usbarb[2098603]: USBArb: removing client 91DE9DEF50: pid=2100109, pipe=13
+2025-12-08T13:33:36Z usbarb[2098603]: USBArb: Client 2100109 disconnected
+2025-12-08T13:33:42Z usbarb[2098603]: USBArb: pipe 11 closed by client 921FBF7F90
+2025-12-08T13:33:42Z usbarb[2098603]: USBArb: removing client 91DE9DED50: pid=2099649, pipe=11
+2025-12-08T13:33:42Z usbarb[2098603]: USBArb: Client 2099649 disconnected
+2025-12-08T13:33:47Z usbarb[2098603]: USBArb: pipe 14 closed by client 921FBF7F90
+2025-12-08T13:33:47Z usbarb[2098603]: USBArb: removing client 91DE9DEFF0: pid=2101028, pipe=14
+2025-12-08T13:33:47Z usbarb[2098603]: USBArb: Client 2101028 disconnected
+2025-12-08T13:33:55Z usbarb[2098603]: USBArb: pipe 12 closed by client 921FBF7F90
+2025-12-08T13:33:55Z usbarb[2098603]: USBArb: removing client 91DE9DEE50: pid=2099803, pipe=12
+2025-12-08T13:33:55Z usbarb[2098603]: USBArb: Client 2099803 disconnected
+2025-12-08T13:34:27Z usbarb[2098603]: USBArb: pipe 10 closed by client 921FBF7F90
+2025-12-08T13:34:27Z usbarb[2098603]: USBArb: removing client 91DE9DECB0: pid=2098864, pipe=10
+2025-12-08T13:34:27Z usbarb[2098603]: USBArb: Client 2098864 disconnected
+2025-12-08T13:34:30Z usbarb[2098603]: USBGL: usb device change detected: start enumeration.
+2025-12-08T19:31:20Z usbarb[2098603]: VTHREAD 1095146329664 "usbArb" wid 2098603
+2025-12-08T19:31:20Z usbarb[2098603]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-08T19:31:20Z usbarb[2098603]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2025-12-08T19:31:20Z usbarb[2098603]: DICT --- NON PERSISTENT (null)
+2025-12-08T19:31:20Z usbarb[2098603]: DICT --- HOST DEFAULTS /etc/vmware/config
+2025-12-08T19:31:20Z usbarb[2098603]: DICT                    libdir = "/usr/lib/vmware"
+2025-12-08T19:31:20Z usbarb[2098603]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2025-12-08T19:31:20Z usbarb[2098603]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2025-12-08T19:31:20Z usbarb[2098603]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2025-12-08T19:31:20Z usbarb[2098603]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2025-12-08T19:31:20Z usbarb[2098603]: DICT            authd.fullpath = "/sbin/authd"
+2025-12-08T19:31:20Z usbarb[2098603]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2025-12-08T19:31:20Z usbarb[2098603]: VMware USB Arbitration Service Version 17.2.1
+2025-12-08T19:31:20Z usbarb[2098603]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2025-12-08T19:31:20Z usbarb[2098603]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2025-12-08T19:31:20Z usbarb[2098603]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2025-12-08T19:31:20Z usbarb[2098603]: SOCKET connect failed, error 2: No such file or directory
+2025-12-08T19:31:20Z usbarb[2098603]: USBArb: Failed to connect to the existing arbitrator.
+2025-12-08T19:31:20Z usbarb[2098603]: USBArb: listening socket 9 created successfully
+2025-12-08T19:31:20Z usbarb[2098603]: USBArb: adding listening socket 9 to poll queue
+2025-12-08T19:31:20Z usbarb[2098603]: USBGL: usb device change detected: start enumeration.
+2025-12-08T19:31:33Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 10
+2025-12-08T19:31:33Z usbarb[2098603]: USBArb: new client FEB966FCB0 created, socket 10 added to poll queue
+2025-12-08T19:31:33Z usbarb[2098603]: USBArb: Client 2098864 connected (version: 7)
+2025-12-08T19:33:18Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 11
+2025-12-08T19:33:18Z usbarb[2098603]: USBArb: new client FEB966FD50 created, socket 11 added to poll queue
+2025-12-08T19:33:18Z usbarb[2098603]: USBArb: Client 2099628 connected (version: 7)
+2025-12-08T19:33:33Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 12
+2025-12-08T19:33:33Z usbarb[2098603]: USBArb: new client FEB966FE50 created, socket 12 added to poll queue
+2025-12-08T19:33:33Z usbarb[2098603]: USBArb: Client 2099771 connected (version: 7)
+2025-12-08T19:35:06Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 13
+2025-12-08T19:35:06Z usbarb[2098603]: USBArb: new client FEB966FF50 created, socket 13 added to poll queue
+2025-12-08T19:35:06Z usbarb[2098603]: USBArb: Client 2099927 connected (version: 7)
+2025-12-08T19:36:51Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 14
+2025-12-08T19:36:51Z usbarb[2098603]: USBArb: new client FEB966FFF0 created, socket 14 added to poll queue
+2025-12-08T19:36:51Z usbarb[2098603]: USBArb: Client 2100295 connected (version: 7)
+2025-12-08T19:37:19Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 15
+2025-12-08T19:37:19Z usbarb[2098603]: USBArb: new client FEB96700F0 created, socket 15 added to poll queue
+2025-12-08T19:37:19Z usbarb[2098603]: USBArb: Client 2100438 connected (version: 7)
+2025-12-09T10:54:06Z usbarb[2098603]: USBArb: pipe 11 closed by client FEFA888F90
+2025-12-09T10:54:06Z usbarb[2098603]: USBArb: removing client FEB966FD50: pid=2099628, pipe=11
+2025-12-09T10:54:06Z usbarb[2098603]: USBArb: Client 2099628 disconnected
+2025-12-09T10:54:10Z usbarb[2098603]: USBArb: pipe 12 closed by client FEFA888F90
+2025-12-09T10:54:10Z usbarb[2098603]: USBArb: removing client FEB966FE50: pid=2099771, pipe=12
+2025-12-09T10:54:10Z usbarb[2098603]: USBArb: Client 2099771 disconnected
+2025-12-09T10:54:17Z usbarb[2098603]: USBArb: pipe 13 closed by client FEFA888F90
+2025-12-09T10:54:17Z usbarb[2098603]: USBArb: removing client FEB966FF50: pid=2099927, pipe=13
+2025-12-09T10:54:17Z usbarb[2098603]: USBArb: Client 2099927 disconnected
+2025-12-09T10:54:23Z usbarb[2098603]: USBArb: pipe 14 closed by client FEFA888F90
+2025-12-09T10:54:23Z usbarb[2098603]: USBArb: removing client FEB966FFF0: pid=2100295, pipe=14
+2025-12-09T10:54:23Z usbarb[2098603]: USBArb: Client 2100295 disconnected
+2025-12-09T10:55:44Z usbarb[2098603]: USBArb: pipe 15 closed by client FEFA888F90
+2025-12-09T10:55:44Z usbarb[2098603]: USBArb: removing client FEB96700F0: pid=2100438, pipe=15
+2025-12-09T10:55:44Z usbarb[2098603]: USBArb: Client 2100438 disconnected
+2025-12-09T10:56:21Z usbarb[2098603]: USBArb: pipe 10 closed by client FEFA888F90
+2025-12-09T10:56:21Z usbarb[2098603]: USBArb: removing client FEB966FCB0: pid=2098864, pipe=10
+2025-12-09T10:56:21Z usbarb[2098603]: USBArb: Client 2098864 disconnected
+2025-12-09T10:56:23Z usbarb[2098603]: USBGL: usb device change detected: start enumeration.
+2025-12-10T13:08:46Z usbarb[2098602]: VTHREAD 280239420992 "usbArb" wid 2098602
+2025-12-10T13:08:46Z usbarb[2098602]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-10T13:08:46Z usbarb[2098602]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2025-12-10T13:08:46Z usbarb[2098602]: DICT --- NON PERSISTENT (null)
+2025-12-10T13:08:46Z usbarb[2098602]: DICT --- HOST DEFAULTS /etc/vmware/config
+2025-12-10T13:08:46Z usbarb[2098602]: DICT                    libdir = "/usr/lib/vmware"
+2025-12-10T13:08:46Z usbarb[2098602]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2025-12-10T13:08:46Z usbarb[2098602]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2025-12-10T13:08:46Z usbarb[2098602]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2025-12-10T13:08:46Z usbarb[2098602]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2025-12-10T13:08:46Z usbarb[2098602]: DICT            authd.fullpath = "/sbin/authd"
+2025-12-10T13:08:46Z usbarb[2098602]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2025-12-10T13:08:46Z usbarb[2098602]: VMware USB Arbitration Service Version 17.2.1
+2025-12-10T13:08:46Z usbarb[2098602]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2025-12-10T13:08:46Z usbarb[2098602]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2025-12-10T13:08:46Z usbarb[2098602]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2025-12-10T13:08:46Z usbarb[2098602]: SOCKET connect failed, error 2: No such file or directory
+2025-12-10T13:08:46Z usbarb[2098602]: USBArb: Failed to connect to the existing arbitrator.
+2025-12-10T13:08:46Z usbarb[2098602]: USBArb: listening socket 9 created successfully
+2025-12-10T13:08:46Z usbarb[2098602]: USBArb: adding listening socket 9 to poll queue
+2025-12-10T13:08:46Z usbarb[2098602]: USBGL: usb device change detected: start enumeration.
+2025-12-10T13:08:59Z usbarb[2098602]: USBArb: new socket connection estibalished: socket 10
+2025-12-10T13:08:59Z usbarb[2098602]: USBArb: new client 40FD2A5CB0 created, socket 10 added to poll queue
+2025-12-10T13:08:59Z usbarb[2098602]: USBArb: Client 2098864 connected (version: 7)
+2025-12-10T13:10:43Z usbarb[2098602]: USBArb: new socket connection estibalished: socket 11
+2025-12-10T13:10:43Z usbarb[2098602]: USBArb: new client 40FD2A5D50 created, socket 11 added to poll queue
+2025-12-10T13:10:43Z usbarb[2098602]: USBArb: Client 2099646 connected (version: 7)
+2025-12-10T13:11:09Z usbarb[2098602]: USBArb: new socket connection estibalished: socket 12
+2025-12-10T13:11:09Z usbarb[2098602]: USBArb: new client 40FD2A5E50 created, socket 12 added to poll queue
+2025-12-10T13:11:09Z usbarb[2098602]: USBArb: new socket connection estibalished: socket 13
+2025-12-10T13:11:09Z usbarb[2098602]: USBArb: new client 40FD2A5F50 created, socket 13 added to poll queue
+2025-12-10T13:11:09Z usbarb[2098602]: USBArb: Client 2099790 connected (version: 7)
+2025-12-10T13:11:09Z usbarb[2098602]: USBArb: Client 2099793 connected (version: 7)
+2025-12-10T13:11:09Z usbarb[2098602]: USBArb: new socket connection estibalished: socket 14
+2025-12-10T13:11:09Z usbarb[2098602]: USBArb: new client 40FD2A6050 created, socket 14 added to poll queue
+2025-12-10T13:11:09Z usbarb[2098602]: USBArb: Client 2099791 connected (version: 7)
+2025-12-10T13:58:39Z usbarb[2098602]: USBArb: pipe 11 closed by client 413E4BEF90
+2025-12-10T13:58:39Z usbarb[2098602]: USBArb: removing client 40FD2A5D50: pid=2099646, pipe=11
+2025-12-10T13:58:39Z usbarb[2098602]: USBArb: Client 2099646 disconnected
+2025-12-10T13:58:50Z usbarb[2098602]: USBArb: pipe 14 closed by client 413E4BEF90
+2025-12-10T13:58:50Z usbarb[2098602]: USBArb: removing client 40FD2A6050: pid=2099791, pipe=14
+2025-12-10T13:58:50Z usbarb[2098602]: USBArb: Client 2099791 disconnected
+2025-12-10T13:58:52Z usbarb[2098602]: USBArb: pipe 12 closed by client 413E4BEF90
+2025-12-10T13:58:52Z usbarb[2098602]: USBArb: removing client 40FD2A5E50: pid=2099790, pipe=12
+2025-12-10T13:58:52Z usbarb[2098602]: USBArb: Client 2099790 disconnected
+2025-12-10T14:00:26Z usbarb[2098602]: USBArb: pipe 13 closed by client 413E4BEF90
+2025-12-10T14:00:26Z usbarb[2098602]: USBArb: removing client 40FD2A5F50: pid=2099793, pipe=13
+2025-12-10T14:00:26Z usbarb[2098602]: USBArb: Client 2099793 disconnected
+2025-12-10T14:01:27Z usbarb[2098602]: USBArb: pipe 10 closed by client 413E4BEF90
+2025-12-10T14:01:27Z usbarb[2098602]: USBArb: removing client 40FD2A5CB0: pid=2098864, pipe=10
+2025-12-10T14:01:27Z usbarb[2098602]: USBArb: Client 2098864 disconnected
+2025-12-10T14:01:29Z usbarb[2098602]: USBGL: usb device change detected: start enumeration.
+2025-12-11T06:46:20Z usbarb[2098602]: VTHREAD 748913477184 "usbArb" wid 2098602
+2025-12-11T06:46:20Z usbarb[2098602]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-11T06:46:20Z usbarb[2098602]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2025-12-11T06:46:20Z usbarb[2098602]: DICT --- NON PERSISTENT (null)
+2025-12-11T06:46:20Z usbarb[2098602]: DICT --- HOST DEFAULTS /etc/vmware/config
+2025-12-11T06:46:20Z usbarb[2098602]: DICT                    libdir = "/usr/lib/vmware"
+2025-12-11T06:46:20Z usbarb[2098602]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2025-12-11T06:46:20Z usbarb[2098602]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2025-12-11T06:46:20Z usbarb[2098602]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2025-12-11T06:46:20Z usbarb[2098602]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2025-12-11T06:46:20Z usbarb[2098602]: DICT            authd.fullpath = "/sbin/authd"
+2025-12-11T06:46:20Z usbarb[2098602]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2025-12-11T06:46:20Z usbarb[2098602]: VMware USB Arbitration Service Version 17.2.1
+2025-12-11T06:46:20Z usbarb[2098602]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2025-12-11T06:46:20Z usbarb[2098602]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2025-12-11T06:46:20Z usbarb[2098602]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2025-12-11T06:46:20Z usbarb[2098602]: SOCKET connect failed, error 2: No such file or directory
+2025-12-11T06:46:20Z usbarb[2098602]: USBArb: Failed to connect to the existing arbitrator.
+2025-12-11T06:46:20Z usbarb[2098602]: USBArb: listening socket 9 created successfully
+2025-12-11T06:46:20Z usbarb[2098602]: USBArb: adding listening socket 9 to poll queue
+2025-12-11T06:46:20Z usbarb[2098602]: USBGL: usb device change detected: start enumeration.
+2025-12-11T06:46:34Z usbarb[2098602]: USBArb: new socket connection estibalished: socket 10
+2025-12-11T06:46:34Z usbarb[2098602]: USBArb: new client AE1C50ECB0 created, socket 10 added to poll queue
+2025-12-11T06:46:34Z usbarb[2098602]: USBArb: Client 2098864 connected (version: 7)
+2025-12-11T06:49:45Z usbarb[2098602]: USBArb: new socket connection estibalished: socket 11
+2025-12-11T06:49:45Z usbarb[2098602]: USBArb: new client AE1C50ED50 created, socket 11 added to poll queue
+2025-12-11T06:49:45Z usbarb[2098602]: USBArb: Client 2099651 connected (version: 7)
+2025-12-11T06:49:51Z usbarb[2098602]: USBArb: new socket connection estibalished: socket 12
+2025-12-11T06:49:51Z usbarb[2098602]: USBArb: new client AE1C50EE50 created, socket 12 added to poll queue
+2025-12-11T06:49:51Z usbarb[2098602]: USBArb: Client 2099794 connected (version: 7)
+2025-12-11T06:50:07Z usbarb[2098602]: USBArb: new socket connection estibalished: socket 13
+2025-12-11T06:50:07Z usbarb[2098602]: USBArb: new client AE1C50EF50 created, socket 13 added to poll queue
+2025-12-11T06:50:07Z usbarb[2098602]: USBArb: Client 2099934 connected (version: 7)
+2025-12-11T06:51:47Z usbarb[2098602]: USBArb: new socket connection estibalished: socket 14
+2025-12-11T06:51:47Z usbarb[2098602]: USBArb: new client AE1C50EFF0 created, socket 14 added to poll queue
+2025-12-11T06:51:47Z usbarb[2098602]: USBArb: Client 2100144 connected (version: 7)
+2025-12-11T09:43:41Z usbarb[2098602]: USBArb: pipe 11 closed by client AE5D727F90
+2025-12-11T09:43:41Z usbarb[2098602]: USBArb: removing client AE1C50ED50: pid=2099651, pipe=11
+2025-12-11T09:43:41Z usbarb[2098602]: USBArb: Client 2099651 disconnected
+2025-12-11T09:43:51Z usbarb[2098602]: USBArb: pipe 13 closed by client AE5D727F90
+2025-12-11T09:43:51Z usbarb[2098602]: USBArb: removing client AE1C50EF50: pid=2099934, pipe=13
+2025-12-11T09:43:51Z usbarb[2098602]: USBArb: Client 2099934 disconnected
+2025-12-11T09:43:54Z usbarb[2098602]: USBArb: pipe 14 closed by client AE5D727F90
+2025-12-11T09:43:54Z usbarb[2098602]: USBArb: removing client AE1C50EFF0: pid=2100144, pipe=14
+2025-12-11T09:43:54Z usbarb[2098602]: USBArb: Client 2100144 disconnected
+2025-12-11T09:44:07Z usbarb[2098602]: USBArb: pipe 12 closed by client AE5D727F90
+2025-12-11T09:44:07Z usbarb[2098602]: USBArb: removing client AE1C50EE50: pid=2099794, pipe=12
+2025-12-11T09:44:07Z usbarb[2098602]: USBArb: Client 2099794 disconnected
+2025-12-11T10:29:55Z usbarb[2098602]: USBArb: pipe 10 closed by client AE5D727F90
+2025-12-11T10:29:55Z usbarb[2098602]: USBArb: removing client AE1C50ECB0: pid=2098864, pipe=10
+2025-12-11T10:29:55Z usbarb[2098602]: USBArb: Client 2098864 disconnected
+2025-12-11T10:29:59Z usbarb[2098602]: USBGL: usb device change detected: start enumeration.
+2025-12-18T19:29:23Z usbarb[2098604]: VTHREAD 216325801536 "usbArb" wid 2098604
+2025-12-18T19:29:23Z usbarb[2098604]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-18T19:29:23Z usbarb[2098604]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2025-12-18T19:29:23Z usbarb[2098604]: DICT --- NON PERSISTENT (null)
+2025-12-18T19:29:23Z usbarb[2098604]: DICT --- HOST DEFAULTS /etc/vmware/config
+2025-12-18T19:29:23Z usbarb[2098604]: DICT                    libdir = "/usr/lib/vmware"
+2025-12-18T19:29:23Z usbarb[2098604]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2025-12-18T19:29:23Z usbarb[2098604]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2025-12-18T19:29:23Z usbarb[2098604]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2025-12-18T19:29:23Z usbarb[2098604]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2025-12-18T19:29:23Z usbarb[2098604]: DICT            authd.fullpath = "/sbin/authd"
+2025-12-18T19:29:23Z usbarb[2098604]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2025-12-18T19:29:23Z usbarb[2098604]: VMware USB Arbitration Service Version 17.2.1
+2025-12-18T19:29:23Z usbarb[2098604]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2025-12-18T19:29:23Z usbarb[2098604]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2025-12-18T19:29:23Z usbarb[2098604]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2025-12-18T19:29:23Z usbarb[2098604]: SOCKET connect failed, error 2: No such file or directory
+2025-12-18T19:29:23Z usbarb[2098604]: USBArb: Failed to connect to the existing arbitrator.
+2025-12-18T19:29:23Z usbarb[2098604]: USBArb: listening socket 9 created successfully
+2025-12-18T19:29:23Z usbarb[2098604]: USBArb: adding listening socket 9 to poll queue
+2025-12-18T19:29:23Z usbarb[2098604]: USBGL: usb device change detected: start enumeration.
+2025-12-18T19:29:36Z usbarb[2098604]: USBArb: new socket connection estibalished: socket 10
+2025-12-18T19:29:36Z usbarb[2098604]: USBArb: new client 321B9DECB0 created, socket 10 added to poll queue
+2025-12-18T19:29:36Z usbarb[2098604]: USBArb: Client 2098864 connected (version: 7)
+2025-12-18T19:48:12Z usbarb[2098604]: USBGL: usb device change detected: start enumeration.
+2025-12-18T19:48:12Z usbarb[2098604]: USBGL: usb device change detected: start enumeration.
+2025-12-18T19:51:59Z usbarb[2098604]: USBArb: pipe 10 closed by client 325CBF7F90
+2025-12-18T19:51:59Z usbarb[2098604]: USBArb: removing client 321B9DECB0: pid=2098864, pipe=10
+2025-12-18T19:51:59Z usbarb[2098604]: USBArb: Client 2098864 disconnected
+2025-12-18T19:52:01Z usbarb[2098604]: USBGL: usb device change detected: start enumeration.
+2025-12-18T19:56:05Z usbarb[2098603]: VTHREAD 361290827328 "usbArb" wid 2098603
+2025-12-18T19:56:05Z usbarb[2098603]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-18T19:56:05Z usbarb[2098603]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2025-12-18T19:56:05Z usbarb[2098603]: DICT --- NON PERSISTENT (null)
+2025-12-18T19:56:05Z usbarb[2098603]: DICT --- HOST DEFAULTS /etc/vmware/config
+2025-12-18T19:56:05Z usbarb[2098603]: DICT                    libdir = "/usr/lib/vmware"
+2025-12-18T19:56:05Z usbarb[2098603]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2025-12-18T19:56:05Z usbarb[2098603]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2025-12-18T19:56:05Z usbarb[2098603]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2025-12-18T19:56:05Z usbarb[2098603]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2025-12-18T19:56:05Z usbarb[2098603]: DICT            authd.fullpath = "/sbin/authd"
+2025-12-18T19:56:05Z usbarb[2098603]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2025-12-18T19:56:05Z usbarb[2098603]: VMware USB Arbitration Service Version 17.2.1
+2025-12-18T19:56:05Z usbarb[2098603]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2025-12-18T19:56:05Z usbarb[2098603]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2025-12-18T19:56:05Z usbarb[2098603]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2025-12-18T19:56:05Z usbarb[2098603]: SOCKET connect failed, error 2: No such file or directory
+2025-12-18T19:56:05Z usbarb[2098603]: USBArb: Failed to connect to the existing arbitrator.
+2025-12-18T19:56:05Z usbarb[2098603]: USBArb: listening socket 9 created successfully
+2025-12-18T19:56:05Z usbarb[2098603]: USBArb: adding listening socket 9 to poll queue
+2025-12-18T19:56:05Z usbarb[2098603]: USBGL: usb device change detected: start enumeration.
+2025-12-18T19:56:18Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 10
+2025-12-18T19:56:18Z usbarb[2098603]: USBArb: new client 53DC34ACB0 created, socket 10 added to poll queue
+2025-12-18T19:56:18Z usbarb[2098603]: USBArb: Client 2098864 connected (version: 7)
+2025-12-18T20:00:31Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 11
+2025-12-18T20:00:31Z usbarb[2098603]: USBArb: new client 53DC34AD50 created, socket 11 added to poll queue
+2025-12-18T20:00:31Z usbarb[2098603]: USBArb: Client 2099775 connected (version: 7)
+2025-12-18T20:00:34Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 12
+2025-12-18T20:00:34Z usbarb[2098603]: USBArb: new client 53DC34AE50 created, socket 12 added to poll queue
+2025-12-18T20:00:34Z usbarb[2098603]: USBArb: Client 2099788 connected (version: 7)
+2025-12-18T20:01:41Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 13
+2025-12-18T20:01:41Z usbarb[2098603]: USBArb: new client 53DC34AF50 created, socket 13 added to poll queue
+2025-12-18T20:01:41Z usbarb[2098603]: USBArb: Client 2099986 connected (version: 7)
+2025-12-18T20:01:47Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 14
+2025-12-18T20:01:47Z usbarb[2098603]: USBArb: new client 53DC34AFF0 created, socket 14 added to poll queue
+2025-12-18T20:01:47Z usbarb[2098603]: USBArb: Client 2100129 connected (version: 7)
+2025-12-18T20:01:57Z usbarb[2098603]: USBArb: new socket connection estibalished: socket 15
+2025-12-18T20:01:57Z usbarb[2098603]: USBArb: new client 53DC34B0F0 created, socket 15 added to poll queue
+2025-12-18T20:01:57Z usbarb[2098603]: USBArb: Client 2100145 connected (version: 7)
+2025-12-18T20:04:05Z usbarb[2098603]: USBGL: usb device change detected: start enumeration.
+2025-12-18T21:06:38Z usbarb[2098603]: USBArb: pipe 11 closed by client 541D563F90
+2025-12-18T21:06:38Z usbarb[2098603]: USBArb: removing client 53DC34AD50: pid=2099775, pipe=11
+2025-12-18T21:06:38Z usbarb[2098603]: USBArb: Client 2099775 disconnected
+2025-12-18T21:06:42Z usbarb[2098603]: USBArb: pipe 12 closed by client 541D563F90
+2025-12-18T21:06:42Z usbarb[2098603]: USBArb: removing client 53DC34AE50: pid=2099788, pipe=12
+2025-12-18T21:06:42Z usbarb[2098603]: USBArb: Client 2099788 disconnected
+2025-12-18T21:06:49Z usbarb[2098603]: USBArb: pipe 13 closed by client 541D563F90
+2025-12-18T21:06:49Z usbarb[2098603]: USBArb: removing client 53DC34AF50: pid=2099986, pipe=13
+2025-12-18T21:06:49Z usbarb[2098603]: USBArb: Client 2099986 disconnected
+2025-12-18T21:06:50Z usbarb[2098603]: USBArb: pipe 15 closed by client 541D563F90
+2025-12-18T21:06:50Z usbarb[2098603]: USBArb: removing client 53DC34B0F0: pid=2100145, pipe=15
+2025-12-18T21:06:50Z usbarb[2098603]: USBArb: Client 2100145 disconnected
+2025-12-27T00:20:50Z usbarb[2098614]: VTHREAD 59739915840 "usbArb" wid 2098614
+2025-12-27T00:20:50Z usbarb[2098614]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-27T00:20:50Z usbarb[2098614]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2025-12-27T00:20:50Z usbarb[2098614]: DICT --- NON PERSISTENT (null)
+2025-12-27T00:20:50Z usbarb[2098614]: DICT --- HOST DEFAULTS /etc/vmware/config
+2025-12-27T00:20:50Z usbarb[2098614]: DICT                    libdir = "/usr/lib/vmware"
+2025-12-27T00:20:50Z usbarb[2098614]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2025-12-27T00:20:50Z usbarb[2098614]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2025-12-27T00:20:50Z usbarb[2098614]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2025-12-27T00:20:50Z usbarb[2098614]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2025-12-27T00:20:50Z usbarb[2098614]: DICT            authd.fullpath = "/sbin/authd"
+2025-12-27T00:20:50Z usbarb[2098614]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2025-12-27T00:20:50Z usbarb[2098614]: VMware USB Arbitration Service Version 17.2.1
+2025-12-27T00:20:50Z usbarb[2098614]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2025-12-27T00:20:50Z usbarb[2098614]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2025-12-27T00:20:50Z usbarb[2098614]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2025-12-27T00:20:50Z usbarb[2098614]: SOCKET connect failed, error 2: No such file or directory
+2025-12-27T00:20:50Z usbarb[2098614]: USBArb: Failed to connect to the existing arbitrator.
+2025-12-27T00:20:50Z usbarb[2098614]: USBArb: listening socket 9 created successfully
+2025-12-27T00:20:50Z usbarb[2098614]: USBArb: adding listening socket 9 to poll queue
+2025-12-27T00:20:50Z usbarb[2098614]: USBGL: usb device change detected: start enumeration.
+2025-12-27T00:21:03Z usbarb[2098614]: USBArb: new socket connection estibalished: socket 10
+2025-12-27T00:21:03Z usbarb[2098614]: USBArb: new client DA65EECB0 created, socket 10 added to poll queue
+2025-12-27T00:21:03Z usbarb[2098614]: USBArb: Client 2098876 connected (version: 7)
+2025-12-27T00:36:25Z usbarb[2098614]: USBArb: pipe 10 closed by client DE7807F90
+2025-12-27T00:36:25Z usbarb[2098614]: USBArb: removing client DA65EECB0: pid=2098876, pipe=10
+2025-12-27T00:36:25Z usbarb[2098614]: USBArb: Client 2098876 disconnected
+2025-12-27T00:36:28Z usbarb[2098614]: USBGL: usb device change detected: start enumeration.
+2025-12-27T00:44:38Z usbarb[2098612]: VTHREAD 174000113216 "usbArb" wid 2098612
+2025-12-27T00:44:38Z usbarb[2098612]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-27T00:44:38Z usbarb[2098612]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2025-12-27T00:44:38Z usbarb[2098612]: DICT --- NON PERSISTENT (null)
+2025-12-27T00:44:38Z usbarb[2098612]: DICT --- HOST DEFAULTS /etc/vmware/config
+2025-12-27T00:44:38Z usbarb[2098612]: DICT                    libdir = "/usr/lib/vmware"
+2025-12-27T00:44:38Z usbarb[2098612]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2025-12-27T00:44:38Z usbarb[2098612]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2025-12-27T00:44:38Z usbarb[2098612]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2025-12-27T00:44:38Z usbarb[2098612]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2025-12-27T00:44:38Z usbarb[2098612]: DICT            authd.fullpath = "/sbin/authd"
+2025-12-27T00:44:38Z usbarb[2098612]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2025-12-27T00:44:38Z usbarb[2098612]: VMware USB Arbitration Service Version 17.2.1
+2025-12-27T00:44:38Z usbarb[2098612]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2025-12-27T00:44:38Z usbarb[2098612]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2025-12-27T00:44:38Z usbarb[2098612]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2025-12-27T00:44:38Z usbarb[2098612]: SOCKET connect failed, error 2: No such file or directory
+2025-12-27T00:44:38Z usbarb[2098612]: USBArb: Failed to connect to the existing arbitrator.
+2025-12-27T00:44:38Z usbarb[2098612]: USBArb: listening socket 9 created successfully
+2025-12-27T00:44:38Z usbarb[2098612]: USBArb: adding listening socket 9 to poll queue
+2025-12-27T00:44:38Z usbarb[2098612]: USBGL: usb device change detected: start enumeration.
+2025-12-27T00:44:51Z usbarb[2098612]: USBArb: new socket connection estibalished: socket 10
+2025-12-27T00:44:51Z usbarb[2098612]: USBArb: new client 2840CF2CB0 created, socket 10 added to poll queue
+2025-12-27T00:44:51Z usbarb[2098612]: USBArb: Client 2098878 connected (version: 7)
+2025-12-27T01:17:49Z usbarb[2098612]: USBArb: new socket connection estibalished: socket 11
+2025-12-27T01:17:49Z usbarb[2098612]: USBArb: new client 2840CF2D50 created, socket 11 added to poll queue
+2025-12-27T01:17:49Z usbarb[2098612]: USBArb: Client 2099916 connected (version: 7)
+2025-12-27T01:18:01Z usbarb[2098612]: USBArb: new socket connection estibalished: socket 12
+2025-12-27T01:18:01Z usbarb[2098612]: USBArb: new client 2840CF2E50 created, socket 12 added to poll queue
+2025-12-27T01:18:01Z usbarb[2098612]: USBArb: Client 2100060 connected (version: 7)
+2025-12-27T01:18:14Z usbarb[2098612]: USBArb: new socket connection estibalished: socket 13
+2025-12-27T01:18:14Z usbarb[2098612]: USBArb: new client 2840CF2F50 created, socket 13 added to poll queue
+2025-12-27T01:18:14Z usbarb[2098612]: USBArb: Client 2100203 connected (version: 7)
+2025-12-27T01:18:34Z usbarb[2098612]: USBArb: new socket connection estibalished: socket 14
+2025-12-27T01:18:34Z usbarb[2098612]: USBArb: new client 2840CF2FF0 created, socket 14 added to poll queue
+2025-12-27T01:18:34Z usbarb[2098612]: USBArb: Client 2100403 connected (version: 7)
+2025-12-27T02:17:08Z usbarb[2098612]: USBGL: usb device change detected: start enumeration.
+2025-12-27T02:23:54Z usbarb[2098612]: USBArb: new socket connection estibalished: socket 15
+2025-12-27T02:23:54Z usbarb[2098612]: USBArb: new client 2840CF30F0 created, socket 15 added to poll queue
+2025-12-27T02:23:55Z usbarb[2098612]: USBArb: Client 2101713 connected (version: 7)
+2025-12-27T02:48:37Z usbarb[2098612]: USBArb: new socket connection estibalished: socket 16
+2025-12-27T02:48:37Z usbarb[2098612]: USBArb: new client 2840CF31F0 created, socket 16 added to poll queue
+2025-12-27T02:48:37Z usbarb[2098612]: USBArb: Client 2102085 connected (version: 7)
+2025-12-27T05:31:32Z usbarb[2098612]: USBArb: pipe 11 closed by client 2881F0BF90
+2025-12-27T05:31:32Z usbarb[2098612]: USBArb: removing client 2840CF2D50: pid=2099916, pipe=11
+2025-12-27T05:31:32Z usbarb[2098612]: USBArb: Client 2099916 disconnected
+2025-12-27T05:31:32Z usbarb[2098612]: USBArb: pipe 13 closed by client 2881F0BF90
+2025-12-27T05:31:32Z usbarb[2098612]: USBArb: removing client 2840CF2F50: pid=2100203, pipe=13
+2025-12-27T05:31:32Z usbarb[2098612]: USBArb: Client 2100203 disconnected
+2025-12-27T05:31:36Z usbarb[2098612]: USBArb: pipe 14 closed by client 2881F0BF90
+2025-12-27T05:31:36Z usbarb[2098612]: USBArb: removing client 2840CF2FF0: pid=2100403, pipe=14
+2025-12-27T05:31:36Z usbarb[2098612]: USBArb: Client 2100403 disconnected
+2025-12-27T05:31:39Z usbarb[2098612]: USBArb: pipe 16 closed by client 2881F0BF90
+2025-12-27T05:31:39Z usbarb[2098612]: USBArb: removing client 2840CF31F0: pid=2102085, pipe=16
+2025-12-27T05:31:39Z usbarb[2098612]: USBArb: Client 2102085 disconnected
+2025-12-27T05:31:44Z usbarb[2098612]: USBArb: pipe 12 closed by client 2881F0BF90
+2025-12-27T05:31:44Z usbarb[2098612]: USBArb: removing client 2840CF2E50: pid=2100060, pipe=12
+2025-12-27T05:31:44Z usbarb[2098612]: USBArb: Client 2100060 disconnected
+2025-12-27T05:31:46Z usbarb[2098612]: USBArb: pipe 15 closed by client 2881F0BF90
+2025-12-27T05:31:46Z usbarb[2098612]: USBArb: removing client 2840CF30F0: pid=2101713, pipe=15
+2025-12-27T05:31:46Z usbarb[2098612]: USBArb: Client 2101713 disconnected
+2025-12-27T05:33:52Z usbarb[2098612]: USBArb: pipe 10 closed by client 2881F0BF90
+2025-12-27T05:33:52Z usbarb[2098612]: USBArb: removing client 2840CF2CB0: pid=2098878, pipe=10
+2025-12-27T05:33:52Z usbarb[2098612]: USBArb: Client 2098878 disconnected
+2025-12-27T05:33:54Z usbarb[2098612]: USBGL: usb device change detected: start enumeration.
+2026-01-10T07:55:48Z usbarb[2098615]: VTHREAD 642714940992 "usbArb" wid 2098615
+2026-01-10T07:55:48Z usbarb[2098615]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2026-01-10T07:55:48Z usbarb[2098615]: DICT --- GLOBAL SETTINGS /usr/lib/vmware/settings
+2026-01-10T07:55:48Z usbarb[2098615]: DICT --- NON PERSISTENT (null)
+2026-01-10T07:55:48Z usbarb[2098615]: DICT --- HOST DEFAULTS /etc/vmware/config
+2026-01-10T07:55:48Z usbarb[2098615]: DICT                    libdir = "/usr/lib/vmware"
+2026-01-10T07:55:48Z usbarb[2098615]: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2026-01-10T07:55:48Z usbarb[2098615]: DICT        authd.proxy.nfcssl = "vmware-hostd:ha-nfcssl"
+2026-01-10T07:55:48Z usbarb[2098615]: DICT   authd.proxy.vpxa-nfcssl = "vmware-vpxa:vpxa-nfcssl"
+2026-01-10T07:55:48Z usbarb[2098615]: DICT      authd.proxy.vpxa-nfc = "vmware-vpxa:vpxa-nfc"
+2026-01-10T07:55:48Z usbarb[2098615]: DICT            authd.fullpath = "/sbin/authd"
+2026-01-10T07:55:48Z usbarb[2098615]: DICT --- SITE DEFAULTS /usr/lib/vmware/config
+2026-01-10T07:55:48Z usbarb[2098615]: VMware USB Arbitration Service Version 17.2.1
+2026-01-10T07:55:48Z usbarb[2098615]: USBGL: opened '/vmfs/devices/char/vmkdriver/usbdevices' (fd=8) for usb device enumeration
+2026-01-10T07:55:48Z usbarb[2098615]: USBArb: Attempting to connect to existing arbitrator on /var/run/vmware/usbarbitrator-socket.
+2026-01-10T07:55:48Z usbarb[2098615]: SOCKET creating new socket, connecting to /var/run/vmware/usbarbitrator-socket
+2026-01-10T07:55:48Z usbarb[2098615]: SOCKET connect failed, error 2: No such file or directory
+2026-01-10T07:55:48Z usbarb[2098615]: USBArb: Failed to connect to the existing arbitrator.
+2026-01-10T07:55:48Z usbarb[2098615]: USBArb: listening socket 9 created successfully
+2026-01-10T07:55:48Z usbarb[2098615]: USBArb: adding listening socket 9 to poll queue
+2026-01-10T07:55:48Z usbarb[2098615]: USBGL: usb device change detected: start enumeration.
+2026-01-10T07:56:01Z usbarb[2098615]: USBArb: new socket connection estibalished: socket 10
+2026-01-10T07:56:01Z usbarb[2098615]: USBArb: new client 956263DCB0 created, socket 10 added to poll queue
+2026-01-10T07:56:01Z usbarb[2098615]: USBArb: Client 2098878 connected (version: 7)
+2026-01-10T07:57:50Z usbarb[2098615]: USBArb: new socket connection estibalished: socket 11
+2026-01-10T07:57:50Z usbarb[2098615]: USBArb: new client 956263DD50 created, socket 11 added to poll queue
+2026-01-10T07:57:50Z usbarb[2098615]: USBArb: Client 2099653 connected (version: 7)
+2026-01-10T08:12:06Z usbarb[2098615]: USBArb: new socket connection estibalished: socket 12
+2026-01-10T08:12:06Z usbarb[2098615]: USBArb: new client 956263DE50 created, socket 12 added to poll queue
+2026-01-10T08:12:06Z usbarb[2098615]: USBArb: Client 2100358 connected (version: 7)
+2026-01-10T08:23:10Z usbarb[2098615]: USBArb: new socket connection estibalished: socket 13
+2026-01-10T08:23:10Z usbarb[2098615]: USBArb: new client 956263DF50 created, socket 13 added to poll queue
+2026-01-10T08:23:10Z usbarb[2098615]: USBArb: Client 2100646 connected (version: 7)
+2026-01-10T08:31:30Z usbarb[2098615]: USBArb: new socket connection estibalished: socket 14
+2026-01-10T08:31:30Z usbarb[2098615]: USBArb: new client 956263DFF0 created, socket 14 added to poll queue
+2026-01-10T08:31:30Z usbarb[2098615]: USBArb: Client 2100898 connected (version: 7)
+2026-01-10T09:24:10Z usbarb[2098615]: USBArb: pipe 13 closed by client 95A3856F90
+2026-01-10T09:24:10Z usbarb[2098615]: USBArb: removing client 956263DF50: pid=2100646, pipe=13
+2026-01-10T09:24:10Z usbarb[2098615]: USBArb: Client 2100646 disconnected
+2026-01-10T09:35:23Z usbarb[2098615]: USBArb: pipe 12 closed by client 95A3856F90
+2026-01-10T09:35:23Z usbarb[2098615]: USBArb: removing client 956263DE50: pid=2100358, pipe=12
+2026-01-10T09:35:23Z usbarb[2098615]: USBArb: Client 2100358 disconnected

@@ -1,0 +1,8 @@
+% Manifest name: Epilog
+% Manifest group: Epilog
+% Manifest default: Enabled
+% Manifest tag: sensitive
+# action Options file/command
+
+# Ensure that any encryption prolog actions are cleaned up.
+run IGNORE_ERROR /usr/lib/vmware/vm-support/bin/encryption-epilog.sh

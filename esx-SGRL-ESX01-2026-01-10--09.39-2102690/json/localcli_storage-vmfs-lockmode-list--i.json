@@ -1,0 +1,13 @@
+
+[
+
+      {
+         "ATS Compatible": false,
+         "ATS Incompatibility Reason": "Device does not support ATS",
+         "ATS Upgrade Modes": "None",
+         "Locking Mode": "ATS+SCSI",
+         "Type": "VMFS-6",
+         "UUID": "3a4fd8ce-fc4375c4-effb-5cf3fce846f8",
+         "Volume Name": "datastore1"
+      }
+]

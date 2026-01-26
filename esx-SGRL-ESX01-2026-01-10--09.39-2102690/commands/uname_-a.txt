@@ -1,0 +1,1 @@
+VMkernel SGRL-ESX01 6.7.0 #1 SMP Release build-19195723 Jan 11 2022 23:34:04 x86_64 x86_64 x86_64 ESXi

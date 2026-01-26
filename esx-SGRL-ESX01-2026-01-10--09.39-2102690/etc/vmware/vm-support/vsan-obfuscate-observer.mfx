@@ -1,0 +1,7 @@
+% Manifest name: VSANObfuscatedObserver
+% Manifest group: Storage
+% Manifest default: Disabled
+% Manifest tag: storage,vsan
+# action Options file/command
+
+run TIMEOUT=3600,IGNORE_ERROR /usr/lib/vmware/vsan/bin/vsanObserverObfuscated.sh

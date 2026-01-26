@@ -1,0 +1,59 @@
+
+[
+
+      {
+         "Attached Filters": 
+            [
+            ],
+         "DIX Enabled": false,
+         "DIX Guard Type": "NO GUARD SUPPORT",
+         "Devfs Path": "\/vmfs\/devices\/disks\/naa.600605b004213bc001e293503af49afb",
+         "Device": "naa.600605b004213bc001e293503af49afb",
+         "Device Max Queue Depth": 128,
+         "Device Type": "Direct-Access ",
+         "Display Name": "Local IBM Disk (naa.600605b004213bc001e293503af49afb)",
+         "Drive Type": "logical",
+         "Emulated DIX/DIF Enabled": false,
+         "Has Settable Display Name": true,
+         "Is Boot Device": true,
+         "Is Boot USB Device": false,
+         "Is Local": true,
+         "Is Local SAS Device": false,
+         "Is Offline": false,
+         "Is Perennially Reserved": false,
+         "Is Pseudo": false,
+         "Is RDM Capable": false,
+         "Is Removable": false,
+         "Is SAS": false,
+         "Is SSD": false,
+         "Is Shared Clusterwide": false,
+         "Is USB": false,
+         "Is VVOL PE": false,
+         "Model": "ServeRAID M5015",
+         "Multipath Plugin": "NMP",
+         "No of outstanding IOs with competing worlds": 32,
+         "Number of Physical Drives": "7",
+         "Other UIDs": 
+            [
+            "vml.0200000000600605b004213bc001e293503af49afb536572766552"
+            ],
+         "PI Activated": false,
+         "PI Protection Mask": "NO PROTECTION",
+         "PI Type": 0,
+         "Protection Enabled": false,
+         "Queue Full Sample Size": 0,
+         "Queue Full Threshold": 0,
+         "RAID Level": "RAID5",
+         "Revision": "2.13",
+         "SCSI Level": 5,
+         "Size": 5144118,
+         "Status": "on",
+         "Supported Guard Types": 
+            [
+            "NO GUARD SUPPORT"
+            ],
+         "Thin Provisioning Status": "unknown",
+         "VAAI Status": "unsupported",
+         "Vendor": "IBM"
+      }
+]

@@ -1,0 +1,27 @@
+#
+# Rules for tpm2emu
+#
+# Everything is disabled, except open/mprotect
+# (needed by dynamic linker), and access to the
+# binary itself, its libraries, /dev/null and
+# /dev/random, time zone definition, and
+# config files (so loglevel.tpm2emu can be set).
+#
+
+-s mprotectSys grant
+-s openSys grant
+
+# Deny everything
+-r /
+# except ...
+-r /bin/tpm2emu rx
+-r /etc/ld.so.conf r
+-r /etc/ld.so.cache r
+-r /lib64 rx
+-r /dev/null r
+-r /dev/random r
+-r /dev/urandom r
+-r /etc/locatime r
+-r /etc/vmware/config r
+-r /usr/lib/vmware/settings r
+-r /.vmware/config r

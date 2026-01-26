@@ -1,0 +1,37 @@
+<config>
+<!-- Configuration file for vsansvc in hostd -->
+   <major>6</major>
+   <minor>6</minor>
+   <path>libvsansvc.so</path>
+   <enabled>true</enabled>
+   <requires>hostsvc solo</requires>
+
+   <vsanSystemDataProvider>
+      <rawCmd>/usr/lib/vmware/vsan/bin/VsanSystemCmd --get-data</rawCmd>
+      <timeout>60</timeout>
+   </vsanSystemDataProvider>
+
+   <vsanmgmtd>
+      <port>80</port>
+      <path>/vsanperf</path>
+      <sdkTunnelPath>/vsanperf</sdkTunnelPath>
+      <retryDelaySec>2</retryDelaySec>
+      <connectionPool>
+         <poolSize>2</poolSize>
+         <maxOpenConnections>5</maxOpenConnections>
+      </connectionPool>
+      <ssl>
+         <privateKey>/etc/vmware/ssl/rui.key</privateKey>
+         <certificate>/etc/vmware/ssl/rui.crt</certificate>
+      </ssl>
+   </vsanmgmtd>
+
+   <dynamicProxyObjects>
+      <managedObject id="ha-vsan-internal-system">
+         <type>vim.host.VsanInternalSystem</type>
+         <moId>ha-vsan-internal-system</moId>
+         <version>vim.version.version11</version>
+         <allowWithVsanDisabled>false</allowWithVsanDisabled>
+      </managedObject>
+   </dynamicProxyObjects>
+</config>

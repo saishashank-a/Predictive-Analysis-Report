@@ -1,0 +1,12 @@
+Device   Driver        Status  KB Article
+-----------------------------------------
+vmnic3   qflge         normal  
+vmnic2   qflge         normal  
+vmnic5   igbn          normal  
+vmnic0   qflge         normal  
+vmnic1   qflge         normal  
+vmhba0   megaraid_sas  normal  
+vmhba2   vmkata        normal  
+vmhba1   vmkata        normal  
+vmnic4   igbn          normal  
+vmhba32  vmkusb        normal  

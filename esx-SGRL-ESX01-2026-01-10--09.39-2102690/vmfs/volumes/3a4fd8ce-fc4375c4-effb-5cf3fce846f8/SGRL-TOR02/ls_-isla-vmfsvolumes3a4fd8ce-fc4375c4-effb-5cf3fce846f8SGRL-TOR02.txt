@@ -1,0 +1,9 @@
+total 938240
+   3332    128 drwxr-xr-x    1 root     root         73728 Jan  1  2001 .
+      4   1024 drwxr-xr-t    1 root     root         86016 Jan 10 09:35 ..
+   2500      0 -rw-r--r--    1 root     root           410 Jan  1  2001 SGRL-TOR02-108d7040.hlog
+12585412     64 -rw-------    1 root     root          8684 Jan  1  2001 SGRL-TOR02.nvram
+20974020      0 -rw-r--r--    1 root     root             0 Jan  1  2001 SGRL-TOR02.vmsd
+16779716     64 -rwxr-xr-x    1 root     root          3986 Jan  1  2001 SGRL-TOR02.vmx
+4196804 936960 -rw-------    1 root     root     10737418240 Jan  1  2001 SGRL-TOR02_1-flat.vmdk
+8391108      0 -rw-------    1 root     root           501 Jan  1  2001 SGRL-TOR02_1.vmdk

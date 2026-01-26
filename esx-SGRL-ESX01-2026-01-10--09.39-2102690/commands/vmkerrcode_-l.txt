@@ -1,0 +1,360 @@
+
+VMK_ReturnStatus table for VMware ESX, Build #19195723
+Name                                        Dec          Hex           errno equiv     Description
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+VMK_OK                                      0            0             OK              Success
+VMK_FAILURE                                 195887105    0xbad0001     EINVAL          Failure
+VMK_WOULD_BLOCK                             195887106    0xbad0002     EAGAIN          Would block
+VMK_NOT_FOUND                               195887107    0xbad0003     ENOENT          Not found
+VMK_BUSY                                    195887108    0xbad0004     EBUSY           Busy
+VMK_EXISTS                                  195887109    0xbad0005     EEXIST          Already exists
+VMK_LIMIT_EXCEEDED                          195887110    0xbad0006     EFBIG           Limit exceeded
+VMK_BAD_PARAM                               195887111    0xbad0007     EINVAL          Bad parameter
+VMK_METADATA_READ_ERROR                     195887112    0xbad0008     EIO             Metadata read error
+VMK_METADATA_WRITE_ERROR                    195887113    0xbad0009     EIO             Metadata write error
+VMK_IO_ERROR                                195887114    0xbad000a     EIO             I/O error
+VMK_READ_ERROR                              195887115    0xbad000b     EIO             Read error
+VMK_WRITE_ERROR                             195887116    0xbad000c     EIO             Write error
+VMK_INVALID_NAME                            195887117    0xbad000d     ENAMETOOLONG    Invalid name
+VMK_INVALID_HANDLE                          195887118    0xbad000e     EBADF           Invalid handle
+VMK_INVALID_ADAPTER                         195887119    0xbad000f     ENODEV          No such SCSI adapter
+VMK_INVALID_TARGET                          195887120    0xbad0010     ENODEV          No such target on adapter
+VMK_INVALID_PARTITION                       195887121    0xbad0011     ENXIO           No such partition on target
+VMK_INVALID_FS                              195887122    0xbad0012     ENXIO           No filesystem on the device
+VMK_INVALID_MEMMAP                          195887123    0xbad0013     EFAULT          Memory map mismatch
+VMK_NO_MEMORY                               195887124    0xbad0014     ENOMEM          Out of memory
+VMK_NO_MEMORY_RETRY                         195887125    0xbad0015     ENOMEM          Out of memory (ok to retry)
+VMK_NO_LPAGE_MEMORY                         195887126    0xbad0016     ENOMEM          Out of large pages
+VMK_NO_RESOURCES                            195887127    0xbad0017     ENOMEM          Out of resources
+VMK_NO_FREE_HANDLES                         195887128    0xbad0018     EMFILE          No free handles
+VMK_NUM_HANDLES_EXCEEDED                    195887129    0xbad0019     ENFILE          Exceeded maximum number of allowed handles
+VMK_DEPRECATED_NO_FREE_PTR_BLOCKS           195887130    0xbad001a     ENOSPC          No free pointer blocks (deprecated)
+VMK_DEPRECATED_NO_FREE_DATA_BLOCKS          195887131    0xbad001b     ENOSPC          No free data blocks (deprecated)
+VMK_CORRUPT_REDOLOG                         195887132    0xbad001c     EBADF           Corrupt RedoLog
+VMK_STATUS_PENDING                          195887133    0xbad001d     EAGAIN          Status pending
+VMK_STATUS_FREE                             195887134    0xbad001e     EAGAIN          Status free
+VMK_UNSUPPORTED_CPU                         195887135    0xbad001f     ENODEV          Unsupported CPU
+VMK_NOT_SUPPORTED                           195887136    0xbad0020     ENOSYS          Not supported
+VMK_TIMEOUT                                 195887137    0xbad0021     ETIMEDOUT       Timeout
+VMK_READ_ONLY                               195887138    0xbad0022     EROFS           Read only
+VMK_RESERVATION_CONFLICT                    195887139    0xbad0023     EAGAIN          SCSI reservation conflict
+VMK_FS_LOCKED                               195887140    0xbad0024     EADDRINUSE      File system locked
+VMK_NOT_ENOUGH_SLOTS                        195887141    0xbad0025     ENFILE          Out of slots
+VMK_INVALID_ADDRESS                         195887142    0xbad0026     EFAULT          Invalid address
+VMK_NOT_SHARED                              195887143    0xbad0027     ENOMEM          Not shared
+VMK_SHARED                                  195887144    0xbad0028     ENOMEM          Page is shared
+VMK_KSEG_PAIR_FLUSHED                       195887145    0xbad0029     ENOMEM          Kseg pair flushed
+VMK_MAX_ASYNCIO_PENDING                     195887146    0xbad002a     ENOMEM          Max async I/O requests pending
+VMK_VERSION_MISMATCH_MINOR                  195887147    0xbad002b     ENOSYS          Minor version mismatch
+VMK_VERSION_MISMATCH_MAJOR                  195887148    0xbad002c     ENOSYS          Major version mismatch
+VMK_IS_CONNECTED                            195887149    0xbad002d     EINVAL          Already connected
+VMK_IS_DISCONNECTED                         195887150    0xbad002e     ENOTCONN        Already disconnected
+VMK_IS_ENABLED                              195887151    0xbad002f     EINVAL          Already enabled
+VMK_IS_DISABLED                             195887152    0xbad0030     EINVAL          Already disabled
+VMK_NOT_INITIALIZED                         195887153    0xbad0031     EINVAL          Not initialized
+VMK_WAIT_INTERRUPTED                        195887154    0xbad0032     EINTR           Wait interrupted
+VMK_NAME_TOO_LONG                           195887155    0xbad0033     ENAMETOOLONG    Name too long
+VMK_MISSING_FS_PES                          195887156    0xbad0034     ENODEV          VMFS volume missing physical extents
+VMK_NICTEAMING_VALID_MASTER                 195887157    0xbad0035     EINVAL          NIC teaming master valid
+VMK_NICTEAMING_SLAVE                        195887158    0xbad0036     EEXIST          NIC teaming slave
+VMK_NICTEAMING_REGULAR_VMNIC                195887159    0xbad0037     EINVAL          NIC teaming regular VMNIC
+VMK_ABORT_NOT_RUNNING                       195887160    0xbad0038     ECANCELED       Abort not running
+VMK_NOT_READY                               195887161    0xbad0039     EIO             Not ready
+VMK_CHECKSUM_MISMATCH                       195887162    0xbad003a     EIO             Checksum mismatch
+VMK_VLAN_NO_HW_ACCEL                        195887163    0xbad003b     EINVAL          VLan HW Acceleration not supported
+VMK_NO_VLAN_SUPPORT                         195887164    0xbad003c     EOPNOTSUPP      VLan is not supported in vmkernel
+VMK_NOT_VLAN_HANDLE                         195887165    0xbad003d     EINVAL          Not a VLan handle
+VMK_BAD_VLANID                              195887166    0xbad003e     EBADF           Couldn't retrieve VLan id
+VMK_MIG_CONN_CLOSED                         195887167    0xbad003f     EINVAL          Connection closed by remote host, possibly due to timeout
+VMK_NO_CONNECT                              195887168    0xbad0040     EIO             No connection
+VMK_SEGMENT_OVERLAP                         195887169    0xbad0041     EINVAL          Segment overlap
+VMK_BAD_MPS                                 195887170    0xbad0042     EIO             Error parsing MPS Table
+VMK_BAD_ACPI                                195887171    0xbad0043     EIO             Error parsing ACPI Table
+VMK_RESUME_ERROR                            195887172    0xbad0044     EIO             Failed to resume virtual machine
+VMK_NO_ADDRESS_SPACE                        195887173    0xbad0045     ENOMEM          Insufficient address space for operation
+VMK_BAD_ADDR_RANGE                          195887174    0xbad0046     EINVAL          Bad address range
+VMK_ENETDOWN                                195887175    0xbad0047     ENETDOWN        Network is down
+VMK_ENETUNREACH                             195887176    0xbad0048     ENETUNREACH     Network unreachable
+VMK_ENETRESET                               195887177    0xbad0049     ENETRESET       Network dropped connection on reset
+VMK_ECONNABORTED                            195887178    0xbad004a     ECONNABORTED    Software caused connection abort
+VMK_ECONNRESET                              195887179    0xbad004b     ECONNRESET      Connection reset by peer
+VMK_ENOTCONN                                195887180    0xbad004c     ENOTCONN        Socket is not connected
+VMK_ESHUTDOWN                               195887181    0xbad004d     ESHUTDOWN       Cannot send after socket shutdown
+VMK_ETOOMANYREFS                            195887182    0xbad004e     ETOOMANYREFS    Too many references: cannot splice
+VMK_ECONNREFUSED                            195887183    0xbad004f     ECONNREFUSED    Connection refused
+VMK_EHOSTDOWN                               195887184    0xbad0050     EHOSTDOWN       Host is down
+VMK_EHOSTUNREACH                            195887185    0xbad0051     EHOSTUNREACH    No route to host
+VMK_EADDRINUSE                              195887186    0xbad0052     EADDRINUSE      Address already in use
+VMK_BROKEN_PIPE                             195887187    0xbad0053     EPIPE           Broken pipe
+VMK_NOT_A_DIRECTORY                         195887188    0xbad0054     ENOTDIR         Not a directory
+VMK_IS_A_DIRECTORY                          195887189    0xbad0055     EISDIR          Is a directory
+VMK_NOT_EMPTY                               195887190    0xbad0056     ENOTEMPTY       Directory not empty
+VMK_NOT_IMPLEMENTED                         195887191    0xbad0057     ENOSYS          Not implemented
+VMK_NO_SIGNAL_HANDLER                       195887192    0xbad0058     EINVAL          No signal handler
+VMK_FATAL_SIGNAL_BLOCKED                    195887193    0xbad0059     EINVAL          Fatal signal blocked
+VMK_NO_ACCESS                               195887194    0xbad005a     EACCES          Permission denied
+VMK_NO_PERMISSION                           195887195    0xbad005b     EPERM           Operation not permitted
+VMK_UNDEFINED_SYSCALL                       195887196    0xbad005c     ENOSYS          Undefined syscall
+VMK_RESULT_TOO_LARGE                        195887197    0xbad005d     ERANGE          Result too large
+VMK_VLAN_FILTERED                           195887198    0xbad005e     ERANGE          Pkts dropped because of VLAN (support) mismatch
+VMK_BAD_EXCFRAME                            195887199    0xbad005f     EFAULT          Unsafe exception frame
+VMK_MODULE_NOT_LOADED                       195887200    0xbad0060     ENODEV          Necessary module isn't loaded
+VMK_NO_SUCH_ZOMBIE                          195887201    0xbad0061     ECHILD          No dead world by that name
+VMK_NO_SUCH_CARTEL                          195887202    0xbad0062     ESRCH           No cartel by that name
+VMK_IS_A_SYMLINK                            195887203    0xbad0063     ELOOP           Is a symbolic link
+VMK_CROSS_DEVICE_LINK                       195887204    0xbad0064     EXDEV           Cross-device link
+VMK_NOT_A_SOCKET                            195887205    0xbad0065     ENOTSOCK        Not a socket
+VMK_ILLEGAL_SEEK                            195887206    0xbad0066     ESPIPE          Illegal seek
+VMK_ADDRFAM_UNSUPP                          195887207    0xbad0067     EAFNOSUPPORT    Unsupported address family
+VMK_ALREADY_CONNECTED                       195887208    0xbad0068     EISCONN         Already connected
+VMK_DEATH_PENDING                           195887209    0xbad0069     ENOENT          World is marked for death
+VMK_NO_CPU_ASSIGNMENT                       195887210    0xbad006a     EINVAL          No valid scheduler assignment
+VMK_CPU_MIN_INVALID                         195887211    0xbad006b     EINVAL          Invalid cpu min
+VMK_CPU_MINLIMIT_INVALID                    195887212    0xbad006c     EINVAL          Invalid cpu minLimit
+VMK_CPU_MAX_INVALID                         195887213    0xbad006d     EINVAL          Invalid cpu max
+VMK_CPU_SHARES_INVALID                      195887214    0xbad006e     EINVAL          Invalid cpu shares
+VMK_CPU_MIN_OVERFLOW                        195887215    0xbad006f     EINVAL          CPU min outside valid range
+VMK_CPU_MINLIMIT_OVERFLOW                   195887216    0xbad0070     EINVAL          CPU minLimit outside valid range
+VMK_CPU_MAX_OVERFLOW                        195887217    0xbad0071     EINVAL          CPU max outside valid range
+VMK_CPU_MIN_GT_MINLIMIT                     195887218    0xbad0072     EINVAL          CPU min exceeds minLimit
+VMK_CPU_MIN_GT_MAX                          195887219    0xbad0073     EINVAL          CPU min exceeds max
+VMK_CPU_MINLIMIT_LT_RESERVED                195887220    0xbad0074     ENOSPC          CPU minLimit less than cpu already reserved by children
+VMK_CPU_MAX_LT_RESERVED                     195887221    0xbad0075     ENOSPC          CPU max less than cpu already reserved by children
+VMK_CPU_ADMIT_FAILED                        195887222    0xbad0076     ENOSPC          Admission check failed for cpu resource
+VMK_MEM_MIN_INVALID                         195887223    0xbad0077     EINVAL          Invalid memory min
+VMK_MEM_MINLIMIT_INVALID                    195887224    0xbad0078     EINVAL          Invalid memory minLimit
+VMK_MEM_MAX_INVALID                         195887225    0xbad0079     EINVAL          Invalid memory max
+VMK_MEM_MIN_OVERFLOW                        195887226    0xbad007a     EINVAL          Memory min outside valid range
+VMK_MEM_MINLIMIT_OVERFLOW                   195887227    0xbad007b     EINVAL          Memory minLimit outside valid range
+VMK_MEM_MAX_OVERFLOW                        195887228    0xbad007c     EINVAL          Memory max outside valid range
+VMK_MEM_MIN_GT_MINLIMIT                     195887229    0xbad007d     EINVAL          Memory min exceeds minLimit
+VMK_MEM_MIN_GT_MAX                          195887230    0xbad007e     EINVAL          Memory min exceeds max
+VMK_MEM_MINLIMIT_LT_RESERVED                195887231    0xbad007f     ENOSPC          Memory minLimit less than memory already reserved by children
+VMK_MEM_MAX_LT_RESERVED                     195887232    0xbad0080     ENOSPC          Memory max less than memory already reserved by children
+VMK_MEM_ADMIT_FAILED                        195887233    0xbad0081     ENOSPC          Admission check failed for memory resource
+VMK_NO_SWAP_FILE                            195887234    0xbad0082     ENOENT          No swap file
+VMK_BAD_PARAM_COUNT                         195887235    0xbad0083     EINVAL          Bad parameter count
+VMK_BAD_PARAM_TYPE                          195887236    0xbad0084     EINVAL          Bad parameter type
+VMK_UNMAP_RETRY                             195887237    0xbad0085     ENOMEM          Dueling unmaps (ok to retry)
+VMK_INVALID_IOCTL                           195887238    0xbad0086     ENOTTY          Inappropriate ioctl for device
+VMK_MAPFAULT_RETRY                          195887239    0xbad0087     EBUSY           Mmap changed under page fault (ok to retry)
+VMK_EINPROGRESS                             195887240    0xbad0088     EINPROGRESS     Operation now in progress
+VMK_ADDR_UNMAPPED                           195887241    0xbad0089     EFAULT          Address temporarily unmapped
+VMK_INVALID_BUDDY_TYPE                      195887242    0xbad008a     ENOMEM          Invalid buddy type
+VMK_LPAGE_INFO_NOT_FOUND                    195887243    0xbad008b     ENOMEM          Large page info not found
+VMK_LPAGE_INFO_INVALID                      195887244    0xbad008c     EINVAL          Invalid large page info
+VMK_SNAPSHOT_DEV                            195887245    0xbad008d     EIO             SCSI LUN is in snapshot state
+VMK_IN_TRANSITION                           195887246    0xbad008e     EIO             SCSI LUN is in transition
+VMK_TXN_FULL                                195887247    0xbad008f     ENOSPC          Transaction ran out of lock space or log space
+VMK_LOCK_NOT_FREE                           195887248    0xbad0090     EBUSY           Lock was not free
+VMK_NUM_FILES_EXCEEDED                      195887249    0xbad0091     ENOSPC          Exceed maximum number of files on the filesystem
+VMK_MIGRATE_VMX_FAILURE                     195887250    0xbad0092     EINVAL          Migration determined a failure by the VMX
+VMK_VSI_LIST_OVERFLOW                       195887251    0xbad0093     EFBIG           VSI GetList handler overflow
+VMK_INVALID_WORLD                           195887252    0xbad0094     EINVAL          Invalid world
+VMK_INVALID_VMM                             195887253    0xbad0095     EINVAL          Invalid vmm
+VMK_INVALID_TXN                             195887254    0xbad0096     EINVAL          Invalid transaction
+VMK_FS_RETRY_OPERATION                      195887255    0xbad0097     EAGAIN          Transient file system condition, suggest retry
+VMK_VCPU_LIMIT_EXCEEDED                     195887256    0xbad0098     EINVAL          Number of running VCPUs limit exceeded
+VMK_INVALID_METADATA                        195887257    0xbad0099     EINVAL          Invalid metadata
+VMK_INVALID_PAGE_NUMBER                     195887258    0xbad009a     EINVAL          Invalid page number
+VMK_NOT_EXEC                                195887259    0xbad009b     ENOEXEC         Not in executable format
+VMK_NFS_CONNECT_FAILURE                     195887260    0xbad009c     EHOSTDOWN       Unable to connect to NFS server
+VMK_NFS_MOUNT_NOT_SUPPORTED                 195887261    0xbad009d     EINVAL          The NFS server does not support MOUNT version 3 over TCP
+VMK_NFS_NFS_NOT_SUPPORTED                   195887262    0xbad009e     EINVAL          The NFS server does not support requested NFS version over TCP
+VMK_NFS_MOUNT_DENIED                        195887263    0xbad009f     EPERM           The NFS server denied the mount request
+VMK_NFS_MOUNT_NOT_DIR                       195887264    0xbad00a0     ENOTDIR         The specified mount path was not a directory
+VMK_NFS_BAD_FSINFO                          195887265    0xbad00a1     EACCES          Unable to query remote mount point's attributes
+VMK_NFS_VOLUME_LIMIT_EXCEEDED               195887266    0xbad00a2     EINVAL          NFS has reached the maximum number of supported volumes
+VMK_NO_MEMORY_NICE                          195887267    0xbad00a3     ENOMEM          Out of nice memory
+VMK_MIGRATE_PREEMPTIVE_FAIL                 195887268    0xbad00a4     ENOMEM          Migration failed to start due to lack of CPU or memory resources
+VMK_CACHE_MISS                              195887269    0xbad00a5     EFAULT          Cache miss
+VMK_STRESS_INDUCED_ERROR                    195887270    0xbad00a6     EIO             Error induced when stress options are enabled
+VMK_TOO_MANY_LOCK_HOLDERS                   195887271    0xbad00a7     EUSERS          Maximum number of concurrent hosts are already accessing this resource
+VMK_NO_JOURNAL                              195887272    0xbad00a8     EIO             Host doesn't have a journal
+VMK_RANK_VIOLATION                          195887273    0xbad00a9     EDEADLK         Lock rank violation detected
+VMK_MODULE_FAILED                           195887274    0xbad00aa     ENODEV          Module failed
+VMK_NO_MASTER_PTY                           195887275    0xbad00ab     ENXIO           Unable to open slave if no master pty
+VMK_NOT_IOABLE                              195887276    0xbad00ac     EFAULT          Not IOAble
+VMK_NO_FREE_INODES                          195887277    0xbad00ad     ENOSPC          No free inodes
+VMK_NO_MEMORY_FOR_FILEDATA                  195887278    0xbad00ae     ENOSPC          No free memory for file data
+VMK_NO_TAR_SPACE                            195887279    0xbad00af     ENOSPC          No free space to expand file or meta data
+VMK_NO_FIFO_READER                          195887280    0xbad00b0     ENXIO           Unable to open writer if no fifo reader
+VMK_NO_SUCH_DEVICE                          195887281    0xbad00b1     EINVAL          No underlying device for major,minor
+VMK_MEM_MIN_GT_MEMSIZE                      195887282    0xbad00b2     EINVAL          Memory min exceeds memSize
+VMK_NO_SUCH_VT                              195887283    0xbad00b3     ENXIO           No virtual terminal for number
+VMK_TOO_MANY_ELEMENTS                       195887284    0xbad00b4     E2BIG           Too many elements for list
+VMK_SHAREDAREA_MISMATCH                     195887285    0xbad00b5     ENOSYS          VMM<->VMK shared area mismatch
+VMK_EXEC_FAILURE                            195887286    0xbad00b6     ESRCH           Failure during exec while original state already lost
+VMK_INVALID_MODULE                          195887287    0xbad00b7     EINVAL          Invalid module
+VMK_UNALIGNED_ADDRESS                       195887288    0xbad00b8     EINVAL          Address is not aligned on required boundary
+VMK_NOT_MAPPED                              195887289    0xbad00b9     ENOMEM          Address is not mapped in address space
+VMK_NO_MESSAGE_SPACE                        195887290    0xbad00ba     ENOMEM          No space to record a message
+VMK_EXCEPTION_HANDLER_INVALID               195887291    0xbad00bb     EINVAL          Invalid exception handler
+VMK_EXCEPTION_NOT_HANDLED                   195887292    0xbad00bc     EINVAL          Exception not handled by exception handler
+VMK_INVALID_MULTIWRITER_OBJECT              195887293    0xbad00bd     EDEADLK         Cannot open sparse/TBZ files in multiwriter mode
+VMK_STORAGE_RETRY_OPERATION                 195887294    0xbad00be     EAGAIN          Transient storage condition, suggest retry
+VMK_HBA_ERROR                               195887295    0xbad00bf     EIO             Storage initiator error
+VMK_TIMER_INIT_FAILED                       195887296    0xbad00c0     EINVAL          Timer initialization failed
+VMK_MODULE_NOT_FOUND                        195887297    0xbad00c1     ENOENT          Module not found
+VMK_NOT_SOCKET_OWNER                        195887298    0xbad00c2     EINVAL          Socket not owned by cartel
+VMK_VSI_HANDLER_NOT_FOUND                   195887299    0xbad00c3     ENOENT          No VSI handler found for the requested node
+VMK_INVALID_MMAPPROTFLAGS                   195887300    0xbad00c4     EINVAL          Invalid mmap protection flags
+VMK_INVALID_MAPCONTIG_SIZE                  195887301    0xbad00c5     EINVAL          Invalid chunk size for contiguous mmap 
+VMK_INVALID_MAPCONTIG_MAX                   195887302    0xbad00c6     EINVAL          Invalid MPN max for contiguous mmap 
+VMK_INVALID_MAPCONTIG_FLAG                  195887303    0xbad00c7     EINVAL          Invalid mmap flag on contiguous mmap 
+VMK_NOT_LAZY_MMINFO                         195887304    0xbad00c8     EINVAL          Unexpected fault on pre-faulted memory region
+VMK_MMINFO_WONT_SPLIT                       195887305    0xbad00c9     EINVAL          Memory region cannot be split (remap/unmap)
+VMK_NO_CACHE_INFO                           195887306    0xbad00ca     ENOENT          Cache Information not available
+VMK_CANNOT_REMAP_PINNED_MEMORY              195887307    0xbad00cb     EINVAL          Cannot remap pinned memory
+VMK_NO_SUCH_CARTELGROUP                     195887308    0xbad00cc     ESRCH           No cartel group by that name
+VMK_SPLOCKSTATS_DISABLED                    195887309    0xbad00cd     EINVAL          SPLock stats collection disabled
+VMK_BAD_TAR_IMAGE                           195887310    0xbad00ce     EINVAL          Boot image is corrupted
+VMK_BRANCHED_ALREADY                        195887311    0xbad00cf     EPERM           Branched file cannot be modified
+VMK_NAME_RESERVED_FOR_BRANCH                195887312    0xbad00d0     EPERM           Name is reserved for branched file
+VMK_CANNOT_BRANCH_UNLINKED                  195887313    0xbad00d1     EPERM           Unlinked file cannot be branched
+VMK_MAX_RETRIES_EXCEEDED                    195887314    0xbad00d2     EAGAIN          Maximum kernel-level retries exceeded
+VMK_OPTLOCK_STOLEN                          195887315    0xbad00d3     EAGAIN          Optimistic lock acquired by another host
+VMK_NOT_MMAPABLE                            195887316    0xbad00d4     ENODEV          Object cannot be mmapped
+VMK_INVALID_CPU_AFFINITY                    195887317    0xbad00d5     EINVAL          Invalid cpu affinity
+VMK_DEVICE_NOT_PARTOF_LV                    195887318    0xbad00d6     ENXIO           Device does not contain a logical volume
+VMK_NO_SPACE                                195887319    0xbad00d7     ENOSPC          No space left on device
+VMK_VSI_INVALID_NODE_ID                     195887320    0xbad00d8     EINVAL          Invalid vsi node ID
+VMK_TOO_MANY_USERS                          195887321    0xbad00d9     EUSERS          Too many users accessing this resource
+VMK_EALREADY                                195887322    0xbad00da     EALREADY        Operation already in progress
+VMK_BUF_TOO_SMALL                           195887323    0xbad00db     EINVAL          Buffer too small to complete the operation
+VMK_SNAPSHOT_DEV_DISALLOWED                 195887324    0xbad00dc     EACCES          Snapshot device disallowed
+VMK_LVM_DEVICE_UNREACHABLE                  195887325    0xbad00dd     EIO             LVM device unreachable
+VMK_CPU_INVALID_RESOURCE_UNITS              195887326    0xbad00de     EINVAL          Invalid cpu resource units
+VMK_MEM_INVALID_RESOURCE_UNITS              195887327    0xbad00df     EINVAL          Invalid memory resource units
+VMK_ABORTED                                 195887328    0xbad00e0     ECANCELED       IO was aborted
+VMK_MEM_MIN_LT_RESERVED                     195887329    0xbad00e1     ENOSPC          Memory min less than memory already reserved by children
+VMK_MEM_MIN_LT_CONSUMED                     195887330    0xbad00e2     ENOSPC          Memory min less than memory required to support current consumption
+VMK_MEM_MAX_LT_CONSUMED                     195887331    0xbad00e3     ENOSPC          Memory max less than memory required to support current consumption
+VMK_TIMEOUT_RETRY_DEPRECATED                195887332    0xbad00e4     ETIMEDOUT       Timeout (ok to retry) DEPRECATED
+VMK_RESERVATION_LOST                        195887333    0xbad00e5     EBUSY           Reservation Lost
+VMK_FS_STALE_METADATA                       195887334    0xbad00e6     ENOENT          Cached metadata is stale
+VMK_NO_FCNTL_LOCK                           195887335    0xbad00e7     ENOLCK          No fcntl lock slot left
+VMK_NO_FCNTL_LOCK_HOLDER                    195887336    0xbad00e8     ENOLCK          No fcntl lock holder slot left
+VMK_NO_LICENSE                              195887337    0xbad00e9     EACCES          Not licensed to access VMFS volumes
+VMK_VSI_MODULE_NOT_FOUND                    195887338    0xbad00ea     ENOENT          Vmkernel module necessary for this vsi call not loaded
+VMK_LVM_RETRY_OPERATION                     195887339    0xbad00eb     EAGAIN          Transient LVM device condition, suggest retry
+VMK_SNAPSHOT_LV_INCOMPLETE                  195887340    0xbad00ec     EAGAIN          Snapshot LV incomplete
+VMK_MEDIUM_NOT_FOUND                        195887341    0xbad00ed     EIO             Medium not found
+VMK_MAX_PATHS_CLAIMED                       195887342    0xbad00ee     ENOMEM          Maximum allowed SCSI paths have already been claimed
+VMK_NOT_MOUNTABLE                           195887343    0xbad00ef     ENODEV          Filesystem is not mountable
+VMK_MEMSIZE_GT_MEMSIZELIMIT                 195887344    0xbad00f0     EINVAL          Memory size exceeds memSizeLimit
+VMK_RECORD_WRITE_ERROR                      195887345    0xbad00f1     EIO             An error occurred trying to write to the log
+VMK_REPLAY_READ_ERROR                       195887346    0xbad00f2     EIO             An error occurred trying to read from the log
+VMK_REPLAY_TYPE_MISMATCH                    195887347    0xbad00f3     EIO             There was a type mismatch while reading from the log
+VMK_REPLAY_DIVERGENCE                       195887348    0xbad00f4     EIO             A divergence was detected during replay
+VMK_FT_NOT_RESPONDING                       195887349    0xbad00f5     ENOTCONN        The remote side of an FT pair isn't responding
+VMK_NET_REPLAY_ERROR                        195887350    0xbad00f6     EIO             An error occurred during replay of networking.
+VMK_VOBERR_INVALID_VOBID                    195887351    0xbad00f7     EINVAL          Vob ID invalid
+VMK_VOBERR_FMT_LIMIT_EXCEEDED               195887352    0xbad00f8     EFBIG           Vob format string too long
+VMK_VOBERR_INVALID_FMT_STRING               195887353    0xbad00f9     EINVAL          Invalid format specifier in VOB format string
+VMK_VOBERR_INVALID_ATTR                     195887354    0xbad00fa     EINVAL          Invalid attribute specifier in VOB format string
+VMK_ELF_CORRUPT                             195887355    0xbad00fb     EINVAL          ELF file is corrupt.
+VMK_EADDRNOTAVAIL                           195887356    0xbad00fc     EADDRNOTAVAIL   Address not available
+VMK_EDESTADDRREQ                            195887357    0xbad00fd     EDESTADDRREQ    Destination address required
+VMK_LVM_STALE_METADATA                      195887358    0xbad00fe     EPERM           Cached LVM metadata is stale.
+VMK_NO_RPC_TABLE                            195887359    0xbad00ff     ENOENT          RPC table does not exist
+VMK_DUPLICATE_UID                           195887360    0xbad0100     EEXIST          Device already has UID
+VMK_UNRESOLVED_SYMBOL                       195887361    0xbad0101     ENOENT          Unresolved symbol
+VMK_DEVICE_NOT_OWNED                        195887362    0xbad0102     EINVAL          VMkernel does not own the device
+VMK_DEVICE_NOT_NAMED                        195887363    0xbad0103     EINVAL          Device has no name
+VMK_EPROTONOSUPPORT                         195887364    0xbad0104     EPROTONOSUPPORT Protocol not supported
+VMK_EOPNOTSUPP                              195887365    0xbad0105     EOPNOTSUPP      Operation not supported
+VMK_UNDEFINED_VMKCALL                       195887366    0xbad0106     ENOSYS          Undefined VMKCall
+VMK_MIGRATE_MAX_DOWNTIME_EXCEEDED           195887367    0xbad0107     ETIMEDOUT       Maximum switchover time for migration exceeded
+VMK_LOCK_EXISTS                             195887368    0xbad0108     EEXIST          Multiple RO/MW locks held by the same host
+VMK_MIGRATE_PRECOPY_NO_FORWARD_PROGRESS     195887369    0xbad0109     EINVAL          Migration failed due to lack of pre-copy forward progress
+VMK_UID_CHANGED                             195887370    0xbad010a     EEXIST          Device UID changed
+VMK_VMOTION_CONNECT_FAILED                  195887371    0xbad010b     ENOTCONN        The ESX hosts failed to connect over the VMotion network
+VMK_NO_MIGRATION_IN_PROGRESS                195887372    0xbad010c     ENOENT          No migration in progress
+VMK_EXEC_FILE_BUSY                          195887373    0xbad010d     ETXTBSY         File is being executed, write access denied
+VMK_FS_TIMEOUT_RETRY                        195887374    0xbad010e     ETIMEDOUT       File system timeout (Ok to retry)
+VMK_COW_TIMEOUT_RETRY                       195887375    0xbad010f     ETIMEDOUT       COW timeout (Ok to retry)
+VMK_FS_LOCKSTATE_IN_TRANSITION_DEPRECATED   195887376    0xbad0110     EBUSY           Lock state is in transition (ok to retry) DEPRECATED
+VMK_FS_LOCK_LOST                            195887377    0xbad0111     EIO             Lost previously held disk lock
+VMK_NO_SPACE_ON_DEVICE                      195887378    0xbad0112     ENOSPC          Underlying device has no free space
+VMK_EOVERFLOW                               195887379    0xbad0113     EOVERFLOW       Value too large for defined data type
+VMK_MEM_SHARES_INVALID                      195887380    0xbad0114     EINVAL          Invalid memory shares
+VMK_LVM_INCONSISTENT_LOCKLESSOP             195887381    0xbad0115     EAGAIN          LVM lockless op reads in an inconsistent state
+VMK_INVALID_SECURITY_LABEL                  195887382    0xbad0116     EINVAL          Invalid security label
+VMK_ACCESS_DENIED                           195887383    0xbad0117     EPERM           Access denied by vmkernel access control policy
+VMK_WORK_COMPLETED                          195887384    0xbad0118     EALREADY        Work has already completed
+VMK_WORK_RUNNING                            195887385    0xbad0119     EINPROGRESS     Work is currently running
+VMK_WORK_PENDING                            195887386    0xbad011a     EEXIST          Work is already pending
+VMK_WORK_INVALID                            195887387    0xbad011b     EINVAL          Work or properties provided invalid
+VMK_VOBERR_OVERFLOW                         195887388    0xbad011c     EFBIG           VOB context overflow
+VMK_VOBERR_INVALID_CONTEXT                  195887389    0xbad011d     EINVAL          VOB context invalid
+VMK_VOBERR_LOCK_CONFLICT                    195887390    0xbad011e     EINVAL          VOB context conflict for lock
+VMK_RETRY                                   195887391    0xbad011f     EINVAL          Retry the operation
+VMK_NO_MODULE_HEAP                          195887392    0xbad0120     ENOMEM          Module has no heap to allocate from
+VMK_REMOTE_PAGE_FAULT_FAILURE               195887393    0xbad0121     ENOMEM          Remote page fault failure
+VMK_VSI_DATA_LENGTH_MISMATCH                195887394    0xbad0122     EIO             VSI data length mismatch
+VMK_MAPPING_FAILED                          195887395    0xbad0123     EFAULT          Mapping operation failed
+VMK_ATS_MISCOMPARE                          195887396    0xbad0124     EINVAL          Atomic test and set of disk block returned false for equality
+VMK_NO_BUFFERSPACE                          195887397    0xbad0125     ENOBUFS         No buffer space available
+VMK_FT_NOT_RUNNING                          195887398    0xbad0126     EINVAL          FT vm is not enabled
+VMK_LICENSE_MISMATCH                        195887399    0xbad0127     EINVAL          Incompatible licenses detected
+VMK_ELF_UNKNOWN_RELOCATIONS                 195887400    0xbad0128     EINVAL          ELF file contains invalid relocation types
+VMK_MESSAGE_TOO_LONG                        195887401    0xbad0129     EMSGSIZE        Message too long
+VMK_INVALID_NAMESPACE                       195887402    0xbad012a     ENOENT          Invalid or missing namespace
+VMK_SHUTTING_DOWN                           195887403    0xbad012b     EINVAL          Operation not allowed because the VMKernel is shutting down
+VMK_SKIPPED_FREE                            195887404    0xbad012c     EINVAL          Skipped freeing of resource with no reference
+VMK_VMFS_ABORTED                            195887405    0xbad012d     ECANCELED       IO was aborted by VMFS via a virt-reset on the device
+VMK_NO_WRITE_ON_TARDISKS                    195887406    0xbad012e     EPERM           Write not allowed on tardisks
+VMK_SVM_IO_RETRY                            195887407    0xbad012f     EBUSY           Re-issue IO at a later time
+VMK_MODULE_NO_LICENSE                       195887408    0xbad0130     ENOENT          Module does not provide a license tag
+VMK_MODULE_UNKNOWN_LICENSE                  195887409    0xbad0131     ENOENT          Module provides an unknown license tag
+VMK_PERM_DEV_LOSS                           195887410    0xbad0132     EIO             Device is permanently unavailable
+VMK_SE_IO_RETRY                             195887411    0xbad0133     EBUSY           Reissue IO at a later time for SE disks
+VMK_BAD_ADDR_SPACE                          195887412    0xbad0134     EINVAL          Address space type is not supported for operation
+VMK_DMA_MAPPING_FAILED                      195887413    0xbad0135     EINVAL          DMA mapping could not be completed
+VMK_RESERVATION_GT_LIMIT                    195887414    0xbad0136     EINVAL          Memory pool reservation is greater than limit
+VMK_MODULE_NONAMESPACE                      195887415    0xbad0137     ENOENT          Module tried to export a symbol but didn't provide a name space
+VMK_FS_OBJECT_UNLINKED                      195887416    0xbad0138     EINVAL          File system object is unlinked
+VMK_HBR_WIRE_INSTANCE_ABORTED               195887417    0xbad0139     ECANCELED       Replication instance was aborted
+VMK_HBR_WIRE_NEED_FULL_SYNC                 195887418    0xbad013a     EINVAL          Replicated disk needs full synchronization
+VMK_HBR_WIRE_DISK_SET_MISMATCH              195887419    0xbad013b     EINVAL          The set of disks on the replication server doesn't match
+VMK_HBR_WIRE_REQUEST_CHECKSUM_MISMATCH      195887420    0xbad013c     EINVAL          The checksum for the replication request was invalid
+VMK_HBR_WIRE_RESPONSE_CHECKSUM_MISMATCH     195887421    0xbad013d     EINVAL          The checksum for the replication response was invalid
+VMK_HBR_WIRE_GROUP_REMOVED                  195887422    0xbad013e     ENOENT          The replication group was removed on the server side
+VMK_HBR_WIRE_GROUP_SESSION_REVOKED          195887423    0xbad013f     EEXIST          A newer client for this group is connected to the replication server
+VMK_HBR_WIRE_PROTOCOL_CORRUPTED             195887424    0xbad0140     EINVAL          Corrupt response from replication server
+VMK_PORTSET_HANDLE_NOT_MUTABLE              195887425    0xbad0141     EINVAL          Portset handle is not mutable
+VMK_SUSPEND_IO                              195887426    0xbad0142     EINVAL          Suspend the IO in question
+VMK_NO_WORKING_PATHS                        195887427    0xbad0143     EINVAL          No working paths to select
+VMK_EPROTOTYPE                              195887428    0xbad0144     EPROTOTYPE      Invalid protocol for connection
+VMK_MODULE_CONSUMED_RESOURCE_COUNT_NOT_ZERO 195887429    0xbad0145     EBUSY           Consumed resource count of module is not zero
+VMK_HBR_SERVER_DOES_NOT_SUPPORT_REQUEST     195887430    0xbad0146     EOPNOTSUPP      vSphere Replication Server does not support request
+VMK_STALE_FILEHANDLE                        195887431    0xbad0147     ESTALE          Stale file handle
+VMK_VVOL_UNBOUND                            195887432    0xbad0148     ENODEV          Virtual volume is not bound
+VMK_DEVICE_NOT_READY_FAIL_OPEN              195887433    0xbad0149     EPERM           Device open failed with no-retry
+VMK_NOT_THIS_DEVICE                         195887434    0xbad014a     EINVAL          Not for this device
+VMK_IGNORE                                  195887435    0xbad014b     EINVAL          Ignore
+VMK_OBJECT_DESTROYED                        195887436    0xbad014c     EINVAL          Object is being or has been destroyed
+VMK_VVOL_PE_NOT_READY                       195887437    0xbad014d     EAGAIN          Protocol Endpoint not ready for I/O to given secondary level ID
+VMK_SCSI_PI_GUARD_ERROR                     195887438    0xbad014e     EIO             T10 PI GUARD tag check failed
+VMK_SCSI_PI_REF_ERROR                       195887439    0xbad014f     EIO             T10 PI REF tag check failed
+VMK_RES_META_STALE                          195887440    0xbad0150     EAGAIN          Cached resource metadata is stale
+VMK_NOT_PINNED                              195887441    0xbad0151     ENOENT          Page is not pinned
+VMK_BAD_SWAP_SCOPE                          195887442    0xbad0152     EINVAL          Incorrect swap scope
+VMK_CONSUMED_GT_ZERO                        195887443    0xbad0153     EINVAL          Consumed memory is more than zero
+VMK_LOCK_HELD_BY_ZOMBIE_TXN                 195887444    0xbad0154     EBUSY           Lock held by a transaction in progress
+VMK_HBR_WIRE_FILE_IDENTICAL                 195887445    0xbad0155     EEXIST          The file being sent already exists and is identical
+VMK_VOL_ALREADY_MOUNTED                     195887446    0xbad0156     EBUSY           The volume is already mounted
+VMK_NO_VOLUMES                              195887447    0xbad0157     ENOMEM          Out of volumes
+VMK_SB_NOT_FOUND                            195887448    0xbad0158     ENOENT          Super block not found
+VMK_NO_PMEM                                 195887449    0xbad0159     ENOMEM          Out of persistent memory
+VMK_OTHER                                   195887450    0xbad015a     EINPROGRESS     Another operation is in progress
+VMK_CANNOT_SHRINK                           195887451    0xbad015b     EPERM           Shrinking is not allowed
+VMK_NOT_A_BASE                              195887452    0xbad015c     EPERM           Not a base disk
+VMK_HAS_SNAPSHOTS                           195887453    0xbad015d     ECHILD          Disk has snapshots
+VMK_LOCK_DROPPED                            195887454    0xbad015e     EAGAIN          Lock was dropped during function call
+VMK_PMEM_CORRUPTED                          195887455    0xbad015f     EIO             Persistent memory datastore is corrupt
+VMK_PMEM_DATA_CORRUPTED                     195887456    0xbad0160     EIO             Persistent memory data block is corrupt
+VMK_LAST_ERR                                195887457    0xbad0161     EINVAL          Invalid error code
+VMK_GENERIC_LINUX_ERROR                     732758016    0x2bad0000    EIO             Generic service console error
+

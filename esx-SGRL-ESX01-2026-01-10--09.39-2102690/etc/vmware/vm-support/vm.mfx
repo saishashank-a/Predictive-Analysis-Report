@@ -1,0 +1,17 @@
+% Manifest name: base
+% Manifest group: VirtualMachines
+% Manifest default: Enabled
+% Manifest tag: vm,logs
+# action Options file/command
+
+# add ignore error here because there could be vmfs locks on these files.
+vmfile IGNORE_ERROR,IGNORE_MISSING  *.cfg
+vmfile IGNORE_ERROR,IGNORE_MISSING  *.vmx
+vmfile IGNORE_ERROR,IGNORE_MISSING  *.vmxf
+vmfile IGNORE_ERROR,IGNORE_MISSING  *.vmsd
+vmfile IGNORE_ERROR,IGNORE_MISSING  *.vmft
+vmfile IGNORE_ERROR,IGNORE_MISSING  *-aux.xml
+vmfile IGNORE_ERROR,IGNORE_MISSING  shared.vmft
+vmfile IGNORE_ERROR,IGNORE_MISSING  .ft-generation*
+vmcmd  IGNORE_ERROR,IGNORE_MISSING /bin/ls -isla "{VMDIR}"
+run DUMP_JSON /usr/sbin/localcli vm process list

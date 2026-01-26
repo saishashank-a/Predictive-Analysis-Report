@@ -1,0 +1,2 @@
+regtype=native,bus=pci,id=19240a031924..........,driver=sfvmk
+regtype=native,bus=pci,id=19240b0319248022......,driver=sfvmk

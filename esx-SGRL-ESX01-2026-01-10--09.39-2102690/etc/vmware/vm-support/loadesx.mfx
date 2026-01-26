@@ -1,0 +1,8 @@
+% Manifest name: LoadESX
+% Manifest group: System
+% Manifest default: Enabled
+% Manifest tag: loadesx
+# action Options file/command
+
+# loadESX scratch information
+copy RECURSE,TIMEOUT=10,IGNORE_MISSING /scratch/vmware/loadESX/

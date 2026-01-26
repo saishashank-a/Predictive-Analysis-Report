@@ -1,0 +1,1 @@
+regtype=linux,bus=pci,id=1106:5324 0000:0000,driver=pata_via,class=storage

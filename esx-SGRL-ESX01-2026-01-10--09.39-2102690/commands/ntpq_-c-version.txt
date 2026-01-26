@@ -1,0 +1,1 @@
+ntpq 4.2.8p15+vmware@1.3728-o Tue Jul  7 21:28:27 UTC 2020 (1)

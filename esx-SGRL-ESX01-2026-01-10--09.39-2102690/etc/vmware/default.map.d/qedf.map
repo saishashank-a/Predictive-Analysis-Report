@@ -1,0 +1,9 @@
+regtype=native,bus=pci,id=1077165c10770034......,driver=qedf
+regtype=native,bus=pci,id=1077165c1077e4f1......,driver=qedf
+regtype=native,bus=pci,id=1077165c1077e4f2......,driver=qedf
+regtype=native,bus=pci,id=1077165c1077e4f9......,driver=qedf
+regtype=native,bus=pci,id=1077165c1077e4fa......,driver=qedf
+regtype=native,bus=pci,id=1077165c1077e4fb......,driver=qedf
+regtype=native,bus=pci,id=1077165c15900245......,driver=qedf
+regtype=native,bus=pci,id=1077165c15900287......,driver=qedf
+regtype=native,bus=pci,id=10778080..............,driver=qedf

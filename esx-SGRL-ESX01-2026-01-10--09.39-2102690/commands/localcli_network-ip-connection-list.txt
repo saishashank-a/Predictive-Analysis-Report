@@ -1,0 +1,63 @@
+Proto  Recv Q  Send Q  Local Address                      Foreign Address      State        World ID  CC Algo  World Name
+-------------------------------------------------------------------------------------------------------------------------
+tcp         0       0  127.0.0.1:8309                     127.0.0.1:38500      TIME_WAIT           0           
+tcp         0       0  192.168.1.100:443                  192.168.1.100:13026  TIME_WAIT           0           
+tcp         0       0  127.0.0.1:39676                    127.0.0.1:8089       TIME_WAIT           0           
+tcp         0       0  127.0.0.1:58228                    127.0.0.1:8307       TIME_WAIT           0           
+tcp         0       0  127.0.0.1:61122                    127.0.0.1:443        TIME_WAIT           0           
+tcp         0       0  127.0.0.1:13239                    127.0.0.1:8307       TIME_WAIT           0           
+tcp         0       0  127.0.0.1:22423                    127.0.0.1:443        TIME_WAIT           0           
+tcp         0       0  127.0.0.1:17768                    127.0.0.1:8307       TIME_WAIT           0           
+tcp         0       0  127.0.0.1:59632                    127.0.0.1:443        TIME_WAIT           0           
+tcp         0       0  127.0.0.1:62415                    127.0.0.1:8307       TIME_WAIT           0           
+tcp         0       0  127.0.0.1:30603                    127.0.0.1:443        TIME_WAIT           0           
+tcp         0       0  127.0.0.1:13656                    127.0.0.1:8307       TIME_WAIT           0           
+tcp         0       0  127.0.0.1:20169                    127.0.0.1:8307       TIME_WAIT           0           
+tcp         0       0  127.0.0.1:32552                    127.0.0.1:8307       TIME_WAIT           0           
+tcp         0       0  127.0.0.1:43166                    127.0.0.1:443        TIME_WAIT           0           
+tcp         0       0  127.0.0.1:19556                    127.0.0.1:8307       TIME_WAIT           0           
+tcp         0       0  127.0.0.1:62189                    127.0.0.1:443        TIME_WAIT           0           
+tcp         0       0  127.0.0.1:8303                     127.0.0.1:29167      ESTABLISHED   2098830  newreno  IO
+tcp         0       0  127.0.0.1:29167                    127.0.0.1:8303       ESTABLISHED   2098916  newreno  rhttpproxy-work
+tcp         0       0  192.168.1.100:443                  192.168.1.2:43258    ESTABLISHED   2098913  newreno  rhttpproxy-IO
+tcp         0       0  127.0.0.1:8307                     127.0.0.1:11593      ESTABLISHED   2098904  newreno  hostd-IO
+tcp         0       0  127.0.0.1:11593                    127.0.0.1:8307       ESTABLISHED   2099426  newreno  rhttpproxy-work
+tcp         0       0  192.168.1.100:443                  192.168.1.2:43252    ESTABLISHED   2098913  newreno  rhttpproxy-IO
+tcp         0       0  127.0.0.1:8307                     127.0.0.1:25801      ESTABLISHED   2098903  newreno  hostd-IO
+tcp         0       0  127.0.0.1:25801                    127.0.0.1:8307       ESTABLISHED   2099589  newreno  vpxa-worker
+tcp         0       0  127.0.0.1:15237                    127.0.0.1:8089       TIME_WAIT           0           
+tcp         0       0  127.0.0.1:8307                     127.0.0.1:26971      ESTABLISHED   2098903  newreno  hostd-IO
+tcp         0       0  127.0.0.1:26971                    127.0.0.1:8307       ESTABLISHED   2100030  newreno  vpxa-worker
+tcp         0       0  127.0.0.1:8089                     127.0.0.1:45140      ESTABLISHED   2099351  newreno  vpxa-IO
+tcp         0       0  127.0.0.1:45140                    127.0.0.1:8089       ESTABLISHED   2099652  newreno  rhttpproxy-work
+tcp         0       0  192.168.1.100:443                  192.168.1.2:50338    ESTABLISHED   2098913  newreno  rhttpproxy-IO
+tcp         0       0  127.0.0.1:12000                    0.0.0.0:0            LISTEN        2099368  newreno  vpxa-worker
+tcp         0       0  127.0.0.1:8307                     127.0.0.1:50084      ESTABLISHED   2098904  newreno  hostd-IO
+tcp         0       0  127.0.0.1:50084                    127.0.0.1:8307       ESTABLISHED   2099366  newreno  vpxa-worker
+tcp         0       0  127.0.0.1:8307                     127.0.0.1:50083      ESTABLISHED   2098904  newreno  hostd-IO
+tcp         0       0  127.0.0.1:50083                    127.0.0.1:8307       ESTABLISHED   2099367  newreno  vpxa-worker
+tcp         0       0  127.0.0.1:8307                     127.0.0.1:57402      CLOSE_WAIT    2098904  newreno  hostd-IO
+tcp         0       0  127.0.0.1:12001                    0.0.0.0:0            LISTEN        2098878  newreno  hostd
+tcp         0       0  127.0.0.1:8307                     0.0.0.0:0            LISTEN        2098878  newreno  hostd
+tcp         0       0  127.0.0.1:8309                     0.0.0.0:0            LISTEN        2098878  newreno  hostd
+tcp         0       0  127.0.0.1:8089                     0.0.0.0:0            LISTEN        2099343  newreno  vpxa
+tcp         0       0  [fe80:2::5ef3:fcff:fee8:46f8]:427  [::]:0               LISTEN        2099198  newreno  
+tcp         0       0  192.168.1.100:427                  0.0.0.0:0            LISTEN        2099198  newreno  
+tcp         0       0  127.0.0.1:427                      0.0.0.0:0            LISTEN        2099198  newreno  
+tcp         0       0  127.0.0.1:549                      0.0.0.0:0            LISTEN        2098898  newreno  rhttpproxy
+tcp         0       0  0.0.0.0:443                        0.0.0.0:0            LISTEN        2098898  newreno  rhttpproxy
+tcp         0       0  [::]:443                           [::]:0               LISTEN        2098898  newreno  rhttpproxy
+tcp         0       0  0.0.0.0:80                         0.0.0.0:0            LISTEN        2098898  newreno  rhttpproxy
+tcp         0       0  [::]:80                            [::]:0               LISTEN        2098898  newreno  rhttpproxy
+tcp         0       0  127.0.0.1:8303                     0.0.0.0:0            LISTEN        2098824  newreno  hostdCgiServer
+tcp         0       0  [::]:9080                          [::]:0               LISTEN        2098660  newreno  ioFilterVPServer
+tcp         0       0  [::]:22                            [::]:0               LISTEN        2098452  newreno  busybox
+tcp         0       0  0.0.0.0:22                         0.0.0.0:0            LISTEN        2098452  newreno  busybox
+tcp         0       0  [::]:8000                          [::]:0               LISTEN        2098470  newreno  
+tcp         0       0  [::]:902                           [::]:0               LISTEN        2098452  newreno  busybox
+tcp         0       0  0.0.0.0:902                        0.0.0.0:0            LISTEN        2098452  newreno  busybox
+tcp         0       0  [::]:8300                          [::]:0               LISTEN        2098440  newreno  
+udp         0       0  [::]:427                           [::]:0                             2099198           
+udp         0       0  0.0.0.0:427                        0.0.0.0:0                          2099198           
+udp         0       0  [::]:8301                          [::]:0                             2097634           
+udp         0       0  [::]:8302                          [::]:0                             2097634           

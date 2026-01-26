@@ -1,0 +1,32 @@
+::sysinit:/usr/lib/vmware/secureboot/bin/secureBoot.py
+::sysinit:/usr/lib/vmware/firstboot/bin/firstboot.py -e
+::sysinit:/usr/lib/vmware/rp/bin/configRP init
+#
+::sysinit:/usr/lib/vmware/misc/bin/timeoutConsole.sh tty4 &
+::sysinit:/bin/init-launcher
+::wait:/usr/lib/vmware/firstboot/bin/firstboot.py ++group=host/vim/vmvisor/boot -l
+::wait:/bin/services.sh start
+::wait:/usr/lib/vmware/misc/bin/ucode_workarounds.py
+::wait:/bin/apply-host-profiles
+::wait:/usr/lib/vmware/secureboot/bin/secureBoot.py ++group=host/vim/vmvisor/boot -a
+::wait:/usr/lib/vmware/vmksummary/log-bootstop.sh boot
+::wait:/usr/lib/vmware/coredump/collect-coredump-at-boot.sh
+::wait:/bin/vmdumper -g 'Boot Successful'
+::wait:/usr/lib/vmware/misc/bin/killTimeoutConsole.sh
+::wait:/bin/sh ++min=0,group=host/vim/vimuser/terminal/shell /etc/rc.local
+::wait:/bin/esxcfg-init --set-boot-progress done
+::wait:/bin/vmware-autostart.sh start
+tty1::respawn:/bin/initterm.sh tty1 /bin/techsupport.sh
+tty2::respawn:-/bin/initterm.sh tty2 /bin/dcuiweasel
+::restart:/bin/init
+::shutdown:/usr/lib/vmware/vmksummary/log-bootstop.sh stop
+::shutdown:/bin/shutdown.sh
+::shutdown:/usr/lib/vmware/random-seed/bin/storeRandomSeed.sh
+::shutdown:/bin/vmware-autostart.sh stop
+::shutdown:/bin/services.sh stop
+::shutdown:/bin/backup.sh 1
+#This call sets up the next fast boot, but does not perform a reboot,
+#and must be called after backup.sh
+::shutdown:/usr/lib/vmware/loadesx/bin/loadESXShutdown.sh prepare
+#No logging after this point
+::shutdown:/usr/lib/vmware/vmsyslog/bin/shutdown.sh

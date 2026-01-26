@@ -1,0 +1,91 @@
+<!-- List of services supported on this host -->
+
+<ConfigRoot>
+  <!-- Known & blessed services -->
+  <service id="0000">
+    <id>vpxa</id>
+    <required>false</required>
+    <ruleset>vpxHeartbeats</ruleset>
+    <packagename>esx-base</packagename>
+    <packagedescription>This VIB contains all of the base functionality of vSphere ESXi.</packagedescription>
+  </service>
+  <service id="0001">
+    <id>ntpd</id>
+    <required>false</required>
+    <ruleset>ntpClient</ruleset>
+    <packagename>esx-base</packagename>
+    <packagedescription>This VIB contains all of the base functionality of vSphere ESXi.</packagedescription>
+  </service>
+  <service id="0002">
+    <id>TSM</id>
+    <initfilename>ESXShell</initfilename>
+    <required>false</required>
+    <packagename>esx-base</packagename>
+    <packagedescription>This VIB contains all of the base functionality of vSphere ESXi.</packagedescription>
+  </service>
+  <service id="0003">
+    <id>TSM-SSH</id>
+    <initfilename>SSH</initfilename>
+    <required>false</required>
+    <packagename>esx-base</packagename>
+    <packagedescription>This VIB contains all of the base functionality of vSphere ESXi.</packagedescription>
+  </service>
+  <service id="0004">
+    <id>DCUI</id>
+    <required>false</required>
+    <packagename>esx-base</packagename>
+    <packagedescription>This VIB contains all of the base functionality of vSphere ESXi.</packagedescription>
+  </service>
+  <service id="0005">
+    <id>lbtd</id>
+    <required>false</required>
+    <packagename>esx-base</packagename>
+    <packagedescription>This VIB contains all of the base functionality of vSphere ESXi.</packagedescription>
+  </service>
+  <service id="0006">
+    <id>sfcbd-watchdog</id>
+    <required>false</required>
+    <ruleset id="0000">CIMHttpServer</ruleset>
+    <ruleset id="0001">CIMHttpsServer</ruleset>
+    <packagename>esx-base</packagename>
+    <packagedescription>This VIB contains all of the base functionality of vSphere ESXi.</packagedescription>
+  </service>
+  <service id="0007">
+    <id>snmpd</id>
+    <ruleset>snmp</ruleset>
+    <required>false</required>
+    <packagename>esx-base</packagename>
+    <packagedescription>This VIB contains all of the base functionality of vSphere ESXi.</packagedescription>
+  </service>
+
+  <!-- vprobed service id="0008" removed. -->
+
+  <service id="0009">
+    <id>xorg</id>
+    <initfilename>xorg</initfilename>
+    <required>false</required>
+    <packagename>esx-xserver</packagename>
+    <packagedescription>This VIB contains X Server used for virtual machine 3D hardware acceleration.</packagedescription>
+  </service>
+  <service id="0010">
+    <id>vmsyslogd</id>
+    <required>true</required>
+    <packagename>esx-base</packagename>
+    <packagedescription>This VIB contains all of the base functionality of vSphere ESXi.</packagedescription>
+  </service>
+  <service id="0011">
+    <id>pcscd</id>
+    <initfilename>pcscd</initfilename>
+    <required>false</required>
+    <packagename>esx-base</packagename>
+    <packagedescription>This VIB contains all of the base functionality of vSphere ESXi.</packagedescription>
+  </service>
+  <service id="0015">
+    <id>slpd</id>
+    <required>false</required>
+    <ruleset>CIMSLP</ruleset>
+    <packagename>esx-base</packagename>
+    <packagedescription>This VIB contains all of the base functionality of vSphere ESXi.</packagedescription>
+  </service>
+
+</ConfigRoot>

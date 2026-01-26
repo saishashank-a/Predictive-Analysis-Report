@@ -1,0 +1,4 @@
+Boot Option File Content jumpstrt.gz : jumpstart.run-once=tls-advanced-option6.7.0, 
+Boot Option File Content useropts.gz :  
+Boot Option File Content features.gz : 
+Options : installerDiskDumpSlotSize=2560 no-auto-partition bootUUID=7d0e6366cd35d8336e5886703aad3a4f

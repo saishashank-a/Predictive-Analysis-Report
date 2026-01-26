@@ -1,0 +1,2 @@
+regtype=native,bus=pci,id=8086201d..............,driver=iavmd
+regtype=native,bus=pci,id=808628c0..............,driver=iavmd

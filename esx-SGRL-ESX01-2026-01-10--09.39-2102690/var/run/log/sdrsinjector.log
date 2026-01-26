@@ -1,0 +1,360 @@
+2001-01-01T01:16:58Z sdrsInjector[2099042]: PREF early PreferenceGet(log.syslogID), using default
+2001-01-01T01:16:58Z sdrsInjector[2099042]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2001-01-01T01:16:58Z sdrsInjector[2099042]: PREF early PreferenceGet(log.syslogLevel), using default
+2001-01-01T01:16:58Z sdrsInjector[2099042]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2001-01-01T01:16:58Z sdrsInjector[2099042]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2001-01-01T01:16:58Z sdrsInjector[2099042]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2001-01-01T01:16:58Z sdrsInjector[2099042]: PREF early PreferenceGet(log.stderrLevel), using default
+2001-01-01T01:16:58Z sdrsInjector[2099042]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2001-01-01T01:16:58Z sdrsInjector[2099042]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2001-01-01T01:16:58Z sdrsInjector[2099042]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2001-01-01T01:16:58Z sdrsInjector[2099042]: Updated vsi config flags to 0, 0
+2001-01-01T01:16:58Z sdrsInjector[2099042]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2001-01-01T00:02:31Z sdrsInjector[2098921]: PREF early PreferenceGet(log.syslogID), using default
+2001-01-01T00:02:31Z sdrsInjector[2098921]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2001-01-01T00:02:31Z sdrsInjector[2098921]: PREF early PreferenceGet(log.syslogLevel), using default
+2001-01-01T00:02:31Z sdrsInjector[2098921]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2001-01-01T00:02:31Z sdrsInjector[2098921]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2001-01-01T00:02:31Z sdrsInjector[2098921]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2001-01-01T00:02:31Z sdrsInjector[2098921]: PREF early PreferenceGet(log.stderrLevel), using default
+2001-01-01T00:02:31Z sdrsInjector[2098921]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2001-01-01T00:02:31Z sdrsInjector[2098921]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2001-01-01T00:02:31Z sdrsInjector[2098921]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2001-01-01T00:02:31Z sdrsInjector[2098921]: Updated vsi config flags to 0, 0
+2001-01-01T00:02:31Z sdrsInjector[2098921]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2001-01-01T00:02:29Z sdrsInjector[2098919]: PREF early PreferenceGet(log.syslogID), using default
+2001-01-01T00:02:29Z sdrsInjector[2098919]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2001-01-01T00:02:29Z sdrsInjector[2098919]: PREF early PreferenceGet(log.syslogLevel), using default
+2001-01-01T00:02:29Z sdrsInjector[2098919]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2001-01-01T00:02:29Z sdrsInjector[2098919]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2001-01-01T00:02:29Z sdrsInjector[2098919]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2001-01-01T00:02:29Z sdrsInjector[2098919]: PREF early PreferenceGet(log.stderrLevel), using default
+2001-01-01T00:02:29Z sdrsInjector[2098919]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2001-01-01T00:02:29Z sdrsInjector[2098919]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2001-01-01T00:02:29Z sdrsInjector[2098919]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2001-01-01T00:02:29Z sdrsInjector[2098919]: Updated vsi config flags to 0, 0
+2001-01-01T00:02:29Z sdrsInjector[2098919]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2001-01-01T00:02:35Z sdrsInjector[2098955]: PREF early PreferenceGet(log.syslogID), using default
+2001-01-01T00:02:35Z sdrsInjector[2098955]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2001-01-01T00:02:35Z sdrsInjector[2098955]: PREF early PreferenceGet(log.syslogLevel), using default
+2001-01-01T00:02:35Z sdrsInjector[2098955]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2001-01-01T00:02:35Z sdrsInjector[2098955]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2001-01-01T00:02:35Z sdrsInjector[2098955]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2001-01-01T00:02:35Z sdrsInjector[2098955]: PREF early PreferenceGet(log.stderrLevel), using default
+2001-01-01T00:02:35Z sdrsInjector[2098955]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2001-01-01T00:02:35Z sdrsInjector[2098955]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2001-01-01T00:02:35Z sdrsInjector[2098955]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2001-01-01T00:02:35Z sdrsInjector[2098955]: Updated vsi config flags to 0, 0
+2001-01-01T00:02:35Z sdrsInjector[2098955]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2025-09-02T10:59:08Z sdrsInjector[2098956]: PREF early PreferenceGet(log.syslogID), using default
+2025-09-02T10:59:08Z sdrsInjector[2098956]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2025-09-02T10:59:08Z sdrsInjector[2098956]: PREF early PreferenceGet(log.syslogLevel), using default
+2025-09-02T10:59:08Z sdrsInjector[2098956]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2025-09-02T10:59:08Z sdrsInjector[2098956]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2025-09-02T10:59:08Z sdrsInjector[2098956]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2025-09-02T10:59:08Z sdrsInjector[2098956]: PREF early PreferenceGet(log.stderrLevel), using default
+2025-09-02T10:59:08Z sdrsInjector[2098956]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2025-09-02T10:59:08Z sdrsInjector[2098956]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2025-09-02T10:59:08Z sdrsInjector[2098956]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2025-09-02T10:59:08Z sdrsInjector[2098956]: Updated vsi config flags to 0, 0
+2025-09-02T10:59:08Z sdrsInjector[2098956]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2001-01-01T00:02:37Z sdrsInjector[2098955]: PREF early PreferenceGet(log.syslogID), using default
+2001-01-01T00:02:37Z sdrsInjector[2098955]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2001-01-01T00:02:37Z sdrsInjector[2098955]: PREF early PreferenceGet(log.syslogLevel), using default
+2001-01-01T00:02:37Z sdrsInjector[2098955]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2001-01-01T00:02:37Z sdrsInjector[2098955]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2001-01-01T00:02:37Z sdrsInjector[2098955]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2001-01-01T00:02:37Z sdrsInjector[2098955]: PREF early PreferenceGet(log.stderrLevel), using default
+2001-01-01T00:02:37Z sdrsInjector[2098955]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2001-01-01T00:02:37Z sdrsInjector[2098955]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2001-01-01T00:02:37Z sdrsInjector[2098955]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2001-01-01T00:02:37Z sdrsInjector[2098955]: Updated vsi config flags to 0, 0
+2001-01-01T00:02:37Z sdrsInjector[2098955]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2001-01-01T00:02:35Z sdrsInjector[2098955]: PREF early PreferenceGet(log.syslogID), using default
+2001-01-01T00:02:35Z sdrsInjector[2098955]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2001-01-01T00:02:35Z sdrsInjector[2098955]: PREF early PreferenceGet(log.syslogLevel), using default
+2001-01-01T00:02:35Z sdrsInjector[2098955]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2001-01-01T00:02:35Z sdrsInjector[2098955]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2001-01-01T00:02:35Z sdrsInjector[2098955]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2001-01-01T00:02:35Z sdrsInjector[2098955]: PREF early PreferenceGet(log.stderrLevel), using default
+2001-01-01T00:02:35Z sdrsInjector[2098955]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2001-01-01T00:02:35Z sdrsInjector[2098955]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2001-01-01T00:02:35Z sdrsInjector[2098955]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2001-01-01T00:02:35Z sdrsInjector[2098955]: Updated vsi config flags to 0, 0
+2001-01-01T00:02:35Z sdrsInjector[2098955]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2001-01-01T00:02:36Z sdrsInjector[2098955]: PREF early PreferenceGet(log.syslogID), using default
+2001-01-01T00:02:36Z sdrsInjector[2098955]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2001-01-01T00:02:36Z sdrsInjector[2098955]: PREF early PreferenceGet(log.syslogLevel), using default
+2001-01-01T00:02:36Z sdrsInjector[2098955]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2001-01-01T00:02:36Z sdrsInjector[2098955]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2001-01-01T00:02:36Z sdrsInjector[2098955]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2001-01-01T00:02:36Z sdrsInjector[2098955]: PREF early PreferenceGet(log.stderrLevel), using default
+2001-01-01T00:02:36Z sdrsInjector[2098955]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2001-01-01T00:02:36Z sdrsInjector[2098955]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2001-01-01T00:02:36Z sdrsInjector[2098955]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2001-01-01T00:02:36Z sdrsInjector[2098955]: Updated vsi config flags to 0, 0
+2001-01-01T00:02:36Z sdrsInjector[2098955]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2001-01-01T00:02:36Z sdrsInjector[2098955]: PREF early PreferenceGet(log.syslogID), using default
+2001-01-01T00:02:36Z sdrsInjector[2098955]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2001-01-01T00:02:36Z sdrsInjector[2098955]: PREF early PreferenceGet(log.syslogLevel), using default
+2001-01-01T00:02:36Z sdrsInjector[2098955]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2001-01-01T00:02:36Z sdrsInjector[2098955]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2001-01-01T00:02:36Z sdrsInjector[2098955]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2001-01-01T00:02:36Z sdrsInjector[2098955]: PREF early PreferenceGet(log.stderrLevel), using default
+2001-01-01T00:02:36Z sdrsInjector[2098955]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2001-01-01T00:02:36Z sdrsInjector[2098955]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2001-01-01T00:02:36Z sdrsInjector[2098955]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2001-01-01T00:02:36Z sdrsInjector[2098955]: Updated vsi config flags to 0, 0
+2001-01-01T00:02:36Z sdrsInjector[2098955]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogID), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogLevel), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrLevel), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: Updated vsi config flags to 0, 0
+2001-01-01T00:02:30Z sdrsInjector[2098923]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2001-01-01T00:02:29Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogID), using default
+2001-01-01T00:02:29Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2001-01-01T00:02:29Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogLevel), using default
+2001-01-01T00:02:29Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2001-01-01T00:02:29Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2001-01-01T00:02:29Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2001-01-01T00:02:29Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrLevel), using default
+2001-01-01T00:02:29Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2001-01-01T00:02:29Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2001-01-01T00:02:29Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2001-01-01T00:02:29Z sdrsInjector[2098923]: Updated vsi config flags to 0, 0
+2001-01-01T00:02:29Z sdrsInjector[2098923]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogID), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogLevel), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrLevel), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: Updated vsi config flags to 0, 0
+2001-01-01T00:02:30Z sdrsInjector[2098923]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2001-01-01T00:42:05Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogID), using default
+2001-01-01T00:42:05Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2001-01-01T00:42:05Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogLevel), using default
+2001-01-01T00:42:05Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2001-01-01T00:42:05Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2001-01-01T00:42:05Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2001-01-01T00:42:05Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrLevel), using default
+2001-01-01T00:42:05Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2001-01-01T00:42:05Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2001-01-01T00:42:05Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2001-01-01T00:42:05Z sdrsInjector[2098923]: Updated vsi config flags to 0, 0
+2001-01-01T00:42:05Z sdrsInjector[2098923]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2001-01-01T00:06:50Z sdrsInjector[2098924]: PREF early PreferenceGet(log.syslogID), using default
+2001-01-01T00:06:50Z sdrsInjector[2098924]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2001-01-01T00:06:50Z sdrsInjector[2098924]: PREF early PreferenceGet(log.syslogLevel), using default
+2001-01-01T00:06:50Z sdrsInjector[2098924]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2001-01-01T00:06:50Z sdrsInjector[2098924]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2001-01-01T00:06:50Z sdrsInjector[2098924]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2001-01-01T00:06:50Z sdrsInjector[2098924]: PREF early PreferenceGet(log.stderrLevel), using default
+2001-01-01T00:06:50Z sdrsInjector[2098924]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2001-01-01T00:06:50Z sdrsInjector[2098924]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2001-01-01T00:06:50Z sdrsInjector[2098924]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2001-01-01T00:06:50Z sdrsInjector[2098924]: Updated vsi config flags to 0, 0
+2001-01-01T00:06:50Z sdrsInjector[2098924]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogID), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogLevel), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrLevel), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2001-01-01T00:02:30Z sdrsInjector[2098923]: Updated vsi config flags to 0, 0
+2001-01-01T00:02:30Z sdrsInjector[2098923]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2001-01-01T00:02:28Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogID), using default
+2001-01-01T00:02:28Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2001-01-01T00:02:28Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogLevel), using default
+2001-01-01T00:02:28Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2001-01-01T00:02:28Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2001-01-01T00:02:28Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2001-01-01T00:02:28Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrLevel), using default
+2001-01-01T00:02:28Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2001-01-01T00:02:28Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2001-01-01T00:02:28Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2001-01-01T00:02:28Z sdrsInjector[2098923]: Updated vsi config flags to 0, 0
+2001-01-01T00:02:28Z sdrsInjector[2098923]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2025-11-15T00:23:03Z sdrsInjector[2098925]: PREF early PreferenceGet(log.syslogID), using default
+2025-11-15T00:23:03Z sdrsInjector[2098925]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2025-11-15T00:23:03Z sdrsInjector[2098925]: PREF early PreferenceGet(log.syslogLevel), using default
+2025-11-15T00:23:03Z sdrsInjector[2098925]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2025-11-15T00:23:03Z sdrsInjector[2098925]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2025-11-15T00:23:03Z sdrsInjector[2098925]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2025-11-15T00:23:03Z sdrsInjector[2098925]: PREF early PreferenceGet(log.stderrLevel), using default
+2025-11-15T00:23:03Z sdrsInjector[2098925]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2025-11-15T00:23:03Z sdrsInjector[2098925]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2025-11-15T00:23:03Z sdrsInjector[2098925]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2025-11-15T00:23:03Z sdrsInjector[2098925]: Updated vsi config flags to 0, 0
+2025-11-15T00:23:03Z sdrsInjector[2098925]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2025-11-15T06:07:04Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogID), using default
+2025-11-15T06:07:04Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2025-11-15T06:07:04Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogLevel), using default
+2025-11-15T06:07:04Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2025-11-15T06:07:04Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2025-11-15T06:07:04Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2025-11-15T06:07:04Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrLevel), using default
+2025-11-15T06:07:04Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2025-11-15T06:07:04Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2025-11-15T06:07:04Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2025-11-15T06:07:04Z sdrsInjector[2098923]: Updated vsi config flags to 0, 0
+2025-11-15T06:07:04Z sdrsInjector[2098923]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2025-11-15T20:03:31Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogID), using default
+2025-11-15T20:03:31Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2025-11-15T20:03:31Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogLevel), using default
+2025-11-15T20:03:31Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2025-11-15T20:03:31Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2025-11-15T20:03:31Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2025-11-15T20:03:31Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrLevel), using default
+2025-11-15T20:03:31Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2025-11-15T20:03:31Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2025-11-15T20:03:31Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2025-11-15T20:03:31Z sdrsInjector[2098923]: Updated vsi config flags to 0, 0
+2025-11-15T20:03:31Z sdrsInjector[2098923]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2025-11-16T05:14:32Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogID), using default
+2025-11-16T05:14:32Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2025-11-16T05:14:32Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogLevel), using default
+2025-11-16T05:14:32Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2025-11-16T05:14:32Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2025-11-16T05:14:32Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2025-11-16T05:14:32Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrLevel), using default
+2025-11-16T05:14:32Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2025-11-16T05:14:32Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2025-11-16T05:14:32Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2025-11-16T05:14:32Z sdrsInjector[2098923]: Updated vsi config flags to 0, 0
+2025-11-16T05:14:32Z sdrsInjector[2098923]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2025-12-06T23:50:32Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogID), using default
+2025-12-06T23:50:32Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2025-12-06T23:50:32Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogLevel), using default
+2025-12-06T23:50:32Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2025-12-06T23:50:32Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2025-12-06T23:50:32Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2025-12-06T23:50:32Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrLevel), using default
+2025-12-06T23:50:32Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2025-12-06T23:50:32Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2025-12-06T23:50:32Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2025-12-06T23:50:32Z sdrsInjector[2098923]: Updated vsi config flags to 0, 0
+2025-12-06T23:50:32Z sdrsInjector[2098923]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2025-12-08T11:31:41Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogID), using default
+2025-12-08T11:31:41Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2025-12-08T11:31:41Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogLevel), using default
+2025-12-08T11:31:41Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2025-12-08T11:31:41Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2025-12-08T11:31:41Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2025-12-08T11:31:41Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrLevel), using default
+2025-12-08T11:31:41Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2025-12-08T11:31:41Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2025-12-08T11:31:41Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2025-12-08T11:31:41Z sdrsInjector[2098923]: Updated vsi config flags to 0, 0
+2025-12-08T11:31:41Z sdrsInjector[2098923]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2025-12-08T19:31:26Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogID), using default
+2025-12-08T19:31:26Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2025-12-08T19:31:26Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogLevel), using default
+2025-12-08T19:31:26Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2025-12-08T19:31:26Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2025-12-08T19:31:26Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2025-12-08T19:31:26Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrLevel), using default
+2025-12-08T19:31:26Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2025-12-08T19:31:26Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2025-12-08T19:31:26Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2025-12-08T19:31:26Z sdrsInjector[2098923]: Updated vsi config flags to 0, 0
+2025-12-08T19:31:26Z sdrsInjector[2098923]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2025-12-10T13:08:52Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogID), using default
+2025-12-10T13:08:52Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2025-12-10T13:08:52Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogLevel), using default
+2025-12-10T13:08:52Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2025-12-10T13:08:52Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2025-12-10T13:08:52Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2025-12-10T13:08:52Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrLevel), using default
+2025-12-10T13:08:52Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2025-12-10T13:08:52Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2025-12-10T13:08:52Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2025-12-10T13:08:52Z sdrsInjector[2098923]: Updated vsi config flags to 0, 0
+2025-12-10T13:08:52Z sdrsInjector[2098923]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2025-12-11T06:46:27Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogID), using default
+2025-12-11T06:46:27Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2025-12-11T06:46:27Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogLevel), using default
+2025-12-11T06:46:27Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2025-12-11T06:46:27Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2025-12-11T06:46:27Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2025-12-11T06:46:27Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrLevel), using default
+2025-12-11T06:46:27Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2025-12-11T06:46:27Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2025-12-11T06:46:27Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2025-12-11T06:46:27Z sdrsInjector[2098923]: Updated vsi config flags to 0, 0
+2025-12-11T06:46:27Z sdrsInjector[2098923]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2025-12-18T19:29:29Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogID), using default
+2025-12-18T19:29:29Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2025-12-18T19:29:29Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogLevel), using default
+2025-12-18T19:29:29Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2025-12-18T19:29:29Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2025-12-18T19:29:29Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2025-12-18T19:29:29Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrLevel), using default
+2025-12-18T19:29:29Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2025-12-18T19:29:29Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2025-12-18T19:29:29Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2025-12-18T19:29:29Z sdrsInjector[2098923]: Updated vsi config flags to 0, 0
+2025-12-18T19:29:29Z sdrsInjector[2098923]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2025-12-18T19:56:11Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogID), using default
+2025-12-18T19:56:11Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2025-12-18T19:56:11Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogLevel), using default
+2025-12-18T19:56:11Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2025-12-18T19:56:11Z sdrsInjector[2098923]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2025-12-18T19:56:11Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2025-12-18T19:56:11Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrLevel), using default
+2025-12-18T19:56:11Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2025-12-18T19:56:11Z sdrsInjector[2098923]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2025-12-18T19:56:11Z sdrsInjector[2098923]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2025-12-18T19:56:11Z sdrsInjector[2098923]: Updated vsi config flags to 0, 0
+2025-12-18T19:56:11Z sdrsInjector[2098923]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2025-12-27T00:20:56Z sdrsInjector[2098937]: PREF early PreferenceGet(log.syslogID), using default
+2025-12-27T00:20:56Z sdrsInjector[2098937]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2025-12-27T00:20:56Z sdrsInjector[2098937]: PREF early PreferenceGet(log.syslogLevel), using default
+2025-12-27T00:20:56Z sdrsInjector[2098937]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2025-12-27T00:20:56Z sdrsInjector[2098937]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2025-12-27T00:20:56Z sdrsInjector[2098937]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2025-12-27T00:20:56Z sdrsInjector[2098937]: PREF early PreferenceGet(log.stderrLevel), using default
+2025-12-27T00:20:56Z sdrsInjector[2098937]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2025-12-27T00:20:56Z sdrsInjector[2098937]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2025-12-27T00:20:56Z sdrsInjector[2098937]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2025-12-27T00:20:56Z sdrsInjector[2098937]: Updated vsi config flags to 0, 0
+2025-12-27T00:20:56Z sdrsInjector[2098937]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2025-12-27T00:44:44Z sdrsInjector[2098937]: PREF early PreferenceGet(log.syslogID), using default
+2025-12-27T00:44:44Z sdrsInjector[2098937]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2025-12-27T00:44:44Z sdrsInjector[2098937]: PREF early PreferenceGet(log.syslogLevel), using default
+2025-12-27T00:44:44Z sdrsInjector[2098937]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2025-12-27T00:44:44Z sdrsInjector[2098937]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2025-12-27T00:44:44Z sdrsInjector[2098937]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2025-12-27T00:44:44Z sdrsInjector[2098937]: PREF early PreferenceGet(log.stderrLevel), using default
+2025-12-27T00:44:44Z sdrsInjector[2098937]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2025-12-27T00:44:44Z sdrsInjector[2098937]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2025-12-27T00:44:44Z sdrsInjector[2098937]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2025-12-27T00:44:44Z sdrsInjector[2098937]: Updated vsi config flags to 0, 0
+2025-12-27T00:44:44Z sdrsInjector[2098937]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8
+2026-01-10T07:55:55Z sdrsInjector[2098937]: PREF early PreferenceGet(log.syslogID), using default
+2026-01-10T07:55:55Z sdrsInjector[2098937]: PREF early PreferenceGet(sdrsInjector.log.syslogID), using default
+2026-01-10T07:55:55Z sdrsInjector[2098937]: PREF early PreferenceGet(log.syslogLevel), using default
+2026-01-10T07:55:55Z sdrsInjector[2098937]: PREF early PreferenceGet(sdrsInjector.log.syslogLevel), using default
+2026-01-10T07:55:55Z sdrsInjector[2098937]: PREF early PreferenceGet(log.syslogMinLevel), using default
+2026-01-10T07:55:55Z sdrsInjector[2098937]: PREF early PreferenceGet(sdrsInjector.log.syslogMinLevel), using default
+2026-01-10T07:55:55Z sdrsInjector[2098937]: PREF early PreferenceGet(log.stderrLevel), using default
+2026-01-10T07:55:55Z sdrsInjector[2098937]: PREF early PreferenceGet(sdrsInjector.log.stderrLevel), using default
+2026-01-10T07:55:55Z sdrsInjector[2098937]: PREF early PreferenceGet(log.stderrMinLevel), using default
+2026-01-10T07:55:55Z sdrsInjector[2098937]: PREF early PreferenceGet(sdrsInjector.log.stderrMinLevel), using default
+2026-01-10T07:55:55Z sdrsInjector[2098937]: Updated vsi config flags to 0, 0
+2026-01-10T07:55:55Z sdrsInjector[2098937]: host Uuid: 3a4fce74-dcaf-bab0-d120-5cf3fce846f8

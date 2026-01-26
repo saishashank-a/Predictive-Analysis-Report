@@ -1,0 +1,10 @@
+% Manifest name: VSANPerfStatsVmdk
+% Manifest group: Storage
+% Manifest default: Disabled
+% Manifest tag: storage,vsanperfstats
+# action Options file/command
+# stats metrics has different priority
+# P4 (VMDK metrics)
+
+
+run TIMEOUT=1800,IGNORE_ERROR python /usr/lib/vmware/vsan/perfsvc/vsan-perfsvc-status.pyc perf_stats_with_dump_vmdk

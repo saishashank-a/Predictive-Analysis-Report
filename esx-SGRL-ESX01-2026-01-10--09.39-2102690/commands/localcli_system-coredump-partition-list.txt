@@ -1,0 +1,4 @@
+Name                                    Path                                                        Active  Configured
+----------------------------------------------------------------------------------------------------------------------
+naa.600605b004213bc001e293503af49afb:7  /vmfs/devices/disks/naa.600605b004213bc001e293503af49afb:7  false   false
+naa.600605b004213bc001e293503af49afb:9  /vmfs/devices/disks/naa.600605b004213bc001e293503af49afb:9  true    true

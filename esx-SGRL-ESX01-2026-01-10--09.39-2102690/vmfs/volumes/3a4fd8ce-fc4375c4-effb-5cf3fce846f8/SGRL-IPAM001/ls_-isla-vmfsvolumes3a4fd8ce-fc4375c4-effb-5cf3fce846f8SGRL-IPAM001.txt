@@ -1,0 +1,15 @@
+total 5432448
+   3012    128 drwxr-xr-x    1 root     root         77824 Sep 13 16:21 .
+      4   1024 drwxr-xr-t    1 root     root         86016 Jan 10 09:35 ..
+92275972 317440 -rw-------    1 root     root     953888768 Sep 13 16:21 SGRL-IPAM001-000002-sesparse.vmdk
+96470276      0 -rw-------    1 root     root           321 Sep 13 06:33 SGRL-IPAM001-000002.vmdk
+4195588      0 -rw-r--r--    1 root     root           422 Sep 12 17:40 SGRL-IPAM001-6920633f.hlog
+50332932   1024 -rw-------    1 root     root        282565 Sep 12 17:59 SGRL-IPAM001-Snapshot1.vmsn
+8389892 5108736 -rw-------    1 root     root     161061273600 Sep 12 17:59 SGRL-IPAM001-flat.vmdk
+79693060   1024 -rw-------    1 root     root        270840 Sep 13 06:34 SGRL-IPAM001.nvram
+12584196      0 -rw-------    1 root     root           557 Sep 12 17:53 SGRL-IPAM001.vmdk
+25167108      0 -rw-r--r--    1 root     root           396 Sep 12 17:59 SGRL-IPAM001.vmsd
+83887364      0 -rwx------    1 root     root          3385 Sep 13 16:21 SGRL-IPAM001.vmx
+41944324   1024 -rw-r--r--    1 root     root        287518 Sep 12 18:29 vmware-1.log
+75498756   1024 -rw-r--r--    1 root     root        208540 Sep 13 06:27 vmware-2.log
+113247492   1024 -rw-------    1 root     root        209123 Sep 13 16:21 vmware.log

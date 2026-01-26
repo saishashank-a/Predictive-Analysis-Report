@@ -1,0 +1,7 @@
+% Manifest name: VMTools
+% Manifest group: System
+% Manifest default: Enabled
+% Manifest tag: vmtools
+# action Options file/command
+copy IGNORE_MISSING /etc/vmware-tools/*
+copy IGNORE_MISSING /etc/vmware-tools/scripts/vmware/*

@@ -1,0 +1,22 @@
+# Disk DescriptorFile
+version=1
+encoding="UTF-8"
+CID=65db6029
+parentCID=ffffffff
+createType="vmfs"
+
+# Extent description
+RW 20971520 VMFS "SGRL-TOR02_1-flat.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.deletable = "true"
+ddb.geometry.cylinders = "1305"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "a6c37e07b73fe179704bc71a65db6029"
+ddb.thinProvisioned = "1"
+ddb.uuid = "60 00 C2 97 48 81 4c 71-e3 4d 83 78 f7 75 d8 42"
+ddb.virtualHWVersion = "14"

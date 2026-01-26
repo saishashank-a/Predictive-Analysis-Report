@@ -1,0 +1,7 @@
+regtype=linux,bus=pci,id=105a:1275 0000:0000,driver=pata_pdc2027x,class=storage
+regtype=linux,bus=pci,id=105a:4d68 0000:0000,driver=pata_pdc2027x,class=storage
+regtype=linux,bus=pci,id=105a:4d69 0000:0000,driver=pata_pdc2027x,class=storage
+regtype=linux,bus=pci,id=105a:5275 0000:0000,driver=pata_pdc2027x,class=storage
+regtype=linux,bus=pci,id=105a:6268 0000:0000,driver=pata_pdc2027x,class=storage
+regtype=linux,bus=pci,id=105a:6269 0000:0000,driver=pata_pdc2027x,class=storage
+regtype=linux,bus=pci,id=105a:7275 0000:0000,driver=pata_pdc2027x,class=storage

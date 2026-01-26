@@ -1,0 +1,250 @@
+/dev:
+total 7
+     13      0 drwxrwxrwt    2 root     root           512 Jan 10 09:40 PMemDS
+     14      0 drwxrwxrwt    2 root     root           512 Jan 10 09:40 PMemDisk
+     11      0 drwxr-xr-x    2 root     root           512 Jan 10 09:40 PMemNamespaces
+     12      0 drwxr-xr-x    2 root     root           512 Jan 10 09:40 PMemVolumes
+    186      0 drwxrwxrwt    2 root     root           512 Jan 10 09:40 cbt
+    123      0 lrwxrwxrwx    1 root     root            18 Jan 10 09:40 cdp -> char/vmkdriver/cdp
+      7      0 drwxr-xr-x    2 root     root           512 Jan 10 09:40 cdrom
+      6      0 drwxr-xr-x   13 root     root           512 Jan 10 09:40 char
+    113      0 lrwxrwxrwx    1 root     root            18 Jan 10 09:40 cna -> char/vmkdriver/cna
+     44      0 lrwxrwxrwx    1 root     root            16 Jan 10 09:40 console -> char/tty/console
+    121      0 lrwxrwxrwx    1 root     root            22 Jan 10 09:40 cswitch -> char/vmkdriver/cswitch
+    158      0 drwxrwxrwt    2 root     root           512 Jan 10 09:40 deltadisks
+      5      0 drwxr-xr-x    2 root     root           512 Jan 10 09:40 disks
+     51      0 lrwxrwxrwx    1 root     root            14 Jan 10 09:40 dmesg -> char/mem/dmesg
+    133      0 lrwxrwxrwx    1 root     root            38 Jan 10 09:40 dvfilter-generic-vmware -> char/vmkdriver/dvfilter-generic-vmware
+    127      0 lrwxrwxrwx    1 root     root            26 Jan 10 09:40 dvfiltertbl -> char/vmkdriver/dvfiltertbl
+    125      0 lrwxrwxrwx    1 root     root            21 Jan 10 09:40 dvsdev -> char/vmkdriver/dvsdev
+      2      0 lrwxrwxrwx    1 root     root             7 Jan 10 09:40 generic -> genscsi
+      4      0 drwxr-xr-x    2 root     root           512 Jan 10 09:40 genscsi
+    115      0 lrwxrwxrwx    1 root     root            20 Jan 10 09:40 input -> char/vmkdriver/input
+     89      0 lrwxrwxrwx    1 root     root            19 Jan 10 09:40 iodm -> char/vmkdriver/iodm
+    182      0 lrwxrwxrwx    1 root     root            20 Jan 10 09:40 ipmi0 -> char/vmkdriver/ipmi0
+     97      0 lrwxrwxrwx    1 root     root            21 Jan 10 09:40 kbdmap -> char/vmkdriver/kbdmap
+    117      0 lrwxrwxrwx    1 root     root            21 Jan 10 09:40 keymap -> char/vmkdriver/keymap
+     49      0 lrwxrwxrwx    1 root     root            13 Jan 10 09:40 klog -> char/mem/klog
+    129      0 lrwxrwxrwx    1 root     root            19 Jan 10 09:40 lacp -> char/vmkdriver/lacp
+    157      0 drwxr-xr-x    2 root     root           512 Jan 10 09:40 lvm
+    131      0 lrwxrwxrwx    1 root     root            33 Jan 10 09:40 megaraid_sas_ioctl -> char/vmkdriver/megaraid_sas_ioctl
+     22      0 lrwxrwxrwx    1 root     root            13 Jan 10 09:40 null -> char/mem/null
+     17      0 lrwxrwxrwx    1 root     root            28 Jan 10 09:40 nvdManagement -> char/vmkdriver/nvdManagement
+     28      0 lrwxrwxrwx    1 root     root            13 Jan 10 09:40 port -> char/mem/port
+     31      0 lrwxrwxrwx    1 root     root            13 Jan 10 09:40 ptmx -> char/pty/ptmx
+     79      0 lrwxrwxrwx    1 root     root            21 Jan 10 09:40 random -> char/vmkdriver/random
+      3      0 lrwxrwxrwx    1 root     root            12 Jan 10 09:40 shm -> /var/run/shm
+    177      0 lrwxrwxrwx    1 root     root            25 Jan 10 09:40 sunrpc-gss -> char/vmkdriver/sunrpc-gss
+    184      0 drwxrwxrwt    2 root     root           512 Jan 10 09:40 svm
+     34      0 lrwxrwxrwx    1 root     root            10 Jan 10 09:40 tty -> char/tty/0
+     36      0 lrwxrwxrwx    1 root     root            10 Jan 10 09:40 tty1 -> char/tty/1
+     38      0 lrwxrwxrwx    1 root     root            10 Jan 10 09:40 tty2 -> char/tty/2
+     40      0 lrwxrwxrwx    1 root     root            10 Jan 10 09:40 tty3 -> char/tty/3
+     42      0 lrwxrwxrwx    1 root     root            10 Jan 10 09:40 tty4 -> char/tty/4
+     81      0 lrwxrwxrwx    1 root     root            22 Jan 10 09:40 urandom -> char/vmkdriver/urandom
+     99      0 lrwxrwxrwx    1 root     root            22 Jan 10 09:40 usb0101 -> char/vmkdriver/usb0101
+    101      0 lrwxrwxrwx    1 root     root            22 Jan 10 09:40 usb0201 -> char/vmkdriver/usb0201
+    103      0 lrwxrwxrwx    1 root     root            22 Jan 10 09:40 usb0301 -> char/vmkdriver/usb0301
+    105      0 lrwxrwxrwx    1 root     root            22 Jan 10 09:40 usb0401 -> char/vmkdriver/usb0401
+    137      0 lrwxrwxrwx    1 root     root            22 Jan 10 09:40 usb0402 -> char/vmkdriver/usb0402
+    107      0 lrwxrwxrwx    1 root     root            22 Jan 10 09:40 usb0501 -> char/vmkdriver/usb0501
+    109      0 lrwxrwxrwx    1 root     root            22 Jan 10 09:40 usb0601 -> char/vmkdriver/usb0601
+    111      0 lrwxrwxrwx    1 root     root            22 Jan 10 09:40 usb0701 -> char/vmkdriver/usb0701
+    135      0 lrwxrwxrwx    1 root     root            22 Jan 10 09:40 usb0702 -> char/vmkdriver/usb0702
+     93      0 lrwxrwxrwx    1 root     root            25 Jan 10 09:40 usbdevices -> char/vmkdriver/usbdevices
+     95      0 lrwxrwxrwx    1 root     root            29 Jan 10 09:40 usbpassthrough -> char/vmkdriver/usbpassthrough
+    160      0 drwxrwxrwt    2 root     root           512 Jan 10 09:40 vdfm
+    180      0 drwxrwxrwt    2 root     root           512 Jan 10 09:40 vflash
+     87      0 lrwxrwxrwx    1 root     root            26 Jan 10 09:40 vmwMgmtInfo -> char/vmkdriver/vmwMgmtInfo
+     91      0 lrwxrwxrwx    1 root     root            27 Jan 10 09:40 vmwMgmtNode0 -> char/vmkdriver/vmwMgmtNode0
+    119      0 lrwxrwxrwx    1 root     root            27 Jan 10 09:40 vmwMgmtNode1 -> char/vmkdriver/vmwMgmtNode1
+     85      0 lrwxrwxrwx    1 root     root            21 Jan 10 09:40 vprobe -> char/vmkdriver/vprobe
+     77      0 lrwxrwxrwx    1 root     root            16 Jan 10 09:40 vsock -> char/vsock/vsock
+     26      0 lrwxrwxrwx    1 root     root            13 Jan 10 09:40 zero -> char/mem/zero
+
+/dev/PMemDS:
+total 0
+
+/dev/PMemDisk:
+total 0
+
+/dev/PMemNamespaces:
+total 0
+
+/dev/PMemVolumes:
+total 0
+
+/dev/cbt:
+total 0
+    187      0 -r--r--r--    1 root     root             0 Jan 10 09:40 control
+
+/dev/cdrom:
+total 0
+
+/dev/char:
+total 0
+     82      0 drwxr-xr-x    2 root     root             0 Jan 10 09:40 devmgr
+     18      0 drwxr-xr-x    2 root     root             0 Jan 10 09:40 loadesx
+     20      0 drwxr-xr-x    2 root     root             0 Jan 10 09:40 mem
+     29      0 drwxr-xr-x    2 root     root             0 Jan 10 09:40 pty
+      9      0 drwxr-xr-x    2 root     root             0 Jan 10 09:40 scsi-trace
+     45      0 drwxr-xr-x    2 root     root             0 Jan 10 09:40 serial
+     32      0 drwxr-xr-x    2 root     root             0 Jan 10 09:40 tty
+     15      0 drwxr-xr-x    2 root     root             0 Jan 10 09:40 vmkdriver
+     52      0 drwxr-xr-x    2 root     root             0 Jan 10 09:40 vob
+      8      0 drwxr-xr-x    2 root     root             0 Jan 10 09:40 vscsi-filters
+     75      0 drwxr-xr-x    2 root     root             0 Jan 10 09:40 vsock
+
+/dev/char/devmgr:
+total 0
+     83      0 crw-------    1 root     root        0,   0 Jan 10 09:40 devmgr
+
+/dev/char/loadesx:
+total 0
+     19      0 crw-------    1 root     root        0,   0 Jan 10 09:40 loadesx
+
+/dev/char/mem:
+total 34952
+     50      0 crw-------    1 root     root        0,   0 Jan 10 09:40 dmesg
+     48      0 crw-------    1 root     root        0,   0 Jan 10 09:40 klog
+     21      0 crw-rw-rw-    1 root     root        1,   3 Jan 10 09:40 null
+     24      0 cr--------    1 root     root        0,   0 Jan 10 09:40 pir
+     27  32768 crw-rw----    1 root     root        0,   0 Jan 10 09:40 port
+     23   2183 cr--------    1 root     root        0,   0 Jan 10 09:40 smbios
+     25      0 crw-rw-rw-    1 root     root        1,   5 Jan 10 09:40 zero
+
+/dev/char/pty:
+total 0
+     30      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 ptmx
+
+/dev/char/scsi-trace:
+total 0
+    156      0 crw-------    1 root     root        0,   0 Jan 10 09:40 naa.600605b004213bc001e293503af49afb
+     10      0 crw-------    1 root     root        0,   0 Jan 10 09:40 trace-any
+
+/dev/char/serial:
+total 0
+     46      0 crw-------    1 root     root        0,   0 Jan 10 09:40 uart0
+     47      0 crw-------    1 root     root        0,   0 Jan 10 09:40 uart1
+
+/dev/char/tty:
+total 0
+     33      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 0
+     35      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 1
+     37      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 2
+     39      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 3
+     41      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 4
+     43      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 console
+
+/dev/char/vmkdriver:
+total 0
+    122      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 cdp
+    112      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 cna
+    120      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 cswitch
+    132      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 dvfilter-generic-vmware
+    126      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 dvfiltertbl
+    124      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 dvsdev
+    114      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 input
+     88      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 iodm
+    181      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 ipmi0
+     96      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 kbdmap
+    116      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 keymap
+    128      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 lacp
+    130      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 megaraid_sas_ioctl
+     16      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 nvdManagement
+     78      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 random
+    176      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 sunrpc-gss
+     80      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 urandom
+     98      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 usb0101
+    100      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 usb0201
+    102      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 usb0301
+    104      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 usb0401
+    136      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 usb0402
+    106      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 usb0501
+    108      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 usb0601
+    110      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 usb0701
+    134      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 usb0702
+     92      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 usbdevices
+     94      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 usbpassthrough
+     86      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 vmwMgmtInfo
+     90      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 vmwMgmtNode0
+    118      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 vmwMgmtNode1
+     84      0 crw-rw-rw-    1 root     root        0,   0 Jan 10 09:40 vprobe
+
+/dev/char/vob:
+total 0
+     54      0 crw-------    1 root     root        0,   0 Jan 10 09:40 APD
+     60      0 crw-------    1 root     root        0,   0 Jan 10 09:40 Apei
+     73      0 crw-------    1 root     root        0,   0 Jan 10 09:40 Clock
+     56      0 crw-------    1 root     root        0,   0 Jan 10 09:40 Cpu
+     64      0 crw-------    1 root     root        0,   0 Jan 10 09:40 External
+     70      0 crw-------    1 root     root        0,   0 Jan 10 09:40 Hardware
+     67      0 crw-------    1 root     root        0,   0 Jan 10 09:40 Migrate
+     55      0 crw-------    1 root     root        0,   0 Jan 10 09:40 Net
+     74      0 crw-------    1 root     root        0,   0 Jan 10 09:40 Nvd
+     68      0 crw-------    1 root     root        0,   0 Jan 10 09:40 PageRetire
+     59      0 crw-------    1 root     root        0,   0 Jan 10 09:40 Pci
+     53      0 crw-------    1 root     root        0,   0 Jan 10 09:40 Scsi
+     61      0 crw-------    1 root     root        0,   0 Jan 10 09:40 Scsispew
+     66      0 crw-------    1 root     root        0,   0 Jan 10 09:40 Swap
+     58      0 crw-------    1 root     root        0,   0 Jan 10 09:40 Test
+     62      0 crw-------    1 root     root        0,   0 Jan 10 09:40 UW
+     63      0 crw-------    1 root     root        0,   0 Jan 10 09:40 VM
+     72      0 crw-------    1 root     root        0,   0 Jan 10 09:40 Vfat
+     69      0 crw-------    1 root     root        0,   0 Jan 10 09:40 Visorfs
+     57      0 crw-------    1 root     root        0,   0 Jan 10 09:40 Vmfs
+     71      0 crw-------    1 root     root        0,   0 Jan 10 09:40 Vsan
+     65      0 crw-------    1 root     root        0,   0 Jan 10 09:40 iScsi
+
+/dev/char/vscsi-filters:
+total 0
+    183      0 crw-------    1 root     root        0,   0 Jan 10 09:40 hbr_filter
+
+/dev/char/vsock:
+total 0
+     76      0 crw-------    1 root     root        0,   0 Jan 10 09:40 vsock
+
+/dev/deltadisks:
+total 162529280
+    159      0 -r--r--r--    1 root     root             0 Jan 10 09:40 control
+    189 157286400 -rw-------    1 root     root     161061273600 Jan 10 09:40 d00d7-SGRL-ADC001-000001-sesparse.vmdk
+    188 5242880 -rw-------    1 root     root     5368709120 Jan 10 09:40 e0b07-VyOS-Router-000003-sesparse.vmdk
+
+/dev/disks:
+total 10535153552
+    154 5267576832 -rw-------    1 root     root     5393998675968 Jan 10 09:40 naa.600605b004213bc001e293503af49afb
+    138   4064 -rw-------    1 root     root       4161536 Jan 10 09:40 naa.600605b004213bc001e293503af49afb:1
+    140 4193280 -rw-------    1 root     root     4293918720 Jan 10 09:40 naa.600605b004213bc001e293503af49afb:2
+    142 5259840495 -rw-------    1 root     root     5386076667392 Jan 10 09:40 naa.600605b004213bc001e293503af49afb:3
+    144 255984 -rw-------    1 root     root     262127616 Jan 10 09:40 naa.600605b004213bc001e293503af49afb:5
+    146 255984 -rw-------    1 root     root     262127616 Jan 10 09:40 naa.600605b004213bc001e293503af49afb:6
+    148 112624 -rw-------    1 root     root     115326976 Jan 10 09:40 naa.600605b004213bc001e293503af49afb:7
+    150 292848 -rw-------    1 root     root     299876352 Jan 10 09:40 naa.600605b004213bc001e293503af49afb:8
+    152 2621440 -rw-------    1 root     root     2684354560 Jan 10 09:40 naa.600605b004213bc001e293503af49afb:9
+    155      0 lrwxrwxrwx    1 root     root            36 Jan 10 09:40 vml.0200000000600605b004213bc001e293503af49afb536572766552 -> naa.600605b004213bc001e293503af49afb
+    139      0 lrwxrwxrwx    1 root     root            38 Jan 10 09:40 vml.0200000000600605b004213bc001e293503af49afb536572766552:1 -> naa.600605b004213bc001e293503af49afb:1
+    141      0 lrwxrwxrwx    1 root     root            38 Jan 10 09:40 vml.0200000000600605b004213bc001e293503af49afb536572766552:2 -> naa.600605b004213bc001e293503af49afb:2
+    143      0 lrwxrwxrwx    1 root     root            38 Jan 10 09:40 vml.0200000000600605b004213bc001e293503af49afb536572766552:3 -> naa.600605b004213bc001e293503af49afb:3
+    145      0 lrwxrwxrwx    1 root     root            38 Jan 10 09:40 vml.0200000000600605b004213bc001e293503af49afb536572766552:5 -> naa.600605b004213bc001e293503af49afb:5
+    147      0 lrwxrwxrwx    1 root     root            38 Jan 10 09:40 vml.0200000000600605b004213bc001e293503af49afb536572766552:6 -> naa.600605b004213bc001e293503af49afb:6
+    149      0 lrwxrwxrwx    1 root     root            38 Jan 10 09:40 vml.0200000000600605b004213bc001e293503af49afb536572766552:7 -> naa.600605b004213bc001e293503af49afb:7
+    151      0 lrwxrwxrwx    1 root     root            38 Jan 10 09:40 vml.0200000000600605b004213bc001e293503af49afb536572766552:8 -> naa.600605b004213bc001e293503af49afb:8
+    153      0 lrwxrwxrwx    1 root     root            38 Jan 10 09:40 vml.0200000000600605b004213bc001e293503af49afb536572766552:9 -> naa.600605b004213bc001e293503af49afb:9
+
+/dev/genscsi:
+total 0
+
+/dev/lvm:
+total 5259657216
+    179 5259657216 -rw-------    1 root     root     5385888989184 Jan 10 09:40 3a4fd8ce-f2fb6b00-6359-5cf3fce846f8
+
+/dev/svm:
+total 0
+    185      0 -r--r--r--    1 root     root             0 Jan 10 09:40 control
+
+/dev/vdfm:
+total 0
+    161      0 -r--r--r--    1 root     root             0 Jan 10 09:40 control
+
+/dev/vflash:
+total 0

@@ -1,0 +1,3 @@
+regtype=native,bus=pci,id=10df0722..............,driver=elxiscsi
+regtype=native,bus=pci,id=19a20222..............,driver=elxiscsi
+regtype=native,bus=pci,id=19a20712..............,driver=elxiscsi

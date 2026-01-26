@@ -1,0 +1,22 @@
+
+[
+
+      {
+         "Adapter": "vmhba0",
+         "Adapter Identifier": "unknown.vmhba0",
+         "Adapter Transport Details": "Unavailable or path is unclaimed",
+         "Channel": 2,
+         "Device": "naa.600605b004213bc001e293503af49afb",
+         "Device Display Name": "Local IBM Disk (naa.600605b004213bc001e293503af49afb)",
+         "LUN": 0,
+         "Maximum IO Size": 327680,
+         "Plugin": "NMP",
+         "Runtime Name": "vmhba0:C2:T0:L0",
+         "State": "active",
+         "Target": 0,
+         "Target Identifier": "unknown.2:0",
+         "Target Transport Details": "Unavailable or path is unclaimed",
+         "Transport": "parallel",
+         "UID": "unknown.vmhba0-unknown.2:0-naa.600605b004213bc001e293503af49afb"
+      }
+]

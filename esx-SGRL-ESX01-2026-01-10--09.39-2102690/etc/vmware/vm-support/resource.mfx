@@ -1,0 +1,6 @@
+% Manifest name: ResourceGroups
+% Manifest group: System
+% Manifest default: Enabled
+% Manifest tag: base
+# action Options file/command
+run - /usr/sbin/esxcfg-resgrp -l

@@ -1,0 +1,12 @@
+# VMware software license
+StartFields = "Cpt, ProductID, LicenseVersion, LicenseType, LicenseEdition, Option, Epoch"
+Cpt = "COPYRIGHT (c) VMware, Inc."
+ProductID = "VMware ESX Server"
+LicenseVersion = "6.0"
+LicenseType = "Site"
+Epoch = "2013-6-1"
+LicenseEdition = "esx.advancedRobo.vm"
+Option = "7"
+Data = "FileVersion=6.7.2.1;capacityType=vm;enable=vsmp:0,h264remote,esxHost,vimapi,contentlib,vstorage,vmotion,xswitchvmotion,das,dr,endpoint,replication,vshield,hotplug,svmotion,smartcard,ft:8,vvolumes,storageawarenessapi,spbm,vaai,dvs,hostprofile,autodeploy,serialuri:2;addon=drs;se=1;ne=4;desc=VMware vSphere 6 Advanced for Retail and Branch Offices"
+DataHash = "bfeeb591-48594dcf-e261e2dd-20d8df2d-68f18dc0"
+Hash = "113e6421-218a71a9-e3cf3ee5-cfb9d8e0-567b5daf"

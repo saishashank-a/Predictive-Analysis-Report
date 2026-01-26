@@ -1,0 +1,12 @@
+# VMware software license
+StartFields = "Cpt, ProductID, LicenseVersion, LicenseType, LicenseEdition, Option, Epoch"
+Cpt = "COPYRIGHT (c) VMware, Inc."
+ProductID = "VMware ESX Server"
+LicenseVersion = "6.0"
+LicenseType = "Site"
+Epoch = "2019-1-1"
+LicenseEdition = "esx.basic.appliance.cpuPackage"
+Option = "7"
+Data = "FileVersion=6.7.2.1;capacityType=cpuPackage;enable=vsmp:0,contentlib,h264remote,esxHost,vimapi,vstorage,vmotion,xswitchvmotion,das,endpoint,vshield,hotplug,smartcard,vvolumes,storageawarenessapi,spbm,vaai,todevice;desc=VMware vSphere Basic Appliance"
+DataHash = "ba4e7779-53d11fcb-e82e1426-e7eac8b5-cc9415ac"
+Hash = "ef2357e3-95a874b8-e19136b6-7898a556-bc53f161"

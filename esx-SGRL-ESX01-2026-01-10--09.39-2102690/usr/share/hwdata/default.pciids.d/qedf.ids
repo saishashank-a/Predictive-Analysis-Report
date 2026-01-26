@@ -1,0 +1,25 @@
+#
+# This file is mechanically generated.  Any changes you make
+# manually will be lost at the next build.
+#
+# Please edit <driver>_devices.py file for permanent changes.
+#
+# Vendors, devices and subsystems.
+#
+# Syntax (initial indentation must be done with TAB characters):
+#
+# vendor  vendor_name
+#       device  device_name                            <-- single TAB
+#               subvendor subdevice  subsystem_name    <-- two TABs
+
+1077  QLogic Corp.
+	165c  
+		1077 0034  QLogic FastLinQ QL45xxx Series 10/25/50 GbE Controller (FCoE)
+		1077 e4f1  QLogic FastLinQ QL45xxx Series 40 GbE Controller (FCoE)
+		1077 e4f2  QLogic FastLinQ QL45xxx Series 40 GbE Controller (FCoE)
+		1077 e4f9  QLogic FastLinQ QL45xxx Series 40 GbE Controller (FCoE)
+		1077 e4fa  QLogic FastLinQ QL45xxx Series 50 GbE Controller (FCoE)
+		1077 e4fb  QLogic FastLinQ QL45xxx Series 25 GbE Controller (FCoE)
+		1590 0245  QLogic FastLinQ QL45xxx Series 10/25 GbE Controller (FCoE)
+		1590 0287  QLogic FastLinQ QL45xxx Series 25/50 GbE Controller (FCoE)
+	8080  QLogic FastLinQ QL41xxx Series 10/25 GbE Controller (FCoE)

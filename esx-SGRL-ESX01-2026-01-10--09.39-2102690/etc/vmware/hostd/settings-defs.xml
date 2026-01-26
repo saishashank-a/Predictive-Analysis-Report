@@ -1,0 +1,27 @@
+<ConfigRoot>
+  <_length>1</_length>
+  <_type>vim.option.OptionDef[]</_type>
+  <e id="0">
+  <_type>vim.option.OptionDef</_type>
+    <dynamicType></dynamicType>
+    <dynamicProperty>
+      <_length>0</_length>
+      <_type>vmodl.DynamicProperty[]</_type>
+    </dynamicProperty>
+    <label>guest.commands.sharedPolicyRefCount</label>
+    <summary>Reference count to enable guest operations.</summary>
+    <key>guest.commands.sharedPolicyRefCount</key>
+    <optionType>
+    <_type>vim.option.IntOption</_type>
+      <dynamicType></dynamicType>
+      <dynamicProperty>
+        <_length>0</_length>
+        <_type>vmodl.DynamicProperty[]</_type>
+      </dynamicProperty>
+      <valueIsReadonly>false</valueIsReadonly>
+      <min>0</min>
+      <max>2147483647</max>
+      <defaultValue>0</defaultValue>
+    </optionType>
+  </e>
+</ConfigRoot>

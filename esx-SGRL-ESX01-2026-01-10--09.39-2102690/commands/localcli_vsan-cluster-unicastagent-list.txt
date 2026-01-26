@@ -1,0 +1,2 @@
+Errors: 
+vSAN isn't enabled on the host

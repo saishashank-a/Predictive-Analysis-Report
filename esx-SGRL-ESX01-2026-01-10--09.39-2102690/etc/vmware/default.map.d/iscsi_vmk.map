@@ -1,0 +1,1 @@
+regtype=native,bus=logical,id=com.vmware.iscsi_vmk,driver=iscsi_vmk

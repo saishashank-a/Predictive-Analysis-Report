@@ -1,0 +1,7 @@
+% Manifest name: NVMe
+% Manifest group: Storage
+% Manifest default: Enabled
+% Manifest tag: nvme
+
+# Get nvme device information
+run IGNORE_ERROR /usr/lib/vmware/vm-support/bin/nvmeinfo.sh

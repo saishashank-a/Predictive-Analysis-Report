@@ -1,0 +1,9 @@
+% Manifest name: VmiofPlugins
+% Manifest group: System
+% Manifest default: Enabled
+% Manifest tag: vmiof
+# action Options file/command
+
+copy   IGNORE_MISSING  /usr/lib/vmware/plugin/libvmiof*
+copy   IGNORE_MISSING  /usr/lib64/vmware/plugin/libvmiof*
+

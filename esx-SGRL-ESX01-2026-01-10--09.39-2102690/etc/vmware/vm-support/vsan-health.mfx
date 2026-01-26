@@ -1,0 +1,8 @@
+% Manifest name: VSANHealth
+% Manifest group: Storage
+% Manifest default: Enabled
+% Manifest tag: storage,vsanhealth
+# action Options file/command
+
+copy TIMEOUT=10,IGNORE_MISSING /var/log/vsanmgmt.log
+run TIMEOUT=10,IGNORE_ERROR python /usr/lib/vmware/vsan/perfsvc/VsanLsomHealth.pyc

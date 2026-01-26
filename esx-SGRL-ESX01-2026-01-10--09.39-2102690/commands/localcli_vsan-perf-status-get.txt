@@ -1,0 +1,1 @@
+Unable to find a command or namespace with the name 'status' in namespace vsan perf

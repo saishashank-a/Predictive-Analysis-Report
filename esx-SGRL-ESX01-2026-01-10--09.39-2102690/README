@@ -1,0 +1,15 @@
+Command line: vm-support.cgi /usr/lib/vmware/hostd/cgi-bin/vm-support.cgi
+Bundle name: None
+Captured on: 2026-01-10 09:39:19.434390
+vm-support version: v3.3
+Options: Namespace(actionThreads=4, allowInfiniteActions=False, defaultTimeout=300, dryrun=False, duration=300, errorfile='', excludemanifests='', extract=None, groups='', http.protocol.cookie-policy='rfc2109', ignore_timeouts=False, interval=15, legacy=False, listfiles=False, listgroups=False, listmanifests=False, listtags=False, listvms=False, loglevel=30, manifestDir=None, manifests='System:Base System:CoreDumps System:EsxImage System:IOFilter System:LoadESX System:Modules System:RDMA System:ResourceGroups System:TPM System:VFlash System:VMTools System:VmiofPlugins System:ntp System:uwstats Fcd:Catalog VirtualMachines:CoreDumps VirtualMachines:VirtualMachineStats VirtualMachines:base VirtualMachines:diskinfo VirtualMachines:logs Storage:FCoE Storage:Multipathing Storage:NAS Storage:NVMe Storage:UPIT Storage:VSAN Storage:VSANDP Storage:VSANHealth Storage:VSANIscsiTarget Storage:VSANPerfStats Storage:VSANPerfStatsDiagnostic Storage:VSANPerfSvc Storage:VSANTraces Storage:VVOL Storage:base Storage:iodm Storage:iscsi FeatureStateSwitch:FeatureStateSwitch Userworld:HostAgent Userworld:ProcessInformation Configuration:System Logs:System hostProfiles:SystemImageCacheHostProfile hostProfiles:hostProfiles FileSystem:VMFSDiskDump FileSystem:base ActiveDirectory:base CIM:base Hardware:base Hardware:usb Installer:base Network:base Network:dvs Network:lacp Network:nscd Network:tcpip Network:vswitch IntegrityChecks:md5sums', obfuscate=False, performance=False, quiet=False, reconstruct=None, stream=True, version=False, vm=None, workingdir=None, xmloutput=False, zip=False)
+
+Files/Directories of Interest:
+------------------------------
+
+error.log: log containing errors that ocurred while running vm-support
+action.log: a log of all commands, and/or actions run during vm-support
+commands: a directory containing output files for all commands run
+
+All other directories and files should be mirrors of the the ESXi system
+vm-support was run on.

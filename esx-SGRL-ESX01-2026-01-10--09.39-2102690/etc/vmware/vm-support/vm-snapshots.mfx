@@ -1,0 +1,9 @@
+% Manifest name: SnapshotsAndMemoryImages
+% Manifest group: VirtualMachines
+% Manifest default: Disabled
+% Manifest tag: vm,sensitive
+# action Options file/command
+
+vmfile IGNORE_MISSING  *.vmsn
+vmfile IGNORE_MISSING  debug.vmss
+vmfile IGNORE_MISSING  debug.vmem

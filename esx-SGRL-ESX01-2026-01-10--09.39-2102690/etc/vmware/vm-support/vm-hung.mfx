@@ -1,0 +1,9 @@
+% Manifest name: CoreDumpHung
+% Manifest group: VirtualMachines
+% Manifest default: Disabled
+% Manifest tag: vm,logs,sensitive
+% Manifest vmonly: True
+# action Options file/command
+
+# coredump the vmx
+vmcmd EXTENSION=tgz,IGNORE_ERROR /usr/lib/vmware/vm-support/bin/debug-hung-vm "{VMCFG}" coredump

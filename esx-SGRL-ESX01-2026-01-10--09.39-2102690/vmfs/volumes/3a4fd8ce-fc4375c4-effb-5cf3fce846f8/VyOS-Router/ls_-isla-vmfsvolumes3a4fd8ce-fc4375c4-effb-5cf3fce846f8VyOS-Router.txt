@@ -1,0 +1,26 @@
+total 2567488
+   2884    128 drwxr-xr-x    1 root     root         77824 Jan 10 07:58 .
+      4   1024 drwxr-xr-t    1 root     root         86016 Jan 10 09:35 ..
+222298436  39936 -rw-------    1 root     root      58740736 Sep  1 05:01 VyOS-Router-000001-sesparse.vmdk
+226492740      0 -rw-------    1 root     root           318 Sep  1 04:24 VyOS-Router-000001.vmdk
+272630084 419840 -rw-------    1 root     root     447135744 Jan 10 09:42 VyOS-Router-000003-sesparse.vmdk
+276824388      0 -rw-------    1 root     root           325 Jan 10 07:58 VyOS-Router-000003.vmdk
+218104132     64 -rw-------    1 root     root         19920 Sep  1 04:15 VyOS-Router-Snapshot1.vmsn
+230687044     64 -rw-------    1 root     root         19945 Sep  1 05:01 VyOS-Router-Snapshot2.vmsn
+796918084 1048576 -rw-------    1 root     root     1073741824 Jan 10 07:57 VyOS-Router-f11e7ae5.vswp
+180355396 886784 -rw-------    1 root     root     5368709120 Sep  1 04:15 VyOS-Router-flat.vmdk
+260047172     64 -rw-------    1 root     root          8684 Jan  1  2001 VyOS-Router.nvram
+184549700      0 -rw-------    1 root     root           476 Sep  1 04:02 VyOS-Router.vmdk
+188744004      0 -rw-r--r--    1 root     root           723 Sep  1 05:01 VyOS-Router.vmsd
+264241476      0 -rwx------    1 root     root          2916 Jan 10 07:57 VyOS-Router.vmx
+784335172      0 -rw-------    1 root     root             0 Jan 10 07:57 VyOS-Router.vmx.lck
+788529476      0 -rwx------    1 root     root          2831 Jan 10 07:57 VyOS-Router.vmx~
+692060484   1024 -rw-------    1 root     root        221481 Dec  8 13:33 vmware-21.log
+708837700   1024 -rw-------    1 root     root        221559 Dec  9 10:54 vmware-22.log
+725614916   1024 -rw-------    1 root     root        222887 Dec 10 13:58 vmware-23.log
+742392132   1024 -rw-------    1 root     root        221628 Dec 11 09:43 vmware-24.log
+759169348   1024 -rw-------    1 root     root        221553 Dec 18 21:06 vmware-25.log
+775946564   1024 -rw-------    1 root     root        225759 Dec 27 05:31 vmware-26.log
+792723780   1024 -rw-------    1 root     root        197240 Jan 10 08:08 vmware.log
+528482628  81920 -rw-------    1 root     root      83886080 Oct 24 00:07 vmx-VyOS-Router-4045306597-1.vswp
+780140868  81920 -rw-------    1 root     root      83886080 Jan 10 07:57 vmx-VyOS-Router-4045306597-2.vswp

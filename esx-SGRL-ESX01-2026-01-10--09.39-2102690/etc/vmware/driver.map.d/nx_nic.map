@@ -1,0 +1,17 @@
+regtype=linux,bus=pci,id=4040:0001 0000:0000,driver=nx_nic,class=network
+regtype=linux,bus=pci,id=4040:0001 103c:7047,driver=nx_nic,class=network
+regtype=linux,bus=pci,id=4040:0002 0000:0000,driver=nx_nic,class=network
+regtype=linux,bus=pci,id=4040:0002 103c:7048,driver=nx_nic,class=network
+regtype=linux,bus=pci,id=4040:0004 0000:0000,driver=nx_nic,class=network
+regtype=linux,bus=pci,id=4040:0005 0000:0000,driver=nx_nic,class=network
+regtype=linux,bus=pci,id=4040:0100 0000:0000,driver=nx_nic,class=network
+regtype=linux,bus=pci,id=4040:0100 103c:171b,driver=nx_nic,class=network
+regtype=linux,bus=pci,id=4040:0100 103c:1740,driver=nx_nic,class=network
+regtype=linux,bus=pci,id=4040:0100 103c:3251,driver=nx_nic,class=network
+regtype=linux,bus=pci,id=4040:0100 103c:705a,driver=nx_nic,class=network
+regtype=linux,bus=pci,id=4040:0100 103c:705b,driver=nx_nic,class=network
+regtype=linux,bus=pci,id=4040:0100 152d:896b,driver=nx_nic,class=network
+regtype=linux,bus=pci,id=4040:0100 4040:0123,driver=nx_nic,class=network
+regtype=linux,bus=pci,id=4040:0100 4040:0124,driver=nx_nic,class=network
+regtype=linux,bus=pci,id=4040:0100 4040:0125,driver=nx_nic,class=network
+regtype=linux,bus=pci,id=4040:0100 4040:0126,driver=nx_nic,class=network

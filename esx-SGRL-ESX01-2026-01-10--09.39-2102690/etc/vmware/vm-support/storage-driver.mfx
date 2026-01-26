@@ -1,0 +1,16 @@
+% Manifest name: iodm 
+% Manifest group: Storage
+% Manifest default: Enabled
+% Manifest tag: storage,iodm
+# action Options file/command
+
+run TIMEOUT=10                  /usr/sbin/localcli storage san fc events get                      
+run TIMEOUT=10                  /usr/sbin/localcli storage san fc list     
+run TIMEOUT=10                  /usr/sbin/localcli storage san fc stats get
+run TIMEOUT=10                  /usr/sbin/localcli storage san fcoe list
+run TIMEOUT=10                  /usr/sbin/localcli storage san fcoe stats get
+run TIMEOUT=10                  /usr/sbin/localcli storage san sas list 
+run TIMEOUT=10                  /usr/sbin/localcli storage san sas stats get 
+run TIMEOUT=10                  /usr/sbin/localcli storage san iscsi list
+run TIMEOUT=10                  /usr/sbin/localcli storage san iscsi stats get
+

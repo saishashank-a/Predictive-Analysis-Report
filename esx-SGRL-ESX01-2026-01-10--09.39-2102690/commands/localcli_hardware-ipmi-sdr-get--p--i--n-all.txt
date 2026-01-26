@@ -1,0 +1,9 @@
+IpmiSDRConfig:
+   Feature: 0x26
+   Formatted-Raw: 00 51 e4 00 9e dd 00 00 00 00 00 00 00 00 26 
+   Free Space: 56734
+   Last Added: N/A
+   Last Cleared: N/A
+   Raw: 
+   Total Records: 228
+   Version: 0x51 (1.5)

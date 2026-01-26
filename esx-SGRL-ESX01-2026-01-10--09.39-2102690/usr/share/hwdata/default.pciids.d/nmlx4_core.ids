@@ -1,0 +1,20 @@
+#
+# This file is mechanically generated.  Any changes you make
+# manually will be lost at the next build.
+#
+# Please edit <driver>_devices.py file for permanent changes.
+#
+# Vendors, devices and subsystems.
+#
+# Syntax (initial indentation must be done with TAB characters):
+#
+# vendor  vendor_name
+#       device  device_name                            <-- single TAB
+#               subvendor subdevice  subsystem_name    <-- two TABs
+
+15b3  Mellanox Technologies
+	01f6  MT27500 [ConnectX-3 Flash Recovery]
+	01f8  MT27520 [ConnectX-3 Pro Flash Recovery]
+	1003  MT27500 Family [ConnectX-3]
+	1004  MT27500/MT27520 Family [ConnectX-3/ConnectX-3 Pro Virtual Function]
+	1007  MT27520 Family [ConnectX-3 Pro]

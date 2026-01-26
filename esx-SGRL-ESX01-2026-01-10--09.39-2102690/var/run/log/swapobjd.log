@@ -1,0 +1,600 @@
+2001-01-01T01:16:54.548Z 2098813:main:108: Starting
+2001-01-01T01:16:54.548Z 2098813:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2001-01-01T01:16:54.548Z 2098813:Event_Init:164: Initializing event system
+2001-01-01T01:16:54.548Z 2098813:Vmklink_Init:69: Initializing Vmklink Request Slab
+2001-01-01T01:16:54.548Z 2098813:Vmklink_Init:86: Initializing Vmklink MPI connection
+2001-01-01T01:16:54.548Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2001-01-01T01:16:54.548Z 2098813:Vmklink_Init:108: Vmklink connection setup completed
+2001-01-01T01:16:54.548Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2001-01-01T01:16:54.548Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2001-01-01T01:16:54.551Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2001-01-01T01:16:54.551Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2001-01-01T01:16:54.551Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2001-01-01T01:16:54.553Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2001-01-01T01:16:54.553Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2001-01-01T01:16:54.553Z 2098813:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2001-01-01T01:16:54.553Z 2098813:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2001-01-01T01:16:54.553Z 2098813:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2001-01-01T01:16:54.555Z OBJLIB-LIB: Objlib initialized.
+2001-01-01T01:16:54.555Z Creating threadpool swapobjd-helper with 8 threads
+2001-01-01T01:16:54.555Z 2098813:SWAPOBJDHist_Init:174: Initializing histogram
+2001-01-01T00:02:27.572Z 2098692:main:108: Starting
+2001-01-01T00:02:27.572Z 2098692:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2001-01-01T00:02:27.572Z 2098692:Event_Init:164: Initializing event system
+2001-01-01T00:02:27.572Z 2098692:Vmklink_Init:69: Initializing Vmklink Request Slab
+2001-01-01T00:02:27.572Z 2098692:Vmklink_Init:86: Initializing Vmklink MPI connection
+2001-01-01T00:02:27.572Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2001-01-01T00:02:27.572Z 2098692:Vmklink_Init:108: Vmklink connection setup completed
+2001-01-01T00:02:27.573Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2001-01-01T00:02:27.573Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2001-01-01T00:02:27.575Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2001-01-01T00:02:27.575Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2001-01-01T00:02:27.575Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2001-01-01T00:02:27.577Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2001-01-01T00:02:27.577Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2001-01-01T00:02:27.577Z 2098692:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2001-01-01T00:02:27.577Z 2098692:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2001-01-01T00:02:27.577Z 2098692:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2001-01-01T00:02:27.580Z OBJLIB-LIB: Objlib initialized.
+2001-01-01T00:02:27.580Z Creating threadpool swapobjd-helper with 8 threads
+2001-01-01T00:02:27.580Z 2098692:SWAPOBJDHist_Init:174: Initializing histogram
+2001-01-01T00:02:26.194Z 2098690:main:108: Starting
+2001-01-01T00:02:26.194Z 2098690:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2001-01-01T00:02:26.194Z 2098690:Event_Init:164: Initializing event system
+2001-01-01T00:02:26.194Z 2098690:Vmklink_Init:69: Initializing Vmklink Request Slab
+2001-01-01T00:02:26.194Z 2098690:Vmklink_Init:86: Initializing Vmklink MPI connection
+2001-01-01T00:02:26.194Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2001-01-01T00:02:26.194Z 2098690:Vmklink_Init:108: Vmklink connection setup completed
+2001-01-01T00:02:26.194Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2001-01-01T00:02:26.194Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2001-01-01T00:02:26.196Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2001-01-01T00:02:26.196Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2001-01-01T00:02:26.197Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2001-01-01T00:02:26.199Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2001-01-01T00:02:26.199Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2001-01-01T00:02:26.199Z 2098690:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2001-01-01T00:02:26.199Z 2098690:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2001-01-01T00:02:26.199Z 2098690:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2001-01-01T00:02:26.201Z OBJLIB-LIB: Objlib initialized.
+2001-01-01T00:02:26.201Z Creating threadpool swapobjd-helper with 8 threads
+2001-01-01T00:02:26.201Z 2098690:SWAPOBJDHist_Init:174: Initializing histogram
+2001-01-01T00:02:31.769Z 2098722:main:108: Starting
+2001-01-01T00:02:31.770Z 2098722:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2001-01-01T00:02:31.770Z 2098722:Event_Init:164: Initializing event system
+2001-01-01T00:02:31.770Z 2098722:Vmklink_Init:69: Initializing Vmklink Request Slab
+2001-01-01T00:02:31.770Z 2098722:Vmklink_Init:86: Initializing Vmklink MPI connection
+2001-01-01T00:02:31.770Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2001-01-01T00:02:31.770Z 2098722:Vmklink_Init:108: Vmklink connection setup completed
+2001-01-01T00:02:31.770Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2001-01-01T00:02:31.770Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2001-01-01T00:02:31.772Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2001-01-01T00:02:31.772Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2001-01-01T00:02:31.772Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2001-01-01T00:02:31.774Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2001-01-01T00:02:31.775Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2001-01-01T00:02:31.775Z 2098722:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2001-01-01T00:02:31.775Z 2098722:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2001-01-01T00:02:31.775Z 2098722:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2001-01-01T00:02:31.777Z OBJLIB-LIB: Objlib initialized.
+2001-01-01T00:02:31.777Z Creating threadpool swapobjd-helper with 8 threads
+2001-01-01T00:02:31.777Z 2098722:SWAPOBJDHist_Init:174: Initializing histogram
+2025-09-02T10:59:05.012Z 2098722:main:108: Starting
+2025-09-02T10:59:05.012Z 2098722:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2025-09-02T10:59:05.012Z 2098722:Event_Init:164: Initializing event system
+2025-09-02T10:59:05.012Z 2098722:Vmklink_Init:69: Initializing Vmklink Request Slab
+2025-09-02T10:59:05.012Z 2098722:Vmklink_Init:86: Initializing Vmklink MPI connection
+2025-09-02T10:59:05.012Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2025-09-02T10:59:05.012Z 2098722:Vmklink_Init:108: Vmklink connection setup completed
+2025-09-02T10:59:05.012Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2025-09-02T10:59:05.012Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2025-09-02T10:59:05.015Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2025-09-02T10:59:05.015Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2025-09-02T10:59:05.015Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2025-09-02T10:59:05.017Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2025-09-02T10:59:05.017Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2025-09-02T10:59:05.017Z 2098722:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2025-09-02T10:59:05.017Z 2098722:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2025-09-02T10:59:05.017Z 2098722:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2025-09-02T10:59:05.019Z OBJLIB-LIB: Objlib initialized.
+2025-09-02T10:59:05.019Z Creating threadpool swapobjd-helper with 8 threads
+2025-09-02T10:59:05.019Z 2098722:SWAPOBJDHist_Init:174: Initializing histogram
+2001-01-01T00:02:33.994Z 2098722:main:108: Starting
+2001-01-01T00:02:33.994Z 2098722:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2001-01-01T00:02:33.995Z 2098722:Event_Init:164: Initializing event system
+2001-01-01T00:02:33.995Z 2098722:Vmklink_Init:69: Initializing Vmklink Request Slab
+2001-01-01T00:02:33.995Z 2098722:Vmklink_Init:86: Initializing Vmklink MPI connection
+2001-01-01T00:02:33.995Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2001-01-01T00:02:33.995Z 2098722:Vmklink_Init:108: Vmklink connection setup completed
+2001-01-01T00:02:33.995Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2001-01-01T00:02:33.995Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2001-01-01T00:02:33.997Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2001-01-01T00:02:33.997Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2001-01-01T00:02:33.997Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2001-01-01T00:02:33.999Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2001-01-01T00:02:33.999Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2001-01-01T00:02:33.999Z 2098722:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2001-01-01T00:02:34.000Z 2098722:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2001-01-01T00:02:34.000Z 2098722:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2001-01-01T00:02:34.002Z OBJLIB-LIB: Objlib initialized.
+2001-01-01T00:02:34.002Z Creating threadpool swapobjd-helper with 8 threads
+2001-01-01T00:02:34.002Z 2098722:SWAPOBJDHist_Init:174: Initializing histogram
+2001-01-01T00:02:32.009Z 2098722:main:108: Starting
+2001-01-01T00:02:32.009Z 2098722:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2001-01-01T00:02:32.009Z 2098722:Event_Init:164: Initializing event system
+2001-01-01T00:02:32.009Z 2098722:Vmklink_Init:69: Initializing Vmklink Request Slab
+2001-01-01T00:02:32.009Z 2098722:Vmklink_Init:86: Initializing Vmklink MPI connection
+2001-01-01T00:02:32.009Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2001-01-01T00:02:32.009Z 2098722:Vmklink_Init:108: Vmklink connection setup completed
+2001-01-01T00:02:32.010Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2001-01-01T00:02:32.010Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2001-01-01T00:02:32.012Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2001-01-01T00:02:32.012Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2001-01-01T00:02:32.012Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2001-01-01T00:02:32.014Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2001-01-01T00:02:32.014Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2001-01-01T00:02:32.014Z 2098722:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2001-01-01T00:02:32.015Z 2098722:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2001-01-01T00:02:32.015Z 2098722:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2001-01-01T00:02:32.017Z OBJLIB-LIB: Objlib initialized.
+2001-01-01T00:02:32.017Z Creating threadpool swapobjd-helper with 8 threads
+2001-01-01T00:02:32.017Z 2098722:SWAPOBJDHist_Init:174: Initializing histogram
+2001-01-01T00:02:32.818Z 2098722:main:108: Starting
+2001-01-01T00:02:32.818Z 2098722:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2001-01-01T00:02:32.818Z 2098722:Event_Init:164: Initializing event system
+2001-01-01T00:02:32.818Z 2098722:Vmklink_Init:69: Initializing Vmklink Request Slab
+2001-01-01T00:02:32.818Z 2098722:Vmklink_Init:86: Initializing Vmklink MPI connection
+2001-01-01T00:02:32.818Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2001-01-01T00:02:32.818Z 2098722:Vmklink_Init:108: Vmklink connection setup completed
+2001-01-01T00:02:32.818Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2001-01-01T00:02:32.818Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2001-01-01T00:02:32.820Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2001-01-01T00:02:32.821Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2001-01-01T00:02:32.821Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2001-01-01T00:02:32.823Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2001-01-01T00:02:32.823Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2001-01-01T00:02:32.823Z 2098722:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2001-01-01T00:02:32.823Z 2098722:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2001-01-01T00:02:32.823Z 2098722:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2001-01-01T00:02:32.826Z OBJLIB-LIB: Objlib initialized.
+2001-01-01T00:02:32.826Z Creating threadpool swapobjd-helper with 8 threads
+2001-01-01T00:02:32.826Z 2098722:SWAPOBJDHist_Init:174: Initializing histogram
+2001-01-01T00:02:32.922Z 2098722:main:108: Starting
+2001-01-01T00:02:32.922Z 2098722:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2001-01-01T00:02:32.922Z 2098722:Event_Init:164: Initializing event system
+2001-01-01T00:02:32.922Z 2098722:Vmklink_Init:69: Initializing Vmklink Request Slab
+2001-01-01T00:02:32.922Z 2098722:Vmklink_Init:86: Initializing Vmklink MPI connection
+2001-01-01T00:02:32.922Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2001-01-01T00:02:32.922Z 2098722:Vmklink_Init:108: Vmklink connection setup completed
+2001-01-01T00:02:32.922Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2001-01-01T00:02:32.923Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2001-01-01T00:02:32.925Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2001-01-01T00:02:32.925Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2001-01-01T00:02:32.925Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2001-01-01T00:02:32.927Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2001-01-01T00:02:32.927Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2001-01-01T00:02:32.927Z 2098722:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2001-01-01T00:02:32.927Z 2098722:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2001-01-01T00:02:32.927Z 2098722:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2001-01-01T00:02:32.929Z OBJLIB-LIB: Objlib initialized.
+2001-01-01T00:02:32.929Z Creating threadpool swapobjd-helper with 8 threads
+2001-01-01T00:02:32.929Z 2098722:SWAPOBJDHist_Init:174: Initializing histogram
+2001-01-01T00:02:27.207Z 2098690:main:108: Starting
+2001-01-01T00:02:27.207Z 2098690:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2001-01-01T00:02:27.207Z 2098690:Event_Init:164: Initializing event system
+2001-01-01T00:02:27.207Z 2098690:Vmklink_Init:69: Initializing Vmklink Request Slab
+2001-01-01T00:02:27.207Z 2098690:Vmklink_Init:86: Initializing Vmklink MPI connection
+2001-01-01T00:02:27.207Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2001-01-01T00:02:27.207Z 2098690:Vmklink_Init:108: Vmklink connection setup completed
+2001-01-01T00:02:27.207Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2001-01-01T00:02:27.208Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2001-01-01T00:02:27.209Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2001-01-01T00:02:27.209Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2001-01-01T00:02:27.209Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2001-01-01T00:02:27.212Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2001-01-01T00:02:27.212Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2001-01-01T00:02:27.212Z 2098690:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2001-01-01T00:02:27.212Z 2098690:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2001-01-01T00:02:27.212Z 2098690:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2001-01-01T00:02:27.214Z OBJLIB-LIB: Objlib initialized.
+2001-01-01T00:02:27.214Z Creating threadpool swapobjd-helper with 8 threads
+2001-01-01T00:02:27.214Z 2098690:SWAPOBJDHist_Init:174: Initializing histogram
+2001-01-01T00:02:26.161Z 2098690:main:108: Starting
+2001-01-01T00:02:26.161Z 2098690:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2001-01-01T00:02:26.161Z 2098690:Event_Init:164: Initializing event system
+2001-01-01T00:02:26.161Z 2098690:Vmklink_Init:69: Initializing Vmklink Request Slab
+2001-01-01T00:02:26.161Z 2098690:Vmklink_Init:86: Initializing Vmklink MPI connection
+2001-01-01T00:02:26.161Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2001-01-01T00:02:26.161Z 2098690:Vmklink_Init:108: Vmklink connection setup completed
+2001-01-01T00:02:26.161Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2001-01-01T00:02:26.161Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2001-01-01T00:02:26.163Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2001-01-01T00:02:26.163Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2001-01-01T00:02:26.163Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2001-01-01T00:02:26.165Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2001-01-01T00:02:26.166Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2001-01-01T00:02:26.166Z 2098690:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2001-01-01T00:02:26.166Z 2098690:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2001-01-01T00:02:26.166Z 2098690:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2001-01-01T00:02:26.168Z OBJLIB-LIB: Objlib initialized.
+2001-01-01T00:02:26.168Z Creating threadpool swapobjd-helper with 8 threads
+2001-01-01T00:02:26.168Z 2098690:SWAPOBJDHist_Init:174: Initializing histogram
+2001-01-01T00:02:27.352Z 2098690:main:108: Starting
+2001-01-01T00:02:27.352Z 2098690:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2001-01-01T00:02:27.352Z 2098690:Event_Init:164: Initializing event system
+2001-01-01T00:02:27.352Z 2098690:Vmklink_Init:69: Initializing Vmklink Request Slab
+2001-01-01T00:02:27.352Z 2098690:Vmklink_Init:86: Initializing Vmklink MPI connection
+2001-01-01T00:02:27.352Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2001-01-01T00:02:27.352Z 2098690:Vmklink_Init:108: Vmklink connection setup completed
+2001-01-01T00:02:27.352Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2001-01-01T00:02:27.352Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2001-01-01T00:02:27.355Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2001-01-01T00:02:27.355Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2001-01-01T00:02:27.355Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2001-01-01T00:02:27.357Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2001-01-01T00:02:27.357Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2001-01-01T00:02:27.357Z 2098690:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2001-01-01T00:02:27.357Z 2098690:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2001-01-01T00:02:27.357Z 2098690:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2001-01-01T00:02:27.360Z OBJLIB-LIB: Objlib initialized.
+2001-01-01T00:02:27.360Z Creating threadpool swapobjd-helper with 8 threads
+2001-01-01T00:02:27.360Z 2098690:SWAPOBJDHist_Init:174: Initializing histogram
+2001-01-01T00:42:02.033Z 2098690:main:108: Starting
+2001-01-01T00:42:02.034Z 2098690:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2001-01-01T00:42:02.034Z 2098690:Event_Init:164: Initializing event system
+2001-01-01T00:42:02.034Z 2098690:Vmklink_Init:69: Initializing Vmklink Request Slab
+2001-01-01T00:42:02.034Z 2098690:Vmklink_Init:86: Initializing Vmklink MPI connection
+2001-01-01T00:42:02.034Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2001-01-01T00:42:02.034Z 2098690:Vmklink_Init:108: Vmklink connection setup completed
+2001-01-01T00:42:02.034Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2001-01-01T00:42:02.034Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2001-01-01T00:42:02.036Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2001-01-01T00:42:02.036Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2001-01-01T00:42:02.036Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2001-01-01T00:42:02.038Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2001-01-01T00:42:02.038Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2001-01-01T00:42:02.038Z 2098690:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2001-01-01T00:42:02.038Z 2098690:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2001-01-01T00:42:02.038Z 2098690:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2001-01-01T00:42:02.041Z OBJLIB-LIB: Objlib initialized.
+2001-01-01T00:42:02.041Z Creating threadpool swapobjd-helper with 8 threads
+2001-01-01T00:42:02.041Z 2098690:SWAPOBJDHist_Init:174: Initializing histogram
+2001-01-01T00:06:47.335Z 2098690:main:108: Starting
+2001-01-01T00:06:47.335Z 2098690:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2001-01-01T00:06:47.335Z 2098690:Event_Init:164: Initializing event system
+2001-01-01T00:06:47.335Z 2098690:Vmklink_Init:69: Initializing Vmklink Request Slab
+2001-01-01T00:06:47.335Z 2098690:Vmklink_Init:86: Initializing Vmklink MPI connection
+2001-01-01T00:06:47.335Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2001-01-01T00:06:47.335Z 2098690:Vmklink_Init:108: Vmklink connection setup completed
+2001-01-01T00:06:47.335Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2001-01-01T00:06:47.336Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2001-01-01T00:06:47.338Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2001-01-01T00:06:47.338Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2001-01-01T00:06:47.338Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2001-01-01T00:06:47.340Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2001-01-01T00:06:47.340Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2001-01-01T00:06:47.340Z 2098690:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2001-01-01T00:06:47.340Z 2098690:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2001-01-01T00:06:47.340Z 2098690:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2001-01-01T00:06:47.342Z OBJLIB-LIB: Objlib initialized.
+2001-01-01T00:06:47.342Z Creating threadpool swapobjd-helper with 8 threads
+2001-01-01T00:06:47.342Z 2098690:SWAPOBJDHist_Init:174: Initializing histogram
+2001-01-01T00:02:27.393Z 2098690:main:108: Starting
+2001-01-01T00:02:27.393Z 2098690:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2001-01-01T00:02:27.393Z 2098690:Event_Init:164: Initializing event system
+2001-01-01T00:02:27.393Z 2098690:Vmklink_Init:69: Initializing Vmklink Request Slab
+2001-01-01T00:02:27.393Z 2098690:Vmklink_Init:86: Initializing Vmklink MPI connection
+2001-01-01T00:02:27.393Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2001-01-01T00:02:27.393Z 2098690:Vmklink_Init:108: Vmklink connection setup completed
+2001-01-01T00:02:27.393Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2001-01-01T00:02:27.393Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2001-01-01T00:02:27.395Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2001-01-01T00:02:27.395Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2001-01-01T00:02:27.395Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2001-01-01T00:02:27.398Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2001-01-01T00:02:27.398Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2001-01-01T00:02:27.398Z 2098690:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2001-01-01T00:02:27.398Z 2098690:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2001-01-01T00:02:27.398Z 2098690:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2001-01-01T00:02:27.400Z OBJLIB-LIB: Objlib initialized.
+2001-01-01T00:02:27.400Z Creating threadpool swapobjd-helper with 8 threads
+2001-01-01T00:02:27.400Z 2098690:SWAPOBJDHist_Init:174: Initializing histogram
+2001-01-01T00:02:25.124Z 2098690:main:108: Starting
+2001-01-01T00:02:25.124Z 2098690:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2001-01-01T00:02:25.124Z 2098690:Event_Init:164: Initializing event system
+2001-01-01T00:02:25.124Z 2098690:Vmklink_Init:69: Initializing Vmklink Request Slab
+2001-01-01T00:02:25.124Z 2098690:Vmklink_Init:86: Initializing Vmklink MPI connection
+2001-01-01T00:02:25.124Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2001-01-01T00:02:25.124Z 2098690:Vmklink_Init:108: Vmklink connection setup completed
+2001-01-01T00:02:25.124Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2001-01-01T00:02:25.124Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2001-01-01T00:02:25.126Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2001-01-01T00:02:25.127Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2001-01-01T00:02:25.127Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2001-01-01T00:02:25.129Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2001-01-01T00:02:25.129Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2001-01-01T00:02:25.129Z 2098690:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2001-01-01T00:02:25.129Z 2098690:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2001-01-01T00:02:25.129Z 2098690:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2001-01-01T00:02:25.131Z OBJLIB-LIB: Objlib initialized.
+2001-01-01T00:02:25.131Z Creating threadpool swapobjd-helper with 8 threads
+2001-01-01T00:02:25.131Z 2098690:SWAPOBJDHist_Init:174: Initializing histogram
+2025-11-15T00:23:00.324Z 2098691:main:108: Starting
+2025-11-15T00:23:00.324Z 2098691:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2025-11-15T00:23:00.324Z 2098691:Event_Init:164: Initializing event system
+2025-11-15T00:23:00.324Z 2098691:Vmklink_Init:69: Initializing Vmklink Request Slab
+2025-11-15T00:23:00.324Z 2098691:Vmklink_Init:86: Initializing Vmklink MPI connection
+2025-11-15T00:23:00.324Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2025-11-15T00:23:00.324Z 2098691:Vmklink_Init:108: Vmklink connection setup completed
+2025-11-15T00:23:00.324Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2025-11-15T00:23:00.324Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2025-11-15T00:23:00.326Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2025-11-15T00:23:00.326Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2025-11-15T00:23:00.326Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2025-11-15T00:23:00.328Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2025-11-15T00:23:00.329Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2025-11-15T00:23:00.329Z 2098691:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2025-11-15T00:23:00.329Z 2098691:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2025-11-15T00:23:00.329Z 2098691:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2025-11-15T00:23:00.331Z OBJLIB-LIB: Objlib initialized.
+2025-11-15T00:23:00.331Z Creating threadpool swapobjd-helper with 8 threads
+2025-11-15T00:23:00.331Z 2098691:SWAPOBJDHist_Init:174: Initializing histogram
+2025-11-15T06:07:00.720Z 2098690:main:108: Starting
+2025-11-15T06:07:00.720Z 2098690:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2025-11-15T06:07:00.720Z 2098690:Event_Init:164: Initializing event system
+2025-11-15T06:07:00.720Z 2098690:Vmklink_Init:69: Initializing Vmklink Request Slab
+2025-11-15T06:07:00.720Z 2098690:Vmklink_Init:86: Initializing Vmklink MPI connection
+2025-11-15T06:07:00.720Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2025-11-15T06:07:00.720Z 2098690:Vmklink_Init:108: Vmklink connection setup completed
+2025-11-15T06:07:00.720Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2025-11-15T06:07:00.721Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2025-11-15T06:07:00.723Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2025-11-15T06:07:00.723Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2025-11-15T06:07:00.723Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2025-11-15T06:07:00.725Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2025-11-15T06:07:00.725Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2025-11-15T06:07:00.725Z 2098690:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2025-11-15T06:07:00.725Z 2098690:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2025-11-15T06:07:00.725Z 2098690:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2025-11-15T06:07:00.728Z OBJLIB-LIB: Objlib initialized.
+2025-11-15T06:07:00.728Z Creating threadpool swapobjd-helper with 8 threads
+2025-11-15T06:07:00.728Z 2098690:SWAPOBJDHist_Init:174: Initializing histogram
+2025-11-15T20:03:28.207Z 2098690:main:108: Starting
+2025-11-15T20:03:28.207Z 2098690:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2025-11-15T20:03:28.207Z 2098690:Event_Init:164: Initializing event system
+2025-11-15T20:03:28.207Z 2098690:Vmklink_Init:69: Initializing Vmklink Request Slab
+2025-11-15T20:03:28.207Z 2098690:Vmklink_Init:86: Initializing Vmklink MPI connection
+2025-11-15T20:03:28.207Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2025-11-15T20:03:28.207Z 2098690:Vmklink_Init:108: Vmklink connection setup completed
+2025-11-15T20:03:28.207Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2025-11-15T20:03:28.207Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2025-11-15T20:03:28.209Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2025-11-15T20:03:28.209Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2025-11-15T20:03:28.209Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2025-11-15T20:03:28.211Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2025-11-15T20:03:28.211Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2025-11-15T20:03:28.212Z 2098690:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2025-11-15T20:03:28.212Z 2098690:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2025-11-15T20:03:28.212Z 2098690:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2025-11-15T20:03:28.214Z OBJLIB-LIB: Objlib initialized.
+2025-11-15T20:03:28.214Z Creating threadpool swapobjd-helper with 8 threads
+2025-11-15T20:03:28.214Z 2098690:SWAPOBJDHist_Init:174: Initializing histogram
+2025-11-16T05:14:29.496Z 2098690:main:108: Starting
+2025-11-16T05:14:29.497Z 2098690:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2025-11-16T05:14:29.497Z 2098690:Event_Init:164: Initializing event system
+2025-11-16T05:14:29.497Z 2098690:Vmklink_Init:69: Initializing Vmklink Request Slab
+2025-11-16T05:14:29.497Z 2098690:Vmklink_Init:86: Initializing Vmklink MPI connection
+2025-11-16T05:14:29.497Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2025-11-16T05:14:29.497Z 2098690:Vmklink_Init:108: Vmklink connection setup completed
+2025-11-16T05:14:29.497Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2025-11-16T05:14:29.497Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2025-11-16T05:14:29.499Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2025-11-16T05:14:29.499Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2025-11-16T05:14:29.499Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2025-11-16T05:14:29.501Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2025-11-16T05:14:29.501Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2025-11-16T05:14:29.501Z 2098690:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2025-11-16T05:14:29.501Z 2098690:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2025-11-16T05:14:29.501Z 2098690:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2025-11-16T05:14:29.504Z OBJLIB-LIB: Objlib initialized.
+2025-11-16T05:14:29.504Z Creating threadpool swapobjd-helper with 8 threads
+2025-11-16T05:14:29.504Z 2098690:SWAPOBJDHist_Init:174: Initializing histogram
+2025-12-06T23:50:29.287Z 2098690:main:108: Starting
+2025-12-06T23:50:29.287Z 2098690:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2025-12-06T23:50:29.287Z 2098690:Event_Init:164: Initializing event system
+2025-12-06T23:50:29.287Z 2098690:Vmklink_Init:69: Initializing Vmklink Request Slab
+2025-12-06T23:50:29.287Z 2098690:Vmklink_Init:86: Initializing Vmklink MPI connection
+2025-12-06T23:50:29.287Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2025-12-06T23:50:29.287Z 2098690:Vmklink_Init:108: Vmklink connection setup completed
+2025-12-06T23:50:29.288Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2025-12-06T23:50:29.288Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2025-12-06T23:50:29.290Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2025-12-06T23:50:29.290Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2025-12-06T23:50:29.290Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2025-12-06T23:50:29.292Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2025-12-06T23:50:29.292Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2025-12-06T23:50:29.292Z 2098690:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2025-12-06T23:50:29.292Z 2098690:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2025-12-06T23:50:29.292Z 2098690:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2025-12-06T23:50:29.295Z OBJLIB-LIB: Objlib initialized.
+2025-12-06T23:50:29.295Z Creating threadpool swapobjd-helper with 8 threads
+2025-12-06T23:50:29.295Z 2098690:SWAPOBJDHist_Init:174: Initializing histogram
+2025-12-08T11:31:38.243Z 2098690:main:108: Starting
+2025-12-08T11:31:38.243Z 2098690:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2025-12-08T11:31:38.243Z 2098690:Event_Init:164: Initializing event system
+2025-12-08T11:31:38.243Z 2098690:Vmklink_Init:69: Initializing Vmklink Request Slab
+2025-12-08T11:31:38.243Z 2098690:Vmklink_Init:86: Initializing Vmklink MPI connection
+2025-12-08T11:31:38.243Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2025-12-08T11:31:38.243Z 2098690:Vmklink_Init:108: Vmklink connection setup completed
+2025-12-08T11:31:38.243Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2025-12-08T11:31:38.244Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2025-12-08T11:31:38.246Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2025-12-08T11:31:38.246Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2025-12-08T11:31:38.246Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2025-12-08T11:31:38.248Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2025-12-08T11:31:38.248Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2025-12-08T11:31:38.248Z 2098690:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2025-12-08T11:31:38.248Z 2098690:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2025-12-08T11:31:38.248Z 2098690:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2025-12-08T11:31:38.251Z OBJLIB-LIB: Objlib initialized.
+2025-12-08T11:31:38.251Z Creating threadpool swapobjd-helper with 8 threads
+2025-12-08T11:31:38.251Z 2098690:SWAPOBJDHist_Init:174: Initializing histogram
+2025-12-08T19:31:23.085Z 2098690:main:108: Starting
+2025-12-08T19:31:23.086Z 2098690:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2025-12-08T19:31:23.086Z 2098690:Event_Init:164: Initializing event system
+2025-12-08T19:31:23.086Z 2098690:Vmklink_Init:69: Initializing Vmklink Request Slab
+2025-12-08T19:31:23.086Z 2098690:Vmklink_Init:86: Initializing Vmklink MPI connection
+2025-12-08T19:31:23.086Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2025-12-08T19:31:23.086Z 2098690:Vmklink_Init:108: Vmklink connection setup completed
+2025-12-08T19:31:23.086Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2025-12-08T19:31:23.086Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2025-12-08T19:31:23.088Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2025-12-08T19:31:23.088Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2025-12-08T19:31:23.088Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2025-12-08T19:31:23.090Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2025-12-08T19:31:23.090Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2025-12-08T19:31:23.090Z 2098690:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2025-12-08T19:31:23.091Z 2098690:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2025-12-08T19:31:23.091Z 2098690:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2025-12-08T19:31:23.093Z OBJLIB-LIB: Objlib initialized.
+2025-12-08T19:31:23.093Z Creating threadpool swapobjd-helper with 8 threads
+2025-12-08T19:31:23.093Z 2098690:SWAPOBJDHist_Init:174: Initializing histogram
+2025-12-10T13:08:49.249Z 2098690:main:108: Starting
+2025-12-10T13:08:49.249Z 2098690:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2025-12-10T13:08:49.249Z 2098690:Event_Init:164: Initializing event system
+2025-12-10T13:08:49.249Z 2098690:Vmklink_Init:69: Initializing Vmklink Request Slab
+2025-12-10T13:08:49.249Z 2098690:Vmklink_Init:86: Initializing Vmklink MPI connection
+2025-12-10T13:08:49.249Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2025-12-10T13:08:49.249Z 2098690:Vmklink_Init:108: Vmklink connection setup completed
+2025-12-10T13:08:49.249Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2025-12-10T13:08:49.250Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2025-12-10T13:08:49.251Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2025-12-10T13:08:49.251Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2025-12-10T13:08:49.251Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2025-12-10T13:08:49.254Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2025-12-10T13:08:49.254Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2025-12-10T13:08:49.254Z 2098690:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2025-12-10T13:08:49.254Z 2098690:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2025-12-10T13:08:49.254Z 2098690:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2025-12-10T13:08:49.256Z OBJLIB-LIB: Objlib initialized.
+2025-12-10T13:08:49.256Z Creating threadpool swapobjd-helper with 8 threads
+2025-12-10T13:08:49.256Z 2098690:SWAPOBJDHist_Init:174: Initializing histogram
+2025-12-11T06:46:23.889Z 2098690:main:108: Starting
+2025-12-11T06:46:23.889Z 2098690:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2025-12-11T06:46:23.889Z 2098690:Event_Init:164: Initializing event system
+2025-12-11T06:46:23.889Z 2098690:Vmklink_Init:69: Initializing Vmklink Request Slab
+2025-12-11T06:46:23.889Z 2098690:Vmklink_Init:86: Initializing Vmklink MPI connection
+2025-12-11T06:46:23.890Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2025-12-11T06:46:23.890Z 2098690:Vmklink_Init:108: Vmklink connection setup completed
+2025-12-11T06:46:23.890Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2025-12-11T06:46:23.890Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2025-12-11T06:46:23.892Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2025-12-11T06:46:23.892Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2025-12-11T06:46:23.892Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2025-12-11T06:46:23.894Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2025-12-11T06:46:23.895Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2025-12-11T06:46:23.895Z 2098690:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2025-12-11T06:46:23.895Z 2098690:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2025-12-11T06:46:23.895Z 2098690:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2025-12-11T06:46:23.897Z OBJLIB-LIB: Objlib initialized.
+2025-12-11T06:46:23.897Z Creating threadpool swapobjd-helper with 8 threads
+2025-12-11T06:46:23.897Z 2098690:SWAPOBJDHist_Init:174: Initializing histogram
+2025-12-18T19:29:26.288Z 2098690:main:108: Starting
+2025-12-18T19:29:26.288Z 2098690:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2025-12-18T19:29:26.288Z 2098690:Event_Init:164: Initializing event system
+2025-12-18T19:29:26.288Z 2098690:Vmklink_Init:69: Initializing Vmklink Request Slab
+2025-12-18T19:29:26.288Z 2098690:Vmklink_Init:86: Initializing Vmklink MPI connection
+2025-12-18T19:29:26.288Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2025-12-18T19:29:26.288Z 2098690:Vmklink_Init:108: Vmklink connection setup completed
+2025-12-18T19:29:26.288Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2025-12-18T19:29:26.288Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2025-12-18T19:29:26.291Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2025-12-18T19:29:26.291Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2025-12-18T19:29:26.291Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2025-12-18T19:29:26.293Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2025-12-18T19:29:26.293Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2025-12-18T19:29:26.293Z 2098690:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2025-12-18T19:29:26.293Z 2098690:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2025-12-18T19:29:26.293Z 2098690:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2025-12-18T19:29:26.296Z OBJLIB-LIB: Objlib initialized.
+2025-12-18T19:29:26.296Z Creating threadpool swapobjd-helper with 8 threads
+2025-12-18T19:29:26.296Z 2098690:SWAPOBJDHist_Init:174: Initializing histogram
+2025-12-18T19:56:08.284Z 2098690:main:108: Starting
+2025-12-18T19:56:08.284Z 2098690:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2025-12-18T19:56:08.284Z 2098690:Event_Init:164: Initializing event system
+2025-12-18T19:56:08.284Z 2098690:Vmklink_Init:69: Initializing Vmklink Request Slab
+2025-12-18T19:56:08.284Z 2098690:Vmklink_Init:86: Initializing Vmklink MPI connection
+2025-12-18T19:56:08.284Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2025-12-18T19:56:08.284Z 2098690:Vmklink_Init:108: Vmklink connection setup completed
+2025-12-18T19:56:08.284Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2025-12-18T19:56:08.284Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2025-12-18T19:56:08.286Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2025-12-18T19:56:08.286Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2025-12-18T19:56:08.286Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2025-12-18T19:56:08.289Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2025-12-18T19:56:08.289Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2025-12-18T19:56:08.289Z 2098690:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2025-12-18T19:56:08.289Z 2098690:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2025-12-18T19:56:08.289Z 2098690:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2025-12-18T19:56:08.291Z OBJLIB-LIB: Objlib initialized.
+2025-12-18T19:56:08.291Z Creating threadpool swapobjd-helper with 8 threads
+2025-12-18T19:56:08.291Z 2098690:SWAPOBJDHist_Init:174: Initializing histogram
+2025-12-27T00:20:52.969Z 2098700:main:108: Starting
+2025-12-27T00:20:52.969Z 2098700:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2025-12-27T00:20:52.969Z 2098700:Event_Init:164: Initializing event system
+2025-12-27T00:20:52.969Z 2098700:Vmklink_Init:69: Initializing Vmklink Request Slab
+2025-12-27T00:20:52.969Z 2098700:Vmklink_Init:86: Initializing Vmklink MPI connection
+2025-12-27T00:20:52.969Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2025-12-27T00:20:52.970Z 2098700:Vmklink_Init:108: Vmklink connection setup completed
+2025-12-27T00:20:52.970Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2025-12-27T00:20:52.970Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2025-12-27T00:20:52.972Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2025-12-27T00:20:52.972Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2025-12-27T00:20:52.972Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2025-12-27T00:20:52.974Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2025-12-27T00:20:52.974Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2025-12-27T00:20:52.974Z 2098700:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2025-12-27T00:20:52.974Z 2098700:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2025-12-27T00:20:52.974Z 2098700:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2025-12-27T00:20:52.976Z OBJLIB-LIB: Objlib initialized.
+2025-12-27T00:20:52.976Z Creating threadpool swapobjd-helper with 8 threads
+2025-12-27T00:20:52.976Z 2098700:SWAPOBJDHist_Init:174: Initializing histogram
+2025-12-27T00:44:41.185Z 2098701:main:108: Starting
+2025-12-27T00:44:41.185Z 2098701:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2025-12-27T00:44:41.185Z 2098701:Event_Init:164: Initializing event system
+2025-12-27T00:44:41.185Z 2098701:Vmklink_Init:69: Initializing Vmklink Request Slab
+2025-12-27T00:44:41.185Z 2098701:Vmklink_Init:86: Initializing Vmklink MPI connection
+2025-12-27T00:44:41.185Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2025-12-27T00:44:41.185Z 2098701:Vmklink_Init:108: Vmklink connection setup completed
+2025-12-27T00:44:41.186Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2025-12-27T00:44:41.186Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2025-12-27T00:44:41.187Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2025-12-27T00:44:41.188Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2025-12-27T00:44:41.188Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2025-12-27T00:44:41.190Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2025-12-27T00:44:41.190Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2025-12-27T00:44:41.190Z 2098701:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2025-12-27T00:44:41.190Z 2098701:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2025-12-27T00:44:41.190Z 2098701:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2025-12-27T00:44:41.192Z OBJLIB-LIB: Objlib initialized.
+2025-12-27T00:44:41.192Z Creating threadpool swapobjd-helper with 8 threads
+2025-12-27T00:44:41.192Z 2098701:SWAPOBJDHist_Init:174: Initializing histogram
+2026-01-10T07:55:51.548Z 2098703:main:108: Starting
+2026-01-10T07:55:51.548Z 2098703:GetVmklinkQueueSize:79: Swapobjd vmklink queue size: 8
+2026-01-10T07:55:51.548Z 2098703:Event_Init:164: Initializing event system
+2026-01-10T07:55:51.548Z 2098703:Vmklink_Init:69: Initializing Vmklink Request Slab
+2026-01-10T07:55:51.548Z 2098703:Vmklink_Init:86: Initializing Vmklink MPI connection
+2026-01-10T07:55:51.548Z VmklinkMPI-LIB :  Vmklink MPI initialized : swapobj-vmklink with queue size = 8
+2026-01-10T07:55:51.548Z 2098703:Vmklink_Init:108: Vmklink connection setup completed
+2026-01-10T07:55:51.548Z OBJLIB-LIB: ObjLibPlugins_Load: Loading plugin directory '/usr/lib64/vmware/plugin/objLib'
+2026-01-10T07:55:51.549Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/upitObjBE.so'
+2026-01-10T07:55:51.550Z PluginLdr_Load: Loaded plugin 'objLib/upitObjBE.so' from '/usr/lib64/vmware/plugin/objLib/upitObjBE.so'
+2026-01-10T07:55:51.551Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'upit' found and registered as type 5
+2026-01-10T07:55:51.551Z OBJLIB-LIB: ObjLibLoadPlugin: Loading plugin 'objLib/vsanObjBE.so'
+2026-01-10T07:55:51.553Z PluginLdr_Load: Loaded plugin 'objLib/vsanObjBE.so' from '/usr/lib64/vmware/plugin/objLib/vsanObjBE.so'
+2026-01-10T07:55:51.553Z OBJLIB-LIB: ObjLib_RegisterDynamicBE: Back-end 'vsan' found and registered as type 3
+2026-01-10T07:55:51.553Z 2098703:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2026-01-10T07:55:51.553Z 2098703:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2026-01-10T07:55:51.553Z 2098703:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2026-01-10T07:55:51.555Z OBJLIB-LIB: Objlib initialized.
+2026-01-10T07:55:51.555Z Creating threadpool swapobjd-helper with 8 threads
+2026-01-10T07:55:51.555Z 2098703:SWAPOBJDHist_Init:174: Initializing histogram

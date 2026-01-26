@@ -1,0 +1,8 @@
+% Manifest name: lacp
+% Manifest group: Network
+% Manifest default: Enabled
+% Manifest tag: networking,lacp
+# action Options file/command
+run TIMEOUT=30,IGNORE_ERROR /usr/sbin/localcli network vswitch dvs vmware lacp config get
+run TIMEOUT=30,IGNORE_ERROR /usr/sbin/localcli network vswitch dvs vmware lacp status get
+run TIMEOUT=30,IGNORE_ERROR /usr/sbin/localcli network vswitch dvs vmware lacp stats get

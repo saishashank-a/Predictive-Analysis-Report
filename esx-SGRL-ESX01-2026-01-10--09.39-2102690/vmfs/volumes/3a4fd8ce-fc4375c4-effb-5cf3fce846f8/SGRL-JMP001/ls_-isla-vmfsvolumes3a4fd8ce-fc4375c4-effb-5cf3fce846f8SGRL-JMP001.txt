@@ -1,0 +1,20 @@
+total 84924672
+4197188    128 drwxr-xr-x    1 root     root         77824 Dec 27 05:31 .
+      4   1024 drwxr-xr-t    1 root     root         86016 Jan 10 09:35 ..
+33557508      0 -rw-r--r--    1 root     root           241 Jan  1  2001 SGRL-JMP001-28d0621f.hlog
+41946116 84830208 -rw-------    1 root     root     161061273600 Dec 27 05:31 SGRL-JMP001-flat.vmdk
+83889156   1024 -rw-------    1 root     root        270840 Dec 27 01:18 SGRL-JMP001.nvram
+46140420      0 -rw-------    1 root     root           533 Dec 27 01:18 SGRL-JMP001.vmdk
+58723332      0 -rw-r--r--    1 root     root             0 Jan  1  2001 SGRL-JMP001.vmsd
+37751812     64 -rwxr-xr-x    1 root     root          4000 Dec 27 05:31 SGRL-JMP001.vmx
+88083460     64 -rw-------    1 root     root          4036 Sep 12 10:55 SGRL-JMP001.vmxf
+50334724   1024 -rw-------    1 root     root     429496729600 Jan  1  2001 SGRL-JMP001_1-flat.vmdk
+54529028      0 -rw-------    1 root     root           535 Jan  1  2001 SGRL-JMP001_1.vmdk
+297798660   1024 -rw-r--r--    1 root     root        284424 Dec  7 09:29 vmware-13.log
+314575876   1024 -rw-r--r--    1 root     root        242214 Dec  8 13:33 vmware-14.log
+331353092   1024 -rw-r--r--    1 root     root        257177 Dec  9 10:55 vmware-15.log
+348130308   1024 -rw-r--r--    1 root     root        241529 Dec 10 14:00 vmware-16.log
+364907524   1024 -rw-r--r--    1 root     root        274772 Dec 11 09:44 vmware-17.log
+381684740   1024 -rw-r--r--    1 root     root        230048 Dec 18 21:07 vmware-18.log
+394267652   1024 -rw-r--r--    1 root     root        288633 Dec 27 05:31 vmware.log
+369101828  83968 -rw-------    1 root     root      85983232 Dec 18 20:01 vmx-SGRL-JMP001-1769638659-2.vswp

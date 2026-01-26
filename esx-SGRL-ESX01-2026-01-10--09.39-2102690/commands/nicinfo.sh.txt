@@ -1,0 +1,816 @@
+Network Interface Cards Information.
+
+Name    PCI Device    Driver  Admin Status  Link Status  Speed  Duplex  MAC Address        MTU   Description
+------------------------------------------------------------------------------------------------------------
+vmnic0  0000:0b:00.0  qflge   Up            Up            1000  Full    5c:f3:fc:e8:46:f8  1500  QLogic Corporation QLogic NetXtreme II BCM5709 1000Base-T
+vmnic1  0000:0b:00.1  qflge   Up            Down             0  Half    5c:f3:fc:e8:46:fa  1500  QLogic Corporation QLogic NetXtreme II BCM5709 1000Base-T
+vmnic2  0000:10:00.0  qflge   Up            Down             0  Half    5c:f3:fc:6a:ac:60  1500  QLogic Corporation QLogic NetXtreme II BCM5709 1000Base-T
+vmnic3  0000:10:00.1  qflge   Up            Down             0  Half    5c:f3:fc:6a:ac:62  1500  QLogic Corporation QLogic NetXtreme II BCM5709 1000Base-T
+vmnic4  0000:15:00.0  igbn    Up            Down             0  Half    a0:36:9f:03:25:88  1500  Intel Corporation I350 Gigabit Network Connection
+vmnic5  0000:15:00.1  igbn    Up            Down             0  Half    a0:36:9f:03:25:89  1500  Intel Corporation I350 Gigabit Network Connection
+vusb0   Pseudo        cdce    Up            Up             100  Full    5e:f3:fc:e0:46:fb  1500  IBM RNDISCDC ETHER
+
+NIC:  vmnic0
+
+NICInfo:
+   Advertised Auto Negotiation: true
+   Advertised Link Modes: Auto, 10BaseT/Full, 10BaseT/Half, 100BaseT/Full, 100BaseT/Half, 1000BaseT/Full
+   Auto Negotiation: true
+   Cable Type: Twisted Pair
+   Current Message Level: 127
+   Driver Info: 
+      NICDriverInfo:
+         Bus Info: 0000:0b:00:0
+         Driver: qflge
+         Firmware Version: bc 7.4.0 NCSI 2.0.13
+         Version: 1.1.0.11
+   Link Detected: true
+   Link Status: Up 
+   Name: vmnic0
+   PHY Address: 1
+   Pause Autonegotiate: true
+   Pause RX: true
+   Pause TX: true
+   Supported Ports: TP
+   Supports Auto Negotiation: true
+   Supports Pause: true
+   Supports Wakeon: true
+   Transceiver: internal
+   Virtual Address: 00:50:56:57:22:29
+   Wakeon: MagicPacket(tm)
+
+NIC statistics for vmnic0:
+   Packets received: 6462212
+   Packets sent: 1711422
+   Bytes received: 9587768777
+   Bytes sent: 296076063
+   Receive packets dropped: 0
+   Transmit packets dropped: 0
+   Multicast packets received: 34896
+   Broadcast packets received: 992
+   Multicast packets sent: 243
+   Broadcast packets sent: 979
+   Total receive errors: 0
+   Receive length errors: 0
+   Receive over errors: 0
+   Receive CRC errors: 0
+   Receive frame errors: 0
+   Receive FIFO errors: 0
+   Receive missed errors: 0
+   Total transmit errors: 0
+   Transmit aborted errors: 0
+   Transmit carrier errors: 0
+   Transmit FIFO errors: 0
+   Transmit heartbeat errors: 0
+   Transmit window errors: 0
+
+NIC Private statistics:
+rx_bytes: 9587768777
+rx_error_bytes: 0
+tx_bytes: 296076063
+tx_error_bytes: 0
+rx_ucast_packets: 6426324
+rx_mcast_packets: 34896
+rx_bcast_packets: 992
+tx_ucast_packets: 1710200
+tx_mcast_packets: 243
+tx_bcast_packets: 979
+tx_mac_errors: 0
+tx_carrier_errors: 0
+rx_crc_errors: 0
+rx_align_errors: 0
+tx_single_collisions: 0
+tx_multi_collisions: 0
+tx_deferred: 0
+tx_excess_collisions: 0
+tx_late_collisions: 0
+tx_total_collisions: 0
+rx_fragments: 0
+rx_jabbers: 0
+rx_undersize_packets: 0
+rx_oversize_packets: 0
+rx_64_byte_packets: 26097
+rx_65_to_127_byte_packets: 71305
+rx_128_to_255_byte_packets: 10676
+rx_256_to_511_byte_packets: 32791
+rx_512_to_1023_byte_packets: 7710
+rx_1024_to_1522_byte_packets: 6313633
+rx_1523_to_9022_byte_packets: 0
+tx_64_byte_packets: 592742
+tx_65_to_127_byte_packets: 982060
+tx_128_to_255_byte_packets: 5163
+tx_256_to_511_byte_packets: 13283
+tx_512_to_1023_byte_packets: 15067
+tx_1024_to_1522_byte_packets: 103107
+tx_1523_to_9022_byte_packets: 0
+rx_xon_frames: 0
+rx_xoff_frames: 0
+tx_xon_frames: 0
+tx_xoff_frames: 0
+rx_mac_ctrl_frames: 0
+rx_filtered_packets: 0
+rx_ftq_discards: 0
+rx_discards: 0
+rx_fw_discards: 0
+[txq] dropped_frames: 0
+[txq] pkthdr_parse_errors: 0
+[txq] dma_map_errors: 0
+[txq] full: 0
+[txq] stopped: 0
+[rxq] fhdr_err: 0
+[rxq] crc_err: 0
+[rxq] phy_err: 0
+[rxq] alignment_err: 0
+[rxq] short_frames_err: 0
+[rxq] giant_frames_err: 0
+[rxq] pkt_alloc_err: 0
+
+
+NIC:  vmnic1
+
+NICInfo:
+   Advertised Auto Negotiation: true
+   Advertised Link Modes: Auto, 10BaseT/Full, 10BaseT/Half, 100BaseT/Full, 100BaseT/Half, 1000BaseT/Full
+   Auto Negotiation: true
+   Cable Type: Twisted Pair
+   Current Message Level: 127
+   Driver Info: 
+      NICDriverInfo:
+         Bus Info: 0000:0b:00:1
+         Driver: qflge
+         Firmware Version: bc 7.4.0 NCSI 2.0.13
+         Version: 1.1.0.11
+   Link Detected: false
+   Link Status: Down 
+   Name: vmnic1
+   PHY Address: 1
+   Pause Autonegotiate: true
+   Pause RX: true
+   Pause TX: true
+   Supported Ports: TP
+   Supports Auto Negotiation: true
+   Supports Pause: true
+   Supports Wakeon: true
+   Transceiver: internal
+   Virtual Address: 00:50:56:54:45:a5
+   Wakeon: MagicPacket(tm)
+
+NIC statistics for vmnic1:
+   Packets received: 0
+   Packets sent: 0
+   Bytes received: 0
+   Bytes sent: 0
+   Receive packets dropped: 0
+   Transmit packets dropped: 0
+   Multicast packets received: 0
+   Broadcast packets received: 0
+   Multicast packets sent: 0
+   Broadcast packets sent: 0
+   Total receive errors: 0
+   Receive length errors: 0
+   Receive over errors: 0
+   Receive CRC errors: 0
+   Receive frame errors: 0
+   Receive FIFO errors: 0
+   Receive missed errors: 0
+   Total transmit errors: 0
+   Transmit aborted errors: 0
+   Transmit carrier errors: 0
+   Transmit FIFO errors: 0
+   Transmit heartbeat errors: 0
+   Transmit window errors: 0
+
+NIC Private statistics:
+rx_bytes: 0
+rx_error_bytes: 0
+tx_bytes: 0
+tx_error_bytes: 0
+rx_ucast_packets: 0
+rx_mcast_packets: 0
+rx_bcast_packets: 0
+tx_ucast_packets: 0
+tx_mcast_packets: 0
+tx_bcast_packets: 0
+tx_mac_errors: 0
+tx_carrier_errors: 0
+rx_crc_errors: 0
+rx_align_errors: 0
+tx_single_collisions: 0
+tx_multi_collisions: 0
+tx_deferred: 0
+tx_excess_collisions: 0
+tx_late_collisions: 0
+tx_total_collisions: 0
+rx_fragments: 0
+rx_jabbers: 0
+rx_undersize_packets: 0
+rx_oversize_packets: 0
+rx_64_byte_packets: 0
+rx_65_to_127_byte_packets: 0
+rx_128_to_255_byte_packets: 0
+rx_256_to_511_byte_packets: 0
+rx_512_to_1023_byte_packets: 0
+rx_1024_to_1522_byte_packets: 0
+rx_1523_to_9022_byte_packets: 0
+tx_64_byte_packets: 0
+tx_65_to_127_byte_packets: 0
+tx_128_to_255_byte_packets: 0
+tx_256_to_511_byte_packets: 0
+tx_512_to_1023_byte_packets: 0
+tx_1024_to_1522_byte_packets: 0
+tx_1523_to_9022_byte_packets: 0
+rx_xon_frames: 0
+rx_xoff_frames: 0
+tx_xon_frames: 0
+tx_xoff_frames: 0
+rx_mac_ctrl_frames: 0
+rx_filtered_packets: 0
+rx_ftq_discards: 0
+rx_discards: 0
+rx_fw_discards: 0
+[txq] dropped_frames: 0
+[txq] pkthdr_parse_errors: 0
+[txq] dma_map_errors: 0
+[txq] full: 0
+[txq] stopped: 0
+[rxq] fhdr_err: 0
+[rxq] crc_err: 0
+[rxq] phy_err: 0
+[rxq] alignment_err: 0
+[rxq] short_frames_err: 0
+[rxq] giant_frames_err: 0
+[rxq] pkt_alloc_err: 0
+
+
+NIC:  vmnic2
+
+NICInfo:
+   Advertised Auto Negotiation: true
+   Advertised Link Modes: Auto, 10BaseT/Full, 10BaseT/Half, 100BaseT/Full, 100BaseT/Half, 1000BaseT/Full
+   Auto Negotiation: true
+   Cable Type: Twisted Pair
+   Current Message Level: 127
+   Driver Info: 
+      NICDriverInfo:
+         Bus Info: 0000:10:00:0
+         Driver: qflge
+         Firmware Version: bc 7.4.0 NCSI 2.0.13
+         Version: 1.1.0.11
+   Link Detected: false
+   Link Status: Down 
+   Name: vmnic2
+   PHY Address: 1
+   Pause Autonegotiate: true
+   Pause RX: true
+   Pause TX: true
+   Supported Ports: TP
+   Supports Auto Negotiation: true
+   Supports Pause: true
+   Supports Wakeon: true
+   Transceiver: internal
+   Virtual Address: 00:50:56:5f:9a:a3
+   Wakeon: MagicPacket(tm)
+
+NIC statistics for vmnic2:
+   Packets received: 0
+   Packets sent: 0
+   Bytes received: 0
+   Bytes sent: 0
+   Receive packets dropped: 0
+   Transmit packets dropped: 0
+   Multicast packets received: 0
+   Broadcast packets received: 0
+   Multicast packets sent: 0
+   Broadcast packets sent: 0
+   Total receive errors: 0
+   Receive length errors: 0
+   Receive over errors: 0
+   Receive CRC errors: 0
+   Receive frame errors: 0
+   Receive FIFO errors: 0
+   Receive missed errors: 0
+   Total transmit errors: 0
+   Transmit aborted errors: 0
+   Transmit carrier errors: 0
+   Transmit FIFO errors: 0
+   Transmit heartbeat errors: 0
+   Transmit window errors: 0
+
+NIC Private statistics:
+rx_bytes: 0
+rx_error_bytes: 0
+tx_bytes: 0
+tx_error_bytes: 0
+rx_ucast_packets: 0
+rx_mcast_packets: 0
+rx_bcast_packets: 0
+tx_ucast_packets: 0
+tx_mcast_packets: 0
+tx_bcast_packets: 0
+tx_mac_errors: 0
+tx_carrier_errors: 0
+rx_crc_errors: 0
+rx_align_errors: 0
+tx_single_collisions: 0
+tx_multi_collisions: 0
+tx_deferred: 0
+tx_excess_collisions: 0
+tx_late_collisions: 0
+tx_total_collisions: 0
+rx_fragments: 0
+rx_jabbers: 0
+rx_undersize_packets: 0
+rx_oversize_packets: 0
+rx_64_byte_packets: 0
+rx_65_to_127_byte_packets: 0
+rx_128_to_255_byte_packets: 0
+rx_256_to_511_byte_packets: 0
+rx_512_to_1023_byte_packets: 0
+rx_1024_to_1522_byte_packets: 0
+rx_1523_to_9022_byte_packets: 0
+tx_64_byte_packets: 0
+tx_65_to_127_byte_packets: 0
+tx_128_to_255_byte_packets: 0
+tx_256_to_511_byte_packets: 0
+tx_512_to_1023_byte_packets: 0
+tx_1024_to_1522_byte_packets: 0
+tx_1523_to_9022_byte_packets: 0
+rx_xon_frames: 0
+rx_xoff_frames: 0
+tx_xon_frames: 0
+tx_xoff_frames: 0
+rx_mac_ctrl_frames: 0
+rx_filtered_packets: 0
+rx_ftq_discards: 0
+rx_discards: 0
+rx_fw_discards: 0
+[txq] dropped_frames: 0
+[txq] pkthdr_parse_errors: 0
+[txq] dma_map_errors: 0
+[txq] full: 0
+[txq] stopped: 0
+[rxq] fhdr_err: 0
+[rxq] crc_err: 0
+[rxq] phy_err: 0
+[rxq] alignment_err: 0
+[rxq] short_frames_err: 0
+[rxq] giant_frames_err: 0
+[rxq] pkt_alloc_err: 0
+
+
+NIC:  vmnic3
+
+NICInfo:
+   Advertised Auto Negotiation: true
+   Advertised Link Modes: Auto, 10BaseT/Full, 10BaseT/Half, 100BaseT/Full, 100BaseT/Half, 1000BaseT/Full
+   Auto Negotiation: true
+   Cable Type: Twisted Pair
+   Current Message Level: 127
+   Driver Info: 
+      NICDriverInfo:
+         Bus Info: 0000:10:00:1
+         Driver: qflge
+         Firmware Version: bc 7.4.0 NCSI 2.0.13
+         Version: 1.1.0.11
+   Link Detected: false
+   Link Status: Down 
+   Name: vmnic3
+   PHY Address: 1
+   Pause Autonegotiate: true
+   Pause RX: true
+   Pause TX: true
+   Supported Ports: TP
+   Supports Auto Negotiation: true
+   Supports Pause: true
+   Supports Wakeon: true
+   Transceiver: internal
+   Virtual Address: 00:50:56:54:43:cf
+   Wakeon: MagicPacket(tm)
+
+NIC statistics for vmnic3:
+   Packets received: 0
+   Packets sent: 0
+   Bytes received: 0
+   Bytes sent: 0
+   Receive packets dropped: 0
+   Transmit packets dropped: 0
+   Multicast packets received: 0
+   Broadcast packets received: 0
+   Multicast packets sent: 0
+   Broadcast packets sent: 0
+   Total receive errors: 0
+   Receive length errors: 0
+   Receive over errors: 0
+   Receive CRC errors: 0
+   Receive frame errors: 0
+   Receive FIFO errors: 0
+   Receive missed errors: 0
+   Total transmit errors: 0
+   Transmit aborted errors: 0
+   Transmit carrier errors: 0
+   Transmit FIFO errors: 0
+   Transmit heartbeat errors: 0
+   Transmit window errors: 0
+
+NIC Private statistics:
+rx_bytes: 0
+rx_error_bytes: 0
+tx_bytes: 0
+tx_error_bytes: 0
+rx_ucast_packets: 0
+rx_mcast_packets: 0
+rx_bcast_packets: 0
+tx_ucast_packets: 0
+tx_mcast_packets: 0
+tx_bcast_packets: 0
+tx_mac_errors: 0
+tx_carrier_errors: 0
+rx_crc_errors: 0
+rx_align_errors: 0
+tx_single_collisions: 0
+tx_multi_collisions: 0
+tx_deferred: 0
+tx_excess_collisions: 0
+tx_late_collisions: 0
+tx_total_collisions: 0
+rx_fragments: 0
+rx_jabbers: 0
+rx_undersize_packets: 0
+rx_oversize_packets: 0
+rx_64_byte_packets: 0
+rx_65_to_127_byte_packets: 0
+rx_128_to_255_byte_packets: 0
+rx_256_to_511_byte_packets: 0
+rx_512_to_1023_byte_packets: 0
+rx_1024_to_1522_byte_packets: 0
+rx_1523_to_9022_byte_packets: 0
+tx_64_byte_packets: 0
+tx_65_to_127_byte_packets: 0
+tx_128_to_255_byte_packets: 0
+tx_256_to_511_byte_packets: 0
+tx_512_to_1023_byte_packets: 0
+tx_1024_to_1522_byte_packets: 0
+tx_1523_to_9022_byte_packets: 0
+rx_xon_frames: 0
+rx_xoff_frames: 0
+tx_xon_frames: 0
+tx_xoff_frames: 0
+rx_mac_ctrl_frames: 0
+rx_filtered_packets: 0
+rx_ftq_discards: 0
+rx_discards: 0
+rx_fw_discards: 0
+[txq] dropped_frames: 0
+[txq] pkthdr_parse_errors: 0
+[txq] dma_map_errors: 0
+[txq] full: 0
+[txq] stopped: 0
+[rxq] fhdr_err: 0
+[rxq] crc_err: 0
+[rxq] phy_err: 0
+[rxq] alignment_err: 0
+[rxq] short_frames_err: 0
+[rxq] giant_frames_err: 0
+[rxq] pkt_alloc_err: 0
+
+
+NIC:  vmnic4
+
+NICInfo:
+   Advertised Auto Negotiation: true
+   Advertised Link Modes: Auto, 1000BaseT/Full, 100BaseT/Full, 100BaseT/Half, 10BaseT/Full, 10BaseT/Half
+   Auto Negotiation: true
+   Cable Type: Twisted Pair
+   Current Message Level: 0
+   Driver Info: 
+      NICDriverInfo:
+         Bus Info: 0000:15:00:0
+         Driver: igbn
+         Firmware Version: 0.93.0:0x800005fd
+         Version: 1.8.2.0
+   Link Detected: false
+   Link Status: Down 
+   Name: vmnic4
+   PHY Address: 0
+   Pause Autonegotiate: true
+   Pause RX: true
+   Pause TX: true
+   Supported Ports: TP
+   Supports Auto Negotiation: true
+   Supports Pause: true
+   Supports Wakeon: true
+   Transceiver: internal
+   Virtual Address: 00:50:56:51:72:1e
+   Wakeon: MagicPacket(tm)
+
+NIC statistics for vmnic4:
+   Packets received: 0
+   Packets sent: 0
+   Bytes received: 0
+   Bytes sent: 0
+   Receive packets dropped: 0
+   Transmit packets dropped: 0
+   Multicast packets received: 0
+   Broadcast packets received: 0
+   Multicast packets sent: 0
+   Broadcast packets sent: 0
+   Total receive errors: 0
+   Receive length errors: 0
+   Receive over errors: 0
+   Receive CRC errors: 0
+   Receive frame errors: 0
+   Receive FIFO errors: 0
+   Receive missed errors: 0
+   Total transmit errors: 0
+   Transmit aborted errors: 0
+   Transmit carrier errors: 0
+   Transmit FIFO errors: 0
+   Transmit heartbeat errors: 0
+   Transmit window errors: 0
+
+NIC Private statistics:
+Driver Private Statistics
+
+   Global
+      RCTL = 0x0400803e
+      TCTL = 0xa50400fa
+      EIMS = 0x80000007
+      EIAM = 0x00000007
+      EIAC = 0x00000007
+
+   Rx Queue #0
+      ring size = 1024
+      next2fill = 1023
+      next2proc = 0
+      RDH = 0
+      RDT = 1023
+      RXDCTL = 02010a0c
+      dropped = 0
+      allocFail = 0
+      csumError = 0
+
+   Tx Queue #0
+      ring size = 1024
+      next2fill = 0
+      next2proc = 0
+      TDH = 0
+      TDT = 0
+      TXDCTL = 02000000
+      dropped = 0
+
+Hardware Counters
+   Error Count
+      CRC Error            (0)
+      Alignment Error      (0)
+      Symbol Error         (0)
+      RX Error             (0)
+      Receive Length Error (0)
+      Missed Packet        (0)
+      Single Collision     (0)
+      Excessive Collision  (0)
+      Multiple Collision   (0)
+      Late Collision       (0)
+      Collision Count      (0)
+      Deferred Count       (0)
+      Transmit with No CRS (0)
+   Flow Control
+      XON Received         (0)
+      XON Transmitted      (0)
+      XOFF Received        (0)
+      XOFF Transmitted     (0)
+   Receiving Exception
+      Receive No Buffers   (0)
+      Received Undersize   (0)
+      Received Fragment    (0)
+      Received Oversize    (0)
+      Received Jabber      (0)
+      Received Unsupported FC Frames (0)
+   Packets Count
+      Good Packets Received         (0)
+      Good Packets Transmitted      (0)
+      Good Octets Received          (0)
+      Good Octets Transmitted       (0)
+      Total Octets Received         (0)
+      Broadcast Packets Received    (0)
+      Multicast Packets Transmitted (0)
+      Multicast Packets Received    (0)
+      Broadcast Packets Transmitted (0)
+      Total Packets Received        (0)
+      Total Packets Transmitted     (0)
+      Host Good Packets Transmitted (0)
+      Packets of (0, 64] Bytes Received         (0)
+      Packets of (0, 64] Bytes Transmitted      (0)
+      Packets of [65, 127] Bytes Received       (0)
+      Packets of [65, 127] Bytes Transmitted    (0)
+      Packets of [128, 255] Bytes Received      (0)
+      Packets of [128, 255] Bytes Transmitted   (0)
+      Packets of [256, 511] Bytes Received      (0)
+      Packets of [256, 511] Bytes Transmitted   (0)
+      Packets of [512, 1023] Bytes Received     (0)
+      Packets of [512, 1023] Bytes Transmitted  (0)
+      Packets of [1024, 1522] Bytes Received    (0)
+      Packets of [1024, 1522] Bytes Transmitted (0)
+   Misc
+      TCP Segmentation Context Transmitted (0)
+      Interrupt Assertion (0)
+
+
+NIC:  vmnic5
+
+NICInfo:
+   Advertised Auto Negotiation: true
+   Advertised Link Modes: Auto, 1000BaseT/Full, 100BaseT/Full, 100BaseT/Half, 10BaseT/Full, 10BaseT/Half
+   Auto Negotiation: true
+   Cable Type: Twisted Pair
+   Current Message Level: 0
+   Driver Info: 
+      NICDriverInfo:
+         Bus Info: 0000:15:00:1
+         Driver: igbn
+         Firmware Version: 0.93.0:0x800005fd
+         Version: 1.8.2.0
+   Link Detected: false
+   Link Status: Down 
+   Name: vmnic5
+   PHY Address: 0
+   Pause Autonegotiate: true
+   Pause RX: true
+   Pause TX: true
+   Supported Ports: TP
+   Supports Auto Negotiation: true
+   Supports Pause: true
+   Supports Wakeon: false
+   Transceiver: internal
+   Virtual Address: 00:50:56:5a:6a:c1
+   Wakeon: None
+
+NIC statistics for vmnic5:
+   Packets received: 0
+   Packets sent: 0
+   Bytes received: 0
+   Bytes sent: 0
+   Receive packets dropped: 0
+   Transmit packets dropped: 0
+   Multicast packets received: 0
+   Broadcast packets received: 0
+   Multicast packets sent: 0
+   Broadcast packets sent: 0
+   Total receive errors: 0
+   Receive length errors: 0
+   Receive over errors: 0
+   Receive CRC errors: 0
+   Receive frame errors: 0
+   Receive FIFO errors: 0
+   Receive missed errors: 0
+   Total transmit errors: 0
+   Transmit aborted errors: 0
+   Transmit carrier errors: 0
+   Transmit FIFO errors: 0
+   Transmit heartbeat errors: 0
+   Transmit window errors: 0
+
+NIC Private statistics:
+Driver Private Statistics
+
+   Global
+      RCTL = 0x0400803e
+      TCTL = 0xa50400fa
+      EIMS = 0x80000007
+      EIAM = 0x00000007
+      EIAC = 0x00000007
+
+   Rx Queue #0
+      ring size = 1024
+      next2fill = 1023
+      next2proc = 0
+      RDH = 0
+      RDT = 1023
+      RXDCTL = 02010a0c
+      dropped = 0
+      allocFail = 0
+      csumError = 0
+
+   Tx Queue #0
+      ring size = 1024
+      next2fill = 0
+      next2proc = 0
+      TDH = 0
+      TDT = 0
+      TXDCTL = 02000000
+      dropped = 0
+
+Hardware Counters
+   Error Count
+      CRC Error            (0)
+      Alignment Error      (0)
+      Symbol Error         (0)
+      RX Error             (0)
+      Receive Length Error (0)
+      Missed Packet        (0)
+      Single Collision     (0)
+      Excessive Collision  (0)
+      Multiple Collision   (0)
+      Late Collision       (0)
+      Collision Count      (0)
+      Deferred Count       (0)
+      Transmit with No CRS (0)
+   Flow Control
+      XON Received         (0)
+      XON Transmitted      (0)
+      XOFF Received        (0)
+      XOFF Transmitted     (0)
+   Receiving Exception
+      Receive No Buffers   (0)
+      Received Undersize   (0)
+      Received Fragment    (0)
+      Received Oversize    (0)
+      Received Jabber      (0)
+      Received Unsupported FC Frames (0)
+   Packets Count
+      Good Packets Received         (0)
+      Good Packets Transmitted      (0)
+      Good Octets Received          (0)
+      Good Octets Transmitted       (0)
+      Total Octets Received         (0)
+      Broadcast Packets Received    (0)
+      Multicast Packets Transmitted (0)
+      Multicast Packets Received    (0)
+      Broadcast Packets Transmitted (0)
+      Total Packets Received        (0)
+      Total Packets Transmitted     (0)
+      Host Good Packets Transmitted (0)
+      Packets of (0, 64] Bytes Received         (0)
+      Packets of (0, 64] Bytes Transmitted      (0)
+      Packets of [65, 127] Bytes Received       (0)
+      Packets of [65, 127] Bytes Transmitted    (0)
+      Packets of [128, 255] Bytes Received      (0)
+      Packets of [128, 255] Bytes Transmitted   (0)
+      Packets of [256, 511] Bytes Received      (0)
+      Packets of [256, 511] Bytes Transmitted   (0)
+      Packets of [512, 1023] Bytes Received     (0)
+      Packets of [512, 1023] Bytes Transmitted  (0)
+      Packets of [1024, 1522] Bytes Received    (0)
+      Packets of [1024, 1522] Bytes Transmitted (0)
+   Misc
+      TCP Segmentation Context Transmitted (0)
+      Interrupt Assertion (0)
+
+
+NIC:  vusb0
+
+NICInfo:
+   Advertised Auto Negotiation: false
+   Advertised Link Modes: 100None/Full
+   Auto Negotiation: false
+   Cable Type: 
+   Current Message Level: -1
+   Driver Info: 
+      NICDriverInfo:
+         Bus Info: 0000:00:00:0
+         Driver: cdce
+         Firmware Version: NA
+         Version: 1.0.0.0
+   Link Detected: true
+   Link Status: Up 
+   Name: vusb0
+   PHY Address: 0
+   Pause Autonegotiate: false
+   Pause RX: false
+   Pause TX: false
+   Supported Ports: 
+   Supports Auto Negotiation: false
+   Supports Pause: false
+   Supports Wakeon: false
+   Transceiver: 
+   Virtual Address: 00:50:56:56:b3:07
+   Wakeon: None
+Can not get control fd: No such file or directory
+
+NIC statistics for vusb0:
+   Packets received: 2546
+   Packets sent: 0
+   Bytes received: 201350
+   Bytes sent: 0
+   Receive packets dropped: 0
+   Transmit packets dropped: 0
+   Multicast packets received: 0
+   Broadcast packets received: 0
+   Multicast packets sent: 0
+   Broadcast packets sent: 0
+   Total receive errors: 0
+   Receive length errors: 0
+   Receive over errors: 0
+   Receive CRC errors: 0
+   Receive frame errors: 0
+   Receive FIFO errors: 0
+   Receive missed errors: 0
+   Total transmit errors: 0
+   Transmit aborted errors: 0
+   Transmit carrier errors: 0
+   Transmit FIFO errors: 0
+   Transmit heartbeat errors: 0
+   Transmit window errors: 0
+
+NIC Private statistics:
+USB-NIC:IBM:RNDISCDC ETHER:EOL
+

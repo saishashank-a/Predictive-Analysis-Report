@@ -1,0 +1,33 @@
+#
+# This file is mechanically generated.  Any changes you make
+# manually will be lost at the next build.
+#
+# Please edit <driver>_devices.py file for permanent changes.
+#
+# Vendors, devices and subsystems.
+#
+# Syntax (initial indentation must be done with TAB characters):
+#
+# vendor  vendor_name
+#       device  device_name                            <-- single TAB
+#               subvendor subdevice  subsystem_name    <-- two TABs
+
+1000  Broadcom
+	00ab  
+		1137 020f  12G SAS HBA(16)
+		8086 3530  Intel(R) Integrated RAID Module RMSP3JD160J
+	00ac  
+		1028 1fe3  HBA345 Adapter
+		1028 1fe4  HBA345 Front
+		1d49 0201  ThinkSystem 430-16i SAS/SATA 12Gb HBA
+		1d49 0203  ThinkSystem 430-16e SAS/SATA 12Gb HBA
+		8086 3000  Intel(R) RAID Controller RSP3QD160J
+		8086 3020  Intel(R) RAID Controller RSP3GD016J
+	00ae  
+		1137 0211  12G SAS HBA(26)
+	00af  
+		1137 0212  Cisco 9400-8E 12G SAS HBA
+		1137 024f  Cisco 9400-8i 12G SAS HBA
+		1d49 0200  ThinkSystem 430-8i SAS/SATA 12Gb HBA
+		1d49 0202  ThinkSystem 430-8e SAS/SATA 12Gb HBA
+		1d49 0204  ThinkSystem 430-8i SAS/SATA 12Gb Dense HBA

@@ -1,0 +1,22 @@
+#
+# This file is mechanically generated.  Any changes you make
+# manually will be lost at the next build.
+#
+# Please edit <driver>_devices.py file for permanent changes.
+#
+# Vendors, devices and subsystems.
+#
+# Syntax (initial indentation must be done with TAB characters):
+#
+# vendor  vendor_name
+#       device  device_name                            <-- single TAB
+#               subvendor subdevice  subsystem_name    <-- two TABs
+
+8086  Intel(R)
+	1590  Ethernet Controller E810-C
+	1591  Ethernet Controller E810-C for backplane
+	1592  Ethernet Controller E810-C for QSFP
+	1593  Ethernet Controller E810-C for SFP
+	1599  Ethernet Controller E810-XXV for backplane
+	159a  Ethernet Controller E810-XXV for QSFP
+	159b  Ethernet Controller E810-XXV for SFP

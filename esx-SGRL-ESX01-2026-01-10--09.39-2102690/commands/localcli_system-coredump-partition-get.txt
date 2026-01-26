@@ -1,0 +1,3 @@
+KernelDumpParition:
+   Active: naa.600605b004213bc001e293503af49afb:9
+   Configured: naa.600605b004213bc001e293503af49afb:9

@@ -1,0 +1,18 @@
+fdisk: device has more than 2^32 sectors, can't use all of them
+Found valid GPT with protective MBR; using GPT
+
+Disk /dev/disks/naa.600605b004213bc001e293503af49afb: 4294967295 sectors, 4095M
+Logical sector size: 512
+Disk identifier (GUID): 131446f2-4d6f-4fbd-b54d-cfd9b3581ea0
+Partition table holds up to 128 entries
+First usable sector is 34, last usable sector is 10535153630
+
+Number  Start (sector)    End (sector)  Size Name
+     1              64            8191 4064K 
+     2         7086080        15472639 4095M 
+     3        15472640     10535153630 5016G 
+     5            8224          520191  249M 
+     6          520224         1032191  249M 
+     7         1032224         1257471  109M 
+     8         1257504         1843199  285M 
+     9         1843200         7086079 2560M 

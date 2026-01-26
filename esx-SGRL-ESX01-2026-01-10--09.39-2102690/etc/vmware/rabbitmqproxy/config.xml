@@ -1,0 +1,23 @@
+<config>
+  <log>
+    <level>verbose</level>
+    <outputToConsole>true</outputToConsole>
+    <outputToFiles>false</outputToFiles>
+    <outputToSyslog>true</outputToSyslog>
+    <syslog>
+      <facility>local4</facility>
+      <ident>rabbitmqproxy</ident>
+      <logHeaderFile>/var/run/vmware/rabbitmqproxyLogHeader.txt</logHeaderFile>
+    </syslog>
+  </log>
+  <vmacore>
+    <threadPool>
+      <IoMax>0</IoMax>
+      <IoMin>0</IoMin>
+      <TaskMax>1</TaskMax>
+      <TaskMin>1</TaskMin>
+      <maxConcurrency>1</maxConcurrency>
+      <threadNamePrefix>rabbitmqproxy</threadNamePrefix>
+    </threadPool>
+  </vmacore>
+</config>

@@ -1,0 +1,6 @@
+appObj # default file label for apps
+sslKeyObj # ssl keys
+authObj # authentication files
+certObj # public certificate files
+tardiskMountObj # tardisk mount point
+tpm2emuObj # tpm2emu binary

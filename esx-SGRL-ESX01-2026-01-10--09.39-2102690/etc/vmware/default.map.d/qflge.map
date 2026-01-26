@@ -1,0 +1,12 @@
+regtype=native,bus=pci,id=14e41639..............,driver=qflge
+regtype=native,bus=pci,id=14e41639103c7055......,driver=qflge
+regtype=native,bus=pci,id=14e41639103c7059......,driver=qflge
+regtype=native,bus=pci,id=14e4163a..............,driver=qflge
+regtype=native,bus=pci,id=14e4163b..............,driver=qflge
+regtype=native,bus=pci,id=14e4163c..............,driver=qflge
+regtype=native,bus=pci,id=14e4164a..............,driver=qflge
+regtype=native,bus=pci,id=14e4164c..............,driver=qflge
+regtype=native,bus=pci,id=14e4164c103c7037......,driver=qflge
+regtype=native,bus=pci,id=14e4164c103c7038......,driver=qflge
+regtype=native,bus=pci,id=14e416aa..............,driver=qflge
+regtype=native,bus=pci,id=14e416ac..............,driver=qflge

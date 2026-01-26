@@ -1,0 +1,51 @@
+% Manifest name: VSANMinimal
+% Manifest group: Storage
+% Manifest default: Disabled
+% Manifest tag: storage,vsanminimal
+# action Options file/command
+
+# Get some esxcli info.
+# Cluster info:
+run TIMEOUT=10,IGNORE_ERROR /sbin/localcli vsan cluster get
+
+# Network info:
+run TIMEOUT=10,IGNORE_ERROR /sbin/localcli vsan network list
+
+# Storage info:
+run TIMEOUT=10,IGNORE_ERROR /sbin/localcli vsan storage list
+
+# unicast neighbor info:
+run TIMEOUT=10,IGNORE_ERROR /sbin/localcli vsan cluster unicastagent list
+
+# Disk query info:
+run TIMEOUT=10,IGNORE_ERROR /sbin/vdq -q -H
+
+# CMMDS Directory content.
+run TIMEOUT=10,IGNORE_ERROR /sbin/cmmds-tool find -f python
+
+# copy out the periodic CMMDS directory dump in python dictionary format.
+# This is slightly different than the dump above as this might not have
+# consistent/accurate information right at the time the support bundle
+# is created as these dumps are collected periodically and one might be
+# looking at the dump that was collected about 20 seconds prior to when
+# the support bundle was collected.
+run TIMEOUT=10,IGNORE_ERROR /sbin/cmmds-tool -f json readdump -p -d /scratch/log/cmmds.dump
+run TIMEOUT=10,IGNORE_ERROR /sbin/cmmds-tool -f json readdump -p -d /scratch/log/cmmds.dump.backup
+
+# Some interesting VSI information.
+run TIMEOUT=10,IGNORE_ERROR /sbin/vsish -e get /vmkModules/tracing/stats
+
+#
+# Tracing and cmmds analysis scripts for out of the box trace and directory inspection
+#
+copy TIMEOUT=10 /usr/lib/vmware/vsan/bin/vsanTraceReader.py
+copy TIMEOUT=10 /usr/lib/vmware/vsan/bin/vsanTraceReader
+copy TIMEOUT=10 /lib64/python3.*/site-packages/vmware/__init__.py*
+copy TIMEOUT=10 /lib64/python3.*/site-packages/vmware/vsan/*.py*
+
+#
+# CLOM
+#
+run TIMEOUT=10,IGNORE_ERROR /usr/lib/vmware/vsan/bin/clom-tool fitness-stats-get
+run TIMEOUT=10,IGNORE_ERROR /usr/lib/vmware/vsan/bin/clom-tool fitness-config-get
+run TIMEOUT=10,IGNORE_ERROR /usr/lib/vmware/vsan/bin/clom-tool stats

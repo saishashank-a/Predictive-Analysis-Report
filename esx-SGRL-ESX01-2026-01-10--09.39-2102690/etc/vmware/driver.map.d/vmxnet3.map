@@ -1,0 +1,1 @@
+regtype=linux,bus=pci,id=15ad:07b0 0000:0000,driver=vmxnet3,class=network

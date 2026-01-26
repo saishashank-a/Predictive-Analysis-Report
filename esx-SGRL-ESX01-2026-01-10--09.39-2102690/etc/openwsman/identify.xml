@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:wsmid="http://schemas.dmtf.org/wbem/wsman/identity/1/wsmanidentity.xsd" xmlns:SMASH="http://schemas.dmtf.org/smash/commandresponse/1.0.0/dsp0224.xsd">
+<s:Header/>
+<s:Body>
+<wsmid:IdentifyResponse>
+<wsmid:ProtocolVersion>http://schemas.dmtf.org/wbem/wsman/1/wsman.xsd</wsmid:ProtocolVersion>
+<wsmid:ProductVendor>VMware Inc.</wsmid:ProductVendor>
+<wsmid:ProductVersion>VMware ESXi 6.7.0 build-19195723</wsmid:ProductVersion>
+<SMASH:SMASHVersion>2.0</SMASH:SMASHVersion>
+<wsmid:SecurityProfiles>
+<wsmid:SecurityProfileName>http://schemas.dmtf.org/wbem/wsman/1/wsman/secprofile/https/digest</wsmid:SecurityProfileName>
+</wsmid:SecurityProfiles>
+</wsmid:IdentifyResponse>
+</s:Body>
+</s:Envelope>

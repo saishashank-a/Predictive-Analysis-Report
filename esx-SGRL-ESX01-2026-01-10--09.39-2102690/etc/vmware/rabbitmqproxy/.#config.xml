@@ -1,0 +1,46 @@
+<config>
+  <brokers>
+    <!-- <brokerEntry id="0000">example-broker-host:5671</brokerEntry> -->
+  </brokers>
+  <!-- <modifyMessage>true</modifyMessage> default to true for CAF SASL -->
+  <vmacore>
+    <threadPool>
+      <threadNamePrefix>rabbitmqproxy</threadNamePrefix>
+      <IoMin>0</IoMin>
+      <IoMax>0</IoMax>
+      <TaskMin>1</TaskMin>
+      <TaskMax>1</TaskMax>
+      <maxConcurrency>1</maxConcurrency>
+    </threadPool>
+  </vmacore>
+  <log>
+    <!-- default log level -->
+    <level>verbose</level>
+
+    <!-- controls whether logger sends its output to console also -->
+    <outputToConsole>true</outputToConsole>
+
+    <!-- If true, log to files on disk -->
+    <outputToFiles>false</outputToFiles>
+
+    <!-- If true, logs to syslog -->
+    <outputToSyslog>true</outputToSyslog>
+
+    <syslog>
+      <!-- syslog identifier to use when logging -->
+      <ident>rabbitmqproxy</ident>
+
+      <!-- syslog facility to use when logging -->
+      <facility>local4</facility>
+
+      <!-- The section header contents are placed in this file at startup.
+           When vmsyslogd rotates the log file. it logs the content of this
+           file to syslog. This is being done so that we don't lose
+           context on log rotations.
+           IMPORTANT: Value needs to match that in onrotate entry in
+           /etc/vmsyslog.conf.d/rabbitmqproxy.conf
+      -->
+      <logHeaderFile>/var/run/vmware/rabbitmqproxyLogHeader.txt</logHeaderFile>
+    </syslog>
+  </log>
+</config>

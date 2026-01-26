@@ -1,0 +1,2 @@
+2026-01-10T07:55:20.476Z vmsyslog                 : CRITICAL] vmsyslogd daemon starting (2097612)
+2026-01-10T07:55:44.631Z vmsyslog.main            : ERROR   ] switching to normal mode from init mode

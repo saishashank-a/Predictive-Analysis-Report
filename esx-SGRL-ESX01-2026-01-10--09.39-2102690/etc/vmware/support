@@ -1,0 +1,34 @@
+{color:white}Serial Number:
+{serial-number}
+ 
+License Serial Number:
+{license}
+ 
+SSL Thumbprint (SHA1):
+{ssl-thumbprint}
+ 
+SSH DSA Key Fingerprint:
+{ssh-dsa-fingerprint}
+SSH RSA Key Fingerprint:
+{ssh-rsa-fingerprint}
+ 
+If you have VMware support, contact 
+VMware Global Support Services:
+http://www.vmware.com/support
+
+If you have Lenovo System X or
+ThinkSystem support Services, contact:
+https://support.lenovo.com 
+
+Lenovo Customized Image ESXi6.7 Update 3 (based on ESXi6.7 vmkernel Release)
+{/color}
+
+$
+{color:white}Service Tag: {servicetag}{/color}
+
+{color:white}{assettag}
+BIOS Firmware Version: {BIOSversion}
+BMC Firmware Version: {BMCversion}
+
+PLSA Firmware Version: {PLSAversion}
+{/color} 

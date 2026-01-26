@@ -1,0 +1,264 @@
+2026-01-10T07:55:20.635Z| Invoking method start on plugin check-required-memory
+2026-01-10T07:55:20.635Z| Method start executed successfully for plugin check-required-memory
+2026-01-10T07:55:20.657Z| Invoking method start on plugin restore-configuration
+2026-01-10T07:55:20.695Z| ConfigCheck: converting module lines
+2026-01-10T07:55:20.700Z| ConfigCheck: enabling TSO on all NIC policies
+2026-01-10T07:55:20.712Z| ConfigCheck: removing .o from module lines
+2026-01-10T07:55:20.738Z| ConfigCheck: Running ipv6 option upgrade, redundantly
+2026-01-10T07:55:20.738Z| Util: tcpip4 IPv6 enabled
+2026-01-10T07:55:20.748Z| Method start executed successfully for plugin restore-configuration
+2026-01-10T07:55:20.766Z| Invoking method start on plugin vmkeventd
+[2097659] Begin '/usr/lib/vmware/vmkeventd/bin/vmkeventd', min-uptime = 10, max-quick-failures = 5, max-total-failures = 9999999, bg_pid_file = '', reboot-flag = '0'
+2026-01-10T07:55:20.815Z| Method start executed successfully for plugin vmkeventd
+2026-01-10T07:55:21.013Z| Invoking method start on plugin autodeploy-enabled
+2026-01-10T07:55:21.044Z| Method start executed successfully for plugin autodeploy-enabled
+2026-01-10T07:55:21.066Z| Invoking method start on plugin advanced-user-configuration-options
+2026-01-10T07:55:21.168Z| Method start executed successfully for plugin advanced-user-configuration-options
+Module lfHelper is already loaded.
+Module vsanapi is already loaded.
+Module vmkapi_mgmt is already loaded.
+2026-01-10T07:55:22.263Z| Invoking method start on plugin dma-engine
+2026-01-10T07:55:22.293Z| Method start executed successfully for plugin dma-engine
+2026-01-10T07:55:22.311Z| Invoking method start on plugin hardware-config
+2026-01-10T07:55:22.437Z| Method start executed successfully for plugin hardware-config
+2026-01-10T07:55:22.456Z| Invoking method start on plugin mgmt-vmkapi-compatibility
+Module vmkapi_mgmt is already loaded.
+Module vmkapi_mgmt is already loaded.
+Module vmkapi_mgmt is already loaded.
+2026-01-10T07:55:22.524Z| Method start executed successfully for plugin mgmt-vmkapi-compatibility
+2026-01-10T07:55:22.546Z| Invoking method start on plugin vmkernel-vmkapi-compatibility
+Module iodm is already loaded.
+Module iodm is already loaded.
+2026-01-10T07:55:22.637Z| Method start executed successfully for plugin vmkernel-vmkapi-compatibility
+2026-01-10T07:55:22.655Z| Invoking method start on plugin driver-status-check
+2026-01-10T07:55:22.686Z| Method start executed successfully for plugin driver-status-check
+2026-01-10T07:55:22.704Z| Invoking method start on plugin lineage-tags
+2026-01-10T07:55:22.774Z| Method start executed successfully for plugin lineage-tags
+2026-01-10T07:55:22.792Z| Invoking method start on plugin vmkdevmgr
+AddAlias: Not committing alias vmnic0 for busAddress m00008501
+AddAlias: Not committing alias vmnic1 for busAddress m00008502
+AddAlias: Not committing alias vmhba0 for busAddress m00008a01
+AddAlias: Not committing alias vmhba1 for busAddress p0000:00:1f.2
+AddAlias: Not committing alias vmnic2 for busAddress m00008503
+AddAlias: Not committing alias vmhba2 for busAddress p0000:00:1f.5
+AddAlias: Not committing alias vmnic3 for busAddress m00008504
+AddAlias: Not committing alias vmnic5 for busAddress s00000001.01
+AddAlias: Not committing alias vmnic4 for busAddress s00000001.00
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:00.0
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:01.0
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:02.0
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:03.0
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:07.0
+InheritVmklinuxAliases: no alias set for pci busAddress: s00000003.00
+InheritVmklinuxAliases: no alias set for pci busAddress: s00000003.01
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:10.0
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:10.1
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:11.0
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:11.1
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:14.0
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:14.1
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:14.2
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:14.3
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:15.0
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:16.0
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:16.1
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:16.2
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:16.3
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:16.4
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:16.5
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:16.6
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:16.7
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:1a.0
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:1a.1
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:1a.7
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:1c.0
+InheritVmklinuxAliases: not a vmnic alias vmhba0
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:1c.4
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:06:00.0
+InheritVmklinuxAliases: no alias set for pci busAddress: m00008301
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:1d.0
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:1d.1
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:1d.2
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:1d.7
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:1e.0
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:1f.0
+InheritVmklinuxAliases: not a vmnic alias vmhba1
+InheritVmklinuxAliases: no alias set for pci busAddress: p0000:00:1f.3
+InheritVmklinuxAliases: not a vmnic alias vmhba2
+Module vmkbsd is already loaded.
+Module vmkapi_v2_3_0_0_vmkernel_shim is already loaded.
+Module vmkapi_v2_3_0_0_vmklinux_shim is already loaded.
+Module vmkapi_v2_3_0_0_vmkernel_shim is already loaded.
+Module vmkapi_v2_3_0_0_vmkernel_shim is already loaded.
+Module vmkapi_v2_3_0_0_vmklinux_shim is already loaded.
+Module vmkapi_v2_3_0_0_vmkernel_shim is already loaded.
+Module vmkapi_v2_3_0_0_vmklinux_shim is already loaded.
+Module vmkapi_mgmt is already loaded.
+2026-01-10T07:55:24.648Z| Method start executed successfully for plugin vmkdevmgr
+Module iscsi_trans_compat_shim is already loaded.
+Module iscsi_trans_compat_shim is already loaded.
+2026-01-10T07:55:24.814Z| Invoking method start on plugin storage-early-config-dev-settings
+2026-01-10T07:55:24.852Z| Method start executed successfully for plugin storage-early-config-dev-settings
+2026-01-10T07:55:24.870Z| Invoking method start on plugin networking-drivers
+Module vmkapi_v2_3_0_0_vmkernel_shim is already loaded.
+Module vmkapi_v2_3_0_0_vmkernel_shim is already loaded.
+Module vmklinux_9 is already loaded.
+Module vmkapi_v2_3_0_0_vmkernel_shim is already loaded.
+Module vmkapi_v2_3_0_0_vmkernel_shim is already loaded.
+Module vmklinux_9_2_3_0 is already loaded.
+Module vmklinux_9_2_3_0 is already loaded.
+2026-01-10T07:55:25.057Z| Method start executed successfully for plugin networking-drivers
+2026-01-10T07:55:25.077Z| Invoking method start on plugin usb
+2026-01-10T07:55:25.108Z| Method start executed successfully for plugin usb
+Module nmp is already loaded.
+Module nmp is already loaded.
+Module nmp is already loaded.
+Module nmp is already loaded.
+Module nmp is already loaded.
+Module vmw_psp_lib is already loaded.
+Module nmp is already loaded.
+Module nmp is already loaded.
+Module nmp is already loaded.
+Module vmw_psp_lib is already loaded.
+Module nmp is already loaded.
+Module nmp is already loaded.
+Module nmp is already loaded.
+Module vmw_psp_lib is already loaded.
+Module nmp is already loaded.
+2026-01-10T07:55:25.242Z| Invoking method start on plugin network-uplink-init
+2026-01-10T07:55:25.858Z| Method start executed successfully for plugin network-uplink-init
+Module healthchk is already loaded.
+Module healthchk is already loaded.
+Module healthchk is already loaded.
+Module vmci is already loaded.
+2026-01-10T07:55:26.597Z| Invoking method start on plugin vmkdrbg
+2026-01-10T07:55:26.610Z| Method start executed successfully for plugin vmkdrbg
+2026-01-10T07:55:26.629Z| Invoking method start on plugin dvfilters-vmkapi-compatibility
+Module dvfilter is already loaded.
+Module dvfilter is already loaded.
+Module dvfilter is already loaded.
+2026-01-10T07:55:26.729Z| Method start executed successfully for plugin dvfilters-vmkapi-compatibility
+Module vmkapi_v2_3_0_0_vmkernel_shim is already loaded.
+Module vmkapi_v2_3_0_0_vmkernel_shim is already loaded.
+Module vmklinux_9_2_3_0 is already loaded.
+Module vmkapi_v2_3_0_0_vmkernel_shim is already loaded.
+Module dvfilter is already loaded.
+2026-01-10T07:55:27.177Z| Invoking method start on plugin vmkcrypto
+2026-01-10T07:55:27.552Z| Method start executed successfully for plugin vmkcrypto
+Module dvfilter is already loaded.
+2026-01-10T07:55:27.588Z| Invoking method start on plugin lacp-daemon
+LACP daemon started
+2026-01-10T07:55:27.660Z| Method start executed successfully for plugin lacp-daemon
+2026-01-10T07:55:27.684Z| Invoking method start on plugin storage-psa-init
+2026-01-10T07:55:27.716Z| Method start executed successfully for plugin storage-psa-init
+2026-01-10T07:55:27.828Z| Invoking method start on plugin random-seed
+2026-01-10T07:55:27.829Z| Method start executed successfully for plugin random-seed
+2026-01-10T07:55:27.846Z| Invoking method start on plugin dvfilters
+2026-01-10T07:55:27.878Z| Method start executed successfully for plugin dvfilters
+2026-01-10T07:55:27.897Z| Invoking method start on plugin storage-early-configuration
+2026-01-10T07:55:27.927Z| 2097941:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2026-01-10T07:55:27.927Z| 2097941:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2026-01-10T07:55:27.927Z| 2097941:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2026-01-10T07:55:27.927Z| Could not expand environment variable HOME.
+2026-01-10T07:55:27.927Z| Could not expand environment variable HOME.
+2026-01-10T07:55:27.927Z| DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2026-01-10T07:55:27.928Z| DictionaryLoad: Cannot open file "~/.vmware/config": No such file or directory.
+2026-01-10T07:55:27.928Z| DictionaryLoad: Cannot open file "~/.vmware/preferences": No such file or directory.
+2026-01-10T07:55:27.933Z| lib/ssl: OpenSSL using FIPS_drbg for RAND
+2026-01-10T07:55:27.933Z| lib/ssl: protocol list tls1.2
+2026-01-10T07:55:27.933Z| lib/ssl: protocol list tls1.2 (openssl flags 0x17000000)
+2026-01-10T07:55:27.933Z| lib/ssl: cipher list ECDHE+AESGCM:RSA+AESGCM:ECDHE+AES:RSA+AES
+2026-01-10T07:55:27.933Z| lib/ssl: curves list prime256v1:secp384r1:secp521r1
+2026-01-10T07:55:28.003Z| Method start executed successfully for plugin storage-early-configuration
+2026-01-10T07:55:28.039Z| Invoking method start on plugin mount-filesystems
+2026-01-10T07:55:28.039Z| Method start executed successfully for plugin mount-filesystems
+2026-01-10T07:55:36.227Z| Invoking method start on plugin vsan-devel
+2026-01-10T07:55:36.277Z| ConfigFile: /etc/vmware/esx.conf: skipping non-dirty write
+2026-01-10T07:55:36.278Z| VmkCtl: [context]zKq7AVICAgAAAEvnJAEJdm1rY3RsAABIegVsaWJ2bWtjdGxjb3JlLnNvAAH0nDxsaWJ2bWtjdGwuc28AAeGUPAF1kFMCs0kLbGlidnNhbnZta2N0bC5zbwADfhMAbGlidnNhbi1kZXZlbC5zbwAE3iMAbmF0aXZlRXhlY3V0b3IABb0ZAmxpYmMuc28uNgAEBSYA[/context]
+2026-01-10T07:55:36.278Z| 2097981:VVOLLIB : VVolLib_IpcInit:208: IPC timeouts set to: connect = 30 sec, send = 30 sec, receive = 200 sec
+2026-01-10T07:55:36.278Z| 2097981:VVOLLIB : VVolLib_GetSoapContext:379: Using 30 secs for soap connect timeout.
+2026-01-10T07:55:36.278Z| 2097981:VVOLLIB : VVolLib_GetSoapContext:380: Using 200 secs for soap receive timeout.
+2026-01-10T07:55:36.278Z| Could not expand environment variable HOME.
+2026-01-10T07:55:36.278Z| Could not expand environment variable HOME.
+2026-01-10T07:55:36.278Z| DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2026-01-10T07:55:36.278Z| DictionaryLoad: Cannot open file "~/.vmware/config": No such file or directory.
+2026-01-10T07:55:36.278Z| DictionaryLoad: Cannot open file "~/.vmware/preferences": No such file or directory.
+2026-01-10T07:55:36.283Z| lib/ssl: OpenSSL using FIPS_drbg for RAND
+2026-01-10T07:55:36.283Z| lib/ssl: protocol list tls1.2
+2026-01-10T07:55:36.283Z| lib/ssl: protocol list tls1.2 (openssl flags 0x17000000)
+2026-01-10T07:55:36.283Z| lib/ssl: cipher list ECDHE+AESGCM:RSA+AESGCM:ECDHE+AES:RSA+AES
+2026-01-10T07:55:36.283Z| lib/ssl: curves list prime256v1:secp384r1:secp521r1
+2026-01-10T07:55:36.286Z| StorageInfo: Skipping lun mpx.vmhba32:C0:T0:L0: Unknown Device Registration, could not get devfs path for device
+2026-01-10T07:55:36.288Z| Method start executed successfully for plugin vsan-devel
+2026-01-10T07:55:36.309Z| Invoking method start on plugin vmfs
+2026-01-10T07:55:36.399Z| Method start executed successfully for plugin vmfs
+Module gss is already loaded.
+2026-01-10T07:55:36.451Z| Invoking method start on plugin krb5
+2026-01-10T07:55:36.462Z| Method start executed successfully for plugin krb5
+Module sunrpc is already loaded.
+Module sunrpc is already loaded.
+2026-01-10T07:55:38.357Z| Invoking method start on plugin configure-locker
+2026-01-10T07:55:38.495Z| Method start executed successfully for plugin configure-locker
+Module vdfm is already loaded.
+2026-01-10T07:55:39.063Z| Invoking method start on plugin bootimgdb
+2026-01-10T07:55:39.101Z| Method start executed successfully for plugin bootimgdb
+2026-01-10T07:55:39.120Z| Invoking method start on plugin oem-modules
+2026-01-10T07:55:39.151Z| BmcInfoImpl: Retrieve Version information failed
+2026-01-10T07:55:39.152Z| Method start executed successfully for plugin oem-modules
+2026-01-10T07:55:39.180Z| Invoking method start on plugin restore-security-policies
+2026-01-10T07:55:39.227Z| Method start executed successfully for plugin restore-security-policies
+2026-01-10T07:55:39.245Z| Invoking method start on plugin apei
+2026-01-10T07:55:39.302Z| Method start executed successfully for plugin apei
+2026-01-10T07:55:39.322Z| Invoking method start on plugin crond
+2026-01-10T07:55:39.323Z| Method start executed successfully for plugin crond
+2026-01-10T07:55:39.341Z| Invoking method start on plugin rdma-vmkapi-compatibility
+Module nrdma_vmkapi_shim is already loaded.
+Module nrdma is already loaded.
+Module nrdma_vmkapi_shim is already loaded.
+Module nrdma_vmkapi_shim is already loaded.
+2026-01-10T07:55:39.463Z| Method start executed successfully for plugin rdma-vmkapi-compatibility
+2026-01-10T07:55:39.481Z| Invoking method start on plugin ipmi
+2026-01-10T07:55:39.565Z| Method start executed successfully for plugin ipmi
+2026-01-10T07:55:39.583Z| Invoking method start on plugin nmp-vmkapi-compatibility
+Module nmp is already loaded.
+Module nmp is already loaded.
+Module nmp is already loaded.
+2026-01-10T07:55:39.677Z| Method start executed successfully for plugin nmp-vmkapi-compatibility
+2026-01-10T07:55:39.695Z| Invoking method start on plugin iscsi-vmkapi-compatibility
+Module iscsi_trans_compat_shim is already loaded.
+Module iscsi_trans_compat_shim is already loaded.
+Module iscsi_trans_compat_shim is already loaded.
+2026-01-10T07:55:39.794Z| Method start executed successfully for plugin iscsi-vmkapi-compatibility
+Module nrdma_vmkapi_shim is already loaded.
+Module nrdma is already loaded.
+Module nrdma_vmkapi_shim is already loaded.
+Module nrdma_vmkapi_shim is already loaded.
+Module vmci is already loaded.
+2026-01-10T07:55:39.936Z| Invoking method start on plugin tpm
+2026-01-10T07:55:39.967Z| Method start executed successfully for plugin tpm
+2026-01-10T07:55:39.986Z| Invoking method start on plugin cbrc
+2026-01-10T07:55:40.019Z| Method start executed successfully for plugin cbrc
+2026-01-10T07:55:40.043Z| Invoking method start on plugin autodeploy-setpassword
+2026-01-10T07:55:40.074Z| Method start executed successfully for plugin autodeploy-setpassword
+2026-01-10T07:55:40.092Z| Invoking method start on plugin inetd
+2026-01-10T07:55:40.093Z| Method start executed successfully for plugin inetd
+2026-01-10T07:55:40.111Z| Invoking method start on plugin tag-boot-bank
+2026-01-10T07:55:40.150Z| Method start executed successfully for plugin tag-boot-bank
+2026-01-10T07:55:40.168Z| Invoking method start on plugin bootloader-update-check
+2026-01-10T07:55:41.174Z| Method start executed successfully for plugin bootloader-update-check
+Module svmmirror is already loaded.
+2026-01-10T07:55:42.744Z| Invoking method start on plugin pcipassthrupool
+2026-01-10T07:55:42.775Z| Method start executed successfully for plugin pcipassthrupool
+Module vflash is already loaded.
+2026-01-10T07:55:43.531Z| Invoking method start on plugin iofilters_castore
+2026-01-10T07:55:43.532Z| Method start executed successfully for plugin iofilters_castore
+2026-01-10T07:55:43.556Z| Invoking method start on plugin nvme-nguid-config
+Running the NGUID boot script.
+Running the cli: system settings advanced list -o /Scsi/EnableNVMeNGUIDSupport
+Running the cli: storage core device uidmap list
+NVMe NGUID device with the need of updating the config not found, Success!
+2026-01-10T07:55:43.905Z| Method start executed successfully for plugin nvme-nguid-config
+2026-01-10T07:55:43.925Z| Invoking method start on plugin scratch-storage
+2026-01-10T07:55:44.575Z| Method start executed successfully for plugin scratch-storage
+2026-01-10T07:55:44.594Z| Invoking method start on plugin pingback
+2026-01-10T07:55:44.626Z| Method start executed successfully for plugin pingback

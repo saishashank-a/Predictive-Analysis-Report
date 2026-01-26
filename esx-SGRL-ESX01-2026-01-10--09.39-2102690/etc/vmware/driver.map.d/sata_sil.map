@@ -1,0 +1,4 @@
+regtype=linux,bus=pci,id=1095:0240 0000:0000,driver=sata_sil,class=storage
+regtype=linux,bus=pci,id=1095:3112 0000:0000,driver=sata_sil,class=storage
+regtype=linux,bus=pci,id=1095:3114 0000:0000,driver=sata_sil,class=storage
+regtype=linux,bus=pci,id=1095:3512 0000:0000,driver=sata_sil,class=storage

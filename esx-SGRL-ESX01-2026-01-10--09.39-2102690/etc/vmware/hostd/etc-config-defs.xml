@@ -1,0 +1,26 @@
+<ConfigRoot>
+  <_length>2</_length>
+  <_type>vim.option.OptionDef[]</_type>
+  <e id="0">
+    <_type>vim.option.OptionDef</_type>
+    <key>issue</key>
+    <label>issue</label>
+    <optionType>
+      <_type>vim.option.StringOption</_type>
+      <defaultValue></defaultValue>
+      <valueIsReadonly>false</valueIsReadonly>
+    </optionType>
+    <summary>Contents of /etc/issue</summary>
+  </e>
+  <e id="1">
+    <_type>vim.option.OptionDef</_type>
+    <key>motd</key>
+    <label>motd</label>
+    <optionType>
+      <_type>vim.option.StringOption</_type>
+      <defaultValue></defaultValue>
+      <valueIsReadonly>false</valueIsReadonly>
+    </optionType>
+    <summary>Contents of /etc/motd</summary>
+  </e>
+</ConfigRoot>

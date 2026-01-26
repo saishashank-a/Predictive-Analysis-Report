@@ -1,0 +1,5 @@
+regtype=native,bus=pci,id=15b301f6..............,driver=nmlx4_core
+regtype=native,bus=pci,id=15b301f8..............,driver=nmlx4_core
+regtype=native,bus=pci,id=15b31003..............,driver=nmlx4_core
+regtype=native,bus=pci,id=15b31004..............,driver=nmlx4_core
+regtype=native,bus=pci,id=15b31007..............,driver=nmlx4_core

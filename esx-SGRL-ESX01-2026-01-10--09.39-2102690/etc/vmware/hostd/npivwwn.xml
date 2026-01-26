@@ -1,0 +1,6 @@
+<ConfigRoot>
+  <wwn>
+    <InstanceId>1</InstanceId>
+    <NextInstanceId>2</NextInstanceId>
+  </wwn>
+</ConfigRoot>

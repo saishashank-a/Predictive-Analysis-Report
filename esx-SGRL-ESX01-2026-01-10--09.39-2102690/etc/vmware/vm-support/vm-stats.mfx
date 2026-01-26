@@ -1,0 +1,8 @@
+% Manifest name: VirtualMachineStats
+% Manifest group: VirtualMachines
+% Manifest default: Enabled
+% Manifest tag: vm,logs
+# action Options file/command
+
+# stats, kstats, callstack profiling
+vmfile IGNORE_MISSING,RECURSE stats*

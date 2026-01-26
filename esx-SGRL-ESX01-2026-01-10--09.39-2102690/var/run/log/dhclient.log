@@ -1,0 +1,35 @@
+2001-01-01T01:16:23Z dhclient-uw[2097935]: Internet Systems Consortium DHCP Client 4.0.0vmw-895e81f6c7031759ed8167e6b6abafb2e25b92ab
+2001-01-01T01:16:23Z dhclient-uw[2097935]: Copyright (c) 2008-2009 VMware, Inc. All rights reserved. Copyright 2004-2007 Internet Systems Consortium.
+2001-01-01T01:16:23Z dhclient-uw[2097935]: All rights reserved.
+2001-01-01T01:16:23Z dhclient-uw[2097935]: For info, please visit http://www.isc.org/sw/dhcp/
+2001-01-01T01:16:23Z dhclient-uw[2097935]: 2001-01-01T01:16:23Z dhclient-uw[2097935]: Setting retry timeout to 90 seconds
+2001-01-01T01:16:23Z dhclient-uw[2097935]: sending dhcp-client-identifier: if: vmk0,  id: 5c:f3:fc:e8:46:f8
+2001-01-01T01:16:23Z dhclient-uw[2097935]: Sending option dhcp-client-identifier, value 0x31dccd4ec91 (7)
+2001-01-01T01:16:23Z dhclient-uw[2097935]: Listening on PF_PACKET/vmk0
+2001-01-01T01:16:23Z dhclient-uw[2097935]: Sending on   PF_PACKET/vmk0
+2001-01-01T01:16:27Z dhclient-uw[2097935]: DHCPDISCOVER on vmk0 to 255.255.255.255 port 67 interval 4
+2001-01-01T01:16:29Z dhclient-uw[2097935]: DHCPOFFER from 192.168.1.254
+2001-01-01T01:16:29Z dhclient-uw[2097935]: DHCPREQUEST on vmk0 to 255.255.255.255 port 67
+2001-01-01T01:16:29Z dhclient-uw[2097935]: DHCPACK from 192.168.1.254
+2001-01-01T01:16:29Z dhclient-uw[2097935]: ipv4: Setting address: 192.168.1.157/255.255.255.0
+2001-01-01T01:16:29Z dhclient-uw[2097935]: ipv4: Bounding to DHCP server: 192.168.1.254
+2001-01-01T01:16:29Z dhclient-uw[2097935]: ipv4: Setting default gateway: 192.168.1.254
+2001-01-01T01:16:29Z dhclient-uw[2097935]: dns: Adding nameserver: 192.168.1.254
+2001-01-01T01:16:29Z dhclient-uw[2097935]: dns: Resolving PTR for 192.168.1.157 ... succeded
+2001-01-01T01:16:29Z dhclient-uw[2097935]: dns: Setting hostname: 192
+2001-01-01T01:16:29Z dhclient-uw[2097935]: bound to 192.168.1.157 -- renewal in 7086 seconds.
+2001-01-01T01:16:29Z dhclient-uw[2097935]: Disabling input on Socket/vmk0
+2001-01-01T01:16:29Z dhclient-uw[2097935]: Listening on PF_INET/vmk0
+2001-01-01T01:16:29Z dhclient-uw[2097935]: Disabling output on Socket/vmk0
+2001-01-01T01:16:29Z dhclient-uw[2097935]: Sending on   PF_INET/vmk0
+2001-01-01T01:19:14Z dhclient-uw[2099708]: Internet Systems Consortium DHCP Client 4.0.0vmw-895e81f6c7031759ed8167e6b6abafb2e25b92ab
+2001-01-01T01:19:14Z dhclient-uw[2099708]: Copyright (c) 2008-2009 VMware, Inc. All rights reserved. Copyright 2004-2007 Internet Systems Consortium.
+2001-01-01T01:19:14Z dhclient-uw[2099708]: All rights reserved.
+2001-01-01T01:19:14Z dhclient-uw[2099708]: For info, please visit http://www.isc.org/sw/dhcp/
+2001-01-01T01:19:14Z dhclient-uw[2099708]: 2001-01-01T01:19:14Z dhclient-uw[2099708]: Found instance 2097935
+2001-01-01T01:19:15Z dhclient-uw[2099708]: Instance 2097935 terminated
+2001-01-01T01:19:15Z dhclient-uw[2099708]: sending dhcp-client-identifier: if: vmk0,  id: 5c:f3:fc:e8:46:f8
+2001-01-01T01:19:15Z dhclient-uw[2099708]: Sending option dhcp-client-identifier, value 0x3f8bd70eca1 (7)
+2001-01-01T01:19:15Z dhclient-uw[2099708]: Listening on PF_INET/vmk0
+2001-01-01T01:19:15Z dhclient-uw[2099708]: Sending on   PF_INET/vmk0
+2001-01-01T01:19:15Z dhclient-uw[2099708]: DHCPRELEASE on vmk0 to 192.168.1.254 port 67

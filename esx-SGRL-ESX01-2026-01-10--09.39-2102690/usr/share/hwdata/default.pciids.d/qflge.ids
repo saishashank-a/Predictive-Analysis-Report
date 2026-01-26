@@ -1,0 +1,27 @@
+#
+# This file is mechanically generated.  Any changes you make
+# manually will be lost at the next build.
+#
+# Please edit <driver>_devices.py file for permanent changes.
+#
+# Vendors, devices and subsystems.
+#
+# Syntax (initial indentation must be done with TAB characters):
+#
+# vendor  vendor_name
+#       device  device_name                            <-- single TAB
+#               subvendor subdevice  subsystem_name    <-- two TABs
+
+14e4  QLogic Corporation
+	1639  QLogic NetXtreme II BCM5709 1000Base-T
+		103c 7055  NC382i Integrated Multi Port PCI Express Gigabit Server Adapter
+		103c 7059  NC382T PCI Express Dual Port Multifunction Gigabit Server Adapter
+	163a  QLogic NetXtreme II BCM5709S 1000Base-SX
+	163b  QLogic NetXtreme II BCM5716 1000Base-T
+	163c  QLogic NetXtreme II BCM5716S 1000Base-SX
+	164a  QLogic NetXtreme II 5706 Gigabit Ethernet
+	164c  QLogic NetXtreme II BCM5708 1000Base-T
+		103c 7037  NC373T PCI Express Multifunction Gigabit Server Adapter
+		103c 7038  NC373i Integrated Multifunction Gigabit Server Adapter
+	16aa  QLogic NetXtreme II BCM5706S 1000Base-SX
+	16ac  QLogic NetXtreme II BCM5708S 1000Base-SX

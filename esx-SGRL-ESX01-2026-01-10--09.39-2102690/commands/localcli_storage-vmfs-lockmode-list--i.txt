@@ -1,0 +1,3 @@
+Volume Name  UUID                                 Type    Locking Mode  ATS Compatible  ATS Upgrade Modes  ATS Incompatibility Reason
+-------------------------------------------------------------------------------------------------------------------------------------
+datastore1   3a4fd8ce-fc4375c4-effb-5cf3fce846f8  VMFS-6  ATS+SCSI      false           None               Device does not support ATS

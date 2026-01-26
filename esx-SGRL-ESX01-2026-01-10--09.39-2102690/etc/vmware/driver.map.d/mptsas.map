@@ -1,0 +1,16 @@
+regtype=linux,bus=pci,id=1000:0050 0000:0000,driver=mptsas,class=storage
+regtype=linux,bus=pci,id=1000:0054 0000:0000,driver=mptsas,class=storage
+regtype=linux,bus=pci,id=1000:0054 1028:1f04,driver=mptsas,class=storage
+regtype=linux,bus=pci,id=1000:0054 1028:1f06,driver=mptsas,class=storage
+regtype=linux,bus=pci,id=1000:0054 1028:1f07,driver=mptsas,class=storage
+regtype=linux,bus=pci,id=1000:0054 1028:1f09,driver=mptsas,class=storage
+regtype=linux,bus=pci,id=1000:0056 0000:0000,driver=mptsas,class=storage
+regtype=linux,bus=pci,id=1000:0058 0000:0000,driver=mptsas,class=storage
+regtype=linux,bus=pci,id=1000:0058 1028:021d,driver=mptsas,class=storage
+regtype=linux,bus=pci,id=1000:0058 1028:1f0e,driver=mptsas,class=storage
+regtype=linux,bus=pci,id=1000:0058 1028:1f0f,driver=mptsas,class=storage
+regtype=linux,bus=pci,id=1000:0058 1028:1f10,driver=mptsas,class=storage
+regtype=linux,bus=pci,id=1000:005a 0000:0000,driver=mptsas,class=storage
+regtype=linux,bus=pci,id=1000:005c 0000:0000,driver=mptsas,class=storage
+regtype=linux,bus=pci,id=1000:005e 0000:0000,driver=mptsas,class=storage
+regtype=linux,bus=pci,id=1000:0062 0000:0000,driver=mptsas,class=storage

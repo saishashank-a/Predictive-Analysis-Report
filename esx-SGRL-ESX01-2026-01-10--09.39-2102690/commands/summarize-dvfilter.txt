@@ -1,0 +1,18 @@
+Fastpaths:
+agent: dvfilter-faulter, refCount: 1, rev: 0x1010000, apiRev: 0x1010000, module: dvfilter
+agent: ESXi-Firewall, refCount: 2, rev: 0x1010000, apiRev: 0x1010000, module: esxfw
+agent: dvfilter-generic-vmware, refCount: 1, rev: 0x1010000, apiRev: 0x1010000, module: dvfilter-generic-fastpath
+
+ServiceVMs:
+
+Filters:
+world 0 <no world>
+ port 33554436 vmk0
+  vNic slot 0
+   name: nic-0-eth4294967295-ESXi-Firewall.0
+   agentName: ESXi-Firewall
+   state: IOChain Attached
+   vmState: Detached
+   failurePolicy: failOpen
+   serviceVMID: none
+   filter source: Invalid

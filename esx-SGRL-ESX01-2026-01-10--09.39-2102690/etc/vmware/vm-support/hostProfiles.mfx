@@ -1,0 +1,10 @@
+% Manifest name: hostProfiles
+% Manifest group: hostProfiles
+% Manifest default: Enabled
+% Manifest tag: hostProfiles
+# action Options file/command
+
+safecopy IGNORE_MISSING /var/lib/vmware/hostprofiles/statusData
+run TIMEOUT=900,IGNORE_ERROR,RELOCATE=/commands/storageHostProfiles.sh.txt /usr/lib/vmware/vm-support/bin/storageHostProfiles.sh
+run IGNORE_ERROR,RELOCATE=/commands/hostprofile.xml /usr/lib/vmware/vm-support/bin/extract_hp_docs.py /etc/vmware/hostprofile.xml.gz
+run IGNORE_ERROR,RELOCATE=/commands/answerfile.xml /usr/lib/vmware/vm-support/bin/extract_hp_docs.py /etc/vmware/answerfile.xml.gz

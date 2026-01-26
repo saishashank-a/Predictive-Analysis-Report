@@ -1,0 +1,31 @@
+<Config>
+   <log>
+      <directory>/var/log</directory>
+      <name>vsandpd</name>
+
+      <level>verbose</level>
+      <!-- Configure logging for syslog.  Disable other logging targets. -->
+      <outputToConsole>false</outputToConsole>
+      <outputToFiles>false</outputToFiles>
+      <outputToSyslog>true</outputToSyslog>
+      <syslog>
+          <!-- The vsandpd syslog configuration is installed in
+               "/etc/vmsyslog.conf.d/vsandpd.conf". -->
+         <ident>vsandpd</ident>
+         <facility>local4</facility>
+      </syslog>
+   </log>
+
+   <vmacore>
+      <ssl>
+         <doVersionCheck>false</doVersionCheck>
+      </ssl>
+      <threadPool>
+         <TaskMin>2</TaskMin>
+         <TaskMax>64</TaskMax>
+         <IoMin>2</IoMin>
+         <IoMax>8</IoMax>
+         <ThreadStackSizeKb>128</ThreadStackSizeKb>
+      </threadPool>
+   </vmacore>
+</Config>

@@ -1,0 +1,11 @@
+#
+#
+/etc/vmware/secpolicy/* secpolicyObj
+/etc/vmware/ssl/* sslKeyObj
+/etc/shadow authObj
+/etc/passwd authObj
+/etc/group authObj
+/usr/share/certs/* certObj
+/tardisks tardiskMountObj
+/bin/tpm2emu tpm2emuObj
+

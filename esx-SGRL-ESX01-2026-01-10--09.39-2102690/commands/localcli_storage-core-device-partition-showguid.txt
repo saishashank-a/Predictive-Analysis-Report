@@ -1,0 +1,11 @@
+Device                                Partition  Layout  GUID
+-------------------------------------------------------------
+naa.600605b004213bc001e293503af49afb          0  GPT     00000000000000000000000000000000
+naa.600605b004213bc001e293503af49afb          1  GPT     c12a7328f81f11d2ba4b00a0c93ec93b
+naa.600605b004213bc001e293503af49afb          2  GPT     ebd0a0a2b9e5443387c068b6b72699c7
+naa.600605b004213bc001e293503af49afb          3  GPT     aa31e02a400f11db9590000c2911d1b8
+naa.600605b004213bc001e293503af49afb          5  GPT     ebd0a0a2b9e5443387c068b6b72699c7
+naa.600605b004213bc001e293503af49afb          6  GPT     ebd0a0a2b9e5443387c068b6b72699c7
+naa.600605b004213bc001e293503af49afb          7  GPT     9d27538040ad11dbbf97000c2911d1b8
+naa.600605b004213bc001e293503af49afb          8  GPT     ebd0a0a2b9e5443387c068b6b72699c7
+naa.600605b004213bc001e293503af49afb          9  GPT     9d27538040ad11dbbf97000c2911d1b8

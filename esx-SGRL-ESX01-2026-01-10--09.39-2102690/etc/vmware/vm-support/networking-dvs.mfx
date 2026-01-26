@@ -1,0 +1,9 @@
+% Manifest name: dvs
+% Manifest group: Network
+% Manifest default: Enabled
+% Manifest tag: networking,tcpip
+# action Options file/command
+run - /usr/lib/vmware/bin/net-dvs -l
+
+# Copy over all necessary dvPort files to /var/log/dvsData.tar
+run RELOCATE=/var/log/dvsData.tar,IGNORE_ERROR,TIMEOUT=600 /usr/lib/vmware/vm-support/bin/dvsData.sh

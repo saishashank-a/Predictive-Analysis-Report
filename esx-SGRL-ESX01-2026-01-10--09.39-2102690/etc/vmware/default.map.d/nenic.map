@@ -1,0 +1,2 @@
+regtype=native,bus=pci,id=11370043..............,driver=nenic
+regtype=native,bus=pci,id=11370044..............,driver=nenic

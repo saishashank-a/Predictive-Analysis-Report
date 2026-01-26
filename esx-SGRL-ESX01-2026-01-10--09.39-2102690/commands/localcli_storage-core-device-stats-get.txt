@@ -1,0 +1,17 @@
+
+naa.600605b004213bc001e293503af49afb:
+   Device: naa.600605b004213bc001e293503af49afb
+   Successful Commands: 4430740
+   Blocks Read: 217976804
+   Blocks Written: 260346967
+   Read Operations: 2201078
+   Write Operations: 2226018
+   Reserve Operations: 1569
+   Reservation Conflicts: 0
+   Failed Commands: 622
+   Failed Blocks Read: 0
+   Failed Blocks Written: 0
+   Failed Read Operations: 0
+   Failed Write Operations: 0
+   Failed Reserve Operations: 0
+

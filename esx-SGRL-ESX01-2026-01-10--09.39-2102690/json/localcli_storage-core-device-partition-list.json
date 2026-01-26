@@ -1,0 +1,102 @@
+
+[
+
+      {
+         "Device": "naa.600605b004213bc001e293503af49afb",
+         "End Sector": 10535153663,
+         "Partition": 0,
+         "Partition Name": "naa.600605b004213bc001e293503af49afb:0",
+         "Path": "\/vmfs\/devices\/disks\/naa.600605b004213bc001e293503af49afb",
+         "Size": 5393998675968,
+         "Start Sector": 0,
+         "Type": 0
+      }, 
+
+      {
+         "Device": "naa.600605b004213bc001e293503af49afb",
+         "End Sector": 8191,
+         "Partition": 1,
+         "Partition Name": "naa.600605b004213bc001e293503af49afb:1",
+         "Path": "\/vmfs\/devices\/disks\/naa.600605b004213bc001e293503af49afb:1",
+         "Size": 4161536,
+         "Start Sector": 64,
+         "Type": 0
+      }, 
+
+      {
+         "Device": "naa.600605b004213bc001e293503af49afb",
+         "End Sector": 15472639,
+         "Partition": 2,
+         "Partition Name": "naa.600605b004213bc001e293503af49afb:2",
+         "Path": "\/vmfs\/devices\/disks\/naa.600605b004213bc001e293503af49afb:2",
+         "Size": 4293918720,
+         "Start Sector": 7086080,
+         "Type": 6
+      }, 
+
+      {
+         "Device": "naa.600605b004213bc001e293503af49afb",
+         "End Sector": 10535153630,
+         "Partition": 3,
+         "Partition Name": "naa.600605b004213bc001e293503af49afb:3",
+         "Path": "\/vmfs\/devices\/disks\/naa.600605b004213bc001e293503af49afb:3",
+         "Size": 5386076667392,
+         "Start Sector": 15472640,
+         "Type": 251
+      }, 
+
+      {
+         "Device": "naa.600605b004213bc001e293503af49afb",
+         "End Sector": 520191,
+         "Partition": 5,
+         "Partition Name": "naa.600605b004213bc001e293503af49afb:5",
+         "Path": "\/vmfs\/devices\/disks\/naa.600605b004213bc001e293503af49afb:5",
+         "Size": 262127616,
+         "Start Sector": 8224,
+         "Type": 6
+      }, 
+
+      {
+         "Device": "naa.600605b004213bc001e293503af49afb",
+         "End Sector": 1032191,
+         "Partition": 6,
+         "Partition Name": "naa.600605b004213bc001e293503af49afb:6",
+         "Path": "\/vmfs\/devices\/disks\/naa.600605b004213bc001e293503af49afb:6",
+         "Size": 262127616,
+         "Start Sector": 520224,
+         "Type": 6
+      }, 
+
+      {
+         "Device": "naa.600605b004213bc001e293503af49afb",
+         "End Sector": 1257471,
+         "Partition": 7,
+         "Partition Name": "naa.600605b004213bc001e293503af49afb:7",
+         "Path": "\/vmfs\/devices\/disks\/naa.600605b004213bc001e293503af49afb:7",
+         "Size": 115326976,
+         "Start Sector": 1032224,
+         "Type": 252
+      }, 
+
+      {
+         "Device": "naa.600605b004213bc001e293503af49afb",
+         "End Sector": 1843199,
+         "Partition": 8,
+         "Partition Name": "naa.600605b004213bc001e293503af49afb:8",
+         "Path": "\/vmfs\/devices\/disks\/naa.600605b004213bc001e293503af49afb:8",
+         "Size": 299876352,
+         "Start Sector": 1257504,
+         "Type": 6
+      }, 
+
+      {
+         "Device": "naa.600605b004213bc001e293503af49afb",
+         "End Sector": 7086079,
+         "Partition": 9,
+         "Partition Name": "naa.600605b004213bc001e293503af49afb:9",
+         "Path": "\/vmfs\/devices\/disks\/naa.600605b004213bc001e293503af49afb:9",
+         "Size": 2684354560,
+         "Start Sector": 1843200,
+         "Type": 252
+      }
+]

@@ -1,0 +1,12 @@
+% Manifest name: VSANPerfStatsExtended
+% Manifest group: Storage
+% Manifest default: Disabled
+% Manifest tag: storage,vsanperfstatsextended
+# action Options file/command
+# stats metrics has different priority
+# P1 (Collection ON by default, extraction to support bundled OFF by default): To keep size of support bundle in check
+# P2 (Collection OFF by default): For minimal performance impact. P2 is verbose level.
+# extended will dump P1 and P2 stats metrics
+
+run TIMEOUT=1200,IGNORE_ERROR python /usr/lib/vmware/vsan/perfsvc/vsan-perfsvc-status.pyc perf_stats_with_dump_extended
+

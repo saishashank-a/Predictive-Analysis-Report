@@ -1,0 +1,13 @@
+% Manifest name: GuestState
+% Manifest group: VirtualMachines
+% Manifest default: Disabled
+% Manifest tag: vm,sensitive
+# action Options file/command
+
+vmfile IGNORE_MISSING  debug.guest
+vmfile IGNORE_MISSING  debug.guest.gz
+vmfile IGNORE_MISSING,FILTER=/usr/lib/vmware/vm-support/bin/collect-envelope.sh debug.guest.ve
+
+vmfile IGNORE_MISSING  debug.vmem
+vmfile IGNORE_MISSING  debug.vmem.gz
+vmfile IGNORE_MISSING,FILTER=/usr/lib/vmware/vm-support/bin/collect-envelope.sh debug.vmem.ve

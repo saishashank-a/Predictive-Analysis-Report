@@ -1,0 +1,7 @@
+Mount Point                                        Volume Name  UUID                                 Mounted  Type    Size           Free
+-----------------------------------------------------------------------------------------------------------------------------------------
+/vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8  datastore1   3a4fd8ce-fc4375c4-effb-5cf3fce846f8  true     VMFS-6  5385888989184  4515661086720  
+/vmfs/volumes/66630e7d-33d835cd-586e-86703aad3a4f               66630e7d-33d835cd-586e-86703aad3a4f  true     vfat        261853184       97165312  
+/vmfs/volumes/3a4fd8cf-6ef45abc-002e-5cf3fce846f8               3a4fd8cf-6ef45abc-002e-5cf3fce846f8  true     vfat       4293591040     4266655744  
+/vmfs/volumes/3a4fd8c6-3cd0683c-d0c1-5cf3fce846f8               3a4fd8c6-3cd0683c-d0c1-5cf3fce846f8  true     vfat        299712512       92233728  
+/vmfs/volumes/5766f37e-4592eb56-f9ee-6436272ca19f               5766f37e-4592eb56-f9ee-6436272ca19f  true     vfat        261853184      261849088  

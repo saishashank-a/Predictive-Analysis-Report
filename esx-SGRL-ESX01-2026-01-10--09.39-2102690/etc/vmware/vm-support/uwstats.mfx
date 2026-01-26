@@ -1,0 +1,6 @@
+% Manifest name: uwstats
+% Manifest group: System
+% Manifest default: Enabled
+% Manifest tag: base
+# action Options file/command
+run    TIMEOUT=10,IGNORE_ERROR              /bin/uwstats -s all

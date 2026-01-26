@@ -1,0 +1,2 @@
+# vmkfstools -q RHEL10-TMPL.vmdk
+RHEL10-TMPL.vmdk is not an rdm

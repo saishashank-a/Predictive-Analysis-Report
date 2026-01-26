@@ -1,0 +1,4 @@
+regtype=linux,bus=pci,id=1095:0643 0000:0000,driver=pata_cmd64x,class=storage
+regtype=linux,bus=pci,id=1095:0646 0000:0000,driver=pata_cmd64x,class=storage
+regtype=linux,bus=pci,id=1095:0648 0000:0000,driver=pata_cmd64x,class=storage
+regtype=linux,bus=pci,id=1095:0649 0000:0000,driver=pata_cmd64x,class=storage

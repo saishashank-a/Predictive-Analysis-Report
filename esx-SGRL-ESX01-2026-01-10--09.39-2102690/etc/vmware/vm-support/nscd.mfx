@@ -1,0 +1,6 @@
+% Manifest name: nscd
+% Manifest group: Network
+% Manifest default: Enabled
+% Manifest tag: networking
+# action Options file/command
+copy   -                                    /etc/nscd.conf

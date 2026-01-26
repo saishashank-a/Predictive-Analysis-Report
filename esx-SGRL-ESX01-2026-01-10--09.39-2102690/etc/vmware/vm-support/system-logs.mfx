@@ -1,0 +1,15 @@
+% Manifest name: System
+% Manifest group: Logs
+% Manifest default: Enabled
+% Manifest tag: base
+# action Options file/command
+# XXX actually have to query syslog.  will have to add new command type
+copy IGNORE_MISSING /var/log/*
+copy IGNORE_MISSING /var/log/.vmsyslogd.*
+copy IGNORE_MISSING /var/run/log/*
+
+# Exclude vit.conf.backup file
+prune IGNORE_MISSING /var/run/log/vit.conf.backup
+
+# If something happened to syslogd, there may be useful info in the vob/event trace buffer.
+run TIMEOUT=10,IGNORE_ERROR /usr/lib/vmware/vob/bin/vobbuf -h

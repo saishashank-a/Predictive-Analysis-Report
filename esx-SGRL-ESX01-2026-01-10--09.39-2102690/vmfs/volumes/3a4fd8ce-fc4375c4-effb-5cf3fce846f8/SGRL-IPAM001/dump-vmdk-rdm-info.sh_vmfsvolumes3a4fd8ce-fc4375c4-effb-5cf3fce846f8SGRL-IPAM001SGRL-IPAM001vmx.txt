@@ -1,0 +1,2 @@
+# vmkfstools -q SGRL-IPAM001-000002.vmdk
+SGRL-IPAM001-000002.vmdk is not an rdm

@@ -1,0 +1,85 @@
+#
+# Rules applicable for all VMs
+#
+
+-s genericSys grant
+-s ioctlSys grant
+-s vsiReadSys grant
+-s forkSys grant
+-s cloneSys grant
+-s sysctlSys grant
+-s killSys grant
+-s syncSys grant
+-s getpgidSys grant
+-s getsidSys grant
+-s openSys grant
+-s mprotectSys grant
+-s vmxSys grant
+-s rpcSys grant
+-s vobSys grant
+-s forkExecSys grant
+-s iofilterSys grant
+-s crossfdSys grant
+-s pmemGenSys grant
+-s vmfsGenSys grant
+-s keyCacheGenSys grant
+
+-c unix_socket_create grant
+-c unix_stream_socket_bind grant
+-c unix_dgram_socket_bind grant
+-c inet_dgram_socket_create grant
+-c inet_stream_socket_create grant
+-c stream_vsocket_create grant
+-c dgram_vsocket_create grant
+-c stream_vsocket_bind grant
+-c dgram_vsocket_bind grant
+-c stream_vsocket_connect grant
+-c dgram_vsocket_send grant
+-c vsocket_provide_service grant
+-c dgram_vsocket_trusted grant
+-c stream_vsocket_trusted grant
+
+-p inet_socket_bind all grant
+-p inet_socket_connect loopback grant
+-p inet_socket_connect nonloopback grant
+
+-d tpm2emuObj tpm2emuDom file_exec grant
+
+-r /var/run rw
+-r /var/run/inetd.conf           # blacklist
+-r /var/run/vmware-hostd-ticket  # blacklist
+-r /var/lock rw
+-r /dev/char rw
+-r /bin/vmx rx
+-r /etc r
+-r /lib rx
+-r /lib64 rx
+-r /usr/lib rx
+-r /usr/lib64 rx
+-r /tmp rw
+-r /usr/libexec rx
+-r /usr/share/nvidia r
+-r /vmimages r
+-r /bin/vmx-debug rx
+-r /bin/vmx-stats rx
+-r /bin/remoteDeviceConnect rx
+-r /productLocker r
+-r /bin/tpm2emu rx
+
+# per-user config/settings directory
+-r /.vmware r
+
+# Shared VM devices
+-r /dev/deltadisks rw  # for snapshot
+-r /dev/vsansparse rw  # for snapshot
+-r /dev/cbt rw
+-r /dev/PMemDisk rw
+-r /dev/svm rw
+-r /dev/upit rw
+-r /dev/vdfm rw
+-r /dev/vflash rw
+-r /dev/vsan rw
+-r /dev/vvol rw
+
+-r /usr/share/certs r  # shared certificates
+

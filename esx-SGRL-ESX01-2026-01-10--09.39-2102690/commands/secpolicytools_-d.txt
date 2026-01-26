@@ -1,0 +1,889 @@
+
+
+------------------------
+Policy set in the kernel
+------------------------
+
+
+---------------------------------------------------------------
+Domain Name: superDom Domain ID :0 Enforcement Level: enforcing
+State: 3 RefCount: 639 WorldRefCount: 636
+---------------------------------------------------------------
+-d appObj appDom file_exec grant
+
+
+
+
+
+-------------------------------------------------------------------
+Domain Name: regularVMDom Domain ID :1 Enforcement Level: enforcing
+State: 3 RefCount: 2 WorldRefCount: 0
+-------------------------------------------------------------------
+-c dgram_vsocket_bind grant
+-c dgram_vsocket_create grant
+-c dgram_vsocket_send grant
+-c dgram_vsocket_trusted grant
+-c inet_dgram_socket_create grant
+-c inet_raw_socket_create grant
+-c inet_stream_socket_create grant
+-c stream_vsocket_bind grant
+-c stream_vsocket_connect grant
+-c stream_vsocket_create grant
+-c stream_vsocket_trusted grant
+-c unix_dgram_socket_bind grant
+-c unix_socket_create grant
+-c unix_stream_socket_bind grant
+-c unix_vmklink_socket_connect grant
+-c vsocket_provide_service grant
+
+
+-p inet_socket_bind all grant
+-p inet_socket_connect nonloopback grant
+-p inet_socket_connect loopback grant
+
+
+-s genericSys grant
+-s vmxSys grant
+-s vmkacSys grant
+-s mountSys grant
+-s umountSys grant
+-s timeSys grant
+-s ioctlSys grant
+-s setpgidSys grant
+-s getpgidSys grant
+-s getsidSys grant
+-s adminSys grant
+-s vobSys grant
+-s vsiReadSys grant
+-s vsiWriteSys grant
+-s moduleSys grant
+-s rpcSys grant
+-s killSys grant
+-s sysctlSys grant
+-s syncSys grant
+-s schedulerSys grant
+-s forkSys grant
+-s execSys grant
+-s forkExecSys grant
+-s cloneSys grant
+-s ptraceSys grant
+-s storageSys grant
+-s ioplSys grant
+-s openSys grant
+-s iofilterExitSys grant
+-s mprotectSys grant
+-s iofilterSys grant
+-s crossfdSys grant
+-s pmemGenSys grant
+-s pmemVolSys grant
+-s pmemDirectSys grant
+-s keyCacheGenSys grant
+-s keyCacheAdminSys grant
+-s vmfsGenSys grant
+-s vmfsAdminSys grant
+
+
+
+
+
+-------------------------------------------------------------
+Domain Name: appDom Domain ID :2 Enforcement Level: enforcing
+State: 3 RefCount: 2 WorldRefCount: 0
+-------------------------------------------------------------
+-c inet_dgram_socket_create grant
+-c inet_stream_socket_create grant
+-c unix_dgram_socket_bind grant
+-c unix_socket_create grant
+-c unix_stream_socket_bind grant
+
+
+-p inet_socket_connect loopback grant
+-p inet_socket_connect nonloopback grant
+
+
+-r /usr/share/certs 
+-r /etc/group r
+-r /tardisks 
+-r /etc/vmware/ssl 
+-r /etc/shadow r
+-r /etc/passwd r
+-r /etc/vmware/secpolicy r
+-r /usr/lib/cim rx
+
+
+-s genericSys grant
+-s ioctlSys grant
+-s getpgidSys grant
+-s getsidSys grant
+-s vsiReadSys grant
+-s moduleSys grant
+-s killSys grant
+-s sysctlSys grant
+-s syncSys grant
+-s forkSys grant
+-s execSys grant
+-s cloneSys grant
+-s openSys grant
+-s mprotectSys grant
+
+
+
+
+
+------------------------------------------------------------------
+Domain Name: globalVMDom Domain ID :3 Enforcement Level: enforcing
+State: 3 RefCount: 2 WorldRefCount: 0
+------------------------------------------------------------------
+-c dgram_vsocket_bind grant
+-c dgram_vsocket_create grant
+-c dgram_vsocket_send grant
+-c dgram_vsocket_trusted grant
+-c inet_dgram_socket_create grant
+-c inet_stream_socket_create grant
+-c stream_vsocket_bind grant
+-c stream_vsocket_connect grant
+-c stream_vsocket_create grant
+-c stream_vsocket_trusted grant
+-c unix_dgram_socket_bind grant
+-c unix_socket_create grant
+-c unix_stream_socket_bind grant
+-c vsocket_provide_service grant
+
+
+-d tpm2emuObj tpm2emuDom file_exec grant
+
+
+-p inet_socket_bind all grant
+-p inet_socket_connect loopback grant
+-p inet_socket_connect nonloopback grant
+
+
+-r /usr/share/certs r
+-r /bin/remoteDeviceConnect rx
+-r /bin/vmx rx
+-r /tmp rw
+-r /vmimages r
+-r /bin/tpm2emu rx
+-r /dev/cbt rw
+-r /var/run rw
+-r /dev/char rw
+-r /dev/upit rw
+-r /var/lock rw
+-r /dev/vdfm rw
+-r /dev/deltadisks rw
+-r /lib rx
+-r /usr/libexec rx
+-r /usr/share/nvidia r
+-r /lib64 rx
+-r /bin/vmx-stats rx
+-r /vmfs/volumes/3a4fd8c6-3cd0683c-d0c1-5cf3fce846f8/packages/vmtoolsRepo r
+-r /dev/vvol rw
+-r /dev/PMemDisk rw
+-r /usr/lib64 rx
+-r /dev/vflash rw
+-r /usr/lib rx
+-r /etc r
+-r /dev/vsan rw
+-r /dev/svm rw
+-r /var/run/vmware-hostd-ticket 
+-r /var/run/inetd.conf 
+-r /.vmware r
+-r /dev/vsansparse rw
+-r /bin/vmx-debug rx
+
+
+-s genericSys grant
+-s vmxSys grant
+-s ioctlSys grant
+-s getpgidSys grant
+-s getsidSys grant
+-s vobSys grant
+-s vsiReadSys grant
+-s rpcSys grant
+-s killSys grant
+-s sysctlSys grant
+-s syncSys grant
+-s forkSys grant
+-s forkExecSys grant
+-s cloneSys grant
+-s openSys grant
+-s mprotectSys grant
+-s iofilterSys grant
+-s crossfdSys grant
+-s pmemGenSys grant
+-s keyCacheGenSys grant
+-s vmfsGenSys grant
+
+
+
+
+
+------------------------------------------------------------------
+Domain Name: ioFilterDom Domain ID :4 Enforcement Level: enforcing
+State: 3 RefCount: 2 WorldRefCount: 0
+------------------------------------------------------------------
+-c inet_dgram_socket_create grant
+-c inet_stream_socket_create grant
+-c unix_dgram_socket_bind grant
+-c unix_socket_create grant
+-c unix_stream_socket_bind grant
+
+
+-p inet_socket_connect loopback grant
+-p inet_socket_connect nonloopback grant
+
+
+-r /usr/share/certs 
+-r /etc/group r
+-r /tardisks 
+-r /etc/vmware/ssl 
+-r /etc/shadow r
+-r /etc/passwd r
+-r /etc/vmware/secpolicy r
+-r /usr/lib/cim rx
+
+
+-s genericSys grant
+-s ioctlSys grant
+-s getpgidSys grant
+-s getsidSys grant
+-s vsiReadSys grant
+-s moduleSys grant
+-s killSys grant
+-s sysctlSys grant
+-s syncSys grant
+-s forkSys grant
+-s execSys grant
+-s cloneSys grant
+-s iofilterExitSys grant
+-s iofilterSys grant
+-s crossfdSys grant
+
+
+
+
+
+----------------------------------------------------------------
+Domain Name: pluginDom Domain ID :5 Enforcement Level: enforcing
+State: 3 RefCount: 2 WorldRefCount: 0
+----------------------------------------------------------------
+-c inet_dgram_socket_create grant
+-c inet_stream_socket_create grant
+-c unix_dgram_socket_bind grant
+-c unix_socket_create grant
+-c unix_stream_socket_bind grant
+
+
+-p inet_socket_connect loopback grant
+-p inet_socket_connect nonloopback grant
+
+
+-r /usr/share/certs 
+-r /etc/group r
+-r /tardisks 
+-r /etc/vmware/ssl 
+-r /etc/shadow r
+-r /etc/passwd r
+-r /etc/vmware/secpolicy r
+-r /usr/lib/cim rx
+
+
+-s genericSys grant
+-s ioctlSys grant
+-s getpgidSys grant
+-s getsidSys grant
+-s vsiReadSys grant
+-s moduleSys grant
+-s killSys grant
+-s sysctlSys grant
+-s syncSys grant
+-s execSys grant
+-s cloneSys grant
+-s openSys grant
+-s mprotectSys grant
+
+
+
+
+
+-------------------------------------------------------------------------
+Domain Name: pluginFrameworkDom Domain ID :6 Enforcement Level: enforcing
+State: 3 RefCount: 2 WorldRefCount: 0
+-------------------------------------------------------------------------
+-c inet_dgram_socket_create grant
+-c inet_stream_socket_create grant
+-c unix_dgram_socket_bind grant
+-c unix_socket_create grant
+-c unix_stream_socket_bind grant
+
+
+-d pluginObj pluginDom file_mmap_exec grant
+-d vmwpluginObj vmwpluginDom file_mmap_exec grant
+
+
+-p inet_socket_bind all grant
+-p inet_socket_connect loopback grant
+-p inet_socket_connect nonloopback grant
+
+
+-r /usr/share/certs 
+-r /etc/group r
+-r /tardisks 
+-r /etc/vmware/ssl r
+-r /etc/shadow r
+-r /etc/passwd r
+-r /etc/vmware/secpolicy 
+-r /usr/lib/cim rx
+
+
+-s genericSys grant
+-s ioctlSys grant
+-s getpgidSys grant
+-s getsidSys grant
+-s adminSys grant
+-s vobSys grant
+-s vsiReadSys grant
+-s vsiWriteSys grant
+-s killSys grant
+-s sysctlSys grant
+-s syncSys grant
+-s forkSys grant
+-s execSys grant
+-s forkExecSys grant
+-s cloneSys grant
+-s openSys grant
+-s mprotectSys grant
+
+
+
+
+
+-----------------------------------------------------------------
+Domain Name: tpm2emuDom Domain ID :7 Enforcement Level: enforcing
+State: 3 RefCount: 2 WorldRefCount: 0
+-----------------------------------------------------------------
+-r /etc/locatime r
+-r /bin/tpm2emu rx
+-r /etc/ld.so.conf r
+-r /etc/vmware/settings r
+-r /etc/vmware/config r
+-r / 
+-r /dev/char/vmkdriver/urandom r
+-r /etc/ld.so.cache r
+-r /lib64 rx
+-r /dev/char/mem/null r
+-r /.vmware/config r
+-r /dev/char/vmkdriver/random r
+
+
+-s openSys grant
+-s mprotectSys grant
+
+
+
+
+
+-------------------------------------------------------------------
+Domain Name: vmwpluginDom Domain ID :8 Enforcement Level: enforcing
+State: 3 RefCount: 2 WorldRefCount: 0
+-------------------------------------------------------------------
+-c inet_dgram_socket_create grant
+-c inet_stream_socket_create grant
+-c unix_dgram_socket_bind grant
+-c unix_socket_create grant
+-c unix_stream_socket_bind grant
+
+
+-p inet_socket_connect loopback grant
+-p inet_socket_connect nonloopback grant
+
+
+-r /usr/share/certs 
+-r /usr/lib/vmware/sfcb/lib/libvmwprovider.so rx
+-r /etc/group r
+-r /tardisks 
+-r /etc/vmware/ssl 
+-r /etc/shadow r
+-r /etc/passwd r
+-r /etc/vmware/secpolicy r
+
+
+-s genericSys grant
+-s ioctlSys grant
+-s getpgidSys grant
+-s getsidSys grant
+-s vsiReadSys grant
+-s moduleSys grant
+-s rpcSys grant
+-s killSys grant
+-s sysctlSys grant
+-s syncSys grant
+-s execSys grant
+-s cloneSys grant
+-s openSys grant
+-s mprotectSys grant
+
+
+
+
+
+--------------------------------------------------------------
+Domain Name: hostd12 Domain ID :9 Enforcement Level: enforcing
+State: 3 RefCount: 13 WorldRefCount: 11
+--------------------------------------------------------------
+-c dgram_vsocket_bind grant
+-c dgram_vsocket_create grant
+-c dgram_vsocket_send grant
+-c dgram_vsocket_trusted grant
+-c inet_dgram_socket_create grant
+-c inet_stream_socket_create grant
+-c stream_vsocket_bind grant
+-c stream_vsocket_connect grant
+-c stream_vsocket_create grant
+-c stream_vsocket_trusted grant
+-c unix_dgram_socket_bind grant
+-c unix_socket_create grant
+-c unix_stream_socket_bind grant
+-c vsocket_provide_service grant
+
+
+-d tpm2emuObj tpm2emuDom file_exec grant
+
+
+-p inet_socket_bind all grant
+-p inet_socket_connect loopback grant
+-p inet_socket_connect nonloopback grant
+
+
+-r /usr/share/certs r
+-r /bin/remoteDeviceConnect rx
+-r /bin/vmx rx
+-r /tmp rw
+-r /vmimages r
+-r /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/VyOS-Router rw
+-r /bin/tpm2emu rx
+-r /dev/cbt rw
+-r /etc/vmware/settings r
+-r /var/run rw
+-r /dev/char rw
+-r /dev/upit rw
+-r /var/lock rw
+-r /dev/vdfm rw
+-r /dev/deltadisks rw
+-r /lib rx
+-r /usr/libexec rx
+-r /usr/share/nvidia r
+-r /lib64 rx
+-r /bin/vmx-stats rx
+-r /vmfs/volumes/3a4fd8c6-3cd0683c-d0c1-5cf3fce846f8/packages/vmtoolsRepo r
+-r /dev/vvol rw
+-r /dev/PMemDisk rw
+-r /usr/lib64 rx
+-r /dev/vflash rw
+-r /usr/lib rx
+-r /etc r
+-r /dev/vsan rw
+-r /dev/svm rw
+-r /var/run/vmware-hostd-ticket 
+-r /var/run/inetd.conf 
+-r /.vmware r
+-r /dev/vsansparse rw
+-r /bin/vmx-debug rx
+-r /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8 r
+
+
+-s genericSys grant
+-s vmxSys grant
+-s ioctlSys grant
+-s getpgidSys grant
+-s getsidSys grant
+-s vobSys grant
+-s vsiReadSys grant
+-s rpcSys grant
+-s killSys grant
+-s sysctlSys grant
+-s syncSys grant
+-s forkSys grant
+-s forkExecSys grant
+-s cloneSys grant
+-s openSys grant
+-s mprotectSys grant
+-s iofilterSys grant
+-s crossfdSys grant
+-s pmemGenSys grant
+-s keyCacheGenSys grant
+-s vmfsGenSys grant
+
+
+
+
+
+---------------------------------------------------------------
+Domain Name: hostd13 Domain ID :10 Enforcement Level: enforcing
+State: 3 RefCount: 30 WorldRefCount: 28
+---------------------------------------------------------------
+-c dgram_vsocket_bind grant
+-c dgram_vsocket_create grant
+-c dgram_vsocket_send grant
+-c dgram_vsocket_trusted grant
+-c inet_dgram_socket_create grant
+-c inet_stream_socket_create grant
+-c stream_vsocket_bind grant
+-c stream_vsocket_connect grant
+-c stream_vsocket_create grant
+-c stream_vsocket_trusted grant
+-c unix_dgram_socket_bind grant
+-c unix_socket_create grant
+-c unix_stream_socket_bind grant
+-c vsocket_provide_service grant
+
+
+-d tpm2emuObj tpm2emuDom file_exec grant
+
+
+-p inet_socket_bind all grant
+-p inet_socket_connect loopback grant
+-p inet_socket_connect nonloopback grant
+
+
+-r /usr/share/certs r
+-r /bin/remoteDeviceConnect rx
+-r /bin/vmx rx
+-r /tmp rw
+-r /vmimages r
+-r /bin/tpm2emu rx
+-r /dev/cbt rw
+-r /etc/vmware/settings r
+-r /var/run rw
+-r /dev/char rw
+-r /dev/upit rw
+-r /var/lock rw
+-r /dev/vdfm rw
+-r /dev/deltadisks rw
+-r /lib rx
+-r /usr/libexec rx
+-r /usr/share/nvidia r
+-r /lib64 rx
+-r /bin/vmx-stats rx
+-r /vmfs/volumes/3a4fd8c6-3cd0683c-d0c1-5cf3fce846f8/packages/vmtoolsRepo r
+-r /dev/vvol rw
+-r /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-VCSA01 rw
+-r /dev/PMemDisk rw
+-r /usr/lib64 rx
+-r /dev/vflash rw
+-r /usr/lib rx
+-r /etc r
+-r /dev/vsan rw
+-r /dev/svm rw
+-r /var/run/vmware-hostd-ticket 
+-r /var/run/inetd.conf 
+-r /.vmware r
+-r /dev/vsansparse rw
+-r /bin/vmx-debug rx
+-r /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8 r
+
+
+-s genericSys grant
+-s vmxSys grant
+-s ioctlSys grant
+-s getpgidSys grant
+-s getsidSys grant
+-s vobSys grant
+-s vsiReadSys grant
+-s rpcSys grant
+-s killSys grant
+-s sysctlSys grant
+-s syncSys grant
+-s forkSys grant
+-s forkExecSys grant
+-s cloneSys grant
+-s openSys grant
+-s mprotectSys grant
+-s iofilterSys grant
+-s crossfdSys grant
+-s pmemGenSys grant
+-s keyCacheGenSys grant
+-s vmfsGenSys grant
+
+
+
+
+
+---------------------------------------------------------------
+Domain Name: hostd56 Domain ID :11 Enforcement Level: enforcing
+State: 2 RefCount: 2 WorldRefCount: 1
+---------------------------------------------------------------
+Error: failed to get capability rules: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+Error: failed to get transition rules : Unable to Get Instance List: Sysinfo error: Bad parameterSee VMkernel log for details.
+Error: failed to get capability rules: failed to get VSI node data length: Not found
+Error: failed to get file path access rules : Unable to Get Instance List: Sysinfo error: Not foundSee VMkernel log for details.
+Error: failed to get syscall rules: Unable to complete Sysinfo operation.  Please see the VMkernel log file for more details.: Sysinfo error: Not foundSee VMkernel log for details.
+
+
+
+---------------------------------------------------------------
+Domain Name: hostd54 Domain ID :13 Enforcement Level: enforcing
+State: 3 RefCount: 16 WorldRefCount: 14
+---------------------------------------------------------------
+-c dgram_vsocket_bind grant
+-c dgram_vsocket_create grant
+-c dgram_vsocket_send grant
+-c dgram_vsocket_trusted grant
+-c inet_dgram_socket_create grant
+-c inet_stream_socket_create grant
+-c stream_vsocket_bind grant
+-c stream_vsocket_connect grant
+-c stream_vsocket_create grant
+-c stream_vsocket_trusted grant
+-c unix_dgram_socket_bind grant
+-c unix_socket_create grant
+-c unix_stream_socket_bind grant
+-c vsocket_provide_service grant
+
+
+-d tpm2emuObj tpm2emuDom file_exec grant
+
+
+-p inet_socket_bind all grant
+-p inet_socket_connect loopback grant
+-p inet_socket_connect nonloopback grant
+
+
+-r /usr/share/certs r
+-r /bin/remoteDeviceConnect rx
+-r /bin/vmx rx
+-r /tmp rw
+-r /vmimages r
+-r /bin/tpm2emu rx
+-r /dev/cbt rw
+-r /etc/vmware/settings r
+-r /var/run rw
+-r /dev/char rw
+-r /dev/upit rw
+-r /var/lock rw
+-r /dev/vdfm rw
+-r /dev/deltadisks rw
+-r /lib rx
+-r /usr/libexec rx
+-r /usr/share/nvidia r
+-r /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8/SGRL-ADC001_1 rw
+-r /lib64 rx
+-r /bin/vmx-stats rx
+-r /vmfs/volumes/3a4fd8c6-3cd0683c-d0c1-5cf3fce846f8/packages/vmtoolsRepo r
+-r /dev/vvol rw
+-r /dev/PMemDisk rw
+-r /usr/lib64 rx
+-r /dev/vflash rw
+-r /usr/lib rx
+-r /etc r
+-r /dev/vsan rw
+-r /dev/svm rw
+-r /var/run/vmware-hostd-ticket 
+-r /var/run/inetd.conf 
+-r /.vmware r
+-r /dev/vsansparse rw
+-r /bin/vmx-debug rx
+-r /vmfs/volumes/3a4fd8ce-fc4375c4-effb-5cf3fce846f8 r
+
+
+-s genericSys grant
+-s vmxSys grant
+-s ioctlSys grant
+-s getpgidSys grant
+-s getsidSys grant
+-s vobSys grant
+-s vsiReadSys grant
+-s rpcSys grant
+-s killSys grant
+-s sysctlSys grant
+-s syncSys grant
+-s forkSys grant
+-s forkExecSys grant
+-s cloneSys grant
+-s openSys grant
+-s mprotectSys grant
+-s iofilterSys grant
+-s crossfdSys grant
+-s pmemGenSys grant
+-s keyCacheGenSys grant
+-s vmfsGenSys grant
+
+
+
+
+
+---------------------------------
+Objects Defined: Name (Kernel Id)
+---------------------------------
+appObj (108)
+authObj (110)
+certObj (111)
+cimObj (105)
+pluginObj (106)
+secpolicyObj (104)
+sslKeyObj (109)
+tardiskMountObj (112)
+tpm2emuObj (113)
+unlabeled (0)
+vmwpluginObj (107)
+
+
+--------------------
+Tardisk Path (label)
+--------------------
+/tardisks/vmx.v00 (unlabeled)
+/tardisks/vim.v00 (unlabeled)
+/tardisks/sb.v00 (unlabeled)
+/tardisks/s.v00 (unlabeled)
+/tardisks/lsi_msgp.v00 (appObj)
+/tardisks/bnxtnet.v00 (appObj)
+/tardisks/bnxtroce.v00 (appObj)
+/tardisks/lsi_mr3.v00 (appObj)
+/tardisks/lsi_msgp.v01 (appObj)
+/tardisks/elx_esx_.v00 (appObj)
+/tardisks/brcmfcoe.v00 (appObj)
+/tardisks/elxiscsi.v00 (appObj)
+/tardisks/elxnet.v00 (appObj)
+/tardisks/lpfc.v00 (appObj)
+/tardisks/i40en.v00 (appObj)
+/tardisks/iavmd.v00 (appObj)
+/tardisks/icen.v00 (appObj)
+/tardisks/igbn.v00 (appObj)
+/tardisks/ixgben.v00 (appObj)
+/tardisks/nmlx4_co.v00 (appObj)
+/tardisks/nmlx4_en.v00 (appObj)
+/tardisks/nmlx4_rd.v00 (appObj)
+/tardisks/nmlx5_co.v00 (appObj)
+/tardisks/nmlx5_rd.v00 (appObj)
+/tardisks/smartpqi.v00 (appObj)
+/tardisks/qlnative.v00 (appObj)
+/tardisks/qcnic.v00 (appObj)
+/tardisks/qedentv_.v00 (appObj)
+/tardisks/qedentv.v00 (appObj)
+/tardisks/qedf.v00 (appObj)
+/tardisks/qedi.v00 (appObj)
+/tardisks/qedrntv.v00 (appObj)
+/tardisks/qfle3.v00 (appObj)
+/tardisks/qfle3f.v00 (appObj)
+/tardisks/qfle3i.v00 (appObj)
+/tardisks/ata_liba.v00 (appObj)
+/tardisks/ata_pata.v00 (appObj)
+/tardisks/ata_pata.v01 (appObj)
+/tardisks/ata_pata.v02 (appObj)
+/tardisks/ata_pata.v03 (appObj)
+/tardisks/ata_pata.v04 (appObj)
+/tardisks/ata_pata.v05 (appObj)
+/tardisks/ata_pata.v06 (appObj)
+/tardisks/ata_pata.v07 (appObj)
+/tardisks/block_cc.v00 (appObj)
+/tardisks/char_ran.v00 (appObj)
+/tardisks/ehci_ehc.v00 (appObj)
+/tardisks/hid_hid.v00 (appObj)
+/tardisks/ima_qla4.v00 (appObj)
+/tardisks/ipmi_ipm.v00 (appObj)
+/tardisks/ipmi_ipm.v01 (appObj)
+/tardisks/ipmi_ipm.v02 (appObj)
+/tardisks/iser.v00 (appObj)
+/tardisks/lpnic.v00 (appObj)
+/tardisks/lsi_msgp.v02 (appObj)
+/tardisks/misc_cni.v00 (appObj)
+/tardisks/misc_dri.v00 (appObj)
+/tardisks/mtip32xx.v00 (appObj)
+/tardisks/ne1000.v00 (appObj)
+/tardisks/nenic.v00 (appObj)
+/tardisks/net_bnx2.v00 (appObj)
+/tardisks/net_bnx2.v01 (appObj)
+/tardisks/net_cdc_.v00 (appObj)
+/tardisks/net_cnic.v00 (appObj)
+/tardisks/net_e100.v00 (appObj)
+/tardisks/net_e100.v01 (appObj)
+/tardisks/net_enic.v00 (appObj)
+/tardisks/net_fcoe.v00 (appObj)
+/tardisks/net_forc.v00 (appObj)
+/tardisks/net_igb.v00 (appObj)
+/tardisks/net_ixgb.v00 (appObj)
+/tardisks/net_libf.v00 (appObj)
+/tardisks/net_mlx4.v00 (appObj)
+/tardisks/net_mlx4.v01 (appObj)
+/tardisks/net_nx_n.v00 (appObj)
+/tardisks/net_tg3.v00 (appObj)
+/tardisks/net_usbn.v00 (appObj)
+/tardisks/net_vmxn.v00 (appObj)
+/tardisks/nfnic.v00 (appObj)
+/tardisks/nhpsa.v00 (appObj)
+/tardisks/ntg3.v00 (appObj)
+/tardisks/nvme.v00 (appObj)
+/tardisks/nvmxnet3.v00 (appObj)
+/tardisks/nvmxnet3.v01 (appObj)
+/tardisks/ohci_usb.v00 (appObj)
+/tardisks/pvscsi.v00 (appObj)
+/tardisks/qflge.v00 (appObj)
+/tardisks/sata_ahc.v00 (appObj)
+/tardisks/sata_ata.v00 (appObj)
+/tardisks/sata_sat.v00 (appObj)
+/tardisks/sata_sat.v01 (appObj)
+/tardisks/sata_sat.v02 (appObj)
+/tardisks/sata_sat.v03 (appObj)
+/tardisks/sata_sat.v04 (appObj)
+/tardisks/scsi_aac.v00 (appObj)
+/tardisks/scsi_adp.v00 (appObj)
+/tardisks/scsi_aic.v00 (appObj)
+/tardisks/scsi_bnx.v00 (appObj)
+/tardisks/scsi_bnx.v01 (appObj)
+/tardisks/scsi_fni.v00 (appObj)
+/tardisks/scsi_hps.v00 (appObj)
+/tardisks/scsi_ips.v00 (appObj)
+/tardisks/scsi_isc.v00 (appObj)
+/tardisks/scsi_lib.v00 (appObj)
+/tardisks/scsi_meg.v00 (appObj)
+/tardisks/scsi_meg.v01 (appObj)
+/tardisks/scsi_meg.v02 (appObj)
+/tardisks/scsi_mpt.v00 (appObj)
+/tardisks/scsi_mpt.v01 (appObj)
+/tardisks/scsi_mpt.v02 (appObj)
+/tardisks/scsi_qla.v00 (appObj)
+/tardisks/sfvmk.v00 (appObj)
+/tardisks/shim_isc.v00 (appObj)
+/tardisks/shim_isc.v01 (appObj)
+/tardisks/shim_lib.v00 (appObj)
+/tardisks/shim_lib.v01 (appObj)
+/tardisks/shim_lib.v02 (appObj)
+/tardisks/shim_lib.v03 (appObj)
+/tardisks/shim_lib.v04 (appObj)
+/tardisks/shim_lib.v05 (appObj)
+/tardisks/shim_vmk.v00 (appObj)
+/tardisks/shim_vmk.v01 (appObj)
+/tardisks/shim_vmk.v02 (appObj)
+/tardisks/uhci_usb.v00 (appObj)
+/tardisks/usb_stor.v00 (appObj)
+/tardisks/usbcore_.v00 (appObj)
+/tardisks/vmkata.v00 (appObj)
+/tardisks/vmkfcoe.v00 (appObj)
+/tardisks/vmkplexe.v00 (appObj)
+/tardisks/vmkusb.v00 (appObj)
+/tardisks/vmw_ahci.v00 (appObj)
+/tardisks/xhci_xhc.v00 (appObj)
+/tardisks/elx_esx_.v01 (appObj)
+/tardisks/btldr.t00 (appObj)
+/tardisks/esx_dvfi.v00 (appObj)
+/tardisks/esx_ui.v00 (appObj)
+/tardisks/esxupdt.v00 (appObj)
+/tardisks/weaselin.t00 (unlabeled)
+/tardisks/lsu_hp_h.v00 (appObj)
+/tardisks/lsu_inte.v00 (appObj)
+/tardisks/lsu_lsi_.v00 (appObj)
+/tardisks/lsu_lsi_.v01 (appObj)
+/tardisks/lsu_lsi_.v02 (appObj)
+/tardisks/lsu_lsi_.v03 (appObj)
+/tardisks/lsu_lsi_.v04 (appObj)
+/tardisks/lsu_smar.v00 (appObj)
+/tardisks/native_m.v00 (appObj)
+/tardisks/rste.v00 (appObj)
+/tardisks/vmware_e.v00 (appObj)
+/tardisks/vsan.v00 (unlabeled)
+/tardisks/vsanheal.v00 (appObj)
+/tardisks/vsanmgmt.v00 (appObj)
+/tardisks/lnvcusto.v00 (appObj)
+/tardisks/xorg.v00 (appObj)
+/tardisks/imgdb.tgz (appObj)
+/tardisks/state.tgz (appObj)

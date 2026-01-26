@@ -1,0 +1,12 @@
+% Manifest name: CoreDumps
+% Manifest group: VirtualMachines
+% Manifest default: Enabled
+% Manifest tag: vm,logs
+# action Options file/command
+
+# Collect VM and monitor core dumps
+vmfile IGNORE_MISSING vmmcores.gz
+vmfile IGNORE_MISSING,FILTER=/usr/lib/vmware/vm-support/bin/collect-envelope.sh vmmcores.ve
+vmfile IGNORE_MISSING,FILTER=/usr/lib/vmware/vm-support/bin/collect-zdump.sh  *-zdump*
+vmfile IGNORE_MISSING,FILTER=/usr/lib/vmware/vm-support/bin/collect-zdump.sh  *-debug-zdump*
+

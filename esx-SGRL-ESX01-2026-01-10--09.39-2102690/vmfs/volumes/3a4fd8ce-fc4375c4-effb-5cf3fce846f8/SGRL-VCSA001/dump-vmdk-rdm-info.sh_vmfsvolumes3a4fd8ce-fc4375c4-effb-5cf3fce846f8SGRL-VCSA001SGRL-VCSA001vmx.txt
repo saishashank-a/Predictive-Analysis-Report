@@ -1,0 +1,32 @@
+# vmkfstools -q SGRL-VCSA001.vmdk
+SGRL-VCSA001.vmdk is not an rdm
+# vmkfstools -q SGRL-VCSA001_1.vmdk
+SGRL-VCSA001_1.vmdk is not an rdm
+# vmkfstools -q SGRL-VCSA001_2.vmdk
+SGRL-VCSA001_2.vmdk is not an rdm
+# vmkfstools -q SGRL-VCSA001_3.vmdk
+SGRL-VCSA001_3.vmdk is not an rdm
+# vmkfstools -q SGRL-VCSA001_4.vmdk
+SGRL-VCSA001_4.vmdk is not an rdm
+# vmkfstools -q SGRL-VCSA001_5.vmdk
+SGRL-VCSA001_5.vmdk is not an rdm
+# vmkfstools -q SGRL-VCSA001_6.vmdk
+SGRL-VCSA001_6.vmdk is not an rdm
+# vmkfstools -q SGRL-VCSA001_7.vmdk
+SGRL-VCSA001_7.vmdk is not an rdm
+# vmkfstools -q SGRL-VCSA001_8.vmdk
+SGRL-VCSA001_8.vmdk is not an rdm
+# vmkfstools -q SGRL-VCSA001_9.vmdk
+SGRL-VCSA001_9.vmdk is not an rdm
+# vmkfstools -q SGRL-VCSA001_10.vmdk
+SGRL-VCSA001_10.vmdk is not an rdm
+# vmkfstools -q SGRL-VCSA001_11.vmdk
+SGRL-VCSA001_11.vmdk is not an rdm
+# vmkfstools -q SGRL-VCSA001_12.vmdk
+SGRL-VCSA001_12.vmdk is not an rdm
+# vmkfstools -q SGRL-VCSA001_13.vmdk
+SGRL-VCSA001_13.vmdk is not an rdm
+# vmkfstools -q SGRL-VCSA001_14.vmdk
+SGRL-VCSA001_14.vmdk is not an rdm
+# vmkfstools -q SGRL-VCSA001_15.vmdk
+SGRL-VCSA001_15.vmdk is not an rdm

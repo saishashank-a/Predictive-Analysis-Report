@@ -1,0 +1,8 @@
+% Manifest name: NAS
+% Manifest group: Storage
+% Manifest default: Enabled
+% Manifest tag: storage,nas
+# action Options file/command
+
+run DUMP_JSON /usr/sbin/localcli storage nfs list
+run DUMP_JSON /usr/sbin/localcli storage nfs41 list

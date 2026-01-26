@@ -1,0 +1,24 @@
+% Manifest name: performance-end
+% Manifest group: PerformanceSnapshot
+% Manifest default: Disabled
+% Manifest tag: performance
+# Special manifest for performance snapshots
+#
+# When vm-support is run with --performonce, all the commands in this
+# file are executed at the end of each specified snapshot interval
+# action Options file/command
+
+# Stop and collect scheduler stats
+run IGNORE_ERROR sched-stats -s 0
+run IGNORE_ERROR /sbin/vsi_traverse -s
+
+# Stop and collect vmkstats
+run IGNORE_ERROR /usr/lib/vmware/vmkstats/bin/vmkstatsdumper -e
+run IGNORE_ERROR /usr/lib/vmware/vmkstats/bin/vmkstatsdumper -d
+run IGNORE_ERROR /usr/lib/vmware/vmkstats/bin/vmkstatsdumper -a -o /var/tmp
+run IGNORE_ERROR vsish -e set /perf/vmkstats/command/release
+copy IGNORE_MISSING /var/tmp/status
+copy IGNORE_MISSING /var/tmp/images
+copy IGNORE_MISSING /var/tmp/symbolTable.k
+copy IGNORE_MISSING /var/tmp/samples
+copy IGNORE_MISSING /var/tmp/callStacks

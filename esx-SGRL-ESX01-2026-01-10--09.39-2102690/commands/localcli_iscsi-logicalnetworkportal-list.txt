@@ -1,0 +1,2 @@
+Adapter  Vmknic  MAC Address  MAC Address Valid  Compliant
+----------------------------------------------------------

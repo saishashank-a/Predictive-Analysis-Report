@@ -1,0 +1,3 @@
+regtype=linux,bus=pci,id=1137:0045 0000:0000,driver=fnic,class=storage
+regtype=linux,bus=pci,id=1137:0045 1137:0047,driver=fnic,class=storage
+regtype=linux,bus=pci,id=1137:0045 1137:0048,driver=fnic,class=storage

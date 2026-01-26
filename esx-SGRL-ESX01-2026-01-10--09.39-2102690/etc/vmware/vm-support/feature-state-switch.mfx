@@ -1,0 +1,5 @@
+% Manifest name: FeatureStateSwitch
+% Manifest group: FeatureStateSwitch
+% Manifest default: Enabled
+# action Options file/command
+copy  IGNORE_MISSING      /etc/vmware/vsphereFeatures/vsphereFeatures.cfg

@@ -1,0 +1,9 @@
+<config>
+<welcomePageLink>
+<en>
+<context>You are running Lenovo Customized Image ESXi6.7 Update 3 (based on ESXi 6.7 Vmkernel Release)</context>
+<text>Lenovo System X or ThinkSystem with VMware</text>
+<url>http://vmware.lenovo.com</url>
+</en>
+</welcomePageLink>
+</config>

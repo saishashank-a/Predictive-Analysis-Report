@@ -1,0 +1,6 @@
+% Manifest name: vswitch
+% Manifest group: Network
+% Manifest default: Enabled
+% Manifest tag: networking
+# action Options file/command
+run TIMEOUT=60,IGNORE_ERROR /usr/lib/vmware/vm-support/bin/dump-cswitch-info.py

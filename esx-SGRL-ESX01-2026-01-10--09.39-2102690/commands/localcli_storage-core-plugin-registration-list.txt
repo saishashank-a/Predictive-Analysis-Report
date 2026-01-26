@@ -1,0 +1,33 @@
+Module Name          Plugin Name          Plugin Class  Dependencies                   Full Path
+------------------------------------------------------------------------------------------------
+vmw_vaaip_emc        None                 VAAI                                         
+vmw_vaaip_t10        VMW_VAAIP_T10        VAAI                                         
+vmw_vaaip_mask       VMW_VAAIP_MASK       VAAI                                         
+vmw_vaaip_symm       VMW_VAAIP_SYMM       VAAI          vmw_vaaip_emc                  
+vmw_vaaip_netapp     VMW_VAAIP_NETAPP     VAAI                                         
+vmw_vaaip_lhn        VMW_VAAIP_LHN        VAAI                                         
+vmw_vaaip_hds        VMW_VAAIP_HDS        VAAI                                         
+vmw_vaaip_eql        VMW_VAAIP_EQL        VAAI                                         
+vmw_vaaip_cx         VMW_VAAIP_CX         VAAI          vmw_vaaip_emc,vmw_satp_lib_cx  
+vaai_filter          VAAI_FILTER          Filter                                       
+vmw_psp_lib          None                 PSP                                          
+vmw_psp_mru          VMW_PSP_MRU          PSP           vmw_psp_lib                    
+vmw_psp_rr           VMW_PSP_RR           PSP           vmw_psp_lib                    
+vmw_psp_fixed        VMW_PSP_FIXED        PSP           vmw_psp_lib                    
+mask_path_plugin     MASK_PATH            MP                                           
+hpp                  HPP                  MP                                           
+nmp                  NMP                  MP                                           
+vmw_satp_symm        VMW_SATP_SYMM        SATP                                         
+vmw_satp_svc         VMW_SATP_SVC         SATP                                         
+vmw_satp_msa         VMW_SATP_MSA         SATP                                         
+vmw_satp_lsi         VMW_SATP_LSI         SATP                                         
+vmw_satp_inv         VMW_SATP_INV         SATP          vmw_satp_lib_cx                
+vmw_satp_eva         VMW_SATP_EVA         SATP                                         
+vmw_satp_eql         VMW_SATP_EQL         SATP                                         
+vmw_satp_cx          VMW_SATP_CX          SATP          vmw_satp_lib_cx                
+vmw_satp_alua_cx     VMW_SATP_ALUA_CX     SATP          vmw_satp_alua,vmw_satp_lib_cx  
+vmw_satp_lib_cx      None                 SATP                                         
+vmw_satp_alua        VMW_SATP_ALUA        SATP                                         
+vmw_satp_default_ap  VMW_SATP_DEFAULT_AP  SATP                                         
+vmw_satp_default_aa  VMW_SATP_DEFAULT_AA  SATP                                         
+vmw_satp_local       VMW_SATP_LOCAL       SATP                                         

@@ -1,0 +1,14 @@
+% Manifest name: base
+% Manifest group: Network
+% Manifest default: Enabled
+% Manifest tag: networking
+# action Options file/command
+
+run - /usr/sbin/esxcfg-vswitch -l
+run - /usr/sbin/esxcfg-vmknic -l
+run - /usr/sbin/localcli network multicast group list
+run - /usr/sbin/vmkping -D -v
+run - /usr/sbin/net-stats -l
+run IGNORE_ERROR /usr/lib/vmware/vm-support/bin/nicinfo.sh
+run SERIALIZED,IGNORE_ERROR /sbin/lldpnetmap
+run IGNORE_ERROR /sbin/summarize-dvfilter

@@ -1,0 +1,7 @@
+% Manifest name: vmfsheader
+% Manifest group: FileSystem
+% Manifest default: Disabled
+% Manifest tag: filesystem
+# action Options file/command
+
+copy -  /vmfs/volumes/*/.vh.sf

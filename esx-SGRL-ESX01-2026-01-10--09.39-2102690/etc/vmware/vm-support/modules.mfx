@@ -1,0 +1,7 @@
+% Manifest name: Modules
+% Manifest group: System
+% Manifest default: Enabled
+% Manifest tag: base
+# action Options file/command
+run - /usr/sbin/vmkload_mod -v10 -l
+run IGNORE_ERROR /usr/sbin/esxcfg-module -q

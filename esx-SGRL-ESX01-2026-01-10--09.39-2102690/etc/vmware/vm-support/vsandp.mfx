@@ -1,0 +1,15 @@
+% Manifest name: VSANDP
+% Manifest group: Storage
+% Manifest default: Enabled
+% Manifest tag: storage,vsandp
+# action Options file/command
+
+
+#
+# VSAN DP
+#
+
+run IGNORE_ERROR,RELOCATE=/var/log/vsandpd.tar.gz /usr/lib/vmware/vsan/bin/vsandpd-support.py
+copy IGNORE_ERROR,IGNORE_MISSING /var/run/heaptrack/*
+copy TIMEOUT=10,IGNORE_MISSING /var/log/vsantraces/vsantracesDP.index
+copy TIMEOUT=10,IGNORE_MISSING /var/log/vsantraces/vsantracesDP--*.gz

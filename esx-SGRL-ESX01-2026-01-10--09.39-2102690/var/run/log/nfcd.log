@@ -1,0 +1,1080 @@
+2001-01-01T01:16:59Z nfcd[2099171]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T01:16:59Z nfcd[2099171]: InitLog: Failed to establish log file
+2001-01-01T01:16:59Z nfcd[2099171]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T01:16:59Z nfcd[2099171]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T01:16:59Z nfcd[2099171]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T01:16:59Z nfcd[2099171]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T01:16:59Z nfcd[2099179]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T01:16:59Z nfcd[2099179]: InitLog: Failed to establish log file
+2001-01-01T01:16:59Z nfcd[2099179]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T01:16:59Z nfcd[2099179]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T01:16:59Z nfcd[2099179]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T01:16:59Z nfcd[2099179]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T01:16:59Z nfcd[2099187]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T01:16:59Z nfcd[2099187]: InitLog: Failed to establish log file
+2001-01-01T01:16:59Z nfcd[2099187]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T01:16:59Z nfcd[2099187]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T01:16:59Z nfcd[2099187]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T01:16:59Z nfcd[2099187]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T01:16:59Z nfcd[2099200]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T01:16:59Z nfcd[2099200]: InitLog: Failed to establish log file
+2001-01-01T01:16:59Z nfcd[2099200]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T01:16:59Z nfcd[2099200]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T01:16:59Z nfcd[2099200]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T01:16:59Z nfcd[2099200]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T01:16:59Z nfcd[2099211]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T01:16:59Z nfcd[2099211]: InitLog: Failed to establish log file
+2001-01-01T01:16:59Z nfcd[2099211]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T01:16:59Z nfcd[2099211]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T01:16:59Z nfcd[2099211]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T01:16:59Z nfcd[2099211]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T01:16:59Z nfcd[2099219]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T01:16:59Z nfcd[2099219]: InitLog: Failed to establish log file
+2001-01-01T01:16:59Z nfcd[2099219]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T01:16:59Z nfcd[2099219]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T01:16:59Z nfcd[2099219]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T01:16:59Z nfcd[2099219]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099050]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099050]: InitLog: Failed to establish log file
+2001-01-01T00:02:32Z nfcd[2099050]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099050]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099050]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099050]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099058]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099058]: InitLog: Failed to establish log file
+2001-01-01T00:02:32Z nfcd[2099058]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099058]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099058]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099058]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099067]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099067]: InitLog: Failed to establish log file
+2001-01-01T00:02:32Z nfcd[2099067]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099067]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099067]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099067]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099079]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099079]: InitLog: Failed to establish log file
+2001-01-01T00:02:32Z nfcd[2099079]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099079]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099079]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099079]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099090]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099090]: InitLog: Failed to establish log file
+2001-01-01T00:02:32Z nfcd[2099090]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099090]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099090]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099090]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099098]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099098]: InitLog: Failed to establish log file
+2001-01-01T00:02:32Z nfcd[2099098]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099098]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099098]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099098]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099048]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099048]: InitLog: Failed to establish log file
+2001-01-01T00:02:30Z nfcd[2099048]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:30Z nfcd[2099048]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099048]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:30Z nfcd[2099048]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099057]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099057]: InitLog: Failed to establish log file
+2001-01-01T00:02:30Z nfcd[2099057]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:30Z nfcd[2099057]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099057]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:30Z nfcd[2099057]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099065]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099065]: InitLog: Failed to establish log file
+2001-01-01T00:02:30Z nfcd[2099065]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:30Z nfcd[2099065]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099065]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:30Z nfcd[2099065]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099077]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099077]: InitLog: Failed to establish log file
+2001-01-01T00:02:30Z nfcd[2099077]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:30Z nfcd[2099077]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099077]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:30Z nfcd[2099077]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099088]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099088]: InitLog: Failed to establish log file
+2001-01-01T00:02:30Z nfcd[2099088]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:30Z nfcd[2099088]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099088]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:30Z nfcd[2099088]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099096]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099096]: InitLog: Failed to establish log file
+2001-01-01T00:02:30Z nfcd[2099096]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:30Z nfcd[2099096]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099096]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:30Z nfcd[2099096]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099084]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099084]: InitLog: Failed to establish log file
+2001-01-01T00:02:36Z nfcd[2099084]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:36Z nfcd[2099084]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099084]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:36Z nfcd[2099084]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099092]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099092]: InitLog: Failed to establish log file
+2001-01-01T00:02:36Z nfcd[2099092]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:36Z nfcd[2099092]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099092]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:36Z nfcd[2099092]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099101]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099101]: InitLog: Failed to establish log file
+2001-01-01T00:02:36Z nfcd[2099101]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:36Z nfcd[2099101]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099101]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:36Z nfcd[2099101]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099113]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099113]: InitLog: Failed to establish log file
+2001-01-01T00:02:36Z nfcd[2099113]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:36Z nfcd[2099113]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099113]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:36Z nfcd[2099113]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099124]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099124]: InitLog: Failed to establish log file
+2001-01-01T00:02:36Z nfcd[2099124]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:36Z nfcd[2099124]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099124]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:36Z nfcd[2099124]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099132]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099132]: InitLog: Failed to establish log file
+2001-01-01T00:02:36Z nfcd[2099132]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:36Z nfcd[2099132]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099132]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:36Z nfcd[2099132]: Failed to setup the IPV6 socket: No such file or directory.
+2025-09-02T10:59:09Z nfcd[2099086]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-09-02T10:59:09Z nfcd[2099086]: InitLog: Failed to establish log file
+2025-09-02T10:59:09Z nfcd[2099086]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-09-02T10:59:09Z nfcd[2099086]: Failed to setup the IPV4 socket: No such file or directory.
+2025-09-02T10:59:09Z nfcd[2099086]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-09-02T10:59:09Z nfcd[2099086]: Failed to setup the IPV6 socket: No such file or directory.
+2025-09-02T10:59:09Z nfcd[2099094]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-09-02T10:59:09Z nfcd[2099094]: InitLog: Failed to establish log file
+2025-09-02T10:59:09Z nfcd[2099094]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-09-02T10:59:09Z nfcd[2099094]: Failed to setup the IPV4 socket: No such file or directory.
+2025-09-02T10:59:09Z nfcd[2099094]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-09-02T10:59:09Z nfcd[2099094]: Failed to setup the IPV6 socket: No such file or directory.
+2025-09-02T10:59:09Z nfcd[2099102]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-09-02T10:59:09Z nfcd[2099102]: InitLog: Failed to establish log file
+2025-09-02T10:59:09Z nfcd[2099102]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-09-02T10:59:09Z nfcd[2099102]: Failed to setup the IPV4 socket: No such file or directory.
+2025-09-02T10:59:09Z nfcd[2099102]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-09-02T10:59:09Z nfcd[2099102]: Failed to setup the IPV6 socket: No such file or directory.
+2025-09-02T10:59:09Z nfcd[2099115]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-09-02T10:59:09Z nfcd[2099115]: InitLog: Failed to establish log file
+2025-09-02T10:59:09Z nfcd[2099115]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-09-02T10:59:09Z nfcd[2099115]: Failed to setup the IPV4 socket: No such file or directory.
+2025-09-02T10:59:09Z nfcd[2099115]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-09-02T10:59:09Z nfcd[2099115]: Failed to setup the IPV6 socket: No such file or directory.
+2025-09-02T10:59:09Z nfcd[2099126]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-09-02T10:59:09Z nfcd[2099126]: InitLog: Failed to establish log file
+2025-09-02T10:59:09Z nfcd[2099126]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-09-02T10:59:09Z nfcd[2099126]: Failed to setup the IPV4 socket: No such file or directory.
+2025-09-02T10:59:09Z nfcd[2099126]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-09-02T10:59:09Z nfcd[2099126]: Failed to setup the IPV6 socket: No such file or directory.
+2025-09-02T10:59:09Z nfcd[2099134]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-09-02T10:59:09Z nfcd[2099134]: InitLog: Failed to establish log file
+2025-09-02T10:59:09Z nfcd[2099134]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-09-02T10:59:09Z nfcd[2099134]: Failed to setup the IPV4 socket: No such file or directory.
+2025-09-02T10:59:09Z nfcd[2099134]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-09-02T10:59:09Z nfcd[2099134]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:38Z nfcd[2099084]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:38Z nfcd[2099084]: InitLog: Failed to establish log file
+2001-01-01T00:02:38Z nfcd[2099084]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:38Z nfcd[2099084]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:38Z nfcd[2099084]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:38Z nfcd[2099084]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:38Z nfcd[2099092]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:38Z nfcd[2099092]: InitLog: Failed to establish log file
+2001-01-01T00:02:38Z nfcd[2099092]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:38Z nfcd[2099092]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:38Z nfcd[2099092]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:38Z nfcd[2099092]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:38Z nfcd[2099100]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:38Z nfcd[2099100]: InitLog: Failed to establish log file
+2001-01-01T00:02:38Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:38Z nfcd[2099100]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:38Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:38Z nfcd[2099100]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:38Z nfcd[2099113]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:38Z nfcd[2099113]: InitLog: Failed to establish log file
+2001-01-01T00:02:38Z nfcd[2099113]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:38Z nfcd[2099113]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:38Z nfcd[2099113]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:38Z nfcd[2099113]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:38Z nfcd[2099124]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:38Z nfcd[2099124]: InitLog: Failed to establish log file
+2001-01-01T00:02:38Z nfcd[2099124]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:38Z nfcd[2099124]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:38Z nfcd[2099124]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:38Z nfcd[2099124]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:38Z nfcd[2099132]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:38Z nfcd[2099132]: InitLog: Failed to establish log file
+2001-01-01T00:02:38Z nfcd[2099132]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:38Z nfcd[2099132]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:38Z nfcd[2099132]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:38Z nfcd[2099132]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099084]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099084]: InitLog: Failed to establish log file
+2001-01-01T00:02:36Z nfcd[2099084]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:36Z nfcd[2099084]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099084]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:36Z nfcd[2099084]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099092]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099092]: InitLog: Failed to establish log file
+2001-01-01T00:02:36Z nfcd[2099092]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:36Z nfcd[2099092]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099092]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:36Z nfcd[2099092]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099100]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099100]: InitLog: Failed to establish log file
+2001-01-01T00:02:36Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:36Z nfcd[2099100]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:36Z nfcd[2099100]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099113]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099113]: InitLog: Failed to establish log file
+2001-01-01T00:02:36Z nfcd[2099113]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:36Z nfcd[2099113]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099113]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:36Z nfcd[2099113]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099124]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099124]: InitLog: Failed to establish log file
+2001-01-01T00:02:36Z nfcd[2099124]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:36Z nfcd[2099124]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099124]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:36Z nfcd[2099124]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099132]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099132]: InitLog: Failed to establish log file
+2001-01-01T00:02:36Z nfcd[2099132]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:36Z nfcd[2099132]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:36Z nfcd[2099132]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:36Z nfcd[2099132]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099084]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099084]: InitLog: Failed to establish log file
+2001-01-01T00:02:37Z nfcd[2099084]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:37Z nfcd[2099084]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099084]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:37Z nfcd[2099084]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099092]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099092]: InitLog: Failed to establish log file
+2001-01-01T00:02:37Z nfcd[2099092]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:37Z nfcd[2099092]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099092]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:37Z nfcd[2099092]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099101]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099101]: InitLog: Failed to establish log file
+2001-01-01T00:02:37Z nfcd[2099101]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:37Z nfcd[2099101]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099101]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:37Z nfcd[2099101]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099113]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099113]: InitLog: Failed to establish log file
+2001-01-01T00:02:37Z nfcd[2099113]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:37Z nfcd[2099113]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099113]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:37Z nfcd[2099113]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099124]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099124]: InitLog: Failed to establish log file
+2001-01-01T00:02:37Z nfcd[2099124]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:37Z nfcd[2099124]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099124]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:37Z nfcd[2099124]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099132]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099132]: InitLog: Failed to establish log file
+2001-01-01T00:02:37Z nfcd[2099132]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:37Z nfcd[2099132]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099132]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:37Z nfcd[2099132]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099080]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099080]: InitLog: Failed to establish log file
+2001-01-01T00:02:37Z nfcd[2099080]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:37Z nfcd[2099080]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099080]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:37Z nfcd[2099080]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099090]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099090]: InitLog: Failed to establish log file
+2001-01-01T00:02:37Z nfcd[2099090]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:37Z nfcd[2099090]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099090]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:37Z nfcd[2099090]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099100]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099100]: InitLog: Failed to establish log file
+2001-01-01T00:02:37Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:37Z nfcd[2099100]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:37Z nfcd[2099100]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099112]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099112]: InitLog: Failed to establish log file
+2001-01-01T00:02:37Z nfcd[2099112]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:37Z nfcd[2099112]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099112]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:37Z nfcd[2099112]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099123]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099123]: InitLog: Failed to establish log file
+2001-01-01T00:02:37Z nfcd[2099123]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:37Z nfcd[2099123]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099123]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:37Z nfcd[2099123]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099132]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099132]: InitLog: Failed to establish log file
+2001-01-01T00:02:37Z nfcd[2099132]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:37Z nfcd[2099132]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:37Z nfcd[2099132]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:37Z nfcd[2099132]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099052]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099052]: InitLog: Failed to establish log file
+2001-01-01T00:02:31Z nfcd[2099052]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:31Z nfcd[2099052]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099052]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:31Z nfcd[2099052]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099060]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099060]: InitLog: Failed to establish log file
+2001-01-01T00:02:31Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:31Z nfcd[2099060]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:31Z nfcd[2099060]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099068]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099068]: InitLog: Failed to establish log file
+2001-01-01T00:02:31Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:31Z nfcd[2099068]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:31Z nfcd[2099068]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099080]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099080]: InitLog: Failed to establish log file
+2001-01-01T00:02:31Z nfcd[2099080]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:31Z nfcd[2099080]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099080]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:31Z nfcd[2099080]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099092]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099092]: InitLog: Failed to establish log file
+2001-01-01T00:02:31Z nfcd[2099092]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:31Z nfcd[2099092]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099092]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:31Z nfcd[2099092]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099100]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099100]: InitLog: Failed to establish log file
+2001-01-01T00:02:32Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099100]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099100]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099052]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099052]: InitLog: Failed to establish log file
+2001-01-01T00:02:30Z nfcd[2099052]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:30Z nfcd[2099052]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099052]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:30Z nfcd[2099052]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099060]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099060]: InitLog: Failed to establish log file
+2001-01-01T00:02:30Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:30Z nfcd[2099060]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:30Z nfcd[2099060]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099068]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099068]: InitLog: Failed to establish log file
+2001-01-01T00:02:30Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:30Z nfcd[2099068]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:30Z nfcd[2099068]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099081]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099081]: InitLog: Failed to establish log file
+2001-01-01T00:02:30Z nfcd[2099081]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:30Z nfcd[2099081]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099081]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:30Z nfcd[2099081]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099091]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099091]: InitLog: Failed to establish log file
+2001-01-01T00:02:30Z nfcd[2099091]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:30Z nfcd[2099091]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099091]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:30Z nfcd[2099091]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099100]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099100]: InitLog: Failed to establish log file
+2001-01-01T00:02:30Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:30Z nfcd[2099100]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:30Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:30Z nfcd[2099100]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099052]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099052]: InitLog: Failed to establish log file
+2001-01-01T00:02:31Z nfcd[2099052]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:31Z nfcd[2099052]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099052]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:31Z nfcd[2099052]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099060]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099060]: InitLog: Failed to establish log file
+2001-01-01T00:02:31Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:31Z nfcd[2099060]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:31Z nfcd[2099060]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099068]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099068]: InitLog: Failed to establish log file
+2001-01-01T00:02:31Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:31Z nfcd[2099068]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:31Z nfcd[2099068]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099081]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099081]: InitLog: Failed to establish log file
+2001-01-01T00:02:32Z nfcd[2099081]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099081]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099081]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099081]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099092]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099092]: InitLog: Failed to establish log file
+2001-01-01T00:02:32Z nfcd[2099092]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099092]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099092]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099092]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099100]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099100]: InitLog: Failed to establish log file
+2001-01-01T00:02:32Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099100]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099100]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:42:06Z nfcd[2099049]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:42:06Z nfcd[2099049]: InitLog: Failed to establish log file
+2001-01-01T00:42:06Z nfcd[2099049]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:42:06Z nfcd[2099049]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:42:06Z nfcd[2099049]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:42:06Z nfcd[2099049]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:42:06Z nfcd[2099058]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:42:06Z nfcd[2099058]: InitLog: Failed to establish log file
+2001-01-01T00:42:06Z nfcd[2099058]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:42:06Z nfcd[2099058]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:42:06Z nfcd[2099058]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:42:06Z nfcd[2099058]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:42:06Z nfcd[2099068]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:42:06Z nfcd[2099068]: InitLog: Failed to establish log file
+2001-01-01T00:42:06Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:42:06Z nfcd[2099068]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:42:06Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:42:06Z nfcd[2099068]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:42:06Z nfcd[2099080]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:42:06Z nfcd[2099080]: InitLog: Failed to establish log file
+2001-01-01T00:42:06Z nfcd[2099080]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:42:06Z nfcd[2099080]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:42:06Z nfcd[2099080]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:42:06Z nfcd[2099080]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:42:06Z nfcd[2099091]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:42:06Z nfcd[2099091]: InitLog: Failed to establish log file
+2001-01-01T00:42:06Z nfcd[2099091]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:42:06Z nfcd[2099091]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:42:06Z nfcd[2099091]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:42:06Z nfcd[2099091]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:42:06Z nfcd[2099100]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:42:06Z nfcd[2099100]: InitLog: Failed to establish log file
+2001-01-01T00:42:06Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:42:06Z nfcd[2099100]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:42:06Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:42:06Z nfcd[2099100]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:06:51Z nfcd[2099054]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:06:51Z nfcd[2099054]: InitLog: Failed to establish log file
+2001-01-01T00:06:51Z nfcd[2099054]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:06:51Z nfcd[2099054]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:06:51Z nfcd[2099054]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:06:51Z nfcd[2099054]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:06:51Z nfcd[2099062]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:06:51Z nfcd[2099062]: InitLog: Failed to establish log file
+2001-01-01T00:06:51Z nfcd[2099062]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:06:51Z nfcd[2099062]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:06:51Z nfcd[2099062]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:06:51Z nfcd[2099062]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:06:51Z nfcd[2099070]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:06:51Z nfcd[2099070]: InitLog: Failed to establish log file
+2001-01-01T00:06:51Z nfcd[2099070]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:06:51Z nfcd[2099070]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:06:51Z nfcd[2099070]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:06:51Z nfcd[2099070]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:06:52Z nfcd[2099082]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:06:52Z nfcd[2099082]: InitLog: Failed to establish log file
+2001-01-01T00:06:52Z nfcd[2099082]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:06:52Z nfcd[2099082]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:06:52Z nfcd[2099082]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:06:52Z nfcd[2099082]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:06:52Z nfcd[2099094]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:06:52Z nfcd[2099094]: InitLog: Failed to establish log file
+2001-01-01T00:06:52Z nfcd[2099094]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:06:52Z nfcd[2099094]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:06:52Z nfcd[2099094]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:06:52Z nfcd[2099094]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:06:52Z nfcd[2099102]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:06:52Z nfcd[2099102]: InitLog: Failed to establish log file
+2001-01-01T00:06:52Z nfcd[2099102]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:06:52Z nfcd[2099102]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:06:52Z nfcd[2099102]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:06:52Z nfcd[2099102]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099052]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099052]: InitLog: Failed to establish log file
+2001-01-01T00:02:31Z nfcd[2099052]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:31Z nfcd[2099052]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099052]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:31Z nfcd[2099052]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099060]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099060]: InitLog: Failed to establish log file
+2001-01-01T00:02:31Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:31Z nfcd[2099060]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:31Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:31Z nfcd[2099060]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099068]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099068]: InitLog: Failed to establish log file
+2001-01-01T00:02:32Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099068]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099068]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099081]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099081]: InitLog: Failed to establish log file
+2001-01-01T00:02:32Z nfcd[2099081]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099081]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099081]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099081]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099092]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099092]: InitLog: Failed to establish log file
+2001-01-01T00:02:32Z nfcd[2099092]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099092]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099092]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099092]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099100]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099100]: InitLog: Failed to establish log file
+2001-01-01T00:02:32Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099100]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:32Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:32Z nfcd[2099100]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:29Z nfcd[2099052]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:29Z nfcd[2099052]: InitLog: Failed to establish log file
+2001-01-01T00:02:29Z nfcd[2099052]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:29Z nfcd[2099052]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:29Z nfcd[2099052]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:29Z nfcd[2099052]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:29Z nfcd[2099060]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:29Z nfcd[2099060]: InitLog: Failed to establish log file
+2001-01-01T00:02:29Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:29Z nfcd[2099060]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:29Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:29Z nfcd[2099060]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:29Z nfcd[2099068]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:29Z nfcd[2099068]: InitLog: Failed to establish log file
+2001-01-01T00:02:29Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:29Z nfcd[2099068]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:29Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:29Z nfcd[2099068]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:29Z nfcd[2099080]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:29Z nfcd[2099080]: InitLog: Failed to establish log file
+2001-01-01T00:02:29Z nfcd[2099080]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:29Z nfcd[2099080]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:29Z nfcd[2099080]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:29Z nfcd[2099080]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:29Z nfcd[2099092]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:29Z nfcd[2099092]: InitLog: Failed to establish log file
+2001-01-01T00:02:29Z nfcd[2099092]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:29Z nfcd[2099092]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:29Z nfcd[2099092]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:29Z nfcd[2099092]: Failed to setup the IPV6 socket: No such file or directory.
+2001-01-01T00:02:29Z nfcd[2099100]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2001-01-01T00:02:29Z nfcd[2099100]: InitLog: Failed to establish log file
+2001-01-01T00:02:29Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:29Z nfcd[2099100]: Failed to setup the IPV4 socket: No such file or directory.
+2001-01-01T00:02:29Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2001-01-01T00:02:29Z nfcd[2099100]: Failed to setup the IPV6 socket: No such file or directory.
+2025-11-15T00:23:04Z nfcd[2099052]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-15T00:23:04Z nfcd[2099052]: InitLog: Failed to establish log file
+2025-11-15T00:23:04Z nfcd[2099052]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T00:23:04Z nfcd[2099052]: Failed to setup the IPV4 socket: No such file or directory.
+2025-11-15T00:23:04Z nfcd[2099052]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T00:23:04Z nfcd[2099052]: Failed to setup the IPV6 socket: No such file or directory.
+2025-11-15T00:23:04Z nfcd[2099062]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-15T00:23:04Z nfcd[2099062]: InitLog: Failed to establish log file
+2025-11-15T00:23:04Z nfcd[2099062]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T00:23:04Z nfcd[2099062]: Failed to setup the IPV4 socket: No such file or directory.
+2025-11-15T00:23:04Z nfcd[2099062]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T00:23:04Z nfcd[2099062]: Failed to setup the IPV6 socket: No such file or directory.
+2025-11-15T00:23:04Z nfcd[2099070]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-15T00:23:04Z nfcd[2099070]: InitLog: Failed to establish log file
+2025-11-15T00:23:04Z nfcd[2099070]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T00:23:04Z nfcd[2099070]: Failed to setup the IPV4 socket: No such file or directory.
+2025-11-15T00:23:04Z nfcd[2099070]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T00:23:04Z nfcd[2099070]: Failed to setup the IPV6 socket: No such file or directory.
+2025-11-15T00:23:04Z nfcd[2099082]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-15T00:23:04Z nfcd[2099082]: InitLog: Failed to establish log file
+2025-11-15T00:23:04Z nfcd[2099082]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T00:23:04Z nfcd[2099082]: Failed to setup the IPV4 socket: No such file or directory.
+2025-11-15T00:23:04Z nfcd[2099082]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T00:23:04Z nfcd[2099082]: Failed to setup the IPV6 socket: No such file or directory.
+2025-11-15T00:23:05Z nfcd[2099094]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-15T00:23:05Z nfcd[2099094]: InitLog: Failed to establish log file
+2025-11-15T00:23:05Z nfcd[2099094]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T00:23:05Z nfcd[2099094]: Failed to setup the IPV4 socket: No such file or directory.
+2025-11-15T00:23:05Z nfcd[2099094]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T00:23:05Z nfcd[2099094]: Failed to setup the IPV6 socket: No such file or directory.
+2025-11-15T00:23:05Z nfcd[2099102]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-15T00:23:05Z nfcd[2099102]: InitLog: Failed to establish log file
+2025-11-15T00:23:05Z nfcd[2099102]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T00:23:05Z nfcd[2099102]: Failed to setup the IPV4 socket: No such file or directory.
+2025-11-15T00:23:05Z nfcd[2099102]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T00:23:05Z nfcd[2099102]: Failed to setup the IPV6 socket: No such file or directory.
+2025-11-15T06:07:05Z nfcd[2099052]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-15T06:07:05Z nfcd[2099052]: InitLog: Failed to establish log file
+2025-11-15T06:07:05Z nfcd[2099052]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T06:07:05Z nfcd[2099052]: Failed to setup the IPV4 socket: No such file or directory.
+2025-11-15T06:07:05Z nfcd[2099052]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T06:07:05Z nfcd[2099052]: Failed to setup the IPV6 socket: No such file or directory.
+2025-11-15T06:07:05Z nfcd[2099060]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-15T06:07:05Z nfcd[2099060]: InitLog: Failed to establish log file
+2025-11-15T06:07:05Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T06:07:05Z nfcd[2099060]: Failed to setup the IPV4 socket: No such file or directory.
+2025-11-15T06:07:05Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T06:07:05Z nfcd[2099060]: Failed to setup the IPV6 socket: No such file or directory.
+2025-11-15T06:07:05Z nfcd[2099068]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-15T06:07:05Z nfcd[2099068]: InitLog: Failed to establish log file
+2025-11-15T06:07:05Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T06:07:05Z nfcd[2099068]: Failed to setup the IPV4 socket: No such file or directory.
+2025-11-15T06:07:05Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T06:07:05Z nfcd[2099068]: Failed to setup the IPV6 socket: No such file or directory.
+2025-11-15T06:07:05Z nfcd[2099080]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-15T06:07:05Z nfcd[2099080]: InitLog: Failed to establish log file
+2025-11-15T06:07:05Z nfcd[2099080]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T06:07:05Z nfcd[2099080]: Failed to setup the IPV4 socket: No such file or directory.
+2025-11-15T06:07:05Z nfcd[2099080]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T06:07:05Z nfcd[2099080]: Failed to setup the IPV6 socket: No such file or directory.
+2025-11-15T06:07:05Z nfcd[2099092]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-15T06:07:05Z nfcd[2099092]: InitLog: Failed to establish log file
+2025-11-15T06:07:05Z nfcd[2099092]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T06:07:05Z nfcd[2099092]: Failed to setup the IPV4 socket: No such file or directory.
+2025-11-15T06:07:05Z nfcd[2099092]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T06:07:05Z nfcd[2099092]: Failed to setup the IPV6 socket: No such file or directory.
+2025-11-15T06:07:05Z nfcd[2099100]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-15T06:07:05Z nfcd[2099100]: InitLog: Failed to establish log file
+2025-11-15T06:07:05Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T06:07:05Z nfcd[2099100]: Failed to setup the IPV4 socket: No such file or directory.
+2025-11-15T06:07:05Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T06:07:05Z nfcd[2099100]: Failed to setup the IPV6 socket: No such file or directory.
+2025-11-15T20:03:32Z nfcd[2099052]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-15T20:03:32Z nfcd[2099052]: InitLog: Failed to establish log file
+2025-11-15T20:03:32Z nfcd[2099052]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T20:03:32Z nfcd[2099052]: Failed to setup the IPV4 socket: No such file or directory.
+2025-11-15T20:03:32Z nfcd[2099052]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T20:03:32Z nfcd[2099052]: Failed to setup the IPV6 socket: No such file or directory.
+2025-11-15T20:03:32Z nfcd[2099060]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-15T20:03:32Z nfcd[2099060]: InitLog: Failed to establish log file
+2025-11-15T20:03:32Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T20:03:32Z nfcd[2099060]: Failed to setup the IPV4 socket: No such file or directory.
+2025-11-15T20:03:32Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T20:03:32Z nfcd[2099060]: Failed to setup the IPV6 socket: No such file or directory.
+2025-11-15T20:03:32Z nfcd[2099068]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-15T20:03:32Z nfcd[2099068]: InitLog: Failed to establish log file
+2025-11-15T20:03:32Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T20:03:32Z nfcd[2099068]: Failed to setup the IPV4 socket: No such file or directory.
+2025-11-15T20:03:32Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T20:03:32Z nfcd[2099068]: Failed to setup the IPV6 socket: No such file or directory.
+2025-11-15T20:03:32Z nfcd[2099081]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-15T20:03:32Z nfcd[2099081]: InitLog: Failed to establish log file
+2025-11-15T20:03:32Z nfcd[2099081]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T20:03:32Z nfcd[2099081]: Failed to setup the IPV4 socket: No such file or directory.
+2025-11-15T20:03:32Z nfcd[2099081]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T20:03:32Z nfcd[2099081]: Failed to setup the IPV6 socket: No such file or directory.
+2025-11-15T20:03:32Z nfcd[2099092]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-15T20:03:32Z nfcd[2099092]: InitLog: Failed to establish log file
+2025-11-15T20:03:32Z nfcd[2099092]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T20:03:32Z nfcd[2099092]: Failed to setup the IPV4 socket: No such file or directory.
+2025-11-15T20:03:32Z nfcd[2099092]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T20:03:32Z nfcd[2099092]: Failed to setup the IPV6 socket: No such file or directory.
+2025-11-15T20:03:33Z nfcd[2099100]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-15T20:03:33Z nfcd[2099100]: InitLog: Failed to establish log file
+2025-11-15T20:03:33Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T20:03:33Z nfcd[2099100]: Failed to setup the IPV4 socket: No such file or directory.
+2025-11-15T20:03:33Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-15T20:03:33Z nfcd[2099100]: Failed to setup the IPV6 socket: No such file or directory.
+2025-11-16T05:14:34Z nfcd[2099052]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-16T05:14:34Z nfcd[2099052]: InitLog: Failed to establish log file
+2025-11-16T05:14:34Z nfcd[2099052]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-16T05:14:34Z nfcd[2099052]: Failed to setup the IPV4 socket: No such file or directory.
+2025-11-16T05:14:34Z nfcd[2099052]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-16T05:14:34Z nfcd[2099052]: Failed to setup the IPV6 socket: No such file or directory.
+2025-11-16T05:14:34Z nfcd[2099060]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-16T05:14:34Z nfcd[2099060]: InitLog: Failed to establish log file
+2025-11-16T05:14:34Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-16T05:14:34Z nfcd[2099060]: Failed to setup the IPV4 socket: No such file or directory.
+2025-11-16T05:14:34Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-16T05:14:34Z nfcd[2099060]: Failed to setup the IPV6 socket: No such file or directory.
+2025-11-16T05:14:34Z nfcd[2099068]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-16T05:14:34Z nfcd[2099068]: InitLog: Failed to establish log file
+2025-11-16T05:14:34Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-16T05:14:34Z nfcd[2099068]: Failed to setup the IPV4 socket: No such file or directory.
+2025-11-16T05:14:34Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-16T05:14:34Z nfcd[2099068]: Failed to setup the IPV6 socket: No such file or directory.
+2025-11-16T05:14:34Z nfcd[2099081]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-16T05:14:34Z nfcd[2099081]: InitLog: Failed to establish log file
+2025-11-16T05:14:34Z nfcd[2099081]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-16T05:14:34Z nfcd[2099081]: Failed to setup the IPV4 socket: No such file or directory.
+2025-11-16T05:14:34Z nfcd[2099081]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-16T05:14:34Z nfcd[2099081]: Failed to setup the IPV6 socket: No such file or directory.
+2025-11-16T05:14:34Z nfcd[2099092]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-16T05:14:34Z nfcd[2099092]: InitLog: Failed to establish log file
+2025-11-16T05:14:34Z nfcd[2099092]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-16T05:14:34Z nfcd[2099092]: Failed to setup the IPV4 socket: No such file or directory.
+2025-11-16T05:14:34Z nfcd[2099092]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-16T05:14:34Z nfcd[2099092]: Failed to setup the IPV6 socket: No such file or directory.
+2025-11-16T05:14:34Z nfcd[2099100]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-11-16T05:14:34Z nfcd[2099100]: InitLog: Failed to establish log file
+2025-11-16T05:14:34Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-16T05:14:34Z nfcd[2099100]: Failed to setup the IPV4 socket: No such file or directory.
+2025-11-16T05:14:34Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-11-16T05:14:34Z nfcd[2099100]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-06T23:50:33Z nfcd[2099052]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-06T23:50:33Z nfcd[2099052]: InitLog: Failed to establish log file
+2025-12-06T23:50:33Z nfcd[2099052]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-06T23:50:33Z nfcd[2099052]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-06T23:50:33Z nfcd[2099052]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-06T23:50:33Z nfcd[2099052]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-06T23:50:33Z nfcd[2099060]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-06T23:50:33Z nfcd[2099060]: InitLog: Failed to establish log file
+2025-12-06T23:50:33Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-06T23:50:33Z nfcd[2099060]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-06T23:50:33Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-06T23:50:33Z nfcd[2099060]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-06T23:50:33Z nfcd[2099068]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-06T23:50:33Z nfcd[2099068]: InitLog: Failed to establish log file
+2025-12-06T23:50:33Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-06T23:50:33Z nfcd[2099068]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-06T23:50:33Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-06T23:50:33Z nfcd[2099068]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-06T23:50:33Z nfcd[2099081]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-06T23:50:33Z nfcd[2099081]: InitLog: Failed to establish log file
+2025-12-06T23:50:33Z nfcd[2099081]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-06T23:50:33Z nfcd[2099081]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-06T23:50:33Z nfcd[2099081]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-06T23:50:33Z nfcd[2099081]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-06T23:50:34Z nfcd[2099091]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-06T23:50:34Z nfcd[2099091]: InitLog: Failed to establish log file
+2025-12-06T23:50:34Z nfcd[2099091]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-06T23:50:34Z nfcd[2099091]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-06T23:50:34Z nfcd[2099091]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-06T23:50:34Z nfcd[2099091]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-06T23:50:34Z nfcd[2099100]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-06T23:50:34Z nfcd[2099100]: InitLog: Failed to establish log file
+2025-12-06T23:50:34Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-06T23:50:34Z nfcd[2099100]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-06T23:50:34Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-06T23:50:34Z nfcd[2099100]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-08T11:31:42Z nfcd[2099052]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-08T11:31:42Z nfcd[2099052]: InitLog: Failed to establish log file
+2025-12-08T11:31:42Z nfcd[2099052]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-08T11:31:42Z nfcd[2099052]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-08T11:31:42Z nfcd[2099052]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-08T11:31:42Z nfcd[2099052]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-08T11:31:42Z nfcd[2099060]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-08T11:31:42Z nfcd[2099060]: InitLog: Failed to establish log file
+2025-12-08T11:31:42Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-08T11:31:42Z nfcd[2099060]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-08T11:31:42Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-08T11:31:42Z nfcd[2099060]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-08T11:31:42Z nfcd[2099069]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-08T11:31:42Z nfcd[2099069]: InitLog: Failed to establish log file
+2025-12-08T11:31:42Z nfcd[2099069]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-08T11:31:42Z nfcd[2099069]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-08T11:31:42Z nfcd[2099069]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-08T11:31:42Z nfcd[2099069]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-08T11:31:42Z nfcd[2099081]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-08T11:31:42Z nfcd[2099081]: InitLog: Failed to establish log file
+2025-12-08T11:31:42Z nfcd[2099081]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-08T11:31:42Z nfcd[2099081]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-08T11:31:42Z nfcd[2099081]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-08T11:31:42Z nfcd[2099081]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-08T11:31:42Z nfcd[2099091]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-08T11:31:42Z nfcd[2099091]: InitLog: Failed to establish log file
+2025-12-08T11:31:42Z nfcd[2099091]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-08T11:31:42Z nfcd[2099091]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-08T11:31:42Z nfcd[2099091]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-08T11:31:42Z nfcd[2099091]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-08T11:31:43Z nfcd[2099100]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-08T11:31:43Z nfcd[2099100]: InitLog: Failed to establish log file
+2025-12-08T11:31:43Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-08T11:31:43Z nfcd[2099100]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-08T11:31:43Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-08T11:31:43Z nfcd[2099100]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-08T19:31:27Z nfcd[2099052]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-08T19:31:27Z nfcd[2099052]: InitLog: Failed to establish log file
+2025-12-08T19:31:27Z nfcd[2099052]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-08T19:31:27Z nfcd[2099052]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-08T19:31:27Z nfcd[2099052]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-08T19:31:27Z nfcd[2099052]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-08T19:31:27Z nfcd[2099060]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-08T19:31:27Z nfcd[2099060]: InitLog: Failed to establish log file
+2025-12-08T19:31:27Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-08T19:31:27Z nfcd[2099060]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-08T19:31:27Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-08T19:31:27Z nfcd[2099060]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-08T19:31:27Z nfcd[2099069]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-08T19:31:27Z nfcd[2099069]: InitLog: Failed to establish log file
+2025-12-08T19:31:27Z nfcd[2099069]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-08T19:31:27Z nfcd[2099069]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-08T19:31:27Z nfcd[2099069]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-08T19:31:27Z nfcd[2099069]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-08T19:31:27Z nfcd[2099081]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-08T19:31:27Z nfcd[2099081]: InitLog: Failed to establish log file
+2025-12-08T19:31:27Z nfcd[2099081]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-08T19:31:27Z nfcd[2099081]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-08T19:31:27Z nfcd[2099081]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-08T19:31:27Z nfcd[2099081]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-08T19:31:27Z nfcd[2099092]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-08T19:31:27Z nfcd[2099092]: InitLog: Failed to establish log file
+2025-12-08T19:31:27Z nfcd[2099092]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-08T19:31:27Z nfcd[2099092]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-08T19:31:27Z nfcd[2099092]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-08T19:31:27Z nfcd[2099092]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-08T19:31:27Z nfcd[2099100]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-08T19:31:27Z nfcd[2099100]: InitLog: Failed to establish log file
+2025-12-08T19:31:27Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-08T19:31:27Z nfcd[2099100]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-08T19:31:27Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-08T19:31:27Z nfcd[2099100]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-10T13:08:53Z nfcd[2099052]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-10T13:08:53Z nfcd[2099052]: InitLog: Failed to establish log file
+2025-12-10T13:08:53Z nfcd[2099052]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-10T13:08:53Z nfcd[2099052]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-10T13:08:53Z nfcd[2099052]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-10T13:08:53Z nfcd[2099052]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-10T13:08:53Z nfcd[2099060]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-10T13:08:53Z nfcd[2099060]: InitLog: Failed to establish log file
+2025-12-10T13:08:53Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-10T13:08:53Z nfcd[2099060]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-10T13:08:53Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-10T13:08:53Z nfcd[2099060]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-10T13:08:53Z nfcd[2099068]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-10T13:08:53Z nfcd[2099068]: InitLog: Failed to establish log file
+2025-12-10T13:08:53Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-10T13:08:53Z nfcd[2099068]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-10T13:08:53Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-10T13:08:53Z nfcd[2099068]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-10T13:08:53Z nfcd[2099080]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-10T13:08:53Z nfcd[2099080]: InitLog: Failed to establish log file
+2025-12-10T13:08:53Z nfcd[2099080]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-10T13:08:53Z nfcd[2099080]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-10T13:08:53Z nfcd[2099080]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-10T13:08:53Z nfcd[2099080]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-10T13:08:53Z nfcd[2099091]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-10T13:08:53Z nfcd[2099091]: InitLog: Failed to establish log file
+2025-12-10T13:08:53Z nfcd[2099091]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-10T13:08:53Z nfcd[2099091]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-10T13:08:53Z nfcd[2099091]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-10T13:08:53Z nfcd[2099091]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-10T13:08:54Z nfcd[2099100]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-10T13:08:54Z nfcd[2099100]: InitLog: Failed to establish log file
+2025-12-10T13:08:54Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-10T13:08:54Z nfcd[2099100]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-10T13:08:54Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-10T13:08:54Z nfcd[2099100]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-11T06:46:28Z nfcd[2099050]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-11T06:46:28Z nfcd[2099050]: InitLog: Failed to establish log file
+2025-12-11T06:46:28Z nfcd[2099050]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-11T06:46:28Z nfcd[2099050]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-11T06:46:28Z nfcd[2099050]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-11T06:46:28Z nfcd[2099050]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-11T06:46:28Z nfcd[2099060]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-11T06:46:28Z nfcd[2099060]: InitLog: Failed to establish log file
+2025-12-11T06:46:28Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-11T06:46:28Z nfcd[2099060]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-11T06:46:28Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-11T06:46:28Z nfcd[2099060]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-11T06:46:28Z nfcd[2099068]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-11T06:46:28Z nfcd[2099068]: InitLog: Failed to establish log file
+2025-12-11T06:46:28Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-11T06:46:28Z nfcd[2099068]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-11T06:46:28Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-11T06:46:28Z nfcd[2099068]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-11T06:46:28Z nfcd[2099080]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-11T06:46:28Z nfcd[2099080]: InitLog: Failed to establish log file
+2025-12-11T06:46:28Z nfcd[2099080]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-11T06:46:28Z nfcd[2099080]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-11T06:46:28Z nfcd[2099080]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-11T06:46:28Z nfcd[2099080]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-11T06:46:28Z nfcd[2099091]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-11T06:46:28Z nfcd[2099091]: InitLog: Failed to establish log file
+2025-12-11T06:46:28Z nfcd[2099091]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-11T06:46:28Z nfcd[2099091]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-11T06:46:28Z nfcd[2099091]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-11T06:46:28Z nfcd[2099091]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-11T06:46:28Z nfcd[2099100]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-11T06:46:28Z nfcd[2099100]: InitLog: Failed to establish log file
+2025-12-11T06:46:28Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-11T06:46:28Z nfcd[2099100]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-11T06:46:28Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-11T06:46:28Z nfcd[2099100]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-18T19:29:30Z nfcd[2099050]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-18T19:29:30Z nfcd[2099050]: InitLog: Failed to establish log file
+2025-12-18T19:29:30Z nfcd[2099050]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-18T19:29:30Z nfcd[2099050]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-18T19:29:30Z nfcd[2099050]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-18T19:29:30Z nfcd[2099050]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-18T19:29:30Z nfcd[2099060]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-18T19:29:30Z nfcd[2099060]: InitLog: Failed to establish log file
+2025-12-18T19:29:30Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-18T19:29:30Z nfcd[2099060]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-18T19:29:30Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-18T19:29:30Z nfcd[2099060]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-18T19:29:30Z nfcd[2099068]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-18T19:29:30Z nfcd[2099068]: InitLog: Failed to establish log file
+2025-12-18T19:29:30Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-18T19:29:30Z nfcd[2099068]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-18T19:29:30Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-18T19:29:30Z nfcd[2099068]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-18T19:29:30Z nfcd[2099080]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-18T19:29:30Z nfcd[2099080]: InitLog: Failed to establish log file
+2025-12-18T19:29:30Z nfcd[2099080]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-18T19:29:30Z nfcd[2099080]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-18T19:29:30Z nfcd[2099080]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-18T19:29:30Z nfcd[2099080]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-18T19:29:31Z nfcd[2099091]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-18T19:29:31Z nfcd[2099091]: InitLog: Failed to establish log file
+2025-12-18T19:29:31Z nfcd[2099091]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-18T19:29:31Z nfcd[2099091]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-18T19:29:31Z nfcd[2099091]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-18T19:29:31Z nfcd[2099091]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-18T19:29:31Z nfcd[2099100]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-18T19:29:31Z nfcd[2099100]: InitLog: Failed to establish log file
+2025-12-18T19:29:31Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-18T19:29:31Z nfcd[2099100]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-18T19:29:31Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-18T19:29:31Z nfcd[2099100]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-18T19:56:12Z nfcd[2099050]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-18T19:56:12Z nfcd[2099050]: InitLog: Failed to establish log file
+2025-12-18T19:56:12Z nfcd[2099050]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-18T19:56:12Z nfcd[2099050]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-18T19:56:12Z nfcd[2099050]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-18T19:56:12Z nfcd[2099050]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-18T19:56:12Z nfcd[2099060]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-18T19:56:12Z nfcd[2099060]: InitLog: Failed to establish log file
+2025-12-18T19:56:12Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-18T19:56:12Z nfcd[2099060]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-18T19:56:12Z nfcd[2099060]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-18T19:56:12Z nfcd[2099060]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-18T19:56:12Z nfcd[2099068]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-18T19:56:12Z nfcd[2099068]: InitLog: Failed to establish log file
+2025-12-18T19:56:12Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-18T19:56:12Z nfcd[2099068]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-18T19:56:12Z nfcd[2099068]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-18T19:56:12Z nfcd[2099068]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-18T19:56:12Z nfcd[2099080]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-18T19:56:12Z nfcd[2099080]: InitLog: Failed to establish log file
+2025-12-18T19:56:12Z nfcd[2099080]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-18T19:56:12Z nfcd[2099080]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-18T19:56:12Z nfcd[2099080]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-18T19:56:12Z nfcd[2099080]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-18T19:56:13Z nfcd[2099091]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-18T19:56:13Z nfcd[2099091]: InitLog: Failed to establish log file
+2025-12-18T19:56:13Z nfcd[2099091]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-18T19:56:13Z nfcd[2099091]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-18T19:56:13Z nfcd[2099091]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-18T19:56:13Z nfcd[2099091]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-18T19:56:13Z nfcd[2099100]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-18T19:56:13Z nfcd[2099100]: InitLog: Failed to establish log file
+2025-12-18T19:56:13Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-18T19:56:13Z nfcd[2099100]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-18T19:56:13Z nfcd[2099100]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-18T19:56:13Z nfcd[2099100]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-27T00:20:57Z nfcd[2099063]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-27T00:20:57Z nfcd[2099063]: InitLog: Failed to establish log file
+2025-12-27T00:20:57Z nfcd[2099063]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-27T00:20:57Z nfcd[2099063]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-27T00:20:57Z nfcd[2099063]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-27T00:20:57Z nfcd[2099063]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-27T00:20:57Z nfcd[2099073]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-27T00:20:57Z nfcd[2099073]: InitLog: Failed to establish log file
+2025-12-27T00:20:57Z nfcd[2099073]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-27T00:20:57Z nfcd[2099073]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-27T00:20:57Z nfcd[2099073]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-27T00:20:57Z nfcd[2099073]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-27T00:20:57Z nfcd[2099083]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-27T00:20:57Z nfcd[2099083]: InitLog: Failed to establish log file
+2025-12-27T00:20:57Z nfcd[2099083]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-27T00:20:57Z nfcd[2099083]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-27T00:20:57Z nfcd[2099083]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-27T00:20:57Z nfcd[2099083]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-27T00:20:57Z nfcd[2099095]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-27T00:20:57Z nfcd[2099095]: InitLog: Failed to establish log file
+2025-12-27T00:20:57Z nfcd[2099095]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-27T00:20:57Z nfcd[2099095]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-27T00:20:57Z nfcd[2099095]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-27T00:20:57Z nfcd[2099095]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-27T00:20:57Z nfcd[2099105]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-27T00:20:57Z nfcd[2099105]: InitLog: Failed to establish log file
+2025-12-27T00:20:57Z nfcd[2099105]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-27T00:20:57Z nfcd[2099105]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-27T00:20:57Z nfcd[2099105]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-27T00:20:57Z nfcd[2099105]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-27T00:20:57Z nfcd[2099115]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-27T00:20:57Z nfcd[2099115]: InitLog: Failed to establish log file
+2025-12-27T00:20:57Z nfcd[2099115]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-27T00:20:57Z nfcd[2099115]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-27T00:20:57Z nfcd[2099115]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-27T00:20:57Z nfcd[2099115]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-27T00:44:45Z nfcd[2099058]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-27T00:44:45Z nfcd[2099058]: InitLog: Failed to establish log file
+2025-12-27T00:44:45Z nfcd[2099058]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-27T00:44:45Z nfcd[2099058]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-27T00:44:45Z nfcd[2099058]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-27T00:44:45Z nfcd[2099058]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-27T00:44:45Z nfcd[2099067]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-27T00:44:45Z nfcd[2099067]: InitLog: Failed to establish log file
+2025-12-27T00:44:45Z nfcd[2099067]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-27T00:44:45Z nfcd[2099067]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-27T00:44:45Z nfcd[2099067]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-27T00:44:45Z nfcd[2099067]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-27T00:44:45Z nfcd[2099077]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-27T00:44:45Z nfcd[2099077]: InitLog: Failed to establish log file
+2025-12-27T00:44:45Z nfcd[2099077]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-27T00:44:45Z nfcd[2099077]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-27T00:44:45Z nfcd[2099077]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-27T00:44:45Z nfcd[2099077]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-27T00:44:45Z nfcd[2099090]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-27T00:44:45Z nfcd[2099090]: InitLog: Failed to establish log file
+2025-12-27T00:44:45Z nfcd[2099090]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-27T00:44:45Z nfcd[2099090]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-27T00:44:45Z nfcd[2099090]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-27T00:44:45Z nfcd[2099090]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-27T00:44:45Z nfcd[2099105]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-27T00:44:45Z nfcd[2099105]: InitLog: Failed to establish log file
+2025-12-27T00:44:45Z nfcd[2099105]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-27T00:44:45Z nfcd[2099105]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-27T00:44:45Z nfcd[2099105]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-27T00:44:45Z nfcd[2099105]: Failed to setup the IPV6 socket: No such file or directory.
+2025-12-27T00:44:45Z nfcd[2099113]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2025-12-27T00:44:45Z nfcd[2099113]: InitLog: Failed to establish log file
+2025-12-27T00:44:45Z nfcd[2099113]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-27T00:44:45Z nfcd[2099113]: Failed to setup the IPV4 socket: No such file or directory.
+2025-12-27T00:44:45Z nfcd[2099113]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2025-12-27T00:44:45Z nfcd[2099113]: Failed to setup the IPV6 socket: No such file or directory.
+2026-01-10T07:55:56Z nfcd[2099064]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2026-01-10T07:55:56Z nfcd[2099064]: InitLog: Failed to establish log file
+2026-01-10T07:55:56Z nfcd[2099064]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2026-01-10T07:55:56Z nfcd[2099064]: Failed to setup the IPV4 socket: No such file or directory.
+2026-01-10T07:55:56Z nfcd[2099064]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2026-01-10T07:55:56Z nfcd[2099064]: Failed to setup the IPV6 socket: No such file or directory.
+2026-01-10T07:55:56Z nfcd[2099074]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2026-01-10T07:55:56Z nfcd[2099074]: InitLog: Failed to establish log file
+2026-01-10T07:55:56Z nfcd[2099074]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2026-01-10T07:55:56Z nfcd[2099074]: Failed to setup the IPV4 socket: No such file or directory.
+2026-01-10T07:55:56Z nfcd[2099074]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2026-01-10T07:55:56Z nfcd[2099074]: Failed to setup the IPV6 socket: No such file or directory.
+2026-01-10T07:55:56Z nfcd[2099082]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2026-01-10T07:55:56Z nfcd[2099082]: InitLog: Failed to establish log file
+2026-01-10T07:55:56Z nfcd[2099082]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2026-01-10T07:55:56Z nfcd[2099082]: Failed to setup the IPV4 socket: No such file or directory.
+2026-01-10T07:55:56Z nfcd[2099082]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2026-01-10T07:55:56Z nfcd[2099082]: Failed to setup the IPV6 socket: No such file or directory.
+2026-01-10T07:55:56Z nfcd[2099094]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2026-01-10T07:55:56Z nfcd[2099094]: InitLog: Failed to establish log file
+2026-01-10T07:55:56Z nfcd[2099094]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2026-01-10T07:55:56Z nfcd[2099094]: Failed to setup the IPV4 socket: No such file or directory.
+2026-01-10T07:55:56Z nfcd[2099094]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2026-01-10T07:55:56Z nfcd[2099094]: Failed to setup the IPV6 socket: No such file or directory.
+2026-01-10T07:55:56Z nfcd[2099106]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2026-01-10T07:55:56Z nfcd[2099106]: InitLog: Failed to establish log file
+2026-01-10T07:55:56Z nfcd[2099106]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2026-01-10T07:55:56Z nfcd[2099106]: Failed to setup the IPV4 socket: No such file or directory.
+2026-01-10T07:55:56Z nfcd[2099106]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2026-01-10T07:55:56Z nfcd[2099106]: Failed to setup the IPV6 socket: No such file or directory.
+2026-01-10T07:55:56Z nfcd[2099114]: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2026-01-10T07:55:56Z nfcd[2099114]: InitLog: Failed to establish log file
+2026-01-10T07:55:56Z nfcd[2099114]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2026-01-10T07:55:56Z nfcd[2099114]: Failed to setup the IPV4 socket: No such file or directory.
+2026-01-10T07:55:56Z nfcd[2099114]: Failed to switch netstack to the vSphereProvisioning stack. Using default management network stack.
+2026-01-10T07:55:56Z nfcd[2099114]: Failed to setup the IPV6 socket: No such file or directory.

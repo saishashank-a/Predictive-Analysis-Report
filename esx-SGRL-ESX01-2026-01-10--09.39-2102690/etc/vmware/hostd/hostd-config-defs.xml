@@ -1,0 +1,966 @@
+<ConfigRoot>
+  <_length>23</_length>
+  <_type>vim.option.OptionDef[]</_type>
+  <e id="0">
+     <_type>vim.option.OptionDef</_type>
+     <dynamicType></dynamicType>
+     <dynamicProperty>
+        <_length>0</_length>
+        <_type>vmodl.DynamicProperty[]</_type>
+     </dynamicProperty>
+     <label>plugins.vimsvc.userSearch.maxResults</label>
+     <summary>Maximum number of users and groups to display in the Add Permissions dialog - set to zero to disable the limit.</summary>
+     <key>plugins.vimsvc.userSearch.maxResults</key>
+     <optionType>
+        <_type>vim.option.IntOption</_type>
+        <dynamicType></dynamicType>
+        <dynamicProperty>
+           <_length>0</_length>
+           <_type>vmodl.DynamicProperty[]</_type>
+        </dynamicProperty>
+        <valueIsReadonly>false</valueIsReadonly>
+        <min>0</min>
+        <max>2147483647</max>
+        <defaultValue>100</defaultValue>
+     </optionType>
+  </e>
+  <e id="1">
+     <_type>vim.option.OptionDef</_type>
+     <dynamicType></dynamicType>
+     <dynamicProperty>
+        <_length>0</_length>
+        <_type>vmodl.DynamicProperty[]</_type>
+     </dynamicProperty>
+     <label>plugins.vimsvc.userSearch.maxTimeSeconds</label>
+     <summary>Number of seconds to wait for a search for users and groups to return results - set to zero to disable the timeout.</summary>
+     <key>plugins.vimsvc.userSearch.maxTimeSeconds</key>
+     <optionType>
+        <_type>vim.option.IntOption</_type>
+        <dynamicType></dynamicType>
+        <dynamicProperty>
+           <_length>0</_length>
+           <_type>vmodl.DynamicProperty[]</_type>
+        </dynamicProperty>
+        <valueIsReadonly>false</valueIsReadonly>
+        <min>0</min>
+        <max>180</max>
+        <defaultValue>20</defaultValue>
+     </optionType>
+  </e>
+  <e id="2">
+     <_type>vim.option.OptionDef</_type>
+     <dynamicType></dynamicType>
+     <dynamicProperty>
+        <_length>0</_length>
+        <_type>vmodl.DynamicProperty[]</_type>
+     </dynamicProperty>
+     <label>plugins.vimsvc.authValidateInterval</label>
+     <summary>Number of minutes between each validation of all known users and groups - set to zero to disable validation.</summary>
+     <key>plugins.vimsvc.authValidateInterval</key>
+     <optionType>
+        <_type>vim.option.IntOption</_type>
+        <dynamicType></dynamicType>
+        <dynamicProperty>
+           <_length>0</_length>
+           <_type>vmodl.DynamicProperty[]</_type>
+        </dynamicProperty>
+        <valueIsReadonly>false</valueIsReadonly>
+        <min>0</min>
+        <max>2147483647</max>
+        <defaultValue>1440</defaultValue>
+     </optionType>
+  </e>
+  <e id="3">
+     <_type>vim.option.OptionDef</_type>
+     <dynamicType></dynamicType>
+     <dynamicProperty>
+        <_length>0</_length>
+        <_type>vmodl.DynamicProperty[]</_type>
+     </dynamicProperty>
+     <label>plugins.hostsvc.esxAdminsGroupUpdateInterval</label>
+     <summary>Interval between checks for whether the group specified by 'esxAdminsGroup' has appeared in Active Directory, in minutes.</summary>
+     <key>plugins.hostsvc.esxAdminsGroupUpdateInterval</key>
+     <optionType>
+        <_type>vim.option.IntOption</_type>
+        <dynamicType></dynamicType>
+        <dynamicProperty>
+           <_length>0</_length>
+           <_type>vmodl.DynamicProperty[]</_type>
+        </dynamicProperty>
+        <valueIsReadonly>false</valueIsReadonly>
+        <min>1</min>
+        <max>30</max>
+        <defaultValue>1</defaultValue>
+     </optionType>
+  </e>
+  <e id="4">
+     <_type>vim.option.OptionDef</_type>
+     <dynamicType></dynamicType>
+     <dynamicProperty>
+        <_length>0</_length>
+        <_type>vmodl.DynamicProperty[]</_type>
+     </dynamicProperty>
+     <label>plugins.hostsvc.esxAdminsGroupAutoAdd</label>
+     <summary>Controls whether the group specified by 'esxAdminsGroup' is automatically granted administrator permission.</summary>
+     <key>plugins.hostsvc.esxAdminsGroupAutoAdd</key>
+     <optionType>
+        <_type>vim.option.BoolOption</_type>
+        <dynamicType></dynamicType>
+        <dynamicProperty>
+           <_length>0</_length>
+           <_type>vmodl.DynamicProperty[]</_type>
+        </dynamicProperty>
+        <valueIsReadonly>false</valueIsReadonly>
+        <supported>true</supported>
+        <defaultValue>true</defaultValue>
+     </optionType>
+  </e>
+  <e id="5">
+     <_type>vim.option.OptionDef</_type>
+     <dynamicType></dynamicType>
+     <dynamicProperty>
+        <_length>0</_length>
+        <_type>vmodl.DynamicProperty[]</_type>
+     </dynamicProperty>
+     <label>plugins.hostsvc.esxAdminsGroup</label>
+     <summary>Active Directory group name that is automatically granted administrator privileges on the ESX.</summary>
+     <key>plugins.hostsvc.esxAdminsGroup</key>
+     <optionType>
+        <_type>vim.option.StringOption</_type>
+        <dynamicType></dynamicType>
+        <dynamicProperty>
+           <_length>0</_length>
+           <_type>vmodl.DynamicProperty[]</_type>
+        </dynamicProperty>
+        <valueIsReadonly>false</valueIsReadonly>
+        <defaultValue>ESX Admins</defaultValue>
+     </optionType>
+  </e>
+  <e id="6">
+     <_type>vim.option.OptionDef</_type>
+     <dynamicType></dynamicType>
+     <dynamicProperty>
+        <_length>0</_length>
+        <_type>vmodl.DynamicProperty[]</_type>
+     </dynamicProperty>
+     <key>log.level</key>
+     <label>log.level</label>
+     <optionType>
+       <_type>vim.option.ChoiceOption</_type>
+       <choiceInfo>
+         <_length>8</_length>
+         <_type>vim.ElementDescription[]</_type>
+         <e id="0">
+           <_type>vim.ElementDescription</_type>
+           <key>none</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="1">
+           <_type>vim.ElementDescription</_type>
+           <key>quiet</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="2">
+           <_type>vim.ElementDescription</_type>
+           <key>panic</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="3">
+           <_type>vim.ElementDescription</_type>
+           <key>error</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="4">
+           <_type>vim.ElementDescription</_type>
+           <key>warning</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="5">
+           <_type>vim.ElementDescription</_type>
+           <key>info</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="6">
+           <_type>vim.ElementDescription</_type>
+           <key>verbose</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="7">
+           <_type>vim.ElementDescription</_type>
+           <key>trivia</key>
+           <label></label>
+           <summary></summary>
+         </e>
+       </choiceInfo>
+       <valueIsReadonly>false</valueIsReadonly>
+       <defaultIndex>5</defaultIndex>
+     </optionType>
+     <summary>Controls the global log level.</summary>
+  </e>
+   <e id="7">
+     <_type>vim.option.OptionDef</_type>
+     <dynamicType></dynamicType>
+     <dynamicProperty>
+        <_length>0</_length>
+        <_type>vmodl.DynamicProperty[]</_type>
+     </dynamicProperty>
+     <label>level[Vmsvc].logLevel</label>
+     <summary>Logging level for the loggres related to VM services. </summary>
+     <key>level[Vmsvc].logLevel</key>
+     <optionType>
+       <_type>vim.option.ChoiceOption</_type>
+       <choiceInfo>
+         <_length>9</_length>
+         <_type>vim.ElementDescription[]</_type>
+         <e id="0">
+           <_type>vim.ElementDescription</_type>
+           <key></key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="1">
+           <_type>vim.ElementDescription</_type>
+           <key>none</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="2">
+           <_type>vim.ElementDescription</_type>
+           <key>quiet</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="3">
+           <_type>vim.ElementDescription</_type>
+           <key>panic</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="4">
+           <_type>vim.ElementDescription</_type>
+           <key>error</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="5">
+           <_type>vim.ElementDescription</_type>
+           <key>warning</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="6">
+           <_type>vim.ElementDescription</_type>
+           <key>info</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="7">
+           <_type>vim.ElementDescription</_type>
+           <key>verbose</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="8">
+           <_type>vim.ElementDescription</_type>
+           <key>trivia</key>
+           <label></label>
+           <summary></summary>
+         </e>
+       </choiceInfo>
+       <valueIsReadonly>false</valueIsReadonly>
+       <defaultIndex>0</defaultIndex>
+     </optionType>
+  </e>
+  <e id="8">
+     <_type>vim.option.OptionDef</_type>
+     <dynamicType></dynamicType>
+     <dynamicProperty>
+        <_length>0</_length>
+        <_type>vmodl.DynamicProperty[]</_type>
+     </dynamicProperty>
+     <label>level[Vcsvc].logLevel</label>
+     <summary>Logging level for the loggres related to VC services.</summary>
+     <key>level[Vcsvc].logLevel</key>
+     <optionType>
+       <_type>vim.option.ChoiceOption</_type>
+       <choiceInfo>
+         <_length>9</_length>
+         <_type>vim.ElementDescription[]</_type>
+         <e id="0">
+           <_type>vim.ElementDescription</_type>
+           <key></key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="1">
+           <_type>vim.ElementDescription</_type>
+           <key>none</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="2">
+           <_type>vim.ElementDescription</_type>
+           <key>quiet</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="3">
+           <_type>vim.ElementDescription</_type>
+           <key>panic</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="4">
+           <_type>vim.ElementDescription</_type>
+           <key>error</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="5">
+           <_type>vim.ElementDescription</_type>
+           <key>warning</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="6">
+           <_type>vim.ElementDescription</_type>
+           <key>info</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="7">
+           <_type>vim.ElementDescription</_type>
+           <key>verbose</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="8">
+           <_type>vim.ElementDescription</_type>
+           <key>trivia</key>
+           <label></label>
+           <summary></summary>
+         </e>
+       </choiceInfo>
+       <valueIsReadonly>false</valueIsReadonly>
+       <defaultIndex>0</defaultIndex>
+     </optionType>
+  </e>
+  <e id="9">
+     <_type>vim.option.OptionDef</_type>
+     <dynamicType></dynamicType>
+     <dynamicProperty>
+        <_length>0</_length>
+        <_type>vmodl.DynamicProperty[]</_type>
+     </dynamicProperty>
+     <label>level[Statssvc].logLevel</label>
+     <summary>Logging level for the loggres related to Stats services.</summary>
+     <key>level[Statssvc].logLevel</key>
+     <optionType>
+       <_type>vim.option.ChoiceOption</_type>
+       <choiceInfo>
+         <_length>9</_length>
+         <_type>vim.ElementDescription[]</_type>
+         <e id="0">
+           <_type>vim.ElementDescription</_type>
+           <key></key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="1">
+           <_type>vim.ElementDescription</_type>
+           <key>none</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="2">
+           <_type>vim.ElementDescription</_type>
+           <key>quiet</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="3">
+           <_type>vim.ElementDescription</_type>
+           <key>panic</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="4">
+           <_type>vim.ElementDescription</_type>
+           <key>error</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="5">
+           <_type>vim.ElementDescription</_type>
+           <key>warning</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="6">
+           <_type>vim.ElementDescription</_type>
+           <key>info</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="7">
+           <_type>vim.ElementDescription</_type>
+           <key>verbose</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="8">
+           <_type>vim.ElementDescription</_type>
+           <key>trivia</key>
+           <label></label>
+           <summary></summary>
+         </e>
+       </choiceInfo>
+       <valueIsReadonly>false</valueIsReadonly>
+       <defaultIndex>0</defaultIndex>
+     </optionType>
+  </e>
+  <e id="10">
+     <_type>vim.option.OptionDef</_type>
+     <dynamicType></dynamicType>
+     <dynamicProperty>
+        <_length>0</_length>
+        <_type>vmodl.DynamicProperty[]</_type>
+     </dynamicProperty>
+     <label>level[Hostsvc].logLevel</label>
+     <summary>Logging level for the loggres related to Host services.</summary>
+     <key>level[Hostsvc].logLevel</key>
+<optionType>
+       <_type>vim.option.ChoiceOption</_type>
+       <choiceInfo>
+         <_length>9</_length>
+         <_type>vim.ElementDescription[]</_type>
+         <e id="0">
+           <_type>vim.ElementDescription</_type>
+           <key></key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="1">
+           <_type>vim.ElementDescription</_type>
+           <key>none</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="2">
+           <_type>vim.ElementDescription</_type>
+           <key>quiet</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="3">
+           <_type>vim.ElementDescription</_type>
+           <key>panic</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="4">
+           <_type>vim.ElementDescription</_type>
+           <key>error</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="5">
+           <_type>vim.ElementDescription</_type>
+           <key>warning</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="6">
+           <_type>vim.ElementDescription</_type>
+           <key>info</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="7">
+           <_type>vim.ElementDescription</_type>
+           <key>verbose</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="8">
+           <_type>vim.ElementDescription</_type>
+           <key>trivia</key>
+           <label></label>
+           <summary></summary>
+         </e>
+       </choiceInfo>
+       <valueIsReadonly>false</valueIsReadonly>
+       <defaultIndex>0</defaultIndex>
+     </optionType>
+  </e>
+  <e id="11">
+     <_type>vim.option.OptionDef</_type>
+     <dynamicType></dynamicType>
+     <dynamicProperty>
+        <_length>0</_length>
+        <_type>vmodl.DynamicProperty[]</_type>
+     </dynamicProperty>
+     <label>level[Vimsvc].logLevel</label>
+     <summary>Logging level for the loggres related to Virtual infrastructure management services.</summary>
+     <key>level[Vimsvc].logLevel</key>
+     <optionType>
+       <_type>vim.option.ChoiceOption</_type>
+       <choiceInfo>
+         <_length>9</_length>
+         <_type>vim.ElementDescription[]</_type>
+         <e id="0">
+           <_type>vim.ElementDescription</_type>
+           <key></key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="1">
+           <_type>vim.ElementDescription</_type>
+           <key>none</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="2">
+           <_type>vim.ElementDescription</_type>
+           <key>quiet</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="3">
+           <_type>vim.ElementDescription</_type>
+           <key>panic</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="4">
+           <_type>vim.ElementDescription</_type>
+           <key>error</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="5">
+           <_type>vim.ElementDescription</_type>
+           <key>warning</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="6">
+           <_type>vim.ElementDescription</_type>
+           <key>info</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="7">
+           <_type>vim.ElementDescription</_type>
+           <key>verbose</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="8">
+           <_type>vim.ElementDescription</_type>
+           <key>trivia</key>
+           <label></label>
+           <summary></summary>
+         </e>
+       </choiceInfo>
+       <valueIsReadonly>false</valueIsReadonly>
+       <defaultIndex>0</defaultIndex>
+     </optionType>
+  </e>
+  <e id="12">
+     <_type>vim.option.OptionDef</_type>
+     <dynamicType></dynamicType>
+     <dynamicProperty>
+        <_length>0</_length>
+        <_type>vmodl.DynamicProperty[]</_type>
+     </dynamicProperty>
+     <label>level[Hbrsvc].logLevel</label>
+     <summary>Logging level for the loggres related to HBR services.</summary>
+     <key>level[Hbrsvc].logLevel</key>
+<optionType>
+       <_type>vim.option.ChoiceOption</_type>
+       <choiceInfo>
+         <_length>9</_length>
+         <_type>vim.ElementDescription[]</_type>
+         <e id="0">
+           <_type>vim.ElementDescription</_type>
+           <key></key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="1">
+           <_type>vim.ElementDescription</_type>
+           <key>none</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="2">
+           <_type>vim.ElementDescription</_type>
+           <key>quiet</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="3">
+           <_type>vim.ElementDescription</_type>
+           <key>panic</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="4">
+           <_type>vim.ElementDescription</_type>
+           <key>error</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="5">
+           <_type>vim.ElementDescription</_type>
+           <key>warning</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="6">
+           <_type>vim.ElementDescription</_type>
+           <key>info</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="7">
+           <_type>vim.ElementDescription</_type>
+           <key>verbose</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="8">
+           <_type>vim.ElementDescription</_type>
+           <key>trivia</key>
+           <label></label>
+           <summary></summary>
+         </e>
+       </choiceInfo>
+       <valueIsReadonly>false</valueIsReadonly>
+       <defaultIndex>0</defaultIndex>
+     </optionType>
+  </e>
+  <e id="13">
+     <_type>vim.option.OptionDef</_type>
+     <dynamicType></dynamicType>
+     <dynamicProperty>
+        <_length>0</_length>
+        <_type>vmodl.DynamicProperty[]</_type>
+     </dynamicProperty>
+     <label>level[Proxysvc].logLevel</label>
+     <summary>Logging level for the loggres related to proxy services.</summary>
+     <key>level[Proxysvc].logLevel</key>
+<optionType>
+       <_type>vim.option.ChoiceOption</_type>
+       <choiceInfo>
+         <_length>9</_length>
+         <_type>vim.ElementDescription[]</_type>
+         <e id="0">
+           <_type>vim.ElementDescription</_type>
+           <key></key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="1">
+           <_type>vim.ElementDescription</_type>
+           <key>none</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="2">
+           <_type>vim.ElementDescription</_type>
+           <key>quiet</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="3">
+           <_type>vim.ElementDescription</_type>
+           <key>panic</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="4">
+           <_type>vim.ElementDescription</_type>
+           <key>error</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="5">
+           <_type>vim.ElementDescription</_type>
+           <key>warning</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="6">
+           <_type>vim.ElementDescription</_type>
+           <key>info</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="7">
+           <_type>vim.ElementDescription</_type>
+           <key>verbose</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="8">
+           <_type>vim.ElementDescription</_type>
+           <key>trivia</key>
+           <label></label>
+           <summary></summary>
+         </e>
+       </choiceInfo>
+       <valueIsReadonly>false</valueIsReadonly>
+       <defaultIndex>0</defaultIndex>
+     </optionType>
+  </e>
+  <e id="14">
+     <_type>vim.option.OptionDef</_type>
+     <dynamicType></dynamicType>
+     <dynamicProperty>
+        <_length>0</_length>
+        <_type>vmodl.DynamicProperty[]</_type>
+     </dynamicProperty>
+     <label>level[Snmpsvc].logLevel</label>
+     <summary>Logging level for the loggres related to SNMP services.</summary>
+     <key>level[Snmpsvc].logLevel</key>
+<optionType>
+       <_type>vim.option.ChoiceOption</_type>
+       <choiceInfo>
+         <_length>9</_length>
+         <_type>vim.ElementDescription[]</_type>
+         <e id="0">
+           <_type>vim.ElementDescription</_type>
+           <key></key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="1">
+           <_type>vim.ElementDescription</_type>
+           <key>none</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="2">
+           <_type>vim.ElementDescription</_type>
+           <key>quiet</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="3">
+           <_type>vim.ElementDescription</_type>
+           <key>panic</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="4">
+           <_type>vim.ElementDescription</_type>
+           <key>error</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="5">
+           <_type>vim.ElementDescription</_type>
+           <key>warning</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="6">
+           <_type>vim.ElementDescription</_type>
+           <key>info</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="7">
+           <_type>vim.ElementDescription</_type>
+           <key>verbose</key>
+           <label></label>
+           <summary></summary>
+         </e>
+         <e id="8">
+           <_type>vim.ElementDescription</_type>
+           <key>trivia</key>
+           <label></label>
+           <summary></summary>
+         </e>
+       </choiceInfo>
+       <valueIsReadonly>false</valueIsReadonly>
+       <defaultIndex>0</defaultIndex>
+     </optionType>
+  </e>
+  <e id="15">
+     <_type>vim.option.OptionDef</_type>
+     <dynamicType></dynamicType>
+     <dynamicProperty>
+        <_length>0</_length>
+        <_type>vmodl.DynamicProperty[]</_type>
+     </dynamicProperty>
+     <label>Enable enforcing the limit of registered Virtual Machines</label>
+     <key>plugins.vmsvc.enforceMaxRegisteredVms</key>
+     <optionType>
+        <_type>vim.option.BoolOption</_type>
+        <defaultValue>true</defaultValue>
+        <supported>false</supported>
+        <valueIsReadonly>false</valueIsReadonly>
+     </optionType>
+     <summary>A flag that enables enforcing the limitation on the number of registered Virtual Machines in the inventory.</summary>
+  </e>
+  <e id="16">
+     <_type>vim.option.OptionDef</_type>
+     <dynamicType></dynamicType>
+     <dynamicProperty>
+        <_length>0</_length>
+        <_type>vmodl.DynamicProperty[]</_type>
+     </dynamicProperty>
+     <label>plugins.hostsvc.lockedVmknics</label>
+     <summary>Vmknics, whose configuration cannot be changed by vpxuser (comma separated).</summary>
+     <key>hidden.plugins.hostsvc.lockedVmknics</key>
+     <optionType>
+        <_type>vim.option.StringOption</_type>
+        <dynamicType></dynamicType>
+        <dynamicProperty>
+           <_length>0</_length>
+           <_type>vmodl.DynamicProperty[]</_type>
+        </dynamicProperty>
+        <valueIsReadonly>false</valueIsReadonly>
+        <defaultValue></defaultValue>
+     </optionType>
+  </e>
+  <e id="17">
+     <_type>vim.option.OptionDef</_type>
+     <dynamicType></dynamicType>
+     <dynamicProperty>
+        <_length>0</_length>
+        <_type>vmodl.DynamicProperty[]</_type>
+     </dynamicProperty>
+     <label>Enable webscript launcher page</label>
+     <summary>Controls the availability of webscript launcher page.</summary>
+     <key>plugins.solo.webServer.enableWebscriptLauncher</key>
+     <optionType>
+        <_type>vim.option.BoolOption</_type>
+        <defaultValue>true</defaultValue>
+        <supported>true</supported>
+        <valueIsReadonly>false</valueIsReadonly>
+     </optionType>
+  </e>
+  <e id="18">
+     <_type>vim.option.OptionDef</_type>
+     <dynamicType></dynamicType>
+     <dynamicProperty>
+        <_length>0</_length>
+        <_type>vmodl.DynamicProperty[]</_type>
+     </dynamicProperty>
+     <label>plugins.vmsvc.productLockerWatchIntervalSeconds</label>
+     <summary>Interval between checks for whether the product locker files are changed, in seconds. Set to -1 to disable checks.</summary>
+     <key>plugins.vmsvc.productLockerWatchInterval</key>
+     <optionType>
+        <_type>vim.option.IntOption</_type>
+        <dynamicType></dynamicType>
+        <dynamicProperty>
+           <_length>0</_length>
+           <_type>vmodl.DynamicProperty[]</_type>
+        </dynamicProperty>
+        <valueIsReadonly>false</valueIsReadonly>
+        <min>-1</min>
+        <max>86400</max>
+        <defaultValue>300</defaultValue>
+     </optionType>
+  </e>
+  <e id="19">
+     <_type>vim.option.OptionDef</_type>
+     <dynamicType></dynamicType>
+     <dynamicProperty>
+        <_length>0</_length>
+        <_type>vmodl.DynamicProperty[]</_type>
+     </dynamicProperty>
+     <label>vmacore.soap.sessionTimeout</label>
+     <summary>Number of minutes until a VIM API session times out due to inactivity - set to zero to disable timeout. Applies to new sessions only.</summary>
+     <key>vmacore.soap.sessionTimeout</key>
+     <optionType>
+        <_type>vim.option.IntOption</_type>
+        <dynamicType></dynamicType>
+        <dynamicProperty>
+           <_length>0</_length>
+           <_type>vmodl.DynamicProperty[]</_type>
+        </dynamicProperty>
+        <valueIsReadonly>false</valueIsReadonly>
+        <min>0</min>
+        <max>2147483647</max>
+        <defaultValue>30</defaultValue>
+     </optionType>
+  </e>   
+  <e id="20">
+     <_type>vim.option.OptionDef</_type>
+     <dynamicType></dynamicType>
+     <dynamicProperty>
+        <_length>0</_length>
+        <_type>vmodl.DynamicProperty[]</_type>
+     </dynamicProperty>
+     <label>ssl.keyStore.allowSelfSigned</label>
+     <summary>Allow self-signed certificates to be added to the host CA store.</summary>
+     <key>ssl.keyStore.allowSelfSigned</key>
+     <optionType>
+        <_type>vim.option.BoolOption</_type>
+        <dynamicType></dynamicType>
+        <dynamicProperty>
+           <_length>0</_length>
+           <_type>vmodl.DynamicProperty[]</_type>
+        </dynamicProperty>
+        <valueIsReadonly>false</valueIsReadonly>
+        <supported>true</supported>
+        <defaultValue>false</defaultValue>
+     </optionType>
+  </e>
+  <e id="21">
+     <_type>vim.option.OptionDef</_type>
+     <dynamicType></dynamicType>
+     <dynamicProperty>
+        <_length>0</_length>
+        <_type>vmodl.DynamicProperty[]</_type>
+     </dynamicProperty>
+     <label>ssl.keyStore.allowAny</label>
+     <summary>Allow any certificates to be added to the host CA store. Disables CA checks.</summary>
+     <key>ssl.keyStore.allowAny</key>
+     <optionType>
+        <_type>vim.option.BoolOption</_type>
+        <dynamicType></dynamicType>
+        <dynamicProperty>
+           <_length>0</_length>
+           <_type>vmodl.DynamicProperty[]</_type>
+        </dynamicProperty>
+        <valueIsReadonly>false</valueIsReadonly>
+        <supported>true</supported>
+        <defaultValue>false</defaultValue>
+     </optionType>
+  </e>
+  <e id="22">
+     <_type>vim.option.OptionDef</_type>
+     <dynamicType></dynamicType>
+     <dynamicProperty>
+        <_length>0</_length>
+        <_type>vmodl.DynamicProperty[]</_type>
+     </dynamicProperty>
+     <label>ssl.keyStore.discardLeaf</label>
+     <summary>Discard leaf certificates when adding to CA store. Leaf certificates in a CA store are generally a misconfiguration.</summary>
+     <key>ssl.keyStore.discardLeaf</key>
+     <optionType>
+        <_type>vim.option.BoolOption</_type>
+        <dynamicType></dynamicType>
+        <dynamicProperty>
+           <_length>0</_length>
+           <_type>vmodl.DynamicProperty[]</_type>
+        </dynamicProperty>
+        <valueIsReadonly>false</valueIsReadonly>
+        <supported>true</supported>
+        <defaultValue>true</defaultValue>
+     </optionType>
+  </e>
+</ConfigRoot>

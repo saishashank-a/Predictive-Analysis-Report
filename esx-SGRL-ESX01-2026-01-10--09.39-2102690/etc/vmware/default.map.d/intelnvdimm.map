@@ -1,0 +1,3 @@
+regtype=native,bus=acpi,id=0101,driver=intelnvdimm
+regtype=native,bus=acpi,id=0289000002890000....,driver=intelnvdimm
+regtype=native,bus=acpi,id=0301,driver=intelnvdimm

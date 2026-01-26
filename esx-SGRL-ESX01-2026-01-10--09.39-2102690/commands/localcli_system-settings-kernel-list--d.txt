@@ -1,0 +1,3 @@
+Name      Type    Configured  Runtime                           Default  Description
+------------------------------------------------------------------------------------
+BOOTUUID  string              7d0e6366cd35d8336e5886703aad3a4f           Boot partition UUID.

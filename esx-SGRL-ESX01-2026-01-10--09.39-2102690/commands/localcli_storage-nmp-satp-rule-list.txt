@@ -1,0 +1,124 @@
+Name                 Device  Vendor    Model             Driver  Transport  Options                     Rule Group  Claim Options                        Default PSP  PSP Options  Description
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+VMW_SATP_MSA                           MSA1000 VOLUME                                                   system                                                                     MSA 1000/1500 [Legacy product, Not supported in this release]
+VMW_SATP_ALUA                LSI       INF-01-00                            reset_on_attempted_reserve  system      tpgs_on                              VMW_PSP_MRU               NetApp E-Series arrays with ALUA support
+VMW_SATP_ALUA                NETAPP                                         reset_on_attempted_reserve  system      tpgs_on                              VMW_PSP_RR                NetApp arrays with ALUA support
+VMW_SATP_ALUA                IBM       2810XIV                                                          system      tpgs_on                              VMW_PSP_RR                IBM 2810XIV arrays with ALUA support
+VMW_SATP_ALUA                IBM       2107900                              reset_on_attempted_reserve  system                                           VMW_PSP_RR                
+VMW_SATP_ALUA                IBM       2145                                                             system                                           VMW_PSP_RR                
+VMW_SATP_ALUA                PURE      FlashArray                                                       system                                           VMW_PSP_RR   iops=1       
+VMW_SATP_ALUA                HUAWEI    XSG1                                                             system      tpgs_on                              VMW_PSP_RR                
+VMW_SATP_ALUA                Huawei    VBS fileIO                                                       system      tpgs_on                              VMW_PSP_RR                
+VMW_SATP_ALUA                LENOVO    DE_Series                                                        system      tpgs_on                              VMW_PSP_RR                Lenovo DE Series arrays with ALUA support
+VMW_SATP_ALUA                FUJITSU   ETERNUS_AHB                                                      system      tpgs_on                              VMW_PSP_RR                FUJITSU ETERNUS AB/HB Series
+VMW_SATP_ALUA                DELL      MD32xx                                                           system      tpgs_on                              VMW_PSP_RR                Dell ALUA Claim Rule
+VMW_SATP_ALUA                DELL      MD32xxi                                                          system      tpgs_on                              VMW_PSP_RR                Dell ALUA Claim Rule
+VMW_SATP_ALUA                DELL      MD36xxi                                                          system      tpgs_on                              VMW_PSP_RR                Dell ALUA Claim Rule
+VMW_SATP_ALUA                DELL      MD36xxf                                                          system      tpgs_on                              VMW_PSP_RR                Dell ALUA Claim Rule
+VMW_SATP_ALUA                DELL      MD34xx                                                           system      tpgs_on                              VMW_PSP_RR                Dell ALUA Claim Rule
+VMW_SATP_ALUA                DELL      MD38xxf                                                          system      tpgs_on                              VMW_PSP_RR                Dell ALUA Claim Rule
+VMW_SATP_ALUA                DELL      MD38xxi                                                          system      tpgs_on                              VMW_PSP_RR                Dell ALUA Claim Rule
+VMW_SATP_ALUA                DellEMC   PowerStore                                                       system      tpgs_on                              VMW_PSP_RR   iops=1       DellEMC PowerStore arrays with ALUA support
+VMW_SATP_ALUA                HITACHI   OPEN-V                                                           system      tpgs_on                              VMW_PSP_RR                Hitachi VSP Storage with ALUA enabled
+VMW_SATP_ALUA                TEGILE    INTELLIFLASH                                                     system      tpgs_on                              VMW_PSP_RR   iops=1       Tegile arrays with ALUA support
+VMW_SATP_ALUA                3PARdata  VV                                   throttle_sll                system      tpgs_on                              VMW_PSP_MRU               
+VMW_SATP_ALUA                                                                                           system      tpgs_on                                                        Any array with ALUA support
+VMW_SATP_DEFAULT_AP          DEC       HSG80                                                            system                                                                     
+VMW_SATP_DEFAULT_AP                    HSVX700                                                          system      tpgs_off                                                       active/passive HP StorageWorks SVSP
+VMW_SATP_DEFAULT_AP                    HSV100                                                           system                                                                     active/passive EVA 3000 GL [Legacy product, Not supported in this release]
+VMW_SATP_DEFAULT_AP                    HSV110                                                           system                                                                     active/passive EVA 5000 GL [Legacy product, Not supported in this release]
+VMW_SATP_EQL                 EQLOGIC                                                                    system                                                                     All EqualLogic Arrays
+VMW_SATP_INV                 EMC       Invista                                                          system                                                                     
+VMW_SATP_INV                 EMC       LUNZ                                                             system                                                                     Invista LUNZ
+VMW_SATP_EVA                           HSV200                                                           system      tpgs_off                                                       active/active EVA 4000/6000 XL
+VMW_SATP_EVA                           HSV210                                                           system      tpgs_off                                                       active/active EVA 8000/8100 XL
+VMW_SATP_EVA                           HSVX740                                                          system      tpgs_off                                                       active/active HP StorageWorks SVSP
+VMW_SATP_EVA                           HSV101                                                           system      tpgs_off                                                       active/active EVA 3000 GL [Legacy product, Not supported in this release]
+VMW_SATP_EVA                           HSV111                                                           system      tpgs_off                                                       active/active EVA 5000 GL [Legacy product, Not supported in this release]
+VMW_SATP_EVA                           HSV300                                                           system      tpgs_off                                                       active/active EVA 4400
+VMW_SATP_EVA                           HSV400                                                           system      tpgs_off                                                       active/active EVA 6400
+VMW_SATP_EVA                           HSV450                                                           system      tpgs_off                                                       active/active EVA 8400
+VMW_SATP_ALUA_CX             DGC                                                                        system      tpgs_on                                                        CLARiiON array in ALUA mode
+VMW_SATP_SYMM                EMC       SYMMETRIX                                                        system                                                                     EMC Symmetrix
+VMW_SATP_CX                  DGC                                                                        system      tpgs_off                                                       All non-ALUA Clariion Arrays
+VMW_SATP_LSI                 IBM       ^1742*                                                           system      tpgs_off                                                       FAStT 700/900
+VMW_SATP_LSI                 IBM       ^3542*                                                           system      tpgs_off                                                       FAStT 200
+VMW_SATP_LSI                 IBM       ^3552*                                                           system      tpgs_off                                                       FAStT 500
+VMW_SATP_LSI                 IBM       ^1722*                                                           system      tpgs_off                                                       FAStT 600/DS4300
+VMW_SATP_LSI                 IBM       ^1815*                                                           system      tpgs_off                                                       FAStT DS4800
+VMW_SATP_LSI                 IBM       ^1724*                                                           system      tpgs_off                                                       FAStT 100
+VMW_SATP_LSI                 IBM       ^1726-*                                                          system      tpgs_off                                                       DS3X00
+VMW_SATP_LSI                 IBM       ^1814*                                                           system      tpgs_off                                                       DS4000
+VMW_SATP_LSI                 IBM       ^1818*                                                           system      tpgs_off                                                       DS5100/DS5300
+VMW_SATP_LSI                           Universal Xport                                                  system      tpgs_off                                                       FAStT
+VMW_SATP_LSI                 DELL      MD3000                                                           system      tpgs_off                                                       Dell MD3000
+VMW_SATP_LSI                 DELL      MD3000i                                                          system      tpgs_off                                                       Dell MD3000i
+VMW_SATP_LSI                 STK       OPENstorage 9176                                                 system      tpgs_off                                                       
+VMW_SATP_LSI                 STK       OPENstorage D173                                                 system      tpgs_off                                                       
+VMW_SATP_LSI                 STK       OPENstorage D178                                                 system      tpgs_off                                                       
+VMW_SATP_LSI                 STK       OPENstorage D210                                                 system      tpgs_off                                                       
+VMW_SATP_LSI                 STK       OPENstorage D220                                                 system      tpgs_off                                                       
+VMW_SATP_LSI                 STK       OPENstorage D240                                                 system      tpgs_off                                                       
+VMW_SATP_LSI                 STK       OPENstorage D280                                                 system      tpgs_off                                                       
+VMW_SATP_LSI                 STK       BladeCtlr BC82                                                   system      tpgs_off                                                       
+VMW_SATP_LSI                 STK       BladeCtlr BC84                                                   system      tpgs_off                                                       
+VMW_SATP_LSI                 STK       BladeCtlr BC88                                                   system      tpgs_off                                                       
+VMW_SATP_LSI                 STK       BladeCtlr B210                                                   system      tpgs_off                                                       
+VMW_SATP_LSI                 STK       BladeCtlr B220                                                   system      tpgs_off                                                       
+VMW_SATP_LSI                 STK       BladeCtlr B240                                                   system      tpgs_off                                                       
+VMW_SATP_LSI                 STK       BladeCtlr B280                                                   system      tpgs_off                                                       
+VMW_SATP_LSI                 STK       INF-01-00                                                        system      tpgs_off                                                       
+VMW_SATP_LSI                 STK       FLEXLINE 380                                                     system      tpgs_off                                                       
+VMW_SATP_LSI                 LSI       OPENstorage 9176                                                 system      tpgs_off                                                       
+VMW_SATP_LSI                 LSI       OPENstorage D173                                                 system      tpgs_off                                                       
+VMW_SATP_LSI                 LSI       OPENstorage D178                                                 system      tpgs_off                                                       
+VMW_SATP_LSI                 LSI       OPENstorage D210                                                 system      tpgs_off                                                       
+VMW_SATP_LSI                 LSI       OPENstorage D220                                                 system      tpgs_off                                                       
+VMW_SATP_LSI                 LSI       OPENstorage D240                                                 system      tpgs_off                                                       
+VMW_SATP_LSI                 LSI       OPENstorage D280                                                 system      tpgs_off                                                       
+VMW_SATP_LSI                 LSI       BladeCtlr BC82                                                   system      tpgs_off                                                       
+VMW_SATP_LSI                 LSI       BladeCtlr BC84                                                   system      tpgs_off                                                       
+VMW_SATP_LSI                 LSI       BladeCtlr BC88                                                   system      tpgs_off                                                       
+VMW_SATP_LSI                 LSI       BladeCtlr B210                                                   system      tpgs_off                                                       
+VMW_SATP_LSI                 LSI       BladeCtlr B220                                                   system      tpgs_off                                                       
+VMW_SATP_LSI                 LSI       BladeCtlr B240                                                   system      tpgs_off                                                       
+VMW_SATP_LSI                 LSI       BladeCtlr B280                                                   system      tpgs_off                                                       
+VMW_SATP_LSI                 LSI       INF-01-00                                                        system      tpgs_off                                                       
+VMW_SATP_LSI                 LSI       FLEXLINE 380                                                     system      tpgs_off                                                       
+VMW_SATP_LSI                 SUN       CSM100_R_FC                                                      system      tpgs_off                                                       
+VMW_SATP_LSI                 SUN       FLEXLINE 380                                                     system      tpgs_off                                                       
+VMW_SATP_LSI                 SUN       CSM200_R                                                         system      tpgs_off                                                       
+VMW_SATP_LSI                 SUN       LCSM100_F                                                        system      tpgs_off                                                       
+VMW_SATP_LSI                 SUN       LCSM100_I                                                        system      tpgs_off                                                       
+VMW_SATP_LSI                 SUN       LCSM100_S                                                        system      tpgs_off                                                       
+VMW_SATP_LSI                 SUN       STK6580_6780                                                     system      tpgs_off                                                       Sun StorageTek 6580/6780
+VMW_SATP_LSI                 ENGENIO   INF-01-00                                                        system      tpgs_off                                                       
+VMW_SATP_LSI                 IBM       ^1746*                                                           system      tpgs_off                                                       IBM DS3512/DS3524
+VMW_SATP_LSI                 DELL      MD32xx                                                           system      tpgs_off                                                       Dell MD3200
+VMW_SATP_LSI                 DELL      MD32xxi                                                          system      tpgs_off                                                       Dell MD3200i
+VMW_SATP_LSI                 SGI       IS500                                                            system      tpgs_off                                                       SGI InfiniteStorage 4000/4100
+VMW_SATP_LSI                 SGI       IS600                                                            system      tpgs_off                                                       SGI InfiniteStorage 4600
+VMW_SATP_LSI                 SUN       SUN_6180                                                         system      tpgs_off                                                       Sun Storage 6180
+VMW_SATP_LSI                 DELL      MD36xxi                                                          system      tpgs_off                                                       Dell MD3600i
+VMW_SATP_LSI                 DELL      MD36xxf                                                          system      tpgs_off                                                       Dell MD3600f
+VMW_SATP_DEFAULT_AA          HITACHI                                                                    system      inq_data[128]={0x44 0x46 0x30 0x30}  VMW_PSP_RR                
+VMW_SATP_DEFAULT_AA          IBM       2810XIV                                                          system      tpgs_off                             VMW_PSP_RR                IBM 2810XIV arrays without ALUA support
+VMW_SATP_DEFAULT_AA          XtremIO   XtremApp                                                         system                                           VMW_PSP_RR   iops=1       
+VMW_SATP_DEFAULT_AA          HUAWEI    XSG1                                                             system      tpgs_off                             VMW_PSP_RR                
+VMW_SATP_DEFAULT_AA          Huawei    VBS fileIO                                                       system      tpgs_off                             VMW_PSP_RR                
+VMW_SATP_DEFAULT_AA          SolidFir  SSD SAN                                                          system                                           VMW_PSP_RR   iops=10      NetApp SolidFire Arrays
+VMW_SATP_DEFAULT_AA          HITACHI   OPEN-V                                                           system      tpgs_off                             VMW_PSP_RR                Hitachi VSP Storage
+VMW_SATP_DEFAULT_AA          TEGILE    INTELLIFLASH                                                     system      tpgs_off                             VMW_PSP_RR   iops=1       Tegile arrays without ALUA support
+VMW_SATP_DEFAULT_AA                                              fc                                     system                                                                     Fibre Channel Devices
+VMW_SATP_DEFAULT_AA                                              fcoe                                   system                                                                     Fibre Channel over Ethernet Devices
+VMW_SATP_DEFAULT_AA                                              iscsi                                  system                                                                     iSCSI Devices
+VMW_SATP_DEFAULT_AA          IBM       SAS SES-2 DEVICE                                                 system                                                                     IBM SAS SES-2
+VMW_SATP_DEFAULT_AA          IBM       1820N00                                                          system      tpgs_off                                                       IBM BCS RSSM
+VMW_SATP_DEFAULT_AA          HITACHI                                                                    system                                                                     
+VMW_SATP_LOCAL                                                   usb                                    system                                                                     USB Devices
+VMW_SATP_LOCAL                                                   ide                                    system                                                                     IDE Devices
+VMW_SATP_LOCAL                                                   block                                  system                                                                     RAID Block Devices
+VMW_SATP_LOCAL                                                   parallel                               system                                                                     Parallel SCSI Devices
+VMW_SATP_LOCAL                                                   sas                                    system                                                                     Serial Attached SCSI Devices
+VMW_SATP_LOCAL                                                   sata                                   system                                                                     Serial ATA Devices
+VMW_SATP_LOCAL                                                   unknown                                system                                                                     Unknown Devices

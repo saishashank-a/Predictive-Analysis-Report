@@ -1,0 +1,20 @@
+iSCSI MASTER Database opened. (0x1c5b68b010)
+Dumping Configuration DB to (null)
+=========[ISID]=========
+=========[InitiatorNodes]=========
+=========[Targets]=========
+=========[discovery]=========
+=========[ifaces]=========
+=========[internal]=========
+Record 1:
+   `rowid`='1'
+   `key`='discovery.ltime'
+   `value`='1'
+Record 2:
+   `rowid`='2'
+   `key`='option.NoFilterByAddrFamily'
+   `value`='0'
+=========[nodes]=========
+=========[route]=========
+=========[route_vs_iface]=========
+Dump Complete
