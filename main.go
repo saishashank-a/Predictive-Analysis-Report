@@ -3,15 +3,22 @@ package main
 import (
 	"bufio"
 	"bytes"
+	"crypto/md5"
+	"encoding/hex"
 	"encoding/json"
 	"fmt"
 	"log"
+	"math/rand"
 	"net/http"
 	"os"
+	"path/filepath"
 	"regexp"
+	"sort"
 	"strings"
+	"sync"
 	"time"
 
+	"github.com/gofiber/contrib/websocket"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 )
@@ -20,18 +27,54 @@ import (
 // DATA STRUCTURES
 // ========================================
 
-// Anomaly represents a single row from anomaly_report.csv
+// Anomaly represents a single log entry
 type Anomaly struct {
-	Timestamp time.Time `json:"timestamp"`
-	Component string    `json:"component"`
-	Message   string    `json:"message"`
-	RiskScore int       `json:"risk_score"`
+	Timestamp   time.Time `json:"timestamp"`
+	Component   string    `json:"component"`
+	Subsystem   string    `json:"subsystem"`
+	Message     string    `json:"message"`
+	RiskScore   int       `json:"risk_score"`
+	Severity    string    `json:"severity"`
+	PatternHash string    `json:"pattern_hash"` // Links to cluster
 }
 
-// AnalyzeRequest for the AI analysis endpoint
-type AnalyzeRequest struct {
-	ErrorMsg string `json:"error_msg"`
+// PatternCluster represents a group of similar errors
+type PatternCluster struct {
+	PatternHash      string   `json:"pattern_hash"`
+	CanonicalMessage string   `json:"canonical_message"` // Representative message
+	Component        string   `json:"component"`
+	Subsystem        string   `json:"subsystem"`
+	Severity         string   `json:"severity"`
+	Count            int      `json:"count"`
+	FirstSeen        string   `json:"first_seen"`
+	LastSeen         string   `json:"last_seen"`
+	RiskScore        int      `json:"risk_score"`
+	Cure             *AICure  `json:"cure,omitempty"` // AI-generated fix
 }
+
+// AICure represents the AI-generated diagnosis and fix
+type AICure struct {
+	Diagnosis       string `json:"diagnosis"`        // "Like I'm 5" explanation
+	Prescription    string `json:"prescription"`     // CLI command or fix
+	Prognosis       string `json:"prognosis"`        // Risk if ignored
+	EstimatedImpact string `json:"estimated_impact"` // Downtime estimation
+	Source          string `json:"source"`           // "ollama" or "fallback"
+	GeneratedAt     string `json:"generated_at"`
+}
+
+// Client represents a connected WebSocket user
+type Client struct {
+	Conn *websocket.Conn
+}
+
+// Global Hub Variables
+var (
+	clients    = make(map[*Client]bool)
+	broadcast  = make(chan Anomaly)
+	register   = make(chan *Client)
+	unregister = make(chan *Client)
+	mutex      = &sync.Mutex{}
+)
 
 // OllamaRequest for sending prompts to Ollama
 type OllamaRequest struct {
@@ -45,22 +88,65 @@ type OllamaResponse struct {
 	Response string `json:"response"`
 }
 
+type PaginatedResponse struct {
+	Total      int       `json:"total"`
+	Page       int       `json:"page"`
+	Limit      int       `json:"limit"`
+	TotalPages int       `json:"total_pages"`
+	Data       []Anomaly `json:"data"`
+}
+
+type Stats struct {
+	TotalCount       int               `json:"total_count"`
+	CriticalCount    int               `json:"critical_count"`
+	WarningCount     int               `json:"warning_count"`
+	AvgRisk          int               `json:"avg_risk"`
+	ComponentData    map[string]int    `json:"component_data"`
+	TimelineData     []TimePoint       `json:"timeline_data"`
+	UniquePatterns   int               `json:"unique_patterns"`
+	PatternsAnalyzed int               `json:"patterns_analyzed"`
+	IngestionTimeMs  int64             `json:"ingestion_time_ms"`
+	SeverityData     map[string]int    `json:"severity_data"`
+}
+
+type TimePoint struct {
+	Timestamp time.Time `json:"x"`
+	RiskScore int       `json:"y"`
+}
+
+type Prediction struct {
+	Timestamp     time.Time `json:"timestamp"`
+	PredictedRisk float64   `json:"predicted_risk"`
+	LowerBound    float64   `json:"lower_bound"`
+	UpperBound    float64   `json:"upper_bound"`
+}
+
+type AnalyzeRequest struct {
+	ErrorMsg string `json:"error_msg"`
+}
+
 // ========================================
-// GLOBALS: In-Memory Data Store (O(1) access)
+// GLOBALS: In-Memory Data Store
 // ========================================
 
-var anomalies []Anomaly
+var (
+	anomalies       []Anomaly
+	patternClusters = make(map[string]*PatternCluster) // patternHash -> cluster
+	ingestionTimeMs int64
+	filesProcessed  int
+	linesProcessed  int
+)
 
 // ========================================
 // CONFIGURATION
 // ========================================
 
 const (
-	LogFilePath   = "esx-SGRL-ESX01-2026-01-10--09.39-2102690/var/run/log/hostd.log"
+	RootDir       = "esx-SGRL-ESX01-2026-01-10--09.39-2102690"
 	Port          = ":3000"
 	OllamaURL     = "http://localhost:11434/api/generate"
 	OllamaModel   = "llama3.2"
-	OllamaTimeout = 30 * time.Second
+	OllamaTimeout = 60 * time.Second
 )
 
 // ========================================
@@ -68,200 +154,635 @@ const (
 // ========================================
 
 func main() {
-	// 1. Data Ingestion: Load Logs into memory on startup
-	loadAnomalies()
+	log.Println("🚀 Starting AIOps Dashboard - The Self-Healing Engine")
+
+	// 1. High-Speed Data Ingestion with benchmarking
+	start := time.Now()
+	loadAllLogs()
+	ingestionTimeMs = time.Since(start).Milliseconds()
+
+	log.Printf("⚡ BENCHMARK: Ingested %d log entries from %d files in %dms",
+		len(anomalies), filesProcessed, ingestionTimeMs)
+	log.Printf("📊 Identified %d unique error patterns (clusters)", len(patternClusters))
+
+	// Start WebSocket Hub
+	go runHub()
 
 	// 2. Setup Fiber Server
 	app := fiber.New(fiber.Config{
-		AppName: "AIOps Dashboard v1.0",
+		AppName: "AIOps Self-Healing Dashboard v2.0",
 	})
 
-	// Enable CORS for development
+	// Enable CORS
 	app.Use(cors.New())
 
 	// ========================================
 	// ROUTES
 	// ========================================
 
-	// Serve the frontend
+	// Serve frontend
 	app.Get("/", func(c *fiber.Ctx) error {
 		return c.SendFile("./index.html")
 	})
 
-	// API: Return all anomalies as JSON (Phase 1 Deliverable)
-	app.Get("/api/anomalies", func(c *fiber.Ctx) error {
-		return c.JSON(anomalies)
-	})
-
-	// Health check for load balancer
+	// Health check
 	app.Get("/api/health", func(c *fiber.Ctx) error {
-		return c.SendString("OK")
+		return c.JSON(fiber.Map{
+			"status":           "healthy",
+			"anomalies":        len(anomalies),
+			"patterns":         len(patternClusters),
+			"ingestion_time_ms": ingestionTimeMs,
+		})
 	})
 
-	// AI Proxy: Forward to local Ollama instance (Phase 3)
-	app.Post("/api/analyze", handleAnalyze)
+	// Core Data Endpoints
+	app.Get("/api/anomalies", handleGetAnomalies)
+	app.Get("/api/stats", handleGetStats)
+	app.Get("/api/clusters", handleGetClusters)
+	app.Get("/api/predictions", handlePredictions)
 
-	// ========================================
-	// START SERVER
-	// ========================================
+	// AI "Cure" Endpoints
+	app.Post("/api/analyze", handleAnalyzeSingle)           // Single error analysis
+	app.Post("/api/analyze-clusters", handleAnalyzeClusters) // Batch analyze all clusters
+	app.Get("/api/cures", handleGetCures)                   // Get all cached cures
 
-	log.Printf("🚀 AIOps Dashboard running at http://localhost%s", Port)
-	log.Printf("📊 Loaded %d log entries from %s", len(anomalies), LogFilePath)
+	// WebSocket
+	app.Use("/ws", func(c *fiber.Ctx) error {
+		if websocket.IsWebSocketUpgrade(c) {
+			return c.Next()
+		}
+		return fiber.ErrUpgradeRequired
+	})
+	app.Get("/ws", websocket.New(handleWebSocket))
+
+	// Start Real-Time Simulation
+	go simulateRealTimeTraffic()
+
+	// 3. Start Server
+	log.Printf("🏥 Dashboard ready at http://localhost%s", Port)
+	log.Printf("💊 AI Cure Engine: POST /api/analyze-clusters to generate fixes")
 	log.Fatal(app.Listen(Port))
 }
 
 // ========================================
-// DATA INGESTION LOGIC
+// HIGH-SPEED LOG INGESTION
 // ========================================
 
-// loadAnomalies reads the VMware hostd.log file into the in-memory slice
-func loadAnomalies() {
-	file, err := os.Open(LogFilePath)
+func loadAllLogs() {
+	// Regex patterns for different log formats
+
+	// hostd.log format: 2025-12-09T04:04:13.227Z warning hostd[2099429] [Originator@6876 sub=Vmsvc...] Message
+	hostdRegex := regexp.MustCompile(`^(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z)\s+(info|warning|error|verbose|trivia)\s+(\w+)\[\d+\]\s+\[.*?sub=([^\s\]]+).*?\]\s+(.*)$`)
+
+	// vmware.log format: 2025-12-27T02:23:54.263Z| vmx| I125: Message
+	vmwareRegex := regexp.MustCompile(`^(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z)\|\s*(\S+)\|\s*([A-Z])\d*:\s*(.*)$`)
+
+	// Pattern normalization regex - removes variable parts
+	pathRegex := regexp.MustCompile(`/vmfs/volumes/[a-f0-9-]+/[^/]+/[^'"\s]+`)
+	uuidRegex := regexp.MustCompile(`[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}`)
+	pidRegex := regexp.MustCompile(`\[\d+\]`)
+	ipRegex := regexp.MustCompile(`\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b`)
+	hexRegex := regexp.MustCompile(`0x[a-fA-F0-9]+`)
+	numberRegex := regexp.MustCompile(`\b\d{4,}\b`) // Large numbers (task IDs, etc)
+
+	normalizeMessage := func(msg string) string {
+		normalized := msg
+		normalized = pathRegex.ReplaceAllString(normalized, "[PATH]")
+		normalized = uuidRegex.ReplaceAllString(normalized, "[UUID]")
+		normalized = pidRegex.ReplaceAllString(normalized, "[PID]")
+		normalized = ipRegex.ReplaceAllString(normalized, "[IP]")
+		normalized = hexRegex.ReplaceAllString(normalized, "[HEX]")
+		normalized = numberRegex.ReplaceAllString(normalized, "[NUM]")
+		return normalized
+	}
+
+	hashPattern := func(component, subsystem, severity, normalizedMsg string) string {
+		data := fmt.Sprintf("%s|%s|%s|%s", component, subsystem, severity, normalizedMsg)
+		hash := md5.Sum([]byte(data))
+		return hex.EncodeToString(hash[:])[:12] // Short hash
+	}
+
+	// Walk all files
+	err := filepath.Walk(RootDir, func(path string, info os.FileInfo, err error) error {
+		if err != nil {
+			return nil // Skip errors
+		}
+		if info.IsDir() {
+			return nil
+		}
+
+		// Process hostd.log
+		if info.Name() == "hostd.log" {
+			filesProcessed++
+			processLogFile(path, hostdRegex, "hostd", normalizeMessage, hashPattern)
+		}
+
+		// Process vmware.log files
+		if info.Name() == "vmware.log" {
+			filesProcessed++
+			processVMwareLog(path, vmwareRegex, normalizeMessage, hashPattern)
+		}
+
+		return nil
+	})
+
 	if err != nil {
-		log.Printf("⚠️  Log file not found (%s). Generating mock data...", LogFilePath)
+		log.Printf("⚠️ Error walking directory: %v", err)
+	}
+
+	// Sort anomalies by timestamp (newest first)
+	sort.Slice(anomalies, func(i, j int) bool {
+		return anomalies[i].Timestamp.After(anomalies[j].Timestamp)
+	})
+
+	if len(anomalies) == 0 {
+		log.Println("⚠️ No logs found, generating mock data...")
 		generateMockData()
+	}
+}
+
+func processLogFile(path string, re *regexp.Regexp, defaultComponent string,
+	normalizeMessage func(string) string,
+	hashPattern func(string, string, string, string) string) {
+
+	file, err := os.Open(path)
+	if err != nil {
 		return
 	}
 	defer file.Close()
 
 	scanner := bufio.NewScanner(file)
+	// Increase buffer size for long lines
+	buf := make([]byte, 0, 64*1024)
+	scanner.Buffer(buf, 1024*1024)
 
-	// Regex for VMware hostd logs
-	// Example: 2025-12-09T04:04:13.227Z warning hostd[2099429] [Originator@6876 sub=Vmsvc.vm:/vmfs/volumes/... user=vpxuser] Message...
-	// Group 1: Timestamp
-	// Group 2: Severity
-	// Group 3: Process Info (hostd[...])
-	// Group 4: Metadata (Originator...)
-	// Group 5: Message
-	re := regexp.MustCompile(`^(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z) (\w+) (\S+) \[(.*?)\] (.*)$`)
-
-	count := 0
 	for scanner.Scan() {
 		line := scanner.Text()
+		linesProcessed++
+
 		matches := re.FindStringSubmatch(line)
+		if len(matches) >= 5 {
+			tsStr := matches[1]
+			severityRaw := strings.ToLower(matches[2])
+			component := matches[3]
+			subsystem := matches[4]
+			message := matches[5]
 
-		if len(matches) < 6 {
-			continue // Skip malformed lines
-		}
-
-		tsStr := matches[1]
-		severity := matches[2]
-		// process := matches[3]
-		metadata := matches[4]
-		message := matches[5]
-
-		// Parse timestamp
-		ts, err := time.Parse(time.RFC3339, tsStr)
-		if err != nil {
-			ts = time.Now()
-		}
-
-		// Calculate Risk Score
-		riskScore := 10 // Default Info
-		switch severity {
-		case "error":
-			riskScore = 90
-		case "warning":
-			riskScore = 50
-		case "verbose":
-			riskScore = 5
-		}
-
-		// Extract cleaner component from metadata (e.g., "sub=Vmsvc.vm" -> "Vmsvc.vm")
-		component := "System"
-		if strings.Contains(metadata, "sub=") {
-			parts := strings.Split(metadata, " ")
-			for _, p := range parts {
-				if strings.HasPrefix(p, "sub=") {
-					component = strings.TrimPrefix(p, "sub=")
-					break
-				}
+			// Parse timestamp
+			ts, err := time.Parse("2006-01-02T15:04:05.000Z", tsStr)
+			if err != nil {
+				continue
 			}
+
+			// Map severity to risk score
+			severity := mapSeverity(severityRaw)
+			riskScore := severityToRisk(severity)
+
+			// Create pattern hash for clustering
+			normalized := normalizeMessage(message)
+			patternHash := hashPattern(component, subsystem, severity, normalized)
+
+			// Add anomaly
+			anomaly := Anomaly{
+				Timestamp:   ts,
+				Component:   component,
+				Subsystem:   subsystem,
+				Message:     message,
+				RiskScore:   riskScore,
+				Severity:    severity,
+				PatternHash: patternHash,
+			}
+			anomalies = append(anomalies, anomaly)
+
+			// Update cluster
+			updateCluster(patternHash, anomaly, normalized)
 		}
-
-		anomalies = append(anomalies, Anomaly{
-			Timestamp: ts,
-			Component: component,
-			Message:   message,
-			RiskScore: riskScore,
-		})
-		count++
 	}
-
-	if err := scanner.Err(); err != nil {
-		log.Printf("⚠️  Error reading log file: %v", err)
-	}
-
-	log.Printf("✅ Loaded %d log entries from %s", count, LogFilePath)
 }
 
-// generateMockData creates sample anomalies if Log file is missing
-func generateMockData() {
-	components := []string{"Network", "Database", "Auth Service", "Storage", "API Gateway", "Payment Service"}
-	messages := []string{
-		"Connection timeout from 10.0.0.5",
-		"High latency detected on /api/v1/users",
-		"Invalid token signature User: admin",
-		"Disk usage above 90% on /mnt/data",
-		"Certificate expiration warning",
-		"Transaction processing delay",
+func processVMwareLog(path string, re *regexp.Regexp,
+	normalizeMessage func(string) string,
+	hashPattern func(string, string, string, string) string) {
+
+	file, err := os.Open(path)
+	if err != nil {
+		return
 	}
+	defer file.Close()
+
+	// Extract VM name from path
+	parts := strings.Split(path, "/")
+	vmName := "unknown"
+	for i, p := range parts {
+		if p == "vmfs" && i+3 < len(parts) {
+			vmName = parts[i+3]
+			break
+		}
+	}
+
+	scanner := bufio.NewScanner(file)
+	buf := make([]byte, 0, 64*1024)
+	scanner.Buffer(buf, 1024*1024)
+
+	for scanner.Scan() {
+		line := scanner.Text()
+		linesProcessed++
+
+		matches := re.FindStringSubmatch(line)
+		if len(matches) >= 5 {
+			tsStr := matches[1]
+			component := matches[2]
+			severityCode := matches[3]
+			message := matches[4]
+
+			ts, err := time.Parse("2006-01-02T15:04:05.000Z", tsStr)
+			if err != nil {
+				continue
+			}
+
+			severity := vmwareSeverityMap(severityCode)
+			riskScore := severityToRisk(severity)
+
+			normalized := normalizeMessage(message)
+			patternHash := hashPattern(component, vmName, severity, normalized)
+
+			anomaly := Anomaly{
+				Timestamp:   ts,
+				Component:   component,
+				Subsystem:   vmName,
+				Message:     message,
+				RiskScore:   riskScore,
+				Severity:    severity,
+				PatternHash: patternHash,
+			}
+			anomalies = append(anomalies, anomaly)
+
+			updateCluster(patternHash, anomaly, normalized)
+		}
+	}
+}
+
+func updateCluster(patternHash string, anomaly Anomaly, canonicalMsg string) {
+	mutex.Lock()
+	defer mutex.Unlock()
+
+	if cluster, exists := patternClusters[patternHash]; exists {
+		cluster.Count++
+		if anomaly.Timestamp.Format(time.RFC3339) > cluster.LastSeen {
+			cluster.LastSeen = anomaly.Timestamp.Format(time.RFC3339)
+		}
+		if anomaly.Timestamp.Format(time.RFC3339) < cluster.FirstSeen {
+			cluster.FirstSeen = anomaly.Timestamp.Format(time.RFC3339)
+		}
+	} else {
+		patternClusters[patternHash] = &PatternCluster{
+			PatternHash:      patternHash,
+			CanonicalMessage: truncateMessage(canonicalMsg, 200),
+			Component:        anomaly.Component,
+			Subsystem:        anomaly.Subsystem,
+			Severity:         anomaly.Severity,
+			Count:            1,
+			FirstSeen:        anomaly.Timestamp.Format(time.RFC3339),
+			LastSeen:         anomaly.Timestamp.Format(time.RFC3339),
+			RiskScore:        anomaly.RiskScore,
+		}
+	}
+}
+
+func mapSeverity(raw string) string {
+	switch raw {
+	case "error":
+		return "Critical"
+	case "warning":
+		return "Warning"
+	case "info", "verbose", "trivia":
+		return "Info"
+	default:
+		return "Info"
+	}
+}
+
+func vmwareSeverityMap(code string) string {
+	switch code {
+	case "E", "F":
+		return "Critical"
+	case "W":
+		return "Warning"
+	default:
+		return "Info"
+	}
+}
+
+func severityToRisk(severity string) int {
+	switch severity {
+	case "Critical":
+		return 90
+	case "Warning":
+		return 50
+	default:
+		return 10
+	}
+}
+
+func truncateMessage(msg string, maxLen int) string {
+	if len(msg) > maxLen {
+		return msg[:maxLen] + "..."
+	}
+	return msg
+}
+
+func generateMockData() {
+	components := []string{"hostd", "vmx", "vpxa", "vmkernel"}
+	subsystems := []string{"Vmsvc", "Default", "Libs", "TaskManager"}
+	severities := []string{"Critical", "Warning", "Info"}
 
 	now := time.Now()
-	for i := 0; i < 20; i++ {
+	for i := 0; i < 100; i++ {
+		severity := severities[i%len(severities)]
 		anomalies = append(anomalies, Anomaly{
-			Timestamp: now.Add(time.Duration(-i*15) * time.Minute),
-			Component: components[i%len(components)],
-			Message:   messages[i%len(messages)],
-			RiskScore: 30 + (i*5)%70,
+			Timestamp:   now.Add(time.Duration(-i*15) * time.Minute),
+			Component:   components[i%len(components)],
+			Subsystem:   subsystems[i%len(subsystems)],
+			Message:     fmt.Sprintf("Mock error %d - System anomaly detected", i),
+			RiskScore:   severityToRisk(severity),
+			Severity:    severity,
+			PatternHash: fmt.Sprintf("mock-%d", i%10),
 		})
 	}
-	log.Printf("✅ Generated %d mock anomalies", len(anomalies))
 }
 
 // ========================================
-// AI INTEGRATION LOGIC (Ollama Reverse Proxy)
+// API HANDLERS
 // ========================================
 
-// handleAnalyze acts as a REVERSE PROXY to the local Ollama instance.
-//
-// PROXY PATTERN:
-// 1. Frontend calls POST /api/analyze (avoids CORS issues)
-// 2. Go backend constructs the "System Doctor" prompt
-// 3. Go backend forwards request to Ollama (localhost:11434)
-// 4. If Ollama is offline/times out, return a static fallback response
-// 5. Return AI response (or fallback) to frontend
-//
-// This pattern is superior to direct browser->Ollama calls because:
-// - No CORS configuration needed on Ollama
-// - Backend can rate-limit, cache, or log AI requests
-// - Backend provides graceful fallback if AI is unavailable
-func handleAnalyze(c *fiber.Ctx) error {
-	var req AnalyzeRequest
-	if err := c.BodyParser(&req); err != nil {
-		return c.Status(400).JSON(fiber.Map{"error": "Invalid request body"})
+func handleGetAnomalies(c *fiber.Ctx) error {
+	page := c.QueryInt("page", 1)
+	limit := c.QueryInt("limit", 50)
+
+	if page < 1 {
+		page = 1
+	}
+	if limit < 1 || limit > 200 {
+		limit = 50
 	}
 
-	// Construct the "System Doctor" prompt
-	prompt := fmt.Sprintf(`You are "Dr. System", a friendly and knowledgeable System Doctor who diagnoses infrastructure ailments.
+	total := len(anomalies)
+	start := (page - 1) * limit
+	end := start + limit
 
-A patient (system component) is showing the following symptoms:
-"%s"
+	if start > total {
+		start = total
+	}
+	if end > total {
+		end = total
+	}
 
-Please provide:
+	return c.JSON(PaginatedResponse{
+		Total:      total,
+		Page:       page,
+		Limit:      limit,
+		TotalPages: (total + limit - 1) / limit,
+		Data:       anomalies[start:end],
+	})
+}
 
-🩺 **DIAGNOSIS** (What's happening, explained simply for a non-technical manager)
-Explain what this error means in plain, comforting terms. Use a medical analogy if helpful.
+func handleGetStats(c *fiber.Ctx) error {
+	total := len(anomalies)
+	if total == 0 {
+		return c.JSON(Stats{})
+	}
 
-💊 **PRESCRIPTION** (Technical remedy for the engineer)
-Provide 1-2 specific, actionable fixes the ops team can implement immediately.
+	critical := 0
+	warning := 0
+	sumRisk := 0
+	compCounts := make(map[string]int)
+	severityCounts := make(map[string]int)
+	timeline := []TimePoint{}
 
-🔮 **PROGNOSIS** (What happens if untreated)
-Briefly describe the risk of ignoring this issue.
+	// Downsample for timeline
+	step := 1
+	if total > 500 {
+		step = total / 500
+	}
 
-Keep your response concise but thorough. Be helpful and reassuring.`, req.ErrorMsg)
+	for i, a := range anomalies {
+		if a.Severity == "Critical" {
+			critical++
+		} else if a.Severity == "Warning" {
+			warning++
+		}
+		sumRisk += a.RiskScore
+		compCounts[a.Component]++
+		severityCounts[a.Severity]++
 
-	// Create Ollama request
+		if i%step == 0 {
+			timeline = append(timeline, TimePoint{
+				Timestamp: a.Timestamp,
+				RiskScore: a.RiskScore,
+			})
+		}
+	}
+
+	// Count patterns with cures
+	patternsAnalyzed := 0
+	for _, cluster := range patternClusters {
+		if cluster.Cure != nil {
+			patternsAnalyzed++
+		}
+	}
+
+	return c.JSON(Stats{
+		TotalCount:       total,
+		CriticalCount:    critical,
+		WarningCount:     warning,
+		AvgRisk:          sumRisk / total,
+		ComponentData:    compCounts,
+		TimelineData:     timeline,
+		UniquePatterns:   len(patternClusters),
+		PatternsAnalyzed: patternsAnalyzed,
+		IngestionTimeMs:  ingestionTimeMs,
+		SeverityData:     severityCounts,
+	})
+}
+
+func handleGetClusters(c *fiber.Ctx) error {
+	// Convert map to sorted slice
+	clusters := make([]*PatternCluster, 0, len(patternClusters))
+	for _, cluster := range patternClusters {
+		clusters = append(clusters, cluster)
+	}
+
+	// Sort by count descending (most frequent first)
+	sort.Slice(clusters, func(i, j int) bool {
+		return clusters[i].Count > clusters[j].Count
+	})
+
+	// Limit to top 100 clusters
+	if len(clusters) > 100 {
+		clusters = clusters[:100]
+	}
+
+	return c.JSON(clusters)
+}
+
+func handleGetCures(c *fiber.Ctx) error {
+	// Return all clusters that have cures
+	curedClusters := make([]*PatternCluster, 0)
+	for _, cluster := range patternClusters {
+		if cluster.Cure != nil {
+			curedClusters = append(curedClusters, cluster)
+		}
+	}
+
+	// Sort by count
+	sort.Slice(curedClusters, func(i, j int) bool {
+		return curedClusters[i].Count > curedClusters[j].Count
+	})
+
+	return c.JSON(curedClusters)
+}
+
+// ========================================
+// AI "CURE" ENGINE
+// ========================================
+
+func handleAnalyzeSingle(c *fiber.Ctx) error {
+	var req AnalyzeRequest
+	if err := c.BodyParser(&req); err != nil {
+		return c.Status(400).JSON(fiber.Map{"error": "Invalid request"})
+	}
+
+	response, source := analyzeWithOllama(req.ErrorMsg)
+
+	return c.JSON(fiber.Map{
+		"response": response,
+		"source":   source,
+	})
+}
+
+func handleAnalyzeClusters(c *fiber.Ctx) error {
+	// Get critical and warning clusters first
+	clustersToAnalyze := make([]*PatternCluster, 0)
+	for _, cluster := range patternClusters {
+		if cluster.Cure == nil && (cluster.Severity == "Critical" || cluster.Severity == "Warning") {
+			clustersToAnalyze = append(clustersToAnalyze, cluster)
+		}
+	}
+
+	// Sort by count (most impactful first)
+	sort.Slice(clustersToAnalyze, func(i, j int) bool {
+		return clustersToAnalyze[i].Count > clustersToAnalyze[j].Count
+	})
+
+	// Limit to top 20 to prevent overloading Ollama
+	maxAnalyze := 20
+	if len(clustersToAnalyze) > maxAnalyze {
+		clustersToAnalyze = clustersToAnalyze[:maxAnalyze]
+	}
+
+	analyzed := 0
+	failed := 0
+
+	for _, cluster := range clustersToAnalyze {
+		log.Printf("🔬 Analyzing cluster %s (%d occurrences): %s",
+			cluster.PatternHash, cluster.Count, truncateMessage(cluster.CanonicalMessage, 50))
+
+		cure := generateCure(cluster)
+		cluster.Cure = cure
+
+		if cure.Source == "ollama" {
+			analyzed++
+		} else {
+			failed++
+		}
+
+		// Small delay to not overwhelm Ollama
+		time.Sleep(500 * time.Millisecond)
+	}
+
+	return c.JSON(fiber.Map{
+		"status":         "complete",
+		"analyzed":       analyzed,
+		"failed":         failed,
+		"total_clusters": len(patternClusters),
+		"message":        fmt.Sprintf("Analyzed %d clusters with AI, %d used fallback", analyzed, failed),
+	})
+}
+
+func generateCure(cluster *PatternCluster) *AICure {
+	prompt := fmt.Sprintf(`You are "Dr. System", an expert VMware ESXi diagnostician. Analyze this error pattern and provide actionable fixes.
+
+ERROR PATTERN:
+- Component: %s
+- Subsystem: %s
+- Severity: %s
+- Occurrences: %d
+- Sample Error: "%s"
+
+Provide your response in EXACTLY this format (use these exact headers):
+
+🩺 DIAGNOSIS:
+[Explain what this error means in simple terms a manager could understand. 2-3 sentences max.]
+
+💊 PRESCRIPTION:
+[Provide 1-2 specific CLI commands or configuration changes to fix this. Be precise and copy-paste ready.]
+
+🔮 PROGNOSIS:
+[What happens if ignored? Include estimated downtime risk. 1-2 sentences.]
+
+⏱️ ESTIMATED IMPACT:
+[Low/Medium/High impact + estimated resolution time]`,
+		cluster.Component,
+		cluster.Subsystem,
+		cluster.Severity,
+		cluster.Count,
+		cluster.CanonicalMessage)
+
+	response, source := analyzeWithOllama(prompt)
+
+	// Parse the response into structured cure
+	cure := &AICure{
+		Source:      source,
+		GeneratedAt: time.Now().Format(time.RFC3339),
+	}
+
+	if source == "ollama" {
+		// Parse sections from response
+		cure.Diagnosis = extractSection(response, "🩺 DIAGNOSIS:", "💊")
+		cure.Prescription = extractSection(response, "💊 PRESCRIPTION:", "🔮")
+		cure.Prognosis = extractSection(response, "🔮 PROGNOSIS:", "⏱️")
+		cure.EstimatedImpact = extractSection(response, "⏱️ ESTIMATED IMPACT:", "")
+
+		// Fallback if parsing failed
+		if cure.Diagnosis == "" {
+			cure.Diagnosis = response
+		}
+	} else {
+		// Generate fallback cure based on error type
+		cure = generateFallbackCure(cluster)
+	}
+
+	return cure
+}
+
+func extractSection(text, startMarker, endMarker string) string {
+	startIdx := strings.Index(text, startMarker)
+	if startIdx == -1 {
+		return ""
+	}
+	startIdx += len(startMarker)
+
+	endIdx := len(text)
+	if endMarker != "" {
+		if idx := strings.Index(text[startIdx:], endMarker); idx != -1 {
+			endIdx = startIdx + idx
+		}
+	}
+
+	return strings.TrimSpace(text[startIdx:endIdx])
+}
+
+func analyzeWithOllama(prompt string) (string, string) {
 	ollamaReq := OllamaRequest{
 		Model:  OllamaModel,
 		Prompt: prompt,
@@ -270,62 +791,241 @@ Keep your response concise but thorough. Be helpful and reassuring.`, req.ErrorM
 
 	reqBody, err := json.Marshal(ollamaReq)
 	if err != nil {
-		return c.Status(500).JSON(fiber.Map{"error": "Failed to create request"})
+		return generateFallbackResponse(prompt), "fallback"
 	}
 
-	// Call Ollama with timeout
 	client := &http.Client{Timeout: OllamaTimeout}
 	resp, err := client.Post(OllamaURL, "application/json", bytes.NewBuffer(reqBody))
-
-	// FAIL-SAFE: If Ollama is offline, return static analysis
 	if err != nil {
-		log.Printf("⚠️  Ollama unavailable: %v", err)
-		return c.JSON(fiber.Map{
-			"response": generateFallbackAnalysis(req.ErrorMsg),
-			"source":   "fallback",
-		})
+		log.Printf("⚠️ Ollama unavailable: %v", err)
+		return generateFallbackResponse(prompt), "fallback"
 	}
 	defer resp.Body.Close()
 
-	// Check for non-200 response
 	if resp.StatusCode != http.StatusOK {
-		log.Printf("⚠️  Ollama returned status %d", resp.StatusCode)
-		return c.JSON(fiber.Map{
-			"response": generateFallbackAnalysis(req.ErrorMsg),
-			"source":   "fallback",
-		})
+		log.Printf("⚠️ Ollama returned status %d", resp.StatusCode)
+		return generateFallbackResponse(prompt), "fallback"
 	}
 
-	// Parse Ollama response
 	var ollamaResp OllamaResponse
 	if err := json.NewDecoder(resp.Body).Decode(&ollamaResp); err != nil {
-		log.Printf("⚠️  Failed to decode Ollama response: %v", err)
-		return c.JSON(fiber.Map{
-			"response": generateFallbackAnalysis(req.ErrorMsg),
-			"source":   "fallback",
+		return generateFallbackResponse(prompt), "fallback"
+	}
+
+	return ollamaResp.Response, "ollama"
+}
+
+// generateFallbackResponse creates a helpful response when Ollama is unavailable
+func generateFallbackResponse(errorMsg string) string {
+	msg := strings.ToLower(errorMsg)
+
+	var diagnosis, prescription, prognosis string
+
+	switch {
+	case strings.Contains(msg, "operation not supported"):
+		diagnosis = "The system is attempting an operation that isn't available on this storage configuration. This is typically a compatibility issue between vCenter features and the underlying storage."
+		prescription = "esxcli storage vmfs extent list\nvim-cmd vimsvc/license --show"
+		prognosis = "Low risk - informational warning. May affect some advanced features but won't cause downtime."
+
+	case strings.Contains(msg, "error_file_not_found") || strings.Contains(msg, "queryinformation"):
+		diagnosis = "The host is checking for domain join configuration but finding none. This is normal for standalone ESXi hosts not joined to Active Directory."
+		prescription = "No action required if AD integration is not needed."
+		prognosis = "No risk - This is informational noise. Can be safely ignored."
+
+	case strings.Contains(msg, "task created") || strings.Contains(msg, "task completed"):
+		diagnosis = "Normal vCenter-to-ESXi task management communication. These are routine sync operations."
+		prescription = "No action needed - healthy heartbeat operations."
+		prognosis = "No risk - This indicates healthy vCenter communication."
+
+	case strings.Contains(msg, "congestion"):
+		diagnosis = "Network stack configuration message showing the TCP congestion control algorithm in use."
+		prescription = "esxcli network ip netstack set --netstack=defaultTcpipStack --congestion-control-algorithm=cubic"
+		prognosis = "No risk - Informational message about network configuration."
+
+	case strings.Contains(msg, "warning") || strings.Contains(msg, "warn"):
+		diagnosis = "This is a warning-level event that indicates a potential issue that hasn't caused a failure yet."
+		prescription = "tail -100 /var/log/hostd.log | grep -i warning\nvim-cmd vmsvc/getallvms"
+		prognosis = "Medium risk - Monitor for escalation to errors."
+
+	case strings.Contains(msg, "error") || strings.Contains(msg, "fail"):
+		diagnosis = "An error condition has been detected. This requires attention to prevent potential service disruption."
+		prescription = "tail -500 /var/log/hostd.log | grep -i error\nesxcli system syslog mark --message='Investigating error'"
+		prognosis = "High risk - Investigate promptly to prevent cascading failures."
+
+	default:
+		diagnosis = "This log entry requires analysis. Review the context and surrounding log entries for more information."
+		prescription = "tail -100 /var/log/hostd.log\nvim-cmd hostsvc/hostsummary"
+		prognosis = "Risk level depends on frequency and context. Monitor for patterns."
+	}
+
+	return fmt.Sprintf(`**🩺 DIAGNOSIS**
+%s
+
+**💊 PRESCRIPTION**
+%s
+
+**🔮 PROGNOSIS**
+%s`, diagnosis, prescription, prognosis)
+}
+
+func generateFallbackCure(cluster *PatternCluster) *AICure {
+	cure := &AICure{
+		Source:      "fallback",
+		GeneratedAt: time.Now().Format(time.RFC3339),
+	}
+
+	// Generate context-aware fallback based on error patterns
+	msg := strings.ToLower(cluster.CanonicalMessage)
+
+	switch {
+	case strings.Contains(msg, "operation not supported"):
+		cure.Diagnosis = "The system is attempting an operation that isn't available on this storage configuration. This is typically a compatibility issue between vCenter features and the underlying storage."
+		cure.Prescription = "1. Check storage compatibility: esxcli storage vmfs extent list\n2. Verify vCenter version matches ESXi: vim-cmd vimsvc/license --show"
+		cure.Prognosis = "Low risk - informational warning. May affect some advanced features but won't cause downtime."
+		cure.EstimatedImpact = "Low impact - No immediate action required"
+
+	case strings.Contains(msg, "error_file_not_found") || strings.Contains(msg, "queryinformation"):
+		cure.Diagnosis = "The host is checking for domain join configuration but finding none. This is normal for standalone ESXi hosts not joined to Active Directory."
+		cure.Prescription = "1. If AD integration desired: esxcli system account add --id=admin --role=Admin\n2. To suppress: Edit /etc/vmware/hostd/config.xml and disable AD checks"
+		cure.Prognosis = "No risk - This is informational noise. Can be safely ignored if AD integration is not required."
+		cure.EstimatedImpact = "Low impact - 0 minutes downtime"
+
+	case strings.Contains(msg, "task created") || strings.Contains(msg, "task completed"):
+		cure.Diagnosis = "Normal vCenter-to-ESXi task management communication. These are routine sync operations between vCenter and the host."
+		cure.Prescription = "No action needed. These are healthy heartbeat operations."
+		cure.Prognosis = "No risk - This indicates healthy vCenter communication."
+		cure.EstimatedImpact = "No impact - Normal operation"
+
+	case strings.Contains(msg, "congestion control"):
+		cure.Diagnosis = "Network stack configuration message showing the TCP congestion control algorithm in use. This is a normal startup/config message."
+		cure.Prescription = "To change algorithm if needed: esxcli network ip netstack set --netstack=defaultTcpipStack --congestion-control-algorithm=cubic"
+		cure.Prognosis = "No risk - Informational message about network configuration."
+		cure.EstimatedImpact = "No impact - Configuration notice"
+
+	default:
+		cure.Diagnosis = fmt.Sprintf("This %s-level event in the %s subsystem requires investigation. The pattern has occurred %d times.",
+			cluster.Severity, cluster.Subsystem, cluster.Count)
+		cure.Prescription = fmt.Sprintf("1. Check component logs: tail -100 /var/log/%s.log\n2. Review VMware KB articles for: %s",
+			strings.ToLower(cluster.Component), truncateMessage(cluster.CanonicalMessage, 50))
+		cure.Prognosis = "Risk depends on frequency. Monitor for escalation."
+		cure.EstimatedImpact = fmt.Sprintf("%s impact - Requires analysis", cluster.Severity)
+	}
+
+	return cure
+}
+
+// ========================================
+// PREDICTIONS
+// ========================================
+
+func handlePredictions(c *fiber.Ctx) error {
+	if len(anomalies) == 0 {
+		return c.JSON([]Prediction{})
+	}
+
+	// Calculate trend from recent anomalies
+	windowSize := 100
+	if len(anomalies) < windowSize {
+		windowSize = len(anomalies)
+	}
+	recent := anomalies[:windowSize]
+
+	var sumRisk float64
+	for _, a := range recent {
+		sumRisk += float64(a.RiskScore)
+	}
+	avgRisk := sumRisk / float64(len(recent))
+
+	// Project 6 hours forward
+	var predictions []Prediction
+	lastTime := time.Now()
+
+	for i := 1; i <= 6; i++ {
+		drift := (rand.Float64() - 0.5) * 10
+		predicted := avgRisk + drift
+
+		if predicted < 0 {
+			predicted = 0
+		}
+		if predicted > 100 {
+			predicted = 100
+		}
+
+		futureTime := lastTime.Add(time.Duration(i) * time.Hour)
+
+		predictions = append(predictions, Prediction{
+			Timestamp:     futureTime,
+			PredictedRisk: predicted,
+			LowerBound:    predicted - 5,
+			UpperBound:    predicted + 5,
 		})
 	}
 
-	return c.JSON(fiber.Map{
-		"response": ollamaResp.Response,
-		"source":   "ollama",
-	})
+	return c.JSON(predictions)
 }
 
-// generateFallbackAnalysis provides a static response when Ollama is unavailable
-func generateFallbackAnalysis(errorMsg string) string {
-	return fmt.Sprintf(`🩺 **DIAGNOSIS**
-The system is experiencing an infrastructure anomaly. The logged error indicates a potential service degradation that should be investigated promptly.
+// ========================================
+// WEBSOCKET
+// ========================================
 
-💊 **PRESCRIPTION**
-1. Check the affected component's logs for more context
-2. Verify network connectivity and resource availability
-3. Consider restarting the affected service if the issue persists
+func runHub() {
+	for {
+		select {
+		case client := <-register:
+			mutex.Lock()
+			clients[client] = true
+			mutex.Unlock()
 
-🔮 **PROGNOSIS**
-If left unaddressed, this issue could escalate to service disruption affecting dependent systems.
+		case client := <-unregister:
+			mutex.Lock()
+			if _, ok := clients[client]; ok {
+				delete(clients, client)
+				client.Conn.Close()
+			}
+			mutex.Unlock()
 
----
-⚠️ *Note: AI analysis is currently offline. This is a static fallback response.*
-Error analyzed: "%s"`, errorMsg)
+		case message := <-broadcast:
+			mutex.Lock()
+			for client := range clients {
+				payload, _ := json.Marshal(message)
+				if err := client.Conn.WriteMessage(websocket.TextMessage, payload); err != nil {
+					client.Conn.Close()
+					delete(clients, client)
+				}
+			}
+			mutex.Unlock()
+		}
+	}
+}
+
+func handleWebSocket(c *websocket.Conn) {
+	client := &Client{Conn: c}
+	register <- client
+
+	defer func() {
+		unregister <- client
+	}()
+
+	for {
+		_, _, err := c.ReadMessage()
+		if err != nil {
+			break
+		}
+	}
+}
+
+func simulateRealTimeTraffic() {
+	time.Sleep(2 * time.Second)
+
+	ticker := time.NewTicker(5 * time.Second)
+	defer ticker.Stop()
+
+	for range ticker.C {
+		if len(anomalies) > 0 {
+			randIdx := rand.Intn(len(anomalies))
+			anomaly := anomalies[randIdx]
+			anomaly.Timestamp = time.Now()
+			broadcast <- anomaly
+		}
+	}
 }

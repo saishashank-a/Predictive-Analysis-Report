@@ -1,0 +1,1891 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Banking AIOps Dashboard</title>
+    <meta name="description" content="AI-powered operations dashboard for banking infrastructure monitoring">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Three.js & OrbitControls -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+
+    <!-- GSAP for Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <style>
+        /* Command Palette Styles */
+        .cmd-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(5px);
+            z-index: 1000;
+            display: none;
+            /* Hidden by default */
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+        }
+
+        .cmd-palette {
+            width: 600px;
+            max-width: 90%;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+            transform: scale(0.9);
+            opacity: 0;
+        }
+
+        .cmd-header {
+            padding: 16px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .cmd-input {
+            width: 100%;
+            background: transparent;
+            border: none;
+            color: var(--text-primary);
+            font-size: 1.2rem;
+            font-family: 'Outfit', sans-serif;
+            outline: none;
+        }
+
+        .cmd-input::placeholder {
+            color: var(--text-muted);
+        }
+
+        .cmd-body {
+            padding: 8px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .cmd-item {
+            padding: 12px 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: var(--text-secondary);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.1s ease;
+        }
+
+        .cmd-item:hover,
+        .cmd-item.active {
+            background: var(--accent-gradient);
+            color: white;
+        }
+
+        .cmd-icon {
+            font-size: 1.1rem;
+        }
+
+        .cmd-shortcut {
+            margin-left: auto;
+            font-size: 0.8rem;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        /* 3D Container */
+        #canvas-container {
+            width: 100%;
+            height: 500px;
+            background: #000;
+            border-radius: 16px;
+            overflow: hidden;
+            margin-bottom: 32px;
+            border: 1px solid var(--border-color);
+            position: relative;
+        }
+
+        #canvas-container canvas {
+            display: block;
+        }
+
+        .canvas-overlay {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            pointer-events: none;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Sidebar and Header omitted for brevity, assuming they exist above... -->
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <div class="header-title">
+                    <h1>Banking AIOps Dashboard</h1>
+                    <p>Real-time infrastructure anomaly detection & AI-powered diagnostics</p>
+                </div>
+                <div class="header-actions">
+                    <button class="btn btn-secondary" onclick="refreshData()">
+                        <span>🔄</span> Refresh
+                    </button>
+                    <button class="btn btn-primary" onclick="generateReport()">
+                        <span>📋</span> Generate Report
+                    </button>
+                </div>
+            </header>
+
+            <!-- 3D Topology Section -->
+            <div id="canvas-container">
+                <div class="canvas-overlay">Live Infrastructure Topology</div>
+            </div>
+
+            <!-- KPI Cards -->
+            <section class="kpi-grid">
+                <div class="kpi-card">
+                    <div class="kpi-header">
+                        <span class="kpi-label">Total Anomalies</span>
+                        <div class="kpi-icon purple">📊</div>
+                    </div>
+                    <div class="kpi-value" id="kpi-total">--</div>
+                    <span class="kpi-change up" id="kpi-total-change">↑ Loading...</span>
+                </div>
+
+                <div class="kpi-card critical">
+                    <div class="kpi-header">
+                        <span class="kpi-label">Critical (>80)</span>
+                        <div class="kpi-icon red">🚨</div>
+                    </div>
+                    <div class="kpi-value danger" id="kpi-critical">--</div>
+                    <span class="kpi-change up" id="kpi-critical-change">Requires attention</span>
+                </div>
+            </section>
+
+            <!-- Command Palette Overlay -->
+            <div class="cmd-overlay" id="cmd-overlay">
+                <div class="cmd-palette">
+                    <div class="cmd-header">
+                        <input type="text" class="cmd-input" placeholder="Type a command..." id="cmd-input">
+                    </div>
+                    <div class="cmd-body" id="cmd-results">
+                        <!-- Items will be injected here -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- SCRIPTS -->
+            <script>
+                // ========================================
+                // 3D TOPOLOGY LOGIC (THREE.JS)
+                // ========================================
+
+                let scene, camera, renderer, controls;
+                let nodes = []; // Store our 3D spheres here
+                let componentStats = {}; // Global stats
+
+                function initThreeJS() {
+                    const container = document.getElementById('canvas-container');
+
+                    // 1. SCENE: The universe where objects live
+                    scene = new THREE.Scene();
+                    // Add some fog for depth
+                    scene.fog = new THREE.FogExp2(0x000000, 0.002);
+
+                    // 2. CAMERA: Our viewpoint (Perspective)
+                    // 75 degree field of view, aspect ratio, near/far clipping planes
+                    camera = new THREE.PerspectiveCamera(75, container.clientWidth / container.clientHeight, 0.1, 1000);
+                    camera.position.z = 50; // Move back so we can see the center
+
+                    // 3. RENDERER: Draws the scene to the canvas
+                    renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+                    renderer.setSize(container.clientWidth, container.clientHeight);
+                    renderer.setPixelRatio(window.devicePixelRatio);
+                    container.appendChild(renderer.domElement);
+
+                    // 4. CONTROLS: Allow user to rotate/zoom with mouse
+                    controls = new THREE.OrbitControls(camera, renderer.domElement);
+                    controls.enableDamping = true; // Smooth motion
+                    controls.dampingFactor = 0.05;
+                    controls.autoRotate = true;
+                    controls.autoRotateSpeed = 0.5;
+
+                    // 5. LIGHTING: So we can see the 3D shapes
+                    const ambientLight = new THREE.AmbientLight(0xffffff, 0.5); // Soft white light
+                    scene.add(ambientLight);
+
+                    const pointLight = new THREE.PointLight(0xffffff, 1);
+                    pointLight.position.set(20, 20, 20);
+                    scene.add(pointLight);
+
+                    // 6. STARS: Add background particles
+                    createStarfield();
+
+                    // 7. PARTICLES: Data flow simulation
+                    createDataParticles();
+
+                    // Handle window resize
+                    window.addEventListener('resize', onWindowResize, false);
+
+                    // Start animation loop
+                    animate();
+                }
+
+                // Create a starfield background
+                function createStarfield() {
+                    const geometry = new THREE.BufferGeometry();
+                    const vertices = [];
+                    for (let i = 0; i < 1000; i++) {
+                        vertices.push(THREE.MathUtils.randFloatSpread(200)); // x
+                        vertices.push(THREE.MathUtils.randFloatSpread(200)); // y
+                        vertices.push(THREE.MathUtils.randFloatSpread(200)); // z
+                    }
+                    geometry.setAttribute('position', new THREE.Float32BufferAttribute(vertices, 3));
+                    const material = new THREE.PointsMaterial({ color: 0x888888, size: 0.5 });
+                    const stars = new THREE.Points(geometry, material);
+                    scene.add(stars);
+                }
+
+                // Data Flow Particles
+                let particles = [];
+                function createDataParticles() {
+                    // We'll create a pool of particles that we can recycle
+                    const particleCount = 100;
+                    const geometry = new THREE.BufferGeometry();
+                    const positions = new Float32Array(particleCount * 3);
+
+                    for (let i = 0; i < particleCount * 3; i++) {
+                        positions[i] = 0;
+                    }
+
+                    geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+
+                    const material = new THREE.PointsMaterial({
+                        color: 0x6366f1, // indigo
+                        size: 0.8,
+                        transparent: true,
+                        opacity: 0.8,
+                        blending: THREE.AdditiveBlending
+                    });
+
+                    const particleSystem = new THREE.Points(geometry, material);
+                    scene.add(particleSystem);
+
+                    // Initialize particle objects
+                    for (let i = 0; i < particleCount; i++) {
+                        particles.push({
+                            index: i,
+                            x: 0, y: 0, z: 0,
+                            targetNodeIndex: Math.floor(Math.random() * 5), // Will update dynamically
+                            speed: 0.2 + Math.random() * 0.3,
+                            progress: 0,
+                            active: false
+                        });
+                    }
+
+                    // Link mesh to data
+                    particleSystem.userData = { particles: particles };
+
+                    // Periodically activate particles
+                    setInterval(() => {
+                        if (nodes.length === 0) return;
+                        const p = particles.find(p => !p.active);
+                        if (p) {
+                            p.active = true;
+                            p.progress = 0;
+                            p.targetNodeIndex = Math.floor(Math.random() * nodes.length);
+                        }
+                    }, 100);
+                }
+
+                function updateParticles() {
+                    if (nodes.length === 0) return;
+
+                    const particleSystem = scene.children.find(c => c.userData && c.userData.particles);
+                    if (!particleSystem) return;
+
+                    const positions = particleSystem.geometry.attributes.position.array;
+
+                    particles.forEach((p) => {
+                        if (p.active) {
+                            const target = nodes[p.targetNodeIndex].mesh.position;
+
+                            // Move from Center (0,0,0) to Target
+                            p.progress += p.speed * 0.05;
+
+                            if (p.progress >= 1) {
+                                // Reset
+                                p.active = false;
+                                p.progress = 0;
+                                p.x = 0; p.y = 0; p.z = 0;
+                            } else {
+                                // Linear interpolation
+                                p.x = target.x * p.progress;
+                                p.y = target.y * p.progress; // Assuming y is 0 for nodes, but good to be safe
+                                p.z = target.z * p.progress;
+                            }
+
+                            // Update buffer
+                            positions[p.index * 3] = p.x;
+                            positions[p.index * 3 + 1] = p.y;
+                            positions[p.index * 3 + 2] = p.z;
+                        } else {
+                            // Hide inactive
+                            positions[p.index * 3] = 0;
+                            positions[p.index * 3 + 1] = 0;
+                            positions[p.index * 3 + 2] = 0;
+                        }
+                    });
+
+                    particleSystem.geometry.attributes.position.needsUpdate = true;
+                }
+
+                // Main Animation Loop
+                function animate() {
+                    requestAnimationFrame(animate);
+                    controls.update(); // Update camera position based on mouse/auto-rotate
+
+                    // Pulse effect for nodes
+                    const time = Date.now() * 0.001;
+                    nodes.forEach((node, i) => {
+                        node.mesh.scale.setScalar(1 + Math.sin(time * 2 + i) * 0.1); // Breathing effect
+                    });
+
+                    // Update Particles
+                    updateParticles();
+
+                    renderer.render(scene, camera);
+                }
+
+                function onWindowResize() {
+                    const container = document.getElementById('canvas-container');
+                    if (camera && renderer && container) {
+                        camera.aspect = container.clientWidth / container.clientHeight;
+                        camera.updateProjectionMatrix();
+                        renderer.setSize(container.clientWidth, container.clientHeight);
+                    }
+                }
+
+                // ========================================
+                // DATA FETCHING & VISUALIZATION
+                // ========================================
+
+                async function fetchAndVisualizeData() {
+                    try {
+                        const response = await fetch('/api/anomalies');
+                        const data = await response.json();
+
+                        // Process data to get unique components and their risk
+                        componentStats = {}; // Reset on fresh load
+
+                        data.forEach(entry => {
+                            if (!componentStats[entry.component]) {
+                                componentStats[entry.component] = { count: 0, maxRisk: 0 };
+                            }
+                            componentStats[entry.component].count++;
+                            if (entry.risk_score > componentStats[entry.component].maxRisk) {
+                                componentStats[entry.component].maxRisk = entry.risk_score;
+                            }
+                        });
+
+                        updateTopology(componentStats);
+                        updateKPIs(data);
+
+                    } catch (error) {
+                        console.error("Error fetching data:", error);
+                    }
+                }
+
+                function updateTopology(stats) {
+                    // Remove old nodes if refreshing
+                    nodes.forEach(node => scene.remove(node.mesh));
+                    nodes = [];
+
+                    const components = Object.keys(stats);
+                    const count = components.length;
+                    const radius = 20; // Radius of the circle arrangement
+
+                    components.forEach((comp, index) => {
+                        // Calculate position in a circle
+                        const angle = (index / count) * Math.PI * 2;
+                        const x = Math.cos(angle) * radius;
+                        const z = Math.sin(angle) * radius;
+
+                        // Color based on Risk
+                        const risk = stats[comp].maxRisk;
+                        let color = 0x10b981; // Green (Low Risk)
+                        if (risk >= 90) color = 0xef4444; // Red (Critical)
+                        else if (risk >= 50) color = 0xf59e0b; // Orange (Warning)
+
+                        // Create Sphere
+                        const geometry = new THREE.SphereGeometry(1.5, 32, 32);
+                        const material = new THREE.MeshPhongMaterial({
+                            color: color,
+                            shininess: 100,
+                            emissive: color,
+                            emissiveIntensity: 0.2
+                        });
+                        const sphere = new THREE.Mesh(geometry, material);
+
+                        sphere.position.set(x, 0, z);
+
+                        // Add to scene
+                        scene.add(sphere);
+
+                        // Store reference
+                        nodes.push({ mesh: sphere, name: comp, risk: risk });
+                    });
+                }
+
+                function updateKPIs(data) {
+                    const total = data.length;
+                    const critical = data.filter(d => d.risk_score >= 80).length;
+
+                    document.getElementById('kpi-total').textContent = total.toLocaleString();
+                    document.getElementById('kpi-total-change').textContent = "Loaded from logs";
+
+                    document.getElementById('kpi-critical').textContent = critical.toLocaleString();
+                    document.getElementById('kpi-critical-change').textContent = critical > 0 ? "Requires attention" : "System healthy";
+                }
+
+                // Initialize
+                document.addEventListener('DOMContentLoaded', () => {
+                    initThreeJS();
+                    fetchAndVisualizeData(); // Load historical
+                    initWebSocket();         // Start real-time
+                });
+
+                // ========================================
+                // WEBSOCKET LOGIC
+                // ========================================
+                function initWebSocket() {
+                    const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+                    const wsUrl = `${protocol}//${window.location.host}/ws`;
+                    const socket = new WebSocket(wsUrl);
+
+                    socket.onopen = () => {
+                        console.log("✅ Connected to Real-Time Engine");
+                        const indicator = document.querySelector('.canvas-overlay');
+                        if (indicator) indicator.innerHTML = '🔴 Live Infrastructure Topology';
+                    };
+
+                    socket.onmessage = (event) => {
+                        try {
+                            const anomaly = JSON.parse(event.data);
+                            handleRealTimeAnomaly(anomaly);
+                        } catch (e) {
+                            console.error("Error parsing WS message:", e);
+                        }
+                    };
+
+                    socket.onclose = () => {
+                        console.log("❌ WebSocket Disconnected. Retrying...");
+                        setTimeout(initWebSocket, 3000);
+                    };
+                }
+
+                function handleRealTimeAnomaly(anomaly) {
+                    // Update Stats
+                    if (!componentStats[anomaly.component]) {
+                        componentStats[anomaly.component] = { count: 0, maxRisk: 0 };
+                    }
+                    componentStats[anomaly.component].count++;
+
+                    // Update Risk if higher or replace
+                    // For visualization, we want to show the LATEST risk
+                    componentStats[anomaly.component].maxRisk = anomaly.risk_score;
+
+                    // Trigger Topology Update (throttling would be good in prod, but ok here)
+                    updateTopology(componentStats);
+
+                    // Update KPIs
+                    const totalEl = document.getElementById('kpi-total');
+                    let currentTotal = parseInt(totalEl.textContent.replace(/,/g, '')) || 0;
+                    totalEl.textContent = (currentTotal + 1).toLocaleString();
+
+                    const criticalEl = document.getElementById('kpi-critical');
+                    let currentCritical = parseInt(criticalEl.textContent.replace(/,/g, '')) || 0;
+
+                    if (anomaly.risk_score >= 80) {
+                        criticalEl.textContent = (currentCritical + 1).toLocaleString();
+
+                        // Flash animation for critical
+                        const card = document.querySelector('.kpi-card.critical');
+                        card.style.transform = "scale(1.05)";
+                        setTimeout(() => card.style.transform = "scale(1)", 200);
+                    }
+                }
+            </script>
+</body>
+
+</html> :root {
+/* Dark Theme (Default) */
+--bg-primary: #0a0e17;
+--bg-secondary: #111827;
+--bg-card: rgba(17, 24, 39, 0.8);
+--bg-glass: rgba(255, 255, 255, 0.05);
+--border-color: rgba(255, 255, 255, 0.1);
+--text-primary: #f8fafc;
+--text-secondary: #94a3b8;
+--text-muted: #64748b;
+--accent-primary: #6366f1;
+--accent-secondary: #8b5cf6;
+--accent-gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%);
+--success: #10b981;
+--warning: #f59e0b;
+--danger: #ef4444;
+--danger-glow: rgba(239, 68, 68, 0.3);
+--chart-gradient-1: #6366f1;
+--chart-gradient-2: #a855f7;
+}
+
+[data-theme="light"] {
+--bg-primary: #f1f5f9;
+--bg-secondary: #ffffff;
+--bg-card: rgba(255, 255, 255, 0.9);
+--bg-glass: rgba(0, 0, 0, 0.02);
+--border-color: rgba(0, 0, 0, 0.1);
+--text-primary: #1e293b;
+--text-secondary: #475569;
+--text-muted: #94a3b8;
+}
+
+/* ========================================
+BASE STYLES
+======================================== */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: 'Outfit', sans-serif;
+background: var(--bg-primary);
+color: var(--text-primary);
+min-height: 100vh;
+transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* ========================================
+LAYOUT
+======================================== */
+.app-container {
+display: flex;
+min-height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+width: 260px;
+background: var(--bg-secondary);
+border-right: 1px solid var(--border-color);
+padding: 24px;
+display: flex;
+flex-direction: column;
+position: fixed;
+height: 100vh;
+z-index: 100;
+}
+
+.logo {
+display: flex;
+align-items: center;
+gap: 12px;
+margin-bottom: 40px;
+}
+
+.logo-icon {
+width: 40px;
+height: 40px;
+background: var(--accent-gradient);
+border-radius: 12px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 20px;
+}
+
+.logo-text {
+font-size: 1.25rem;
+font-weight: 700;
+background: var(--accent-gradient);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+.nav-section {
+margin-bottom: 32px;
+}
+
+.nav-label {
+font-size: 0.75rem;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 0.05em;
+color: var(--text-muted);
+margin-bottom: 12px;
+}
+
+.nav-item {
+display: flex;
+align-items: center;
+gap: 12px;
+padding: 12px 16px;
+border-radius: 10px;
+color: var(--text-secondary);
+cursor: pointer;
+transition: all 0.2s ease;
+margin-bottom: 4px;
+}
+
+.nav-item:hover {
+background: var(--bg-glass);
+color: var(--text-primary);
+}
+
+.nav-item.active {
+background: var(--accent-gradient);
+color: white;
+}
+
+.nav-item-icon {
+font-size: 1.25rem;
+}
+
+.sidebar-footer {
+margin-top: auto;
+padding-top: 24px;
+border-top: 1px solid var(--border-color);
+}
+
+.theme-toggle {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 12px 16px;
+background: var(--bg-glass);
+border-radius: 10px;
+cursor: pointer;
+transition: all 0.2s ease;
+}
+
+.theme-toggle:hover {
+background: var(--border-color);
+}
+
+.theme-toggle-label {
+display: flex;
+align-items: center;
+gap: 8px;
+font-size: 0.9rem;
+color: var(--text-secondary);
+}
+
+.theme-switch {
+width: 44px;
+height: 24px;
+background: var(--border-color);
+border-radius: 12px;
+position: relative;
+transition: background 0.3s ease;
+}
+
+.theme-switch::after {
+content: '';
+position: absolute;
+width: 18px;
+height: 18px;
+background: white;
+border-radius: 50%;
+top: 3px;
+left: 3px;
+transition: transform 0.3s ease;
+}
+
+[data-theme="light"] .theme-switch {
+background: var(--accent-primary);
+}
+
+[data-theme="light"] .theme-switch::after {
+transform: translateX(20px);
+}
+
+/* Main Content */
+.main-content {
+flex: 1;
+margin-left: 260px;
+padding: 32px;
+background: var(--bg-primary);
+}
+
+/* ========================================
+HEADER
+======================================== */
+.header {
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+margin-bottom: 32px;
+}
+
+.header-title h1 {
+font-size: 2rem;
+font-weight: 700;
+margin-bottom: 8px;
+}
+
+.header-title p {
+color: var(--text-secondary);
+font-size: 1rem;
+}
+
+.header-actions {
+display: flex;
+gap: 12px;
+}
+
+.btn {
+display: inline-flex;
+align-items: center;
+gap: 8px;
+padding: 12px 24px;
+border-radius: 10px;
+font-family: 'Outfit', sans-serif;
+font-size: 0.9rem;
+font-weight: 500;
+cursor: pointer;
+transition: all 0.2s ease;
+border: none;
+}
+
+.btn-primary {
+background: var(--accent-gradient);
+color: white;
+box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+}
+
+.btn-primary:hover {
+transform: translateY(-2px);
+box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+}
+
+.btn-secondary {
+background: var(--bg-glass);
+color: var(--text-primary);
+border: 1px solid var(--border-color);
+}
+
+.btn-secondary:hover {
+background: var(--border-color);
+}
+
+/* ========================================
+KPI CARDS
+======================================== */
+.kpi-grid {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 24px;
+margin-bottom: 32px;
+}
+
+.kpi-card {
+background: var(--bg-card);
+backdrop-filter: blur(10px);
+border: 1px solid var(--border-color);
+border-radius: 16px;
+padding: 24px;
+transition: all 0.3s ease;
+}
+
+.kpi-card:hover {
+transform: translateY(-4px);
+box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.kpi-card.critical {
+border-color: var(--danger);
+box-shadow: 0 0 30px var(--danger-glow);
+}
+
+.kpi-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 16px;
+}
+
+.kpi-label {
+font-size: 0.85rem;
+font-weight: 500;
+color: var(--text-secondary);
+text-transform: uppercase;
+letter-spacing: 0.05em;
+}
+
+.kpi-icon {
+width: 40px;
+height: 40px;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 1.25rem;
+}
+
+.kpi-icon.purple {
+background: rgba(99, 102, 241, 0.15);
+}
+
+.kpi-icon.red {
+background: rgba(239, 68, 68, 0.15);
+}
+
+.kpi-icon.yellow {
+background: rgba(245, 158, 11, 0.15);
+}
+
+.kpi-icon.green {
+background: rgba(16, 185, 129, 0.15);
+}
+
+.kpi-value {
+font-size: 2.5rem;
+font-weight: 700;
+line-height: 1;
+margin-bottom: 8px;
+}
+
+.kpi-value.danger {
+color: var(--danger);
+}
+
+.kpi-value.warning {
+color: var(--warning);
+}
+
+.kpi-value.success {
+color: var(--success);
+}
+
+.kpi-change {
+display: inline-flex;
+align-items: center;
+gap: 4px;
+font-size: 0.85rem;
+padding: 4px 8px;
+border-radius: 6px;
+}
+
+.kpi-change.up {
+background: rgba(239, 68, 68, 0.1);
+color: var(--danger);
+}
+
+.kpi-change.down {
+background: rgba(16, 185, 129, 0.1);
+color: var(--success);
+}
+
+/* ========================================
+CHARTS SECTION
+======================================== */
+.charts-grid {
+display: grid;
+grid-template-columns: 2fr 1fr;
+gap: 24px;
+margin-bottom: 32px;
+}
+
+.chart-card {
+background: var(--bg-card);
+backdrop-filter: blur(10px);
+border: 1px solid var(--border-color);
+border-radius: 16px;
+padding: 24px;
+}
+
+.chart-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 20px;
+}
+
+.chart-title {
+font-size: 1.1rem;
+font-weight: 600;
+}
+
+.chart-subtitle {
+font-size: 0.85rem;
+color: var(--text-muted);
+margin-top: 4px;
+}
+
+/* ========================================
+ANOMALY TABLE
+======================================== */
+.table-card {
+background: var(--bg-card);
+backdrop-filter: blur(10px);
+border: 1px solid var(--border-color);
+border-radius: 16px;
+padding: 24px;
+margin-bottom: 32px;
+}
+
+.table-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 20px;
+}
+
+.table-wrapper {
+overflow-x: auto;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
+th {
+text-align: left;
+padding: 14px 16px;
+font-size: 0.8rem;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 0.05em;
+color: var(--text-muted);
+border-bottom: 1px solid var(--border-color);
+}
+
+td {
+padding: 16px;
+font-size: 0.9rem;
+border-bottom: 1px solid var(--border-color);
+color: var(--text-secondary);
+}
+
+tbody tr {
+transition: background 0.2s ease;
+}
+
+tbody tr:hover {
+background: var(--bg-glass);
+}
+
+.component-badge {
+display: inline-flex;
+align-items: center;
+gap: 6px;
+padding: 6px 12px;
+border-radius: 20px;
+font-size: 0.8rem;
+font-weight: 500;
+background: var(--bg-glass);
+border: 1px solid var(--border-color);
+}
+
+.risk-badge {
+display: inline-flex;
+align-items: center;
+gap: 4px;
+padding: 6px 12px;
+border-radius: 20px;
+font-size: 0.8rem;
+font-weight: 600;
+}
+
+.risk-badge.critical {
+background: rgba(239, 68, 68, 0.15);
+color: var(--danger);
+}
+
+.risk-badge.warning {
+background: rgba(245, 158, 11, 0.15);
+color: var(--warning);
+}
+
+.risk-badge.low {
+background: rgba(16, 185, 129, 0.15);
+color: var(--success);
+}
+
+.btn-doctor {
+padding: 8px 14px;
+font-size: 0.8rem;
+background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+color: white;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+transition: all 0.2s ease;
+display: inline-flex;
+align-items: center;
+gap: 6px;
+}
+
+.btn-doctor:hover {
+transform: scale(1.05);
+box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+}
+
+/* ========================================
+AI PANEL
+======================================== */
+.ai-panel {
+background: var(--bg-card);
+backdrop-filter: blur(10px);
+border: 1px solid var(--border-color);
+border-radius: 16px;
+padding: 24px;
+display: none;
+}
+
+.ai-panel.active {
+display: block;
+animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+from {
+opacity: 0;
+transform: translateY(10px);
+}
+
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+.ai-header {
+display: flex;
+align-items: center;
+gap: 12px;
+margin-bottom: 20px;
+}
+
+.ai-avatar {
+width: 48px;
+height: 48px;
+background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 1.5rem;
+}
+
+.ai-title {
+font-size: 1.2rem;
+font-weight: 600;
+}
+
+.ai-subtitle {
+font-size: 0.85rem;
+color: var(--text-muted);
+}
+
+.ai-close {
+margin-left: auto;
+background: none;
+border: none;
+color: var(--text-muted);
+cursor: pointer;
+font-size: 1.5rem;
+padding: 8px;
+border-radius: 8px;
+transition: all 0.2s ease;
+}
+
+.ai-close:hover {
+background: var(--bg-glass);
+color: var(--text-primary);
+}
+
+.ai-content {
+background: var(--bg-glass);
+border-radius: 12px;
+padding: 20px;
+font-size: 0.95rem;
+line-height: 1.7;
+color: var(--text-secondary);
+white-space: pre-wrap;
+}
+
+.ai-content strong {
+color: var(--text-primary);
+}
+
+.ai-loading {
+display: flex;
+align-items: center;
+gap: 12px;
+color: var(--text-muted);
+}
+
+.ai-loading .spinner {
+width: 20px;
+height: 20px;
+border: 2px solid var(--border-color);
+border-top-color: var(--accent-primary);
+border-radius: 50%;
+animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+to {
+transform: rotate(360deg);
+}
+}
+
+/* ========================================
+RESPONSIVE
+======================================== */
+@media (max-width: 1200px) {
+.kpi-grid {
+grid-template-columns: repeat(2, 1fr);
+}
+
+.charts-grid {
+grid-template-columns: 1fr;
+}
+}
+
+@media (max-width: 768px) {
+.sidebar {
+display: none;
+}
+
+.main-content {
+margin-left: 0;
+padding: 16px;
+}
+
+.kpi-grid {
+grid-template-columns: 1fr;
+}
+}
+
+/* ========================================
+ANIMATIONS
+======================================== */
+@keyframes fadeIn {
+from {
+opacity: 0;
+transform: translateY(10px);
+}
+
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+.kpi-card,
+.chart-card,
+.table-card {
+animation: fadeIn 0.5s ease forwards;
+}
+
+.kpi-card:nth-child(1) {
+animation-delay: 0.1s;
+}
+
+.kpi-card:nth-child(2) {
+animation-delay: 0.2s;
+}
+
+.kpi-card:nth-child(3) {
+animation-delay: 0.3s;
+}
+
+.kpi-card:nth-child(4) {
+animation-delay: 0.4s;
+}
+</style>
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <div class="logo-icon">🏦</div>
+                <span class="logo-text">AIOps Hub</span>
+            </div>
+
+            <nav class="nav-section">
+                <div class="nav-label">Dashboard</div>
+                <div class="nav-item active">
+                    <span class="nav-item-icon">📊</span>
+                    <span>Overview</span>
+                </div>
+                <div class="nav-item">
+                    <span class="nav-item-icon">🔔</span>
+                    <span>Alerts</span>
+                </div>
+                <div class="nav-item">
+                    <span class="nav-item-icon">📈</span>
+                    <span>Analytics</span>
+                </div>
+            </nav>
+
+            <nav class="nav-section">
+                <div class="nav-label">System</div>
+                <div class="nav-item">
+                    <span class="nav-item-icon">🩺</span>
+                    <span>Dr. System</span>
+                </div>
+                <div class="nav-item">
+                    <span class="nav-item-icon">⚙️</span>
+                    <span>Settings</span>
+                </div>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="theme-toggle" onclick="toggleTheme()">
+                    <span class="theme-toggle-label">
+                        <span>🌙</span>
+                        <span>Dark Mode</span>
+                    </span>
+                    <div class="theme-switch"></div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <div class="header-title">
+                    <h1>Banking AIOps Dashboard</h1>
+                    <p>Real-time infrastructure anomaly detection & AI-powered diagnostics</p>
+                </div>
+                <div class="header-actions">
+                    <button class="btn btn-secondary" onclick="refreshData()">
+                        <span>🔄</span> Refresh
+                    </button>
+                    <button class="btn btn-primary" onclick="generateReport()">
+                        <span>📋</span> Generate Report
+                    </button>
+                </div>
+            </header>
+
+            <!-- KPI Cards -->
+            <section class="kpi-grid">
+                <div class="kpi-card">
+                    <div class="kpi-header">
+                        <span class="kpi-label">Total Anomalies</span>
+                        <div class="kpi-icon purple">📊</div>
+                    </div>
+                    <div class="kpi-value" id="kpi-total">--</div>
+                    <span class="kpi-change up" id="kpi-total-change">↑ Loading...</span>
+                </div>
+
+                <div class="kpi-card critical">
+                    <div class="kpi-header">
+                        <span class="kpi-label">Critical (>80)</span>
+                        <div class="kpi-icon red">🚨</div>
+                    </div>
+                    <div class="kpi-value danger" id="kpi-critical">--</div>
+                    <span class="kpi-change up" id="kpi-critical-change">Requires attention</span>
+                </div>
+
+                <div class="kpi-card">
+                    <div class="kpi-header">
+                        <span class="kpi-label">Warning (50-80)</span>
+                        <div class="kpi-icon yellow">⚠️</div>
+                    </div>
+                    <div class="kpi-value warning" id="kpi-warning">--</div>
+                    <span class="kpi-change down" id="kpi-warning-change">Monitor closely</span>
+                </div>
+
+                <div class="kpi-card">
+                    <div class="kpi-header">
+                        <span class="kpi-label">Average Risk Score</span>
+                        <div class="kpi-icon green">📈</div>
+                    </div>
+                    <div class="kpi-value" id="kpi-avg">--</div>
+                    <span class="kpi-change" id="kpi-avg-change">System health</span>
+                </div>
+            </section>
+
+            <!-- Charts -->
+            <section class="charts-grid">
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <div>
+                            <h3 class="chart-title">Risk Score Timeline</h3>
+                            <p class="chart-subtitle">Anomaly severity over time</p>
+                        </div>
+                    </div>
+                    <div id="timeline-chart"></div>
+                </div>
+
+                <div class="chart-card">
+                    <div class="chart-header">
+                        <div>
+                            <h3 class="chart-title">Component Distribution</h3>
+                            <p class="chart-subtitle">Anomalies by system component</p>
+                        </div>
+                    </div>
+                    <div id="pie-chart"></div>
+                </div>
+            </section>
+
+            <!-- AI Panel -->
+            <section class="ai-panel" id="ai-panel">
+                <div class="ai-header">
+                    <div class="ai-avatar">🩺</div>
+                    <div>
+                        <h3 class="ai-title">Dr. System</h3>
+                        <p class="ai-subtitle">AI-Powered Diagnostics</p>
+                    </div>
+                    <button class="ai-close" onclick="closeAIPanel()">&times;</button>
+                </div>
+                <div class="ai-content" id="ai-response">
+                    <div class="ai-loading">
+                        <div class="spinner"></div>
+                        <span>Analyzing system symptoms...</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Anomaly Table -->
+            <section class="table-card">
+                <div class="table-header">
+                    <div>
+                        <h3 class="chart-title">Recent Anomalies</h3>
+                        <p class="chart-subtitle">Click "Consult Dr." for AI-powered diagnosis</p>
+                    </div>
+                </div>
+                <div class="table-wrapper">
+                    <table id="anomaly-table">
+                        <thead>
+                            <tr>
+                                <th>Time</th>
+                                <th>Component</th>
+                                <th>Message</th>
+                                <th>Risk Score</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        // ========================================
+        // APPLICATION STATE
+        // ========================================
+        let appState = {
+            data: [],
+            theme: localStorage.getItem('theme') || 'dark'
+        };
+
+        // ApexCharts instances
+        let timelineChart = null;
+        let pieChart = null;
+
+        // ========================================
+        // INITIALIZATION
+        // ========================================
+        document.addEventListener('DOMContentLoaded', () => {
+            // Apply saved theme
+            document.documentElement.setAttribute('data-theme', appState.theme);
+
+            // Fetch data
+            fetchAnomalies();
+        });
+
+        // ========================================
+        // DATA FETCHING
+        // ========================================
+        async function fetchAnomalies() {
+            try {
+                const response = await fetch('/api/anomalies');
+                const data = await response.json();
+                appState.data = data;
+
+                // Update all UI components
+                updateKPIs();
+                renderTimelineChart();
+                renderPieChart();
+                renderTable();
+            } catch (error) {
+                console.error('Failed to fetch anomalies:', error);
+            }
+        }
+
+        function refreshData() {
+            fetchAnomalies();
+        }
+
+        // ========================================
+        // KPI CALCULATIONS
+        // ========================================
+        function updateKPIs() {
+            const data = appState.data;
+            const total = data.length;
+            const critical = data.filter(d => d.risk_score > 80).length;
+            const warning = data.filter(d => d.risk_score >= 50 && d.risk_score <= 80).length;
+            const avgScore = total > 0
+                ? Math.round(data.reduce((sum, d) => sum + d.risk_score, 0) / total)
+                : 0;
+
+            // Animate counters
+            animateValue('kpi-total', total);
+            animateValue('kpi-critical', critical);
+            animateValue('kpi-warning', warning);
+            animateValue('kpi-avg', avgScore);
+
+            // Update change indicators
+            document.getElementById('kpi-total-change').textContent = `${total} detected today`;
+            document.getElementById('kpi-critical-change').textContent = critical > 5 ? '🔥 High priority' : 'Monitoring';
+
+            // Color average based on severity
+            const avgEl = document.getElementById('kpi-avg');
+            avgEl.className = 'kpi-value';
+            if (avgScore > 70) avgEl.classList.add('danger');
+            else if (avgScore > 50) avgEl.classList.add('warning');
+            else avgEl.classList.add('success');
+        }
+
+        function animateValue(elementId, target) {
+            const element = document.getElementById(elementId);
+            const duration = 1000;
+            const start = parseInt(element.textContent) || 0;
+            const increment = (target - start) / (duration / 16);
+            let current = start;
+
+            const timer = setInterval(() => {
+                current += increment;
+                if ((increment > 0 && current >= target) || (increment < 0 && current <= target)) {
+                    element.textContent = target;
+                    clearInterval(timer);
+                } else {
+                    element.textContent = Math.round(current);
+                }
+            }, 16);
+        }
+
+        // ========================================
+        // CHARTS (ApexCharts)
+        // ========================================
+        function renderTimelineChart() {
+            const data = appState.data.map(d => ({
+                x: new Date(d.timestamp).getTime(),
+                y: d.risk_score
+            }));
+
+            const options = {
+                series: [{
+                    name: 'Risk Score',
+                    data: data
+                }],
+                chart: {
+                    type: 'area',
+                    height: 300,
+                    background: 'transparent',
+                    toolbar: { show: false },
+                    animations: {
+                        enabled: true,
+                        easing: 'easeinout',
+                        speed: 800
+                    }
+                },
+                stroke: {
+                    curve: 'smooth',
+                    width: 3
+                },
+                fill: {
+                    type: 'gradient',
+                    gradient: {
+                        shadeIntensity: 1,
+                        opacityFrom: 0.45,
+                        opacityTo: 0.05,
+                        stops: [0, 100],
+                        colorStops: [
+                            { offset: 0, color: '#10b981', opacity: 0.4 },
+                            { offset: 50, color: '#f59e0b', opacity: 0.3 },
+                            { offset: 100, color: '#ef4444', opacity: 0.1 }
+                        ]
+                    }
+                },
+                colors: ['#6366f1'],
+                xaxis: {
+                    type: 'datetime',
+                    labels: {
+                        style: { colors: '#94a3b8' }
+                    },
+                    axisBorder: { show: false },
+                    axisTicks: { show: false }
+                },
+                yaxis: {
+                    min: 0,
+                    max: 100,
+                    labels: {
+                        style: { colors: '#94a3b8' }
+                    }
+                },
+                grid: {
+                    borderColor: 'rgba(255,255,255,0.1)',
+                    strokeDashArray: 3
+                },
+                tooltip: {
+                    theme: 'dark',
+                    x: { format: 'HH:mm' }
+                },
+                markers: {
+                    size: 0,
+                    hover: { size: 6 }
+                }
+            };
+
+            if (timelineChart) {
+                timelineChart.updateOptions(options);
+            } else {
+                timelineChart = new ApexCharts(document.getElementById('timeline-chart'), options);
+                timelineChart.render();
+            }
+        }
+
+        function renderPieChart() {
+            // Group by component
+            const componentCounts = {};
+            appState.data.forEach(d => {
+                componentCounts[d.component] = (componentCounts[d.component] || 0) + 1;
+            });
+
+            const labels = Object.keys(componentCounts);
+            const series = Object.values(componentCounts);
+
+            const options = {
+                series: series,
+                chart: {
+                    type: 'donut',
+                    height: 300,
+                    background: 'transparent'
+                },
+                labels: labels,
+                colors: ['#6366f1', '#8b5cf6', '#a855f7', '#d946ef', '#ec4899', '#f43f5e'],
+                stroke: {
+                    width: 0
+                },
+                plotOptions: {
+                    pie: {
+                        donut: {
+                            size: '70%',
+                            labels: {
+                                show: true,
+                                name: {
+                                    show: true,
+                                    color: '#f8fafc'
+                                },
+                                value: {
+                                    show: true,
+                                    color: '#94a3b8',
+                                    formatter: (val) => val + ' issues'
+                                },
+                                total: {
+                                    show: true,
+                                    label: 'Total',
+                                    color: '#f8fafc',
+                                    formatter: () => appState.data.length
+                                }
+                            }
+                        }
+                    }
+                },
+                legend: {
+                    position: 'bottom',
+                    labels: {
+                        colors: '#94a3b8'
+                    }
+                },
+                dataLabels: {
+                    enabled: false
+                }
+            };
+
+            if (pieChart) {
+                pieChart.updateOptions(options);
+            } else {
+                pieChart = new ApexCharts(document.getElementById('pie-chart'), options);
+                pieChart.render();
+            }
+        }
+
+        // ========================================
+        // TABLE RENDERING
+        // ========================================
+        function renderTable() {
+            const tbody = document.querySelector('#anomaly-table tbody');
+
+            // Sort by timestamp (most recent first)
+            const sortedData = [...appState.data].sort((a, b) =>
+                new Date(b.timestamp) - new Date(a.timestamp)
+            );
+
+            tbody.innerHTML = sortedData.map(d => {
+                const time = new Date(d.timestamp).toLocaleTimeString('en-US', {
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+
+                const riskClass = d.risk_score > 80 ? 'critical' :
+                    d.risk_score >= 50 ? 'warning' : 'low';
+
+                // Scrub PII before rendering
+                const scrubbedMessage = scrubData(d.message);
+
+                return `
+                    <tr>
+                        <td>${time}</td>
+                        <td><span class="component-badge">${getComponentIcon(d.component)} ${d.component}</span></td>
+                        <td>${scrubbedMessage}</td>
+                        <td><span class="risk-badge ${riskClass}">⚡ ${d.risk_score}</span></td>
+                        <td>
+                            <button class="btn-doctor" onclick="consultDoctor('${escapeHtml(d.message)}')">
+                                🩺 Consult Dr.
+                            </button>
+                        </td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        function getComponentIcon(component) {
+            const icons = {
+                'Network': '🌐',
+                'Database': '🗄️',
+                'Auth Service': '🔐',
+                'Storage': '💾',
+                'API Gateway': '🚪',
+                'Payment Service': '💳'
+            };
+            return icons[component] || '⚙️';
+        }
+
+        // ========================================
+        // PII SCRUBBING (Client-Side Security)
+        // ========================================
+        function scrubData(text) {
+            // Scrub IP addresses
+            text = text.replace(/\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b/g, '[REDACTED_IP]');
+
+            // Scrub usernames (User: xxx pattern)
+            text = text.replace(/User:\s*\w+/gi, 'User: [REDACTED]');
+
+            return text;
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML.replace(/'/g, "\\'");
+        }
+
+        // ========================================
+        // AI INTEGRATION (Dr. System)
+        // ========================================
+        async function consultDoctor(errorMessage) {
+            const panel = document.getElementById('ai-panel');
+            const responseDiv = document.getElementById('ai-response');
+
+            // Show panel with loading state
+            panel.classList.add('active');
+            responseDiv.innerHTML = `
+                <div class="ai-loading">
+                    <div class="spinner"></div>
+                    <span>Dr. System is analyzing the symptoms...</span>
+                </div>
+            `;
+
+            // Scroll to panel
+            panel.scrollIntoView({ behavior: 'smooth' });
+
+            try {
+                const response = await fetch('/api/analyze', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ error_msg: errorMessage })
+                });
+
+                const data = await response.json();
+
+                // Format the response
+                let formattedResponse = data.response
+                    .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                    .replace(/\n/g, '<br>');
+
+                responseDiv.innerHTML = formattedResponse;
+
+                // Add source indicator if fallback
+                if (data.source === 'fallback') {
+                    responseDiv.innerHTML += '<br><br><em style="color: var(--text-muted);">⚠️ AI model offline - showing cached response</em>';
+                }
+
+            } catch (error) {
+                responseDiv.innerHTML = `
+                    <p style="color: var(--danger);">❌ Unable to reach Dr. System</p>
+                    <p>Please ensure Ollama is running on localhost:11434</p>
+                `;
+            }
+        }
+
+        function closeAIPanel() {
+            document.getElementById('ai-panel').classList.remove('active');
+        }
+
+        function generateReport() {
+            const critical = appState.data.filter(d => d.risk_score > 80);
+            alert(`📋 Report Generated!\n\nTotal Anomalies: ${appState.data.length}\nCritical Issues: ${critical.length}\n\nTop concern: ${critical[0]?.message || 'None'}`);
+        }
+
+        // ========================================
+        // THEME TOGGLE
+        // ========================================
+        function toggleTheme() {
+            const newTheme = appState.theme === 'dark' ? 'light' : 'dark';
+            appState.theme = newTheme;
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        }
+
+
+        // ========================================
+        // COMMAND PALETTE LOGIC
+        // ========================================
+
+        const commands = [
+            { id: 'refresh', icon: '🔄', label: 'Refresh Dashboard', shortcut: 'R', action: () => window.location.reload() },
+            { id: 'report', icon: '📋', label: 'Generate PDF Report', shortcut: 'G', action: generateReport },
+            { id: 'theme', icon: '🌓', label: 'Toggle Theme', shortcut: 'T', action: toggleTheme },
+            { id: 'reset_cam', icon: '🎥', label: 'Reset Camera View', shortcut: '0', action: resetCamera },
+        ];
+
+        let isPaletteOpen = false;
+
+        function initCommandPalette() {
+            const overlay = document.getElementById('cmd-overlay');
+            const input = document.getElementById('cmd-input');
+            const results = document.getElementById('cmd-results');
+
+            // Render Commands
+            renderCommands(commands);
+
+            // Toggle on Ctrl+K
+            document.addEventListener('keydown', (e) => {
+                if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+                    e.preventDefault();
+                    togglePalette();
+                }
+                if (e.key === 'Escape' && isPaletteOpen) {
+                    togglePalette();
+                }
+            });
+
+            // Close on background click
+            overlay.addEventListener('click', (e) => {
+                if (e.target === overlay) togglePalette();
+            });
+
+            // Filter
+            input.addEventListener('input', (e) => {
+                const term = e.target.value.toLowerCase();
+                const filtered = commands.filter(c => c.label.toLowerCase().includes(term));
+                renderCommands(filtered);
+            });
+        }
+
+        function renderCommands(list) {
+            const results = document.getElementById('cmd-results');
+            results.innerHTML = list.map(cmd => `
+                <div class="cmd-item" onclick="executeCommand('${cmd.id}')">
+                    <span class="cmd-icon">${cmd.icon}</span>
+                    <span>${cmd.label}</span>
+                    ${cmd.shortcut ? `<span class="cmd-shortcut">Ctrl+${cmd.shortcut}</span>` : ''}
+                </div>
+            `).join('');
+        }
+
+        function executeCommand(id) {
+            const cmd = commands.find(c => c.id === id);
+            if (cmd) {
+                togglePalette(); // Close first
+                setTimeout(cmd.action, 300); // Wait for anim
+            }
+        }
+
+        function togglePalette() {
+            const overlay = document.getElementById('cmd-overlay');
+            const palette = document.querySelector('.cmd-palette');
+            const input = document.getElementById('cmd-input');
+
+            isPaletteOpen = !isPaletteOpen;
+
+            if (isPaletteOpen) {
+                overlay.style.display = 'flex';
+                input.value = '';
+                input.focus();
+
+                // GSAP Open Animation
+                gsap.to(overlay, { duration: 0.2, opacity: 1 });
+                gsap.fromTo(palette,
+                    { scale: 0.9, opacity: 0, y: 10 },
+                    { scale: 1, opacity: 1, y: 0, duration: 0.3, ease: "power2.out" }
+                );
+            } else {
+                // GSAP Close Animation
+                gsap.to(overlay, {
+                    duration: 0.2, opacity: 0, onComplete: () => {
+                        overlay.style.display = 'none';
+                    }
+                });
+                gsap.to(palette, { scale: 0.95, opacity: 0, duration: 0.2 });
+            }
+        }
+
+        function resetCamera() {
+            if (typeof controls !== 'undefined') controls.reset();
+        }
+
+        // Initialize Palette
+        document.addEventListener('DOMContentLoaded', () => {
+            initCommandPalette();
+        });
+    </script>
+</body>
+
+</html>

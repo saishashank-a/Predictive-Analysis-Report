@@ -1,29 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Secure Banking AIOps Dashboard</title>
-    <meta name="description" content="AI-powered operations dashboard for banking infrastructure monitoring">
+    <title>AIOps Self-Healing Dashboard</title>
+    <meta name="description" content="AI-powered self-healing dashboard for VMware ESXi infrastructure">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- GSAP for Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 
     <!-- ApexCharts -->
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 
     <style>
-        /* ========================================
-           CSS VARIABLES (Theme System)
-           ======================================== */
         :root {
             /* Dark Theme (Default) */
             --bg-primary: #0a0e17;
             --bg-secondary: #111827;
-            --bg-card: rgba(17, 24, 39, 0.8);
+            --bg-card: rgba(17, 24, 39, 0.9);
             --bg-glass: rgba(255, 255, 255, 0.05);
             --border-color: rgba(255, 255, 255, 0.1);
             --text-primary: #f8fafc;
@@ -36,14 +36,13 @@
             --warning: #f59e0b;
             --danger: #ef4444;
             --danger-glow: rgba(239, 68, 68, 0.3);
-            --chart-gradient-1: #6366f1;
-            --chart-gradient-2: #a855f7;
+            --cure-gradient: linear-gradient(135deg, #10b981 0%, #059669 100%);
         }
 
         [data-theme="light"] {
             --bg-primary: #f1f5f9;
             --bg-secondary: #ffffff;
-            --bg-card: rgba(255, 255, 255, 0.9);
+            --bg-card: rgba(255, 255, 255, 0.95);
             --bg-glass: rgba(0, 0, 0, 0.02);
             --border-color: rgba(0, 0, 0, 0.1);
             --text-primary: #1e293b;
@@ -51,9 +50,6 @@
             --text-muted: #94a3b8;
         }
 
-        /* ========================================
-           BASE STYLES
-           ======================================== */
         * {
             margin: 0;
             padding: 0;
@@ -68,9 +64,6 @@
             transition: background 0.3s ease, color 0.3s ease;
         }
 
-        /* ========================================
-           LAYOUT
-           ======================================== */
         .app-container {
             display: flex;
             min-height: 100vh;
@@ -78,7 +71,7 @@
 
         /* Sidebar */
         .sidebar {
-            width: 260px;
+            width: 280px;
             background: var(--bg-secondary);
             border-right: 1px solid var(--border-color);
             padding: 24px;
@@ -97,23 +90,30 @@
         }
 
         .logo-icon {
-            width: 40px;
-            height: 40px;
-            background: var(--accent-gradient);
+            width: 48px;
+            height: 48px;
+            background: var(--cure-gradient);
             border-radius: 12px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 20px;
+            font-size: 24px;
         }
 
         .logo-text {
-            font-size: 1.25rem;
+            font-size: 1.3rem;
             font-weight: 700;
-            background: var(--accent-gradient);
+            background: var(--cure-gradient);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
+        }
+
+        .logo-subtitle {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
         }
 
         .nav-section {
@@ -147,12 +147,8 @@
         }
 
         .nav-item.active {
-            background: var(--accent-gradient);
+            background: var(--cure-gradient);
             color: white;
-        }
-
-        .nav-item-icon {
-            font-size: 1.25rem;
         }
 
         .sidebar-footer {
@@ -216,14 +212,12 @@
         /* Main Content */
         .main-content {
             flex: 1;
-            margin-left: 260px;
+            margin-left: 280px;
             padding: 32px;
             background: var(--bg-primary);
         }
 
-        /* ========================================
-           HEADER
-           ======================================== */
+        /* Header */
         .header {
             display: flex;
             justify-content: space-between;
@@ -239,7 +233,6 @@
 
         .header-title p {
             color: var(--text-secondary);
-            font-size: 1rem;
         }
 
         .header-actions {
@@ -272,6 +265,17 @@
             box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
         }
 
+        .btn-cure {
+            background: var(--cure-gradient);
+            color: white;
+            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+        }
+
+        .btn-cure:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4);
+        }
+
         .btn-secondary {
             background: var(--bg-glass);
             color: var(--text-primary);
@@ -282,13 +286,17 @@
             background: var(--border-color);
         }
 
-        /* ========================================
-           KPI CARDS
-           ======================================== */
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none !important;
+        }
+
+        /* KPI Cards */
         .kpi-grid {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 24px;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
             margin-bottom: 32px;
         }
 
@@ -297,7 +305,7 @@
             backdrop-filter: blur(10px);
             border: 1px solid var(--border-color);
             border-radius: 16px;
-            padding: 24px;
+            padding: 20px;
             transition: all 0.3s ease;
         }
 
@@ -311,15 +319,20 @@
             box-shadow: 0 0 30px var(--danger-glow);
         }
 
+        .kpi-card.cure {
+            border-color: var(--success);
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(5, 150, 105, 0.05) 100%);
+        }
+
         .kpi-header {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 16px;
+            margin-bottom: 12px;
         }
 
         .kpi-label {
-            font-size: 0.85rem;
+            font-size: 0.8rem;
             font-weight: 500;
             color: var(--text-secondary);
             text-transform: uppercase;
@@ -327,72 +340,38 @@
         }
 
         .kpi-icon {
-            width: 40px;
-            height: 40px;
-            border-radius: 10px;
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.25rem;
+            font-size: 1.1rem;
         }
 
-        .kpi-icon.purple {
-            background: rgba(99, 102, 241, 0.15);
-        }
-
-        .kpi-icon.red {
-            background: rgba(239, 68, 68, 0.15);
-        }
-
-        .kpi-icon.yellow {
-            background: rgba(245, 158, 11, 0.15);
-        }
-
-        .kpi-icon.green {
-            background: rgba(16, 185, 129, 0.15);
-        }
+        .kpi-icon.purple { background: rgba(99, 102, 241, 0.15); }
+        .kpi-icon.red { background: rgba(239, 68, 68, 0.15); }
+        .kpi-icon.yellow { background: rgba(245, 158, 11, 0.15); }
+        .kpi-icon.green { background: rgba(16, 185, 129, 0.15); }
+        .kpi-icon.blue { background: rgba(59, 130, 246, 0.15); }
 
         .kpi-value {
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-weight: 700;
             line-height: 1;
-            margin-bottom: 8px;
+            margin-bottom: 6px;
         }
 
-        .kpi-value.danger {
-            color: var(--danger);
-        }
-
-        .kpi-value.warning {
-            color: var(--warning);
-        }
-
-        .kpi-value.success {
-            color: var(--success);
-        }
+        .kpi-value.danger { color: var(--danger); }
+        .kpi-value.warning { color: var(--warning); }
+        .kpi-value.success { color: var(--success); }
 
         .kpi-change {
-            display: inline-flex;
-            align-items: center;
-            gap: 4px;
-            font-size: 0.85rem;
-            padding: 4px 8px;
-            border-radius: 6px;
+            font-size: 0.8rem;
+            color: var(--text-muted);
         }
 
-        .kpi-change.up {
-            background: rgba(239, 68, 68, 0.1);
-            color: var(--danger);
-        }
-
-        .kpi-change.down {
-            background: rgba(16, 185, 129, 0.1);
-            color: var(--success);
-        }
-
-        /* ========================================
-           CHARTS SECTION
-           ======================================== */
+        /* Charts Grid */
         .charts-grid {
             display: grid;
             grid-template-columns: 2fr 1fr;
@@ -426,12 +405,192 @@
             margin-top: 4px;
         }
 
-        /* ========================================
-           ANOMALY TABLE
-           ======================================== */
+        /* Cure Center Section */
+        .cure-center {
+            background: var(--bg-card);
+            border: 2px solid var(--success);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 32px;
+            box-shadow: 0 0 40px rgba(16, 185, 129, 0.1);
+        }
+
+        .cure-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+
+        .cure-title {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .cure-title h2 {
+            font-size: 1.5rem;
+            background: var(--cure-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .cure-title .icon {
+            font-size: 2rem;
+        }
+
+        .cure-status {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .status-badge {
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .status-badge.ready {
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--success);
+        }
+
+        .status-badge.processing {
+            background: rgba(245, 158, 11, 0.15);
+            color: var(--warning);
+        }
+
+        .cure-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            gap: 16px;
+            max-height: 500px;
+            overflow-y: auto;
+        }
+
+        .cure-card {
+            background: var(--bg-glass);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 16px;
+            transition: all 0.2s ease;
+        }
+
+        .cure-card:hover {
+            border-color: var(--success);
+            transform: translateX(4px);
+        }
+
+        .cure-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+
+        .cure-card-title {
+            font-weight: 600;
+            font-size: 0.95rem;
+            color: var(--text-primary);
+        }
+
+        .cure-card-meta {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
+        .cure-card-count {
+            background: var(--accent-gradient);
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .cure-section {
+            margin-bottom: 12px;
+        }
+
+        .cure-section-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .cure-section-content {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+
+        .prescription-box {
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 12px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--success);
+            position: relative;
+            white-space: pre-wrap;
+            word-break: break-all;
+        }
+
+        .copy-btn {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background: var(--bg-glass);
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            padding: 4px 8px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.7rem;
+            transition: all 0.2s;
+        }
+
+        .copy-btn:hover {
+            background: var(--success);
+            color: white;
+            border-color: var(--success);
+        }
+
+        .impact-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+
+        .impact-badge.low {
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--success);
+        }
+
+        .impact-badge.medium {
+            background: rgba(245, 158, 11, 0.15);
+            color: var(--warning);
+        }
+
+        .impact-badge.high {
+            background: rgba(239, 68, 68, 0.15);
+            color: var(--danger);
+        }
+
+        /* Table Section */
         .table-card {
             background: var(--bg-card);
-            backdrop-filter: blur(10px);
             border: 1px solid var(--border-color);
             border-radius: 16px;
             padding: 24px;
@@ -456,8 +615,8 @@
 
         th {
             text-align: left;
-            padding: 14px 16px;
-            font-size: 0.8rem;
+            padding: 12px 16px;
+            font-size: 0.75rem;
             font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 0.05em;
@@ -466,8 +625,8 @@
         }
 
         td {
-            padding: 16px;
-            font-size: 0.9rem;
+            padding: 14px 16px;
+            font-size: 0.85rem;
             border-bottom: 1px solid var(--border-color);
             color: var(--text-secondary);
         }
@@ -484,68 +643,60 @@
             display: inline-flex;
             align-items: center;
             gap: 6px;
-            padding: 6px 12px;
-            border-radius: 20px;
-            font-size: 0.8rem;
+            padding: 4px 10px;
+            border-radius: 16px;
+            font-size: 0.75rem;
             font-weight: 500;
             background: var(--bg-glass);
             border: 1px solid var(--border-color);
         }
 
-        .risk-badge {
+        .severity-badge {
             display: inline-flex;
             align-items: center;
             gap: 4px;
-            padding: 6px 12px;
-            border-radius: 20px;
-            font-size: 0.8rem;
+            padding: 4px 10px;
+            border-radius: 16px;
+            font-size: 0.75rem;
             font-weight: 600;
         }
 
-        .risk-badge.critical {
+        .severity-badge.Critical {
             background: rgba(239, 68, 68, 0.15);
             color: var(--danger);
         }
 
-        .risk-badge.warning {
+        .severity-badge.Warning {
             background: rgba(245, 158, 11, 0.15);
             color: var(--warning);
         }
 
-        .risk-badge.low {
-            background: rgba(16, 185, 129, 0.15);
-            color: var(--success);
+        .severity-badge.Info {
+            background: rgba(59, 130, 246, 0.15);
+            color: #3b82f6;
         }
 
-        .btn-doctor {
-            padding: 8px 14px;
-            font-size: 0.8rem;
-            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-            color: white;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
+        .message-cell {
+            max-width: 400px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
         }
 
-        .btn-doctor:hover {
-            transform: scale(1.05);
-            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+        .btn-small {
+            padding: 6px 12px;
+            font-size: 0.75rem;
+            border-radius: 6px;
         }
 
-        /* ========================================
-           AI PANEL
-           ======================================== */
+        /* AI Panel */
         .ai-panel {
             background: var(--bg-card);
-            backdrop-filter: blur(10px);
             border: 1px solid var(--border-color);
             border-radius: 16px;
             padding: 24px;
             display: none;
+            margin-bottom: 32px;
         }
 
         .ai-panel.active {
@@ -554,15 +705,8 @@
         }
 
         @keyframes slideIn {
-            from {
-                opacity: 0;
-                transform: translateY(10px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
         .ai-header {
@@ -575,7 +719,7 @@
         .ai-avatar {
             width: 48px;
             height: 48px;
-            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            background: var(--cure-gradient);
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -583,15 +727,8 @@
             font-size: 1.5rem;
         }
 
-        .ai-title {
-            font-size: 1.2rem;
-            font-weight: 600;
-        }
-
-        .ai-subtitle {
-            font-size: 0.85rem;
-            color: var(--text-muted);
-        }
+        .ai-title { font-size: 1.2rem; font-weight: 600; }
+        .ai-subtitle { font-size: 0.85rem; color: var(--text-muted); }
 
         .ai-close {
             margin-left: auto;
@@ -602,7 +739,6 @@
             font-size: 1.5rem;
             padding: 8px;
             border-radius: 8px;
-            transition: all 0.2s ease;
         }
 
         .ai-close:hover {
@@ -620,10 +756,6 @@
             white-space: pre-wrap;
         }
 
-        .ai-content strong {
-            color: var(--text-primary);
-        }
-
         .ai-loading {
             display: flex;
             align-items: center;
@@ -631,84 +763,135 @@
             color: var(--text-muted);
         }
 
-        .ai-loading .spinner {
+        .spinner {
             width: 20px;
             height: 20px;
             border: 2px solid var(--border-color);
-            border-top-color: var(--accent-primary);
+            border-top-color: var(--success);
             border-radius: 50%;
             animation: spin 1s linear infinite;
         }
 
-        @keyframes spin {
-            to {
-                transform: rotate(360deg);
-            }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* Cluster Grid */
+        .cluster-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 16px;
         }
 
-        /* ========================================
-           RESPONSIVE
-           ======================================== */
-        @media (max-width: 1200px) {
-            .kpi-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
+        .cluster-card {
+            background: var(--bg-glass);
+            padding: 16px;
+            border-radius: 12px;
+            border-left: 4px solid var(--accent-primary);
+            transition: transform 0.2s;
+        }
 
-            .charts-grid {
-                grid-template-columns: 1fr;
-            }
+        .cluster-card:hover {
+            transform: translateX(4px);
+        }
+
+        .cluster-card.Critical {
+            border-left-color: var(--danger);
+            background: rgba(239, 68, 68, 0.05);
+        }
+
+        .cluster-card.Warning {
+            border-left-color: var(--warning);
+            background: rgba(245, 158, 11, 0.05);
+        }
+
+        .cluster-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+        }
+
+        .cluster-component {
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .cluster-count {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .cluster-message {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        /* Pagination */
+        .pagination-controls {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            padding: 16px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        /* Responsive */
+        @media (max-width: 1400px) {
+            .kpi-grid { grid-template-columns: repeat(3, 1fr); }
+        }
+
+        @media (max-width: 1200px) {
+            .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+            .charts-grid { grid-template-columns: 1fr; }
+            .cure-grid { grid-template-columns: 1fr; }
         }
 
         @media (max-width: 768px) {
-            .sidebar {
-                display: none;
-            }
-
-            .main-content {
-                margin-left: 0;
-                padding: 16px;
-            }
-
-            .kpi-grid {
-                grid-template-columns: 1fr;
-            }
+            .sidebar { display: none; }
+            .main-content { margin-left: 0; padding: 16px; }
+            .kpi-grid { grid-template-columns: 1fr; }
         }
 
-        /* ========================================
-           ANIMATIONS
-           ======================================== */
+        /* Animations */
         @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(10px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
-        .kpi-card,
-        .chart-card,
-        .table-card {
+        .kpi-card, .chart-card, .table-card, .cure-center {
             animation: fadeIn 0.5s ease forwards;
         }
 
-        .kpi-card:nth-child(1) {
-            animation-delay: 0.1s;
+        .kpi-card:nth-child(1) { animation-delay: 0.05s; }
+        .kpi-card:nth-child(2) { animation-delay: 0.1s; }
+        .kpi-card:nth-child(3) { animation-delay: 0.15s; }
+        .kpi-card:nth-child(4) { animation-delay: 0.2s; }
+        .kpi-card:nth-child(5) { animation-delay: 0.25s; }
+
+        /* Progress indicator */
+        .progress-ring {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 2px solid var(--border-color);
+            border-top-color: var(--success);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-right: 8px;
         }
 
-        .kpi-card:nth-child(2) {
-            animation-delay: 0.2s;
+        /* Empty state */
+        .empty-state {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-muted);
         }
 
-        .kpi-card:nth-child(3) {
-            animation-delay: 0.3s;
-        }
-
-        .kpi-card:nth-child(4) {
-            animation-delay: 0.4s;
+        .empty-state .icon {
+            font-size: 3rem;
+            margin-bottom: 16px;
         }
     </style>
 </head>
@@ -718,35 +901,38 @@
         <!-- Sidebar -->
         <aside class="sidebar">
             <div class="logo">
-                <div class="logo-icon">🏦</div>
-                <span class="logo-text">AIOps Hub</span>
+                <div class="logo-icon">💊</div>
+                <div>
+                    <span class="logo-text">Self-Healing</span>
+                    <div class="logo-subtitle">AIOps Dashboard</div>
+                </div>
             </div>
 
             <nav class="nav-section">
                 <div class="nav-label">Dashboard</div>
                 <div class="nav-item active">
-                    <span class="nav-item-icon">📊</span>
+                    <span>📊</span>
                     <span>Overview</span>
                 </div>
-                <div class="nav-item">
-                    <span class="nav-item-icon">🔔</span>
-                    <span>Alerts</span>
+                <div class="nav-item" onclick="scrollToSection('cure-center')">
+                    <span>💊</span>
+                    <span>Cure Center</span>
                 </div>
-                <div class="nav-item">
-                    <span class="nav-item-icon">📈</span>
-                    <span>Analytics</span>
+                <div class="nav-item" onclick="scrollToSection('anomaly-table')">
+                    <span>🔍</span>
+                    <span>Anomalies</span>
                 </div>
             </nav>
 
             <nav class="nav-section">
-                <div class="nav-label">System</div>
-                <div class="nav-item">
-                    <span class="nav-item-icon">🩺</span>
-                    <span>Dr. System</span>
+                <div class="nav-label">AI Engine</div>
+                <div class="nav-item" onclick="generateAllCures()">
+                    <span>🤖</span>
+                    <span>Generate Cures</span>
                 </div>
-                <div class="nav-item">
-                    <span class="nav-item-icon">⚙️</span>
-                    <span>Settings</span>
+                <div class="nav-item" onclick="scrollToSection('clusters')">
+                    <span>📈</span>
+                    <span>Patterns</span>
                 </div>
             </nav>
 
@@ -766,15 +952,15 @@
             <!-- Header -->
             <header class="header">
                 <div class="header-title">
-                    <h1>Banking AIOps Dashboard</h1>
-                    <p>Real-time infrastructure anomaly detection & AI-powered diagnostics</p>
+                    <h1>🏥 Self-Healing Dashboard</h1>
+                    <p>VMware ESXi Infrastructure Diagnostics & AI-Powered Remediation</p>
                 </div>
                 <div class="header-actions">
                     <button class="btn btn-secondary" onclick="refreshData()">
                         <span>🔄</span> Refresh
                     </button>
-                    <button class="btn btn-primary" onclick="generateReport()">
-                        <span>📋</span> Generate Report
+                    <button class="btn btn-cure" id="btn-generate-cures" onclick="generateAllCures()">
+                        <span>💊</span> Generate Cures
                     </button>
                 </div>
             </header>
@@ -783,38 +969,47 @@
             <section class="kpi-grid">
                 <div class="kpi-card">
                     <div class="kpi-header">
-                        <span class="kpi-label">Total Anomalies</span>
+                        <span class="kpi-label">Total Log Entries</span>
                         <div class="kpi-icon purple">📊</div>
                     </div>
                     <div class="kpi-value" id="kpi-total">--</div>
-                    <span class="kpi-change up" id="kpi-total-change">↑ Loading...</span>
+                    <span class="kpi-change" id="kpi-ingestion">Loading...</span>
                 </div>
 
                 <div class="kpi-card critical">
                     <div class="kpi-header">
-                        <span class="kpi-label">Critical (>80)</span>
+                        <span class="kpi-label">Critical Errors</span>
                         <div class="kpi-icon red">🚨</div>
                     </div>
                     <div class="kpi-value danger" id="kpi-critical">--</div>
-                    <span class="kpi-change up" id="kpi-critical-change">Requires attention</span>
+                    <span class="kpi-change">Requires immediate attention</span>
                 </div>
 
                 <div class="kpi-card">
                     <div class="kpi-header">
-                        <span class="kpi-label">Warning (50-80)</span>
+                        <span class="kpi-label">Warnings</span>
                         <div class="kpi-icon yellow">⚠️</div>
                     </div>
                     <div class="kpi-value warning" id="kpi-warning">--</div>
-                    <span class="kpi-change down" id="kpi-warning-change">Monitor closely</span>
+                    <span class="kpi-change">Monitor closely</span>
                 </div>
 
                 <div class="kpi-card">
                     <div class="kpi-header">
-                        <span class="kpi-label">Average Risk Score</span>
-                        <div class="kpi-icon green">📈</div>
+                        <span class="kpi-label">Unique Patterns</span>
+                        <div class="kpi-icon blue">🧬</div>
                     </div>
-                    <div class="kpi-value" id="kpi-avg">--</div>
-                    <span class="kpi-change" id="kpi-avg-change">System health</span>
+                    <div class="kpi-value" id="kpi-patterns">--</div>
+                    <span class="kpi-change" id="kpi-analyzed">Clusters identified</span>
+                </div>
+
+                <div class="kpi-card cure">
+                    <div class="kpi-header">
+                        <span class="kpi-label">Cures Generated</span>
+                        <div class="kpi-icon green">💊</div>
+                    </div>
+                    <div class="kpi-value success" id="kpi-cures">--</div>
+                    <span class="kpi-change" id="kpi-cure-status">AI recommendations ready</span>
                 </div>
             </section>
 
@@ -824,7 +1019,7 @@
                     <div class="chart-header">
                         <div>
                             <h3 class="chart-title">Risk Score Timeline</h3>
-                            <p class="chart-subtitle">Anomaly severity over time</p>
+                            <p class="chart-subtitle">Anomaly severity distribution over time</p>
                         </div>
                     </div>
                     <div id="timeline-chart"></div>
@@ -833,15 +1028,37 @@
                 <div class="chart-card">
                     <div class="chart-header">
                         <div>
-                            <h3 class="chart-title">Component Distribution</h3>
-                            <p class="chart-subtitle">Anomalies by system component</p>
+                            <h3 class="chart-title">Severity Distribution</h3>
+                            <p class="chart-subtitle">Error categorization</p>
                         </div>
                     </div>
-                    <div id="pie-chart"></div>
+                    <div id="severity-chart"></div>
                 </div>
             </section>
 
-            <!-- AI Panel -->
+            <!-- Cure Center -->
+            <section class="cure-center" id="cure-center">
+                <div class="cure-header">
+                    <div class="cure-title">
+                        <span class="icon">💊</span>
+                        <h2>The Cure Center</h2>
+                    </div>
+                    <div class="cure-status">
+                        <span class="status-badge ready" id="cure-status-badge">Ready</span>
+                        <button class="btn btn-cure btn-small" onclick="generateAllCures()" id="btn-analyze">
+                            🤖 Analyze Patterns
+                        </button>
+                    </div>
+                </div>
+                <div class="cure-grid" id="cure-grid">
+                    <div class="empty-state">
+                        <div class="icon">🧬</div>
+                        <p>Click "Analyze Patterns" to generate AI-powered fixes for detected error patterns</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- AI Panel (for single error analysis) -->
             <section class="ai-panel" id="ai-panel">
                 <div class="ai-header">
                     <div class="ai-avatar">🩺</div>
@@ -854,34 +1071,53 @@
                 <div class="ai-content" id="ai-response">
                     <div class="ai-loading">
                         <div class="spinner"></div>
-                        <span>Analyzing system symptoms...</span>
+                        <span>Analyzing symptoms...</span>
                     </div>
                 </div>
             </section>
 
             <!-- Anomaly Table -->
-            <section class="table-card">
+            <section class="table-card" id="anomaly-table">
                 <div class="table-header">
                     <div>
                         <h3 class="chart-title">Recent Anomalies</h3>
-                        <p class="chart-subtitle">Click "Consult Dr." for AI-powered diagnosis</p>
+                        <p class="chart-subtitle">Click any row to get AI diagnosis</p>
                     </div>
                 </div>
                 <div class="table-wrapper">
-                    <table id="anomaly-table">
+                    <table>
                         <thead>
                             <tr>
                                 <th>Time</th>
                                 <th>Component</th>
+                                <th>Subsystem</th>
                                 <th>Message</th>
-                                <th>Risk Score</th>
+                                <th>Severity</th>
                                 <th>Action</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <!-- Populated by JavaScript -->
+                        <tbody id="anomaly-tbody">
+                            <!-- Populated by JS -->
                         </tbody>
                     </table>
+                </div>
+                <div class="pagination-controls">
+                    <button class="btn btn-secondary btn-small" id="btn-prev" onclick="changePage(-1)">← Previous</button>
+                    <span id="page-info">Page 1</span>
+                    <button class="btn btn-secondary btn-small" id="btn-next" onclick="changePage(1)">Next →</button>
+                </div>
+            </section>
+
+            <!-- Cluster Patterns Section -->
+            <section class="chart-card" id="clusters">
+                <div class="chart-header">
+                    <div>
+                        <h3 class="chart-title">🧬 Detected Error Patterns</h3>
+                        <p class="chart-subtitle">Clustered by message similarity (Top 20)</p>
+                    </div>
+                </div>
+                <div class="cluster-grid" id="cluster-grid">
+                    <!-- Populated by JS -->
                 </div>
             </section>
         </main>
@@ -891,82 +1127,121 @@
         // ========================================
         // APPLICATION STATE
         // ========================================
-        let appState = {
+        const appState = {
             data: [],
-            theme: localStorage.getItem('theme') || 'dark'
+            stats: null,
+            cures: [],
+            theme: localStorage.getItem('theme') || 'dark',
+            currentPage: 1,
+            itemsPerPage: 50,
+            totalPages: 1,
+            totalRecords: 0,
+            isGeneratingCures: false
         };
 
-        // ApexCharts instances
         let timelineChart = null;
-        let pieChart = null;
+        let severityChart = null;
 
         // ========================================
         // INITIALIZATION
         // ========================================
         document.addEventListener('DOMContentLoaded', () => {
-            // Apply saved theme
             document.documentElement.setAttribute('data-theme', appState.theme);
-
-            // Fetch data
-            fetchAnomalies();
+            fetchAllData();
         });
+
+        async function fetchAllData() {
+            await Promise.all([
+                fetchStats(),
+                fetchAnomalies(),
+                fetchClusters(),
+                fetchCures()
+            ]);
+        }
+
+        function refreshData() {
+            fetchAllData();
+        }
 
         // ========================================
         // DATA FETCHING
         // ========================================
-        async function fetchAnomalies() {
+        async function fetchStats() {
             try {
-                const response = await fetch('/api/anomalies');
-                const data = await response.json();
-                appState.data = data;
-
-                // Update all UI components
+                const response = await fetch('/api/stats');
+                const stats = await response.json();
+                appState.stats = stats;
                 updateKPIs();
                 renderTimelineChart();
-                renderPieChart();
+                renderSeverityChart();
+            } catch (error) {
+                console.error('Failed to fetch stats:', error);
+            }
+        }
+
+        async function fetchAnomalies(page = 1) {
+            try {
+                const response = await fetch(`/api/anomalies?page=${page}&limit=${appState.itemsPerPage}`);
+                const data = await response.json();
+                appState.data = data.data;
+                appState.currentPage = data.page;
+                appState.totalPages = data.total_pages;
+                appState.totalRecords = data.total;
                 renderTable();
             } catch (error) {
                 console.error('Failed to fetch anomalies:', error);
             }
         }
 
-        function refreshData() {
-            fetchAnomalies();
+        async function fetchClusters() {
+            try {
+                const response = await fetch('/api/clusters');
+                const clusters = await response.json();
+                renderClusters(clusters);
+            } catch (error) {
+                console.error('Failed to fetch clusters:', error);
+            }
+        }
+
+        async function fetchCures() {
+            try {
+                const response = await fetch('/api/cures');
+                const cures = await response.json();
+                appState.cures = cures;
+                renderCures(cures);
+                updateCureKPI();
+            } catch (error) {
+                console.error('Failed to fetch cures:', error);
+            }
         }
 
         // ========================================
-        // KPI CALCULATIONS
+        // KPI UPDATES
         // ========================================
         function updateKPIs() {
-            const data = appState.data;
-            const total = data.length;
-            const critical = data.filter(d => d.risk_score > 80).length;
-            const warning = data.filter(d => d.risk_score >= 50 && d.risk_score <= 80).length;
-            const avgScore = total > 0
-                ? Math.round(data.reduce((sum, d) => sum + d.risk_score, 0) / total)
-                : 0;
+            if (!appState.stats) return;
+            const stats = appState.stats;
 
-            // Animate counters
-            animateValue('kpi-total', total);
-            animateValue('kpi-critical', critical);
-            animateValue('kpi-warning', warning);
-            animateValue('kpi-avg', avgScore);
+            animateValue('kpi-total', stats.total_count);
+            animateValue('kpi-critical', stats.critical_count);
+            animateValue('kpi-warning', stats.warning_count);
+            animateValue('kpi-patterns', stats.unique_patterns);
 
-            // Update change indicators
-            document.getElementById('kpi-total-change').textContent = `${total} detected today`;
-            document.getElementById('kpi-critical-change').textContent = critical > 5 ? '🔥 High priority' : 'Monitoring';
+            document.getElementById('kpi-ingestion').textContent =
+                `⚡ Ingested in ${stats.ingestion_time_ms}ms`;
+            document.getElementById('kpi-analyzed').textContent =
+                `${stats.patterns_analyzed} cures generated`;
+        }
 
-            // Color average based on severity
-            const avgEl = document.getElementById('kpi-avg');
-            avgEl.className = 'kpi-value';
-            if (avgScore > 70) avgEl.classList.add('danger');
-            else if (avgScore > 50) avgEl.classList.add('warning');
-            else avgEl.classList.add('success');
+        function updateCureKPI() {
+            document.getElementById('kpi-cures').textContent = appState.cures.length;
+            document.getElementById('kpi-cure-status').textContent =
+                appState.cures.length > 0 ? 'AI recommendations ready' : 'Click Generate Cures';
         }
 
         function animateValue(elementId, target) {
             const element = document.getElementById(elementId);
-            const duration = 1000;
+            const duration = 800;
             const start = parseInt(element.textContent) || 0;
             const increment = (target - start) / (duration / 16);
             let current = start;
@@ -974,85 +1249,54 @@
             const timer = setInterval(() => {
                 current += increment;
                 if ((increment > 0 && current >= target) || (increment < 0 && current <= target)) {
-                    element.textContent = target;
+                    element.textContent = target.toLocaleString();
                     clearInterval(timer);
                 } else {
-                    element.textContent = Math.round(current);
+                    element.textContent = Math.round(current).toLocaleString();
                 }
             }, 16);
         }
 
         // ========================================
-        // CHARTS (ApexCharts)
+        // CHARTS
         // ========================================
         function renderTimelineChart() {
-            const data = appState.data.map(d => ({
-                x: new Date(d.timestamp).getTime(),
-                y: d.risk_score
+            if (!appState.stats || !appState.stats.timeline_data) return;
+
+            const data = appState.stats.timeline_data.map(d => ({
+                x: new Date(d.x).getTime(),
+                y: d.y
             }));
 
             const options = {
-                series: [{
-                    name: 'Risk Score',
-                    data: data
-                }],
+                series: [{ name: 'Risk Score', data }],
                 chart: {
                     type: 'area',
-                    height: 300,
+                    height: 280,
                     background: 'transparent',
-                    toolbar: { show: false },
-                    animations: {
-                        enabled: true,
-                        easing: 'easeinout',
-                        speed: 800
-                    }
+                    toolbar: { show: false }
                 },
-                stroke: {
-                    curve: 'smooth',
-                    width: 3
-                },
+                stroke: { curve: 'smooth', width: 2 },
                 fill: {
                     type: 'gradient',
                     gradient: {
                         shadeIntensity: 1,
-                        opacityFrom: 0.45,
-                        opacityTo: 0.05,
-                        stops: [0, 100],
-                        colorStops: [
-                            { offset: 0, color: '#10b981', opacity: 0.4 },
-                            { offset: 50, color: '#f59e0b', opacity: 0.3 },
-                            { offset: 100, color: '#ef4444', opacity: 0.1 }
-                        ]
+                        opacityFrom: 0.4,
+                        opacityTo: 0.1,
+                        stops: [0, 100]
                     }
                 },
-                colors: ['#6366f1'],
+                colors: ['#10b981'],
                 xaxis: {
                     type: 'datetime',
-                    labels: {
-                        style: { colors: '#94a3b8' }
-                    },
-                    axisBorder: { show: false },
-                    axisTicks: { show: false }
+                    labels: { style: { colors: '#94a3b8' } }
                 },
                 yaxis: {
-                    min: 0,
-                    max: 100,
-                    labels: {
-                        style: { colors: '#94a3b8' }
-                    }
+                    min: 0, max: 100,
+                    labels: { style: { colors: '#94a3b8' } }
                 },
-                grid: {
-                    borderColor: 'rgba(255,255,255,0.1)',
-                    strokeDashArray: 3
-                },
-                tooltip: {
-                    theme: 'dark',
-                    x: { format: 'HH:mm' }
-                },
-                markers: {
-                    size: 0,
-                    hover: { size: 6 }
-                }
+                grid: { borderColor: 'rgba(255,255,255,0.1)' },
+                tooltip: { theme: 'dark' }
             };
 
             if (timelineChart) {
@@ -1063,150 +1307,218 @@
             }
         }
 
-        function renderPieChart() {
-            // Group by component
-            const componentCounts = {};
-            appState.data.forEach(d => {
-                componentCounts[d.component] = (componentCounts[d.component] || 0) + 1;
-            });
+        function renderSeverityChart() {
+            if (!appState.stats || !appState.stats.severity_data) return;
 
-            const labels = Object.keys(componentCounts);
-            const series = Object.values(componentCounts);
+            const severityData = appState.stats.severity_data;
+            const labels = Object.keys(severityData);
+            const series = Object.values(severityData);
 
             const options = {
                 series: series,
-                chart: {
-                    type: 'donut',
-                    height: 300,
-                    background: 'transparent'
-                },
+                chart: { type: 'donut', height: 280, background: 'transparent' },
                 labels: labels,
-                colors: ['#6366f1', '#8b5cf6', '#a855f7', '#d946ef', '#ec4899', '#f43f5e'],
-                stroke: {
-                    width: 0
-                },
+                colors: ['#ef4444', '#f59e0b', '#3b82f6'],
+                stroke: { width: 0 },
                 plotOptions: {
                     pie: {
                         donut: {
                             size: '70%',
                             labels: {
                                 show: true,
-                                name: {
-                                    show: true,
-                                    color: '#f8fafc'
-                                },
-                                value: {
-                                    show: true,
-                                    color: '#94a3b8',
-                                    formatter: (val) => val + ' issues'
-                                },
+                                name: { color: '#f8fafc' },
+                                value: { color: '#94a3b8' },
                                 total: {
                                     show: true,
                                     label: 'Total',
-                                    color: '#f8fafc',
-                                    formatter: () => appState.data.length
+                                    color: '#f8fafc'
                                 }
                             }
                         }
                     }
                 },
-                legend: {
-                    position: 'bottom',
-                    labels: {
-                        colors: '#94a3b8'
-                    }
-                },
-                dataLabels: {
-                    enabled: false
-                }
+                legend: { position: 'bottom', labels: { colors: '#94a3b8' } },
+                dataLabels: { enabled: false }
             };
 
-            if (pieChart) {
-                pieChart.updateOptions(options);
+            if (severityChart) {
+                severityChart.updateOptions(options);
             } else {
-                pieChart = new ApexCharts(document.getElementById('pie-chart'), options);
-                pieChart.render();
+                severityChart = new ApexCharts(document.getElementById('severity-chart'), options);
+                severityChart.render();
             }
+        }
+
+        // ========================================
+        // CURE CENTER
+        // ========================================
+        async function generateAllCures() {
+            if (appState.isGeneratingCures) return;
+
+            appState.isGeneratingCures = true;
+            const btn = document.getElementById('btn-generate-cures');
+            const statusBadge = document.getElementById('cure-status-badge');
+
+            btn.disabled = true;
+            btn.innerHTML = '<span class="progress-ring"></span> Generating...';
+            statusBadge.textContent = 'Processing...';
+            statusBadge.className = 'status-badge processing';
+
+            try {
+                const response = await fetch('/api/analyze-clusters', { method: 'POST' });
+                const result = await response.json();
+
+                statusBadge.textContent = `${result.analyzed} analyzed`;
+                statusBadge.className = 'status-badge ready';
+
+                // Refresh cures and stats
+                await fetchCures();
+                await fetchStats();
+
+            } catch (error) {
+                console.error('Failed to generate cures:', error);
+                statusBadge.textContent = 'Error';
+            } finally {
+                appState.isGeneratingCures = false;
+                btn.disabled = false;
+                btn.innerHTML = '<span>💊</span> Generate Cures';
+            }
+        }
+
+        function renderCures(cures) {
+            const grid = document.getElementById('cure-grid');
+
+            if (!cures || cures.length === 0) {
+                grid.innerHTML = `
+                    <div class="empty-state">
+                        <div class="icon">🧬</div>
+                        <p>Click "Analyze Patterns" to generate AI-powered fixes</p>
+                    </div>
+                `;
+                return;
+            }
+
+            grid.innerHTML = cures.map(cure => {
+                const impactClass = cure.cure.estimated_impact?.toLowerCase().includes('high') ? 'high' :
+                    cure.cure.estimated_impact?.toLowerCase().includes('medium') ? 'medium' : 'low';
+
+                return `
+                    <div class="cure-card">
+                        <div class="cure-card-header">
+                            <div>
+                                <div class="cure-card-title">${cure.component} / ${cure.subsystem}</div>
+                                <div class="cure-card-meta">${cure.severity} • Pattern: ${cure.pattern_hash}</div>
+                            </div>
+                            <span class="cure-card-count">${cure.count.toLocaleString()} events</span>
+                        </div>
+
+                        <div class="cure-section">
+                            <div class="cure-section-label">🩺 Diagnosis</div>
+                            <div class="cure-section-content">${cure.cure.diagnosis || 'N/A'}</div>
+                        </div>
+
+                        <div class="cure-section">
+                            <div class="cure-section-label">💊 Prescription</div>
+                            <div class="prescription-box">
+                                <button class="copy-btn" onclick="copyToClipboard(this, \`${escapeForJS(cure.cure.prescription)}\`)">Copy</button>
+                                ${escapeHtml(cure.cure.prescription) || 'N/A'}
+                            </div>
+                        </div>
+
+                        <div class="cure-section">
+                            <div class="cure-section-label">🔮 Prognosis</div>
+                            <div class="cure-section-content">${cure.cure.prognosis || 'N/A'}</div>
+                        </div>
+
+                        <div class="cure-section">
+                            <span class="impact-badge ${impactClass}">${cure.cure.estimated_impact || 'Unknown impact'}</span>
+                            <span style="font-size: 0.75rem; color: var(--text-muted); margin-left: 8px;">
+                                via ${cure.cure.source}
+                            </span>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function copyToClipboard(btn, text) {
+            navigator.clipboard.writeText(text).then(() => {
+                btn.textContent = '✓ Copied!';
+                setTimeout(() => btn.textContent = 'Copy', 2000);
+            });
         }
 
         // ========================================
         // TABLE RENDERING
         // ========================================
         function renderTable() {
-            const tbody = document.querySelector('#anomaly-table tbody');
+            const tbody = document.getElementById('anomaly-tbody');
 
-            // Sort by timestamp (most recent first)
-            const sortedData = [...appState.data].sort((a, b) =>
-                new Date(b.timestamp) - new Date(a.timestamp)
-            );
-
-            tbody.innerHTML = sortedData.map(d => {
-                const time = new Date(d.timestamp).toLocaleTimeString('en-US', {
-                    hour: '2-digit',
-                    minute: '2-digit'
+            tbody.innerHTML = appState.data.map(d => {
+                const time = new Date(d.timestamp).toLocaleString('en-US', {
+                    month: 'short', day: 'numeric',
+                    hour: '2-digit', minute: '2-digit'
                 });
-
-                const riskClass = d.risk_score > 80 ? 'critical' :
-                    d.risk_score >= 50 ? 'warning' : 'low';
-
-                // Scrub PII before rendering
-                const scrubbedMessage = scrubData(d.message);
 
                 return `
                     <tr>
                         <td>${time}</td>
-                        <td><span class="component-badge">${getComponentIcon(d.component)} ${d.component}</span></td>
-                        <td>${scrubbedMessage}</td>
-                        <td><span class="risk-badge ${riskClass}">⚡ ${d.risk_score}</span></td>
+                        <td><span class="component-badge">⚙️ ${d.component}</span></td>
+                        <td>${d.subsystem || '-'}</td>
+                        <td class="message-cell" title="${escapeHtml(d.message)}">${scrubData(d.message)}</td>
+                        <td><span class="severity-badge ${d.severity}">${d.severity}</span></td>
                         <td>
-                            <button class="btn-doctor" onclick="consultDoctor('${escapeHtml(d.message)}')">
-                                🩺 Consult Dr.
+                            <button class="btn btn-cure btn-small" onclick="consultDoctor('${escapeForJS(d.message)}')">
+                                🩺 Diagnose
                             </button>
                         </td>
                     </tr>
                 `;
             }).join('');
+
+            document.getElementById('page-info').textContent =
+                `Page ${appState.currentPage} of ${appState.totalPages} (${appState.totalRecords.toLocaleString()} records)`;
+            document.getElementById('btn-prev').disabled = appState.currentPage <= 1;
+            document.getElementById('btn-next').disabled = appState.currentPage >= appState.totalPages;
         }
 
-        function getComponentIcon(component) {
-            const icons = {
-                'Network': '🌐',
-                'Database': '🗄️',
-                'Auth Service': '🔐',
-                'Storage': '💾',
-                'API Gateway': '🚪',
-                'Payment Service': '💳'
-            };
-            return icons[component] || '⚙️';
-        }
-
-        // ========================================
-        // PII SCRUBBING (Client-Side Security)
-        // ========================================
-        function scrubData(text) {
-            // Scrub IP addresses
-            text = text.replace(/\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b/g, '[REDACTED_IP]');
-
-            // Scrub usernames (User: xxx pattern)
-            text = text.replace(/User:\s*\w+/gi, 'User: [REDACTED]');
-
-            return text;
-        }
-
-        function escapeHtml(text) {
-            const div = document.createElement('div');
-            div.textContent = text;
-            return div.innerHTML.replace(/'/g, "\\'");
+        function changePage(direction) {
+            const newPage = appState.currentPage + direction;
+            if (newPage >= 1 && newPage <= appState.totalPages) {
+                fetchAnomalies(newPage);
+            }
         }
 
         // ========================================
-        // AI INTEGRATION (Dr. System)
+        // CLUSTERS
+        // ========================================
+        function renderClusters(clusters) {
+            const grid = document.getElementById('cluster-grid');
+            if (!clusters || clusters.length === 0) {
+                grid.innerHTML = '<p style="color:var(--text-muted)">No patterns detected.</p>';
+                return;
+            }
+
+            const top20 = clusters.slice(0, 20);
+            grid.innerHTML = top20.map(c => `
+                <div class="cluster-card ${c.severity}">
+                    <div class="cluster-header">
+                        <span class="cluster-component">${c.component}</span>
+                        <span class="cluster-count">${c.count.toLocaleString()} events</span>
+                    </div>
+                    <div class="cluster-message">${c.canonical_message}</div>
+                    ${c.cure ? '<span style="color:var(--success);font-size:0.75rem;">✓ Cure available</span>' : ''}
+                </div>
+            `).join('');
+        }
+
+        // ========================================
+        // AI PANEL (Single Error Analysis)
         // ========================================
         async function consultDoctor(errorMessage) {
             const panel = document.getElementById('ai-panel');
             const responseDiv = document.getElementById('ai-response');
 
-            // Show panel with loading state
             panel.classList.add('active');
             responseDiv.innerHTML = `
                 <div class="ai-loading">
@@ -1214,8 +1526,6 @@
                     <span>Dr. System is analyzing the symptoms...</span>
                 </div>
             `;
-
-            // Scroll to panel
             panel.scrollIntoView({ behavior: 'smooth' });
 
             try {
@@ -1224,25 +1534,21 @@
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ error_msg: errorMessage })
                 });
-
                 const data = await response.json();
 
-                // Format the response
-                let formattedResponse = data.response
+                let formatted = data.response
                     .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
                     .replace(/\n/g, '<br>');
 
-                responseDiv.innerHTML = formattedResponse;
+                responseDiv.innerHTML = formatted;
 
-                // Add source indicator if fallback
                 if (data.source === 'fallback') {
-                    responseDiv.innerHTML += '<br><br><em style="color: var(--text-muted);">⚠️ AI model offline - showing cached response</em>';
+                    responseDiv.innerHTML += '<br><br><em style="color:var(--text-muted);">⚠️ AI offline - showing cached response</em>';
                 }
-
             } catch (error) {
                 responseDiv.innerHTML = `
-                    <p style="color: var(--danger);">❌ Unable to reach Dr. System</p>
-                    <p>Please ensure Ollama is running on localhost:11434</p>
+                    <p style="color:var(--danger);">❌ Unable to reach Dr. System</p>
+                    <p>Ensure Ollama is running: <code>ollama serve</code></p>
                 `;
             }
         }
@@ -1251,19 +1557,38 @@
             document.getElementById('ai-panel').classList.remove('active');
         }
 
-        function generateReport() {
-            const critical = appState.data.filter(d => d.risk_score > 80);
-            alert(`📋 Report Generated!\n\nTotal Anomalies: ${appState.data.length}\nCritical Issues: ${critical.length}\n\nTop concern: ${critical[0]?.message || 'None'}`);
+        // ========================================
+        // UTILITIES
+        // ========================================
+        function scrubData(text) {
+            if (!text) return '';
+            return text
+                .replace(/\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b/g, '[IP]')
+                .replace(/User:\s*\w+/gi, 'User: [REDACTED]')
+                .substring(0, 100) + (text.length > 100 ? '...' : '');
         }
 
-        // ========================================
-        // THEME TOGGLE
-        // ========================================
+        function escapeHtml(text) {
+            if (!text) return '';
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function escapeForJS(text) {
+            if (!text) return '';
+            return text.replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/"/g, '\\"').replace(/\n/g, '\\n');
+        }
+
         function toggleTheme() {
             const newTheme = appState.theme === 'dark' ? 'light' : 'dark';
             appState.theme = newTheme;
             document.documentElement.setAttribute('data-theme', newTheme);
             localStorage.setItem('theme', newTheme);
+        }
+
+        function scrollToSection(id) {
+            document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
         }
     </script>
 </body>
