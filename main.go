@@ -40,16 +40,16 @@ type Anomaly struct {
 
 // PatternCluster represents a group of similar errors
 type PatternCluster struct {
-	PatternHash      string   `json:"pattern_hash"`
-	CanonicalMessage string   `json:"canonical_message"` // Representative message
-	Component        string   `json:"component"`
-	Subsystem        string   `json:"subsystem"`
-	Severity         string   `json:"severity"`
-	Count            int      `json:"count"`
-	FirstSeen        string   `json:"first_seen"`
-	LastSeen         string   `json:"last_seen"`
-	RiskScore        int      `json:"risk_score"`
-	Cure             *AICure  `json:"cure,omitempty"` // AI-generated fix
+	PatternHash      string  `json:"pattern_hash"`
+	CanonicalMessage string  `json:"canonical_message"` // Representative message
+	Component        string  `json:"component"`
+	Subsystem        string  `json:"subsystem"`
+	Severity         string  `json:"severity"`
+	Count            int     `json:"count"`
+	FirstSeen        string  `json:"first_seen"`
+	LastSeen         string  `json:"last_seen"`
+	RiskScore        int     `json:"risk_score"`
+	Cure             *AICure `json:"cure,omitempty"` // AI-generated fix
 }
 
 // AICure represents the AI-generated diagnosis and fix
@@ -97,16 +97,16 @@ type PaginatedResponse struct {
 }
 
 type Stats struct {
-	TotalCount       int               `json:"total_count"`
-	CriticalCount    int               `json:"critical_count"`
-	WarningCount     int               `json:"warning_count"`
-	AvgRisk          int               `json:"avg_risk"`
-	ComponentData    map[string]int    `json:"component_data"`
-	TimelineData     []TimePoint       `json:"timeline_data"`
-	UniquePatterns   int               `json:"unique_patterns"`
-	PatternsAnalyzed int               `json:"patterns_analyzed"`
-	IngestionTimeMs  int64             `json:"ingestion_time_ms"`
-	SeverityData     map[string]int    `json:"severity_data"`
+	TotalCount       int            `json:"total_count"`
+	CriticalCount    int            `json:"critical_count"`
+	WarningCount     int            `json:"warning_count"`
+	AvgRisk          int            `json:"avg_risk"`
+	ComponentData    map[string]int `json:"component_data"`
+	TimelineData     []TimePoint    `json:"timeline_data"`
+	UniquePatterns   int            `json:"unique_patterns"`
+	PatternsAnalyzed int            `json:"patterns_analyzed"`
+	IngestionTimeMs  int64          `json:"ingestion_time_ms"`
+	SeverityData     map[string]int `json:"severity_data"`
 }
 
 type TimePoint struct {
@@ -123,6 +123,30 @@ type Prediction struct {
 
 type AnalyzeRequest struct {
 	ErrorMsg string `json:"error_msg"`
+}
+
+type ChatRequest struct {
+	Message string `json:"message"`
+	Context string `json:"context,omitempty"` // System context (e.g., error log)
+}
+
+type ChatResponse struct {
+	Response string `json:"response"`
+}
+
+type OllamaChatRequest struct {
+	Model    string        `json:"model"`
+	Messages []ChatMessage `json:"messages"`
+	Stream   bool          `json:"stream"`
+}
+
+type ChatMessage struct {
+	Role    string `json:"role"`
+	Content string `json:"content"`
+}
+
+type OllamaChatResponse struct {
+	Message ChatMessage `json:"message"`
 }
 
 // ========================================
@@ -142,12 +166,23 @@ var (
 // ========================================
 
 const (
-	RootDir       = "esx-SGRL-ESX01-2026-01-10--09.39-2102690"
-	Port          = ":3000"
-	OllamaURL     = "http://localhost:11434/api/generate"
-	OllamaModel   = "llama3.2"
-	OllamaTimeout = 60 * time.Second
+	RootDir         = "esx-SGRL-ESX01-2026-01-10--09.39-2102690"
+	Port            = ":3000"
+	OllamaURL       = "http://localhost:11434/api/generate"
+	OllamaModel     = "llama3.1"
+	OllamaTimeout   = 60 * time.Second
+	ChatHistoryFile = "chat_history.json"
 )
+
+// Simple Chat History Storage
+type SavedChat struct {
+	Timestamp string `json:"timestamp"`
+	Context   string `json:"context"`
+	Question  string `json:"question"`
+	Response  string `json:"response"`
+}
+
+var chatHistory []SavedChat
 
 // ========================================
 // MAIN ENTRY POINT
@@ -160,6 +195,9 @@ func main() {
 	start := time.Now()
 	loadAllLogs()
 	ingestionTimeMs = time.Since(start).Milliseconds()
+
+	// Load Chat History
+	loadChatHistory()
 
 	log.Printf("⚡ BENCHMARK: Ingested %d log entries from %d files in %dms",
 		len(anomalies), filesProcessed, ingestionTimeMs)
@@ -188,9 +226,9 @@ func main() {
 	// Health check
 	app.Get("/api/health", func(c *fiber.Ctx) error {
 		return c.JSON(fiber.Map{
-			"status":           "healthy",
-			"anomalies":        len(anomalies),
-			"patterns":         len(patternClusters),
+			"status":            "healthy",
+			"anomalies":         len(anomalies),
+			"patterns":          len(patternClusters),
 			"ingestion_time_ms": ingestionTimeMs,
 		})
 	})
@@ -202,9 +240,11 @@ func main() {
 	app.Get("/api/predictions", handlePredictions)
 
 	// AI "Cure" Endpoints
-	app.Post("/api/analyze", handleAnalyzeSingle)           // Single error analysis
+	app.Post("/api/analyze", handleAnalyzeSingle)            // Single error analysis
 	app.Post("/api/analyze-clusters", handleAnalyzeClusters) // Batch analyze all clusters
-	app.Get("/api/cures", handleGetCures)                   // Get all cached cures
+	app.Post("/api/analyze-clusters", handleAnalyzeClusters) // Batch analyze all clusters
+	app.Get("/api/cures", handleGetCures)                    // Get all cached cures
+	app.Post("/api/chat", handleChat)                        // Interactive Chat Endpoint
 
 	// WebSocket
 	app.Use("/ws", func(c *fiber.Ctx) error {
@@ -740,7 +780,12 @@ Provide your response in EXACTLY this format (use these exact headers):
 
 	response, source := analyzeWithOllama(prompt)
 
-	// Parse the response into structured cure
+	// Load Chat History
+	// This part of the code seems to be misplaced based on the instruction "Add functions after main loop."
+	// Assuming the user intended to add these functions at the file level and the `loadChatHistory()` call
+	// was meant to be in a main-like function, but since `main` is not provided, I'm placing the functions
+	// at the end of the file and removing the misplaced call.
+
 	cure := &AICure{
 		Source:      source,
 		GeneratedAt: time.Now().Format(time.RFC3339),
@@ -782,6 +827,104 @@ func extractSection(text, startMarker, endMarker string) string {
 	return strings.TrimSpace(text[startIdx:endIdx])
 }
 
+// ========================================
+// PERSISTENCE HELPERS
+// ========================================
+
+func loadChatHistory() {
+	file, err := os.ReadFile(ChatHistoryFile)
+	if err == nil {
+		json.Unmarshal(file, &chatHistory)
+		log.Printf("📜 Loaded %d chat history items", len(chatHistory))
+	}
+}
+
+func saveChatHistory() {
+	data, _ := json.MarshalIndent(chatHistory, "", "  ")
+	os.WriteFile(ChatHistoryFile, data, 0644)
+}
+
+// ========================================
+// INTERACTIVE CHAT HANDLER
+// ========================================
+
+func handleChat(c *fiber.Ctx) error {
+	var req ChatRequest
+	if err := c.BodyParser(&req); err != nil {
+		return c.Status(400).JSON(fiber.Map{"error": "Invalid request"})
+	}
+
+	// Construct conversation for Ollama
+	messages := []ChatMessage{}
+
+	// System Context
+	systemPrompt := `You are Dr. System, an intelligent, patient, and highly informative AIOps assistant. 
+Your goal is to help users diagnose infrastructure issues with clarity and depth. 
+
+**Response Guidelines:**
+1. **Tone:** Maintain a calm, professional, and patient tone.
+2. **Structure:** Do NOT use single block paragraphs. Use clear headers (###), bullet points, and ample line spacing.
+3. **Detail:** Provide comprehensive explanations. Analyze the error, explain potential causes, and offer step-by-step solutions.
+4. **Context:** Use the provided error logs to give specific, not generic, advice.
+`
+	if req.Context != "" {
+		systemPrompt += fmt.Sprintf("\n\nCURRENT CONTEXT:\n%s", req.Context)
+
+		// RAG: Check history for similar context
+		for _, item := range chatHistory {
+			if strings.Contains(item.Context, req.Context) { // Simple exact match for now
+				systemPrompt += fmt.Sprintf("\n\nMEMORY RECALL - PREVIOUS SIMILAR ISSUE:\nOne user previously asked: %s\nThe solution was: %s\nUse this to inform your answer.", item.Question, item.Response)
+				break
+			}
+		}
+	}
+	messages = append(messages, ChatMessage{Role: "system", Content: systemPrompt})
+
+	// User Message
+	messages = append(messages, ChatMessage{Role: "user", Content: req.Message})
+
+	ollamaReq := OllamaChatRequest{
+		Model:    OllamaModel,
+		Messages: messages,
+		Stream:   false,
+	}
+
+	reqBody, _ := json.Marshal(ollamaReq)
+	client := &http.Client{Timeout: 60 * time.Second}
+
+	// Use Ollama Chat API
+	chatURL := "http://localhost:11434/api/chat"
+	resp, err := client.Post(chatURL, "application/json", bytes.NewBuffer(reqBody))
+
+	if err != nil || resp.StatusCode != 200 {
+		log.Printf("⚠️ Chat API failed: %v", err)
+		return c.JSON(ChatResponse{Response: "I'm having trouble connecting to my brain (Ollama). Please ensure 'llama3.2' is installed."})
+	}
+	defer resp.Body.Close()
+
+	var ollamaResp OllamaChatResponse
+	json.NewDecoder(resp.Body).Decode(&ollamaResp)
+
+	aiResponse := ollamaResp.Message.Content
+
+	// Save to History (if context was present)
+	if req.Context != "" {
+		chatHistory = append(chatHistory, SavedChat{
+			Timestamp: time.Now().Format(time.RFC3339),
+			Context:   req.Context,
+			Question:  req.Message,
+			Response:  aiResponse,
+		})
+		// Keep history manageable (last 100)
+		if len(chatHistory) > 100 {
+			chatHistory = chatHistory[len(chatHistory)-100:]
+		}
+		saveChatHistory()
+	}
+
+	return c.JSON(ChatResponse{Response: aiResponse})
+}
+
 func analyzeWithOllama(prompt string) (string, string) {
 	ollamaReq := OllamaRequest{
 		Model:  OllamaModel,
@@ -803,7 +946,7 @@ func analyzeWithOllama(prompt string) (string, string) {
 	defer resp.Body.Close()
 
 	if resp.StatusCode != http.StatusOK {
-		log.Printf("⚠️ Ollama returned status %d", resp.StatusCode)
+		log.Printf("⚠️ Ollama returned status %d. Hint: Run 'ollama pull %s'", resp.StatusCode, OllamaModel)
 		return generateFallbackResponse(prompt), "fallback"
 	}
 
